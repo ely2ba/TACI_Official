@@ -32,7 +32,7 @@ def main():
     # Run insights analysis (default)
     if not args.graph or args.both:
         print("\n📊 Running systematic insights analysis...")
-        insights_script = project_root / "taci_insights_analyzer.py"
+        insights_script = project_root / "src/analysis/taci_insights_analyzer.py"
         
         if insights_script.exists():
             try:
@@ -48,7 +48,7 @@ def main():
     # Generate graph
     if args.graph or args.both:
         print("\n📈 Generating visualization...")
-        graph_script = project_root / "graph.py"
+        graph_script = project_root / "src/utils/graph.py"
         
         if graph_script.exists():
             try:

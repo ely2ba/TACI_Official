@@ -42,29 +42,29 @@ PATHS = PathConfig(
     # NEW STRUCTURE
     evaluation={
         "phase_00": {
-            "wrapper_checker": ROOT / "evaluation/phase_00_wrapper/phase_00_wrapper_checker.py",
-            "wrapper_checker_paralegal": ROOT / "evaluation/phase_00_wrapper/phase_00_wrapper_checker_paralegal.py",
-            "output_dir": ROOT / "evaluation/phase_00_wrapper",
+            "wrapper_checker": ROOT / "src/evaluation/phase_00_wrapper/phase_00_wrapper_checker.py",
+            "wrapper_checker_paralegal": ROOT / "src/evaluation/phase_00_wrapper/phase_00_wrapper_checker_paralegal.py",
+            "output_dir": ROOT / "src/evaluation/phase_00_wrapper",
         },
         "phase_01": {
-            "schema_grader": ROOT / "evaluation/phase_01_schema/phase_01_schema_grader.py", 
-            "schema_grader_paralegal": ROOT / "evaluation/phase_01_schema/phase_01_schema_grader_paralegal.py",
-            "output_dir": ROOT / "evaluation/phase_01_schema",
+            "schema_grader": ROOT / "src/evaluation/phase_01_schema/phase_01_schema_grader.py", 
+            "schema_grader_paralegal": ROOT / "src/evaluation/phase_01_schema/phase_01_schema_grader_paralegal.py",
+            "output_dir": ROOT / "src/evaluation/phase_01_schema",
         },
         "phase_02": {
-            "safety_grader": ROOT / "evaluation/phase_02_safety/phase_02_safety_grader.py",
-            "safety_grader_paralegal": ROOT / "evaluation/phase_02_safety/phase_02_safety_grader_paralegal.py", 
-            "output_dir": ROOT / "evaluation/phase_02_safety",
+            "safety_grader": ROOT / "src/evaluation/phase_02_safety/phase_02_safety_grader.py",
+            "safety_grader_paralegal": ROOT / "src/evaluation/phase_02_safety/phase_02_safety_grader_paralegal.py", 
+            "output_dir": ROOT / "src/evaluation/phase_02_safety",
         },
         "phase_03": {
-            "rubric_grader": ROOT / "evaluation/phase_03_rubric/rubric_grader.py",
-            "rubric_grader_paralegal": ROOT / "evaluation/phase_03_rubric/rubric_grader_paralegal.py",
-            "output_dir": ROOT / "evaluation/phase_03_rubric",
+            "rubric_grader": ROOT / "src/evaluation/phase_03_rubric/rubric_grader.py",
+            "rubric_grader_paralegal": ROOT / "src/evaluation/phase_03_rubric/rubric_grader_paralegal.py",
+            "output_dir": ROOT / "src/evaluation/phase_03_rubric",
         },
         "phase_04": {
-            "composite_analyzer": ROOT / "evaluation/phase_04_composite/phase_04_grader.py",
-            "composite_analyzer_paralegal": ROOT / "evaluation/phase_04_composite/final_composite_Paralegal.py",
-            "output_dir": ROOT / "evaluation/phase_04_composite",
+            "composite_analyzer": ROOT / "src/evaluation/phase_04_composite/phase_04_grader.py",
+            "composite_analyzer_paralegal": ROOT / "src/evaluation/phase_04_composite/final_composite_Paralegal.py",
+            "output_dir": ROOT / "src/evaluation/phase_04_composite",
         }
     },
     
@@ -75,16 +75,16 @@ PATHS = PathConfig(
             "assets": ROOT / "assets",  # Legacy location for now
         },
         "results": {
-            "outputs": ROOT / "runs",  # Legacy location for now
+            "outputs": ROOT / "outputs",  # Raw model outputs by provider
             "evaluated": ROOT / "graders",  # Legacy location for now
             "final": ROOT / "results",  # Legacy location for now
         }
     },
     
     analysis={
-        "insights_analyzer": ROOT / "analysis/insights_analyzer.py",
-        "visualizations": ROOT / "analysis/visualizations.py",
-        "reports": ROOT / "analysis/reports",
+        "insights_analyzer": ROOT / "src/analysis/insights_analyzer.py",
+        "visualizations": ROOT / "src/analysis/visualizations.py",
+        "reports": ROOT / "src/analysis/reports",
     },
     
     scripts={
@@ -106,7 +106,7 @@ PATHS = PathConfig(
         "utils": ROOT / "utils",
         "data_manifests": ROOT / "data/manifests",
         "data_onet": ROOT / "data/onet_raw",
-        "runs": ROOT / "runs",
+        "runs": ROOT / "outputs",
     }
 )
 

@@ -1,7 +1,0 @@
-model,modality,phase0_seen,phase3_kept,pct_retained
-gpt-3.5-turbo,TEXT,72,72,100.0
-gpt-4,TEXT,72,72,100.0
-gpt-4-turbo,TEXT,72,71,98.6
-gpt-4.1,TEXT,72,72,100.0
-gpt-4o,TEXT,72,72,100.0
-o3-2025-04-16,TEXT,72,72,100.0
