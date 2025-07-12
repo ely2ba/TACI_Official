@@ -1,0 +1,15 @@
+{
+  "uid": "bbf22c00",
+  "variant": 1,
+  "modality": "GUI",
+  "temperature": 0.5,
+  "model": "claude-3-5-sonnet-20240620",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T18:02:24.969440Z",
+  "commit_sha": "98b2eb0f130d4d32e78707f77c440a8f68e4103c",
+  "prompt_sha256": "237d0bc31c7e4dcd77275126a9e94b9d73118abe23f6eac5e688b64b11ef3e60",
+  "response": {
+    "raw": "<OUTPUT_JSON>\n[\n  {'action':'click','selector':'table:has-text(\"order\" i) >> tr >> input[type=checkbox]','text':''},\n  {'action':'click','selector':'table:has-text(\"invoice\" i) >> tr >> input[type=checkbox]','text':''},\n  {'action':'click','selector':'button:has-text(\"match\" i)','text':''},\n  {'action':'click','selector':'button:has-text(\"record\" i)','text':''}\n]\n</OUTPUT_JSON>",
+    "extracted": "<OUTPUT_JSON>\n[\n  {'action':'click','selector':'table:has-text(\"order\" i) >> tr >> input[type=checkbox]','text':''},\n  {'action':'click','selector':'table:has-text(\"invoice\" i) >> tr >> input[type=checkbox]','text':''},\n  {'action':'click','selector':'button:has-text(\"match\" i)','text':''},\n  {'action':'click','selector':'button:has-text(\"record\" i)','text':''}\n]\n</OUTPUT_JSON>"
+  }
+}

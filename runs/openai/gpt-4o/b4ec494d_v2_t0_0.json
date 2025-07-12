@@ -1,0 +1,49 @@
+{
+  "uid": "b4ec494d",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gpt-4o",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:56:10Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "35cb9e6ff43fb27cd8326f8faff3bc2a2491453b44dbf8e85204442630abfa38",
+  "response": {
+    "id": "chatcmpl-BaVb39TqKTJtqqzFhME8C6gZbUfso",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Unresolved Customer Grievance Referral\n\n1. **Customer Information**\n   - Name: [Customer's Name]\n   - Contact: [Customer's Contact Information]\n   - Account/Order Number: [Account/Order Number]\n\n2. **Grievance Details**\n   - Date of Grievance: [Date]\n   - Description: [Brief description of the grievance]\n   - Previous Attempts to Resolve: [Summary of previous attempts]\n\n3. **Designated Department for Investigation**\n   - Department Name: [Department Name]\n   - Contact Person: [Contact Person's Name]\n   - Contact Information: [Contact Information]\n\n4. **Additional Notes**\n   - Any additional information or context that may assist in the investigation.\n\n5. **Next Steps**\n   - The designated department will review the grievance and contact the customer within [Time Frame] to provide an update or resolution.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748040965,
+    "model": "gpt-4o-2024-08-06",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_a288987b44",
+    "usage": {
+      "completion_tokens": 187,
+      "prompt_tokens": 81,
+      "total_tokens": 268,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

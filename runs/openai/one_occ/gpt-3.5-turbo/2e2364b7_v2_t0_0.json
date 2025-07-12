@@ -1,0 +1,49 @@
+{
+  "uid": "2e2364b7",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gpt-3.5-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:28:04Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "cee4e4cced006a4842340997b6ed1bbff872b7344ee46acccdf523da2a41dd4c",
+  "response": {
+    "id": "chatcmpl-Bi1Y10Dy2tWBdQRA3CQw4D16aWC7a",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n<h1>Filing Pleadings with Court Clerk</h1>\n\n1. Prepare the Pleadings:\n   - Ensure all necessary documents are completed and signed.\n   - Make copies for filing and serving parties.\n\n2. Review Local Rules:\n   - Check the court's local rules for specific requirements.\n   - Confirm the correct filing fees and payment methods.\n\n3. File with the Court Clerk:\n   - Visit the court clerk's office in person or file electronically.\n   - Submit the original pleadings and copies for stamping.\n\n4. Serve the Other Parties:\n   - Serve copies of the filed pleadings to all involved parties.\n   - Follow the proper service methods outlined in the rules.\n\n5. Obtain Stamped Copies:\n   - Retrieve stamped copies of the filed pleadings from the court clerk.\n   - Keep these copies for your records and future reference.\n\n6. Confirm Filing:\n   - Verify with the court clerk that the pleadings have been officially filed.\n   - Request a filed-stamped copy as proof of filing.\n\n7. Follow Up:\n   - Monitor the case docket for any updates or notifications.\n   - Address any issues or requests from the court promptly.\n\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749832081,
+    "model": "gpt-3.5-turbo-0125",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 247,
+      "prompt_tokens": 112,
+      "total_tokens": 359,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

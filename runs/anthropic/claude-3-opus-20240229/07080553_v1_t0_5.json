@@ -1,0 +1,34 @@
+{
+  "uid": "07080553",
+  "variant": 1,
+  "modality": "TEXT",
+  "temperature": 0.5,
+  "model": "claude-3-opus-20240229",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T19:51:14.339492Z",
+  "commit_sha": "170b9e3e1d0d59846b1daa69da57be5d1db6306c",
+  "prompt_sha256": "875ac432cf5c92ad5d518cd80b30f9063e3c9a233738878444a54be9a4e1298b",
+  "response": {
+    "id": "msg_01EDmaTugUcYkkR9fC4Eu5BL",
+    "content": [
+      {
+        "citations": null,
+        "text": "Here is the memo, wrapped in the requested output tags:\n\n<OUTPUT_TEXT>\nTo: Senior Partner\nFrom: Paralegal\nDate: April 10, 2023\nRe: Affidavit Preparation and Document Organization\n\nI have prepared the following documents as requested for the Johnson v. Smith case:\n\n1. Affidavit of Jane Johnson outlining the timeline of events and attesting to key facts. The signed and notarized affidavit is saved in the client file.\n\n2. Affidavit of witness Mark Thompson corroborating Jane Johnson's version of events. Also signed, notarized and filed.\n\n3. Legal correspondence to opposing counsel summarizing our position and next steps. The letter has been printed, signed by the lead attorney, and mailed. A scanned copy is saved to the electronic case file.\n\n4. All case-related documents have been scanned, OCR'ed and uploaded to the electronic filing system under the Johnson v. Smith folder. The physical copies have been organized chronologically in an expandable folder and will be stored in the file room.\n\nPlease let me know if any additional documents are needed or if you require anything further for this case.\n</OUTPUT_TEXT>",
+        "type": "text"
+      }
+    ],
+    "model": "claude-3-opus-20240229",
+    "role": "assistant",
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "input_tokens": 135,
+      "output_tokens": 270,
+      "server_tool_use": null,
+      "service_tier": "standard"
+    }
+  }
+}

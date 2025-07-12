@@ -1,0 +1,49 @@
+{
+  "uid": "b4ec494d",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gpt-3.5-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:01:21Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "35cb9e6ff43fb27cd8326f8faff3bc2a2491453b44dbf8e85204442630abfa38",
+  "response": {
+    "id": "chatcmpl-BaUk3ism0KOZpbm5SqomWHfQ9cpcJ",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Unresolved Customer Grievances Referral\n\n1. **Issue Description**: Provide a brief description of the customer's grievance.\n   \n2. **Efforts Made**: Outline the steps taken to address the customer's concern and why it remains unresolved.\n\n3. **Referral Details**: Provide the necessary information to refer the grievance to the designated department, including any relevant case numbers or customer details.\n\n4. **Next Steps**: Advise the customer on what to expect next and reassure them that their grievance will be thoroughly investigated by the appropriate department.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748037679,
+    "model": "gpt-3.5-turbo-0125",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 120,
+      "prompt_tokens": 81,
+      "total_tokens": 201,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "uid": "d0cae549",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-4-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:46:22Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "0e8cd22ff001ca6ad7a8b4f58709f39e29490bd143dd1123aee28c51547a181e",
+  "response": {
+    "id": "chatcmpl-Bi1pfsANcUOnoGUoUHdJVriEKoB4j",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Call to Testify at Hearing\n\n1. **Identify Relevant Witnesses**\n   - Review case documents to determine individuals who have direct knowledge or involvement in the matters at issue.\n   - Consider expert witnesses who can provide specialized knowledge that is pertinent to the case.\n\n2. **Contact Witnesses**\n   - Reach out to potential witnesses to discuss the case and their potential testimony.\n   - Ensure that they are available and willing to testify on the date of the hearing.\n\n3. **Prepare Witnesses**\n   - Schedule meetings to go over their testimony, focusing on clarity and relevance to the case.\n   - Provide guidelines on how to behave and what to expect in the courtroom.\n\n4. **Serve Subpoenas**\n   - If necessary, prepare and serve subpoenas to compel attendance of witnesses who are hesitant or unwilling to testify voluntarily.\n\n5. **Confirm Attendance**\n   - Close to the date of the hearing, confirm the attendance of all witnesses.\n   - Make arrangements for travel and accommodations if needed.\n\n6. **Review Testimonies**\n   - Go through the testimonies with the witnesses one last time to ensure accuracy and confidence.\n   - Address any last-minute concerns they might have.\n\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749833175,
+    "model": "gpt-4-turbo-2024-04-09",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_de235176ee",
+    "usage": {
+      "completion_tokens": 246,
+      "prompt_tokens": 113,
+      "total_tokens": 359,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

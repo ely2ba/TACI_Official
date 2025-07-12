@@ -1,0 +1,34 @@
+{
+  "uid": "7e365caf",
+  "variant": 0,
+  "modality": "TEXT",
+  "temperature": 0.0,
+  "model": "claude-3-5-sonnet-20240620",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T20:08:26.641110Z",
+  "commit_sha": "170b9e3e1d0d59846b1daa69da57be5d1db6306c",
+  "prompt_sha256": "707bc2f7bb401ddd7c858b68576da117b3f5152b9fab6b3d4bc009a55bfc0da6",
+  "response": {
+    "id": "msg_01KTKCQZpHqr68Ef7n16ynm6",
+    "content": [
+      {
+        "citations": null,
+        "text": "<OUTPUT_TEXT>\nTo support the development of training materials and technical manuals:\n\n1. Gather relevant information and specifications\n2. Organize content logically and sequentially\n3. Use clear, concise language and terminology\n4. Incorporate visual aids like diagrams and flowcharts\n5. Include step-by-step instructions and procedures\n6. Develop a consistent format and style guide\n7. Review and revise for accuracy and clarity\n8. Seek feedback from subject matter experts and end-users\n9. Ensure compliance with industry standards and regulations\n10. Update materials regularly to reflect changes in processes or equipment\n</OUTPUT_TEXT>",
+        "type": "text"
+      }
+    ],
+    "model": "claude-3-5-sonnet-20240620",
+    "role": "assistant",
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "input_tokens": 96,
+      "output_tokens": 144,
+      "server_tool_use": null,
+      "service_tier": "standard"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "uid": "dc35566b",
+  "variant": 1,
+  "temperature": 0.5,
+  "model": "gemini-2.0-flash",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T13:14:00.621444Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_TEXT>Okay, I'm ready to prepare for trial. To best assist, I need specific information. Please tell me:\n\n1.  **Case Name and Number:** (e.g., *Smith v. Jones*, Case No. 2023-CV-0001)\n2.  **Court:** (e.g., Superior Court of California, County of Los Angeles)\n3.  **Trial Date:** (e.g., November 6, 2024)\n4.  **Type of Case:** (e.g., Personal Injury, Contract Dispute, Family Law)\n5.  **My Role:** (e.g., Assisting with exhibits, witness preparation, legal research)\n6.  **Specific Tasks:** (e.g., \"Organize exhibit binders,\" \"Prepare witness outlines for direct examination,\" \"Draft motions in limine regarding specific evidence.\")\n7.  **List of Potential Exhibits:** (Even a preliminary list is helpful. Include descriptions and any identifying numbers or letters already assigned.)\n8.  **List of Witnesses:** (Include names and brief descriptions of their expected testimony.)\n9.  **Key Legal Issues:** (What are the main points of contention in the case?)\n10. **Relevant Pleadings and Discovery:** (e.g., Complaint, Answer, Interrogatories, Depositions. Indicate which documents are most important for trial preparation.)\n11. **Any Specific Instructions from the Attorney:** (e.g., \"Focus on discrediting the plaintiff's expert witness,\" \"Research the admissibility of the surveillance video.\")\n12. **Software/Tools Available:** (e.g., TrialDirector, CaseMap, Clio, access to online legal research databases like Westlaw or LexisNexis)\n13. **Deadlines:** (When do specific tasks need to be completed?)\n14. **Budget:** (Are there any budget constraints for trial preparation?)\n\nOnce I have this information, I can perform tasks such as:\n\n**Exhibit Organization:**\n\n*   Creating exhibit lists and binders (physical or electronic).\n*   Ensuring exhibits are properly marked and Bates stamped.\n*   Preparing exhibit summaries.\n*   Organizing exhibits chronologically or by subject matter.\n*   Preparing demonstrative exhibits (charts, graphs, timelines).\n*   Confirming that all exhibits have been disclosed and exchanged with opposing counsel.\n\n**Witness Preparation:**\n\n*   Preparing witness outlines for direct and cross-examination.\n*   Organizing deposition transcripts and creating deposition designations.\n*   Preparing witnesses for trial testimony (mock examinations).\n*   Coordinating witness travel and accommodations.\n*   Drafting witness subpoenas.\n\n**Legal Research and Writing:**\n\n*   Researching relevant case law and statutes.\n*   Drafting motions in limine to exclude inadmissible evidence.\n*   Drafting jury instructions.\n*   Preparing legal memoranda on key issues.\n\n**Trial Logistics:**\n\n*   Organizing trial notebooks.\n*   Coordinating with court staff.\n*   Preparing for courtroom technology (projectors, screens, etc.).\n*   Ensuring all necessary documents and equipment are available at trial.\n\n**Communication:**\n\n*   Maintaining communication with the legal team.\n*   Communicating with the client as directed by the attorney.\n*   Corresponding with opposing counsel (as directed).\n\nI will maintain meticulous records of all work performed and ensure that all deadlines are met. I understand the importance of confidentiality and will handle all case-related information with the utmost discretion.\n</OUTPUT_TEXT>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.19991153153217586
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 107,
+      "candidatesTokenCount": 751,
+      "totalTokenCount": 858,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 107
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 751
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:13:54.760810Z",
+    "responseId": "kro1aOq3LrOMgLUPq7OY6QY"
+  }
+}

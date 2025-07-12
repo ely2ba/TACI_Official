@@ -1,0 +1,49 @@
+{
+  "uid": "0c07452f",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-3.5-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T21:59:51Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "97bdb486738236a72ee38f1c9a723099c8dcc19d09559b914ae92fdfa55d7525",
+  "response": {
+    "id": "chatcmpl-BaUiZlVU8hu5cPdhR7M7szNQ2pTWV",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Administration Policies and Rules Governing Students\n\n1. **Attendance**\n   - Students are expected to attend all classes regularly and punctually.\n   - Absences must be reported to the school office by a parent or guardian.\n   - Excessive absences without valid reasons may result in disciplinary action.\n\n2. **Behavior**\n   - Students must adhere to the school's code of conduct at all times.\n   - Respect for teachers, staff, and fellow students is mandatory.\n   - Bullying, harassment, or any form of violence will not be tolerated.\n\n3. **Dress Code**\n   - Students are required to wear the school uniform as specified in the dress code policy.\n   - Inappropriate attire, including clothing with offensive language or symbols, is prohibited.\n   - Failure to comply with the dress code may result in consequences.\n\n4. **Homework and Assignments**\n   - Students are responsible for completing and submitting homework on time.\n   - Late submissions may result in grade deductions unless prior arrangements are made.\n   - Plagiarism or cheating on assignments will lead to academic penalties.\n\n5. **Technology Usage**\n   - Students must use school-provided technology responsibly and for educational purposes.\n   - Accessing inappropriate websites or engaging in cyberbullying is strictly prohibited.\n   - Any misuse of technology may result in the loss of privileges.\n\n6. **Extracurricular Activities**\n   - Participation in extracurricular activities is encouraged but not mandatory.\n   - Students must maintain academic eligibility to participate in sports or clubs.\n   - Behavior expectations apply during extracurricular events.\n\n7. **Parental Involvement**\n   - Parents or guardians are expected to support and reinforce school rules at home.\n   - Communication between parents and teachers is essential for student success.\n   - Parental involvement in school events and activities is highly valued.\n\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748037587,
+    "model": "gpt-3.5-turbo-0125",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 383,
+      "prompt_tokens": 82,
+      "total_tokens": 465,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "uid": "07080553",
+  "variant": 0,
+  "temperature": 0.5,
+  "seed": 1,
+  "model": "o3-2025-04-16",
+  "modality": "TEXT",
+  "timestamp": "2025-06-21T20:38:42Z",
+  "commit_sha": "ac1698886e89fb01e65b6ca5c8e06e97f58dd0fa",
+  "prompt_sha256": "b60d24599d1df23bd17991a8c681b996a2dd542b4a3676448842122e2105f6c1",
+  "response": {
+    "id": "chatcmpl-BkzGRBbrXWNw6fcCa3Zr4jBDUqkjq",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nGUIDE FOR PARALEGALS: PREPARING AFFIDAVITS & LEGAL CORRESPONDENCE, ORGANIZING PAPER/ELECTRONIC FILES\n\nI. PREPARING AFFIDAVITS\n1. Intake & Issue Spotting\n   \u2022 Gather facts from attorney or client interview sheets.  \n   \u2022 Verify elements the affiant must attest to (personal knowledge, truthfulness, relevance).\n\n2. Drafting Structure\n   a. Caption: Court, division, case number, parties.  \n   b. Title: \u201cAffidavit of [Name]\u201d.  \n   c. Introductory statement: Identify affiant, capacity, and attestation to truth \u201cunder penalty of perjury.\u201d  \n   d. Numbered paragraphs: One fact per paragraph, chronological order, plain-language, no legal argument.  \n   e. Signature block: Affiant\u2019s signature line, date.  \n   f. Jurat/Notary block: State/Commonwealth, county, date, notary\u2019s signature, seal, commission expiration.\n\n3. Verification & Exhibits\n   \u2022 Cross-check statements against documents/records.  \n   \u2022 Label exhibits \u201cExhibit A,\u201d \u201cExhibit B,\u201d etc.; reference them in text.\n\n4. Formatting\n   \u2022 1\" margins, 12-pt Times New Roman (court-specific rules may vary).  \n   \u2022 Double-space body, single-space caption and signature blocks.  \n   \u2022 Apply line numbering if local rule requires.\n\n5. Review & Approval\n   \u2022 Circulate draft to attorney; incorporate revisions.  \n   \u2022 Arrange for affiant review and signature in presence of notary.\n\n6. Filing & Service\n   \u2022 E-file via court portal or deliver hard copy per local rules.  \n   \u2022 Prepare certificate of service; serve opposing counsel via agreed method.\n\nII. DRAFTING LEGAL CORRESPONDENCE\n1. Letterhead & Contact Block\n   \u2022 Use firm letterhead; include attorney contact info, bar number if required.\n\n2. Date & Recipient Block\n   \u2022 Full name, title, organization, address; use \u201cVia Email\u201d or \u201cVia Certified Mail\u201d line as applicable.\n\n3. Salutation & Introduction\n   \u2022 \u201cDear Mr./Ms. [Last Name]:\u201d or \u201cTo Whom It May Concern:\u201d if unknown.  \n   \u2022 State purpose upfront (e.g., demand, status update, enclosure notice).\n\n4. Body\n   \u2022 Organize by subject headings if lengthy.  \n   \u2022 Use clear, concise language; avoid argumentative tone unless directed.\n\n5. Closing & Signature\n   \u2022 Professional closing (\u201cSincerely,\u201d).  \n   \u2022 Attorney\u2019s signature block; add \u201cDrafted by Paralegal, Approved by Attorney\u201d notation internally if firm policy.\n\n6. Enclosures & CC\n   \u2022 List attachments (\u201cEnclosures: Medical Records, 126 pgs.\u201d).  \n   \u2022 Include cc list for service.\n\n7. Proofreading & Compliance\n   \u2022 Spell-check, cite correct statutes/rule numbers.  \n   \u2022 Confirm confidentiality footers (e.g., HIPAA, privilege notices).\n\nIII. ORGANIZING & MAINTAINING DOCUMENTS\n\nA. Paper Filing System\n   1. File Structure\n      \u2022 Red ropes or accordion files labeled by client matter number.  \n      \u2022 Sub-folders: Pleadings, Discovery, Correspondence, Evidence, Billing.\n\n   2. Index Sheet\n      \u2022 Maintain running \u201cFile Index\u201d listing document title, date, location.\n\n   3. Chronology\n      \u2022 Place newest documents at front or follow court chronological order per attorney preference.\n\n   4. Security\n      \u2022 Locked cabinets for confidential or sensitive files; sign-out logs.\n\nB. Electronic Filing System\n   1. Directory Hierarchy\n      \u2022 Shared drive or DMS (e.g., NetDocuments, iManage):  \n        \\Clients\\[Client Name]\\[Matter #-Name]\\01 Pleadings, 02 Discovery, 03 Correspondence, etc.\n\n   2. Naming Conventions\n      \u2022 Date (YYYYMMDD) + Document Type + Short Description + Author Initials  \n        Example: 20240624_Affidavit_JSmith_Draft1_LCH.docx\n\n   3. Version Control\n      \u2022 Suffix drafts: _Draft1, _Draft2; use DMS check-in/out; archive final PDFs in \u201cExecuted\u201d sub-folder.\n\n   4. Metadata & Tags\n      \u2022 Add client/matter codes, privilege tags, retention category for quick retrieval.\n\n   5. Backup & Redundancy\n      \u2022 Nightly server backups; cloud sync; periodic integrity tests.\n\nC. Retention & Destruction\n   \u2022 Follow jurisdictional/firm policy (e.g., 7-year retention after matter closes).  \n   \u2022 Document destruction logs; obtain attorney approval before shredding/secure deletion.\n\nD. Workflow & Quality Control\n   \u2022 Use intake checklists for new matters.  \n   \u2022 Calendar key dates (filings, discovery deadlines) in firm docketing system.  \n   \u2022 Conduct quarterly audits of both paper and electronic files; reconcile discrepancies.\n\nIV. ETHICAL & CONFIDENTIALITY CONSIDERATIONS\n   \u2022 Uphold attorney-client privilege; limit access to authorized personnel.  \n   \u2022 Redact sensitive data before external sharing.  \n   \u2022 Avoid unauthorized practice of law: all substantive drafts must be reviewed and approved by supervising attorney.\n\nV. QUICK REFERENCE CHECKLISTS\nA. Affidavit Prep\n   \u2610 Facts verified  \n   \u2610 Exhibits labeled  \n   \u2610 Local rule formatting confirmed  \n   \u2610 Notary scheduled  \n   \u2610 Attorney approval obtained  \n   \u2610 Filed/served, proof saved\n\nB. Correspondence\n   \u2610 Correct recipient details  \n   \u2610 Purpose clearly stated  \n   \u2610 Tone professional  \n   \u2610 Enclosures listed  \n   \u2610 Proofread/signature  \n   \u2610 Logged in correspondence index\n\nC. Filing & Organization\n   \u2610 Named per convention  \n   \u2610 Placed in correct folder  \n   \u2610 Calendar/docket entry made  \n   \u2610 Backup verified\n\nFollowing these protocols ensures affidavits and correspondence meet court standards, documents remain organized and accessible, and ethical obligations are satisfied.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1750538287,
+    "model": "o3-2025-04-16",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1508,
+      "prompt_tokens": 107,
+      "total_tokens": 1615,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 192,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

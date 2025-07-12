@@ -1,0 +1,49 @@
+{
+  "uid": "9cebf902",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gpt-4o",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:56:40Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "a7052bae3d38c2b21fc03d15de691f4b6a0b5771facef782e2bab809995f51c9",
+  "response": {
+    "id": "chatcmpl-BaVbYwzHNstNOGZpoDP4FMF7Pxqrv",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Legal Research Analysis\n\n## 1. Statutes\n- **Statute 1**: [Title and Summary of Statute 1]\n- **Statute 2**: [Title and Summary of Statute 2]\n- **Statute 3**: [Title and Summary of Statute 3]\n\n## 2. Decisions\n- **Decision 1**: [Case Name, Citation, and Summary of Decision 1]\n- **Decision 2**: [Case Name, Citation, and Summary of Decision 2]\n- **Decision 3**: [Case Name, Citation, and Summary of Decision 3]\n\n## 3. Legal Articles\n- **Article 1**: [Title, Author, and Summary of Article 1]\n- **Article 2**: [Title, Author, and Summary of Article 2]\n- **Article 3**: [Title, Author, and Summary of Article 3]\n\n## 4. Codes\n- **Code 1**: [Title and Summary of Code 1]\n- **Code 2**: [Title and Summary of Code 2]\n- **Code 3**: [Title and Summary of Code 3]\n\n## 5. Documents\n- **Document 1**: [Title and Summary of Document 1]\n- **Document 2**: [Title and Summary of Document 2]\n- **Document 3**: [Title and Summary of Document 3]\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748040996,
+    "model": "gpt-4o-2024-08-06",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_9bddfca6e2",
+    "usage": {
+      "completion_tokens": 312,
+      "prompt_tokens": 94,
+      "total_tokens": 406,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

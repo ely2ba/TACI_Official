@@ -1,0 +1,50 @@
+{
+  "uid": "7dda7be5",
+  "variant": 2,
+  "temperature": 0.0,
+  "seed": 0,
+  "model": "o3-2025-04-16",
+  "modality": "TEXT",
+  "timestamp": "2025-06-21T20:29:35Z",
+  "commit_sha": "ac1698886e89fb01e65b6ca5c8e06e97f58dd0fa",
+  "prompt_sha256": "4c035523dbfa2f05b815093ba9091189dc436fae6d0bd061eed6aa84ba109961",
+  "response": {
+    "id": "chatcmpl-Bkz7qB3tJXADYohQqFk5laUWB0n98",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Appraising and Inventorying Real & Personal Property for Estate Planning  \n\n1. Establish the Scope and Objectives  \n   1.1 Confirm the decedent\u2019s/donor\u2019s estate-planning goals (tax minimization, equalization among heirs, charitable gifts, etc.).  \n   1.2 Identify governing documents: will, revocable/irrevocable trusts, prenuptial or community-property agreements, buy-sell agreements.  \n   1.3 Determine valuation date(s): date of death, alternate valuation date, or current fair-market value for planning purposes.  \n\n2. Gather Core Documentation  \n   2.1 Real property: recorded deeds, plats, survey maps, mortgage statements, property-tax bills, hazard-insurance declarations.  \n   2.2 Personal property: bills of sale, purchase receipts, serial numbers, photographs, appraisals, insurance riders.  \n   2.3 Financial accounts: bank, brokerage, retirement, life-insurance, annuities.  \n   2.4 Business interests: operating agreements, shareholder ledgers, partnership certificates, buy-sell valuations.  \n   2.5 Liens and debts: UCC filings, promissory notes, credit lines.  \n\n3. Classify Assets  \n   3.1 Real Property (immovables)  \n       \u2022 Primary residence  \n       \u2022 Vacation homes & land parcels  \n       \u2022 Income-producing property (rentals, commercial)  \n   3.2 Tangible Personal Property (movables)  \n       \u2022 Motor vehicles, boats, airplanes  \n       \u2022 Household furniture, electronics, firearms  \n       \u2022 Art, antiques, jewelry, collectibles  \n   3.3 Intangible Personal Property  \n       \u2022 Cash & cash equivalents  \n       \u2022 Marketable securities  \n       \u2022 Closely-held business equity  \n       \u2022 Intellectual property & royalties  \n       \u2022 Digital assets (cryptocurrency, domain names, social-media accounts)  \n\n4. Select Appropriate Valuation Standards  \n   4.1 Fair Market Value (FMV): price at which a willing buyer and seller transact, both having reasonable knowledge and no compulsion.  \n   4.2 Alternative valuation date (IRC \u00a72032) if beneficial for estate-tax reduction (for estates subject to U.S. federal tax).  \n   4.3 Special-use valuation (IRC \u00a72032A) for qualified farms or business real estate.  \n   4.4 Discounts: minority interest, lack-of-marketability, built-in capital-gain tax.  \n\n5. Engage Qualified Appraisers and Specialists  \n   5.1 Real-estate appraisers licensed in the property\u2019s jurisdiction (USPAP-compliant).  \n   5.2 Personal-property appraisers accredited by ASA, ISA, AAA or specialized trade associations.  \n   5.3 Business valuation analysts (ABV, CVA, ASA-BV).  \n   5.4 Machinery & equipment evaluators (AME, ASA-MTS).  \n   5.5 Gemologists, art historians, classic-car experts as needed.  \n   5.6 Collect signed appraisal reports including credentials, methodology, comparables, limiting conditions, and valuation date.  \n\n6. Prepare the Inventory Schedule  \n   6.1 Use a spreadsheet or fiduciary-accounting software.  \n   6.2 Columns: Asset ID, Description, Owner(s), Location, Acquisition Date, Basis/Cost, Valuation Date, FMV, Debt/Lien, Net Equity.  \n   6.3 For real estate include zoning, acreage, improvements, assessor parcel number.  \n   6.4 Assign unique inventory/control numbers; embed photographs for high-value items.  \n\n7. Verify Title, Ownership and Beneficiary Designations  \n   7.1 Review deeds for tenancy type (sole, joint tenancy, tenancy-by-entirety, community property).  \n   7.2 Confirm beneficiary designations on retirement accounts, POD/TOD accounts, and insurance.  \n   7.3 Identify assets titled in trusts or business entities; note trustee/manager names.  \n   7.4 Flag discrepancies (e.g., missing deeds, unsigned stock certificates) for corrective action.  \n\n8. Calculate Net Estate Value & Liquidity Needs  \n   8.1 Sum total FMV of assets minus secured and unsecured debts to obtain net estate.  \n   8.2 Estimate estate-tax liability, administrative expenses, specific bequests.  \n   8.3 Project cash needed to pay taxes/debts; note illiquid assets that may require sale or borrowing.  \n\n9. Integrate Inventory into Estate-Planning Documents  \n   9.1 Update personal-property memorandum referenced in will.  \n   9.2 Fund revocable/irrevocable trusts with retitled assets or assignment documents.  \n   9.3 Coordinate with insurance professionals to adjust coverage limits.  \n   9.4 Provide attorney with final inventory for drafting marital/credit-shelter trust allocation clauses.  \n\n10. Preserve Records and Schedule Reviews  \n    10.1 Store digital copies in encrypted cloud vault; maintain hard copies in a fireproof safe.  \n    10.2 Deliver executor/trustee copies along with passwords and encryption keys.  \n    10.3 Calendar biennial or life-event reviews (marriage, divorce, acquisition/disposition of major assets).  \n    10.4 Update valuations for appreciating assets (art, collectibles) at least every 3-5 years or when market fluctuations exceed 20 %.  \n\nAppendix A \u2013 Sample Inventory Entry (excerpt)  \n Asset ID: RP-001  \n Description: 123 Meadow Lane, Springfield, 3-bed/2-bath single family residence, 2,150 sq ft on 0.25 acre  \n Title: John Q. Doe & Jane A. Doe, Joint Tenants  \n Acquisition Date: 06/15/2004  \n Basis: $240,000  \n Valuation Date: 01/31/2024  \n FMV: $575,000 (Jones & Smith Appraisal Co., USPAP report #24-188)  \n Mortgage Balance: $115,000 (First National Bank)  \n Net Equity: $460,000  \n\nAppendix B \u2013 Key Statutes & References (U.S.)  \n \u2022 26 U.S.C. \u00a72031 \u2013 Definition of Gross Estate & Valuation.  \n \u2022 26 U.S.C. \u00a72032 & \u00a72032A \u2013 Alternate & Special-Use Valuations.  \n \u2022 Uniform Probate Code \u00a73-706 \u2013 Duty to file inventory and appraisal.  \n \u2022 USPAP \u2013 Uniform Standards of Professional Appraisal Practice.  \n\nFollowing the above framework ensures a defensible, comprehensive inventory that satisfies fiduciary duties, facilitates smooth estate administration, and optimizes tax outcomes.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1750537754,
+    "model": "o3-2025-04-16",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1630,
+      "prompt_tokens": 116,
+      "total_tokens": 1746,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 192,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

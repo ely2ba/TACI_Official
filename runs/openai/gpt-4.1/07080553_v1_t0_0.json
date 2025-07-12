@@ -1,0 +1,49 @@
+{
+  "uid": "07080553",
+  "variant": 1,
+  "temperature": 0.0,
+  "model": "gpt-4.1",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T23:04:55Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "ca65019701b219e673d37a5ddbfdb70839253fca5816fda8501517c5c5846e16",
+  "response": {
+    "id": "chatcmpl-BaVjS0Xd05aJN0vug0GNECPVGku0R",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nMEMORANDUM\n\nTo: [Attorney\u2019s Name]  \nFrom: [Your Name], Senior Paralegal  \nDate: [Today\u2019s Date]  \nRe: Preparation of Affidavits, Legal Correspondence, and Document Organization\n\nI. Affidavit Preparation  \nAttached is a draft affidavit for [Client\u2019s Name] regarding [brief description of subject matter, e.g., \u201cthe events of June 1, 2024, at 123 Main Street\u201d]. The affidavit includes all relevant facts as provided by the client and is formatted in compliance with [jurisdiction] requirements. Please review and advise if any additional information or revisions are necessary before scheduling client execution and notarization.\n\nII. Legal Correspondence  \nA draft letter addressed to [Recipient\u2019s Name/Entity, e.g., \u201cOpposing Counsel\u201d or \u201cInsurance Adjuster\u201d] is also attached. The correspondence outlines [purpose, e.g., \u201cour client\u2019s position regarding the settlement offer\u201d or \u201crequest for additional documentation\u201d]. Please review for content and tone, and advise if you wish to add or amend any sections prior to dispatch.\n\nIII. Document Organization and Filing  \nAll documents related to this matter have been scanned and uploaded to the electronic case file under [Case Name/Number]. Hard copies are organized in the physical file under the following tabs:  \n1. Pleadings  \n2. Correspondence  \n3. Discovery  \n4. Affidavits  \n5. Evidence\n\nA current index of the file contents is attached for your reference. All new documents are cross-referenced in both the paper and electronic systems to ensure consistency and ease of access.\n\nPlease let me know if you require any further documentation, additional affidavits, or have specific instructions regarding the organization or filing of case materials.\n\nAttachments:  \n1. Draft Affidavit of [Client\u2019s Name]  \n2. Draft Legal Correspondence  \n3. Updated File Index\n\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748041486,
+    "model": "gpt-4.1-2025-04-14",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_ccc6ec921d",
+    "usage": {
+      "completion_tokens": 397,
+      "prompt_tokens": 95,
+      "total_tokens": 492,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

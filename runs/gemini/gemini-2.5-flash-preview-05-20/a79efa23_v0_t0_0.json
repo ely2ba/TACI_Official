@@ -1,0 +1,70 @@
+{
+  "uid": "a79efa23",
+  "variant": 0,
+  "temperature": 0.0,
+  "model": "gemini-2.5-flash-preview-05-20",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T15:48:20.931914Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_TEXT>\nHello! Thank you for reaching out. I'm ready to assist you with any questions about our products or services, help you place or manage an order, process an account cancellation, or address any concerns you may have. How may I help you today?\n</OUTPUT_TEXT>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "citationMetadata": {
+          "citations": [
+            {
+              "startIndex": 174,
+              "endIndex": 338,
+              "uri": "https://www.hravatar.com/ta/blogs/27/how-to-hire-a-great-account-manager.html"
+            },
+            {
+              "startIndex": 2821,
+              "endIndex": 2985,
+              "uri": "https://www.hravatar.com/ta/blogs/27/how-to-hire-a-great-account-manager.html"
+            },
+            {
+              "startIndex": 5762,
+              "endIndex": 5926,
+              "uri": "https://www.hravatar.com/ta/blogs/27/how-to-hire-a-great-account-manager.html"
+            },
+            {
+              "startIndex": 6781,
+              "endIndex": 6945,
+              "uri": "https://www.hravatar.com/ta/blogs/27/how-to-hire-a-great-account-manager.html"
+            }
+          ]
+        },
+        "avgLogprobs": -8.171351432800293
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 105,
+      "candidatesTokenCount": 64,
+      "totalTokenCount": 2345,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 105
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 64
+        }
+      ],
+      "thoughtsTokenCount": 2176
+    },
+    "modelVersion": "gemini-2.5-flash-preview-05-20",
+    "createTime": "2025-05-27T15:48:06.803583Z",
+    "responseId": "tt41aP-FMdahnvgPjb-S-Ag"
+  }
+}

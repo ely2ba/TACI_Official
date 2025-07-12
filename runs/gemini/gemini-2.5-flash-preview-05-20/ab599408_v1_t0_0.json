@@ -1,0 +1,46 @@
+{
+  "uid": "ab599408",
+  "variant": 1,
+  "temperature": 0.0,
+  "model": "gemini-2.5-flash-preview-05-20",
+  "modality": "GUI",
+  "timestamp": "2025-05-27T15:29:25.818854Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_JSON>[{'action':'type','selector':'input[placeholder*=search i]','text':'bandages'},{'action':'click','selector':'button:has-text(\"add item\" i)','text':''},{'action':'type','selector':'input[name*=quantity i]','text':'50'},{'action':'click','selector':'button:has-text(\"order\" i), button:has-text(\"submit\" i)','text':''}]</OUTPUT_JSON>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -1.8652375123211156
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 181,
+      "candidatesTokenCount": 107,
+      "totalTokenCount": 1544,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 181
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 107
+        }
+      ],
+      "thoughtsTokenCount": 1256
+    },
+    "modelVersion": "gemini-2.5-flash-preview-05-20",
+    "createTime": "2025-05-27T15:29:17.793580Z",
+    "responseId": "Tdo1aOy3MKi3nvgP4IvSuAs"
+  }
+}

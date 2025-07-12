@@ -1,0 +1,49 @@
+{
+  "uid": "2e2364b7",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:34:27Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "cee4e4cced006a4842340997b6ed1bbff872b7344ee46acccdf523da2a41dd4c",
+  "response": {
+    "id": "chatcmpl-Bi1dycSnHGnVLTfaJgNUivqDHvTzv",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Filing Pleadings with Court Clerk\n\n1. **Prepare the Pleadings**\n   - The first step in filing pleadings is to prepare them. This involves drafting the necessary documents that state the parties' positions. \n\n2. **Review and Finalize**\n   - After drafting, review the documents for any errors or omissions. Make sure all the necessary details are included and that the information is accurate.\n\n3. **Signatures**\n   - All pleadings must be signed by the attorney or the party if they are self-represented. Ensure that all documents have the necessary signatures before proceeding.\n\n4. **Make Copies**\n   - Make at least two copies of all pleadings. One for your records, one for the opposing party, and the original for the court.\n\n5. **Filing with the Court**\n   - Take the original pleadings to the court clerk's office for filing. The clerk will stamp the documents with the date and time, indicating that they have been officially filed.\n\n6. **Pay Filing Fees**\n   - Depending on the court and the type of case, there may be a filing fee. This must be paid at the time of filing.\n\n7. **Serve the Other Party**\n   - After the pleadings have been filed, they must be served on the other party. This can be done by a process server, sheriff, or anyone over 18 who is not a party to the case.\n\n8. **File Proof of Service**\n   - Once the other party has been served, file a proof of service with the court. This document proves that the other party was given a copy of the pleadings.\n\n9. **Keep Records**\n   - Keep a record of all filed documents and receipts for your files. This will be helpful if there are any questions or disputes about the pleadings in the future.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749832450,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 385,
+      "prompt_tokens": 112,
+      "total_tokens": 497,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

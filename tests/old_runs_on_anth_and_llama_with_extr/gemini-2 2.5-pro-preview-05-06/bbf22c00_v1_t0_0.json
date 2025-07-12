@@ -1,0 +1,46 @@
+{
+  "uid": "bbf22c00",
+  "variant": 1,
+  "temperature": 0.0,
+  "model": "gemini-2.5-pro-preview-05-06",
+  "modality": "GUI",
+  "timestamp": "2025-05-27T13:34:29.112391Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_JSON>[\n  {\"action\": \"click\", \"selector\": \"table:has-text(\\\"order\\\" i) >> tr >> input[type=checkbox]\", \"text\": \"\"},\n  {\"action\": \"click\", \"selector\": \"table:has-text(\\\"invoice\\\" i) >> tr >> input[type=checkbox]\", \"text\": \"\"},\n  {\"action\": \"click\", \"selector\": \"button:has-text(\\\"match\\\" i)\", \"text\": \"\"},\n  {\"action\": \"click\", \"selector\": \"button:has-text(\\\"record\\\" i)\", \"text\": \"\"}\n]</OUTPUT_JSON>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.10275710330289953
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 202,
+      "candidatesTokenCount": 136,
+      "totalTokenCount": 659,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 202
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 136
+        }
+      ],
+      "thoughtsTokenCount": 321
+    },
+    "modelVersion": "gemini-2.5-pro-preview-05-06",
+    "createTime": "2025-05-27T13:34:25.024065Z",
+    "responseId": "Yb81aIG8AfGX2PgP38qSuQs"
+  }
+}

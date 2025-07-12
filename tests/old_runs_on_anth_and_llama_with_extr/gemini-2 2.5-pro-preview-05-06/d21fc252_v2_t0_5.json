@@ -1,0 +1,50 @@
+{
+  "uid": "d21fc252",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gemini-2.5-pro-preview-05-06",
+  "modality": "VISION",
+  "timestamp": "2025-05-27T13:26:57.017582Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_JSON>{\"finding\":\"normal\",\"image_id\":null,\"bbox\":null,\"explanation\":\"\"}</OUTPUT_JSON>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -17.004451045283563
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 679,
+      "candidatesTokenCount": 27,
+      "totalTokenCount": 2938,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 163
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 516
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 27
+        }
+      ],
+      "thoughtsTokenCount": 2232
+    },
+    "modelVersion": "gemini-2.5-pro-preview-05-06",
+    "createTime": "2025-05-27T13:26:33.068923Z",
+    "responseId": "ib01aLuaBMamnvgPuOOl0As"
+  }
+}

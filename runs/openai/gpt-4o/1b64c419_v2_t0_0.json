@@ -1,0 +1,49 @@
+{
+  "uid": "1b64c419",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gpt-4o",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:47:08Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "1f625a6fdd50fe7ecc05734bf1275a4209bfbcb42eba08862b793cb2d021742e",
+  "response": {
+    "id": "chatcmpl-BaVSAAMjIAUFIt03sKGmkD9TnG6oZ",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Call Handling Procedure\n\n1. **Answering the Call**\n   - Greet the caller politely and identify the department or office.\n   - Ask how you may assist them today.\n\n2. **Identifying the Purpose**\n   - Listen carefully to the caller's request or inquiry.\n   - Ask clarifying questions if necessary to understand the purpose of the call.\n\n3. **Directing the Call**\n   - Determine the appropriate staff member or department to handle the call.\n   - Inform the caller that you will transfer them to the appropriate person or department.\n\n4. **Transferring the Call**\n   - Use the phone system to transfer the call to the correct extension.\n   - Ensure the call is successfully transferred and that the caller is not disconnected.\n\n5. **Follow-Up**\n   - If the call cannot be transferred, take a message including the caller's name, contact information, and the reason for the call.\n   - Ensure the message is delivered promptly to the appropriate staff member.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748040414,
+    "model": "gpt-4o-2024-08-06",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_a288987b44",
+    "usage": {
+      "completion_tokens": 208,
+      "prompt_tokens": 82,
+      "total_tokens": 290,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

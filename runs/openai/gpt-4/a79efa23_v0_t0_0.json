@@ -1,0 +1,49 @@
+{
+  "uid": "a79efa23",
+  "variant": 0,
+  "temperature": 0.0,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T23:35:37Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "2194fc6d65fd8ba9f24f6208c4e40b072764ccf82917b9d1b68d88353bffb853",
+  "response": {
+    "id": "chatcmpl-BaWDHpETisaChWOTbWZCYGHGSLGTZ",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>As a Customer Service Representative, my role involves communicating with customers via phone or in person. I provide information about our products or services, process orders, handle account cancellations, and address any complaints or concerns they may have.</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748043335,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 52,
+      "prompt_tokens": 111,
+      "total_tokens": 163,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

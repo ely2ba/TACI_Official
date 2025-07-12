@@ -1,0 +1,15 @@
+{
+  "uid": "9cebf902",
+  "variant": 0,
+  "modality": "TEXT",
+  "temperature": 0.0,
+  "model": "claude-3-5-sonnet-20240620",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T18:07:12.832315Z",
+  "commit_sha": "98b2eb0f130d4d32e78707f77c440a8f68e4103c",
+  "prompt_sha256": "ad3b2009798c497d8e0645d027e20b7e84b6fd3417524fc220faca49b0cdd031",
+  "response": {
+    "raw": "<OUTPUT_TEXT>\nTo gather and analyze research data as a Paralegal or Legal Assistant:\n\n1. Identify relevant sources: statutes, case law, legal journals, codes, and documents\n2. Use legal databases like Westlaw, LexisNexis, or HeinOnline\n3. Conduct thorough searches using keywords, citations, and Boolean operators\n4. Read and comprehend complex legal materials\n5. Take detailed notes and organize findings\n6. Analyze data for relevance to the case or legal issue at hand\n7. Summarize key points and legal principles\n8. Identify potential precedents or conflicting interpretations\n9. Cross-reference information from multiple sources\n10. Prepare concise reports or briefs on research findings\n11. Update research as new information becomes available\n12. Maintain accurate records of all research conducted\n</OUTPUT_TEXT>",
+    "extracted": "<OUTPUT_TEXT>\nTo gather and analyze research data as a Paralegal or Legal Assistant:\n\n1. Identify relevant sources: statutes, case law, legal journals, codes, and documents\n2. Use legal databases like Westlaw, LexisNexis, or HeinOnline\n3. Conduct thorough searches using keywords, citations, and Boolean operators\n4. Read and comprehend complex legal materials\n5. Take detailed notes and organize findings\n6. Analyze data for relevance to the case or legal issue at hand\n7. Summarize key points and legal principles\n8. Identify potential precedents or conflicting interpretations\n9. Cross-reference information from multiple sources\n10. Prepare concise reports or briefs on research findings\n11. Update research as new information becomes available\n12. Maintain accurate records of all research conducted\n</OUTPUT_TEXT>"
+  }
+}

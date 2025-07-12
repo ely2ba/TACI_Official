@@ -1,0 +1,49 @@
+{
+  "uid": "9cebf902",
+  "variant": 0,
+  "temperature": 0.5,
+  "model": "gpt-4.1",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T23:40:09Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "ad3b2009798c497d8e0645d027e20b7e84b6fd3417524fc220faca49b0cdd031",
+  "response": {
+    "id": "chatcmpl-BaWHaxOvVr5hVXKyU2QKxKtgqvavi",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nTo gather and analyze research data such as statutes, decisions, legal articles, codes, and documents, follow these steps:\n\n1. **Identify the Legal Issue or Topic**: Clearly define the legal question or area of law you are researching.\n\n2. **Locate Statutes and Codes**:\n   - Use official government databases (e.g., Congress.gov, state legislature websites) or reputable legal research platforms (e.g., Westlaw, LexisNexis).\n   - Search for relevant federal or state statutes and codes by keyword, citation, or subject.\n\n3. **Find Case Law and Decisions**:\n   - Utilize court databases (e.g., PACER for federal cases) or legal research tools to find judicial decisions interpreting the statutes or addressing the legal issue.\n   - Pay attention to higher court decisions and precedential value.\n\n4. **Gather Legal Articles and Secondary Sources**:\n   - Search law reviews, legal journals, and treatises for scholarly analysis and commentary.\n   - Use databases like HeinOnline, JSTOR, or the Legal Information Institute.\n\n5. **Collect Relevant Documents**:\n   - Obtain pleadings, motions, contracts, or other legal documents pertinent to your research.\n   - Check court records, public filings, or document repositories.\n\n6. **Analyze the Data**:\n   - Read and summarize key points from statutes, cases, and articles.\n   - Note how statutes have been interpreted by courts.\n   - Identify any conflicting authority or open legal questions.\n   - Synthesize findings into a memorandum, report, or research summary.\n\n7. **Update and Verify**:\n   - Ensure that statutes and cases are current and have not been overruled or amended.\n   - Use citators (e.g., Shepard\u2019s, KeyCite) to check the validity of case law.\n\nBy systematically gathering and analyzing these sources, you can provide comprehensive and accurate legal research to support attorneys or inform legal strategy.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748043602,
+    "model": "gpt-4.1-2025-04-14",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_51e1070cf2",
+    "usage": {
+      "completion_tokens": 396,
+      "prompt_tokens": 104,
+      "total_tokens": 500,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

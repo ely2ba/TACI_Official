@@ -1,0 +1,49 @@
+{
+  "uid": "a79efa23",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:07:42Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "32ef1a18109ce6f7d3009a995ee3910867c0a46194b44472ba6d53fb53a6e42c",
+  "response": {
+    "id": "chatcmpl-BaUq7cIlXGd8N7WxNH7bPxk91lB7x",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Customer Service Representative Duties\n\n1. **Providing Information About Products or Services:** Engage with customers through telephone or in-person meetings to provide details about our products or services. This includes explaining the features, benefits, and pricing of our offerings.\n\n2. **Order Processing:** Accept and process orders from customers. This involves entering the order details into our system, confirming the order with the customer, and ensuring the order is forwarded to the appropriate department for fulfillment.\n\n3. **Account Cancellation:** Handle requests for account cancellations. This includes understanding the customer's reasons for cancellation, processing the cancellation request, and providing any necessary follow-up information.\n\n4. **Handling Complaints:** Obtain details of any complaints from customers. This involves listening to the customer's concerns, documenting the issues, and coordinating with the relevant departments to resolve the issues in a timely and satisfactory manner.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748038055,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 184,
+      "prompt_tokens": 101,
+      "total_tokens": 285,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

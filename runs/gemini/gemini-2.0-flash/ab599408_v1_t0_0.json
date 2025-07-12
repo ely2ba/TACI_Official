@@ -1,0 +1,45 @@
+{
+  "uid": "ab599408",
+  "variant": 1,
+  "temperature": 0.0,
+  "model": "gemini-2.0-flash",
+  "modality": "GUI",
+  "timestamp": "2025-05-27T13:10:51.466002Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "Okay, I understand. I need to perform clerical or administrative functions, specifically ordering and maintaining an inventory of supplies. The required selectors are provided. I will start by clicking on the search input to initiate the process.\n\n<OUTPUT_JSON>[{\"action\": \"click\", \"selector\": \"input[placeholder*=search i]\", \"text\": \"\"}]</OUTPUT_JSON>\n"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.1986268154986493
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 181,
+      "candidatesTokenCount": 77,
+      "totalTokenCount": 258,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 181
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 77
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:10:50.611199Z",
+    "responseId": "2rk1aP-mJd7bgLUP8cv60A0"
+  }
+}

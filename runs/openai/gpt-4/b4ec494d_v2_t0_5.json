@@ -1,0 +1,49 @@
+{
+  "uid": "b4ec494d",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:19:13Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "35cb9e6ff43fb27cd8326f8faff3bc2a2491453b44dbf8e85204442630abfa38",
+  "response": {
+    "id": "chatcmpl-BaV1DaVatnAUPrQfc4IsY1rZc9vvA",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Customer Grievance Referral Procedure\n\n1. **Identifying Unresolved Grievances:** \n   Identify the customer grievances that could not be resolved during the initial interaction. This could be due to the complexity of the issue, lack of information, or need for further investigation.\n\n2. **Documentation:** \n   Document the details of the unresolved grievances. Include all relevant information such as the customer's contact information, a brief description of the issue, and any actions taken so far to attempt to resolve the issue.\n\n3. **Assigning to Designated Department:** \n   Refer the unresolved grievance to the appropriate department for further investigation. The department could be technical support, billing, or any other department that is best equipped to handle the specific type of grievance.\n\n4. **Follow-up Procedure:** \n   Establish a follow-up procedure to ensure the designated department is taking action on the referred grievance. This could involve setting a reminder to check on the status of the grievance after a certain period of time.\n\n5. **Communication with Customer:** \n   Inform the customer about the referral of their grievance to the designated department. Assure them that their issue is being taken seriously and that they will be contacted once a resolution has been found.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748038743,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 260,
+      "prompt_tokens": 81,
+      "total_tokens": 341,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

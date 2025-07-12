@@ -1,0 +1,49 @@
+{
+  "uid": "d21fc252",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gemini-2.0-flash",
+  "modality": "VISION",
+  "timestamp": "2025-05-27T13:09:29.080000Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "The task is to detect anomalies in shipment contents by comparing them with records. In this case, the images show a capsule with the number 500 printed on it. Without any records to compare with, I cannot determine if this is an anomaly. Therefore, I must assume it's normal.\n<OUTPUT_JSON>{\"finding\":\"normal\",\"image_id\":null,\"bbox\":null,\"explanation\":\"\"}</OUTPUT_JSON>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.2383460569917486
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 679,
+      "candidatesTokenCount": 89,
+      "totalTokenCount": 768,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 516
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 163
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 89
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:09:28.102767Z",
+    "responseId": "iLk1aO-iBqqvgLUP1Lz-8As"
+  }
+}

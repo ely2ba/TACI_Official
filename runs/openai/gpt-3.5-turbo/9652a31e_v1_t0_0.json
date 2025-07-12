@@ -1,0 +1,49 @@
+{
+  "uid": "9652a31e",
+  "variant": 1,
+  "temperature": 0.0,
+  "model": "gpt-3.5-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T21:58:35Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "b1d4dc2145b67a6e173394b24983c8cfe004e301734b83bd593104a69e91a716",
+  "response": {
+    "id": "chatcmpl-BaUhOtGP66EvDdRomDcLkJGZGr81H",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>Dear [Client Name],\n\nI hope this message finds you well. I am writing to address some concerns regarding recent shipments that have arrived at our facility. Upon inspection, we have identified several instances of damages, shortages, and nonconformance to specifications.\n\nI would like to request a meeting or conference call at your earliest convenience to discuss these issues and work together to rectify them. It is crucial for us to ensure that all shipments meet the required standards and are delivered in optimal condition.\n\nPlease let me know a suitable time for us to connect and address these matters. I look forward to resolving these issues promptly and maintaining a positive working relationship.\n\nThank you for your attention to this matter.\n\nSincerely,\n[Your Name]\nSenior Shipping Receiving And Inventory Clerk</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748037514,
+    "model": "gpt-3.5-turbo-0125",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 159,
+      "prompt_tokens": 95,
+      "total_tokens": 254,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

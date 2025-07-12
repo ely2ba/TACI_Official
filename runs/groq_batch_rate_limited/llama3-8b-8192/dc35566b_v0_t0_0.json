@@ -1,0 +1,44 @@
+{
+  "uid": "dc35566b",
+  "variant": 0,
+  "modality": "TEXT",
+  "temperature": 0.0,
+  "model": "llama3-8b-8192",
+  "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+  "timestamp": "2025-05-28T19:16:55.459290Z",
+  "prompt_sha256": "4d0a4869800557dffc8240663963d817aaed340baf12762affca5fd8d0c837f8",
+  "commit_sha": "170b9e3e1d0d59846b1daa69da57be5d1db6306c",
+  "response": {
+    "id": "chatcmpl-fa32ad74-dd4b-4509-8dff-a1bfedf9f2ae",
+    "object": "chat.completion",
+    "created": 1748459815,
+    "model": "llama3-8b-8192",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "<OUTPUT_TEXT>\nTo prepare for trial, I would start by organizing exhibits by categorizing them into relevant groups, such as documents, photographs, and physical objects. This would involve creating a detailed inventory of each exhibit, including its description, relevance to the case, and any necessary authentication or certification. I would also ensure that all exhibits are properly labeled and stored in a secure location to prevent loss or tampering. Additionally, I would review the exhibits with the attorney to ensure that they are relevant to the case and to identify any potential issues or concerns."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "queue_time": 0.630385222,
+      "prompt_tokens": 98,
+      "prompt_time": 0.01990808,
+      "completion_tokens": 112,
+      "completion_time": 0.093333333,
+      "total_tokens": 210,
+      "total_time": 0.113241413
+    },
+    "usage_breakdown": {
+      "models": null
+    },
+    "system_fingerprint": "fp_dadc9d6142",
+    "x_groq": {
+      "id": "req_01jwc56zmmf9tsbfck67gsjdct"
+    }
+  }
+}

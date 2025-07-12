@@ -1,0 +1,50 @@
+{
+  "uid": "d21fc252",
+  "variant": 0,
+  "temperature": 0.5,
+  "model": "gemini-2.5-flash-preview-05-20",
+  "modality": "VISION",
+  "timestamp": "2025-05-27T15:25:19.339713Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_JSON>{\"finding\":\"faded marking\",\"image_id\":\"img_000\",\"bbox\":[580,460,780,540],\"explanation\":\"Marking '500' is faded/less distinct compared to reference image.\"}</OUTPUT_JSON>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -7.8597151233303935
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 714,
+      "candidatesTokenCount": 62,
+      "totalTokenCount": 2596,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 516
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 198
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 62
+        }
+      ],
+      "thoughtsTokenCount": 1820
+    },
+    "modelVersion": "gemini-2.5-flash-preview-05-20",
+    "createTime": "2025-05-27T15:25:06.748850Z",
+    "responseId": "Utk1aLLaLbOb2PgPotLkyQs"
+  }
+}

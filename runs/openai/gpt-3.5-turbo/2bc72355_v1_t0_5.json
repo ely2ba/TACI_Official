@@ -1,0 +1,49 @@
+{
+  "uid": "2bc72355",
+  "variant": 1,
+  "temperature": 0.5,
+  "model": "gpt-3.5-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T21:59:31Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "41a608c13b74cc15e8be27b5cac60e21b83aca5526408134463ed93303959062",
+  "response": {
+    "id": "chatcmpl-BaUiH8rdmTbmhNT7We4O9FPwvDKw5",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>Dear Parents/Guardians,\n\nAs we approach the end of the school year, I wanted to update you on our upcoming instruction plans for the students. In the following weeks, we will be focusing on individual and group learning activities to reinforce the concepts covered throughout the year. \n\nStudents will be engaged in a variety of teaching methods including lectures, discussions, and demonstrations. These methods have proven to be effective in helping students grasp and retain information in a meaningful way. \n\nI encourage you to continue supporting your child's learning at home by reviewing the material covered in class and engaging in discussions about their learning experiences. Together, we can ensure that each student reaches their full potential.\n\nThank you for your continued support,\n\n[Your Name]\nSenior Elementary School Teacher</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748037569,
+    "model": "gpt-3.5-turbo-0125",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 157,
+      "prompt_tokens": 90,
+      "total_tokens": 247,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "uid": "85a846ff",
+  "variant": 0,
+  "temperature": 0.5,
+  "model": "gemini-2.5-flash-preview-05-20",
+  "modality": "GUI",
+  "timestamp": "2025-05-27T15:27:19.354717Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_JSON>\n[\n  {\n    \"action\": \"type\",\n    \"selector\": \"input[name*=account i]\",\n    \"text\": \"PAT-2023-001\"\n  },\n  {\n    \"action\": \"type\",\n    \"selector\": \"textarea[name*=memo i]\",\n    \"text\": \"Patient reported feeling much better after medication adjustment. Scheduled follow-up for 2 weeks. Correspondence sent to specialist.\"\n  },\n  {\n    \"action\": \"type\",\n    \"selector\": \"input[name*=amount i], input[type=number]\",\n    \"text\": \"1\"\n  },\n  {\n    \"action\": \"click\",\n    \"selector\": \"button:has-text(\\\"post\\\" i), button:has-text(\\\"save\\\" i)\",\n    \"text\": \"\"\n  }\n]\n</OUTPUT_JSON>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.7815900745958385
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 177,
+      "candidatesTokenCount": 202,
+      "totalTokenCount": 1200,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 177
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 202
+        }
+      ],
+      "thoughtsTokenCount": 821
+    },
+    "modelVersion": "gemini-2.5-flash-preview-05-20",
+    "createTime": "2025-05-27T15:27:13.269292Z",
+    "responseId": "0dk1aOy3ELOb2PgPotLkyQs"
+  }
+}

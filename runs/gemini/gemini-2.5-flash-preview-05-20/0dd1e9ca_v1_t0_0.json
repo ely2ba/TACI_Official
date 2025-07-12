@@ -1,0 +1,60 @@
+{
+  "uid": "0dd1e9ca",
+  "variant": 1,
+  "temperature": 0.0,
+  "model": "gemini-2.5-flash-preview-05-20",
+  "modality": "GUI",
+  "timestamp": "2025-05-27T15:26:46.952360Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_JSON>[{'action':'click','selector':'button:has-text(\"generate\" i)','text':''}]</OUTPUT_JSON>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "citationMetadata": {
+          "citations": [
+            {
+              "startIndex": 670,
+              "endIndex": 823,
+              "uri": "https://www.gsaadvantage.gov/ref_text/GS00F0001U/GS00F0001U_online.htm"
+            },
+            {
+              "startIndex": 7024,
+              "endIndex": 7177,
+              "uri": "https://www.gsaadvantage.gov/ref_text/GS00F0001U/GS00F0001U_online.htm"
+            }
+          ]
+        },
+        "avgLogprobs": -24.692480087280273
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 181,
+      "candidatesTokenCount": 32,
+      "totalTokenCount": 3059,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 181
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 32
+        }
+      ],
+      "thoughtsTokenCount": 2846
+    },
+    "modelVersion": "gemini-2.5-flash-preview-05-20",
+    "createTime": "2025-05-27T15:26:29.464657Z",
+    "responseId": "pdk1aJGuHOC4nvgPz_H5yAI"
+  }
+}

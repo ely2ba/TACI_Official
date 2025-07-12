@@ -1,0 +1,15 @@
+{
+  "uid": "dc35566b",
+  "variant": 0,
+  "modality": "TEXT",
+  "temperature": 0.0,
+  "model": "claude-3-opus-20240229",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T17:46:39.645714Z",
+  "commit_sha": "98b2eb0f130d4d32e78707f77c440a8f68e4103c",
+  "prompt_sha256": "b1ac045c1a947bb4d70d059931e67b3014310d0dc0649de077ee69a7bab47991",
+  "response": {
+    "raw": "Here is my attempt at the task, wrapped in the specified output tags:\n\n<OUTPUT_TEXT>\nTo prepare for trial as a paralegal or legal assistant, I would:\n\n1. Organize and label all exhibits in a logical order, such as chronologically or by topic. Create an exhibit list with identifying details for each exhibit.\n\n2. Ensure there are multiple copies of each exhibit - for the judge, opposing counsel, witnesses, and the trial team. Prepare exhibit binders as needed. \n\n3. Digitize exhibits and load them into a trial presentation software program for easy access and display in the courtroom.\n\n4. Prepare witness binders with relevant exhibits for each witness who may be called to testify. Ensure witnesses have reviewed their binders prior to trial.\n\n5. Assist attorneys in preparing demonstrative exhibits like timelines, charts, or summaries to visually convey key information to the judge and jury.\n\n6. Transport all exhibits and materials to the courthouse before trial begins and organize them in the courtroom for quick retrieval during proceedings.\n</OUTPUT_TEXT>",
+    "extracted": "<OUTPUT_TEXT>\nTo prepare for trial as a paralegal or legal assistant, I would:\n\n1. Organize and label all exhibits in a logical order, such as chronologically or by topic. Create an exhibit list with identifying details for each exhibit.\n\n2. Ensure there are multiple copies of each exhibit - for the judge, opposing counsel, witnesses, and the trial team. Prepare exhibit binders as needed. \n\n3. Digitize exhibits and load them into a trial presentation software program for easy access and display in the courtroom.\n\n4. Prepare witness binders with relevant exhibits for each witness who may be called to testify. Ensure witnesses have reviewed their binders prior to trial.\n\n5. Assist attorneys in preparing demonstrative exhibits like timelines, charts, or summaries to visually convey key information to the judge and jury.\n\n6. Transport all exhibits and materials to the courthouse before trial begins and organize them in the courtroom for quick retrieval during proceedings.\n</OUTPUT_TEXT>"
+  }
+}

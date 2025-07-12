@@ -1,0 +1,49 @@
+{
+  "uid": "9cebf902",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:19:51Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "a7052bae3d38c2b21fc03d15de691f4b6a0b5771facef782e2bab809995f51c9",
+  "response": {
+    "id": "chatcmpl-BaV1oM6ergnBjAfaB0oc4b8BRdmlO",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Legal Research Analysis\n\n1. **Statutes**\n   - Statutes are laws enacted by the legislative branch of a government. The analysis of statutes involves understanding the intent of the law, its application, and any amendments or changes that have been made over time.\n\n2. **Decisions**\n   - Legal decisions, also known as case law, are rulings made by judges in various courts. Analyzing these decisions involves understanding the legal reasoning used by the judge, the precedent set by the decision, and how it impacts future cases.\n\n3. **Legal Articles**\n   - Legal articles are scholarly works that discuss various aspects of the law. They can provide insight into legal theories, interpretations of the law, and opinions on legal issues. Analyzing these articles involves understanding the arguments presented, the evidence used to support these arguments, and the conclusions drawn.\n\n4. **Codes**\n   - Legal codes are systematic collections of laws, rules, or regulations that are organized by subject matter. Analyzing these codes involves understanding the specific rules and regulations, how they are applied, and any changes or amendments that have been made.\n\n5. **Documents**\n   - Legal documents can include contracts, wills, deeds, patents, etc. Analyzing these documents involves understanding the legal language used, the intent of the document, and any legal implications or consequences that may arise from the document.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748038780,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 283,
+      "prompt_tokens": 94,
+      "total_tokens": 377,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

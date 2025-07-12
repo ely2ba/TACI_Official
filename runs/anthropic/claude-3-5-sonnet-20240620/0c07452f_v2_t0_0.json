@@ -1,0 +1,34 @@
+{
+  "uid": "0c07452f",
+  "variant": 2,
+  "modality": "TEXT",
+  "temperature": 0.0,
+  "model": "claude-3-5-sonnet-20240620",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T20:07:53.882199Z",
+  "commit_sha": "170b9e3e1d0d59846b1daa69da57be5d1db6306c",
+  "prompt_sha256": "2189e62343fd7e1183a39f3a4091805edf521e1d87fad9e7f11d201b5eda7abc",
+  "response": {
+    "id": "msg_01Jcm9Vbhsnh3wppL7trs5ix",
+    "content": [
+      {
+        "citations": null,
+        "text": "Here is my response formatted as requested:\n\n<OUTPUT_TEXT>\n\n# Enforcing Administration Policies and Rules for Students\n\n1. Familiarize yourself with policies\n   - Review school handbook and code of conduct\n   - Attend staff meetings on policy updates\n   - Consult administration with questions\n\n2. Communicate expectations clearly\n   - Review rules with students at start of year\n   - Post key policies visibly in classroom\n   - Remind students of rules as needed\n\n3. Be consistent in enforcement\n   - Apply rules fairly to all students\n   - Follow through on stated consequences\n   - Document rule violations\n\n4. Use positive reinforcement\n   - Recognize students following rules\n   - Implement reward systems for good behavior\n   - Model expected conduct\n\n5. Address violations promptly\n   - Intervene quickly for minor infractions\n   - Refer serious violations to administration\n   - Communicate with parents as appropriate\n\n6. Promote a positive classroom culture\n   - Foster mutual respect and responsibility\n   - Encourage student ownership of rules\n   - Create opportunities for leadership\n\n7. Seek support when needed\n   - Consult colleagues on challenging situations\n   - Involve counselors or administrators for ongoing issues\n   - Participate in professional development on classroom management\n\n</OUTPUT_TEXT>",
+        "type": "text"
+      }
+    ],
+    "model": "claude-3-5-sonnet-20240620",
+    "role": "assistant",
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "input_tokens": 122,
+      "output_tokens": 283,
+      "server_tool_use": null,
+      "service_tier": "standard"
+    }
+  }
+}

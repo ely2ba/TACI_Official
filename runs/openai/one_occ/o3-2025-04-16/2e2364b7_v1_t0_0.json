@@ -1,0 +1,50 @@
+{
+  "uid": "2e2364b7",
+  "variant": 1,
+  "temperature": 0.0,
+  "seed": 0,
+  "model": "o3-2025-04-16",
+  "modality": "TEXT",
+  "timestamp": "2025-06-21T20:39:53Z",
+  "commit_sha": "ac1698886e89fb01e65b6ca5c8e06e97f58dd0fa",
+  "prompt_sha256": "5808175cbc619e24c5c564af0fd9694007e037ba45a7744dae70da83bcc6bb95",
+  "response": {
+    "id": "chatcmpl-BkzHs0KtrgeIKHH4UtiQYDeFBhWww",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nTo:     [Attorney\u2019s Name], Esq.  \nFrom:   [Your Name], Senior Paralegal  \nDate:   [Today\u2019s Date]  \nRe:     Filing Pleadings with the Court Clerk \u2013 Checklist, Deadlines, and Compliance Requirements  \n\n______________________________________________________________\n\nI. PURPOSE  \nThis memo summarizes the procedural requirements, deadlines, and best-practice recommendations for filing pleadings with the [Name of Court] Clerk\u2019s Office in [Jurisdiction]. It is intended to ensure that all forthcoming filings are accepted without deficiency notices and are entered on the docket in a timely manner.\n\nII. KEY FACTS  \n\u2022 Matter: [Case Name], Case No. [XXXX-#####]  \n\u2022 Pleadings to be filed: (1) Plaintiff\u2019s First Amended Complaint; (2) Civil Case Cover Sheet; (3) Summons for issuance.  \n\u2022 Applicable rules: [Jurisdiction] Rules of Civil Procedure (\u201cRCP\u201d) 3, 5, 7, and local rule LR 1.1; Standing Order 22-04 (Electronic Filing).  \n\u2022 Filing method: Mandatory e-filing via the Court\u2019s Electronic Filing System (\u201cEFS\u201d).  \n\nIII. PROCEDURAL CHECKLIST  \n\nA. Pre-Filing Review  \n1. Caption: verify full style of the case; include court division and case number.  \n2. Signature block: attorney\u2019s name, bar number, email, phone, physical address per RCP 11(a).  \n3. Certificate of Service: must list all counsel of record and delivery method (EFS constitutes service on registered users; non-EFS parties require separate service).  \n4. Word/Page Limits: not applicable to complaints but check LR 7.1 for any attachments.  \n5. Exhibits: combine each exhibit with a bookmark; label sequentially (Ex. A, Ex. B, etc.).  \n\nB. Technical Specifications (E-Filing)  \n\u2022 Format: text-searchable PDF, 300 dpi, \u2264 25 MB per file; larger files must be segmented.  \n\u2022 Naming convention: \u201c2024-05-20_Amended Complaint.pdf\u201d per Clerk\u2019s E-Guide \u00a7 4.2.  \n\u2022 Proposed Summons: upload as separate \u201cProposed\u201d event category.  \n\nC. Filing Fees  \n\u2022 Amended Complaint: no additional filing fee (initial $402 paid on 03/15/24).  \n\u2022 Summons issuance fee: $0 (covered in civil filing fee).  \n\nD. Timing & Deadlines  \n\u2022 RCP 15(a)(1)(B): amended complaint may be filed once as of right within 21 days of service of a responsive pleading; deadline = 05/24/2024.  \n\u2022 Clerk\u2019s Office cut-off: filings received by 11:59 p.m. local time are deemed filed that day; recommend upload by 4:30 p.m. to allow error correction.  \n\nE. Post-Filing Tasks  \n1. Retrieve Notice of Electronic Filing (NEF) and confirm docket entry.  \n2. Calendar service deadlines for summons once issued (Rule 4(m): 90 days).  \n3. Save file-stamped copies to client folder and share with attorney team.  \n\nIV. RECOMMENDED ACTION STEPS  \n1. Finalize pleadings and exhibits; run QC per \u00a7 III.A-B by COB 05/17/24.  \n2. Obtain attorney\u2019s digital signature approval (DocuSign/approved token).  \n3. Submit filings via EFS by 4:30 p.m. on 05/20/24.  \n4. Monitor docket for summons issuance and immediately arrange service through [Process Server] upon receipt.  \n\nV. RISKS & MITIGATION  \n\u2022 Risk: filing after 21-day amendment window \u2192 potential need for leave of court.  \n  Mitigation: adhere to 05/20/24 internal deadline.  \n\u2022 Risk: PDF technical rejection \u2192 delayed filing date.  \n  Mitigation: pre-upload validation; keep backup PDF copies.  \n\u2022 Risk: deficient certificate of service \u2192 clerk notice.  \n  Mitigation: cross-check recipient list with CM/ECF Service List immediately before filing.  \n\nVI. ENCLOSURES  \n1. Filing Checklist (1 page)  \n2. Draft Amended Complaint (clean & redline)  \n3. Draft Civil Case Cover Sheet  \n4. Draft Summons  \n\nPlease advise if any revisions are needed before e-filing. I will stand by for final authorization.\n\nCc: Litigation Support, File\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1750538376,
+    "model": "o3-2025-04-16",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1109,
+      "prompt_tokens": 108,
+      "total_tokens": 1217,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 128,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

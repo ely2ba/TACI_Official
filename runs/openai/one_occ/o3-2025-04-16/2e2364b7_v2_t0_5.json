@@ -1,0 +1,50 @@
+{
+  "uid": "2e2364b7",
+  "variant": 2,
+  "temperature": 0.5,
+  "seed": 1,
+  "model": "o3-2025-04-16",
+  "modality": "TEXT",
+  "timestamp": "2025-06-21T20:37:44Z",
+  "commit_sha": "ac1698886e89fb01e65b6ca5c8e06e97f58dd0fa",
+  "prompt_sha256": "cee4e4cced006a4842340997b6ed1bbff872b7344ee46acccdf523da2a41dd4c",
+  "response": {
+    "id": "chatcmpl-BkzFqkLZk6vZg4sYwaqZlnAU1Zot2",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Filing Pleadings with the Court Clerk\n\n1. Determine Jurisdiction and Venue  \n   a. Verify the correct court (state, federal, appellate, etc.).  \n   b. Confirm the division or district if multiple locations exist.  \n   c. Check that the case number, parties, and caption match the court\u2019s records.\n\n2. Review Governing Rules and Deadlines  \n   a. Study the applicable Rules of Civil/Criminal/Appellate Procedure.  \n   b. Consult local court rules, standing orders, and judge-specific preferences.  \n   c. Note any statutory or scheduling-order deadlines for filing.\n\n3. Draft the Pleading  \n   a. Use required font, margins, line spacing, and caption format.  \n   b. Clearly state relief sought, legal grounds, and supporting facts.  \n   c. Include a signature block with attorney bar number or pro-se designation.\n\n4. Assemble Supporting Documents  \n   a. Attach all necessary exhibits, declarations, and proposed orders.  \n   b. Redact personal identifiers in compliance with privacy rules.  \n   c. Paginate exhibits and create an index if volume is large.\n\n5. Prepare Certificate of Service  \n   a. List names, addresses, and methods of service for all counsel/parties.  \n   b. State the date and manner (e-service, mail, hand delivery, etc.).  \n   c. Sign and date the certificate.\n\n6. Calculate Filing Fees and Payment Method  \n   a. Check the court\u2019s fee schedule for motions, complaints, or supplemental filings.  \n   b. Obtain a check, money order, or confirm electronic payment credentials.  \n   c. Request a fee waiver if indigency or other exemption applies.\n\n7. Choose Filing Method  \n   a. Electronic Filing (preferred in most jurisdictions):  \n      \u2022 Convert documents to searchable PDF with OCR.  \n      \u2022 Combine pleadings, exhibits, and proposed orders per local rule.  \n      \u2022 Log in to CM/ECF, e-File & Serve, or state e-portal; upload documents.  \n   b. Physical Filing (where allowed or required):  \n      \u2022 Print original plus required copies (often one for each party + court).  \n      \u2022 Use two-hole punch at top or follow court\u2019s binding rule.  \n      \u2022 Deliver to clerk\u2019s office before close of business.\n\n8. Obtain Confirmation  \n   a. E-filing: Save the Notice of Electronic Filing (NEF) and docket number.  \n   b. Physical filing: Request conformed/stamped copies and a receipt for fees.  \n   c. Verify the document appears on the docket correctly.\n\n9. Serve Filed Pleadings on Parties  \n   a. If the court\u2019s e-service does not reach all parties, serve by alternate method.  \n   b. Mail or hand-deliver physical copies where required.  \n   c. Retain proof of service (certified mail receipt, courier confirmation, etc.).\n\n10. Update Case File and Calendar  \n    a. Store the filed version and NEF in the client\u2019s electronic and paper files.  \n    b. Enter any hearing dates, briefing schedules, or response deadlines.  \n    c. Notify supervising attorney and client of next steps.\n\n11. Follow Up with Clerk if Issues Arise  \n    a. Monitor docket for entry errors or rejection notices.  \n    b. Correct deficiencies promptly (wrong format, missing fee, etc.).  \n    c. Re-serve amended pleadings when resubmitted.\n\n12. Maintain Compliance and Ethical Standards  \n    a. Preserve confidentiality and privilege in all filings.  \n    b. Avoid ex parte communication with the court unless permitted.  \n    c. Keep records for statutory retention period and audit readiness.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1750538250,
+    "model": "o3-2025-04-16",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1044,
+      "prompt_tokens": 111,
+      "total_tokens": 1155,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 256,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

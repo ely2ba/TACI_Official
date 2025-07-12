@@ -1,0 +1,12 @@
+{
+  "uid": "2886855a",
+  "variant": 2,
+  "modality": "MANUAL",
+  "temperature": 0.5,
+  "model": "claude-3-5-sonnet-20240620",
+  "skipped": true,
+  "reason": "manual task \u2013 auto-scored 0",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T18:01:29.389291Z",
+  "commit_sha": "98b2eb0f130d4d32e78707f77c440a8f68e4103c"
+}

@@ -1,0 +1,46 @@
+{
+  "uid": "ab599408",
+  "variant": 0,
+  "temperature": 0.0,
+  "model": "gemini-2.5-flash-preview-05-20",
+  "modality": "GUI",
+  "timestamp": "2025-05-27T15:28:08.096661Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_JSON>\n[\n  {\n    \"action\": \"type\",\n    \"selector\": \"input[placeholder*=search i]\",\n    \"text\": \"Gloves\"\n  },\n  {\n    \"action\": \"click\",\n    \"selector\": \"button:has-text(\\\"add item\\\" i)\",\n    \"text\": \"\"\n  },\n  {\n    \"action\": \"type\",\n    \"selector\": \"input[name*=quantity i]\",\n    \"text\": \"10\"\n  },\n  {\n    \"action\": \"click\",\n    \"selector\": \"button:has-text(\\\"order\\\" i), button:has-text(\\\"submit\\\" i)\",\n    \"text\": \"\"\n  }\n]\n</OUTPUT_JSON>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.24334793542263775
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 181,
+      "candidatesTokenCount": 169,
+      "totalTokenCount": 974,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 181
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 169
+        }
+      ],
+      "thoughtsTokenCount": 624
+    },
+    "modelVersion": "gemini-2.5-flash-preview-05-20",
+    "createTime": "2025-05-27T15:28:03.919166Z",
+    "responseId": "A9o1aP6MOKO2nvgPrJiG8Qk"
+  }
+}

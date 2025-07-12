@@ -1,0 +1,15 @@
+{
+  "uid": "2bc72355",
+  "variant": 0,
+  "modality": "TEXT",
+  "temperature": 0.0,
+  "model": "claude-3-5-sonnet-20240620",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T18:08:22.567486Z",
+  "commit_sha": "98b2eb0f130d4d32e78707f77c440a8f68e4103c",
+  "prompt_sha256": "b43d5c2a137206cfaafbdeab88bf4061f82ee4637860e0743ef2c3754052be83",
+  "response": {
+    "raw": "<OUTPUT_TEXT>\nTo instruct students individually and in groups using various teaching methods:\n\n1. Prepare engaging lesson plans incorporating diverse activities\n2. Use visual aids, manipulatives, and technology to support learning\n3. Implement differentiated instruction to meet individual needs\n4. Facilitate class discussions to encourage critical thinking\n5. Demonstrate concepts through hands-on activities and experiments\n6. Provide one-on-one support for struggling students\n7. Organize small group work for collaborative learning\n8. Use formative assessments to gauge understanding\n9. Adjust teaching methods based on student responses\n10. Encourage active participation through questioning techniques\n11. Incorporate movement and kinesthetic activities when appropriate\n12. Use storytelling and real-world examples to make lessons relatable\n13. Provide opportunities for student-led demonstrations\n14. Implement peer tutoring and mentoring programs\n15. Use positive reinforcement and constructive feedback\n</OUTPUT_TEXT>",
+    "extracted": "<OUTPUT_TEXT>\nTo instruct students individually and in groups using various teaching methods:\n\n1. Prepare engaging lesson plans incorporating diverse activities\n2. Use visual aids, manipulatives, and technology to support learning\n3. Implement differentiated instruction to meet individual needs\n4. Facilitate class discussions to encourage critical thinking\n5. Demonstrate concepts through hands-on activities and experiments\n6. Provide one-on-one support for struggling students\n7. Organize small group work for collaborative learning\n8. Use formative assessments to gauge understanding\n9. Adjust teaching methods based on student responses\n10. Encourage active participation through questioning techniques\n11. Incorporate movement and kinesthetic activities when appropriate\n12. Use storytelling and real-world examples to make lessons relatable\n13. Provide opportunities for student-led demonstrations\n14. Implement peer tutoring and mentoring programs\n15. Use positive reinforcement and constructive feedback\n</OUTPUT_TEXT>"
+  }
+}

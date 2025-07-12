@@ -1,0 +1,34 @@
+{
+  "uid": "dc35566b",
+  "variant": 2,
+  "modality": "TEXT",
+  "temperature": 0.0,
+  "model": "claude-3-opus-20240229",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T19:56:45.913563Z",
+  "commit_sha": "170b9e3e1d0d59846b1daa69da57be5d1db6306c",
+  "prompt_sha256": "5c2b1790f2417a640aaa0c9ab20011ff442927bfe17d78d43ba60b94c8a66652",
+  "response": {
+    "id": "msg_01S5T4CqybgGYXGHUrxQaNap",
+    "content": [
+      {
+        "citations": null,
+        "text": "Here is my attempt at the task, following the specified output format and rules:\n\n<OUTPUT_TEXT>\n<h1>Preparing Exhibits for Trial</h1>\n\n1. Gather all potential exhibits, including documents, photographs, physical evidence, etc. \n2. Create an exhibit list in a spreadsheet. Include columns for exhibit number, description, Bates number (if applicable), source/custodian, and notes.\n3. Assign a unique exhibit number to each item, following the court's numbering convention (e.g. Plaintiff's exhibits are numbered consecutively starting with 1; Defendant's exhibits start with a letter like A, B, C).\n4. Organize the physical exhibits by number in banker's boxes or folders. Label each box or folder with the exhibit number range it contains.\n5. For any electronic exhibits, create a well-organized folder structure mirroring the physical organization. Ensure all electronic files are clearly named with their exhibit number. \n6. Prepare exhibit cover sheets to attach to the front of each exhibit. Include the case caption, exhibit number, and a brief description.\n7. Make copies of exhibits as needed - copies for the judge, opposing counsel, witnesses, and the record. Don't forget to keep a clean copy for your own team's use.\n8. Update the exhibit list regularly as new exhibits are added or removed based on relevance and admissibility. Share the updated list with the trial team.\n9. Prepare witness binders containing only the exhibits each witness will likely discuss in their testimony. This makes it easier to locate key exhibits quickly during direct and cross-examination.\n10. Transport exhibits safely to the courthouse using boxes, carts, or rolling briefcases. Ensure exhibits remain well-organized so they can be easily retrieved when needed during trial.\n</OUTPUT_TEXT>",
+        "type": "text"
+      }
+    ],
+    "model": "claude-3-opus-20240229",
+    "role": "assistant",
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "input_tokens": 124,
+      "output_tokens": 400,
+      "server_tool_use": null,
+      "service_tier": "standard"
+    }
+  }
+}

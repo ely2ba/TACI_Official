@@ -1,0 +1,12 @@
+{
+  "uid": "4f9791e2",
+  "variant": 2,
+  "modality": "MANUAL",
+  "temperature": 0.5,
+  "model": "claude-3-opus-20240229",
+  "skipped": true,
+  "reason": "manual task \u2013 auto-scored 0",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T17:39:06.894222Z",
+  "commit_sha": "98b2eb0f130d4d32e78707f77c440a8f68e4103c"
+}

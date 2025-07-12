@@ -1,0 +1,38 @@
+{
+  "uid": "8cc4a9e1",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gemini-2.5-pro-preview-05-06",
+  "modality": "GUI",
+  "timestamp": "2025-05-27T13:32:28.075359Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "thought": true
+            }
+          ]
+        },
+        "finishReason": "MAX_TOKENS"
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 185,
+      "totalTokenCount": 4281,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 185
+        }
+      ],
+      "thoughtsTokenCount": 4096
+    },
+    "modelVersion": "gemini-2.5-pro-preview-05-06",
+    "createTime": "2025-05-27T13:31:49.367331Z",
+    "responseId": "xb41aOO1FrOb2PgPotLkyQs"
+  }
+}

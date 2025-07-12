@@ -1,0 +1,12 @@
+chest_xray:
+  match:
+    - "x-ray"
+    - "tomography"
+    - "mammography"
+    - "sonogram"
+parcel_qc:
+  match:
+    - "capsule"
+    - "shipment"
+    - "manifest"
+    - "order"

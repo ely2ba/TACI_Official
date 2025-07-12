@@ -1,0 +1,45 @@
+{
+  "uid": "dc35566b",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gemini-2.0-flash",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T13:18:16.831893Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "```text\n <OUTPUT_TEXT>\n# Trial Preparation Checklist\n\nHere's a checklist to help organize exhibits and prepare for trial:\n\n1.  **Exhibit Inventory and Organization:**\n\n    *   Create a master exhibit list: This should include a brief description of each exhibit, its assigned exhibit number, and the source of the exhibit (e.g., document production, deposition testimony).\n    *   Organize exhibits physically: Use binders, folders, or boxes to keep exhibits organized by type (e.g., documents, photos, videos). Label each container clearly with the exhibit numbers it contains.\n    *   Create digital copies of all exhibits: Scan documents and save them as PDFs. Ensure photos and videos are in a readily accessible format. Organize digital files in a clear folder structure that mirrors the physical organization.\n    *   Cross-reference exhibits: Note any relationships between exhibits (e.g., a document referenced in a deposition). This can be done in the master exhibit list or in a separate cross-reference document.\n\n2.  **Exhibit Authentication:**\n\n    *   Identify authentication methods: Determine how each exhibit will be authenticated at trial (e.g., witness testimony, stipulation).\n    *   Prepare authentication outlines: For each exhibit requiring witness testimony for authentication, create an outline of the questions to ask the witness.\n    *   Gather authentication documents: Collect any documents needed to support authentication (e.g., chain of custody forms, business records affidavits).\n\n3.  **Exhibit Admissibility:**\n\n    *   Anticipate potential objections: Review each exhibit and consider potential objections to its admissibility (e.g., hearsay, relevance, lack of foundation).\n    *   Research admissibility issues: Research the law regarding the admissibility of each type of exhibit and prepare arguments to overcome potential objections.\n    *   Prepare motions in limine: Draft motions in limine to address any significant admissibility issues before trial.\n\n4.  **Witness Preparation:**\n\n    *   Review witness testimony: Review deposition transcripts and other witness statements to identify exhibits that will be used during their testimony.\n    *   Prepare exhibit binders for witnesses: Create binders containing the exhibits that will be shown to each witness.\n    *   Practice exhibit presentation with witnesses: Rehearse the process of showing exhibits to witnesses and asking them questions about the exhibits.\n\n5.  **Trial Technology:**\n\n    *   Test all technology: Ensure that all technology (e.g., projectors, computers, software) is working properly.\n    *   Prepare electronic exhibit presentation: Create a presentation of the exhibits that can be easily displayed in the courtroom.\n    *   Train trial team on technology: Ensure that all members of the trial team are familiar with the technology and how to use it.\n\n6.  **Trial Notebook:**\n\n    *   Create a trial notebook: This should include the master exhibit list, authentication outlines, admissibility research, witness preparation materials, and any other relevant information.\n    *   Organize the trial notebook: Arrange the materials in a logical order that will be easy to access during trial.\n\n7.  **Pre-Trial Conference:**\n\n    *   Prepare exhibit list for pre-trial conference: Prepare a final exhibit list to be submitted to the court and opposing counsel.\n    *   Discuss exhibit stipulations: Attempt to stipulate to the admissibility of certain exhibits with opposing counsel to streamline the trial.\n\n8.  **Final Review:**\n\n    *   Double-check all exhibits: Ensure that all exhibits are properly labeled, organized, and ready for trial.\n    *   Review all materials with the trial team: Conduct a final review of all materials with the trial team to ensure everyone is prepared.\n </TEXT>\n```"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.15505111063481608
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 110,
+      "candidatesTokenCount": 774,
+      "totalTokenCount": 884,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 110
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 774
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:18:11.204031Z",
+    "responseId": "k7s1aP-5DMamnvgPuOOl0As"
+  }
+}

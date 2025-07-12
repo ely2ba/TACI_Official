@@ -1,0 +1,50 @@
+{
+  "uid": "db852c6e",
+  "variant": 1,
+  "temperature": 0.0,
+  "seed": 0,
+  "model": "o3-2025-04-16",
+  "modality": "TEXT",
+  "timestamp": "2025-06-21T20:45:48Z",
+  "commit_sha": "ac1698886e89fb01e65b6ca5c8e06e97f58dd0fa",
+  "prompt_sha256": "f569a8589baa5d5bd5757714aa846cd389ec66e9ff32ca84d93b9582426cacf9",
+  "response": {
+    "id": "chatcmpl-BkzNYbBr2LwW0g3LICyhQueJycxyc",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nMEMORANDUM  \n-------------------------------------------------------------------  \nTO:               Managing Partner and Assigned Litigation Team  \nFROM:             [Your Name], Senior Paralegal & Litigation Coordinator  \nDATE:             [Insert Date]  \nSUBJECT:          Work-Plan to Direct and Coordinate Law-Office Activity for Drafting, Issuance, and Delivery of Subpoenas  \n\n-------------------------------------------------------------------  \nI. OBJECTIVE  \nEstablish a streamlined, auditable procedure\u2014consistent with federal and state rules of civil procedure\u2014to (1) draft and issue subpoenas, (2) effectuate timely and proper service, and (3) track compliance, all while minimizing cost and risk of quash/\u200bmotion practice.\n\nII. CASES & RECIPIENTS AFFECTED  \n\u2022 Smith v. ABC Corp., No. 22-CV-1045 (U.S. Dist. Ct., D. Mass.)  \n\u2022 In re Estate of Johnson, No. 2023-PR-778 (Prob. Ct., Suffolk Cty.)  \n\u2022 Supplemental third-party subpoenas to financial institutions (see Attachment A).\n\nIII. TEAM ROLES & RESPONSIBILITIES  \nAttorney of Record (AOR)  \n\u2022 Approve final subpoena language, scope, and production deadlines.  \nSenior Paralegal (Lead)  \n\u2022 Coordinate drafting, docketing, vendor selection, and proof-of-service filings.  \nJunior Paralegals  \n\u2022 Prepare exhibits, production riders, and witness fees; update case-management system (CMS).  \nLegal Assistants  \n\u2022 Calendar service/\u200bresponse dates; arrange messenger pick-ups; scan and e-file returns.  \nOutside Process Server / Marshal  \n\u2022 Execute physical service; provide notarized Affidavit of Service within 24 hrs.\n\nIV. PROCEDURE & TIMELINE  \n\nStep 1 \u2013 Drafting (Day 0\u20131)  \nA. Pull template from CMS; auto-populate caption, case number, Rule 45 compliance language.  \nB. Verify scope with AOR; ensure no privileged/\u200bprotected categories are requested.  \nDeliverable: Draft subpoena + exhibit list sent to AOR for sign-off by 3 p.m. Day 1.  \n\nStep 2 \u2013 Court Issuance (Day 2)  \nA. File \u201cRequest for Clerk\u2019s Signature\u201d (if required) via ECF; obtain stamped copies.  \nB. For out-of-state non-party subpoenas, coordinate issuance under UIDDA or obtain commission.  \n\nStep 3 \u2013 Service Logistics (Day 2\u20134)  \nA. Select process server from approved vendor list; confirm jurisdictional eligibility.  \nB. Provide server with two full sets (one to serve, one for returns), witness fee check, mileage chart.  \nC. Record service window in CMS (e.g., within 7 days of issuance for trial subpoenas).  \n\nStep 4 \u2013 Proof-of-Service & Docketing (Day 5\u20136)  \nA. Receive Affidavit of Service; review for completeness (date, time, address, description of recipient).  \nB. Scan & upload affidavit; e-file \u201cNotice of Service of Subpoena\u201d same day.  \nC. Send courtesy copy to the served party\u2019s counsel (if appearance on file) via email.  \n\nStep 5 \u2013 Compliance Tracking (Day 6 \u2192 Response Date)  \nA. Auto-generate reminder emails 7, 3, and 1 day before production due date.  \nB. If no compliance by due date + 1, draft meet-and-confer letter; schedule call.  \nC. Escalate unresolved non-compliance to AOR for potential motion to compel.  \n\nV. QUALITY CONTROL CHECKLIST  \n\u2610 Caption/spelling correct  \n\u2610 Correct rule & jurisdiction cited (FRCP 45 / state equivalent)  \n\u2610 Witness fee attached (where required)  \n\u2610 Service within territorial limits (100 miles, etc.)  \n\u2610 HIPAA, FERPA, GLBA or other protections addressed (attach protective order where necessary)  \n\u2610 CMS updated; critical dates calendared  \n\nVI. COST ESTIMATE (per subpoena)  \n\u2022 Drafting & review (1.5 hrs paralegal)\u2026\u2026\u2026\u2026\u2026\u2026\u2026 $ 225  \n\u2022 Court issuance / ECF fees\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026 $ 15  \n\u2022 Process server (standard, 3 attempts)\u2026\u2026\u2026\u2026\u2026\u2026 $ 85  \n\u2022 Witness fee (average)\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026 $ 45  \nTotal (per unit)\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026 $ 370  \n\nVII. CONTINGENCY PLAN  \n\u2022 Rush service: activate \u201cpriority\u201d vendor (+$40; same-day)  \n\u2022 Difficult/\u200bevasive witness: employ stake-out or substitute service per court order  \n\u2022 Motion practice: prepare rule-compliant motion to compel or protective-order defense  \n\nVIII. ACTION ITEMS & DEADLINES  \n1. Draft first batch (5 subpoenas, Smith case) \u2013 by COB Day 1 (Assigned: JP-1)  \n2. Secure clerk\u2019s signature \u2013 10 a.m. Day 2 (Assigned: SA)  \n3. Confirm server availability \u2013 12 p.m. Day 2 (Assigned: LA-2)  \n4. File proofs of service \u2013 by 5 p.m. Day 6 (Assigned: JP-2)  \n\nIX. APPROVAL  \nKindly review and provide any revisions or comments by [Insert Deadline]; otherwise, I will proceed per the timeline above.\n\n-------------------------------------------------------------------  \nPrepared by:  \n[Your Name]  \nSenior Paralegal & Litigation Coordinator  \n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1750538728,
+    "model": "o3-2025-04-16",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1430,
+      "prompt_tokens": 114,
+      "total_tokens": 1544,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 256,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

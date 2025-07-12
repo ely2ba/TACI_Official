@@ -1,0 +1,15 @@
+{
+  "uid": "8cc4a9e1",
+  "variant": 2,
+  "modality": "GUI",
+  "temperature": 0.5,
+  "model": "claude-3-opus-20240229",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T17:40:06.811659Z",
+  "commit_sha": "98b2eb0f130d4d32e78707f77c440a8f68e4103c",
+  "prompt_sha256": "b2d6591aaac87da4b23bfdfb434e1f7eda272375b153fc3a14d4b31525776403",
+  "response": {
+    "raw": "Here is my attempt at the task:\n<OUTPUT_JSON>\n[\n  {\n    \"action\": \"enter\",\n    \"selector\": \"input[name*=\\\"space\\\" i], input[placeholder*=\\\"space\\\" i]\",\n    \"value\": \"{{space}}\"\n  },\n  {\n    \"action\": \"enter\", \n    \"selector\": \"input[name*=\\\"charge\\\" i]\",\n    \"value\": \"{{charge}}\"\n  },\n  {\n    \"action\": \"click\",\n    \"selector\": \"button:has-text(\\\"calculate\\\" i), button:has-text(\\\"compute\\\" i)\"\n  },\n  {\n    \"action\": \"click\",\n    \"selector\": \"button:has-text(\\\"save\\\" i)\"\n  }\n]\n</OUTPUT_JSON>",
+    "extracted": "<OUTPUT_JSON>\n[\n  {\n    \"action\": \"enter\",\n    \"selector\": \"input[name*=\\\"space\\\" i], input[placeholder*=\\\"space\\\" i]\",\n    \"value\": \"{{space}}\"\n  },\n  {\n    \"action\": \"enter\", \n    \"selector\": \"input[name*=\\\"charge\\\" i]\",\n    \"value\": \"{{charge}}\"\n  },\n  {\n    \"action\": \"click\",\n    \"selector\": \"button:has-text(\\\"calculate\\\" i), button:has-text(\\\"compute\\\" i)\"\n  },\n  {\n    \"action\": \"click\",\n    \"selector\": \"button:has-text(\\\"save\\\" i)\"\n  }\n]\n</OUTPUT_JSON>"
+  }
+}

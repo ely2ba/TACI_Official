@@ -1,0 +1,49 @@
+{
+  "uid": "dc35566b",
+  "variant": 0,
+  "temperature": 0.5,
+  "model": "gpt-4o",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T23:37:40Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "b1ac045c1a947bb4d70d059931e67b3014310d0dc0649de077ee69a7bab47991",
+  "response": {
+    "id": "chatcmpl-BaWFFofB45NayrxCbHwo3AtedJ5hz",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>Preparing for trial by organizing exhibits involves several key steps. First, gather all evidence and documents relevant to the case. Next, create an inventory or index of these exhibits to ensure nothing is overlooked. Then, label each exhibit clearly, using a consistent naming or numbering system. Organize the exhibits in a logical sequence, often chronologically or by topic, to facilitate easy access during the trial. Prepare copies of the exhibits for all parties involved, including the court, opposing counsel, and the client. Finally, ensure all exhibits are securely stored and easily transportable to the trial venue. This meticulous organization helps ensure a smooth presentation of evidence during the trial.</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748043457,
+    "model": "gpt-4o-2024-08-06",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_76544d79cb",
+    "usage": {
+      "completion_tokens": 137,
+      "prompt_tokens": 94,
+      "total_tokens": 231,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

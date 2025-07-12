@@ -1,0 +1,49 @@
+{
+  "uid": "93eea469",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-4o",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:50:38Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "5840f80417a02a7d3ad8c40d2d2041b1542ff5380995b92d069040eb287bf935",
+  "response": {
+    "id": "chatcmpl-Bi1totI6dr87h2GWdbSzH2xRtzQmi",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n<h1>Meeting Agenda for Case Discussion</h1>\n\n1. **Introduction and Objectives**\n   - Brief introduction of all participants.\n   - Outline the objectives of the meeting.\n\n2. **Case Overview**\n   - Present a summary of the case details.\n   - Discuss the key issues and challenges involved.\n\n3. **Client's Perspective**\n   - Allow the client to express their views and concerns.\n   - Address any questions or clarifications the client may have.\n\n4. **Professional Insights**\n   - Invite other professionals to share their expertise and insights.\n   - Discuss any legal precedents or similar cases.\n\n5. **Strategy Development**\n   - Brainstorm potential strategies and solutions.\n   - Evaluate the pros and cons of each approach.\n\n6. **Action Plan and Next Steps**\n   - Develop a clear action plan with assigned responsibilities.\n   - Set timelines and deadlines for each action item.\n\n7. **Q&A Session**\n   - Open the floor for any additional questions or comments.\n   - Ensure all participants have a clear understanding of the discussed points.\n\n8. **Conclusion**\n   - Summarize the key takeaways from the meeting.\n   - Confirm the next meeting date and any follow-up actions.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749833432,
+    "model": "gpt-4o-2024-08-06",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_07871e2ad8",
+    "usage": {
+      "completion_tokens": 252,
+      "prompt_tokens": 117,
+      "total_tokens": 369,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

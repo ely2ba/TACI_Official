@@ -1,0 +1,49 @@
+{
+  "uid": "07080553",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gpt-4-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:37:02Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "acb24bee05a0f7b8bea5c38e5a76f68132b2b74e13fdae3608ba58b711cf52c6",
+  "response": {
+    "id": "chatcmpl-BaVIRsB3aMuCPmreTBsArdJW0Nzia",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Legal Document Preparation and Organization\n\n## 1. Preparing Affidavits\nTo prepare an affidavit, follow these steps:\n- Identify the purpose of the affidavit and gather all necessary information from the client.\n- Draft the affidavit, ensuring to include a statement of truth, the facts in a numbered format, and the signature block for the affiant and notary public.\n- Review the affidavit with the client for accuracy and completeness.\n- Arrange for the client to sign the affidavit in the presence of a notary public.\n\n## 2. Preparing Legal Correspondence\nWhen preparing legal correspondence, consider the following:\n- Determine the purpose of the correspondence and the recipient.\n- Draft the document, keeping the language professional and concise.\n- Include relevant case or file numbers, and reference any pertinent documents or prior communications.\n- Proofread the correspondence for any errors and ensure it meets all legal requirements.\n\n## 3. Organizing and Maintaining Documents\nTo effectively organize and maintain legal documents, either in paper or electronic form, use these strategies:\n- Create a consistent filing system based on client name, case number, or date, which can be easily understood and accessed by others in the office.\n- For paper documents, use labeled folders and secure filing cabinets. Regularly archive older files to maintain space and efficiency.\n- For electronic documents, utilize legal document management software to categorize, tag, and secure files. Ensure regular backups and use appropriate security measures to protect sensitive information.\n- Regularly review and update the filing system to accommodate new types of documents or changes in legal practices.\n\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748039811,
+    "model": "gpt-4-turbo-2024-04-09",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_de235176ee",
+    "usage": {
+      "completion_tokens": 327,
+      "prompt_tokens": 98,
+      "total_tokens": 425,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

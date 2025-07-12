@@ -1,0 +1,50 @@
+{
+  "uid": "d0cae549",
+  "variant": 2,
+  "temperature": 0.0,
+  "seed": 0,
+  "model": "o3-2025-04-16",
+  "modality": "TEXT",
+  "timestamp": "2025-06-21T20:51:50Z",
+  "commit_sha": "ac1698886e89fb01e65b6ca5c8e06e97f58dd0fa",
+  "prompt_sha256": "0e8cd22ff001ca6ad7a8b4f58709f39e29490bd143dd1123aee28c51547a181e",
+  "response": {
+    "id": "chatcmpl-BkzTXPCAKnq3ZlGQlGf5mf5aYsdRB",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Call Upon Witnesses to Testify at Hearing\n\n1. Purpose  \n   This notice formally summons the individuals listed below to appear and give testimony at the scheduled hearing.\n\n2. Hearing Details  \n   \u2022 Date: ____________________  \n   \u2022 Time: ____________________  \n   \u2022 Location: __________________________ (courtroom/hearing room)  \n   \u2022 Case Name / No.: ____________________________________________\n\n3. Witnesses Called to Testify  \n   3.1 Name: ______________________________  \n       \u2022 Address: __________________________  \n       \u2022 Phone/Email: ______________________  \n       \u2022 Subject of Testimony: __________________________________  \n   3.2 Name: ______________________________  \n       \u2022 Address: __________________________  \n       \u2022 Phone/Email: ______________________  \n       \u2022 Subject of Testimony: __________________________________  \n   3.3 Name: ______________________________  \n       \u2022 Address: __________________________  \n       \u2022 Phone/Email: ______________________  \n       \u2022 Subject of Testimony: __________________________________  \n\n4. Documents and Evidence to Bring  \n   Each witness must bring any records, photographs, reports, or other materials specifically referenced by counsel or required by subpoena.\n\n5. Appearance Instructions  \n   \u2022 Arrive at least 30 minutes before the scheduled start time.  \n   \u2022 Check in with the clerk or bailiff upon arrival.  \n   \u2022 Bring a government-issued photo ID.  \n   \u2022 Remain available until excused by the presiding officer or judge.\n\n6. Service of Notice  \n   This call to testify may be served by personal delivery, certified mail, or any other method authorized by the applicable rules of procedure. Proof of service must be filed with the tribunal.\n\n7. Consequences of Non-Compliance  \n   Failure to appear, or refusal to testify after being duly sworn, may result in contempt proceedings, monetary sanctions, issuance of a bench warrant, or other penalties permitted by law.\n\n8. Contact Information  \n   \u2022 Issuing Party / Counsel: ______________________________  \n   \u2022 Address: ____________________________________________  \n   \u2022 Phone: _______________________  Email: ____________________  \n\n9. Acknowledgment of Receipt  \n   I, _____________________________, acknowledge receipt of this notice on _______________ (date).  \n   Signature: _________________________________  \n\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1750539099,
+    "model": "o3-2025-04-16",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 661,
+      "prompt_tokens": 112,
+      "total_tokens": 773,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 192,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

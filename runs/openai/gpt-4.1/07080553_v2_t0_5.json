@@ -1,0 +1,49 @@
+{
+  "uid": "07080553",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-4.1",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T23:07:15Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "acb24bee05a0f7b8bea5c38e5a76f68132b2b74e13fdae3608ba58b711cf52c6",
+  "response": {
+    "id": "chatcmpl-BaVljsYQxHhP9AsmU4rqsa9eGZZv6",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Legal Document Preparation and Organization\n\n1. **Affidavit Preparation**  \n   - Draft affidavits in accordance with jurisdictional requirements, ensuring inclusion of all relevant facts, personal details of the affiant, and a statement of truth.  \n   - Format affidavits with appropriate headings, numbered paragraphs, and signature blocks for both the affiant and notary or authorized witness.  \n   - Review the affidavit for accuracy, completeness, and compliance with court or agency rules.\n\n2. **Preparation of Legal Correspondence**  \n   - Compose letters, notices, and other legal correspondence as directed, using standard legal formats.  \n   - Ensure all correspondence clearly states the subject, parties involved, relevant dates, and any requests or instructions.  \n   - Proofread documents for clarity, professionalism, and adherence to confidentiality requirements.\n\n3. **Document Organization and Maintenance**  \n   - Establish and maintain both paper and electronic filing systems using logical, case-based folders and standardized naming conventions.  \n   - Index documents for easy retrieval, noting document type, date, and relevant parties.  \n   - Regularly update files to include new pleadings, correspondence, and evidence, removing duplicates or outdated versions as necessary.\n\n4. **Document Security and Confidentiality**  \n   - Implement access controls for sensitive documents, ensuring only authorized personnel have access.  \n   - Back up electronic files regularly and store paper documents in secured, locked locations.  \n   - Follow all applicable privacy laws and firm policies regarding client information.\n\n5. **Ongoing Review and Compliance**  \n   - Periodically audit files for completeness and compliance with applicable retention policies.  \n   - Prepare checklists and summaries to track document status and outstanding requirements.  \n   - Coordinate with attorneys and staff to ensure timely filing and service of documents as required by court deadlines.\n\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748041627,
+    "model": "gpt-4.1-2025-04-14",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_51e1070cf2",
+    "usage": {
+      "completion_tokens": 372,
+      "prompt_tokens": 98,
+      "total_tokens": 470,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

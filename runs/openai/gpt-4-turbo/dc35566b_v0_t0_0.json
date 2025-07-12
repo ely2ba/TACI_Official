@@ -1,0 +1,49 @@
+{
+  "uid": "dc35566b",
+  "variant": 0,
+  "temperature": 0.0,
+  "model": "gpt-4-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T23:36:12Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "b1ac045c1a947bb4d70d059931e67b3014310d0dc0649de077ee69a7bab47991",
+  "response": {
+    "id": "chatcmpl-BaWDrLnCipKOGbIn571TrQhYDzh7k",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nTASK \u2013 Prepare for trial by performing tasks such as organizing exhibits.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748043371,
+    "model": "gpt-4-turbo-2024-04-09",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_de235176ee",
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 94,
+      "total_tokens": 115,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

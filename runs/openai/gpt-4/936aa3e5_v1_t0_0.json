@@ -1,0 +1,49 @@
+{
+  "uid": "936aa3e5",
+  "variant": 1,
+  "temperature": 0.0,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:17:49Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "b617c32531fd6744a3261fd8796f26de73fe268cd4aa07f24b39dd8870b9621d",
+  "response": {
+    "id": "chatcmpl-BaUzskfXgFXvMm3D39aAxHPjpVxs3",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n\nSubject: Financial Calculations Summary\n\nDear Client,\n\nI hope this message finds you well. I have completed the financial calculations for your account as requested. Here are the details:\n\n1. Amounts Due: The total amount due for the current period is $15,000. This includes all outstanding invoices and any accrued charges.\n\n2. Interest Charges: Based on your current outstanding balance, the interest charges for this period amount to $300.\n\n3. Balances: The total balance on your account, including the amounts due and interest charges, is $15,300.\n\n4. Discounts: You have qualified for a discount of $200 on your next purchase due to your prompt payments in the past.\n\n5. Equity: The total equity in your business, calculated as the difference between your assets and liabilities, stands at $50,000.\n\n6. Principal: The principal amount on your outstanding loan is $10,000.\n\nPlease review these calculations and let me know if you have any questions or need further clarification. \n\nBest Regards,\n\n[Your Name]\n[Your Position]\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748038660,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 223,
+      "prompt_tokens": 93,
+      "total_tokens": 316,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

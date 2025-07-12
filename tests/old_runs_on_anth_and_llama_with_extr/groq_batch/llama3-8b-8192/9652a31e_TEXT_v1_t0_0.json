@@ -1,0 +1,43 @@
+{
+  "uid": "9652a31e",
+  "variant": 1,
+  "modality": "TEXT",
+  "temperature": 0.0,
+  "model": "llama3-8b-8192",
+  "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+  "timestamp": "2025-05-28T14:53:48.042095Z",
+  "prompt_sha256": "3e3e36d384a9ed42bb66a4196569487f29516dad7cb5dce6aab758539ec6eabd",
+  "response": {
+    "id": "chatcmpl-e05041fd-7d0b-40ba-9efe-1018d352eed4",
+    "object": "chat.completion",
+    "created": 1748444027,
+    "model": "llama3-8b-8192",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "<OUTPUT_TEXT>\nDear [Client],\n\nRe: Damaged Goods Received on [Date]\n\nI am writing to inform you that we have received a shipment of goods from your company on [Date], which has been damaged during transit. Upon inspection, we have found that [list specific items or quantities that are damaged]. We understand that this is not the standard quality that your company is known for, and we are working to resolve this issue as soon as possible.\n\nWe have contacted the shipping carrier and they are investigating the matter. In the meantime, we would like to request that you send a replacement shipment of the damaged goods as soon as possible. We would also appreciate it if you could provide a credit for the damaged goods to our account.\n\nPlease let us know if there are any issues or concerns regarding this matter. We appreciate your prompt attention to this matter and look forward to resolving this issue.\n\nSincerely,\n[Your Name]\nShipping Receiving And Inventory Clerk\n</OUTPUT_TEXT>"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "queue_time": 0.16163039299999998,
+      "prompt_tokens": 131,
+      "prompt_time": 0.024937016,
+      "completion_tokens": 197,
+      "completion_time": 0.164166667,
+      "total_tokens": 328,
+      "total_time": 0.189103683
+    },
+    "usage_breakdown": {
+      "models": null
+    },
+    "system_fingerprint": "fp_dadc9d6142",
+    "x_groq": {
+      "id": "req_01jwbp56xgfx3r7afhzxkr4v7q"
+    }
+  }
+}

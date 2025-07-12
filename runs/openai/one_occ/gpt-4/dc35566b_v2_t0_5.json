@@ -1,0 +1,49 @@
+{
+  "uid": "dc35566b",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:37:55Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "5c2b1790f2417a640aaa0c9ab20011ff442927bfe17d78d43ba60b94c8a66652",
+  "response": {
+    "id": "chatcmpl-Bi1hMlYVhHSUoN7QlFoj9AbbYmVXC",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Trial Preparation: Organizing Exhibits\n\n1. **Identifying Exhibits**\n   Identify all potential exhibits that may be used during the trial. This includes documents, photographs, physical objects, digital files, and any other evidence that supports our case.\n\n2. **Cataloguing Exhibits**\n   Create a comprehensive catalogue of all exhibits. Each exhibit should be labeled with a unique identifier, a brief description, and the source of the exhibit.\n\n3. **Reviewing Exhibits**\n   Review each exhibit to ensure its relevance and legality. Consult with the attorney to determine the importance and sequence of each exhibit.\n\n4. **Organizing Exhibits**\n   Organize the exhibits in a logical order that aligns with the planned sequence of the trial. This could be chronological, by witness, or by issue.\n\n5. **Preparing Exhibit Binders**\n   Prepare binders or digital folders for each exhibit. Each binder should include the exhibit itself, as well as any supporting documentation or notes related to the exhibit.\n\n6. **Creating an Exhibit List**\n   Create a master list of all exhibits, including their identifiers, descriptions, and locations. This list will be used by the legal team during the trial to quickly locate and reference each exhibit.\n\n7. **Preparing for Court**\n   Pack all physical exhibits and binders in secure, transportable boxes. Digital exhibits should be loaded onto secure, password-protected devices.\n\n8. **Backup of Exhibits**\n   Create backups of all exhibits, especially digital ones, to prevent any loss of evidence. Store backups in a separate, secure location.\n\n9. **Communication with Legal Team**\n   Communicate with the legal team to ensure everyone is familiar with the exhibits and their organization. Provide each team member with a copy of the exhibit list.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749832660,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 365,
+      "prompt_tokens": 116,
+      "total_tokens": 481,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

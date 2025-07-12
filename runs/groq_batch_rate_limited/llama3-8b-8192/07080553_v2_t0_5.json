@@ -1,0 +1,44 @@
+{
+  "uid": "07080553",
+  "variant": 2,
+  "modality": "TEXT",
+  "temperature": 0.5,
+  "model": "llama3-8b-8192",
+  "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+  "timestamp": "2025-05-28T19:19:05.908848Z",
+  "prompt_sha256": "828a640016258050a3cfb8fd14c06dd87d9118a39789f121dc3a89bcebd38100",
+  "commit_sha": "170b9e3e1d0d59846b1daa69da57be5d1db6306c",
+  "response": {
+    "id": "chatcmpl-1488df99-b51c-4dc9-b463-5aaef503f678",
+    "object": "chat.completion",
+    "created": 1748459945,
+    "model": "llama3-8b-8192",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "<OUTPUT_TEXT>\n<h1>Document Preparation and Organization</h1>\n\n<h2>1. Affidavits and Correspondence</h2>\nAs a paralegal, I am responsible for preparing affidavits and other legal documents, including correspondence. This involves reviewing and analyzing case files, legal documents, and other relevant materials to ensure accuracy and completeness. I draft and proofread documents, ensuring that they are clear, concise, and compliant with relevant laws and regulations.\n\n<h2>2. Document Organization and Maintenance</h2>\nI organize and maintain documents in both paper and electronic filing systems. This includes creating and updating filing systems, tracking and managing documents, and ensuring that all documents are properly labeled and stored. I also ensure that electronic documents are properly backed up and easily accessible.\n\n<h2>3. Document Control and Security</h2>\nI maintain control and security over all documents, ensuring that they are only accessible to authorized personnel. I also implement measures to prevent loss, damage, or unauthorized disclosure of confidential documents.\n\n<h2>4. Document Retrieval and Production</h2>\nWhen requested, I retrieve and produce documents in a timely and efficient manner. This includes searching for and locating documents, photocopying or scanning them as needed, and delivering them to the appropriate parties.\n\n<h2>5. Document Review and Quality Control</h2>\nI review and quality control all documents to ensure accuracy, completeness, and compliance with relevant laws and regulations. This includes checking for errors, inconsistencies, and omissions, and making necessary corrections or revisions.\n\n</OUTPUT_TEXT>"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "queue_time": 0.210084903,
+      "prompt_tokens": 134,
+      "prompt_time": 0.023162375,
+      "completion_tokens": 323,
+      "completion_time": 0.269166667,
+      "total_tokens": 457,
+      "total_time": 0.292329042
+    },
+    "usage_breakdown": {
+      "models": null
+    },
+    "system_fingerprint": "fp_dadc9d6142",
+    "x_groq": {
+      "id": "req_01jwc5az93fby9hx124vck2c46"
+    }
+  }
+}

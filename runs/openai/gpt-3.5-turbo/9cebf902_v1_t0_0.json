@@ -1,0 +1,49 @@
+{
+  "uid": "9cebf902",
+  "variant": 1,
+  "temperature": 0.0,
+  "model": "gpt-3.5-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T21:58:20Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "9e1bc814b212e4c47604050a66e9da3073e7f1683e2e3a3d8cb6c57d123c3014",
+  "response": {
+    "id": "chatcmpl-BaUh902IEWisyuSmYAKSFp562GZpW",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>After conducting thorough research on the relevant statutes, decisions, legal articles, codes, and documents, it is evident that there is a strong legal basis to support our client's case. The statutes clearly outline the rights and obligations of all parties involved, while the decisions provide precedent for similar situations. Additionally, the legal articles offer valuable insights and interpretations of the law that can strengthen our arguments. Overall, the research data indicates a favorable position for our client.</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748037499,
+    "model": "gpt-3.5-turbo-0125",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 97,
+      "prompt_tokens": 91,
+      "total_tokens": 188,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

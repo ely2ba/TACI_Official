@@ -1,0 +1,49 @@
+{
+  "uid": "8cc4a9e1",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-4",
+  "modality": "GUI",
+  "timestamp": "2025-05-23T22:02:31Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "793545db2efa424f8609db006d4dc615bbffcfb8d38fbcf6afedff11f8dedc64",
+  "response": {
+    "id": "chatcmpl-BaUl8K65r84Iz4144RRjFNWMTJGVr",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_JSON>[\n  {\n    \"action\": \"fill\",\n    \"selectors\": [\"input[name*=space i], input[placeholder*=space i]\"],\n    \"value\": \"<space_available>\"\n  },\n  {\n    \"action\": \"fill\",\n    \"selectors\": [\"input[name*=charge i]\"],\n    \"value\": \"<charge_amount>\"\n  },\n  {\n    \"action\": \"click\",\n    \"selectors\": [\"button:has-text(\\\"calculate\\\" i), button:has-text(\\\"compute\\\" i)\"]\n  },\n  {\n    \"action\": \"click\",\n    \"selectors\": [\"button:has-text(\\\"save\\\" i)\"]\n  }\n]</OUTPUT_JSON>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748037746,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 138,
+      "prompt_tokens": 153,
+      "total_tokens": 291,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

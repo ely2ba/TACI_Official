@@ -1,0 +1,15 @@
+{
+  "uid": "dc35566b",
+  "variant": 1,
+  "modality": "TEXT",
+  "temperature": 0.5,
+  "model": "claude-3-opus-20240229",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T17:49:06.574979Z",
+  "commit_sha": "98b2eb0f130d4d32e78707f77c440a8f68e4103c",
+  "prompt_sha256": "765f66845fe94cc26e415321bd6986741705cf0896b53b9a639c6f287a20df02",
+  "response": {
+    "raw": "Here is my attempt at a memo for preparing exhibits for trial:\n<OUTPUT_TEXT>\nTo: Supervising Attorney\nFrom: [Assistant's Name], Senior Paralegal\nRe: Preparing Exhibits for [Case Name] Trial\nDate: [Current Date]\nI have begun organizing the exhibits for the upcoming [Case Name] trial:\n• Gathered all potential exhibits and created an inventory log\n• Labeled each exhibit with an identifying trial exhibit number\n• Made copies of each exhibit (3 copies for trial, 1 copy for our records)\n• Organized exhibits in trial binders by exhibit number, with an index\n• Prepared electronic exhibit files on USB drives for the judge and opposing counsel\n• Confirmed all exhibits have been properly disclosed during discovery\n• Flagged key exhibits to discuss with you for witness examinations\nPlease let me know if you need anything else as we prepare for trial. I will have the exhibit binders and USB drives ready for your review by [date].\n</OUTPUT_TEXT>",
+    "extracted": "<OUTPUT_TEXT>\nTo: Supervising Attorney\nFrom: [Assistant's Name], Senior Paralegal\nRe: Preparing Exhibits for [Case Name] Trial\nDate: [Current Date]\nI have begun organizing the exhibits for the upcoming [Case Name] trial:\n• Gathered all potential exhibits and created an inventory log\n• Labeled each exhibit with an identifying trial exhibit number\n• Made copies of each exhibit (3 copies for trial, 1 copy for our records)\n• Organized exhibits in trial binders by exhibit number, with an index\n• Prepared electronic exhibit files on USB drives for the judge and opposing counsel\n• Confirmed all exhibits have been properly disclosed during discovery\n• Flagged key exhibits to discuss with you for witness examinations\nPlease let me know if you need anything else as we prepare for trial. I will have the exhibit binders and USB drives ready for your review by [date].\n</OUTPUT_TEXT>"
+  }
+}

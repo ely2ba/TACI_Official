@@ -1,0 +1,49 @@
+{
+  "uid": "3a55f5ca",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-3.5-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:27:38Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "cd07b991d8a43f6f05d21bac3250f3274274b6b2d0d4cfbb115d60c578d9e5c7",
+  "response": {
+    "id": "chatcmpl-Bi1XcTb6UAwvkVT81aak4v5XHEg0t",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n    \n# Legal Document Preparation and Review\n\n1. **Legislation**\n- Drafting and reviewing legislative documents to ensure accuracy and compliance with legal requirements.\n\n2. **Briefs and Pleadings**\n- Assisting in the preparation of briefs and pleadings for court filings, outlining legal arguments and supporting evidence.\n\n3. **Appeals**\n- Reviewing appeal documents to identify legal issues, research relevant case law, and assist in drafting persuasive arguments.\n\n4. **Wills**\n- Drafting and reviewing wills to ensure they accurately reflect the testator's wishes and comply with applicable laws.\n\n5. **Contracts**\n- Assisting in the preparation and review of contracts to protect clients' interests and ensure legal enforceability.\n\n6. **Real Estate Closing Statements**\n- Reviewing real estate closing documents to verify accuracy, resolve any discrepancies, and facilitate smooth property transactions.\n\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749832056,
+    "model": "gpt-3.5-turbo-0125",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 183,
+      "prompt_tokens": 136,
+      "total_tokens": 319,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

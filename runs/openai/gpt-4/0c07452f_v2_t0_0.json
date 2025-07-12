@@ -1,0 +1,49 @@
+{
+  "uid": "0c07452f",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:12:12Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "97bdb486738236a72ee38f1c9a723099c8dcc19d09559b914ae92fdfa55d7525",
+  "response": {
+    "id": "chatcmpl-BaUuPgKcN0kf3ZJQivJ93mzIUrYye",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Enforcing Administration Policies and Rules Governing Students\n\n1. Clearly Communicate Policies and Rules: Ensure that all students are aware of the school's policies and rules. This can be done through classroom discussions, handouts, or posters displayed in the classroom.\n\n2. Model Appropriate Behavior: As a teacher, it's important to model the behavior expected from students. This includes following the school's policies and rules.\n\n3. Monitor Student Behavior: Keep an eye on student behavior during class, recess, and other school activities. This will help identify any rule-breaking behavior.\n\n4. Address Rule-Breaking Behavior: If a student breaks a rule, address the behavior immediately. This could involve a conversation with the student, a note home to parents, or a referral to the school administration, depending on the severity of the behavior.\n\n5. Reinforce Positive Behavior: When students follow the rules, acknowledge their positive behavior. This can encourage other students to do the same.\n\n6. Collaborate with Parents and Guardians: Keep parents and guardians informed about their child's behavior at school. This can help reinforce the school's policies and rules at home.\n\n7. Provide Consistent Consequences: If a student breaks a rule, ensure that the consequences are consistent. This can help students understand the seriousness of their actions.\n\n8. Review and Update Policies and Rules: Regularly review the school's policies and rules to ensure they are effective and up-to-date. If necessary, make changes or additions to better manage student behavior.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748038321,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 312,
+      "prompt_tokens": 82,
+      "total_tokens": 394,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

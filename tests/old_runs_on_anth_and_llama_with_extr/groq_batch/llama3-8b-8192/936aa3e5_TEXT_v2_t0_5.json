@@ -1,0 +1,43 @@
+{
+  "uid": "936aa3e5",
+  "variant": 2,
+  "modality": "TEXT",
+  "temperature": 0.5,
+  "model": "llama3-8b-8192",
+  "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+  "timestamp": "2025-05-28T14:53:54.317088Z",
+  "prompt_sha256": "67c59d378ebaf9d1b7f895ab9064773167723258cc75eb4b1226b8ffe87977f3",
+  "response": {
+    "id": "chatcmpl-31a20964-b856-4e0a-b049-946f1f6db091",
+    "object": "chat.completion",
+    "created": 1748444034,
+    "model": "llama3-8b-8192",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "<OUTPUT_TEXT>\n<h1>Financial Calculations</h1>\n\n<h2>Amounts Due</h2>\nTo calculate the amount due, we need to subtract the principal from the total amount. Let's say the total amount is $1,000 and the principal is $800.\n\n1. Amount due = Total amount - Principal\n= $1,000 - $800\n= $200\n\n<h2>Interest Charges</h2>\nTo calculate the interest charge, we need to multiply the principal by the interest rate and the number of years. Let's say the principal is $1,000, the interest rate is 5%, and the number of years is 2.\n\n1. Interest charge = Principal x Interest rate x Number of years\n= $1,000 x 0.05 x 2\n= $100\n\n<h2>Balance</h2>\nTo calculate the balance, we need to add the principal and the interest charge. Let's say the principal is $1,000 and the interest charge is $100.\n\n1. Balance = Principal + Interest charge\n= $1,000 + $100\n= $1,100\n\n<h2>Discounts</h2>\nTo calculate the discount, we need to subtract the discount amount from the principal. Let's say the principal is $1,000 and the discount amount is $50.\n\n1. Discount = Principal - Discount amount\n= $1,000 - $50\n= $950\n\n<h2>Equity</h2>\nTo calculate the equity, we need to subtract the principal and the interest charge from the total amount. Let's say the total amount is $1,000, the principal is $800, and the interest charge is $100.\n\n1. Equity = Total amount - Principal - Interest charge\n= $1,000 - $800 - $100\n= $100\n\n<h2>Principal</h2>\nTo calculate the principal, we need to subtract the interest charge from the total amount. Let's say the total amount is $1,000 and the interest charge is $100.\n\n1. Principal = Total amount - Interest charge\n= $1,000 - $100\n= $900\n</OUTPUT_TEXT>"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "queue_time": 0.16299923000000002,
+      "prompt_tokens": 131,
+      "prompt_time": 0.024927186,
+      "completion_tokens": 458,
+      "completion_time": 0.381666667,
+      "total_tokens": 589,
+      "total_time": 0.406593853
+    },
+    "usage_breakdown": {
+      "models": null
+    },
+    "system_fingerprint": "fp_dadc9d6142",
+    "x_groq": {
+      "id": "req_01jwbp5cvhf6dremtp00mgd1h4"
+    }
+  }
+}

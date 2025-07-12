@@ -1,0 +1,49 @@
+{
+  "uid": "2e2364b7",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-3.5-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:28:11Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "cee4e4cced006a4842340997b6ed1bbff872b7344ee46acccdf523da2a41dd4c",
+  "response": {
+    "id": "chatcmpl-Bi1Y5wzs38i9j96FS227J6xzakDqV",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n<h1>Filing Pleadings with Court Clerk</h1>\n\n1. Prepare the Pleadings\n   - Make sure all necessary documents are complete and accurate.\n   - Review the local court rules for specific requirements.\n\n2. Make Copies\n   - Ensure you have enough copies for all parties involved.\n   - Keep a copy for your records.\n\n3. Visit the Court Clerk\n   - Go to the courthouse during business hours.\n   - Submit the pleadings to the court clerk for filing.\n   - Pay any necessary filing fees.\n\n4. Get Stamped Copies\n   - Once filed, make sure to get stamped copies as proof of filing.\n   - Keep these stamped copies in a safe place.\n\n5. Serve the Other Parties\n   - Serve the filed pleadings on all other parties involved in the case.\n   - Follow the proper service methods required by law.\n\n6. File Proof of Service\n   - File proof of service with the court clerk once all parties have been served.\n   - This ensures that the court has a record of proper service.\n\n7. Follow Up\n   - Check the case docket regularly for updates.\n   - Follow up with the court clerk if there are any issues or delays.\n\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749832085,
+    "model": "gpt-3.5-turbo-0125",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 255,
+      "prompt_tokens": 112,
+      "total_tokens": 367,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "uid": "07080553",
+  "variant": 0,
+  "modality": "TEXT",
+  "temperature": 0.5,
+  "model": "claude-3-opus-20240229",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T17:52:55.229680Z",
+  "commit_sha": "98b2eb0f130d4d32e78707f77c440a8f68e4103c",
+  "prompt_sha256": "b60d24599d1df23bd17991a8c681b996a2dd542b4a3676448842122e2105f6c1",
+  "response": {
+    "raw": "Here is my attempt at the requested task:\n\n<OUTPUT_TEXT>\nAFFIDAVIT OF JANE DOE\n\nI, Jane Doe, being duly sworn, depose and say:\n\n1. I am over 18 years of age and competent to make this affidavit based on my personal knowledge. \n\n2. I am currently employed as a paralegal at the Law Offices of Smith & Jones, located at 123 Main Street, Anytown, Anystate.\n\n3. In my role as a paralegal, I assist the attorneys in preparing legal documents, conducting legal research, and maintaining client files and records.\n\n4. On April 1, 2023, at the request of Attorney John Smith, I prepared a legal memorandum analyzing the statute of limitations for breach of contract claims in Anystate. I conducted thorough research of relevant Anystate statutes and case law in preparing this memorandum. \n\n5. The legal memorandum I prepared was filed in the electronic document management system maintained by the Law Offices of Smith & Jones, in the client folder for Acme Company, one of the firm's clients. The memorandum was saved in the appropriate subfolder and was named using the firm's standard naming conventions for legal research memoranda.\n\n6. A true and correct copy of the legal memorandum I prepared is attached to this Affidavit as Exhibit A.\n\nI declare under penalty of perjury that the foregoing is true and correct.\n\nExecuted on April 15, 2023\n\nJane Doe\nJane Doe\n</OUTPUT_TEXT>",
+    "extracted": "<OUTPUT_TEXT>\nAFFIDAVIT OF JANE DOE\n\nI, Jane Doe, being duly sworn, depose and say:\n\n1. I am over 18 years of age and competent to make this affidavit based on my personal knowledge. \n\n2. I am currently employed as a paralegal at the Law Offices of Smith & Jones, located at 123 Main Street, Anytown, Anystate.\n\n3. In my role as a paralegal, I assist the attorneys in preparing legal documents, conducting legal research, and maintaining client files and records.\n\n4. On April 1, 2023, at the request of Attorney John Smith, I prepared a legal memorandum analyzing the statute of limitations for breach of contract claims in Anystate. I conducted thorough research of relevant Anystate statutes and case law in preparing this memorandum. \n\n5. The legal memorandum I prepared was filed in the electronic document management system maintained by the Law Offices of Smith & Jones, in the client folder for Acme Company, one of the firm's clients. The memorandum was saved in the appropriate subfolder and was named using the firm's standard naming conventions for legal research memoranda.\n\n6. A true and correct copy of the legal memorandum I prepared is attached to this Affidavit as Exhibit A.\n\nI declare under penalty of perjury that the foregoing is true and correct.\n\nExecuted on April 15, 2023\n\nJane Doe\nJane Doe\n</OUTPUT_TEXT>"
+  }
+}

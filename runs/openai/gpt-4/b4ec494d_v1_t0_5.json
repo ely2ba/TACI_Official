@@ -1,0 +1,49 @@
+{
+  "uid": "b4ec494d",
+  "variant": 1,
+  "temperature": 0.5,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:08:15Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "5decac0c7e3673218126b8d0a561c29bd98fc6330e436af7d1c9cff204e9974d",
+  "response": {
+    "id": "chatcmpl-BaUqd1YBrLNY8LHomdRgz88Ngzzuk",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n\nSubject: Unresolved Customer Grievances for Further Investigation\n\nDear Team,\n\nI hope this message finds you well. As part of our ongoing commitment to delivering exceptional customer service, we have a few unresolved customer grievances that require further investigation.\n\nThese cases have been escalated to our department but require additional expertise for resolution. They encompass various issues, ranging from product malfunctions to billing discrepancies.\n\nI kindly request that these cases be assigned to the respective departments for a thorough investigation. Please find the attached document detailing each case, including the customer's information, the nature of their grievance, and any steps taken thus far.\n\nOur objective is to address these issues promptly and efficiently to ensure customer satisfaction. We believe that with your assistance, we can achieve a positive resolution for all parties involved.\n\nThank you for your immediate attention to these matters.\n\nBest Regards,\n\n[Your Name]\n[Your Position]\n\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748038087,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 184,
+      "prompt_tokens": 75,
+      "total_tokens": 259,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

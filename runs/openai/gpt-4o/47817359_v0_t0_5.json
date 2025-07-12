@@ -1,0 +1,49 @@
+{
+  "uid": "47817359",
+  "variant": 0,
+  "temperature": 0.5,
+  "model": "gpt-4o",
+  "modality": "GUI",
+  "timestamp": "2025-05-23T22:44:41Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "5b1cb7cc82a9d165442bbaba83f84fc55ed6e82d88c8f7e1cb86afe835331541",
+  "response": {
+    "id": "chatcmpl-BaVQ0T9lCtTIEjy7pKmsacYP67sW3",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_JSON>[{\"action\":\"type\",\"selector\":\"input[name*=account i]\",\"text\":\"Account Name or ID\"},{\"action\":\"type\",\"selector\":\"input[name*=amount i], input[type=number]\",\"text\":\"1000\"},{\"action\":\"type\",\"selector\":\"textarea[name*=memo i]\",\"text\":\"Transaction memo or details\"},{\"action\":\"click\",\"selector\":\"button:has-text(\\\"post\\\" i), button:has-text(\\\"save\\\" i)\",\"text\":\"\"}]</OUTPUT_JSON>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748040280,
+    "model": "gpt-4o-2024-08-06",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_07871e2ad8",
+    "usage": {
+      "completion_tokens": 101,
+      "prompt_tokens": 150,
+      "total_tokens": 251,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

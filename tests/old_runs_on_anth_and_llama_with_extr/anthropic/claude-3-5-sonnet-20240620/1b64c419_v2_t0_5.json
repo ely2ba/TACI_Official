@@ -1,0 +1,15 @@
+{
+  "uid": "1b64c419",
+  "variant": 2,
+  "modality": "TEXT",
+  "temperature": 0.5,
+  "model": "claude-3-5-sonnet-20240620",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T18:05:53.044972Z",
+  "commit_sha": "98b2eb0f130d4d32e78707f77c440a8f68e4103c",
+  "prompt_sha256": "40e5184f7a2d407496471943452b87d5c376fad2cc37b036f887fb583a7af3c2",
+  "response": {
+    "raw": "Here is my response formatted as requested:\n\n<OUTPUT_TEXT>\n\n# Answering Telephones and Directing Calls\n\n1. Answer promptly within 2-3 rings\n2. Use a professional greeting: \"[Organization name], this is [your name]. How may I help you?\"\n3. Listen carefully to determine the caller's needs\n4. Check staff availability using phone system or scheduling software\n5. Transfer calls using proper procedure:\n   - Inform caller you'll transfer them\n   - Use transfer function on phone system\n   - Notify staff member before connecting call\n6. Take detailed messages if staff unavailable:\n   - Caller's name, company, phone number\n   - Reason for call\n   - Best time to return call\n7. Handle basic inquiries yourself when possible\n8. Maintain a calm, courteous demeanor at all times\n9. End calls professionally: \"Is there anything else I can assist you with?\"\n10. Document calls as needed in patient records or office logs\n\n</OUTPUT_TEXT>",
+    "extracted": "<OUTPUT_TEXT>\n# Answering Telephones and Directing Calls\n\n1. Answer promptly within 2-3 rings\n2. Use a professional greeting: \"[Organization name], this is [your name]. How may I help you?\"\n3. Listen carefully to determine the caller's needs\n4. Check staff availability using phone system or scheduling software\n5. Transfer calls using proper procedure:\n   - Inform caller you'll transfer them\n   - Use transfer function on phone system\n   - Notify staff member before connecting call\n6. Take detailed messages if staff unavailable:\n   - Caller's name, company, phone number\n   - Reason for call\n   - Best time to return call\n7. Handle basic inquiries yourself when possible\n8. Maintain a calm, courteous demeanor at all times\n9. End calls professionally: \"Is there anything else I can assist you with?\"\n10. Document calls as needed in patient records or office logs\n</OUTPUT_TEXT>"
+  }
+}

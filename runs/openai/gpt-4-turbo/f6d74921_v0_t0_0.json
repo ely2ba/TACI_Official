@@ -1,0 +1,49 @@
+{
+  "uid": "f6d74921",
+  "variant": 0,
+  "temperature": 0.0,
+  "model": "gpt-4-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T23:36:26Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "fc78ef27c3a93ac2590af919c542bb4d1547333b04319aab6c8573d23adee577",
+  "response": {
+    "id": "chatcmpl-BaWE5HRg4JxJNDIlgsPvcoemkiPC9",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nTASK \u2013 Involve parent volunteers and older students in children&#x27;s activities to facilitate involvement in focused, complex play.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748043385,
+    "model": "gpt-4-turbo-2024-04-09",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_de235176ee",
+    "usage": {
+      "completion_tokens": 33,
+      "prompt_tokens": 106,
+      "total_tokens": 139,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "uid": "db852c6e",
+  "variant": 0,
+  "temperature": 0.5,
+  "seed": 1,
+  "model": "o3-2025-04-16",
+  "modality": "TEXT",
+  "timestamp": "2025-06-21T20:51:38Z",
+  "commit_sha": "ac1698886e89fb01e65b6ca5c8e06e97f58dd0fa",
+  "prompt_sha256": "120988dc081b01b620d8d0ac9a66b0eb8a86cea5606c03759f2cba631d6ca4bf",
+  "response": {
+    "id": "chatcmpl-BkzTGntb3NPeOk6cuJ2TxarKjs7zU",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nStandard Operating Procedure for Directing & Coordinating Law-Office Activities, Including Delivery of Subpoenas\n\n1. Centralized Case Management\n   \u2022 Open a matter in the practice-management system; assign a unique file number.  \n   \u2022 Upload all pleadings, correspondence, and subpoena drafts to a shared, access-controlled workspace.\n\n2. Calendar & Deadline Control\n   \u2022 Enter all service, response, and hearing dates.  \n   \u2022 Set automated reminders (e.g., 7-/3-/1-day alerts) for attorneys, paralegals, and process servers.\n\n3. Task Assignment & Supervision\n   \u2022 Use a task-tracking board to delegate drafting, review, and service responsibilities.  \n   \u2022 Require status updates at predefined checkpoints (draft complete, attorney review, ready for service, served).\n\n4. Drafting & Attorney Review of Subpoenas\n   \u2022 Confirm jurisdiction, statutory authority, and scope of requested materials/testimony.  \n   \u2022 Verify witness fees/mileage; prepare accompanying check if required.  \n   \u2022 Obtain attorney sign-off and ensure the subpoena bears the correct court seal or clerk\u2019s signature.\n\n5. Service-of-Process Preparation\n   \u2022 Choose an authorized process server or constable; provide them with:\n     \u2013 Original subpoena(s) and required copies  \n     \u2013 Witness fee check  \n     \u2013 Precise service instructions (deadline, method, special security protocols)  \n   \u2022 Supply a map, contact information, and any safety considerations.\n\n6. Execution & Documentation of Service\n   \u2022 Track real-time GPS or time-stamped updates from the server when available.  \n   \u2022 Upon completion, obtain a notarized Proof of Service or Affidavit of Service.  \n   \u2022 Review for accuracy (date, time, manner of service, description of recipient).\n\n7. Filing & Notice\n   \u2022 E-file or hand-file the Proof/Affidavit with the court within the statutory period.  \n   \u2022 Serve notice of the subpoena (or proof of service) on all parties via prescribed method (e.g., e-service, mail).\n\n8. Follow-Up & Compliance Monitoring\n   \u2022 Calendar production/hearing dates.  \n   \u2022 Send reminders and deficiency notices if documents/testimony are late.  \n   \u2022 Escalate to motion to compel or sanctions if necessary, with attorney approval.\n\n9. Recordkeeping & Quality Control\n   \u2022 Store all service documents, confirmations, and communications in the matter folder.  \n   \u2022 Conduct quarterly audits to confirm compliance with court rules and firm policies.\n\n10. Communication Protocols\n    \u2022 Maintain a single point of contact (lead paralegal) for inquiries about subpoenas.  \n    \u2022 Use encrypted channels for sensitive data; log all external communications in the case file.\n\nCompliance Tips\n\u2022 Always verify that service rules differ for individuals, corporations, and government agencies.  \n\u2022 Track witness fee statutory amounts; overpayment may waive recovery, underpayment may void service.  \n\u2022 Maintain a conflict-check procedure before subpoenaing third-party custodians.\n\nBy following this workflow, the law office ensures subpoenas are properly drafted, timely served, and fully documented while maintaining clear oversight of all related activities.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1750539082,
+    "model": "o3-2025-04-16",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1189,
+      "prompt_tokens": 95,
+      "total_tokens": 1284,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

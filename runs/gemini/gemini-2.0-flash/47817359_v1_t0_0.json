@@ -1,0 +1,45 @@
+{
+  "uid": "47817359",
+  "variant": 1,
+  "temperature": 0.0,
+  "model": "gemini-2.0-flash",
+  "modality": "GUI",
+  "timestamp": "2025-05-27T13:10:34.586779Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "Okay, I understand. I need to create a JSON array that represents actions to operate accounting software. The actions should include clicking on account input fields, entering amounts, adding memos, and posting/saving the transaction.\n\n<OUTPUT_JSON>[{\"action\": \"click\", \"selector\": \"input[name*=account i]\", \"text\": \"\"}, {\"action\": \"fill\", \"selector\": \"input[name*=amount i]\", \"text\": \"100\"}, {\"action\": \"fill\", \"selector\": \"textarea[name*=memo i]\", \"text\": \"Test transaction\"}, {\"action\": \"click\", \"selector\": \"button:has-text(\\\"post\\\" i)\"}]</OUTPUT_JSON>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.08642832438151042
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 182,
+      "candidatesTokenCount": 147,
+      "totalTokenCount": 329,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 182
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 147
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:10:33.317695Z",
+    "responseId": "ybk1aP-xE9TGgLUPtNvO0AE"
+  }
+}

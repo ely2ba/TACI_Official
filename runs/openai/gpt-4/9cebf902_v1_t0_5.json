@@ -1,0 +1,49 @@
+{
+  "uid": "9cebf902",
+  "variant": 1,
+  "temperature": 0.5,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:05:24Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "9e1bc814b212e4c47604050a66e9da3073e7f1683e2e3a3d8cb6c57d123c3014",
+  "response": {
+    "id": "chatcmpl-BaUnqJk4TAXZ7hxwlRfOZELzRiykX",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n\nSubject: Legal Research Data for [Client's Case]\n\nDear Team,\n\nAs per our discussion, I have gathered and analyzed the relevant research data for our client's case. Here are the key findings:\n\n1. Statutes: I have reviewed the applicable federal and state statutes. The key provisions that apply to our client's case are [provide details]. \n\n2. Decisions: I have examined recent court decisions that have a bearing on our case. The most relevant ones are [provide details]. These rulings may influence the court's decision in our client's case.\n\n3. Legal Articles: I found several legal articles that provide insight into our case. The most pertinent ones are [provide details]. These articles offer valuable perspectives on how the court might interpret the statutes and decisions related to our case.\n\n4. Codes: I have studied the relevant codes that apply to our case. The most significant ones are [provide details]. These codes will guide the court in making its decision.\n\n5. Documents: I have scrutinized all the documents related to our case. The most crucial ones are [provide details]. These documents will serve as the primary evidence in our case.\n\nPlease review the above findings and let me know if you need additional information. I will continue to monitor any new developments that might impact our case.\n\nBest,\n[Your Name]\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748037914,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 275,
+      "prompt_tokens": 91,
+      "total_tokens": 366,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

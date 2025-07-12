@@ -1,0 +1,50 @@
+{
+  "uid": "d0cae549",
+  "variant": 1,
+  "temperature": 0.0,
+  "seed": 0,
+  "model": "o3-2025-04-16",
+  "modality": "TEXT",
+  "timestamp": "2025-06-21T20:27:25Z",
+  "commit_sha": "ac1698886e89fb01e65b6ca5c8e06e97f58dd0fa",
+  "prompt_sha256": "4e234ff3d6e83521d26588cef8dcc04a4c6d3fb0f771b86cd015840be14aca27",
+  "response": {
+    "id": "chatcmpl-Bkz5fupjJugkl89Rnt7kot6LTEOsl",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nTo:           John Smith, Esq.  \nFrom:         [Your Name], Senior Paralegal  \nDate:         [Insert Date]  \nRe:           Coordination & Compulsory Appearance of Witnesses for Hearing in [Case Name & No.]  \n\nObjective  \nSecure the timely, legally-sound attendance and testimony of all necessary fact and expert witnesses at the hearing scheduled for [Hearing Date] in [Venue].\n\nSummary of Recommended Action  \n1. Finalize witness list and obtain attorney sign-off by [Date].  \n2. Prepare, issue, and serve subpoenas ad testificandum on all non-party witnesses no later than [Statutory Deadline] (10 calendar days before hearing).  \n3. Deliver statutory witness fees and mileage at time of service.  \n4. Schedule and conduct witness preparation sessions during the week of [Dates].  \n5. Confirm day-of-hearing logistics and standby arrangements 48 hours before hearing.\n\nWitness Matrix  \n\n| # | Witness | Role / Anticipated Testimony | Contact Info | Service Method | Prep Date |\n|---|---------|-----------------------------|--------------|----------------|-----------|\n| 1 | Jane Doe | Eyewitness to incident; will describe events of [Date] | 123 Main St., City, ST | Personal service | MM/DD, 10 AM |\n| 2 | Officer Michael Brown | Investigating officer; chain of custody & scene photos | c/o City PD, 456 Elm St. | Agency liaison + subpoena | MM/DD, 2 PM |\n| 3 | Dr. Lisa Green | Treating physician; injuries, prognosis, medical costs | 789 Medical Pkwy. | Personal service | MM/DD, 9 AM |\n| 4 | Dr. Robert White | Retained expert\u2014accident reconstruction | 321 Expert Ln. | E-mail acceptance + hard copy by cert. mail | MM/DD, 1 PM |\n| 5 | Sam Patel | Accountant; damages calculation | 654 Finance Rd. | Personal service | MM/DD, 4 PM |\n\nStep-by-Step Plan  \n\nA. Subpoena Preparation  \n\u2022 Use court-approved \u201cSubpoena to Testify at a Hearing or Trial\u201d form.  \n\u2022 Attach schedule A listing documents, if any, to bring.  \n\u2022 Insert compliance date/time consistent with individual call times above, plus 30-minute buffer.  \n\u2022 Have attorney sign; affix court seal as required.  \n\nB. Service of Process  \n\u2022 Retain ABC Process Servers; supply them with:  \n  \u2013 Original + 2 copies of each subpoena  \n  \u2013 Witness fee checks (see below)  \n  \u2013 Mileage chart (IRS rate $0.655 / mile)  \n\u2022 Obtain notarized Affidavit of Service; file with court within 24 hours of service.  \n\nC. Witness Fees & Mileage  \n| Witness | Statutory Fee | Estimated Mileage | Total Check |\n|---------|---------------|-------------------|-------------|\n| Doe | $40 | 12 mi \u00d7 $0.655 = $7.86 | $47.86 |\n| Brown | Exempt (government) | n/a | n/a |\n| Green | $40 | 8 mi \u00d7 $0.655 = $5.24 | $45.24 |\n| White | Contracted\u2014see retainer | n/a | Already paid |\n| Patel | $40 | 15 mi \u00d7 $0.655 = $9.83 | $49.83 |\n\nD. Witness Preparation Sessions  \n\u2022 Provide each witness with:  \n  \u2013 Case synopsis & anticipated examination outline  \n  \u2013 Exhibits they will be shown  \n  \u2013 Courtroom etiquette sheet  \n\u2022 Conduct mock Q&A; record for attorney review.  \n\nE. Day-of-Hearing Logistics  \n\u2022 Arrange reserved parking passes where available.  \n\u2022 Confirm courthouse security protocol; add witnesses to access list.  \n\u2022 Set up witness holding room with water/refreshments.  \n\u2022 Establish text-message group for real-time updates.  \n\nF. Contingency Planning  \n\u2022 Identify alternate phone numbers/emails.  \n\u2022 Prepare motions for continuance or remote testimony if needed (Rule 43(a)).  \n\u2022 Have standby courier for last-minute document delivery.  \n\nDeliverables & Deadlines  \n\n| Deliverable | Responsible | Due |\n|-------------|-------------|-----|\n| Final witness list | Paralegal \u2192 Attorney | MM/DD |\n| Draft subpoenas | Paralegal | MM/DD |\n| Signed subpoenas | Attorney | MM/DD |\n| Proofs of service filed | Paralegal | Within 24 hrs of service |\n| Witness prep summaries | Paralegal | MM/DD |\n| Hearing logistics sheet | Paralegal | MM/DD |\n\nAttachments  \n1. Draft Subpoena (template)  \n2. Witness Fee Check Request Forms  \n3. Witness Preparation Guide (2-page handout)  \n4. Affidavit of Service (blank)  \n\nPlease review and advise of any additions or modifications. Upon approval, I will proceed with issuance and service no later than [Statutory Deadline] to ensure compliance and avoid any motion to quash or continuance.\n\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1750537619,
+    "model": "o3-2025-04-16",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1433,
+      "prompt_tokens": 109,
+      "total_tokens": 1542,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 320,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

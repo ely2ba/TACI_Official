@@ -1,0 +1,45 @@
+{
+  "uid": "9cebf902",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gemini-2.0-flash",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T13:19:57.692776Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "```text\n# Legal Research and Analysis on [Specific Legal Topic]\n\n## 1. Statutes\n\n*   **[Statute 1: Name and Citation]**\n    *   Summary: Briefly describe the statute's purpose and key provisions.\n    *   Analysis: Explain the statute's relevance to the overall legal topic. Include any ambiguities or areas of potential litigation.\n*   **[Statute 2: Name and Citation]**\n    *   Summary: Briefly describe the statute's purpose and key provisions.\n    *   Analysis: Explain the statute's relevance to the overall legal topic. Include any ambiguities or areas of potential litigation.\n*   **[Statute 3: Name and Citation]**\n    *   Summary: Briefly describe the statute's purpose and key provisions.\n    *   Analysis: Explain the statute's relevance to the overall legal topic. Include any ambiguities or areas of potential litigation.\n\n## 2. Case Law\n\n*   **[Case 1: Name and Citation]**\n    *   Facts: Summarize the relevant facts of the case.\n    *   Holding: State the court's holding and reasoning.\n    *   Analysis: Explain the case's impact on the legal topic. Note any dissenting opinions or concurring opinions that offer alternative interpretations.\n*   **[Case 2: Name and Citation]**\n    *   Facts: Summarize the relevant facts of the case.\n    *   Holding: State the court's holding and reasoning.\n    *   Analysis: Explain the case's impact on the legal topic. Note any dissenting opinions or concurring opinions that offer alternative interpretations.\n*   **[Case 3: Name and Citation]**\n    *   Facts: Summarize the relevant facts of the case.\n    *   Holding: State the court's holding and reasoning.\n    *   Analysis: Explain the case's impact on the legal topic. Note any dissenting opinions or concurring opinions that offer alternative interpretations.\n\n## 3. Legal Articles and Secondary Sources\n\n*   **[Article 1: Title and Citation]**\n    *   Summary: Briefly describe the article's main arguments.\n    *   Analysis: Explain how the article contributes to the understanding of the legal topic. Note any biases or limitations of the article.\n*   **[Article 2: Title and Citation]**\n    *   Summary: Briefly describe the article's main arguments.\n    *   Analysis: Explain how the article contributes to the understanding of the legal topic. Note any biases or limitations of the article.\n*   **[Article 3: Title and Citation]**\n    *   Summary: Briefly describe the article's main arguments.\n    *   Analysis: Explain how the article contributes to the understanding of the legal topic. Note any biases or limitations of the article.\n\n## 4. Codes and Regulations\n\n*   **[Code/Regulation 1: Name and Citation]**\n    *   Summary: Briefly describe the code/regulation's purpose and key provisions.\n    *   Analysis: Explain the code/regulation's relevance to the overall legal topic. Include any ambiguities or areas of potential litigation.\n*   **[Code/Regulation 2: Name and Citation]**\n    *   Summary: Briefly describe the code/regulation's purpose and key provisions.\n    *   Analysis: Explain the code/regulation's relevance to the overall legal topic. Include any ambiguities or areas of potential litigation.\n\n## 5. Legal Documents (e.g., Contracts, Pleadings)\n\n*   **[Document 1: Description and Source]**\n    *   Summary: Briefly describe the document's purpose and key provisions.\n    *   Analysis: Explain the document's relevance to the overall legal topic. Include any noteworthy clauses or potential legal issues.\n*   **[Document 2: Description and Source]**\n    *   Summary: Briefly describe the document's purpose and key provisions.\n    *   Analysis: Explain the document's relevance to the overall legal topic. Include any noteworthy clauses or potential legal issues.\n\n```\n<OUTPUT_TEXT># Legal Research and Analysis on [Specific Legal Topic]\n\n## 1. Statutes\n\n*   **[Statute 1: Name and Citation]**\n    *   Summary: Briefly describe the statute's purpose and key provisions.\n    *   Analysis: Explain the statute's relevance to the overall legal topic. Include any ambiguities or areas of potential litigation.\n*   **[Statute 2: Name and Citation]**\n    *   Summary: Briefly describe the statute's purpose and key provisions.\n    *   Analysis: Explain the statute's relevance to the overall legal topic. Include any ambiguities or areas of potential litigation.\n*   **[Statute 3: Name and Citation]**\n    *   Summary: Briefly describe the statute's purpose and key provisions.\n    *   Analysis: Explain the statute's relevance to the overall legal topic. Include any ambiguities or areas of potential litigation.\n\n## 2. Case Law\n\n*   **[Case 1: Name and Citation]**\n    *   Facts: Summarize the relevant facts of the case.\n    *   Holding: State the court's holding and reasoning.\n    *   Analysis: Explain the case's impact on the legal topic. Note any dissenting opinions or concurring opinions that offer alternative interpretations.\n*   **[Case 2: Name and Citation]**\n    *   Facts: Summarize the relevant facts of the case.\n    *   Holding: State the court's holding and reasoning.\n    *   Analysis: Explain the case's impact on the legal topic. Note any dissenting opinions or concurring opinions that offer alternative interpretations.\n*   **[Case 3: Name and Citation]**\n    *   Facts: Summarize the relevant facts of the case.\n    *   Holding: State the court's holding and reasoning.\n    *   Analysis: Explain the case's impact on the legal topic. Note any dissenting opinions or concurring opinions that offer alternative interpretations.\n\n## 3. Legal Articles and Secondary Sources\n\n*   **[Article 1: Title and Citation]**\n    *   Summary: Briefly describe the article's main arguments.\n    *   Analysis: Explain how the article contributes to the understanding of the legal topic. Note any biases or limitations of the article.\n*   **[Article 2: Title and Citation]**\n    *   Summary: Briefly describe the article's main arguments.\n    *   Analysis: Explain how the article contributes to the understanding of the legal topic. Note any biases or limitations of the article.\n*   **[Article 3: Title and Citation]**\n    *   Summary: Briefly describe the article's main arguments.\n    *   Analysis: Explain how the article contributes to the understanding of the legal topic. Note any biases or limitations of the article.\n\n## 4. Codes and Regulations\n\n*   **[Code/Regulation 1: Name and Citation]**\n    *   Summary: Briefly describe the code/regulation's purpose and key provisions.\n    *   Analysis: Explain the code/regulation's relevance to the overall legal topic. Include any ambiguities or areas of potential litigation.\n*   **[Code/Regulation 2: Name and Citation]**\n    *   Summary: Briefly describe the code/regulation's purpose and key provisions.\n    *   Analysis: Explain the code/regulation's relevance to the overall legal topic. Include any ambiguities or areas of potential litigation.\n\n## 5. Legal Documents (e.g., Contracts, Pleadings)\n\n*   **[Document 1: Description and Source]**\n    *   Summary: Briefly describe the document's purpose and key provisions.\n    *   Analysis: Explain the document's relevance to the overall legal topic. Include any noteworthy clauses or potential legal issues.\n*   **[Document 2: Description and Source]**\n    *   Summary: Briefly describe the document's purpose and key provisions.\n    *   Analysis: Explain the document's relevance to the overall legal topic. Include any noteworthy clauses or potential legal issues.\n</OUTPUT_TEXT>\n```"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.028738635709916038
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 120,
+      "candidatesTokenCount": 1740,
+      "totalTokenCount": 1860,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 120
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1740
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:19:48.542374Z",
+    "responseId": "9Ls1aKaNIcaN3NoPl8in2AE"
+  }
+}

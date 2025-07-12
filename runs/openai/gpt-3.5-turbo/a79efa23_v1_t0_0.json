@@ -1,0 +1,49 @@
+{
+  "uid": "a79efa23",
+  "variant": 1,
+  "temperature": 0.0,
+  "model": "gpt-3.5-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:01:13Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "5c9da18b690c497e8572a7139bb543f83029f40122d65f1b8a04205a17c079c4",
+  "response": {
+    "id": "chatcmpl-BaUjvW3aKyHns863QS0zIPPS2EXgS",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>Dear valued customer,\n\nI hope this message finds you well. I am reaching out to address any concerns or inquiries you may have regarding our products or services. Please feel free to contact me via telephone or in person to discuss placing orders, canceling accounts, or resolving any complaints you may have. Your satisfaction is our top priority, and I am here to assist you in any way I can.\n\nLooking forward to hearing from you soon.\n\nWarm regards,\n\n[Your Name]\nSenior Customer Service Representative</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748037671,
+    "model": "gpt-3.5-turbo-0125",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 106,
+      "prompt_tokens": 95,
+      "total_tokens": 201,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

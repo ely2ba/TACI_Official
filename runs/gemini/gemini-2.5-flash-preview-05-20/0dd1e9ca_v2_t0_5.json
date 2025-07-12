@@ -1,0 +1,55 @@
+{
+  "uid": "0dd1e9ca",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gemini-2.5-flash-preview-05-20",
+  "modality": "GUI",
+  "timestamp": "2025-05-27T15:30:06.678465Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_JSON>\n[\n  {\n    \"action\": \"select_option\",\n    \"selector\": \"select[name*=report i]\"\n  },\n  {\n    \"action\": \"click\",\n    \"selector\": \"button:has-text(\\\"generate\\\" i)\"\n  },\n  {\n    \"action\": \"click\",\n    \"selector\": \"button:has-text(\\\"export\\\" i)\"\n  },\n  {\n    \"action\": \"click\",\n    \"selector\": \"a:has-text(\\\"download\\\" i)\"\n  }\n]\n</OUTPUT_JSON>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "citationMetadata": {
+          "citations": [
+            {
+              "startIndex": 9960,
+              "endIndex": 10113,
+              "uri": "https://www.gsaadvantage.gov/ref_text/GS00F0001U/GS00F0001U_online.htm"
+            }
+          ]
+        },
+        "avgLogprobs": -5.954348436042444
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 173,
+      "candidatesTokenCount": 134,
+      "totalTokenCount": 3024,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 173
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 134
+        }
+      ],
+      "thoughtsTokenCount": 2717
+    },
+    "modelVersion": "gemini-2.5-flash-preview-05-20",
+    "createTime": "2025-05-27T15:29:49.521622Z",
+    "responseId": "bdo1aJbrH9GunvgPueCxkQw"
+  }
+}

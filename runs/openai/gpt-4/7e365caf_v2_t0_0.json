@@ -1,0 +1,49 @@
+{
+  "uid": "7e365caf",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:11:48Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "87f53ef0090d41257c098076379dde6cf636add230b015ba2a217d38fc55c1ac",
+  "response": {
+    "id": "chatcmpl-BaUtxlPrngrETo7kdOHzdiB0nysq5",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Development of Training Materials and Technical Manuals\n\n1. **Understanding the Subject Matter**\n   The first step in developing training materials and technical manuals is to thoroughly understand the subject matter. This may involve researching the topic, consulting with experts, and reviewing existing materials.\n\n2. **Identifying the Target Audience**\n   The next step is to identify the target audience for the materials. This will help determine the level of detail and complexity that should be included in the materials.\n\n3. **Outlining the Content**\n   Once the subject matter and audience have been identified, the next step is to outline the content of the materials. This should include a list of topics to be covered, as well as the order in which they will be presented.\n\n4. **Developing the Content**\n   After the outline has been created, the next step is to develop the content for each topic. This should include detailed explanations, examples, and exercises where appropriate.\n\n5. **Reviewing and Revising the Content**\n   Once the content has been developed, it should be reviewed and revised as necessary. This may involve checking for accuracy, clarity, and completeness, as well as ensuring that the content is engaging and easy to understand.\n\n6. **Designing the Layout**\n   After the content has been finalized, the next step is to design the layout of the materials. This should include considerations for readability, navigability, and visual appeal.\n\n7. **Testing the Materials**\n   Before the materials are finalized, they should be tested with a small group of users. This can help identify any issues or areas for improvement.\n\n8. **Finalizing and Distributing the Materials**\n   Once the materials have been tested and any necessary revisions have been made, the final step is to finalize and distribute the materials. This may involve printing physical copies, creating digital versions, or uploading the materials to a learning management system.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748038293,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 387,
+      "prompt_tokens": 79,
+      "total_tokens": 466,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

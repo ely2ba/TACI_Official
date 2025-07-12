@@ -1,0 +1,45 @@
+{
+  "uid": "b4ec494d",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gemini-2.0-flash",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T13:19:19.859674Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "```text\n<OUTPUT_TEXT>\n# Customer Grievance Redirection\n\n1.  **Identify the Nature of the Grievance:** Determine the specific department best equipped to handle the customer's issue (e.g., billing, technical support, sales, etc.).\n\n2.  **Document the Grievance:** Record all relevant details of the customer's complaint, including the customer's contact information, a summary of the issue, and any previous interactions.\n\n3.  **Forward to Designated Department:** Route the documented grievance to the appropriate department for investigation and resolution. Include any relevant case numbers or reference IDs.\n\n4.  **Inform the Customer:** Notify the customer that their grievance has been forwarded to the relevant department and provide an estimated timeframe for resolution, if available. Provide contact information for follow up.\n</OUTPUT_TEXT>\n```"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.10857509068080357
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 108,
+      "candidatesTokenCount": 175,
+      "totalTokenCount": 283,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 108
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 175
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:19:18.478566Z",
+    "responseId": "1rs1aOaaHcaN3NoPl8in2AE"
+  }
+}

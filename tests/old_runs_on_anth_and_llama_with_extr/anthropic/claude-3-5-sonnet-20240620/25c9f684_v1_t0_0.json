@@ -1,0 +1,15 @@
+{
+  "uid": "25c9f684",
+  "variant": 1,
+  "modality": "TEXT",
+  "temperature": 0.0,
+  "model": "claude-3-5-sonnet-20240620",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T18:11:24.404563Z",
+  "commit_sha": "98b2eb0f130d4d32e78707f77c440a8f68e4103c",
+  "prompt_sha256": "dcb189b59d03baca116ee08275e893cabdd43b5b3f278dd0cb09a9f516d5f4f0",
+  "response": {
+    "raw": "Here is a draft client-ready memo for that task:\n\n<OUTPUT_TEXT>\nSubject: Follow-up on Your Recent Claim\n\nDear [Customer Name],\n\nI hope this message finds you well. I'm reaching out regarding the claim you filed on [date] for [brief claim description].\n\nOur investigation of your claim is now complete. I'm pleased to inform you that we have approved [details of approved amount/coverage]. [If applicable: We have made the following adjustments to your claim: [list adjustments].]\n\nA detailed explanation of our findings and any adjustments has been mailed to the address on file. You should receive this documentation within 5-7 business days.\n\nIf you have any questions about your claim or our decision, please don't hesitate to contact me directly at [phone number] or reply to this email. I'm here to assist you.\n\nThank you for your patience during our review process. We appreciate your business and the trust you place in us.\n\nSincerely,\n[Your Name]\nSenior Claims Representative\n</OUTPUT_TEXT>",
+    "extracted": "<OUTPUT_TEXT>\nSubject: Follow-up on Your Recent Claim\n\nDear [Customer Name],\n\nI hope this message finds you well. I'm reaching out regarding the claim you filed on [date] for [brief claim description].\n\nOur investigation of your claim is now complete. I'm pleased to inform you that we have approved [details of approved amount/coverage]. [If applicable: We have made the following adjustments to your claim: [list adjustments].]\n\nA detailed explanation of our findings and any adjustments has been mailed to the address on file. You should receive this documentation within 5-7 business days.\n\nIf you have any questions about your claim or our decision, please don't hesitate to contact me directly at [phone number] or reply to this email. I'm here to assist you.\n\nThank you for your patience during our review process. We appreciate your business and the trust you place in us.\n\nSincerely,\n[Your Name]\nSenior Claims Representative\n</OUTPUT_TEXT>"
+  }
+}

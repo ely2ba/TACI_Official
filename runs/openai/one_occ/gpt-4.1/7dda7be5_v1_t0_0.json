@@ -1,0 +1,49 @@
+{
+  "uid": "7dda7be5",
+  "variant": 1,
+  "temperature": 0.0,
+  "model": "gpt-4.1",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:59:07Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "f619121edfa394cf2f966e745283e437489a58c27b2b7d4b7539289c690206a7",
+  "response": {
+    "id": "chatcmpl-Bi220IisNIBi7G8o4jWUJKRPVeGJB",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nMEMORANDUM\n\nTO: [Client Name]  \nFROM: [Paralegal Name], Senior Paralegal  \nRE: Appraisal and Inventory of Real and Personal Property for Estate Planning  \nDATE: [Today's Date]\n\nI. INTRODUCTION  \nThis memorandum provides an overview of the process for appraising and inventorying your real and personal property as part of your estate planning. Accurate identification and valuation of assets are essential to ensure your estate plan reflects your wishes and complies with legal requirements.\n\nII. REAL PROPERTY\n\nA. Identification  \nReal property includes land and any structures attached to it (e.g., homes, commercial buildings, undeveloped land). Please provide copies of deeds, property tax statements, and recent mortgage statements for each property.\n\nB. Appraisal  \nA certified real estate appraiser should be engaged to determine the current fair market value of each property. Recent purchase prices, comparable sales, and property condition will be considered.\n\nC. Documentation  \n- Address and legal description of each property  \n- Ownership details (sole, joint, tenants in common, etc.)  \n- Current market value (attach appraisal reports)  \n- Outstanding mortgages or liens\n\nIII. PERSONAL PROPERTY\n\nA. Identification  \nPersonal property includes tangible items (vehicles, jewelry, art, collectibles, furniture) and intangible assets (bank accounts, stocks, bonds, retirement accounts, business interests, intellectual property).\n\nB. Appraisal  \n- Tangible items: Professional appraisals are recommended for high-value items (e.g., jewelry, art, antiques). For standard household items, a detailed list with estimated values is sufficient.  \n- Intangible assets: Obtain current account statements and, if applicable, business valuations.\n\nC. Documentation  \n- Description and location of each item  \n- Ownership details  \n- Estimated or appraised value (attach supporting documents)  \n- Account numbers and financial institution details for financial assets\n\nIV. INVENTORY TEMPLATE\n\nAttached is a sample inventory template to assist in organizing your assets. Please complete the template and provide supporting documentation for each item.\n\nV. NEXT STEPS\n\n1. Gather all relevant documents and information as outlined above.  \n2. Engage professional appraisers as needed.  \n3. Return the completed inventory and supporting documents to our office for review.  \n4. We will incorporate this information into your estate plan and discuss any recommendations.\n\nPlease contact our office with any questions or if you require assistance with the appraisal process.\n\nRespectfully,  \n[Paralegal Name]  \nSenior Paralegal  \n[Law Firm Name]  \n[Contact Information]\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749833940,
+    "model": "gpt-4.1-2025-04-14",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_51e1070cf2",
+    "usage": {
+      "completion_tokens": 521,
+      "prompt_tokens": 114,
+      "total_tokens": 635,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

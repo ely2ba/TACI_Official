@@ -1,0 +1,34 @@
+{
+  "uid": "7e365caf",
+  "variant": 0,
+  "modality": "TEXT",
+  "temperature": 0.5,
+  "model": "claude-3-opus-20240229",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T19:53:57.975264Z",
+  "commit_sha": "170b9e3e1d0d59846b1daa69da57be5d1db6306c",
+  "prompt_sha256": "707bc2f7bb401ddd7c858b68576da117b3f5152b9fab6b3d4bc009a55bfc0da6",
+  "response": {
+    "id": "msg_012TnmrYmwemxJNXuWBTn4nz",
+    "content": [
+      {
+        "citations": null,
+        "text": "Here is my attempt at the task, wrapped in the specified output tags:\n\n<OUTPUT_TEXT>\nTo support the development of training materials and technical manuals for logistics:\n\n- Collaborate with subject matter experts to gather information on logistics processes, systems, and best practices\n- Organize and structure content in a clear, logical flow that will be easy for readers to follow and reference\n- Use simple, concise language and define any technical terms and acronyms \n- Incorporate visuals like process flow diagrams, screenshots, and tables to illustrate key concepts\n- Develop exercises and knowledge checks to reinforce learning and understanding\n- Have content reviewed by logistics SMEs and end users to validate accuracy and usability\n- Maintain and update materials over time as logistics processes and systems change\n</OUTPUT_TEXT>",
+        "type": "text"
+      }
+    ],
+    "model": "claude-3-opus-20240229",
+    "role": "assistant",
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "input_tokens": 96,
+      "output_tokens": 174,
+      "server_tool_use": null,
+      "service_tier": "standard"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "uid": "1b64c419",
+  "variant": 1,
+  "temperature": 0.0,
+  "model": "gpt-3.5-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:01:17Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "d24b274dae042a5a719f8f536f54d84ac91f64d78f37367d93063cbbc488c55d",
+  "response": {
+    "id": "chatcmpl-BaUk0pcufgLIesOCjJc2MOe4xkxNy",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>Dear Team,\n\nEffective immediately, I will be responsible for answering all incoming calls and directing them to the appropriate staff members. Please ensure that you update me on any changes to your contact information or availability to receive calls.\n\nThank you for your cooperation.\n\nBest regards,\n[Your Name]</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748037676,
+    "model": "gpt-3.5-turbo-0125",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 63,
+      "prompt_tokens": 78,
+      "total_tokens": 141,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

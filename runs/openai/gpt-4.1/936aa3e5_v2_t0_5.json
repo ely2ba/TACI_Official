@@ -1,0 +1,49 @@
+{
+  "uid": "936aa3e5",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-4.1",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T23:02:24Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "e27b33f68330ba9f081ac5cbf0fae70c8cccec958ae0b30242cd1986fe4a4b1c",
+  "response": {
+    "id": "chatcmpl-BaVh7ixHchT62j2dvnfPoZqqO0fFu",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Financial Calculations\n\n1. **Amounts Due**  \n   The amount due is calculated as the total sum of all outstanding invoices or charges, minus any payments or credits applied.\n\n2. **Interest Charges**  \n   Interest charges can be determined using the formula:  \n   Interest = Principal \u00d7 Rate \u00d7 Time  \n   (Where Rate is the annual interest rate as a decimal, and Time is the fraction of the year.)\n\n3. **Balances**  \n   The balance is the difference between total debits and total credits in an account at a given time.\n\n4. **Discounts**  \n   Discounts are calculated by applying the discount rate to the original price:  \n   Discount Amount = Original Price \u00d7 Discount Rate  \n   Net Price = Original Price \u2212 Discount Amount\n\n5. **Equity**  \n   Equity is the residual interest in the assets of the entity after deducting liabilities:  \n   Equity = Assets \u2212 Liabilities\n\n6. **Principal**  \n   Principal refers to the original sum of money borrowed or invested, excluding any interest or earnings.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748041341,
+    "model": "gpt-4.1-2025-04-14",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_e28d076185",
+    "usage": {
+      "completion_tokens": 220,
+      "prompt_tokens": 95,
+      "total_tokens": 315,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

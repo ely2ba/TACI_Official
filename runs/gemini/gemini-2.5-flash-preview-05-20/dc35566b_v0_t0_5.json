@@ -1,0 +1,46 @@
+{
+  "uid": "dc35566b",
+  "variant": 0,
+  "temperature": 0.5,
+  "model": "gemini-2.5-flash-preview-05-20",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T15:34:52.990099Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_TEXT>\nTASK \u2013 Prepare for trial by performing tasks such as organizing exhibits, which includes: developing comprehensive exhibit lists with descriptions, proposed use, and status; preparing multiple sets of exhibit binders for the judge, opposing counsel, and trial team; Bates-stamping and ensuring all exhibits are clearly marked and legible; coordinating with the attorney to identify and prepare demonstrative exhibits (e.g., timelines, charts); compiling witness binders containing relevant deposition transcripts and exhibits; assembling comprehensive trial notebooks for the attorney, including pleadings, motions, orders, witness lists, exhibit lists, jury instructions, and outlines for opening/closing statements; confirming witness availability, coordinating subpoenas, and arranging for their travel/lodging as needed; arranging for necessary courtroom technology and support (e.g., projectors, screens, court reporter, videographer); and maintaining a master trial calendar, tracking all deadlines and court appearances.\n</OUTPUT_TEXT>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -1.7550747987454531
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 88,
+      "candidatesTokenCount": 189,
+      "totalTokenCount": 1299,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 88
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 189
+        }
+      ],
+      "thoughtsTokenCount": 1022
+    },
+    "modelVersion": "gemini-2.5-flash-preview-05-20",
+    "createTime": "2025-05-27T15:34:44.295576Z",
+    "responseId": "lNs1aJiFEuC4nvgPz_H5yAI"
+  }
+}

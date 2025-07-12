@@ -1,0 +1,44 @@
+{
+  "uid": "0dd1e9ca",
+  "variant": 2,
+  "modality": "GUI",
+  "temperature": 0.0,
+  "model": "llama3-8b-8192",
+  "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+  "timestamp": "2025-05-28T19:16:01.999896Z",
+  "prompt_sha256": "2ebb4106c7c49720119ce4590e14cee78a4013701eaf679938d1040a45cb9bdf",
+  "commit_sha": "170b9e3e1d0d59846b1daa69da57be5d1db6306c",
+  "response": {
+    "id": "chatcmpl-716fd885-e4dc-496a-8162-46dbe4a331e4",
+    "object": "chat.completion",
+    "created": 1748459761,
+    "model": "llama3-8b-8192",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "<OUTPUT_JSON>\n[\n  {\n    \"action\": \"click\",\n    \"target\": \"select[name*=report i]\"\n  },\n  {\n    \"action\": \"click\",\n    \"target\": \"button:has-text(\\\"generate\\\" i)\"\n  },\n  {\n    \"action\": \"click\",\n    \"target\": \"button:has-text(\\\"export\\\" i)\"\n  },\n  {\n    \"action\": \"click\",\n    \"target\": \"a:has-text(\\\"download\\\" i)\"\n  }\n]\n</OUTPUT_JSON>"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "queue_time": 0.415849153,
+      "prompt_tokens": 177,
+      "prompt_time": 0.050635408,
+      "completion_tokens": 108,
+      "completion_time": 0.09,
+      "total_tokens": 285,
+      "total_time": 0.140635408
+    },
+    "usage_breakdown": {
+      "models": null
+    },
+    "system_fingerprint": "fp_dadc9d6142",
+    "x_groq": {
+      "id": "req_01jwc55bmdekd8n9v92g4b4p6f"
+    }
+  }
+}

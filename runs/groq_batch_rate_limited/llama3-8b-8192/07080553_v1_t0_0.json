@@ -1,0 +1,44 @@
+{
+  "uid": "07080553",
+  "variant": 1,
+  "modality": "TEXT",
+  "temperature": 0.0,
+  "model": "llama3-8b-8192",
+  "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+  "timestamp": "2025-05-28T19:17:49.124989Z",
+  "prompt_sha256": "632592375d94cc790bd461d3c7201d1e1e85d0197e32f49456053025d5de6e26",
+  "commit_sha": "170b9e3e1d0d59846b1daa69da57be5d1db6306c",
+  "response": {
+    "id": "chatcmpl-64aa8c11-5ec1-4b15-ad66-ba49da3ffdc2",
+    "object": "chat.completion",
+    "created": 1748459868,
+    "model": "llama3-8b-8192",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "<OUTPUT_TEXT>As a senior Paralegal And Legal Assistant, I would prepare the client-ready memo by drafting and reviewing the necessary documents, including affidavits and legal correspondence. I would ensure that all documents are accurate, complete, and compliant with relevant laws and regulations. Additionally, I would organize and maintain the documents in a paper or electronic filing system, making sure they are easily accessible and up-to-date. This would enable the client to access the necessary information quickly and efficiently, and would also help to ensure that all relevant documents are preserved and protected for future reference.</OUTPUT_TEXT>"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "queue_time": 0.161817191,
+      "prompt_tokens": 131,
+      "prompt_time": 0.016776216,
+      "completion_tokens": 120,
+      "completion_time": 0.1,
+      "total_tokens": 251,
+      "total_time": 0.116776216
+    },
+    "usage_breakdown": {
+      "models": null
+    },
+    "system_fingerprint": "fp_dadc9d6142",
+    "x_groq": {
+      "id": "req_01jwc58mh4fb2v67cje4km4xsw"
+    }
+  }
+}

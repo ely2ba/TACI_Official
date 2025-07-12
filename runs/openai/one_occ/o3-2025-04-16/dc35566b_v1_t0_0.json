@@ -1,0 +1,50 @@
+{
+  "uid": "dc35566b",
+  "variant": 1,
+  "temperature": 0.0,
+  "seed": 0,
+  "model": "o3-2025-04-16",
+  "modality": "TEXT",
+  "timestamp": "2025-06-21T20:31:16Z",
+  "commit_sha": "ac1698886e89fb01e65b6ca5c8e06e97f58dd0fa",
+  "prompt_sha256": "765f66845fe94cc26e415321bd6986741705cf0896b53b9a639c6f287a20df02",
+  "response": {
+    "id": "chatcmpl-Bkz9WEl4HETUaJjl8IKBH7IKxpuQp",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nMEMORANDUM\n\nTO:           [Lead Trial Counsel]  \nFROM:         [Senior Paralegal / Legal Assistant]  \nDATE:         [Current Date]  \nRE:           Trial Preparation \u2013 Exhibit Collection, Organization, and Presentation Plan  \n\n-------------------------------------------------------------------------------\nI. Objective  \nTo ensure all documentary, physical, and demonstrative evidence is properly identified, marked, indexed, and ready for seamless admission at trial in compliance with the Federal Rules of Evidence, the Federal Rules of Civil Procedure, and the Local Rules of Court.\n\nII. Exhibit Control Strategy  \n\n1. Master Exhibit Index  \n   \u2022 Format: Excel workbook with sortable fields (Exhibit No., Bates Range, Description, Sponsoring Witness, Objections, Admitted/Not Admitted, Court Exhibit No.).  \n   \u2022 Status Column updated in real time; color-coding (green = ready, yellow = pending objection, red = action needed).  \n   \u2022 Saved on firm server (secure folder) and mirrored to a SharePoint/NetDocs workspace for team access.\n\n2. Exhibit Numbering & Bates Stamping  \n   \u2022 Follow Local Rule ___.__ (pre-mark plaintiff exhibits \u201cP-1, P-2\u2026\u201d, defendant \u201cD-1, D-2\u2026\u201d).  \n   \u2022 Bates-range tie-in to indicate sub-parts (e.g., P-12A\u2013P-12D).  \n   \u2022 Use PDF Bates stamp software for electronic sets; confirm legibility after stamping.  \n   \u2022 Physical items: affix acid-free label on bag or tag\u2014not directly on evidence.\n\n3. Chain-of-Custody Documentation  \n   \u2022 Complete chain forms for each physical exhibit (especially devices, samples).  \n   \u2022 Log transfers with date/time, custodian signatures; scan to digital file.\n\n4. Exhibit Folders & Binders  \n   A. Courtroom Sets  \n      \u2022 Three hard-copy sets: Court, Witness, Adversary.  \n      \u2022 Tabs: numeric/alpha to match pre-marked numbers.  \n      \u2022 Include working copies for counsel annotated \u201cATTY WORK COPY \u2013 NOT FOR ADMISSION.\u201d  \n   B. Electronic Set  \n      \u2022 Hyperlinked PDF portfolio; bookmarks labeled with exhibit numbers.  \n      \u2022 Stored on encrypted USB + backed up to trial laptop and cloud folder.  \n      \u2022 Confirm compatibility with courtroom\u2019s evidence presentation system (Elmo/TrialDirector).\n\n5. Objection Matrix  \n   \u2022 Parallel column in Master Index citing anticipated FRE grounds (e.g., 403, 801, 902(11)).  \n   \u2022 Draft concise counter arguments for each contested exhibit.  \n   \u2022 Identify exhibits for stipulation to streamline (deliver proposal to opposing counsel by [Date] per Pre-Trial Order \u00a7___).\n\n6. Demonstratives & Enlargements  \n   \u2022 Finalize by [Date]; run by witness sponsor and supervising attorney.  \n   \u2022 Provide digital and 24\u201d x 36\u201d foam board versions.  \n   \u2022 File notice of intent to use demonstratives if required (Local Rule ___.__).\n\nIII. Timeline & Deliverables  \n\n\u2022 T-21 Days \u2013 Complete initial exhibit list exchange (per FRCP 26(a)(3)).  \n\u2022 T-18 Days \u2013 Serve objections; meet & confer with opposing counsel.  \n\u2022 T-14 Days \u2013 Load final exhibit set into TrialDirector; conduct technology test in courtroom (coordinate with clerk).  \n\u2022 T-10 Days \u2013 Prepare Exhibit Binders; QC numbering vs. index; finalize deposition designations.  \n\u2022 T-7  Days \u2013 File joint pre-trial order attaching agreed exhibit list; deliver bench copy to chambers.  \n\u2022 T-3  Days \u2013 Pack evidence kit (labels, extra thumb drives, spare HDMI/VGA cables, stickers, blank chain forms).  \n\u2022 Trial Eve \u2013 Confirm overnight courier for any demonstratives; back up electronic file to second laptop.\n\nIV. Risk Mitigation/Contingency  \n\n\u2022 Duplicate physical exhibits in secure off-site location (fire, loss).  \n\u2022 Maintain encrypted cloud backup in case of hardware failure.  \n\u2022 Have printed blank exhibit stickers and portable label printer on-site for surprise rebuttal exhibits.\n\nV. Action Items for Counsel Approval  \n\n1. Sign-off on final numbering scheme by [Date].  \n2. Confirm which exhibits will be offered solely for impeachment (to omit from initial list).  \n3. Decide if expert demonstratives need pre-admission motion in limine.  \n4. Provide any additional late-received discovery for Bates stamping no later than T-12 days.\n\nPlease advise of any revisions or additional requirements. I will proceed upon approval to finalize the exhibit sets and coordinate with the courtroom deputy.\n\n-------------------------------------------------------------------------------\nPrepared by: __________________________  \n[Senior Paralegal Name]  \n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1750537858,
+    "model": "o3-2025-04-16",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1182,
+      "prompt_tokens": 112,
+      "total_tokens": 1294,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 192,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

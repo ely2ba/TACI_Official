@@ -1,0 +1,49 @@
+{
+  "uid": "07080553",
+  "variant": 1,
+  "temperature": 0.0,
+  "model": "gpt-3.5-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T21:59:25Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "ca65019701b219e673d37a5ddbfdb70839253fca5816fda8501517c5c5846e16",
+  "response": {
+    "id": "chatcmpl-BaUiB3JDmXnbbfF2ybOL8hpyzhAlD",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>MEMORANDUM\n\nTo: [Client's Name]\nFrom: [Your Name], Senior Paralegal\nDate: [Current Date]\nSubject: Preparation of Affidavits and Legal Correspondence\n\nI am writing to inform you that I have completed the preparation of the affidavits and legal correspondence required for your case. The documents have been carefully reviewed and organized to ensure accuracy and compliance with legal standards.\n\nAdditionally, I have maintained both paper and electronic copies of the documents in our filing system for easy access and reference. Should you require any further assistance or additional documents, please do not hesitate to contact me.\n\nThank you for entrusting me with this important task.\n\nSincerely,\n\n[Your Name]\nSenior Paralegal</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748037563,
+    "model": "gpt-3.5-turbo-0125",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 155,
+      "prompt_tokens": 95,
+      "total_tokens": 250,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

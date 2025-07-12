@@ -1,0 +1,9 @@
+{
+  "uid": "db019963",
+  "variant": 0,
+  "temperature": 0.5,
+  "model": "gemini-2.0-flash",
+  "modality": "MANUAL",
+  "skipped": true,
+  "reason": "manual task \u2013 auto-scored 0"
+}

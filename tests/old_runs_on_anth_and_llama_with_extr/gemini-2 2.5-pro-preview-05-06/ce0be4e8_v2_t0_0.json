@@ -1,0 +1,42 @@
+{
+  "uid": "ce0be4e8",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gemini-2.5-pro-preview-05-06",
+  "modality": "VISION",
+  "timestamp": "2025-05-27T13:27:38.592920Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "thought": true
+            }
+          ]
+        },
+        "finishReason": "MAX_TOKENS"
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 701,
+      "totalTokenCount": 4797,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 185
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 516
+        }
+      ],
+      "thoughtsTokenCount": 4096
+    },
+    "modelVersion": "gemini-2.5-pro-preview-05-06",
+    "createTime": "2025-05-27T13:26:59.630666Z",
+    "responseId": "o701aIq_JsamnvgPuOOl0As"
+  }
+}

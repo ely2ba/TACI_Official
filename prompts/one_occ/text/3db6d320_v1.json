@@ -1,0 +1,10 @@
+[
+  {
+    "role": "system",
+    "content": "You are an expert Paralegal And Legal Assistant. <REASONING>You may think internally; DO NOT reveal your reasoning.</REASONING>"
+  },
+  {
+    "role": "user",
+    "content": "<<FORMAT>> Wrap your final answer exactly once inside <OUTPUT_TEXT> … </OUTPUT_TEXT> . Do not output anything outside these tags. <</FORMAT>>\n\nYou are a senior Paralegal And Legal Assistant preparing a client-ready memo.\n\nTASK – Investigate facts and law of cases and search pertinent sources, such as public records and internet sources, to determine causes of action and to prepare cases.\n\nRespond inside <OUTPUT_TEXT>…</OUTPUT_TEXT>."
+  }
+]

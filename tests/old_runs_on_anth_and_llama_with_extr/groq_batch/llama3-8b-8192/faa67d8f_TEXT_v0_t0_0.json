@@ -1,0 +1,43 @@
+{
+  "uid": "faa67d8f",
+  "variant": 0,
+  "modality": "TEXT",
+  "temperature": 0.0,
+  "model": "llama3-8b-8192",
+  "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+  "timestamp": "2025-05-28T14:56:50.559671Z",
+  "prompt_sha256": "d7ce9749a7c1e636502d3ea3c5e7e87cd5c7862d8e242a1d996c249ac837e2b8",
+  "response": {
+    "id": "chatcmpl-63b4ecd5-b39f-4b06-9cc2-692bac3fc12c",
+    "object": "chat.completion",
+    "created": 1748444210,
+    "model": "llama3-8b-8192",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "<OUTPUT_TEXT>\nThe analysis of technology trends reveals that there is a growing demand for sustainable and eco-friendly products. This trend is driven by increasing consumer awareness and concern about the environment. As a result, companies that develop and market sustainable products are likely to experience increased sales and revenue.\n</OUTPUT_TEXT>"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "queue_time": 0.16110999,
+      "prompt_tokens": 104,
+      "prompt_time": 0.019673993,
+      "completion_tokens": 58,
+      "completion_time": 0.048333333,
+      "total_tokens": 162,
+      "total_time": 0.068007326
+    },
+    "usage_breakdown": {
+      "models": null
+    },
+    "system_fingerprint": "fp_dadc9d6142",
+    "x_groq": {
+      "id": "req_01jwbpasb9e3fs0nz30s6gsnxw"
+    }
+  }
+}

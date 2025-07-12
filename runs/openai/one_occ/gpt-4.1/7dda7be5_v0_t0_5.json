@@ -1,0 +1,49 @@
+{
+  "uid": "7dda7be5",
+  "variant": 0,
+  "temperature": 0.5,
+  "model": "gpt-4.1",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:59:00Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "f13d2c99c39a476287c57f6efceaef8cfa4d97a531c3e023231a94c1b7e1e2bc",
+  "response": {
+    "id": "chatcmpl-Bi21ujcaBzwdyPOAI1cywAvpPA6vH",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nTo appraise and inventory real and personal property for estate planning, follow these steps:\n\n1. **Identify All Assets**:\n   - Real Property: List all real estate holdings (homes, land, rental properties). Gather deeds, titles, and tax assessment documents.\n   - Personal Property: Include vehicles, jewelry, artwork, collectibles, furniture, and other tangible items.\n   - Financial Assets: List bank accounts, investment accounts, retirement accounts, stocks, bonds, and life insurance policies.\n   - Business Interests: Note ownership in businesses, partnerships, or LLCs.\n\n2. **Gather Documentation**:\n   - Obtain recent appraisals or market analyses for real estate.\n   - Collect titles, registration documents, and recent valuations for vehicles.\n   - For valuable personal property (art, jewelry, collectibles), secure professional appraisals.\n   - Review account statements and policy documents for financial assets.\n\n3. **Value Each Asset**:\n   - Use fair market value for real and personal property as of the date of inventory.\n   - For real estate, use appraisals or comparative market analyses.\n   - For personal property, use receipts, appraisals, or estimates from reputable dealers.\n   - For financial assets, use current balances or statements.\n\n4. **Create an Inventory List**:\n   - Prepare a detailed list or spreadsheet, including:\n     - Description of each asset\n     - Location\n     - Owner (if jointly owned, specify percentage)\n     - Estimated value\n     - Supporting documentation/reference\n\n5. **Review and Update**:\n   - Regularly update the inventory to reflect acquisitions, sales, or changes in value.\n   - Store the inventory and supporting documents securely, accessible to the estate\u2019s executor or attorney.\n\n6. **Consult Professionals**:\n   - If necessary, engage appraisers, accountants, or attorneys for complex or high-value assets.\n\nThis comprehensive inventory and appraisal process ensures accurate estate planning, simplifies probate, and helps with equitable distribution to beneficiaries.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749833934,
+    "model": "gpt-4.1-2025-04-14",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_51e1070cf2",
+    "usage": {
+      "completion_tokens": 407,
+      "prompt_tokens": 95,
+      "total_tokens": 502,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

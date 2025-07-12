@@ -1,0 +1,34 @@
+{
+  "uid": "f260aa25",
+  "variant": 1,
+  "modality": "TEXT",
+  "temperature": 0.0,
+  "model": "claude-3-opus-20240229",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T19:55:40.888476Z",
+  "commit_sha": "170b9e3e1d0d59846b1daa69da57be5d1db6306c",
+  "prompt_sha256": "77271438c8efdae57bc7ca80b7f71e3aa9d1fda2dcf40d15f46ffb79d5eeaa94",
+  "response": {
+    "id": "msg_0187LNMyfS4FLzrbDUpcVZRD",
+    "content": [
+      {
+        "citations": null,
+        "text": "Here is the memo:\n<OUTPUT_TEXT>\nTo: BI Team\nFrom: Senior BI Analyst\nSubject: BI Tools and Reporting Updates\n\nThe following enhancements have been made to our BI tools, reports, and metadata:\n• Tableau has been upgraded to version 2022.3, providing new dashboard formatting options and data source connectors. All users should update to this latest version.\n• The Sales KPI Dashboard has been updated with the latest fiscal quarter data and now includes regional breakdowns and year-over-year comparisons. This report can be accessed on the Sales SharePoint site.\n• Metadata descriptions have been added for all tables and fields in the Enterprise Data Warehouse to improve data discoverability and understanding. The data dictionary can be found on the EDW wiki.\nPlease reach out if you have any questions about these updates or need assistance accessing the new tools and reports. The BI team is available to provide training and support.\n</OUTPUT_TEXT>",
+        "type": "text"
+      }
+    ],
+    "model": "claude-3-opus-20240229",
+    "role": "assistant",
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "input_tokens": 124,
+      "output_tokens": 216,
+      "server_tool_use": null,
+      "service_tier": "standard"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "uid": "93eea469",
+  "variant": 1,
+  "temperature": 0.5,
+  "model": "gpt-4o",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:48:24Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "ddd0fd668bc990b8740c2319d5e03561f0c3b5f5fd7fd454d74b3c8bd9b2d6e3",
+  "response": {
+    "id": "chatcmpl-Bi1rhzeQAQzk8TX6aQ3IyyBbPdbwY",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>As a senior Paralegal and Legal Assistant, my role in meeting with clients and other professionals to discuss case details involves several key responsibilities. Firstly, I ensure that all relevant documentation and case files are organized and readily available for discussion. During the meeting, I facilitate communication by clearly explaining legal terms and procedures to clients, ensuring they understand the case's status and any potential legal strategies. Additionally, I coordinate with other professionals, such as attorneys and experts, to gather their insights and incorporate their input into our case strategy. My goal is to ensure that all parties are aligned and informed, ultimately contributing to a comprehensive and effective legal approach for our client.</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749833301,
+    "model": "gpt-4o-2024-08-06",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_07871e2ad8",
+    "usage": {
+      "completion_tokens": 137,
+      "prompt_tokens": 114,
+      "total_tokens": 251,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

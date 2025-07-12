@@ -1,0 +1,49 @@
+{
+  "uid": "db852c6e",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-4-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:42:29Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "514e9d920cc9bb2199db9c49d64af653ef994d999979b37fdafb0ba8806e0c8e",
+  "response": {
+    "id": "chatcmpl-Bi1lnB39p4a0ZCcNG8v4XygyOkA2f",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Law Office Coordination and Subpoena Delivery\n\n1. **Organize Internal Meetings**\n   - Schedule regular meetings with legal teams to discuss ongoing cases and strategies.\n   - Ensure all necessary parties are informed of meeting times and agendas in advance.\n\n2. **Manage Case Files**\n   - Keep a meticulous record of all case files.\n   - Update files regularly and ensure they are accessible to all relevant parties.\n\n3. **Coordinate Legal Documents**\n   - Oversee the preparation and filing of legal documents.\n   - Ensure that all documents are completed accurately and filed on time.\n\n4. **Delivery of Subpoenas**\n   - Arrange for the timely delivery of subpoenas.\n   - Confirm receipt of subpoenas by recipients and maintain a log of all subpoenas delivered.\n\n5. **Liaise with External Parties**\n   - Communicate with courts, opposing counsel, and other relevant entities.\n   - Schedule depositions, hearings, and other necessary appointments.\n\n6. **Maintain Legal Software**\n   - Ensure that all legal software is up-to-date and functioning.\n   - Train staff on new software features and best practices for their use.\n\n7. **Compliance and Ethics**\n   - Monitor compliance with legal standards and ethical guidelines within the office.\n   - Conduct regular reviews and updates on compliance policies.\n\n8. **Client Interaction**\n   - Facilitate client meetings and communications.\n   - Ensure that clients are informed about the status of their cases in a timely manner.\n\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749832935,
+    "model": "gpt-4-turbo-2024-04-09",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_de235176ee",
+    "usage": {
+      "completion_tokens": 305,
+      "prompt_tokens": 118,
+      "total_tokens": 423,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

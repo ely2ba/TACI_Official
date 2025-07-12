@@ -1,0 +1,45 @@
+{
+  "uid": "2bc72355",
+  "variant": 1,
+  "temperature": 0.5,
+  "model": "gemini-2.0-flash",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T13:15:01.978907Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_TEXT>Alright class, let's get ready to learn! Here's what we'll focus on today, and how we'll tackle it:\n\n**Individual Work & Small Groups:**\n\n*   **Reading Time:** Each of you will have some independent reading time with a book at your level. Remember to use your \"eagle eye\" to decode tricky words and think about what you're reading. After reading, jot down a quick summary in your reading logs.\n*   **Math Stations:** We'll break into small groups for math. Each station will have a different activity. One might be practicing multiplication facts with flashcards, another could involve solving word problems, and another might use manipulatives like blocks to understand fractions. Rotate through the stations so everyone gets a chance to work on each skill. I'll be walking around to help if you get stuck.\n*   **Writing Prompts:** I'll give each of you a different writing prompt to work on individually. Remember to use descriptive language and organize your thoughts into clear sentences.\n\n**Whole Group Instruction:**\n\n*   **Mini-Lesson (Reading):** We'll start with a mini-lesson on identifying the main idea of a story. I'll read a short passage aloud, and we'll discuss together how to find the main idea and supporting details.\n*   **Mini-Lesson (Science):** Today, we'll be learning about the water cycle! I'll use a diagram to show you how water evaporates, condenses, and precipitates. We'll have a class discussion about where we see the water cycle in action every day.\n*   **Demonstration (Art):** I'll demonstrate how to create a watercolor painting using different techniques like wet-on-wet and dry brushing. Then, you'll get a chance to experiment with these techniques yourselves.\n\n**Important Reminders:**\n\n*   Raise your hand if you have a question.\n*   Listen respectfully when others are speaking.\n*   Do your best work!\n*   Most importantly, have fun learning!\n\nI'm excited to see what you all accomplish today!\n</OUTPUT_TEXT>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.30093174487088636
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 118,
+      "candidatesTokenCount": 452,
+      "totalTokenCount": 570,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 118
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 452
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:14:58.369197Z",
+    "responseId": "0ro1aK3EFvCNgLUP-_fggAY"
+  }
+}

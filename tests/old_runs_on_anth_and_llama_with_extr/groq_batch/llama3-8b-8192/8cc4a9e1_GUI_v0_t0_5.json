@@ -1,0 +1,43 @@
+{
+  "uid": "8cc4a9e1",
+  "variant": 0,
+  "modality": "GUI",
+  "temperature": 0.5,
+  "model": "llama3-8b-8192",
+  "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+  "timestamp": "2025-05-28T14:53:30.128645Z",
+  "prompt_sha256": "f800fcdc8223c5935dd71eef477ed3dfdb47301f44c40fb297f578e45922d686",
+  "response": {
+    "id": "chatcmpl-9125d78c-c5e1-47f5-aa93-16651ce1e8a4",
+    "object": "chat.completion",
+    "created": 1748444010,
+    "model": "llama3-8b-8192",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "<OUTPUT_JSON>\n[\n    {\"action\": \"type\", \"selector\": \"input[name*=space i]\", \"text\": \"10\"},\n    {\"action\": \"type\", \"selector\": \"input[name*=charge i]\", \"text\": \"5\"},\n    {\"action\": \"click\", \"selector\": \"button:has-text(\\\"calculate\\\" i)\", \"text\": \"\"},\n    {\"action\": \"click\", \"selector\": \"button:has-text(\\\"save\\\" i)\", \"text\": \"\"}\n]\n</OUTPUT_JSON>"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "queue_time": 0.18091284600000002,
+      "prompt_tokens": 197,
+      "prompt_time": 0.036212737,
+      "completion_tokens": 105,
+      "completion_time": 0.0875,
+      "total_tokens": 302,
+      "total_time": 0.123712737
+    },
+    "usage_breakdown": {
+      "models": null
+    },
+    "system_fingerprint": "fp_dadc9d6142",
+    "x_groq": {
+      "id": "req_01jwbp4ncbfwa9kejck3h164wk"
+    }
+  }
+}

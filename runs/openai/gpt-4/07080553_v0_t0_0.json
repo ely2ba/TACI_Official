@@ -1,0 +1,49 @@
+{
+  "uid": "07080553",
+  "variant": 0,
+  "temperature": 0.0,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T23:35:12Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "b60d24599d1df23bd17991a8c681b996a2dd542b4a3676448842122e2105f6c1",
+  "response": {
+    "id": "chatcmpl-BaWCsHukrQW65NPQSYiD7kGbzAlFq",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nAs a paralegal and legal assistant, my task is to prepare affidavits or other documents, such as legal correspondence, and organize and maintain documents in a paper or electronic filing system.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748043310,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 47,
+      "prompt_tokens": 108,
+      "total_tokens": 155,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

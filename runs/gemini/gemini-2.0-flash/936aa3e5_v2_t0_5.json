@@ -1,0 +1,45 @@
+{
+  "uid": "936aa3e5",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gemini-2.0-flash",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T13:12:31.351423Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "```text\n # Financial Calculations\n \n\n 1.  **Simple Interest Calculation:**\n \n\n  *   Principal: $1,000\n  *   Interest Rate: 5% per year\n  *   Time: 3 years\n  *   Simple Interest = Principal x Rate x Time\n  *   Simple Interest = $1,000 x 0.05 x 3 = $150\n \n\n 2.  **Compound Interest Calculation:**\n \n\n  *   Principal: $1,000\n  *   Interest Rate: 5% per year, compounded annually\n  *   Time: 3 years\n  *   Amount = Principal (1 + Rate)^Time\n  *   Amount = $1,000 (1 + 0.05)^3 = $1,000 x (1.05)^3 = $1,000 x 1.157625 = $1,157.63 (rounded to nearest cent)\n  *   Compound Interest = Amount - Principal\n  *   Compound Interest = $1,157.63 - $1,000 = $157.63\n \n\n 3.  **Discount Calculation:**\n \n\n  *   Original Price: $200\n  *   Discount Rate: 10%\n  *   Discount Amount = Original Price x Discount Rate\n  *   Discount Amount = $200 x 0.10 = $20\n  *   Sale Price = Original Price - Discount Amount\n  *   Sale Price = $200 - $20 = $180\n \n\n 4.  **Amount Due Calculation:**\n \n\n  *   Invoice Amount: $500\n  *   Partial Payment Made: $200\n  *   Amount Due = Invoice Amount - Partial Payment Made\n  *   Amount Due = $500 - $200 = $300\n \n\n 5.  **Equity Calculation:**\n \n\n  *   Assets: $1,000,000\n  *   Liabilities: $300,000\n  *   Equity = Assets - Liabilities\n  *   Equity = $1,000,000 - $300,000 = $700,000\n \n\n 6.  **Principal Calculation (Loan):**\n \n\n  *   Loan Amount: $5,000\n  *   Interest Rate: 6% per year\n  *   Loan Term: 5 years\n  *   Monthly Payment (using a loan amortization formula or calculator, assuming a standard amortizing loan): Approximately $96.66\n  *   Total Paid over 5 years: $96.66 * 60 = $5799.60\n  *   Total Interest Paid: $5799.60 - $5000 = $799.60\n \n\n ```\n <OUTPUT_TEXT>\n # Financial Calculations\n \n\n 1.  **Simple Interest Calculation:**\n \n\n  *   Simple Interest: $150\n \n\n 2.  **Compound Interest Calculation:**\n \n\n  *   Compound Interest: $157.63\n \n\n 3.  **Discount Calculation:**\n \n\n  *   Sale Price: $180\n \n\n 4.  **Amount Due Calculation:**\n \n\n  *   Amount Due: $300\n \n\n 5.  **Equity Calculation:**\n \n\n  *   Equity: $700,000\n \n\n 6.  **Principal Calculation (Loan):**\n \n\n  *   Total Interest Paid: $799.60\n </OUTPUT_TEXT>\n ```"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.04282283106594221
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 121,
+      "candidatesTokenCount": 846,
+      "totalTokenCount": 967,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 121
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 846
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:12:26.303612Z",
+    "responseId": "Oro1aPzDEvq0nvgPkbjHyAk"
+  }
+}

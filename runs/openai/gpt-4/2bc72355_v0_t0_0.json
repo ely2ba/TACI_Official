@@ -1,0 +1,49 @@
+{
+  "uid": "2bc72355",
+  "variant": 0,
+  "temperature": 0.0,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:12:28Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "d83bb7d9a3c61c78ac7061b6a8fd2048a16c3337b3baa7d7fe706715f0aee39c",
+  "response": {
+    "id": "chatcmpl-BaUulGOxuP4I4kdpOQ3ze8wxwpird",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nAlright class, today we're going to learn about the water cycle. I'm going to start by giving a brief lecture on the topic. I'll explain each stage of the water cycle, and I'll use this diagram to help you visualize it. \n\nAfter the lecture, we'll break into small groups and discuss what we've learned. Each group will have a discussion leader who will guide the conversation and make sure everyone gets a chance to speak. \n\nFinally, we'll do a demonstration. I'll show you a simple experiment that illustrates how the water cycle works. You'll then replicate this experiment in your groups. Remember, the goal is to understand the process, not just to complete the experiment. So, if you have any questions at any point, don't hesitate to ask.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748038343,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 166,
+      "prompt_tokens": 71,
+      "total_tokens": 237,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

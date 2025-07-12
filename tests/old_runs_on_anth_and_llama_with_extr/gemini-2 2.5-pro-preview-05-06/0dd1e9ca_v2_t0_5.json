@@ -1,0 +1,46 @@
+{
+  "uid": "0dd1e9ca",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gemini-2.5-pro-preview-05-06",
+  "modality": "GUI",
+  "timestamp": "2025-05-27T13:45:07.181723Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_JSON>\n[\n  {\"action\": \"select_option\", \"selector\": \"select[name*=report i]\", \"value\": \"%report_name%\"},\n  {\"action\": \"click\", \"selector\": \"button:has-text(\\\"generate\\\" i)\"},\n  {\"action\": \"click\", \"selector\": \"button:has-text(\\\"export\\\" i)\"},\n  {\"action\": \"click\", \"selector\": \"a:has-text(\\\"download\\\" i)\"}\n]\n</OUTPUT_JSON>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.07889107653969213
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 173,
+      "candidatesTokenCount": 114,
+      "totalTokenCount": 417,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 173
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 114
+        }
+      ],
+      "thoughtsTokenCount": 130
+    },
+    "modelVersion": "gemini-2.5-pro-preview-05-06",
+    "createTime": "2025-05-27T13:45:04.486843Z",
+    "responseId": "4ME1aLvbHcepnvgP_sSfsAM"
+  }
+}

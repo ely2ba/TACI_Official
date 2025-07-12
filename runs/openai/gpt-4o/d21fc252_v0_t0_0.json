@@ -1,0 +1,49 @@
+{
+  "uid": "d21fc252",
+  "variant": 0,
+  "temperature": 0.0,
+  "model": "gpt-4o",
+  "modality": "VISION",
+  "timestamp": "2025-05-23T22:42:27Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "a44d077ca1eddae3e9fe115486057a7b08e44fb416e10dcbd175f2d430aa3b52",
+  "response": {
+    "id": "chatcmpl-BaVNmOWa4rIzapnElQmSTJpnhK4ZC",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_JSON>\n{\n  \"finding\": \"anomaly\",\n  \"image_id\": \"img_000\",\n  \"bbox\": [0, 0, 768, 768],\n  \"explanation\": \"Image 1 has a small scratch on the capsule.\"\n}\n</OUTPUT_JSON>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748040142,
+    "model": "gpt-4o-2024-08-06",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_9bddfca6e2",
+    "usage": {
+      "completion_tokens": 61,
+      "prompt_tokens": 1722,
+      "total_tokens": 1783,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "uid": "ce0be4e8",
+  "variant": 0,
+  "temperature": 0.0,
+  "model": "gemini-2.5-pro-preview-05-06",
+  "modality": "VISION",
+  "timestamp": "2025-05-27T13:21:11.261432Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_JSON>{\"finding\":\"Well-defined oval mass\",\"image_id\":\"img_001\",\"bbox\":[460,310,790,740],\"explanation\":\"Well-defined oval mass in IMAGE 2, not clearly seen in IMAGE 1.\"}</OUTPUT_JSON>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -5.283397790157434
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 736,
+      "candidatesTokenCount": 66,
+      "totalTokenCount": 2924,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 220
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 516
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 66
+        }
+      ],
+      "thoughtsTokenCount": 2122
+    },
+    "modelVersion": "gemini-2.5-pro-preview-05-06",
+    "createTime": "2025-05-27T13:20:50.340584Z",
+    "responseId": "Mrw1aOjkFLOb2PgPotLkyQs"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "uid": "1b64c419",
+  "variant": 1,
+  "temperature": 0.0,
+  "model": "gpt-4.1",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T23:09:20Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "d24b274dae042a5a719f8f536f54d84ac91f64d78f37367d93063cbbc488c55d",
+  "response": {
+    "id": "chatcmpl-BaVno7duVPJGXJxYhtgnhDwYyPw3x",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nTo: All Staff  \nFrom: Medical Secretary  \nSubject: Telephone Call Handling and Call Direction Procedures\n\nDear Team,\n\nThis is a reminder of our standard procedure for answering telephones and directing calls to the appropriate staff members:\n\n1. Answer all incoming calls promptly and professionally, stating the name of the practice and your name.\n2. Listen carefully to the caller\u2019s request or concern.\n3. Determine the appropriate staff member or department to handle the call.\n4. Politely inform the caller that you will transfer their call, and provide the name of the person or department they will be connected to.\n5. Transfer the call using the phone system\u2019s transfer function, ensuring the call is connected before disconnecting.\n6. If the appropriate staff member is unavailable, offer to take a message or direct the caller to voicemail.\n\nPlease ensure these procedures are followed to maintain efficient and courteous communication within our practice.\n\nThank you for your attention and cooperation.\n\nBest regards,  \n[Your Name]  \nSenior Medical Secretary\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748041756,
+    "model": "gpt-4.1-2025-04-14",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_ccc6ec921d",
+    "usage": {
+      "completion_tokens": 208,
+      "prompt_tokens": 78,
+      "total_tokens": 286,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

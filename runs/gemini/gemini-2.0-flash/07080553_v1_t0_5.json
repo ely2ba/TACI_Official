@@ -1,0 +1,45 @@
+{
+  "uid": "07080553",
+  "variant": 1,
+  "temperature": 0.5,
+  "model": "gemini-2.0-flash",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T13:14:51.468522Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_TEXT>Okay, I'm ready to draft affidavits, legal correspondence, and organize documents. To best assist, I need some context. Please provide the following information:\n\n1.  **Type of Case:** (e.g., personal injury, contract dispute, family law, criminal defense, etc.) This will determine the relevant legal principles and required documents.\n2.  **Specific Task:** What document(s) do you need me to prepare? (e.g., affidavit of service, demand letter, interrogatories, etc.) Be as specific as possible. If it's an affidavit, what facts need to be attested to? If it's correspondence, what is the purpose of the letter?\n3.  **Jurisdiction:** Which state and federal (if applicable) laws govern the case?\n4.  **Key Facts:** Provide a summary of the relevant facts of the case. Who are the parties involved? What happened? When and where did it happen?\n5.  **Client Information:** Client's full name, address, and contact information.\n6.  **Opposing Party Information:** Full name, address, and contact information (if available).\n7.  **Relevant Documents:** Please provide any existing documents related to the case, such as contracts, police reports, medical records, emails, etc. These documents are crucial for drafting accurate and effective legal documents.\n8.  **Specific Instructions:** Do you have any specific instructions or preferences regarding the format, content, or tone of the document?\n9.  **Filing System:** What type of filing system are we using (electronic or paper)? If electronic, what is the file naming convention and folder structure? If paper, how are documents organized (chronologically, alphabetically, by subject matter, etc.)?\n\nOnce I have this information, I can draft the necessary documents and organize them appropriately.\n</OUTPUT_TEXT>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.19637545190676295
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 119,
+      "candidatesTokenCount": 396,
+      "totalTokenCount": 515,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 119
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 396
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:14:48.541058Z",
+    "responseId": "yLo1aIKDIYmF1dkP4aj2sQY"
+  }
+}

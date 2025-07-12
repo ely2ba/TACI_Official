@@ -1,0 +1,49 @@
+{
+  "uid": "bbf22c00",
+  "variant": 0,
+  "temperature": 0.5,
+  "model": "gpt-3.5-turbo",
+  "modality": "GUI",
+  "timestamp": "2025-05-23T21:57:53Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "2d03bb136e963aaa5acabef9426a910052d362b8ae214c0eccff59e291bb2690",
+  "response": {
+    "id": "chatcmpl-BaUgiEqtqj3ftc8tzHFiSU68OfDKo",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_JSON>\n[\n    {\"action\": \"click\", \"selector\": \"table:has-text(\\\"order\\\" i) >> tr >> input[type=checkbox]\", \"text\": \"\"},\n    {\"action\": \"click\", \"selector\": \"table:has-text(\\\"invoice\\\" i) >> tr >> input[type=checkbox]\", \"text\": \"\"},\n    {\"action\": \"click\", \"selector\": \"button:has-text(\\\"match\\\" i)\", \"text\": \"\"},\n    {\"action\": \"click\", \"selector\": \"button:has-text(\\\"record\\\" i)\", \"text\": \"\"}\n]\n</OUTPUT_JSON>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748037472,
+    "model": "gpt-3.5-turbo-0125",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 122,
+      "prompt_tokens": 156,
+      "total_tokens": 278,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

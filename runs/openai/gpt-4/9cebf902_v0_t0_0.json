@@ -1,0 +1,49 @@
+{
+  "uid": "9cebf902",
+  "variant": 0,
+  "temperature": 0.0,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T23:35:08Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "ad3b2009798c497d8e0645d027e20b7e84b6fd3417524fc220faca49b0cdd031",
+  "response": {
+    "id": "chatcmpl-BaWCnbH2ISZpNEtj8vqKdf9jgPK39",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nAs a paralegal and legal assistant, I will conduct comprehensive legal research, including reviewing and analyzing statutes, court decisions, legal articles, codes, and documents. This will involve using various research tools and databases to gather relevant information. I will then analyze this data to understand its implications and how it applies to our specific legal situation. This information will be used to assist in the preparation of legal documents, case preparation, and strategy development.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748043305,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 96,
+      "prompt_tokens": 104,
+      "total_tokens": 200,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

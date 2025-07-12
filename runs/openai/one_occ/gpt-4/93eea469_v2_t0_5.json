@@ -1,0 +1,49 @@
+{
+  "uid": "93eea469",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:36:50Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "5840f80417a02a7d3ad8c40d2d2041b1542ff5380995b92d069040eb287bf935",
+  "response": {
+    "id": "chatcmpl-Bi1gRpbyOEA86Dnb4J5T6eATz9kyj",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Meeting with Clients and Professionals for Case Discussion\n\n1. **Preparation for the Meeting**\n   - Review the case files to have a comprehensive understanding of the case.\n   - Identify the key issues that need to be discussed during the meeting.\n   - Prepare a list of questions or points to discuss.\n\n2. **During the Meeting**\n   - Explain the purpose of the meeting and outline the agenda.\n   - Encourage clients and professionals to share their thoughts and concerns.\n   - Take detailed notes of the discussions for future reference.\n   - Ensure that all the key issues are addressed.\n\n3. **Post-Meeting**\n   - Review the notes and identify the next steps.\n   - Follow up with clients and professionals for any additional information or clarification.\n   - Update the case files with the new information gathered during the meeting.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749832603,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 175,
+      "prompt_tokens": 117,
+      "total_tokens": 292,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

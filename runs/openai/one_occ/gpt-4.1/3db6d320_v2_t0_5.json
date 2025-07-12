@@ -1,0 +1,49 @@
+{
+  "uid": "3db6d320",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-4.1",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:56:15Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "d18016c8317a6affa68d1e41ad66b11c8e90fbb032be3265670ac00645baf6d7",
+  "response": {
+    "id": "chatcmpl-Bi1zDUj2ZJJ67mjEYHoNrPs66SPP2",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Investigation of Facts and Law: Case Preparation\n\n1. **Case Fact Investigation**\n   - **Client Interview:** Gather a detailed account of events from the client, including dates, parties involved, and relevant documentation.\n   - **Public Records Search:** Examine court records, property records, police reports, and government databases for pertinent information.\n   - **Internet and Social Media:** Review online articles, social media posts, and other digital footprints related to the parties or events.\n\n2. **Legal Research**\n   - **Identify Legal Issues:** Based on facts, determine potential legal issues (e.g., breach of contract, negligence, defamation).\n   - **Case Law Search:** Use legal databases (Westlaw, LexisNexis, Google Scholar) to find precedents and relevant statutes.\n   - **Statutory Law:** Locate and review applicable federal, state, or local statutes that may govern the case.\n\n3. **Determining Causes of Action**\n   - **Element Analysis:** For each potential cause of action, compare the facts to the required legal elements.\n   - **Viability Assessment:** Evaluate the strength of each cause of action based on available evidence and legal standards.\n\n4. **Case Preparation**\n   - **Chronology Creation:** Develop a timeline of events supported by evidence.\n   - **Document Compilation:** Organize contracts, correspondence, photographs, and other key documents.\n   - **Witness Identification:** List potential witnesses and summarize their expected testimony.\n   - **Drafting Pleadings:** Prepare initial pleadings (complaint, answer) or motion drafts as appropriate.\n\n5. **Reporting and Recommendations**\n   - **Summary Report:** Prepare a memorandum summarizing findings, legal analysis, and recommendations for next steps.\n   - **Ongoing Updates:** Continue to monitor for new information and legal developments relevant to the case.\n\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749833767,
+    "model": "gpt-4.1-2025-04-14",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_51e1070cf2",
+    "usage": {
+      "completion_tokens": 377,
+      "prompt_tokens": 135,
+      "total_tokens": 512,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "uid": "d0cae549",
+  "variant": 2,
+  "temperature": 0.5,
+  "seed": 1,
+  "model": "o3-2025-04-16",
+  "modality": "TEXT",
+  "timestamp": "2025-06-21T20:52:06Z",
+  "commit_sha": "ac1698886e89fb01e65b6ca5c8e06e97f58dd0fa",
+  "prompt_sha256": "0e8cd22ff001ca6ad7a8b4f58709f39e29490bd143dd1123aee28c51547a181e",
+  "response": {
+    "id": "chatcmpl-BkzTjLhIhvCU48SghZ3Btycq0qigP",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Call Upon Witnesses to Testify at Hearing\n\n1. Case & Hearing Identification  \n   a. Caption: Smith v. Jones, Docket No. 22-CV-1057 (example).  \n   b. Tribunal: Superior Court of Example County, Civil Division.  \n   c. Hearing Date/Time: 21 Aug 2024 at 9:30 a.m., Courtroom 3B.  \n   d. Issues for which testimony is sought: liability and damages on negligence claim.\n\n2. Witness Roster  \n   a. Jane Doe \u2013 Eyewitness to incident (fact witness).  \n   b. Dr. Alan Patel \u2013 Treating physician (medical damages).  \n   c. Chris Nguyen, P.E. \u2013 Accident-reconstruction expert (opinion witness).  \n   d. Patricia Morales \u2013 Defendant\u2019s corporate representative under Rule 30(b)(6).  \n\n3. Legal Authority & Form of Compulsion  \n   a. Subpoena ad testificandum (Rule 45, State Rules of Civil Procedure).  \n   b. Expert witness subpoena + tender of expert fee (Rule 26(b)(4)(E)).  \n   c. Notice of deposition for corporate representative if unable to secure live appearance.\n\n4. Drafting the Subpoenas  \n   a. Use court-approved subpoena form.  \n   b. Insert correct case caption and docket number.  \n   c. Specify precise hearing date, time, and location.  \n   d. Include \u201cduces tecum\u201d language for any documents/objects to be produced.  \n   e. Add witness fee schedule: $40/day + mileage (state statute \u00a7 12-123).  \n   f. Attorney signature block and clerk\u2019s seal where required.\n\n5. Service of Process  \n   a. Personal service by licensed process server or sheriff (Rule 45(b)).  \n   b. Deadline: At least 7 calendar days before hearing unless court orders otherwise.  \n   c. Obtain Affidavit of Service for each witness and file with court.\n\n6. Witness Fee & Mileage Tender  \n   a. Provide statutory fee and mileage contemporaneously with service (mandatory).  \n   b. For out-of-county witnesses, prepay round-trip mileage from residence to courthouse.\n\n7. Follow-Up & Confirmation  \n   a. Three days after service, call or email each witness to confirm receipt and availability.  \n   b. Provide parking instructions, security screening procedures, and estimated testimony window.\n\n8. Non-Compliance Contingency  \n   a. Prepare motion to compel or motion for bench warrant under Rule 45(g) if witness fails to appear.  \n   b. Keep proof of service and communication log ready for court submission.\n\n9. Day-of-Hearing Logistics  \n   a. Check-in witnesses with courtroom deputy.  \n   b. Arrange sequestration under Rule 615 upon request.  \n   c. Provide waiting area, water, and contact information for questions.\n\n10. Post-Hearing Administrative Tasks  \n    a. Reimburse additional costs claimed by witnesses (parking, meals) if allowable.  \n    b. Update case file with testimony transcripts, exhibits produced, and witness expense forms.  \n    c. Close subpoena entries in docketing system and mark witness matters \u201ccompleted.\u201d\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1750539111,
+    "model": "o3-2025-04-16",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 953,
+      "prompt_tokens": 112,
+      "total_tokens": 1065,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 256,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

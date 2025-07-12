@@ -1,0 +1,45 @@
+{
+  "uid": "b4ec494d",
+  "variant": 1,
+  "temperature": 0.5,
+  "model": "gemini-2.0-flash",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T13:13:25.005998Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_TEXT>Subject: Referral of Unresolved Customer Grievances for Investigation\n\nDear [Recipient Name/Department Name],\n\nThis memo formally refers the following unresolved customer grievances to your department for further investigation and resolution. We have exhausted our initial customer service protocols and require your specialized expertise to address these complex issues.\n\nPlease find attached the detailed case files for each grievance, including:\n\n*   Customer contact information\n*   A summary of the customer's complaint\n*   A record of all previous interactions with our customer service team\n*   Relevant documentation (e.g., invoices, contracts, correspondence)\n\nThe specific case file numbers being referred are:\n\n*   [Case File Number 1]\n*   [Case File Number 2]\n*   [Case File Number 3]\n*   [And so on, listing all case file numbers]\n\nWe kindly request that your department prioritize these cases and provide us with an estimated timeframe for resolution. Regular updates on the progress of the investigations would be greatly appreciated.\n\nPlease direct any questions or requests for additional information to [Your Name] at [Your Phone Number] or [Your Email Address].\n\nThank you for your prompt attention to these important matters. We are confident that your expertise will lead to satisfactory resolutions for our valued customers.\n\nSincerely,\n\n[Your Name]\n\nSenior Customer Service Representative\n</OUTPUT_TEXT>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.12444297388980263
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 103,
+      "candidatesTokenCount": 285,
+      "totalTokenCount": 388,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 103
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 285
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:13:22.943010Z",
+    "responseId": "cro1aKLHOdahnvgPjb-S-Ag"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "uid": "ce0be4e8",
+  "variant": 0,
+  "temperature": 0.5,
+  "model": "gemini-2.5-flash-preview-05-20",
+  "modality": "VISION",
+  "timestamp": "2025-06-02T21:03:34.835265Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_JSON>{\"finding\":\"Nipple retraction\",\"image_id\":\"img_000\",\"bbox\":[500,480,550,520],\"explanation\":\"Nipple retraction observed in img_000, not present in img_001.\"}</OUTPUT_JSON>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -2.7138662627249053
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 736,
+      "candidatesTokenCount": 66,
+      "totalTokenCount": 1642,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 220
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 516
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 66
+        }
+      ],
+      "thoughtsTokenCount": 840
+    },
+    "modelVersion": "gemini-2.5-flash-preview-05-20",
+    "createTime": "2025-06-02T21:03:28.787915Z",
+    "responseId": "oBE-aMuLMMqF1dkPq8eZ2As"
+  }
+}

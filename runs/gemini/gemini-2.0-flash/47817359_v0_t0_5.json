@@ -1,0 +1,45 @@
+{
+  "uid": "47817359",
+  "variant": 0,
+  "temperature": 0.5,
+  "model": "gemini-2.0-flash",
+  "modality": "GUI",
+  "timestamp": "2025-05-27T13:10:49.001068Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "```json\n[\n  {\"action\": \"type\", \"selector\": \"input[name*=account i]\", \"text\": \"Supplies\"},\n  {\"action\": \"type\", \"selector\": \"input[name*=amount i], input[type=number]\", \"text\": \"75.00\"},\n  {\"action\": \"type\", \"selector\": \"textarea[name*=memo i]\", \"text\": \"Office Supplies\"},\n  {\"action\": \"click\", \"selector\": \"button:has-text(\\\"post\\\" i), button:has-text(\\\"save\\\" i)\"}\n]\n```"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.020263945962500383
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 182,
+      "candidatesTokenCount": 127,
+      "totalTokenCount": 309,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 182
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:10:47.997932Z",
+    "responseId": "17k1aKz0PPCNgLUP-_fggAY"
+  }
+}

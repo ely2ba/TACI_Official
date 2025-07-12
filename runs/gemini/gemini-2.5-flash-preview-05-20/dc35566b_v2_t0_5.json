@@ -1,0 +1,46 @@
+{
+  "uid": "dc35566b",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gemini-2.5-flash-preview-05-20",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T15:49:07.621583Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_TEXT>\n# Trial Exhibit Organization Plan\n\nAs an expert Paralegal and Legal Assistant, preparing exhibits for trial is a critical task requiring meticulous attention to detail. The following outlines the systematic approach to organizing exhibits to ensure efficiency and readiness for court proceedings.\n\n1.  **Initial Exhibit Identification and Review:**\n    *   **Gather All Potential Exhibits:** Collect every document, photograph, video, audio recording, physical object, or other item identified during discovery, client interviews, and witness preparation that may be offered as evidence.\n    *   **Relevance and Admissibility Review:** Work with the attorney to assess the relevance and potential admissibility of each item. Discard or set aside irrelevant or clearly inadmissible items to streamline the process.\n    *   **Duplicate Identification:** Identify and consolidate duplicate documents. Determine which version (e.g., original, best copy) will be used.\n    *   **Cross-Referencing:** Cross-reference potential exhibits with the witness list, trial outline, and specific legal arguments to ensure all necessary evidence is identified and aligned with the trial strategy.\n\n2.  **Exhibit Numbering and Labeling:**\n    *   **Assign Unique Numbers:** Assign a unique exhibit number to each item. Typically, Plaintiff's exhibits are numbered sequentially (e.g., P-1, P-2, P-3...) and Defendant's exhibits are lettered (e.g., D-A, D-B, D-C...). In some jurisdictions, joint numbering may be used.\n    *   **Create Exhibit Labels:** Prepare standardized exhibit stickers or labels that include the case name, exhibit number, and space for \"Admitted\" or \"For Identification\" stamps.\n    *   **Affix Labels:** Securely affix the exhibit label to the first page of each document or a prominent, non-obstructive location on physical items. For multi-page documents, consider stamping each page with the exhibit number.\n\n3.  **Physical and Digital Organization:**\n    *   **Master Exhibit Binders (Originals):** Create a set of master binders containing the original or best available copies of all numbered exhibits, organized numerically. Use sturdy binders with tabbed dividers for each exhibit.\n    *   **Working Copies:** Create multiple sets of working copies for the trial team, ensuring legibility.\n    *   **Digital Copies/Backup:** Scan all physical exhibits into high-resolution digital files (e.g., PDF, JPEG) and organize them in clearly labeled folders on a secure network drive or cloud storage. Ensure proper naming conventions (e.g., \"Exhibit P-001 - Contract.pdf\"). This serves as a backup and facilitates digital presentation in court.\n\n4.  **Exhibit List/Log Creation:**\n    *   **Comprehensive Spreadsheet:** Develop a detailed exhibit log, typically in a spreadsheet format (e.g., Excel). Include columns for:\n        *   Exhibit Number\n        *   Brief Description of Exhibit\n        *   Date of Document/Item\n        *   Witness(es) through whom the exhibit will be introduced\n        *   Status (e.g., \"For Identification,\" \"Admitted,\" \"Objected,\" \"Withdrawn\")\n        *   Notes (e.g., \"Pre-admitted,\" \"Stipulated,\" \"Objection sustained/overruled\")\n        *   Page Count (for documents)\n    *   **Continuous Updates:** Maintain and update this log continuously throughout the pre-trial phase and during trial as exhibits are offered and ruled upon.\n\n5.  **Witness Exhibit Binders/Packs:**\n    *   **Tailored Sets:** Prepare separate binders or packs of exhibits for each witness. Include only the exhibits relevant to that specific witness's testimony, organized in the order they will likely be discussed.\n    *   **Annotated Copies (Optional):** For key witnesses, consider providing copies with relevant sections highlighted or annotated (for attorney's use during direct/cross-examination).\n\n6.  **Copies for Court and Opposing Counsel:**\n    *   **Judge's Set:** Prepare a complete, identical set of all numbered exhibits for the judge. This set should be pristine, clearly tabbed, and easy to navigate.\n    *   **Opposing Counsel's Set:** Prepare an identical set of all numbered exhibits for opposing counsel, ensuring compliance with all pre-trial exchange rules.\n    *   **Court Clerk's Set (if required):** Some courts may require a set for the clerk.\n\n7.  **Pre-Trial Exchange and Stipulations:**\n    *   **Timely Exchange:** Ensure all exhibit lists and copies are exchanged with opposing counsel by the deadlines set in the pre-trial order.\n    *   **Stipulations and Objections:** Work with the attorney to review opposing counsel's exhibit list and identify exhibits that can be stipulated to for admission, thereby avoiding the need for foundational testimony. Likewise, identify and prepare for pre-trial objections to opposing counsel's exhibits.\n\n8.  **Trial Day Logistics:**\n    *   **Secure Transport:** Organize and transport all exhibit binders, digital files, and presentation equipment to the courthouse securely and efficiently.\n    *   **Exhibit Handler:** Designate a team member (often the paralegal) to manage exhibits in the courtroom, including handing them to witnesses, the judge, and opposing counsel, and tracking their admission status.\n    *   **Presentation Technology:** Ensure all digital exhibits are ready for projection, properly formatted, and tested on the courtroom's A/V system.\n    *   **Real-Time Tracking:** Maintain the exhibit log in real-time during trial, noting when each exhibit is marked for identification, offered, objected to, and admitted or rejected by the court. This is crucial for creating the final exhibit list for the record.\n\nBy following these steps, the exhibit organization process will be thorough, professional, and contribute significantly to a smooth and effective trial presentation.\n</OUTPUT_TEXT>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.34260861309254226
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 110,
+      "candidatesTokenCount": 1242,
+      "totalTokenCount": 1892,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 110
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1242
+        }
+      ],
+      "thoughtsTokenCount": 540
+    },
+    "modelVersion": "gemini-2.5-flash-preview-05-20",
+    "createTime": "2025-05-27T15:48:53.392680Z",
+    "responseId": "5d41aOj7F-6U2PgPqduJmAs"
+  }
+}

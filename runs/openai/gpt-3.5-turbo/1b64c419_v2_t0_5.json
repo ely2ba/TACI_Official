@@ -1,0 +1,49 @@
+{
+  "uid": "1b64c419",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-3.5-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T21:58:54Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "1f625a6fdd50fe7ecc05734bf1275a4209bfbcb42eba08862b793cb2d021742e",
+  "response": {
+    "id": "chatcmpl-BaUhhUrUv8nxB3ccixY6T3uMcDqrB",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Answering and Directing Phone Calls\n\n1. Greet callers in a professional and courteous manner.\n2. Determine the nature of the call and direct it to the appropriate staff member.\n3. If the staff member is unavailable, offer to take a message or transfer the call to voicemail.\n4. Ensure all calls are handled efficiently and accurately.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748037533,
+    "model": "gpt-3.5-turbo-0125",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 79,
+      "prompt_tokens": 82,
+      "total_tokens": 161,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

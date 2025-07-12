@@ -1,0 +1,45 @@
+{
+  "uid": "0c07452f",
+  "variant": 0,
+  "temperature": 0.0,
+  "model": "gemini-2.0-flash",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T13:15:58.875028Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_TEXT>Alright class, let's make sure we're all following the school rules today. That means keeping our hands and feet to ourselves, using kind words, and listening respectfully when others are talking. Remember, we're all part of a team here at [School Name], and we need to work together to make it a safe and happy place for everyone. If you're having trouble following a rule, please come talk to me. I'm here to help you succeed! Let's have a great day!</OUTPUT_TEXT>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.16984937916631285
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 87,
+      "candidatesTokenCount": 115,
+      "totalTokenCount": 202,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 87
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 115
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:15:57.906127Z",
+    "responseId": "Dbs1aI-nN8amnvgPuOOl0As"
+  }
+}

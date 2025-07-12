@@ -1,0 +1,49 @@
+{
+  "uid": "7dda7be5",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:30:43Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "4c035523dbfa2f05b815093ba9091189dc436fae6d0bd061eed6aa84ba109961",
+  "response": {
+    "id": "chatcmpl-Bi1aPiaVBZ1R7nyx1hxZA618M7EPS",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Estate Planning: Appraisal and Inventory of Real and Personal Property\n\n1. Identify Real Property\n   - This includes any land and structures attached to it, such as houses, buildings, farms, and vacant lands. Each property should be listed separately with its full address, size, and any unique characteristics.\n\n2. Appraise Real Property\n   - Determine the market value of each real property. This may require the services of a certified property appraiser. The appraisal should include the current market value, any mortgages or liens on the property, and the equity value.\n\n3. Identify Personal Property\n   - Personal property includes all tangible and intangible assets. Tangible assets can be items like cars, furniture, jewelry, and artwork. Intangible assets can include stocks, bonds, bank accounts, and retirement plans. Each item should be listed separately with a brief description.\n\n4. Appraise Personal Property\n   - Determine the value of each personal property item. Tangible assets may require an appraiser depending on their value and uniqueness. Intangible assets can typically be valued based on current market values or account balances.\n\n5. Calculate Total Estate Value\n   - Add up the value of all real and personal property to calculate the total estate value. This total value will be used for estate planning purposes, including drafting a will or trust, planning for estate taxes, and determining potential inheritance for heirs.\n\n6. Document and Store Inventory\n   - The inventory should be documented in a clear, organized manner and stored in a safe place. It should be easily accessible to the estate executor or trustee. The document should be updated regularly to reflect changes in property and values.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749832229,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 344,
+      "prompt_tokens": 117,
+      "total_tokens": 461,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

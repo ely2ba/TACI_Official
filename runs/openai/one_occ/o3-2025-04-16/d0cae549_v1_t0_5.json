@@ -1,0 +1,50 @@
+{
+  "uid": "d0cae549",
+  "variant": 1,
+  "temperature": 0.5,
+  "seed": 1,
+  "model": "o3-2025-04-16",
+  "modality": "TEXT",
+  "timestamp": "2025-06-21T20:27:43Z",
+  "commit_sha": "ac1698886e89fb01e65b6ca5c8e06e97f58dd0fa",
+  "prompt_sha256": "4e234ff3d6e83521d26588cef8dcc04a4c6d3fb0f771b86cd015840be14aca27",
+  "response": {
+    "id": "chatcmpl-Bkz662cvPlimu1rcKv2Lf5QZsNcZL",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nMemorandum  \n---------------------------------------------------------------------  \nTo:          [Lead Attorney\u2019s Name], Esq.  \nFrom:        [Your Name], Senior Paralegal  \nDate:        [Insert Date]  \nRe:          Coordinated Plan to Secure Witness Testimony at Upcoming Hearing  \n---------------------------------------------------------------------  \n\nI. Purpose  \nThis memorandum outlines the steps required to lawfully secure the attendance and testimony of all proposed witnesses for the hearing in [Case Caption], Docket No. [XXXX], scheduled for [Hearing Date] at [Time] in [Venue/Courtroom].\n\nII. Witness Roster & Scope of Testimony  \n1. [Witness #1 \u2013 Full Legal Name]  \n   \u2022 Role/Relationship: [e.g., \u201cTreating physician\u201d]  \n   \u2022 Key Topics: [e.g., \u201cCausation of injury, prognosis\u201d]  \n   \u2022 Documents Requested: [Yes/No] (If yes, list or attach Exhibit A)  \n\n2. [Witness #2 \u2013 Full Legal Name]  \n   \u2022 Role/Relationship: \u2026  \n\n[Continue list as necessary]\n\nIII. Legal Framework  \nA. Subpoenas Ad Testificandum (and Duces Tecum, if applicable)  \n   \u2022 Governing Rule: Federal Rule of Civil Procedure 45 (or [State] Rule 45) and Local Rule [xx].  \n   \u2022 Signature: Must be issued by the Clerk or signed by a licensed attorney of record (you).  \n   \u2022 Geographic Reach: Generally within 100 miles of the place of compliance, unless other statutory exceptions apply.  \n   \u2022 Service Deadline: Allow a minimum of 10 calendar days for personal service before the hearing, adjusting for weekends/holidays.  \n   \u2022 Witness Fee: $40 per day + mileage at IRS rate; must be tendered simultaneously with service.  \n\nB. Remote Testimony  \n   \u2022 If any witness is outside the 100-mile radius or has hardship, we must file a motion for video or telephonic testimony no later than [insert court\u2019s deadline] and provide good cause (Rule 43(a)).  \n\nIV. Action Plan & Timeline  \n\n| Date | Task | Responsible Party | Status |  \n|------|------|------------------|--------|  \n| T-28 days | Finalize witness list & objectives | Lead Atty / Paralegal | \u2610 |  \n| T-25 days | Draft subpoenas (attach docs requests if duces tecum) | Paralegal | \u2610 |  \n| T-24 days | Attorney review & signature | Lead Atty | \u2610 |  \n| T-23 to T-18 days | Coordinate process server; complete personal service; tender fees | Paralegal / Server | \u2610 |  \n| T-17 days | File certificates of service with court | Paralegal | \u2610 |  \n| T-14 days | Schedule witness prep sessions; circulate logistics sheet | Paralegal | \u2610 |  \n| T-7 days | Conduct mock examination; confirm exhibits | Lead Atty / Paralegal | \u2610 |  \n| T-3 days | Verification calls/emails to witnesses; confirm travel | Paralegal | \u2610 |  \n| Hearing Day | Escort witnesses; handle sequestration & order of call | Paralegal | \u2610 |  \n\nV. Witness Preparation Package  \nA. Letter of Instructions  \n   \u2022 Hearing date/time, physical address, parking/security screening procedures.  \n   \u2022 Contact numbers for day-of emergencies.  \n\nB. Testimony Outline  \n   \u2022 Key questions, anticipated cross-examination, and privilege alerts.  \n\nC. Exhibits Binder  \n   \u2022 Tabbed copies of any documents the witness will reference; two extra courtesy sets for the court and opposing counsel.  \n\nD. Conduct Guidelines  \n   \u2022 Courtroom demeanor, oath, speaking clearly for the record, avoiding volunteering extra information.  \n\nVI. Special Considerations  \n\u2022 Interpreter Needed: Yes/No \u2013 File form AO 435 (or state equivalent) by [deadline].  \n\u2022 ADA Accommodation: If required, contact Clerk at least 48 hours beforehand.  \n\u2022 Confidential/Sealed Materials: Prepare motion to seal or protective order if sensitive documents will be produced.  \n\nVII. Next Steps / Attorney Direction Needed  \n1. Approve witness roster and scope of testimony.  \n2. Sign subpoenas once drafted (target date: T-25).  \n3. Confirm decision on remote testimony for [Witness #__] and whether to pursue motion.  \n\nVIII. Attachments  \nA. Draft Subpoena (Blank Template)  \nB. Witness Information Sheet  \nC. Timeline Checklist (editable)  \nD. Process Server Instructions  \n\nPlease advise if you require any modifications or additional witnesses. Once approved, I will proceed with the service of subpoenas and schedule preparation sessions accordingly.\n\n</OUTPUT_TEXT>\n",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1750537646,
+    "model": "o3-2025-04-16",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1335,
+      "prompt_tokens": 109,
+      "total_tokens": 1444,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 320,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

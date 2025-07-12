@@ -1,0 +1,50 @@
+{
+  "uid": "07080553",
+  "variant": 2,
+  "temperature": 0.0,
+  "seed": 0,
+  "model": "o3-2025-04-16",
+  "modality": "TEXT",
+  "timestamp": "2025-06-21T20:43:54Z",
+  "commit_sha": "ac1698886e89fb01e65b6ca5c8e06e97f58dd0fa",
+  "prompt_sha256": "40b67c629e9856ec273e3f4dfceabf50dd497228e11b942a701560af1d835696",
+  "response": {
+    "id": "chatcmpl-BkzLfAkDtbFdPVnNNMT2wm3O3RiDg",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# **Paralegal Document Preparation & File Management Guide**\n\n## 1. Affidavit Preparation  \n1.1 Purpose & Legal Requirements  \n&nbsp;&nbsp;\u2022 Formal sworn statement of fact; must be signed before a notary or other officer empowered to administer oaths.  \n&nbsp;&nbsp;\u2022 Must comply with local rules (e.g., caption format, jurat language, font size, page limits).  \n\n1.2 Information-Gathering Checklist  \n&nbsp;&nbsp;\u25a1 Full legal name, address, and contact information of affiant  \n&nbsp;&nbsp;\u25a1 Case caption (court, parties, docket number)  \n&nbsp;&nbsp;\u25a1 Chronological statement of facts, limited to personal knowledge  \n&nbsp;&nbsp;\u25a1 Exhibits referenced and properly labeled (Ex. A, Ex. B, etc.)  \n&nbsp;&nbsp;\u25a1 Date and venue of signing  \n&nbsp;&nbsp;\u25a1 Notary block with commission expiration  \n\n1.3 Template  \n```\n[COURT NAME]  \n[County / District / State]  \n\n[Case Caption]  \n\nAFFIDAVIT OF [AFFIANT NAME]\n\nI, [Affiant Name], being duly sworn, state as follows:\n\n1. I am over 18 years of age and competent to testify to the matters herein.  \n2. I reside at [Address].  \n3. [Fact 1]  \n4. [Fact 2]  \n   \u2026  \nFurther your affiant sayeth naught.\n\n_________________________________  \n[Affiant Name]\n\nSTATE OF __________  )  \nCOUNTY OF _________ ) ss.:\n\nSubscribed and sworn before me this ___ day of ______, 20__, by [Affiant Name].\n\n_________________________________  \nNotary Public  \nMy commission expires: __________\n```\n\n1.4 Execution Steps  \n  a. Draft affidavit in word processor using template.  \n  b. Insert precise, numbered factual statements; attach exhibits.  \n  c. Review for clarity, accuracy, and hearsay.  \n  d. Schedule signing with notary; verify government-issued ID.  \n  e. Notary completes jurat; scan to PDF (OCR-enabled).  \n  f. File electronically or in paper per court rule, serve on parties.\n\n---\n\n## 2. Legal Correspondence  \n2.1 Common Types  \n  \u2022 Demand letters  \n  \u2022 Cover letters for filings  \n  \u2022 Meet-and-confer letters  \n  \u2022 Status update letters to clients  \n\n2.2 Standard Letterhead Template  \n```\n[Law Firm Name]            [Date]  \n[Address]  \n[Phone] | [Email]  \n\nVIA [METHOD]  \n[Recipient Name]  \n[Recipient Title / Firm]  \n[Recipient Address]\n\nRe: [Matter Name] \u2014 [Subject]\n\nDear [Mr./Ms. Last Name]:\n\nParagraph 1: Purpose of letter and governing authority if any.  \nParagraph 2-n: Relevant facts, legal position, and requested action.  \nConclusion: Deadline, next steps, and contact information.\n\nSincerely,\n\n________________________  \n[Attorney Name]  \n[Bar Number]  \ncc: Client; File  \nEncl.: [List]\n```\n\n2.3 Drafting Guidelines  \n  \u2022 Use active voice; avoid inflammatory language.  \n  \u2022 Cite authority sparingly unless persuasive value is critical.  \n  \u2022 Define deadlines in calendar days & provide response method.  \n\n2.4 Quality Control  \n  \u2713 Blue-pencil for confidentiality & privilege markers.  \n  \u2713 Spell-check and confirm addressee details.  \n  \u2713 Route to supervising attorney for final sign-off.  \n\n---\n\n## 3. Organizing & Maintaining Paper/E-Files  \n3.1 Folder Hierarchy (Mirror for Paper & Digital)  \n  /Client-Matter No./  \n    01_Pleadings  \n    02_Correspondence  \n    03_Discovery  \n    04_Evidence  \n    05_Research  \n    06_Billing  \n\n3.2 Document Naming Convention  \n  YYYY-MM-DD_Type_ShortDescription_Author.Initials (e.g., 2024-05-01_Ltr_Demand_JDS.pdf)  \n\n3.3 Master Index  \n  \u2022 Spreadsheet with columns: File Name | Date | Author | Description | Privileged (Y/N) | Bates Range.  \n  \u2022 Auto-linked to cloud storage path for quick retrieval.  \n\n3.4 Security & Backups  \n  \u2022 Restrict access via role-based permissions.  \n  \u2022 Daily incremental and weekly full backups; store off-site or in encrypted cloud.  \n  \u2022 Enable version history and audit logs.  \n\n3.5 Retention & Destruction Schedule  \n  \u2022 Follow jurisdiction/firm policy (typically 7-10 years post-closure).  \n  \u2022 Document client consent for early destruction or extended retention.  \n  \u2022 Track dates in case management software; calendar review reminders.\n\n---\n\n## 4. Workflow & Best Practices  \n1. Intake \u2192 create client-matter number and initial folders.  \n2. Draft documents using approved templates; save to correct folder immediately.  \n3. Route to attorney for review; lock final versions as PDF/A.  \n4. Serve/file documents; log service details in index.  \n5. Perform monthly audits for mis-files or naming errors.  \n6. At matter close, compile closing binder (PDF with bookmarks); send courtesy copy to client.  \n7. Transfer to archival storage; update retention tracker.\n\n---\n\n## 5. Quick-Reference Checklist  \n\u2610 Verified court rules for affidavit format  \n\u2610 Affidavit signed & notarized  \n\u2610 Exhibits labeled, Bates-stamped, and linked in index  \n\u2610 Correspondence proofread and attorney-approved  \n\u2610 Files named per convention and saved in correct folder  \n\u2610 Backup completed and logged  \n\u2610 Retention timer set\n\n*This guide provides general best practices and templates; always adjust to specific jurisdictional rules and supervising attorney instructions.*\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1750538611,
+    "model": "o3-2025-04-16",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1584,
+      "prompt_tokens": 129,
+      "total_tokens": 1713,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 256,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

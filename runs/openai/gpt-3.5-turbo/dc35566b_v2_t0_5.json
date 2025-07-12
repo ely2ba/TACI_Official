@@ -1,0 +1,49 @@
+{
+  "uid": "dc35566b",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-3.5-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:00:54Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "26edbd2e16ae6cdd1e49d23da961fd220dd9bcf754598e12a7e36824c4246f40",
+  "response": {
+    "id": "chatcmpl-BaUjbS9YBeSYftvk4CHFhAXhPPEQh",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Trial Preparation Tasks\n\n1. **Organize Exhibits**\n   - Gather all relevant exhibits and evidence for the trial.\n   - Label each exhibit clearly and organize them in a logical order.\n   - Create exhibit lists for easy reference during the trial.\n\n2. **Prepare Witness Lists**\n   - Compile a list of witnesses who will testify at the trial.\n   - Ensure contact information for each witness is up to date.\n   - Coordinate with witnesses to confirm availability for trial dates.\n\n3. **Review Case Documents**\n   - Review all case documents, including pleadings, motions, and discovery materials.\n   - Summarize key points and arguments for quick reference during trial.\n\n4. **Coordinate with Legal Team**\n   - Communicate with attorneys and other legal team members to ensure everyone is prepared for trial.\n   - Discuss trial strategy and any last-minute preparations that may be needed.\n\n5. **Prepare Trial Binders**\n   - Create organized trial binders containing all necessary documents and exhibits.\n   - Include tabs for easy navigation and quick access to relevant information during the trial.\n\n6. **Attend Pre-Trial Conferences**\n   - Participate in pre-trial conferences to discuss logistics, scheduling, and any outstanding issues before trial.\n   - Take notes and coordinate with the legal team to address any concerns or questions that arise.\n\n7. **Coordinate with Court Staff**\n   - Confirm trial dates, times, and courtroom assignments with court staff.\n   - Ensure all necessary arrangements, such as technology needs or special accommodations, are in place for the trial.\n\n8. **Prepare Opening Statements and Closing Arguments**\n   - Assist attorneys in drafting compelling opening statements and closing arguments.\n   - Coordinate with the legal team to ensure a cohesive and persuasive presentation of the case.\n\n9. **Review Trial Procedures**\n   - Familiarize yourself with courtroom procedures and rules of evidence.\n   - Ensure you understand the trial process and your role in supporting the legal team during the trial.\n\n10. **Finalize Trial Preparation**\n    - Double-check all preparations, documents, and exhibits to ensure everything is in order.\n    - Address any last-minute issues or concerns before the start of the trial.\n\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748037651,
+    "model": "gpt-3.5-turbo-0125",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 445,
+      "prompt_tokens": 84,
+      "total_tokens": 529,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

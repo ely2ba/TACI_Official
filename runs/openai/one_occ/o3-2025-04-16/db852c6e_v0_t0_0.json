@@ -1,0 +1,50 @@
+{
+  "uid": "db852c6e",
+  "variant": 0,
+  "temperature": 0.0,
+  "seed": 0,
+  "model": "o3-2025-04-16",
+  "modality": "TEXT",
+  "timestamp": "2025-06-21T20:51:22Z",
+  "commit_sha": "ac1698886e89fb01e65b6ca5c8e06e97f58dd0fa",
+  "prompt_sha256": "120988dc081b01b620d8d0ac9a66b0eb8a86cea5606c03759f2cba631d6ca4bf",
+  "response": {
+    "id": "chatcmpl-BkzSvjCR9I1DDBekuJupywmw1IRFy",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nGUIDE: DIRECTING & COORDINATING LAW-OFFICE ACTIVITY (INCLUDING DELIVERY OF SUBPOENAS)\n\nI. OBJECTIVE\nEfficiently organize daily operations so that pleadings, subpoenas, and all case-related tasks are completed accurately, on time, and in compliance with federal, state, and local rules of procedure.\n\nII. KEY RESPONSIBILITIES\n1. Workflow Oversight\n   \u2022 Maintain master docket/calendar of all case deadlines (hearings, discovery cut-offs, service deadlines, statute expirations).  \n   \u2022 Assign tasks to staff and track completion via case-management software (e.g., Clio, MyCase).  \n   \u2022 Conduct brief \u201cstand-up\u201d meetings each morning to confirm priorities and allocate resources.\n\n2. Subpoena Lifecycle Management\n   A. Drafting\n      \u2013 Confirm jurisdictional authority and proper form (caption, parties, case number).  \n      \u2013 Determine scope: documents, testimony, or both.  \n      \u2013 Calculate witness fees/travel mileage where required.  \n      \u2013 Obtain attorney signature or court clerk issuance as applicable.\n   B. Service Planning\n      \u2013 Identify correct recipient (registered agent, custodian of records, witness).  \n      \u2013 Select service method allowed by rule (personal, certified mail, electronic, interstate uniform act).  \n      \u2013 Choose qualified process server; prepare service packet (subpoena, notice to consumer, witness fee check).  \n      \u2013 Enter service deadline and follow-up date on docket.\n   C. Execution & Proof\n      \u2013 Monitor process server status in real time (GPS/time-stamped apps or emailed updates).  \n      \u2013 On completion, obtain signed Proof/Affidavit of Service; review for accuracy (date, time, description of person served).  \n      \u2013 File proof with court when required; circulate copy to litigation team; upload to document management system (DMS).  \n   D. Post-Service Follow-up\n      \u2013 Calendar compliance/production date.  \n      \u2013 Send courtesy reminder to recipient 3\u20135 days beforehand.  \n      \u2013 Track receipt of records or witness confirmation; escalate non-compliance for motion to compel or contempt proceeding.\n\n3. Communication & Reporting\n   \u2022 Keep lead attorney informed of status changes (service failures, objections, motions to quash).  \n   \u2022 Provide weekly KPI report: subpoenas issued/served, pending compliance, upcoming deadlines.  \n   \u2022 Maintain clear audit trail for each action (who, what, when).\n\n4. Quality & Compliance Controls\n   \u2022 Utilize checklists at each phase (draft, review, serve, file).  \n   \u2022 Spot-check 10% of dockets weekly for accuracy.  \n   \u2022 Conduct quarterly training on new procedural rule changes and ethical obligations.\n\nIII. STANDARD OPERATING PROCEDURE (SOP) SNAPSHOT\n1. Intake Request \u2192 Create Task \u2192 Draft Subpoena Template.  \n2. Attorney Review/Sign \u2192 Log in Subpoena Register (unique ID).  \n3. Assign Process Server \u2192 Send Packet & Detailed Instructions.  \n4. Confirm Service Attempt within 48 hrs.  \n5. Obtain Proof \u2192 Scan/OCR \u2192 File w/ Court \u2192 Update Register & Calendar.  \n6. Monitor Compliance \u2192 Archive in Closed-Subpoena Folder once satisfied.\n\nIV. TOOLS & TEMPLATES\n\u2022 Docketing software with rule-based deadline calculator (CourtAlert, Compulaw).  \n\u2022 Service vendor portal (ABC Legal, OneLegal) for tracking proofs.  \n\u2022 Standard subpoena templates (Rule 45 Fed. R. Civ. P.; local civil subpoena).  \n\u2022 Master checklist (attached as \u201cSubpoena Control Sheet\u201d).  \n\u2022 Training manual on witness fee schedules.\n\nV. RISK MITIGATION\n\u2022 Duplicate calendaring (primary software + Outlook alerts).  \n\u2022 Backup process server in each county.  \n\u2022 Immediate escalation protocol if service is unsuccessful within 5 days of deadline.  \n\u2022 Confidentiality measures: redact PII before circulation; encrypted transfer of medical/financial records.\n\nVI. ETHICS & REGULATORY NOTES\n\u2022 Unauthorized Practice of Law (UPL): drafting must be under attorney supervision.  \n\u2022 Privacy laws (HIPAA, GLBA): secure data exchange and minimum necessary disclosure.  \n\u2022 Fair Debt Collection Act considerations when subpoenaing consumer financial info.\n\nVII. PERFORMANCE METRICS\n\u2022 100% of subpoenas served at least 5 business days before compliance date.  \n\u2022 \u22642% error rate in proofs of service.  \n\u2022 All docket entries audited within 24 hrs of issuance or service.\n\nVIII. CONTINUOUS IMPROVEMENT\nHold monthly \u201cpost-matter\u201d reviews to identify delays or errors; update SOP and checklists accordingly; integrate automation tools (e-signatures, AI calendaring) where permissible.\n\nBy institutionalizing the above framework, a paralegal or legal assistant can direct and coordinate law-office activity efficiently while ensuring that every subpoena is drafted, served, and tracked in strict adherence to applicable procedural rules and ethical standards.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1750539061,
+    "model": "o3-2025-04-16",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1562,
+      "prompt_tokens": 95,
+      "total_tokens": 1657,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

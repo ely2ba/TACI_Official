@@ -1,0 +1,50 @@
+{
+  "uid": "7dda7be5",
+  "variant": 0,
+  "temperature": 0.0,
+  "seed": 0,
+  "model": "o3-2025-04-16",
+  "modality": "TEXT",
+  "timestamp": "2025-06-22T01:30:03Z",
+  "commit_sha": "804359864749ca9f67aac246209838ff70615b83",
+  "prompt_sha256": "f13d2c99c39a476287c57f6efceaef8cfa4d97a531c3e023231a94c1b7e1e2bc",
+  "response": {
+    "id": "chatcmpl-Bl3oiXdIAcwtmODUMs1mS4cBhGy3Q",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nBelow is a structured, practitioner-oriented checklist you can follow when appraising and inventorying real and personal property for an estate-planning file. Adapt as needed for local statutes, court rules, and the supervising attorney\u2019s preferences.\n\n1. Preliminary File Setup\n   \u2022 Obtain signed engagement letter and HIPAA/financial record authorizations.  \n   \u2022 Create a master \u201cProperty Inventory and Valuation\u201d worksheet (spreadsheet or case-management template).  \n   \u2022 Confirm applicable valuation date (e.g., \u201cdate-of-death\u201d vs. \u201ccurrent fair market value\u201d).\n\n2. Collect Supporting Documentation\n   A. Real Property  \n      \u2013 Recorded deeds, title reports, surveys, legal descriptions.  \n      \u2013 Mortgage statements, property tax bills, homeowner-association ledgers.  \n      \u2013 Prior appraisals or market analyses.\n\n   B. Tangible Personal Property  \n      \u2013 Vehicle titles/registrations, boat documentation, RV or aircraft logs.  \n      \u2013 Jewelry certificates, art provenance, collectibles receipts.  \n      \u2013 Household goods insurance schedules.\n\n   C. Intangible Personal Property  \n      \u2013 Brokerage and bank statements, stock certificates, cryptocurrency wallets.  \n      \u2013 Partnership or LLC interests, promissory notes, royalty agreements.  \n      \u2013 Life insurance policies (cash value), annuities, retirement plan summaries.\n\n3. Determine Ownership and Title Character\n   \u2022 Identify sole, joint tenancy, tenancy-in-common, community-property, or trust-owned interests.  \n   \u2022 Note beneficiary designations and payable-on-death (POD) accounts that pass outside probate.  \n   \u2022 Flag any property subject to liens, UCC filings, or pending litigation.\n\n4. Engage or Coordinate Appraisals\n   A. Real Property  \n      \u2013 Licensed real-estate appraiser provides Uniform Residential Appraisal Report (URAR) or commercial narrative.  \n      \u2013 For closely held farms/ranches, consider specialized agricultural appraisers.\n\n   B. Tangible Personal Property  \n      \u2013 Accredited personal-property appraisers (ASA, ISA, AAA) for fine art, antiques, jewelry.  \n      \u2013 Use NADA, Kelley Blue Book, or Edmunds for vehicles; marine appraisal for boats.\n\n   C. Intangibles  \n      \u2013 Publicly traded securities: closing market price on valuation date.  \n      \u2013 Closely held business interests: certified business valuator (ASA-BV, CPA/ABV).  \n      \u2013 Life insurance: request Form 712 or carrier\u2019s interpolated terminal reserve.\n\n5. Populate the Inventory Worksheet\n   Columns to include:  \n   \u2022 Asset description & location  \n   \u2022 Ownership percentage & form of title  \n   \u2022 Source documents/reference numbers  \n   \u2022 Gross fair market value (FMV)  \n   \u2022 Encumbrances/Liabilities  \n   \u2022 Net value  \n   \u2022 Disposition (probate, trust, non-probate, specific bequest)  \n   \u2022 Notes/next steps\n\n6. Verify and Reconcile Values\n   \u2022 Cross-check appraisal conclusions with tax assessments and market comparables.  \n   \u2022 Reconcile securities valuations with broker\u2019s cost basis statements.  \n   \u2022 Update for any post-appraisal adjustments (repairs, market fluctuations).\n\n7. Draft Supporting Affidavits or Schedules\n   \u2022 Estate tax Form 706 Schedule A (real estate), Schedule B (stocks/bonds), etc.  \n   \u2022 Probate court \u201cInventory & Appraisement\u201d form, if required.  \n   \u2022 Internal memorandum summarizing methodology and valuation sources.\n\n8. Deliverables to Supervising Attorney\n   \u2022 Comprehensive inventory spreadsheet (print and digital).  \n   \u2022 Appraisal reports and source documents, tab-indexed.  \n   \u2022 Summary cover memo highlighting high-value or complex assets and recommending additional planning (e.g., GRAT, LLC, insurance trust).\n\n9. Ongoing Maintenance\n   \u2022 Calendar periodic re-appraisals (commonly every 3\u20135 years or upon major market changes).  \n   \u2022 Update inventory upon acquisitions, dispositions, or title changes.  \n   \u2022 Ensure signed client acknowledgment of inventory accuracy.\n\n10. Compliance and Ethical Considerations\n    \u2022 Maintain confidentiality; store valuations in secure document management system.  \n    \u2022 Avoid offering appraisal opinions yourself unless credentialed; always disclaim non-appraiser status.  \n    \u2022 Check state-specific rules on who may sign valuation affidavits or file court inventories (attorney vs. executor vs. appraiser).\n\nDisclaimer: This checklist is for informational purposes only and does not constitute legal advice. Always follow the direction of the supervising attorney and applicable jurisdictional requirements.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1750555788,
+    "model": "o3-2025-04-16",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1087,
+      "prompt_tokens": 94,
+      "total_tokens": 1181,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 128,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

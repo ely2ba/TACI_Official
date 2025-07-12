@@ -1,0 +1,49 @@
+{
+  "uid": "d21fc252",
+  "variant": 1,
+  "temperature": 0.5,
+  "model": "gemini-2.0-flash",
+  "modality": "VISION",
+  "timestamp": "2025-05-27T13:09:22.538545Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "The image shows a capsule with the number 500 printed on it. There is no damage or abnormality visible.\n<OUTPUT_JSON>{\"finding\":\"normal\",\"image_id\":null,\"bbox\":null,\"explanation\":\"\"}</OUTPUT_JSON>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.2984912578876202
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 727,
+      "candidatesTokenCount": 52,
+      "totalTokenCount": 779,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 211
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 516
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 52
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:09:21.691466Z",
+    "responseId": "gbk1aIqaKvCNgLUP-_fggAY"
+  }
+}

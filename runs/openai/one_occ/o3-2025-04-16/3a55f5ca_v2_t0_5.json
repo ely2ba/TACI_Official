@@ -1,0 +1,50 @@
+{
+  "uid": "3a55f5ca",
+  "variant": 2,
+  "temperature": 0.5,
+  "seed": 1,
+  "model": "o3-2025-04-16",
+  "modality": "TEXT",
+  "timestamp": "2025-06-21T20:30:58Z",
+  "commit_sha": "ac1698886e89fb01e65b6ca5c8e06e97f58dd0fa",
+  "prompt_sha256": "cd07b991d8a43f6f05d21bac3250f3274274b6b2d0d4cfbb115d60c578d9e5c7",
+  "response": {
+    "id": "chatcmpl-Bkz9ML1QIFFzKcWszcnyNhwFh47tF",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Information Request Needed\n\nTo assist you in preparing, editing, or reviewing the appropriate legal document, I need the following details:\n\n1. Type of Document  \n   \u2022 Legislation, brief, pleading, appeal, will, contract, real-estate closing statement, or other?  \n\n2. Purpose and Jurisdiction  \n   \u2022 Intended use (e.g., filing with a specific court, private agreement, estate planning).  \n   \u2022 Governing law (state, province, or country).\n\n3. Parties Involved  \n   \u2022 Full legal names (or placeholders) and roles (e.g., plaintiff/defendant; testator/beneficiaries; buyer/seller).\n\n4. Key Facts or Transaction Terms  \n   \u2022 For contracts: goods/services, price, term, deliverables, warranties, etc.  \n   \u2022 For wills: assets, specific bequests, residuary beneficiaries, executors, guardians.  \n   \u2022 For pleadings/appeals: docket number, procedural posture, issues on appeal, relief sought.  \n   \u2022 For real-estate closings: property description, purchase price, closing date, contingencies.\n\n5. Deadlines and Formatting Requirements  \n   \u2022 Filing or signing date, word-count/page limits, mandated headings, certificate of service, signature blocks.\n\n6. Existing Draft or Clauses (If Any)  \n   \u2022 Provide the text you wish me to edit or review, indicating sensitive portions that must remain unchanged.\n\nOnce I receive this information, I can:\n1. Draft a new document from scratch.  \n2. Edit and redline an existing draft.  \n3. Provide a section-by-section legal compliance and risk analysis.  \n\nPlease reply with the above details or attach the draft document, and I will proceed promptly.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1750537848,
+    "model": "o3-2025-04-16",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 510,
+      "prompt_tokens": 133,
+      "total_tokens": 643,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 128,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "uid": "b4ec494d",
+  "variant": 1,
+  "temperature": 0.5,
+  "model": "gpt-3.5-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T21:59:00Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "5decac0c7e3673218126b8d0a561c29bd98fc6330e436af7d1c9cff204e9974d",
+  "response": {
+    "id": "chatcmpl-BaUhnGgeQTy6YaSy0ERBAn8Rnmzvy",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>Dear Team,\n\nI hope this message finds you well. I am writing to bring to your attention a few unresolved customer grievances that have been escalated to our department. After thorough investigation and attempts to resolve the issues, it appears that further investigation from your team is required to address these matters effectively.\n\nI kindly request your prompt attention to these cases and appreciate your assistance in providing a resolution for our valued customers. Should you need any additional information or support from our end, please do not hesitate to reach out.\n\nThank you for your cooperation in ensuring customer satisfaction.\n\nBest regards,\n\n[Your Name]\nSenior Customer Service Representative</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748037539,
+    "model": "gpt-3.5-turbo-0125",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 129,
+      "prompt_tokens": 75,
+      "total_tokens": 204,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

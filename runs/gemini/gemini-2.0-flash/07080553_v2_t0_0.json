@@ -1,0 +1,58 @@
+{
+  "uid": "07080553",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gemini-2.0-flash",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T13:16:47.637631Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "```text\n<OUTPUT_TEXT>\n# Affidavit of [Client Name]\n\n## 1. Introduction\n\nI, [Client Name], being duly sworn, depose and state as follows:\n\n1.  My name is [Client Name], and my address is [Client Address]. I am over the age of eighteen (18) years and am competent to testify to the matters set forth herein.\n\n## 2. Background\n\n2.  I am the [Relationship to Case, e.g., Plaintiff, Defendant, Witness] in the matter of [Case Name], Case No. [Case Number], currently pending before the [Court Name].\n\n3.  This affidavit is made in support of [Purpose of Affidavit, e.g., Motion for Summary Judgment, Response to Motion to Dismiss].\n\n## 3. Factual Allegations\n\n4.  On [Date], I [Specific Action or Event]. For example: \"On January 1, 2023, I entered into a contract with [Opposing Party Name] for the sale of [Item or Service].\"\n\n5.  [Provide specific details about the event or action. Be clear, concise, and avoid legal jargon. Use specific dates, times, locations, and names whenever possible.] For example: \"The contract stated that [Opposing Party Name] would pay me $[Amount] within thirty (30) days of delivery. I delivered the [Item] on January 5, 2023.\"\n\n6.  [Continue providing factual details in numbered paragraphs. Each paragraph should focus on a single fact or event.] For example: \"Despite repeated attempts to contact [Opposing Party Name], I have not received payment. I sent emails on February 5, 2023, February 12, 2023, and February 19, 2023, requesting payment. Copies of these emails are attached as Exhibit A.\"\n\n7.  [If applicable, describe any damages or harm you have suffered as a result of the events described above.] For example: \"As a result of [Opposing Party Name]'s failure to pay, I have suffered financial hardship and have been unable to pay my own bills.\"\n\n## 4. Conclusion\n\n8.  The foregoing statements are true and correct to the best of my knowledge, information, and belief.\n\nFurther affiant sayeth naught.\n\n____________________________\n[Client Name]\n\nSubscribed and sworn to before me this [Day] day of [Month], [Year].\n\n____________________________\n[Notary Public Name]\nNotary Public in and for the County of [County Name], State of [State Name]\nMy commission expires: [Date]\n\n## Exhibit A: Copies of Emails (Attached)\n\n## Legal Correspondence Example: Demand Letter\n\n[Your Law Firm Letterhead]\n[Date]\n\n[Opposing Party Name]\n[Opposing Party Address]\n\n**RE: Demand for Payment \u2013 [Case Name/Subject]**\n\nDear [Opposing Party Name]:\n\nThis firm represents [Client Name] in connection with [Briefly describe the matter, e.g., breach of contract, personal injury].\n\nWe are writing to demand payment of $[Amount] for [Briefly explain the basis for the demand, e.g., unpaid invoices, medical expenses]. As you know, [Client Name] [Briefly describe the relevant facts, e.g., performed all obligations under the contract, suffered injuries as a result of your negligence].\n\nDespite repeated requests, you have failed to [Specific action or inaction, e.g., make payment, provide necessary information]. This constitutes a [Legal claim, e.g., breach of contract, tort].\n\nWe demand that you remit payment of $[Amount] within [Number] days of the date of this letter. If we do not receive payment within this timeframe, we will be forced to pursue all available legal remedies, including filing a lawsuit against you.\n\nThis letter is an attempt to resolve this matter amicably. Please contact me at [Your Phone Number] or [Your Email Address] to discuss this matter further.\n\nSincerely,\n[Your Name]\n[Your Title]\n\n## Document Organization and Maintenance (Electronic Filing System Example)\n\n**Folder Structure:**\n\n*   **[Case Name] \u2013 [Case Number]**\n    *   **Pleadings:**\n        *   Complaint\n        *   Answer\n        *   Motions (e.g., Motion for Summary Judgment, Motion to Dismiss)\n        *   Orders\n    *   **Discovery:**\n        *   Interrogatories (Requests and Responses)\n        *   Requests for Production (Requests and Responses)\n        *   Depositions (Transcripts and Exhibits)\n        *   Subpoenas\n    *   **Correspondence:**\n        *   Emails\n        *   Letters\n        *   Memos\n    *   **Evidence:**\n        *   Contracts\n        *   Invoices\n        *   Photographs\n        *   Videos\n        *   Medical Records\n    *   **Legal Research:**\n        *   Statutes\n        *   Case Law\n        *   Legal Articles\n    *   **Trial Documents:**\n        *   Witness Lists\n        *   Exhibit Lists\n        *   Trial Briefs\n        *   Jury Instructions\n\n**File Naming Convention:**\n\n*   **[Document Type] \u2013 [Brief Description] \u2013 [Date]**\n    *   Example: \"Complaint \u2013 Breach of Contract \u2013 2023-10-27\"\n    *   Example: \"Email \u2013 Client Update \u2013 2023-11-03\"\n\n**Document Maintenance:**\n\n*   Regularly back up all electronic files.\n*   Use a consistent file naming convention.\n*   Scan paper documents and save them electronically.\n*   Maintain a log of all documents filed.\n*   Purge outdated or irrelevant documents according to firm policy and legal requirements.\n</OUTPUT_TEXT>\n```"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "citationMetadata": {
+          "citations": [
+            {
+              "startIndex": 1811,
+              "endIndex": 1935,
+              "uri": "https://www.nrc.gov/docs/ML2032/ML20328A093.pdf"
+            },
+            {
+              "startIndex": 3401,
+              "endIndex": 3531
+            }
+          ]
+        },
+        "avgLogprobs": -0.10532830089045028
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 122,
+      "candidatesTokenCount": 1252,
+      "totalTokenCount": 1374,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 122
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1252
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:16:39.424518Z",
+    "responseId": "N7s1aMb0GeC4nvgPz_H5yAI"
+  }
+}

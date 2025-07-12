@@ -1,0 +1,45 @@
+{
+  "uid": "936aa3e5",
+  "variant": 1,
+  "temperature": 0.0,
+  "model": "gemini-2.0-flash",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T13:18:47.240812Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "```text\n<OUTPUT_TEXT>Okay, I'm ready to perform financial calculations and prepare a client-ready memo as a senior Bookkeeping Accounting and Auditing Clerk. I will focus on accuracy and clarity in my calculations and explanations. Please provide the details of the calculations needed.</OUTPUT_TEXT>\n```"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.15140071747794984
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 119,
+      "candidatesTokenCount": 63,
+      "totalTokenCount": 182,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 119
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 63
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:18:46.447861Z",
+    "responseId": "trs1aPWqG-C4nvgPz_H5yAI"
+  }
+}

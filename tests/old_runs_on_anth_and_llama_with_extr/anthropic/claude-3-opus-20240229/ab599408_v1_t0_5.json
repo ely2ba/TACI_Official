@@ -1,0 +1,15 @@
+{
+  "uid": "ab599408",
+  "variant": 1,
+  "modality": "GUI",
+  "temperature": 0.5,
+  "model": "claude-3-opus-20240229",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T17:42:44.201792Z",
+  "commit_sha": "98b2eb0f130d4d32e78707f77c440a8f68e4103c",
+  "prompt_sha256": "6deb63c9034adde4c3eca02ac8675c6f05c2b38c3ea630b7023968e5b5efda2f",
+  "response": {
+    "raw": "Here is the JSON array for performing the clerical task of ordering and maintaining an inventory of supplies:\n<OUTPUT_JSON>\n[\n  {\n    \"action\": \"click\",\n    \"selector\": \"input[placeholder*=search i]\",\n    \"text\": \"paper\"\n  },\n  {\n    \"action\": \"click\", \n    \"selector\": \"button:has-text(\\\"add item\\\" i)\",\n    \"text\": \"\"\n  },\n  {\n    \"action\": \"fill\",\n    \"selector\": \"input[name*=quantity i]\",\n    \"text\": \"10 reams\"\n  },\n  {\n    \"action\": \"click\",\n    \"selector\": \"button:has-text(\\\"order\\\" i), button:has-text(\\\"submit\\\" i)\",\n    \"text\": \"\"\n  }\n]\n</OUTPUT_JSON>",
+    "extracted": "<OUTPUT_JSON>\n[\n  {\n    \"action\": \"click\",\n    \"selector\": \"input[placeholder*=search i]\",\n    \"text\": \"paper\"\n  },\n  {\n    \"action\": \"click\", \n    \"selector\": \"button:has-text(\\\"add item\\\" i)\",\n    \"text\": \"\"\n  },\n  {\n    \"action\": \"fill\",\n    \"selector\": \"input[name*=quantity i]\",\n    \"text\": \"10 reams\"\n  },\n  {\n    \"action\": \"click\",\n    \"selector\": \"button:has-text(\\\"order\\\" i), button:has-text(\\\"submit\\\" i)\",\n    \"text\": \"\"\n  }\n]\n</OUTPUT_JSON>"
+  }
+}

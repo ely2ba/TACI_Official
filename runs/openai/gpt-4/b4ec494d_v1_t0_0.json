@@ -1,0 +1,49 @@
+{
+  "uid": "b4ec494d",
+  "variant": 1,
+  "temperature": 0.0,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:08:07Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "5decac0c7e3673218126b8d0a561c29bd98fc6330e436af7d1c9cff204e9974d",
+  "response": {
+    "id": "chatcmpl-BaUqWWK7tUol9x1lGikAGFa4KAo53",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n\nSubject: Unresolved Customer Grievances - Further Investigation Required\n\nDear Team,\n\nI hope this message finds you well. I am writing to bring to your attention a number of unresolved customer grievances that require further investigation.\n\nDespite our best efforts to address and resolve these issues, they remain outstanding and are causing significant dissatisfaction among our valued customers. The grievances range from product quality concerns to delivery delays and billing discrepancies.\n\nIn accordance with our standard operating procedures, I am referring these unresolved grievances to your department for further investigation. I am confident that your team, with its expertise and dedication, will be able to provide the necessary solutions to these issues.\n\nPlease find attached a detailed report of the grievances for your review. I kindly request that you prioritize these issues and provide a resolution at the earliest convenience to ensure customer satisfaction.\n\nThank you for your prompt attention to this matter. I look forward to your feedback and the resolution of these grievances.\n\nBest Regards,\n\n[Your Name]\n[Your Position]\n\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748038080,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 203,
+      "prompt_tokens": 75,
+      "total_tokens": 278,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "uid": "3a55f5ca",
+  "variant": 1,
+  "temperature": 0.5,
+  "model": "gpt-4.1",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:59:28Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "f082a124fd0b55b995ea4b6b7cbe5a09d594a83832c0f42db7a153e6959a6ad9",
+  "response": {
+    "id": "chatcmpl-Bi22RQMneWIOvGmbGbINnGm2PKgP2",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nCertainly. Please specify the type of legal document you need prepared, edited, or reviewed (e.g., contract, will, pleading, brief, real estate closing statement), and provide any relevant details or instructions (such as parties involved, jurisdiction, specific issues, or your objectives). Once I have this information, I will prepare or review the requested document and ensure it is client-ready.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749833967,
+    "model": "gpt-4.1-2025-04-14",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_51e1070cf2",
+    "usage": {
+      "completion_tokens": 85,
+      "prompt_tokens": 131,
+      "total_tokens": 216,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

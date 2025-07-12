@@ -1,0 +1,49 @@
+{
+  "uid": "936aa3e5",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-4o",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:46:20Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "e27b33f68330ba9f081ac5cbf0fae70c8cccec958ae0b30242cd1986fe4a4b1c",
+  "response": {
+    "id": "chatcmpl-BaVRXrOshJJeCcvzPa9HY9jDfSGzd",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "# Financial Calculations\n\n1. **Amounts Due**  \n   To calculate amounts due, sum up all outstanding invoices or bills. For example, if there are three invoices with amounts of $100, $200, and $150, the total amount due is $450.\n\n2. **Interest Charges**  \n   To calculate interest charges, use the formula:  \n   Interest = Principal x Rate x Time  \n   For example, for a principal of $1,000 at an annual interest rate of 5% over 1 year:  \n   Interest = $1,000 x 0.05 x 1 = $50\n\n3. **Balances**  \n   To determine a balance, subtract total expenses from total income. For example, if total income is $5,000 and total expenses are $3,000, the balance is $2,000.\n\n4. **Discounts**  \n   To calculate a discount, multiply the original price by the discount rate. For example, for a $200 item with a 10% discount:  \n   Discount = $200 x 0.10 = $20  \n   Discounted Price = $200 - $20 = $180\n\n5. **Equity**  \n   Equity is calculated as Assets minus Liabilities. For example, if a company has assets of $50,000 and liabilities of $20,000, the equity is $30,000.\n\n6. **Principal**  \n   The principal is the initial amount of a loan or investment. If you borrow $5,000, that amount is the principal.\n\n<OUTPUT_TEXT>\n1. Amounts Due: $450\n2. Interest Charges: $50\n3. Balances: $2,000\n4. Discounts: $20 (Discounted Price: $180)\n5. Equity: $30,000\n6. Principal: $5,000\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748040375,
+    "model": "gpt-4o-2024-08-06",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_9bddfca6e2",
+    "usage": {
+      "completion_tokens": 387,
+      "prompt_tokens": 95,
+      "total_tokens": 482,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "uid": "9cebf902",
+  "variant": 1,
+  "modality": "TEXT",
+  "temperature": 0.5,
+  "model": "claude-3-5-sonnet-20240620",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T18:04:25.201846Z",
+  "commit_sha": "98b2eb0f130d4d32e78707f77c440a8f68e4103c",
+  "prompt_sha256": "8a785dae0c42bd76581cb68287a32a36fb000a5a6d9cc024152a9c25b13df99a",
+  "response": {
+    "raw": "Here is a possible client-ready memo on gathering and analyzing legal research data:\n\n<OUTPUT_TEXT>\nMEMORANDUM\n\nRE: Legal Research Process\n\nTo effectively gather and analyze research data for legal matters, we follow a systematic approach:\n\n1. Identify key issues and search terms related to the case\n2. Consult primary sources:\n   - Statutes and regulations\n   - Case law and court decisions\n3. Review secondary sources:\n   - Legal treatises and textbooks \n   - Law review articles\n   - Legal encyclopedias\n4. Utilize legal research databases (e.g. Westlaw, LexisNexis)\n5. Analyze findings:\n   - Evaluate relevance and precedential value\n   - Identify supporting and contrary authority\n   - Synthesize key principles and arguments\n6. Organize research results:\n   - Prepare case summaries and statutory analyses\n   - Create research report outlining findings\n7. Update research periodically to capture new developments\n\nThis thorough process ensures we build a comprehensive foundation of legal authority to support our case strategy and arguments.\n</OUTPUT_TEXT>",
+    "extracted": "<OUTPUT_TEXT>\nMEMORANDUM\n\nRE: Legal Research Process\n\nTo effectively gather and analyze research data for legal matters, we follow a systematic approach:\n\n1. Identify key issues and search terms related to the case\n2. Consult primary sources:\n   - Statutes and regulations\n   - Case law and court decisions\n3. Review secondary sources:\n   - Legal treatises and textbooks \n   - Law review articles\n   - Legal encyclopedias\n4. Utilize legal research databases (e.g. Westlaw, LexisNexis)\n5. Analyze findings:\n   - Evaluate relevance and precedential value\n   - Identify supporting and contrary authority\n   - Synthesize key principles and arguments\n6. Organize research results:\n   - Prepare case summaries and statutory analyses\n   - Create research report outlining findings\n7. Update research periodically to capture new developments\n\nThis thorough process ensures we build a comprehensive foundation of legal authority to support our case strategy and arguments.\n</OUTPUT_TEXT>"
+  }
+}

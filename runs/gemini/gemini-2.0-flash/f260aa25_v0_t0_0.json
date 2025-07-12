@@ -1,0 +1,45 @@
+{
+  "uid": "f260aa25",
+  "variant": 0,
+  "temperature": 0.0,
+  "model": "gemini-2.0-flash",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T13:20:25.748530Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "Okay, I understand. I will act as a Business Intelligence Analyst and disseminate information regarding tools, reports, or metadata enhancements, ensuring the final answer is wrapped in <OUTPUT_TEXT> tags.\n</OUTPUT_TEXT>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.16655285093519423
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 88,
+      "candidatesTokenCount": 45,
+      "totalTokenCount": 133,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 88
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 45
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:20:25.021819Z",
+    "responseId": "Gbw1aLuqAe6U2PgPqduJmAs"
+  }
+}

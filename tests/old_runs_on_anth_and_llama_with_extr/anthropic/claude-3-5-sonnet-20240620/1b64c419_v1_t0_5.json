@@ -1,0 +1,15 @@
+{
+  "uid": "1b64c419",
+  "variant": 1,
+  "modality": "TEXT",
+  "temperature": 0.5,
+  "model": "claude-3-5-sonnet-20240620",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T18:11:44.893973Z",
+  "commit_sha": "98b2eb0f130d4d32e78707f77c440a8f68e4103c",
+  "prompt_sha256": "0d062b31a8dfb325f5a020a427591cd45a7a1f56879606663171c364af3c180c",
+  "response": {
+    "raw": "<OUTPUT_TEXT>\n• Answer all incoming calls promptly and professionally\n• Greet callers courteously and identify the practice/department\n• Determine nature of call and caller's needs\n• Transfer calls to appropriate staff member or department\n• Take detailed messages when staff are unavailable\n• Manage multiple phone lines as needed\n• Handle basic inquiries and provide general information\n• Maintain up-to-date staff directory and extensions\n• Follow HIPAA guidelines for patient privacy/confidentiality\n• Document all calls in the phone log system\n</OUTPUT_TEXT>",
+    "extracted": "<OUTPUT_TEXT>\n• Answer all incoming calls promptly and professionally\n• Greet callers courteously and identify the practice/department\n• Determine nature of call and caller's needs\n• Transfer calls to appropriate staff member or department\n• Take detailed messages when staff are unavailable\n• Manage multiple phone lines as needed\n• Handle basic inquiries and provide general information\n• Maintain up-to-date staff directory and extensions\n• Follow HIPAA guidelines for patient privacy/confidentiality\n• Document all calls in the phone log system\n</OUTPUT_TEXT>"
+  }
+}

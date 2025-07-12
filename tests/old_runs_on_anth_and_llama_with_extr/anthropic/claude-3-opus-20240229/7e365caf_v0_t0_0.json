@@ -1,0 +1,15 @@
+{
+  "uid": "7e365caf",
+  "variant": 0,
+  "modality": "TEXT",
+  "temperature": 0.0,
+  "model": "claude-3-opus-20240229",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T17:53:33.731599Z",
+  "commit_sha": "98b2eb0f130d4d32e78707f77c440a8f68e4103c",
+  "prompt_sha256": "707bc2f7bb401ddd7c858b68576da117b3f5152b9fab6b3d4bc009a55bfc0da6",
+  "response": {
+    "raw": "Here is my attempt at the task of supporting the development of training materials and technical manuals for logistics:\n\n<OUTPUT_TEXT>\nTo support the development of effective training materials and technical manuals for logistics:\n\n- Work closely with subject matter experts to gather accurate, detailed information on logistics processes, systems, and best practices\n- Structure the content in a logical flow, breaking it down into clear sections and subsections\n- Use simple language and define any technical terms and acronyms \n- Include visuals like process flow diagrams, screenshots, and photos to illustrate key concepts\n- Provide step-by-step instructions for key tasks and procedures\n- Include practical examples and use cases to help readers understand how to apply the information \n- Incorporate knowledge checks, quizzes, and hands-on exercises to reinforce learning\n- Ensure the materials are professionally edited, formatted and designed for clarity and ease of use\n- Gather feedback from end users and stakeholders and make iterative improvements\n- Keep materials up-to-date as logistics processes and systems change over time\n</OUTPUT_TEXT>",
+    "extracted": "<OUTPUT_TEXT>\nTo support the development of effective training materials and technical manuals for logistics:\n\n- Work closely with subject matter experts to gather accurate, detailed information on logistics processes, systems, and best practices\n- Structure the content in a logical flow, breaking it down into clear sections and subsections\n- Use simple language and define any technical terms and acronyms \n- Include visuals like process flow diagrams, screenshots, and photos to illustrate key concepts\n- Provide step-by-step instructions for key tasks and procedures\n- Include practical examples and use cases to help readers understand how to apply the information \n- Incorporate knowledge checks, quizzes, and hands-on exercises to reinforce learning\n- Ensure the materials are professionally edited, formatted and designed for clarity and ease of use\n- Gather feedback from end users and stakeholders and make iterative improvements\n- Keep materials up-to-date as logistics processes and systems change over time\n</OUTPUT_TEXT>"
+  }
+}

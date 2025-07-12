@@ -1,0 +1,49 @@
+{
+  "uid": "936aa3e5",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gpt-4o",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:46:15Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "e27b33f68330ba9f081ac5cbf0fae70c8cccec958ae0b30242cd1986fe4a4b1c",
+  "response": {
+    "id": "chatcmpl-BaVRRedc4L0fmxeTEiJH3txJ2w9me",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "# Financial Calculations\n\n1. **Amounts Due**  \n   To calculate the amount due, you need to sum up all the outstanding invoices or charges. For example, if you have three invoices of $100, $200, and $300, the total amount due is $600.\n\n2. **Interest Charges**  \n   Interest charges can be calculated using the formula:  \n   \\[ \\text{Interest} = \\text{Principal} \\times \\text{Rate} \\times \\text{Time} \\]  \n   For example, if the principal is $1,000, the annual interest rate is 5%, and the time is 1 year, the interest charge is $50.\n\n3. **Balances**  \n   The balance is the amount remaining in an account after all transactions have been accounted for. For example, if you start with $1,000 and spend $300, the balance is $700.\n\n4. **Discounts**  \n   Discounts can be calculated by multiplying the original price by the discount rate. For example, if an item costs $100 and there is a 10% discount, the discount amount is $10, making the final price $90.\n\n5. **Equity**  \n   Equity is calculated as the difference between total assets and total liabilities. For example, if a company has assets of $500,000 and liabilities of $300,000, the equity is $200,000.\n\n6. **Principal**  \n   The principal is the initial amount of money borrowed or invested, excluding any interest or earnings. For example, if you take out a loan of $5,000, the principal is $5,000.\n\n<OUTPUT_TEXT>\n1. Amounts Due: $600\n2. Interest Charges: $50\n3. Balances: $700\n4. Discounts: $10 (Final Price: $90)\n5. Equity: $200,000\n6. Principal: $5,000\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748040369,
+    "model": "gpt-4o-2024-08-06",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_76544d79cb",
+    "usage": {
+      "completion_tokens": 405,
+      "prompt_tokens": 95,
+      "total_tokens": 500,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

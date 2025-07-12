@@ -1,0 +1,49 @@
+{
+  "uid": "936aa3e5",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:06:54Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "e27b33f68330ba9f081ac5cbf0fae70c8cccec958ae0b30242cd1986fe4a4b1c",
+  "response": {
+    "id": "chatcmpl-BaUpHNGeIXSSmT2yixu1CTwA8KEjX",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<H1> Financial Calculations </H1>\n\n1. <OUTPUT_TEXT>Amounts Due: To calculate the amount due, add up all the charges and subtract any payments made. If there are any late fees or interest charges, add these to the total.</OUTPUT_TEXT>\n\n2. <OUTPUT_TEXT>Interest Charges: To calculate interest charges, multiply the outstanding balance by the interest rate and the time period. For example, if the outstanding balance is $1000, the annual interest rate is 5%, and the time period is 1 year, the interest charge would be $50.</OUTPUT_TEXT>\n\n3. <OUTPUT_TEXT>Balances: To calculate the balance, add up all the charges and subtract any payments made. If there are any late fees or interest charges, add these to the total.</OUTPUT_TEXT>\n\n4. <OUTPUT_TEXT>Discounts: To calculate the discount, multiply the original price by the discount rate. For example, if the original price is $100 and the discount rate is 20%, the discount would be $20.</OUTPUT_TEXT>\n\n5. <OUTPUT_TEXT>Equity: To calculate equity, subtract the total liabilities from the total assets. For example, if total assets are $5000 and total liabilities are $2000, the equity would be $3000.</OUTPUT_TEXT>\n\n6. <OUTPUT_TEXT>Principal: The principal is the original amount of a loan or investment. For example, if you take out a loan for $5000, the principal is $5000.</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748038003,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 313,
+      "prompt_tokens": 95,
+      "total_tokens": 408,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

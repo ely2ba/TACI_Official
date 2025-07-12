@@ -1,0 +1,44 @@
+{
+  "uid": "ab599408",
+  "variant": 2,
+  "modality": "GUI",
+  "temperature": 0.5,
+  "model": "llama3-8b-8192",
+  "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+  "timestamp": "2025-05-28T19:15:31.651925Z",
+  "prompt_sha256": "a5d4c00686f5678ce585e89e61061a589ec844aefc0f3c16f2bb6e57f94208d7",
+  "commit_sha": "170b9e3e1d0d59846b1daa69da57be5d1db6306c",
+  "response": {
+    "id": "chatcmpl-829b190a-5439-432e-b9ec-92345c656932",
+    "object": "chat.completion",
+    "created": 1748459731,
+    "model": "llama3-8b-8192",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "<OUTPUT_JSON>\n[\n    {\n        \"selector\": \"input[placeholder*=search i]\",\n        \"action\": \"type\",\n        \"value\": \"office supplies\"\n    },\n    {\n        \"selector\": \"button:has-text(\\\"add item\\\" i)\",\n        \"action\": \"click\"\n    },\n    {\n        \"selector\": \"input[name*=quantity i]\",\n        \"action\": \"type\",\n        \"value\": \"10\"\n    },\n    {\n        \"selector\": \"button:has-text(\\\"order\\\" i), button:has-text(\\\"submit\\\" i)\",\n        \"action\": \"click\"\n    }\n]\n</OUTPUT_JSON>"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "queue_time": 0.16217665,
+      "prompt_tokens": 177,
+      "prompt_time": 0.022638936,
+      "completion_tokens": 131,
+      "completion_time": 0.109166667,
+      "total_tokens": 308,
+      "total_time": 0.131805603
+    },
+    "usage_breakdown": {
+      "models": null
+    },
+    "system_fingerprint": "fp_dadc9d6142",
+    "x_groq": {
+      "id": "req_01jwc54eayf7y824xnvzes3g72"
+    }
+  }
+}

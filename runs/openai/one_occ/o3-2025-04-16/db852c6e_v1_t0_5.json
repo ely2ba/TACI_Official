@@ -1,0 +1,50 @@
+{
+  "uid": "db852c6e",
+  "variant": 1,
+  "temperature": 0.5,
+  "seed": 1,
+  "model": "o3-2025-04-16",
+  "modality": "TEXT",
+  "timestamp": "2025-06-21T20:46:14Z",
+  "commit_sha": "ac1698886e89fb01e65b6ca5c8e06e97f58dd0fa",
+  "prompt_sha256": "f569a8589baa5d5bd5757714aa846cd389ec66e9ff32ca84d93b9582426cacf9",
+  "response": {
+    "id": "chatcmpl-BkzNsVuMwrxOfNvqKXOfXHwVjWvAw",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nLAW OFFICE MEMORANDUM  \n--------------------------------------------  \nTo:       All Litigation Attorneys, Paralegals & Legal Support Staff  \nFrom:     [Your Name], Senior Paralegal  \nDate:     [Insert Date]  \nSubject:  Coordination of Law-Office Activities for Drafting, Issuance, and Service of Subpoenas  \n\nI. PURPOSE  \nTo establish a streamlined, accountable procedure for (1) preparing, (2) issuing, (3) serving, and (4) tracking subpoenas in all active matters. These protocols comply with Fed. R. Civ. P. 45, corresponding state rules, and the firm\u2019s document-control policies.\n\nII. SCOPE OF SUBPOENAS COVERED  \n\u2022 Subpoena to Produce Documents, Information, or Objects  \n\u2022 Subpoena to Testify at Deposition, Hearing, or Trial  \n\u2022 Subpoena for Inspection of Premises  \n\nIII. RESPONSIBILITY MATRIX  \nLead Attorney  \n  \u2013 Approves subpoena language & scope; signs subpoena (Rule 45(a)(3)).  \nSenior Paralegal (Project Lead)  \n  \u2013 Supervises drafting; confirms witness-fee checks; retains original.  \n  \u2013 Maintains Master Subpoena Log (see \u00a7 VII).  \nCase Paralegal  \n  \u2013 Drafts subpoena; calendars deadlines; uploads Proof of Service.  \nProcess-Service Coordinator  \n  \u2013 Assigns process server; tracks service; escalates untimely service.  \nAccounting  \n  \u2013 Issues witness-fee checks ($40/day federal; state amounts per statute).  \n\nIV. DETAILED WORKFLOW & TIMELINE  \n1. Drafting & Internal Approval (Day 0\u20131)  \n   a. Case Paralegal drafts using approved template.  \n   b. Senior Paralegal reviews for scope, jurisdiction, and undue-burden issues.  \n   c. Lead Attorney signs.  \n\n2. Filing/Issuance (Day 1)  \n   a. Federal subpoenas: no prior filing; state subpoenas filed/e-filed where required.  \n   b. Original placed in \u201cOUT FOR SERVICE\u201d packet with witness-fee check.  \n\n3. Service of Process (Day 1\u20134)  \n   a. Process-Service Coordinator selects licensed server from Approved Vendor List.  \n   b. Service must occur \u22657 calendar days before commanded appearance (Fed.) or per state rule; build in 2-day cushion.  \n   c. Obtain notarized Proof of Service; scan to DMS within 24 h.  \n\n4. Post-Service Follow-Up (Day 4\u2013Production/Appearance)  \n   a. Objection Period: 14 days after service (Fed. R. Civ. P. 45(d)(2)(B)). Calendar deadline.  \n   b. If objections received, prompt attorney review; prepare motion to compel if needed.  \n   c. For document subpoenas, request rolling production; index upon receipt.  \n   d. For testimony subpoenas, confirm attendance one business day before event.  \n\n5. Return & Closing (Within 2 Days Post-Compliance)  \n   a. Upload transcripts/documents to DMS folder \u201cSUBPOENA_RESPONSES.\u201d  \n   b. Record compliance status in Master Subpoena Log; close task in project-management system.  \n\nV. SERVICE OPTIONS & GUIDELINES  \n\u2022 Personal Service (Preferred): Any non-party adult; commercial servers typically complete within 48 h.  \n\u2022 Sheriff\u2019s Office: Use where statute mandates (e.g., some counties for trial subpoenas).  \n\u2022 Mail or Email: Only if court-ordered or by written consent; attach consent to Proof of Service.  \n\u2022 Remote Proceedings: For deposition via Zoom, include connection details & exhibit protocol in subpoena schedule.  \n\nVI. RISK MANAGEMENT & ETHICS  \n\u2022 Do not serve subpoenas that could solicit privileged materials without a privilege-log instruction.  \n\u2022 Avoid ex parte communications with represented opposites; channel through counsel where required.  \n\u2022 Confirm jurisdiction\u2014do not exceed 100-mile rule for deposition/trial subpoenas (Rule 45(c)).  \n\u2022 Confidential Records (HIPAA, banking, education): Attach requisite statutory notice and protective-order language.  \n\nVII. MASTER SUBPOENA LOG (maintained in SharePoint)  \nFields: Matter # | Target | Type | Date Issued | Service Deadline | Date Served | Compliance Status | Objection Due | Notes  \nUpdate within 24 h of any activity. Weekly auto-report sent to litigation group.  \n\nVIII. CHECKLIST (attach to each subpoena packet)  \n\u25a1 Draft reviewed & signed  \n\u25a1 Witness-fee check attached  \n\u25a1 Calendar deadlines added  \n\u25a1 Process server assigned & confirmed  \n\u25a1 Proof of Service uploaded  \n\u25a1 Objection deadline flagged  \n\u25a1 Compliance documents indexed  \n\u25a1 Log updated; task closed  \n\nIX. ATTACHMENTS  \nA. Subpoena Templates (Federal & State)  \nB. Witness-Fee Schedule & Mileage Chart  \nC. Approved Process-Server Roster  \nD. Sample Protective Order Language  \n\nPlease implement these procedures immediately for all subpoena-related tasks. Direct any questions to me or the Litigation Practice Manager.\n\n[Your Name]  \nSenior Paralegal  \n[Contact Information]\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1750538748,
+    "model": "o3-2025-04-16",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1361,
+      "prompt_tokens": 114,
+      "total_tokens": 1475,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 256,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

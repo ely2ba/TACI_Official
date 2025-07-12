@@ -1,0 +1,43 @@
+{
+  "uid": "27910ee5",
+  "variant": 0,
+  "modality": "TEXT",
+  "temperature": 0.0,
+  "model": "llama3-8b-8192",
+  "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+  "timestamp": "2025-05-28T14:55:52.231806Z",
+  "prompt_sha256": "d55cbbe4a0e8771bfccabf25ad7c5385f059affc4b1ce8ef78439d668a4b1456",
+  "response": {
+    "id": "chatcmpl-de91b890-39ec-48ee-911a-19d3eca54a4a",
+    "object": "chat.completion",
+    "created": 1748444152,
+    "model": "llama3-8b-8192",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "<OUTPUT_TEXT>\nProject Plan: Our team will be responsible for managing the logistics of a large-scale event, including coordinating transportation, accommodations, and catering for 500 attendees. We will work closely with the event organizers to ensure a smooth and successful event.\n\nProgress: As of today, we have completed the following tasks:\n\n* Coordinated transportation for 300 attendees\n* Booked accommodations for 200 attendees\n* Finalized catering arrangements for the event\n\nResults: Our team has successfully managed the logistics of the event, ensuring that all attendees have a comfortable and enjoyable experience. We have received positive feedback from attendees and event organizers, and have been able to identify areas for improvement for future events.\n</OUTPUT_TEXT>"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "queue_time": 0.24474188,
+      "prompt_tokens": 92,
+      "prompt_time": 0.012673152,
+      "completion_tokens": 144,
+      "completion_time": 0.12,
+      "total_tokens": 236,
+      "total_time": 0.132673152
+    },
+    "usage_breakdown": {
+      "models": null
+    },
+    "system_fingerprint": "fp_dadc9d6142",
+    "x_groq": {
+      "id": "req_01jwbp905pe1nsv1ywh88y6wm2"
+    }
+  }
+}

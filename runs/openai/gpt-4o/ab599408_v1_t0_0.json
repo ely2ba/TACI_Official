@@ -1,0 +1,49 @@
+{
+  "uid": "ab599408",
+  "variant": 1,
+  "temperature": 0.0,
+  "model": "gpt-4o",
+  "modality": "GUI",
+  "timestamp": "2025-05-23T22:44:43Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "6808ebfd350cd557118343e1bb48868897e7031127556f8e29adb9336a09fd5b",
+  "response": {
+    "id": "chatcmpl-BaVQ2foo6rNr48YvCnRs1I7lvRPoH",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_JSON>[{'action':'click','selector':'input[placeholder*=search i]','text':''},{'action':'type','selector':'input[placeholder*=search i]','text':'medical supplies'},{'action':'click','selector':'button:has-text(\"add item\" i)','text':''},{'action':'type','selector':'input[name*=quantity i]','text':'10'},{'action':'click','selector':'button:has-text(\"order\" i)','text':''}]</OUTPUT_JSON>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748040282,
+    "model": "gpt-4o-2024-08-06",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_a288987b44",
+    "usage": {
+      "completion_tokens": 105,
+      "prompt_tokens": 149,
+      "total_tokens": 254,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

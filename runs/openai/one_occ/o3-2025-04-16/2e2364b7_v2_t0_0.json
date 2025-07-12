@@ -1,0 +1,50 @@
+{
+  "uid": "2e2364b7",
+  "variant": 2,
+  "temperature": 0.0,
+  "seed": 0,
+  "model": "o3-2025-04-16",
+  "modality": "TEXT",
+  "timestamp": "2025-06-21T20:37:30Z",
+  "commit_sha": "ac1698886e89fb01e65b6ca5c8e06e97f58dd0fa",
+  "prompt_sha256": "cee4e4cced006a4842340997b6ed1bbff872b7344ee46acccdf523da2a41dd4c",
+  "response": {
+    "id": "chatcmpl-BkzFYP8miSq6lSkVAIoZcMD8dPfsq",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Filing Pleadings with the Court Clerk\n\n1. Confirm Court Rules  \n   a. Identify the correct court (state, federal, or specialized).  \n   b. Download or review that court\u2019s local rules, standing orders, and any judge-specific procedures.  \n   c. Note page limits, font size, margin requirements, citation format, and any mandatory forms.\n\n2. Draft and Format the Pleading  \n   a. Use the court-approved caption with correct case number, parties, and division.  \n   b. Insert required headings (e.g., \u201cComplaint,\u201d \u201cMotion to Dismiss,\u201d etc.).  \n   c. Number paragraphs consecutively; double-space body text unless rules allow single spacing for block quotes.  \n   d. Include a signature block with attorney or pro-se information that meets Rule 11 (Fed.) or equivalent state rule.\n\n3. Assemble Supporting Documents  \n   a. Attach exhibits, affidavits, or declarations with clearly labeled exhibit tabs.  \n   b. Prepare any proposed orders if required.  \n   c. Draft a Certificate of Service describing how and when each opposing party will be served.\n\n4. Review for Compliance  \n   a. Proofread for factual accuracy, legal citations, and typographical errors.  \n   b. Run spell-check and verify that all exhibits are referenced in the pleading.  \n   c. Confirm page numbering and that signature(s) are present.\n\n5. Create Required Copies  \n   a. Paper filing: make the original plus the number of copies mandated by the clerk (usually 1 for the court, 1 for each party, and 1 for your file).  \n   b. Electronic filing: scan documents to PDF/A, ensure OCR is enabled, and merge exhibits into a single file unless local rules require separate attachments.\n\n6. File the Pleading  \n   a. In-Person (Paper)  \n      i. Bring documents, filing fee, and self-addressed stamped envelopes (for return copies).  \n      ii. Present to clerk; request file-stamped copies for your records.  \n   b. Electronic Filing (CM/ECF or State e-Portal)  \n      i. Log in with attorney credentials.  \n      ii. Select correct event code (e.g., \u201cMotion,\u201d \u201cAnswer\u201d).  \n      iii. Upload main pleading, exhibits, proposed order, and certificate of service in required sequence.  \n      iv. Pay filing fee via accepted payment method; save the confirmation receipt.\n\n7. Serve Opposing Parties  \n   a. If e-filed, verify that system automatically notifies registered counsel; otherwise, serve via email, mail, or personal delivery as rules dictate.  \n   b. File proof of service if not included in original submission.\n\n8. Calendar Deadlines  \n   a. Enter response and hearing deadlines in your docketing system.  \n   b. Note any future filing obligations triggered by the pleading (e.g., scheduling order deadlines).\n\n9. Maintain the Record  \n   a. Store file-stamped copy in the physical and/or electronic case file.  \n   b. Backup electronic copies to secure, encrypted storage.  \n   c. Update case checklist to reflect completion of filing.\n\n10. Follow Up with Clerk  \n    a. Monitor docket for clerk\u2019s acceptance or deficiency notices.  \n    b. Immediately cure any defects (e.g., incorrect event code, missing certificate) within the time allotted.\n\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1750538232,
+    "model": "o3-2025-04-16",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 913,
+      "prompt_tokens": 111,
+      "total_tokens": 1024,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 192,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

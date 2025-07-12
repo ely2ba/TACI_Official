@@ -1,0 +1,49 @@
+{
+  "uid": "db852c6e",
+  "variant": 0,
+  "temperature": 0.5,
+  "model": "gpt-4.1",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:59:49Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "120988dc081b01b620d8d0ac9a66b0eb8a86cea5606c03759f2cba631d6ca4bf",
+  "response": {
+    "id": "chatcmpl-Bi22kqgOvK0EdBFA5g1sc1po4aRr8",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nTo direct and coordinate law office activity, including the delivery of subpoenas, follow these steps:\n\n1. Assign Tasks: Delegate responsibilities to appropriate staff members, such as paralegals or process servers, for preparing, tracking, and delivering subpoenas.\n2. Monitor Deadlines: Maintain a calendar of all subpoena-related deadlines to ensure timely preparation, service, and response.\n3. Prepare Subpoenas: Oversee the drafting and review of subpoenas to ensure accuracy and compliance with legal requirements.\n4. Coordinate Delivery: Arrange for the physical or electronic delivery of subpoenas, confirming that service is made according to jurisdictional rules.\n5. Document Service: Ensure proper documentation of service, including affidavits or proof of service, is completed and filed as needed.\n6. Communicate Updates: Keep attorneys and relevant parties informed about the status of subpoena delivery and any issues that arise.\n7. Maintain Records: Organize and store all documents and correspondence related to subpoenas for future reference and compliance.\n\nBy systematically managing these steps, law office activities related to subpoenas can be executed efficiently and in accordance with legal standards.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749833986,
+    "model": "gpt-4.1-2025-04-14",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_51e1070cf2",
+    "usage": {
+      "completion_tokens": 233,
+      "prompt_tokens": 96,
+      "total_tokens": 329,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+    "schema":   0.15,
+    "safety":   0.20,
+    "rubric":   0.40,
+    "iou":      0.15,
+    "price_ctx":0.10
+  }
+  

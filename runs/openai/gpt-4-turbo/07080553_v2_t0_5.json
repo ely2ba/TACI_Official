@@ -1,0 +1,49 @@
+{
+  "uid": "07080553",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-4-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:37:07Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "acb24bee05a0f7b8bea5c38e5a76f68132b2b74e13fdae3608ba58b711cf52c6",
+  "response": {
+    "id": "chatcmpl-BaVIdW4YB6iqqvm3ow12FqdbkwqKp",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Legal Document Preparation and Organization\n\n## 1. Preparing Affidavits\nTo prepare affidavits:\n- Gather necessary information from the client, including full name, address, and details pertinent to the affidavit.\n- Draft the affidavit, clearly stating the facts to which the affiant is swearing.\n- Ensure the affidavit is formatted according to jurisdictional requirements.\n- Review the affidavit with the client for accuracy.\n- Arrange for the client to sign the affidavit in the presence of a notary public.\n\n## 2. Preparing Other Legal Documents\nFor preparing other legal documents such as legal correspondence:\n- Determine the purpose and requirements of the correspondence.\n- Draft the document, ensuring clarity and adherence to legal standards.\n- Review the draft for any errors or omissions.\n- Finalize the document after client and attorney approval.\n\n## 3. Organizing and Maintaining Documents\nTo organize and maintain documents in a paper or electronic filing system:\n- Create a consistent filing system based on case number, client name, or other relevant identifiers.\n- File all documents promptly and accurately in their respective files.\n- Maintain electronic copies of all documents, using a secure and organized digital filing system.\n- Regularly backup electronic files to prevent data loss.\n- Ensure all physical and electronic files are accessible to authorized personnel only.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748039823,
+    "model": "gpt-4-turbo-2024-04-09",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_de235176ee",
+    "usage": {
+      "completion_tokens": 272,
+      "prompt_tokens": 98,
+      "total_tokens": 370,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

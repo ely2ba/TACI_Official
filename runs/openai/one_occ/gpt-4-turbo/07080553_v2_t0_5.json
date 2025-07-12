@@ -1,0 +1,49 @@
+{
+  "uid": "07080553",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-4-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:44:01Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "40b67c629e9856ec273e3f4dfceabf50dd497228e11b942a701560af1d835696",
+  "response": {
+    "id": "chatcmpl-Bi1nQxiz4d0rLnqiNjVTTiYmiLnXF",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Legal Document Preparation and Organization\n\n1. **Prepare Affidavits**\n   - Draft the affidavit by collecting necessary facts and statements from the client.\n   - Ensure that the affidavit conforms to the legal requirements of the jurisdiction.\n   - Review the affidavit with the client for accuracy and completeness.\n   - Obtain the necessary signatures and notarization.\n\n2. **Prepare Other Legal Documents**\n   - Draft legal correspondence such as letters, notices, and legal briefs based on attorney's instructions.\n   - Format and proofread the documents for errors and ensure they meet legal standards.\n   - Coordinate with legal staff and clients to gather and verify information.\n\n3. **Organize Documents**\n   - Create a filing system that categorizes documents by case, client, or other relevant criteria.\n   - Ensure all physical and electronic documents are stored securely and are easily accessible.\n   - Regularly update the filing system to accommodate new documents and dispose of outdated records according to legal requirements.\n\n4. **Maintain Documents**\n   - Regularly check and update documents to ensure ongoing accuracy and compliance with legal changes.\n   - Archive or destroy documents as per the legal retention schedules and privacy laws.\n   - Use document management software to track versions and revisions of documents.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749833036,
+    "model": "gpt-4-turbo-2024-04-09",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_de235176ee",
+    "usage": {
+      "completion_tokens": 258,
+      "prompt_tokens": 130,
+      "total_tokens": 388,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

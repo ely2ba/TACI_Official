@@ -1,0 +1,15 @@
+{
+  "uid": "0c07452f",
+  "variant": 2,
+  "modality": "TEXT",
+  "temperature": 0.5,
+  "model": "claude-3-opus-20240229",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T17:52:18.757943Z",
+  "commit_sha": "98b2eb0f130d4d32e78707f77c440a8f68e4103c",
+  "prompt_sha256": "2189e62343fd7e1183a39f3a4091805edf521e1d87fad9e7f11d201b5eda7abc",
+  "response": {
+    "raw": "Here is my attempt at the task, following the specified output format:\n\n<OUTPUT_TEXT>\n<h1>Enforcing School Policies and Rules for Students</h1>\n\n1. Clearly communicate all school policies and rules to students at the beginning of the year. Go over the student handbook with them and have them sign an acknowledgment form.\n\n2. Be consistent in enforcing the rules with all students. Don't play favorites or make exceptions. Students will perceive inconsistent rule enforcement as unfair.\n\n3. Give warnings and reminders as appropriate for minor first offenses. But for serious or repeated violations, follow through with the stated consequences.\n\n4. Document any rule violations and the disciplinary actions taken. Keep records of incidents, parent communications, detentions, etc. This creates a paper trail if needed.\n\n5. Get parents involved early if a student repeatedly violates rules. Schedule a conference to discuss the behavior and agree on a plan to correct it. A united front between school and home is ideal.\n\n6. Praise and recognize students who consistently follow the rules and meet behavior expectations. Positive reinforcement is powerful and shapes a culture of good conduct.\n</OUTPUT_TEXT>",
+    "extracted": "<OUTPUT_TEXT>\n<h1>Enforcing School Policies and Rules for Students</h1>\n\n1. Clearly communicate all school policies and rules to students at the beginning of the year. Go over the student handbook with them and have them sign an acknowledgment form.\n\n2. Be consistent in enforcing the rules with all students. Don't play favorites or make exceptions. Students will perceive inconsistent rule enforcement as unfair.\n\n3. Give warnings and reminders as appropriate for minor first offenses. But for serious or repeated violations, follow through with the stated consequences.\n\n4. Document any rule violations and the disciplinary actions taken. Keep records of incidents, parent communications, detentions, etc. This creates a paper trail if needed.\n\n5. Get parents involved early if a student repeatedly violates rules. Schedule a conference to discuss the behavior and agree on a plan to correct it. A united front between school and home is ideal.\n\n6. Praise and recognize students who consistently follow the rules and meet behavior expectations. Positive reinforcement is powerful and shapes a culture of good conduct.\n</OUTPUT_TEXT>"
+  }
+}

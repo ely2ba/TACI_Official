@@ -1,0 +1,49 @@
+{
+  "uid": "936aa3e5",
+  "variant": 0,
+  "temperature": 0.0,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:17:15Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "2349da83842d557a5c9472824e0e87a12cd0c3ff23b873926903ef8bfaad269a",
+  "response": {
+    "id": "chatcmpl-BaUzR9XoSeKueVZ47bEOm9pKTxwY7",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nSure, I will perform the necessary financial calculations. I will calculate the amounts due, interest charges, balances, discounts, equity, and principal. This will help in maintaining accurate financial records and ensuring all transactions are properly recorded.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748038633,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 53,
+      "prompt_tokens": 73,
+      "total_tokens": 126,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "uid": "47817359",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gemini-2.0-flash",
+  "modality": "GUI",
+  "timestamp": "2025-05-27T13:10:20.989457Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "Okay, I understand. I need to use the provided selectors to interact with an accounting software interface. My goal is to record, store, and analyze information by locating input fields for account, amount, and memo, and then clicking a \"post\" or \"save\" button.\n\n```json\n[\n  {\"click\": \"input[name*=account i]\"},\n  {\"type\": \"input[name*=account i]\", \"value\": \"Sales Revenue\"},\n  {\"click\": \"input[name*=amount i], input[type=number]\"},\n  {\"type\": \"input[name*=amount i], input[type=number]\", \"value\": \"1200.00\"},\n  {\"click\": \"textarea[name*=memo i]\"},\n  {\"type\": \"textarea[name*=memo i]\", \"value\": \"Sale on 2024-02-29\"},\n  {\"click\": \"button:has-text(\\\"post\\\" i), button:has-text(\\\"save\\\" i)\"}\n]\n```"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.09014220710273262
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 174,
+      "candidatesTokenCount": 222,
+      "totalTokenCount": 396,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 174
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 222
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:10:19.438118Z",
+    "responseId": "u7k1aObeGt7bgLUP8cv60A0"
+  }
+}

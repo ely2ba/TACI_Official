@@ -1,0 +1,15 @@
+{
+  "uid": "9cebf902",
+  "variant": 1,
+  "modality": "TEXT",
+  "temperature": 0.0,
+  "model": "claude-3-5-sonnet-20240620",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T18:04:19.902249Z",
+  "commit_sha": "98b2eb0f130d4d32e78707f77c440a8f68e4103c",
+  "prompt_sha256": "8a785dae0c42bd76581cb68287a32a36fb000a5a6d9cc024152a9c25b13df99a",
+  "response": {
+    "raw": "Here is a possible client-ready memo on gathering and analyzing legal research data:\n\n<OUTPUT_TEXT>\nMEMORANDUM\n\nRE: Legal Research Process and Analysis\n\nTo effectively gather and analyze research data for legal matters, the following process should be followed:\n\n1. Identify key issues and search terms related to the legal question at hand.\n\n2. Consult primary sources of law:\n   - Statutes and regulations\n   - Case law and court decisions\n   - Constitutional provisions\n\n3. Review secondary sources:\n   - Legal treatises and textbooks  \n   - Law review articles\n   - Legal encyclopedias\n\n4. Utilize legal research databases (e.g. Westlaw, LexisNexis) to find relevant materials.\n\n5. Analyze gathered information:\n   - Determine relevance and applicability to the specific matter\n   - Evaluate precedential value of court decisions\n   - Identify any conflicts in the law\n\n6. Synthesize research findings:\n   - Summarize key points and legal principles\n   - Note any gaps or ambiguities in the law\n   - Develop legal arguments and counterarguments\n\n7. Cite all sources properly using appropriate legal citation format.\n\n8. Organize research into a clear, logical structure for client presentation.\n\nThis systematic approach ensures thorough and accurate legal research to support case strategy and client counsel.\n</OUTPUT_TEXT>",
+    "extracted": "<OUTPUT_TEXT>\nMEMORANDUM\n\nRE: Legal Research Process and Analysis\n\nTo effectively gather and analyze research data for legal matters, the following process should be followed:\n\n1. Identify key issues and search terms related to the legal question at hand.\n\n2. Consult primary sources of law:\n   - Statutes and regulations\n   - Case law and court decisions\n   - Constitutional provisions\n\n3. Review secondary sources:\n   - Legal treatises and textbooks  \n   - Law review articles\n   - Legal encyclopedias\n\n4. Utilize legal research databases (e.g. Westlaw, LexisNexis) to find relevant materials.\n\n5. Analyze gathered information:\n   - Determine relevance and applicability to the specific matter\n   - Evaluate precedential value of court decisions\n   - Identify any conflicts in the law\n\n6. Synthesize research findings:\n   - Summarize key points and legal principles\n   - Note any gaps or ambiguities in the law\n   - Develop legal arguments and counterarguments\n\n7. Cite all sources properly using appropriate legal citation format.\n\n8. Organize research into a clear, logical structure for client presentation.\n\nThis systematic approach ensures thorough and accurate legal research to support case strategy and client counsel.\n</OUTPUT_TEXT>"
+  }
+}

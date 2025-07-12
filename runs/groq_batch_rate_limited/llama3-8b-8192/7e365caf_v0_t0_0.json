@@ -1,0 +1,44 @@
+{
+  "uid": "7e365caf",
+  "variant": 0,
+  "modality": "TEXT",
+  "temperature": 0.0,
+  "model": "llama3-8b-8192",
+  "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+  "timestamp": "2025-05-28T19:18:44.202195Z",
+  "prompt_sha256": "b7bede94cf50dab7966c11a129d502d7359a9de4e718311b8f82d3912b01cb31",
+  "commit_sha": "170b9e3e1d0d59846b1daa69da57be5d1db6306c",
+  "response": {
+    "id": "chatcmpl-abbb982d-7209-46a8-8e23-0f4e77217027",
+    "object": "chat.completion",
+    "created": 1748459923,
+    "model": "llama3-8b-8192",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "<OUTPUT_TEXT>\nTo support the development of training materials and technical manuals, I would recommend creating a comprehensive outline that covers the key concepts, procedures, and best practices related to logistics. This outline should be tailored to the specific needs and goals of the training program, and should include clear headings, subheadings, and bullet points to make it easy to follow. Additionally, I would suggest including visual aids such as diagrams, flowcharts, and images to help illustrate complex concepts and make the material more engaging and memorable."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "queue_time": 0.594375367,
+      "prompt_tokens": 93,
+      "prompt_time": 0.017786188,
+      "completion_tokens": 105,
+      "completion_time": 0.0875,
+      "total_tokens": 198,
+      "total_time": 0.105286188
+    },
+    "usage_breakdown": {
+      "models": null
+    },
+    "system_fingerprint": "fp_179b0f92c9",
+    "x_groq": {
+      "id": "req_01jwc5a9teepxay6azdd1mqz73"
+    }
+  }
+}

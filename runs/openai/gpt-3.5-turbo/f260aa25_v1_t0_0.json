@@ -1,0 +1,49 @@
+{
+  "uid": "f260aa25",
+  "variant": 1,
+  "temperature": 0.0,
+  "model": "gpt-3.5-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:00:33Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "081e4c7868b80215e8b19781c065160bffa5591c66f3973d79d712078696d561",
+  "response": {
+    "id": "chatcmpl-BaUjHO3LkNqsZAEGBEfT8B1BfrGxs",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>Dear Client,\n\nI am pleased to inform you of the recent enhancements made to our business intelligence tools and reports. These improvements have been implemented to provide you with more accurate and insightful data to support your decision-making processes.\n\nOur team has upgraded the metadata management system to ensure that the data being used in our reports is up-to-date and reliable. This will help in improving the overall quality and accuracy of the insights provided to you.\n\nAdditionally, we have introduced new visualization tools that will make it easier for you to interpret the data and identify key trends and patterns. These tools will enable you to make more informed decisions and drive better business outcomes.\n\nWe are confident that these enhancements will greatly benefit your organization and look forward to continuing to support you in leveraging data-driven insights for success.\n\nPlease do not hesitate to reach out if you have any questions or require further information.\n\nBest regards,\n\n[Your Name] Senior Business Intelligence Analyst</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748037631,
+    "model": "gpt-3.5-turbo-0125",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 190,
+      "prompt_tokens": 79,
+      "total_tokens": 269,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

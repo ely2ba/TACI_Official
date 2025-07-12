@@ -1,0 +1,49 @@
+{
+  "uid": "ce0be4e8",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-4o",
+  "modality": "VISION",
+  "timestamp": "2025-06-02T20:32:24Z",
+  "commit_sha": "b9b82e9e2bfaf5f5921429f08534912537446fba",
+  "prompt_sha256": "f64b9174adff01aa25730dfbc283a247d56cca4cd341a60b240aa38fca12da09",
+  "response": {
+    "id": "chatcmpl-Be67TDnH0LYXEJ0jqq5m3wCTzGlYE",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_JSON>{\"finding\":\"normal\",\"image_id\":null,\"bbox\":null,\"explanation\":\"\"}</OUTPUT_JSON>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748896343,
+    "model": "gpt-4o-2024-08-06",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_a288987b44",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 1711,
+      "total_tokens": 1736,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

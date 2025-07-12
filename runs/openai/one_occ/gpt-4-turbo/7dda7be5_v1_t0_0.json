@@ -1,0 +1,49 @@
+{
+  "uid": "7dda7be5",
+  "variant": 1,
+  "temperature": 0.0,
+  "model": "gpt-4-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:45:26Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "f619121edfa394cf2f966e745283e437489a58c27b2b7d4b7539289c690206a7",
+  "response": {
+    "id": "chatcmpl-Bi1oPsB6Mw6HFdDvNYAh1x5R3tqOb",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>To appraise and inventory real and personal property for estate planning, it is essential to follow a systematic approach to ensure all assets are accurately accounted for and valued. This process typically involves the following steps:\n\n1. **Identification of Real Property**: List all real estate holdings, including primary residences, vacation homes, rental properties, and land. Obtain the legal descriptions and the most recent tax assessments for each property.\n\n2. **Appraisal of Real Property**: Hire a professional appraiser to determine the current market value of each real estate asset. This will provide a realistic figure for estate planning purposes.\n\n3. **Identification of Personal Property**: Catalog all personal property items, such as vehicles, jewelry, art, collectibles, and furniture. Make a detailed list including descriptions and any identifying marks or serial numbers.\n\n4. **Valuation of Personal Property**: For items of significant value, consider obtaining appraisals from qualified experts. For more common items, use fair market values or recent purchase prices as a reference.\n\n5. **Financial Accounts and Investments**: Compile details of all bank accounts, stocks, bonds, mutual funds, and other investments. Include account numbers, current balances or values, and the names of the institutions where these assets are held.\n\n6. **Other Assets**: Identify any other assets such as life insurance policies, business interests, intellectual property, or digital assets. Gather relevant documents and determine their current values.\n\n7. **Debts and Liabilities**: List all debts and liabilities, including mortgages, loans, credit card balances, and other financial obligations. This will be important for a net worth calculation.\n\n8. **Legal Review and Documentation**: Ensure all asset titles and documents are reviewed for accuracy and legal compliance. Update deeds, titles, and beneficiary designations as needed.\n\n9. **Consolidation into Estate Planning Documents**: Integrate this information into estate planning documents such as wills, trusts, and power of attorney forms. Consult with an estate planning attorney to ensure all legal requirements are met and documents are properly executed.\n\n10. **Regular Updates**: Estate plans should be reviewed and updated regularly, or when significant life events occur, to ensure they continue to reflect the current intentions and situations of the estate holder.\n\nBy following these steps, you can create a comprehensive and accurate inventory of real and personal property, which is crucial for effective estate planning.</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749833097,
+    "model": "gpt-4-turbo-2024-04-09",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_de235176ee",
+    "usage": {
+      "completion_tokens": 480,
+      "prompt_tokens": 114,
+      "total_tokens": 594,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "role": "system",
+    "content": "You are an expert Customer Service Representative. <REASONING>You may think internally; DO NOT reveal your reasoning.</REASONING>"
+  },
+  {
+    "role": "user",
+    "content": "<<FORMAT>> Wrap your final answer exactly once inside <OUTPUT_TEXT> … </OUTPUT_TEXT> . Do not output anything outside these tags. <</FORMAT>>\n\nYou are a senior Customer Service Representative preparing a client-ready memo.\n\nTASK – Contact customers to respond to inquiries or to notify them of claim investigation results or any planned adjustments.\n\nRespond inside <OUTPUT_TEXT>…</OUTPUT_TEXT>."
+  }
+]

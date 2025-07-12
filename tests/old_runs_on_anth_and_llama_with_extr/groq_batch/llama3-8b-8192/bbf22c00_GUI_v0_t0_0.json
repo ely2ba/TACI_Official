@@ -1,0 +1,43 @@
+{
+  "uid": "bbf22c00",
+  "variant": 0,
+  "modality": "GUI",
+  "temperature": 0.0,
+  "model": "llama3-8b-8192",
+  "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+  "timestamp": "2025-05-28T14:52:56.896213Z",
+  "prompt_sha256": "89271fe2c1088d863da978ef4779773bf1a4c66b8a371a0f3af5165866bcfdce",
+  "response": {
+    "id": "chatcmpl-e811ccb8-2efc-439a-bec8-daf6238d3b66",
+    "object": "chat.completion",
+    "created": 1748443976,
+    "model": "llama3-8b-8192",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "<OUTPUT_JSON>\n[\n  {\"action\": \"click\", \"selector\": \"table:has-text(\\\"order\\\" i) >> tr >> input[type=checkbox]\", \"text\": \"\"},\n  {\"action\": \"click\", \"selector\": \"table:has-text(\\\"invoice\\\" i) >> tr >> input[type=checkbox]\", \"text\": \"\"},\n  {\"action\": \"click\", \"selector\": \"button:has-text(\\\"match\\\" i)\", \"text\": \"\"},\n  {\"action\": \"click\", \"selector\": \"button:has-text(\\\"record\\\" i)\", \"text\": \"\"}\n]\n</OUTPUT_JSON>"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "queue_time": 1.587418632,
+      "prompt_tokens": 192,
+      "prompt_time": 0.063965613,
+      "completion_tokens": 123,
+      "completion_time": 0.1025,
+      "total_tokens": 315,
+      "total_time": 0.166465613
+    },
+    "usage_breakdown": {
+      "models": null
+    },
+    "system_fingerprint": "fp_dadc9d6142",
+    "x_groq": {
+      "id": "req_01jwbp3khde9qs72apzxheavgy"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "uid": "47817359",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gemini-2.5-flash-preview-05-20",
+  "modality": "GUI",
+  "timestamp": "2025-05-27T15:27:47.100238Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_JSON>\n[\n  \"input[name*=account i]\",\n  \"input[name*=amount i], input[type=number]\",\n  \"textarea[name*=memo i]\",\n  \"button:has-text(\\\"post\\\" i), button:has-text(\\\"save\\\" i)\"\n]\n</OUTPUT_JSON>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.3627584818247202
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 174,
+      "candidatesTokenCount": 74,
+      "totalTokenCount": 495,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 174
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 74
+        }
+      ],
+      "thoughtsTokenCount": 247
+    },
+    "modelVersion": "gemini-2.5-flash-preview-05-20",
+    "createTime": "2025-05-27T15:27:45.215356Z",
+    "responseId": "8dk1aLySDfq0nvgPkbjHyAk"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "uid": "7e365caf",
+  "variant": 0,
+  "modality": "TEXT",
+  "temperature": 0.5,
+  "model": "llama3-8b-8192",
+  "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+  "timestamp": "2025-05-28T14:56:04.332103Z",
+  "prompt_sha256": "b7bede94cf50dab7966c11a129d502d7359a9de4e718311b8f82d3912b01cb31",
+  "response": {
+    "id": "chatcmpl-93d8c594-0744-40df-bdb0-9998972b8faf",
+    "object": "chat.completion",
+    "created": 1748444164,
+    "model": "llama3-8b-8192",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "<OUTPUT_TEXT>\nTo support the development of training materials and technical manuals, I would recommend creating a comprehensive outline that covers all the essential topics and procedures. This outline should be tailored to the specific needs and goals of the training program, and should include clear headings, subheadings, and bullet points to help organize the content. Additionally, I would suggest including visual aids such as diagrams, flowcharts, and screenshots to help illustrate complex concepts and make the material more engaging and easy to understand.\n</OUTPUT_TEXT>"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "queue_time": 0.163393259,
+      "prompt_tokens": 93,
+      "prompt_time": 0.012091405,
+      "completion_tokens": 100,
+      "completion_time": 0.083333333,
+      "total_tokens": 193,
+      "total_time": 0.095424738
+    },
+    "usage_breakdown": {
+      "models": null
+    },
+    "system_fingerprint": "fp_dadc9d6142",
+    "x_groq": {
+      "id": "req_01jwbp9c2ne20rh35y5npbj5m4"
+    }
+  }
+}

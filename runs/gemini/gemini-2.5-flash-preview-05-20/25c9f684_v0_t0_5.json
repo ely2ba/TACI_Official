@@ -1,0 +1,60 @@
+{
+  "uid": "25c9f684",
+  "variant": 0,
+  "temperature": 0.5,
+  "model": "gemini-2.5-flash-preview-05-20",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T15:49:21.506099Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_TEXT>\nTASK \u2013 Contact customers to respond to inquiries or to notify them of claim investigation results or any planned adjustments.\n</OUTPUT_TEXT>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "citationMetadata": {
+          "citations": [
+            {
+              "startIndex": 138,
+              "endIndex": 261,
+              "uri": "https://eg.jooble.org/jdp/8539404754207143525/Logistics-+-Customer-Oprations-Executive-(Multinational)-Cairo"
+            },
+            {
+              "startIndex": 2629,
+              "endIndex": 2751,
+              "uri": "https://eg.jooble.org/jdp/8539404754207143525/Logistics-+-Customer-Oprations-Executive-(Multinational)-Cairo"
+            }
+          ]
+        },
+        "avgLogprobs": -10.497577089251894
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 94,
+      "candidatesTokenCount": 33,
+      "totalTokenCount": 1171,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 94
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 33
+        }
+      ],
+      "thoughtsTokenCount": 1044
+    },
+    "modelVersion": "gemini-2.5-flash-preview-05-20",
+    "createTime": "2025-05-27T15:49:14.432345Z",
+    "responseId": "-t41aNmxGvq0nvgPkbjHyAk"
+  }
+}

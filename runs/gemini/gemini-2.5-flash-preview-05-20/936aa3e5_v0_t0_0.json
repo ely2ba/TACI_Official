@@ -1,0 +1,46 @@
+{
+  "uid": "936aa3e5",
+  "variant": 0,
+  "temperature": 0.0,
+  "model": "gemini-2.5-flash-preview-05-20",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T15:49:37.223821Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_TEXT>\nUnderstood. I am prepared to perform these financial calculations. Please provide the specific data required, including relevant figures, rates, terms, and any other pertinent details for amounts due, interest charges, balances, discounts, equity, and principal.\n</OUTPUT_TEXT>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -9.093842069981461
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 99,
+      "candidatesTokenCount": 59,
+      "totalTokenCount": 2214,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 99
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 59
+        }
+      ],
+      "thoughtsTokenCount": 2056
+    },
+    "modelVersion": "gemini-2.5-flash-preview-05-20",
+    "createTime": "2025-05-27T15:49:23.114187Z",
+    "responseId": "A981aIv8BqO2nvgPrJiG8Qk"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "uid": "3a55f5ca",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gpt-4.1",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:54:00Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "cd07b991d8a43f6f05d21bac3250f3274274b6b2d0d4cfbb115d60c578d9e5c7",
+  "response": {
+    "id": "chatcmpl-Bi1wxdxXAGDgpEBFaRE86pVKcBZiy",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Review of Real Estate Closing Statement\n\n1. **Parties Involved**\n   - Buyer: [Insert Buyer\u2019s Full Name]\n   - Seller: [Insert Seller\u2019s Full Name]\n   - Property Address: [Insert Full Property Address]\n\n2. **Purchase Price and Deposit**\n   - Total Purchase Price: $[Insert Amount]\n   - Earnest Money Deposit: $[Insert Amount]\n   - Balance Due at Closing: $[Insert Amount]\n\n3. **Prorations and Adjustments**\n   - Property Taxes: Prorated as of closing date.\n   - Homeowner Association Dues: Prorated as of closing date.\n   - Utilities: [Specify if prorated or paid in full by seller]\n\n4. **Loan and Financing**\n   - Loan Amount: $[Insert Amount]\n   - Lender: [Insert Lender Name]\n   - Loan Fees: $[Insert Amount] (itemized in attached Loan Estimate)\n\n5. **Title and Escrow Charges**\n   - Title Insurance: $[Insert Amount]\n   - Escrow Fee: $[Insert Amount]\n   - Recording Fees: $[Insert Amount]\n\n6. **Other Settlement Charges**\n   - Real Estate Commission: $[Insert Amount] (paid by [Buyer/Seller])\n   - Home Warranty: $[Insert Amount] (if applicable)\n   - Repairs or Credits: $[Insert Amount] (if applicable)\n\n7. **Net Proceeds to Seller**\n   - Total Credits: $[Insert Amount]\n   - Total Debits: $[Insert Amount]\n   - Net Proceeds: $[Insert Amount]\n\n8. **Signatures**\n   - Buyer: ___________________________ Date: ___________\n   - Seller: __________________________ Date: ___________\n   - Escrow Officer: __________________ Date: ___________\n\n9. **Review Notes**\n   - All figures should be double-checked for accuracy.\n   - Ensure all prorations are calculated to the correct date.\n   - Confirm that all required disclosures and addenda are attached.\n   - Verify that all parties have reviewed and understand the statement before signing.\n\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749833627,
+    "model": "gpt-4.1-2025-04-14",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_51e1070cf2",
+    "usage": {
+      "completion_tokens": 434,
+      "prompt_tokens": 134,
+      "total_tokens": 568,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "uid": "9cebf902",
+  "variant": 1,
+  "temperature": 0.5,
+  "model": "gpt-3.5-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T21:58:22Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "9e1bc814b212e4c47604050a66e9da3073e7f1683e2e3a3d8cb6c57d123c3014",
+  "response": {
+    "id": "chatcmpl-BaUhADS7KWym04txUQeIzVckZdLuA",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>MEMO\n\nTo: [Client's Name]\nFrom: [Your Name], Senior Paralegal\nDate: [Today's Date]\n\nSubject: Analysis of [Legal Issue]\n\nI have conducted extensive research on the legal issue at hand, including reviewing relevant statutes, court decisions, legal articles, codes, and documents. After thorough analysis, it is evident that [provide a summary of the key findings and implications for the client].\n\nBased on the research findings, it is recommended that [provide recommendations or next steps for the client to consider].\n\nPlease feel free to reach out if you have any questions or require further clarification on the research conducted.\n\nSincerely,\n[Your Name]\nSenior Paralegal</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748037500,
+    "model": "gpt-3.5-turbo-0125",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 147,
+      "prompt_tokens": 91,
+      "total_tokens": 238,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

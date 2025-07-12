@@ -1,0 +1,15 @@
+{
+  "uid": "dc35566b",
+  "variant": 1,
+  "modality": "TEXT",
+  "temperature": 0.0,
+  "model": "claude-3-5-sonnet-20240620",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T18:06:35.660538Z",
+  "commit_sha": "98b2eb0f130d4d32e78707f77c440a8f68e4103c",
+  "prompt_sha256": "765f66845fe94cc26e415321bd6986741705cf0896b53b9a639c6f287a20df02",
+  "response": {
+    "raw": "Here is a possible client-ready memo for that task:\n\n<OUTPUT_TEXT>\nMEMO\nTo: Trial Team\nFrom: Senior Paralegal\nRe: Trial Preparation - Organizing Exhibits\n\nIn preparation for the upcoming trial, I have completed the following tasks to organize our exhibits:\n\n1. Created a master exhibit list in Excel with columns for exhibit number, description, date, and notes\n2. Assigned unique exhibit numbers to all potential trial exhibits\n3. Organized physical copies of exhibits in numbered binders\n4. Scanned all exhibits and saved digital copies in a dedicated trial folder on our secure server\n5. Prepared exhibit stickers and affixed them to physical copies\n6. Cross-referenced exhibits with key witness testimony and relevant legal arguments\n7. Flagged any sensitive or confidential exhibits that may require special handling\n8. Compiled a separate list of demonstrative exhibits and visual aids\n9. Verified completeness of all multi-page exhibits\n10. Prepared an initial set of exhibit binders for counsel and the judge\n\nPlease review the master exhibit list and let me know of any additional exhibits to be added or other organizational needs for trial. I will continue to update and refine our exhibit preparation as we approach the trial date.\n</OUTPUT_TEXT>",
+    "extracted": "<OUTPUT_TEXT>\nMEMO\nTo: Trial Team\nFrom: Senior Paralegal\nRe: Trial Preparation - Organizing Exhibits\n\nIn preparation for the upcoming trial, I have completed the following tasks to organize our exhibits:\n\n1. Created a master exhibit list in Excel with columns for exhibit number, description, date, and notes\n2. Assigned unique exhibit numbers to all potential trial exhibits\n3. Organized physical copies of exhibits in numbered binders\n4. Scanned all exhibits and saved digital copies in a dedicated trial folder on our secure server\n5. Prepared exhibit stickers and affixed them to physical copies\n6. Cross-referenced exhibits with key witness testimony and relevant legal arguments\n7. Flagged any sensitive or confidential exhibits that may require special handling\n8. Compiled a separate list of demonstrative exhibits and visual aids\n9. Verified completeness of all multi-page exhibits\n10. Prepared an initial set of exhibit binders for counsel and the judge\n\nPlease review the master exhibit list and let me know of any additional exhibits to be added or other organizational needs for trial. I will continue to update and refine our exhibit preparation as we approach the trial date.\n</OUTPUT_TEXT>"
+  }
+}

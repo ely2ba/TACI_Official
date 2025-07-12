@@ -1,0 +1,43 @@
+{
+  "uid": "47817359",
+  "variant": 2,
+  "modality": "GUI",
+  "temperature": 0.0,
+  "model": "llama3-8b-8192",
+  "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+  "timestamp": "2025-05-28T14:52:51.784633Z",
+  "prompt_sha256": "b4af2b170661130c1b170c23a9d9644a1b9d3c76158504e2856dcf317d31a4bf",
+  "response": {
+    "id": "chatcmpl-07f000e2-0edd-4dd9-b27c-2125a990e39a",
+    "object": "chat.completion",
+    "created": 1748443971,
+    "model": "llama3-8b-8192",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "<OUTPUT_JSON>\n[\n  {\n    \"action\": \"click\",\n    \"target\": \"input[name*=account i]\"\n  },\n  {\n    \"action\": \"type\",\n    \"target\": \"input[name*=account i]\",\n    \"value\": \"Account Name\"\n  },\n  {\n    \"action\": \"click\",\n    \"target\": \"input[name*=amount i]\"\n  },\n  {\n    \"action\": \"type\",\n    \"target\": \"input[name*=amount i]\",\n    \"value\": \"100.00\"\n  },\n  {\n    \"action\": \"click\",\n    \"target\": \"textarea[name*=memo i]\"\n  },\n  {\n    \"action\": \"type\",\n    \"target\": \"textarea[name*=memo i]\",\n    \"value\": \"This is a memo\"\n  },\n  {\n    \"action\": \"click\",\n    \"target\": \"button:has-text(\\\"post\\\" i)\"\n  }\n]\n</OUTPUT_JSON>"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "queue_time": 0.6412027330000001,
+      "prompt_tokens": 177,
+      "prompt_time": 0.033705582,
+      "completion_tokens": 193,
+      "completion_time": 0.160833333,
+      "total_tokens": 370,
+      "total_time": 0.194538915
+    },
+    "usage_breakdown": {
+      "models": null
+    },
+    "system_fingerprint": "fp_179b0f92c9",
+    "x_groq": {
+      "id": "req_01jwbp3fhpf52vj3b58qh08w78"
+    }
+  }
+}

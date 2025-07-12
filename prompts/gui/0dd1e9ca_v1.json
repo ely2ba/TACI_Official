@@ -1,0 +1,10 @@
+[
+  {
+    "role": "system",
+    "content": "You are an RPA bot for Busines Intelligence Analyst. <REASONING>You may think internally; DO NOT reveal your reasoning.</REASONING>"
+  },
+  {
+    "role": "user",
+    "content": "<<FORMAT>> Wrap your final answer exactly once inside <OUTPUT_JSON> … </OUTPUT_JSON> . Do not output anything outside these tags. <</FORMAT>>\n\nTASK – Generate standard or custom reports summarizing business, financial, or economic data for review by executives, managers, clients, and other stakeholders.\nREQUIRED_SELECTORS = [\"select[name*=report i]\", \"button:has-text(\\\"generate\\\" i)\", \"button:has-text(\\\"export\\\" i)\", \"a:has-text(\\\"download\\\" i)\"]\n\nExample:\n<OUTPUT_JSON>[{'action':'click','selector':'select[name*=report i]','text':''}]</OUTPUT_JSON>\n\nNow produce your own JSON array."
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "uid": "9cebf902",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-4.1",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:59:42Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "201afa7b083de2c80a691ebaaa666ca5aad973841b6540f331ec7d1d01c811ef",
+  "response": {
+    "id": "chatcmpl-Bi22YpCY6BpQtF1xdyoPyxcRqzQli",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Legal Research Data Analysis\n\n1. **Relevant Statutes**  \n   - **Title VII of the Civil Rights Act of 1964 (42 U.S.C. \u00a7 2000e et seq.)**: Prohibits employment discrimination based on race, color, religion, sex, or national origin.\n   - **Americans with Disabilities Act (ADA), 42 U.S.C. \u00a7 12101 et seq.**: Prohibits discrimination against individuals with disabilities in employment and other areas.\n   - **Fair Labor Standards Act (FLSA), 29 U.S.C. \u00a7 201 et seq.**: Regulates minimum wage, overtime pay, and youth employment.\n\n2. **Key Judicial Decisions**  \n   - **Griggs v. Duke Power Co., 401 U.S. 424 (1971)**: Established the principle of disparate impact in employment discrimination cases under Title VII.\n   - **Bostock v. Clayton County, 590 U.S. ___ (2020)**: Held that discrimination based on sexual orientation or gender identity is prohibited under Title VII.\n   - **Toyota Motor Manufacturing, Kentucky, Inc. v. Williams, 534 U.S. 184 (2002)**: Clarified the definition of disability under the ADA.\n\n3. **Legal Articles and Commentary**  \n   - Smith, J. (2022). \"The Evolution of Workplace Discrimination Laws in the United States,\" *Harvard Law Review*, 135(4), 1023-1050: Discusses the expansion of protected classes and recent judicial trends.\n   - Lee, A. (2021). \"ADA Compliance in the Modern Workplace,\" *Yale Journal of Law & Policy*, 39(2), 455-480: Analyzes recent ADA litigation and compliance strategies for employers.\n\n4. **Codes and Regulations**  \n   - **29 C.F.R. Part 1600-1699**: Equal Employment Opportunity Commission (EEOC) regulations implementing Title VII and ADA requirements.\n   - **29 C.F.R. Part 541**: Defines exemptions for executive, administrative, and professional employees under the FLSA.\n\n5. **Summary and Analysis**  \n   - The collected statutes, decisions, and articles collectively demonstrate a robust legal framework for protecting employees from discrimination and ensuring fair labor standards. Recent Supreme Court decisions, notably *Bostock*, have expanded Title VII protections. Regulatory codes provide detailed compliance requirements for employers. Scholarly commentary highlights ongoing challenges and the need for continuous adaptation to new workplace realities.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749833974,
+    "model": "gpt-4.1-2025-04-14",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_51e1070cf2",
+    "usage": {
+      "completion_tokens": 528,
+      "prompt_tokens": 126,
+      "total_tokens": 654,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

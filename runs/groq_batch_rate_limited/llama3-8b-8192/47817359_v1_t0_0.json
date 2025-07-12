@@ -1,0 +1,44 @@
+{
+  "uid": "47817359",
+  "variant": 1,
+  "modality": "GUI",
+  "temperature": 0.0,
+  "model": "llama3-8b-8192",
+  "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+  "timestamp": "2025-05-28T19:15:45.623011Z",
+  "prompt_sha256": "f51d20b27d8fe9dc7a8028700e1c706d37811ef80ecf23e722552f90fc59edcb",
+  "commit_sha": "170b9e3e1d0d59846b1daa69da57be5d1db6306c",
+  "response": {
+    "id": "chatcmpl-84250907-b970-4e44-a2bc-ee15cf48cf62",
+    "object": "chat.completion",
+    "created": 1748459745,
+    "model": "llama3-8b-8192",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "<OUTPUT_JSON>[\n  {\"action\":\"click\",\"selector\":\"input[name*=account i]\",\"text\":\"\"},\n  {\"action\":\"input\",\"selector\":\"input[name*=amount i]\",\"text\":\"100.00\"},\n  {\"action\":\"input\",\"selector\":\"textarea[name*=memo i]\",\"text\":\"Payment for services rendered\"},\n  {\"action\":\"click\",\"selector\":\"button:has-text(\\\"post\\\" i)\",\"text\":\"\"},\n  {\"action\":\"click\",\"selector\":\"button:has-text(\\\"save\\\" i)\",\"text\":\"\"}\n]</OUTPUT_JSON>"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "queue_time": 0.16244952699999998,
+      "prompt_tokens": 183,
+      "prompt_time": 0.03473041,
+      "completion_tokens": 110,
+      "completion_time": 0.091666667,
+      "total_tokens": 293,
+      "total_time": 0.126397077
+    },
+    "usage_breakdown": {
+      "models": null
+    },
+    "system_fingerprint": "fp_179b0f92c9",
+    "x_groq": {
+      "id": "req_01jwc54vz2ek7a3pwcw0tev0j7"
+    }
+  }
+}

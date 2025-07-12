@@ -1,0 +1,49 @@
+{
+  "uid": "1b64c419",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:08:00Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "1f625a6fdd50fe7ecc05734bf1275a4209bfbcb42eba08862b793cb2d021742e",
+  "response": {
+    "id": "chatcmpl-BaUqOXwINiuj5buNYyDxSXRSHVHeS",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Answering Telephones and Directing Calls to Appropriate Staff\n\n1. Answer the telephone politely and professionally: \"Good morning/afternoon, this is [Your Name] at [Medical Practice Name]. How can I assist you today?\"\n\n2. Listen carefully to the caller's request or query. Identify the purpose of their call and the staff member they need to speak with.\n\n3. If the caller is unsure who they need to speak with, ask relevant questions to determine the most appropriate staff member for their needs.\n\n4. Once the appropriate staff member has been identified, inform the caller: \"I will transfer your call to [Staff Member's Name]. Please hold for a moment.\"\n\n5. Transfer the call to the appropriate staff member promptly.\n\n6. If the required staff member is unavailable, take a detailed message including the caller's name, contact details, and reason for calling. Assure the caller that their message will be passed on as soon as possible.\n\n7. Always end the call professionally, thanking the caller for their patience and wishing them a good day.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748038072,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 224,
+      "prompt_tokens": 82,
+      "total_tokens": 306,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

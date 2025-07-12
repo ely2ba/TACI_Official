@@ -1,0 +1,49 @@
+{
+  "uid": "dc35566b",
+  "variant": 1,
+  "temperature": 0.5,
+  "model": "gpt-4.1",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T23:03:55Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "a0b6c4ca66353d066b84bb1909703160d2d542ff6a0179c6d3f504217c3ee1fc",
+  "response": {
+    "id": "chatcmpl-BaViWiW9x3aE2sVhgggVNp6GMYhYE",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nTo: [Attorney's Name]  \nFrom: [Your Name], Senior Paralegal  \nDate: [Today's Date]  \nRe: Trial Preparation \u2013 Organization of Exhibits\n\nAs part of our trial preparation, I have undertaken the following steps to ensure that all exhibits are organized and ready for presentation in court:\n\n1. **Exhibit List Preparation**:  \n   - Compiled a comprehensive master list of all proposed exhibits, including descriptions, exhibit numbers, and corresponding Bates numbers.\n   - Cross-checked the list with the pleadings and discovery responses to ensure completeness and accuracy.\n\n2. **Exhibit Binders**:  \n   - Prepared separate exhibit binders for the Court, opposing counsel, and witness stand, each containing identical sets of exhibits with exhibit tabs for easy reference.\n   - Each exhibit is clearly labeled with its assigned number and a brief description.\n\n3. **Electronic Exhibits**:  \n   - Scanned all physical exhibits into PDF format for electronic presentation, if permitted by the court.\n   - Ensured all electronic files are properly named and organized in folders matching the exhibit list.\n\n4. **Pre-Marked Exhibits**:  \n   - All exhibits have been pre-marked according to the court\u2019s requirements (e.g., Plaintiff\u2019s 1, Plaintiff\u2019s 2, etc.).\n   - Verified that the markings are visible and consistent across all copies.\n\n5. **Exhibit Log and Tracking**:  \n   - Created an exhibit log to track the introduction and admission status of each exhibit during trial.\n   - Prepared a check-out/check-in sheet for exhibits used during witness examination.\n\n6. **Exhibit Stipulations**:  \n   - Coordinated with opposing counsel to identify any exhibits that can be stipulated for admission, reducing the need for foundation testimony.\n\n7. **Supporting Documentation**:  \n   - Compiled foundational documents and witness lists to support the admission of each exhibit.\n   - Prepared summary charts or demonstrative exhibits as needed.\n\n8. **Courtroom Technology**:  \n   - Tested courtroom equipment for displaying electronic exhibits.\n   - Prepared backup copies on USB drives and hard copies in case of technical difficulties.\n\nIf you require any adjustments or have additional exhibits to include, please advise. The exhibits are ready for your review and final approval before submission to the court.\n\nPlease let me know if you need further assistance with witness preparation or any other trial matters.\n\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748041428,
+    "model": "gpt-4.1-2025-04-14",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_51e1070cf2",
+    "usage": {
+      "completion_tokens": 490,
+      "prompt_tokens": 81,
+      "total_tokens": 571,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

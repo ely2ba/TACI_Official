@@ -1,0 +1,49 @@
+{
+  "uid": "25c9f684",
+  "variant": 0,
+  "temperature": 0.0,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:17:06Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "21442e18f153ec223f5c53b10d750293682ecc3847de0d0e205768be5d4d7f1c",
+  "response": {
+    "id": "chatcmpl-BaUzDOxEaOHFaYynFfwjGSIlCvR37",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<INTERNAL_TEXT>\nI need to prepare a script that is professional and empathetic to address the customer's inquiries. I also need to ensure that I have all the necessary information about the claim investigation results or planned adjustments before making the call. It's important to communicate clearly and effectively to maintain customer satisfaction.\n</INTERNAL_TEXT>\n\n<OUTPUT_TEXT>\nDear [Customer's Name],\n\nI hope this message finds you well. I am reaching out to you regarding your recent inquiry. We have completed our investigation into your claim and would like to discuss the results with you. Additionally, we have some planned adjustments that we believe will be beneficial for you.\n\nPlease let us know a convenient time for you to discuss this matter further. We value your business and are committed to providing you with the highest level of service.\n\nBest Regards,\n[Your Name]\n[Your Position]\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748038619,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 175,
+      "prompt_tokens": 67,
+      "total_tokens": 242,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

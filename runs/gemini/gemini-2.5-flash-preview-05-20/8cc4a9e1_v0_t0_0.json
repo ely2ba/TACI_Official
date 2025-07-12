@@ -1,0 +1,46 @@
+{
+  "uid": "8cc4a9e1",
+  "variant": 0,
+  "temperature": 0.0,
+  "model": "gemini-2.5-flash-preview-05-20",
+  "modality": "GUI",
+  "timestamp": "2025-05-27T15:30:33.607064Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_JSON>\n[\n  {\n    \"action\": \"type\",\n    \"selector\": \"input[name*=\\\"space\\\"]\",\n    \"text\": \"100\"\n  },\n  {\n    \"action\": \"type\",\n    \"selector\": \"input[name*=\\\"charge\\\"]\",\n    \"text\": \"5.00\"\n  },\n  {\n    \"action\": \"click\",\n    \"selector\": \"button:has-text(\\\"calculate\\\")\",\n    \"text\": \"\"\n  },\n  {\n    \"action\": \"click\",\n    \"selector\": \"button:has-text(\\\"save\\\")\",\n    \"text\": \"\"\n  }\n]\n</OUTPUT_JSON>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.539422523684618
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 193,
+      "candidatesTokenCount": 164,
+      "totalTokenCount": 965,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 193
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 164
+        }
+      ],
+      "thoughtsTokenCount": 608
+    },
+    "modelVersion": "gemini-2.5-flash-preview-05-20",
+    "createTime": "2025-05-27T15:30:29.365681Z",
+    "responseId": "ldo1aPGoFvGX2PgP38qSuQs"
+  }
+}

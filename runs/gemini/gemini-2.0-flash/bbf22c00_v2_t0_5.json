@@ -1,0 +1,45 @@
+{
+  "uid": "bbf22c00",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gemini-2.0-flash",
+  "modality": "GUI",
+  "timestamp": "2025-05-27T13:10:43.933618Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "Okay, I understand. I need to match order forms with invoices by selecting the corresponding checkboxes and then record the information. I will use the provided selectors to interact with the webpage.\n\n```json\n[\n  {\"action\": \"click\", \"selector\": \"table:has-text(\\\"order\\\" i) >> tr >> input[type=checkbox]\"},\n  {\"action\": \"click\", \"selector\": \"table:has-text(\\\"invoice\\\" i) >> tr >> input[type=checkbox]\"},\n  {\"action\": \"click\", \"selector\": \"button:has-text(\\\"match\\\" i)\"},\n  {\"action\": \"click\", \"selector\": \"button:has-text(\\\"record\\\" i)\"}\n]\n```"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.06294780511122483
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 182,
+      "candidatesTokenCount": 156,
+      "totalTokenCount": 338,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 182
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 156
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:10:42.739362Z",
+    "responseId": "0rk1aKKQLd7bgLUP8cv60A0"
+  }
+}

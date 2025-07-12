@@ -1,0 +1,49 @@
+{
+  "uid": "9652a31e",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gpt-4.1",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T23:08:49Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "c5f22f6bf3506be057b6de2a4596e8039e76b87b8ac8a2f6095a7ee06ae9fa43",
+  "response": {
+    "id": "chatcmpl-BaVnH3vsGB7UQo1eIJdUUlbRE08EK",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Resolving Shipping and Receiving Issues\n\n1. **Identify the Problem**\n   - Review all relevant documentation (packing slips, purchase orders, delivery receipts).\n   - Inspect the received goods for damages, shortages, or nonconformance to specifications.\n\n2. **Gather Evidence**\n   - Take clear photographs of any damages or discrepancies.\n   - Record details such as item numbers, quantities, and descriptions of the issue.\n\n3. **Contact the Establishment Representative**\n   - Reach out to the supplier or vendor representative via phone or email.\n   - Clearly describe the issue, referencing order numbers and attaching supporting evidence.\n\n4. **Discuss and Rectify**\n   - Confer with the representative to determine the cause of the problem.\n   - Request corrective actions, such as replacement, credit, or reshipment.\n   - Agree on a timeline for resolution.\n\n5. **Document the Resolution**\n   - Record all correspondence and agreed-upon actions.\n   - Update inventory records and notify relevant internal departments of the resolution.\n\n6. **Follow Up**\n   - Monitor the progress of the corrective action.\n   - Confirm receipt of replacement goods or credits, and ensure the issue is fully resolved.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748041723,
+    "model": "gpt-4.1-2025-04-14",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_ccc6ec921d",
+    "usage": {
+      "completion_tokens": 244,
+      "prompt_tokens": 95,
+      "total_tokens": 339,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

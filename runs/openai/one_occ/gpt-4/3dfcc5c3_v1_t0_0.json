@@ -1,0 +1,49 @@
+{
+  "uid": "3dfcc5c3",
+  "variant": 1,
+  "temperature": 0.0,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:30:02Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "2520c480e058bd91b3605771513fd75f7c5aa969ab9c942b433a8c8d3c170b73",
+  "response": {
+    "id": "chatcmpl-Bi1ZtM25ocuRSZtESEdOeKtJjDi1t",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>As a senior Paralegal and Legal Assistant, I will ensure that our law library is up-to-date by regularly monitoring and updating our legal volumes. This will involve checking for new editions of existing volumes, as well as adding new volumes that are relevant to our practice. I will also keep track of any changes in the law that may require us to update our library. This will ensure that we have the most current and accurate legal information available for our clients.</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749832197,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 99,
+      "prompt_tokens": 117,
+      "total_tokens": 216,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

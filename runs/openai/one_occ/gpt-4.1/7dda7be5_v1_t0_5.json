@@ -1,0 +1,49 @@
+{
+  "uid": "7dda7be5",
+  "variant": 1,
+  "temperature": 0.5,
+  "model": "gpt-4.1",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:59:24Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "f619121edfa394cf2f966e745283e437489a58c27b2b7d4b7539289c690206a7",
+  "response": {
+    "id": "chatcmpl-Bi227chulQvNjoXXRIWeahjcyzEBk",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nMEMORANDUM\n\nTO: [Attorney/Client Name]  \nFROM: [Your Name], Senior Paralegal  \nDATE: [Today's Date]  \nRE: Appraisal and Inventory of Real and Personal Property for Estate Planning\n\nI. INTRODUCTION  \nThis memorandum outlines the process and findings related to the appraisal and inventory of real and personal property for estate planning purposes. The goal is to provide a comprehensive listing and estimated valuation of all assets to facilitate the preparation of estate planning documents.\n\nII. REAL PROPERTY\n\nA. Identification  \nAll real property owned by the client has been identified through a review of deeds, tax assessments, and mortgage statements. The following properties are included:\n\n1. Primary Residence  \n   - Address: [Insert Address]  \n   - Legal Description: [Insert Legal Description]  \n   - Ownership: [Sole/Joint/Tenancy by the Entirety]  \n\n2. Additional Properties  \n   - [List each additional property with address, legal description, and ownership details]\n\nB. Appraisal  \nMarket values have been estimated using recent tax assessments, comparative market analyses, and, where available, professional appraisals.  \n- Primary Residence Estimated Value: $[Insert Amount]  \n- [Other Properties Estimated Values]\n\nIII. PERSONAL PROPERTY\n\nA. Tangible Personal Property  \nIncludes vehicles, jewelry, artwork, collectibles, furniture, and other physical items.\n\n1. Vehicles  \n   - Make/Model/Year: [Insert Details]  \n   - Estimated Value: $[Insert Amount]  \n\n2. Jewelry and Collectibles  \n   - Description: [Insert Details]  \n   - Estimated Value: $[Insert Amount]  \n\n3. Other Tangible Items  \n   - [List and value as appropriate]\n\nB. Intangible Personal Property  \nIncludes bank accounts, investment accounts, retirement accounts, stocks, bonds, and life insurance policies.\n\n1. Bank Accounts  \n   - Institution: [Insert Name]  \n   - Account Type: [Checking/Savings]  \n   - Balance: $[Insert Amount]  \n\n2. Investment Accounts  \n   - Institution: [Insert Name]  \n   - Account Type: [IRA/401(k)/Brokerage]  \n   - Balance: $[Insert Amount]  \n\n3. Life Insurance Policies  \n   - Provider: [Insert Name]  \n   - Policy Number: [Insert Number]  \n   - Death Benefit: $[Insert Amount]  \n\nIV. SUMMARY  \nA detailed inventory of all identified real and personal property is attached as Exhibit A. Estimated values are current as of [Date], but professional appraisals are recommended for high-value or unique assets.\n\nV. RECOMMENDATIONS  \n- Review the attached inventory for completeness and accuracy.  \n- Consider obtaining updated professional appraisals for significant assets.  \n- Update estate planning documents to reflect current holdings and values.\n\nPlease advise if further detail or additional appraisals are required.\n\nAttachments:  \nExhibit A \u2013 Detailed Inventory of Real and Personal Property\n\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749833947,
+    "model": "gpt-4.1-2025-04-14",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_51e1070cf2",
+    "usage": {
+      "completion_tokens": 607,
+      "prompt_tokens": 114,
+      "total_tokens": 721,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

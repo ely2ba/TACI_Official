@@ -1,0 +1,15 @@
+{
+  "uid": "2bc72355",
+  "variant": 1,
+  "modality": "TEXT",
+  "temperature": 0.0,
+  "model": "claude-3-5-sonnet-20240620",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T18:07:38.126700Z",
+  "commit_sha": "98b2eb0f130d4d32e78707f77c440a8f68e4103c",
+  "prompt_sha256": "1cc1558788e7622a040ed1519865e80674d1b0848a1527914520b5ef71c935e6",
+  "response": {
+    "raw": "<OUTPUT_TEXT>\nTo instruct students individually and in groups:\n\n1. Lectures:\n   - Present information clearly and concisely\n   - Use visual aids and examples\n   - Encourage questions and participation\n\n2. Discussions:\n   - Pose thought-provoking questions\n   - Facilitate respectful dialogue\n   - Encourage critical thinking and analysis\n\n3. Demonstrations:\n   - Show step-by-step processes\n   - Allow hands-on practice\n   - Provide immediate feedback\n\n4. Individual instruction:\n   - Assess each student's needs\n   - Tailor explanations to learning styles\n   - Offer one-on-one support as needed\n\n5. Group work:\n   - Assign collaborative projects\n   - Monitor group dynamics\n   - Encourage peer learning and support\n\n6. Differentiated instruction:\n   - Adapt teaching methods to diverse learners\n   - Provide multiple ways to engage with content\n   - Offer choices in demonstrating understanding\n\n7. Technology integration:\n   - Utilize educational apps and software\n   - Incorporate interactive digital content\n   - Teach digital literacy skills\n\n8. Assessment and feedback:\n   - Use formative and summative assessments\n   - Provide timely, constructive feedback\n   - Adjust instruction based on results\n\nRemember to maintain a positive, inclusive learning environment and regularly reflect on teaching effectiveness.\n</OUTPUT_TEXT>",
+    "extracted": "<OUTPUT_TEXT>\nTo instruct students individually and in groups:\n\n1. Lectures:\n   - Present information clearly and concisely\n   - Use visual aids and examples\n   - Encourage questions and participation\n\n2. Discussions:\n   - Pose thought-provoking questions\n   - Facilitate respectful dialogue\n   - Encourage critical thinking and analysis\n\n3. Demonstrations:\n   - Show step-by-step processes\n   - Allow hands-on practice\n   - Provide immediate feedback\n\n4. Individual instruction:\n   - Assess each student's needs\n   - Tailor explanations to learning styles\n   - Offer one-on-one support as needed\n\n5. Group work:\n   - Assign collaborative projects\n   - Monitor group dynamics\n   - Encourage peer learning and support\n\n6. Differentiated instruction:\n   - Adapt teaching methods to diverse learners\n   - Provide multiple ways to engage with content\n   - Offer choices in demonstrating understanding\n\n7. Technology integration:\n   - Utilize educational apps and software\n   - Incorporate interactive digital content\n   - Teach digital literacy skills\n\n8. Assessment and feedback:\n   - Use formative and summative assessments\n   - Provide timely, constructive feedback\n   - Adjust instruction based on results\n\nRemember to maintain a positive, inclusive learning environment and regularly reflect on teaching effectiveness.\n</OUTPUT_TEXT>"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "uid": "0c07452f",
+  "variant": 0,
+  "temperature": 0.5,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:13:17Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "eaa728365fbbcea54ad24cdac0b3aec2642702da66e598a8f7442f956cb23546",
+  "response": {
+    "id": "chatcmpl-BaUvVhKrLKWFBUqW0AJrPyIf0tYKs",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nAs an elementary school teacher, it's my responsibility to ensure that all students understand and follow the school's policies and rules. This includes everything from dress code, behavior in class, respect for others, and adherence to school-wide procedures. It's important for students to understand the reasons behind these rules, and I will take the time to explain them in a way that is age-appropriate and easy to understand. In case of any infractions, I will follow the school's disciplinary procedures while ensuring the student's dignity and learning needs are respected. I will also communicate with parents about their child's behavior and any disciplinary actions taken, if necessary.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748038389,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 137,
+      "prompt_tokens": 60,
+      "total_tokens": 197,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

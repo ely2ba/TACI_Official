@@ -1,0 +1,46 @@
+{
+  "uid": "85a846ff",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gemini-2.5-pro-preview-05-06",
+  "modality": "GUI",
+  "timestamp": "2025-05-27T13:48:17.634841Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_JSON>\n[\n  {\n    \"action\": \"type\",\n    \"selector\": \"input[name*=account i]\",\n    \"text\": \"Enter Account Information\"\n  },\n  {\n    \"action\": \"type\",\n    \"selector\": \"input[name*=amount i], input[type=number]\",\n    \"text\": \"Enter Amount or Numerical Value\"\n  },\n  {\n    \"action\": \"type\",\n    \"selector\": \"textarea[name*=memo i]\",\n    \"text\": \"Enter Memo or Detailed Notes\"\n  },\n  {\n    \"action\": \"click\",\n    \"selector\": \"button:has-text(\\\"post\\\" i), button:has-text(\\\"save\\\" i)\"\n  }\n]\n</OUTPUT_JSON>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -2.5817557248202236
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 169,
+      "candidatesTokenCount": 176,
+      "totalTokenCount": 3725,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 169
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 176
+        }
+      ],
+      "thoughtsTokenCount": 3380
+    },
+    "modelVersion": "gemini-2.5-pro-preview-05-06",
+    "createTime": "2025-05-27T13:47:43.342580Z",
+    "responseId": "f8I1aLT0FLX6ld8P4e7huAw"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "uid": "2e2364b7",
+  "variant": 1,
+  "temperature": 0.5,
+  "model": "gpt-4.1",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:56:29Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "5808175cbc619e24c5c564af0fd9694007e037ba45a7744dae70da83bcc6bb95",
+  "response": {
+    "id": "chatcmpl-Bi1zSlAEgPBQHdNIZjqVmW3rj200h",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nMEMORANDUM\n\nTo: [Attorney's Name]  \nFrom: [Your Name], Senior Paralegal  \nDate: [Today's Date]  \nRe: Filing of Pleadings with Court Clerk\n\nThis memo outlines the steps taken and requirements for filing pleadings with the court clerk:\n\n1. **Document Preparation:**  \n   - All pleadings have been reviewed for accuracy, compliance with court rules, and proper formatting.\n   - Required exhibits and attachments have been included and properly labeled.\n\n2. **Signatures and Certificates:**  \n   - Pleadings have been signed by the responsible attorney.\n   - Certificate of Service has been completed and attached, indicating all parties have been served as required.\n\n3. **Filing Method:**  \n   - For electronic filing: Documents have been converted to PDF and uploaded to the court\u2019s e-filing portal. Confirmation of submission has been received and saved for the file.\n   - For paper filing (if required): Sufficient copies have been prepared. Originals and copies have been delivered to the court clerk\u2019s office, and a stamped copy has been obtained for our records.\n\n4. **Filing Fees:**  \n   - Applicable filing fees have been paid. Receipts and payment confirmations are attached to the case file.\n\n5. **Follow-Up:**  \n   - Calendar reminders have been set for any deadlines or hearings related to the filed pleadings.\n   - All relevant parties have been notified of the filing.\n\nPlease advise if further action is required.\n\nAttachments:  \n- Filed pleadings  \n- Proof of service  \n- Filing confirmation/receipt\n\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749833782,
+    "model": "gpt-4.1-2025-04-14",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_51e1070cf2",
+    "usage": {
+      "completion_tokens": 326,
+      "prompt_tokens": 109,
+      "total_tokens": 435,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

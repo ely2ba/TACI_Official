@@ -1,0 +1,49 @@
+{
+  "uid": "0c07452f",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gpt-3.5-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T21:59:46Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "97bdb486738236a72ee38f1c9a723099c8dcc19d09559b914ae92fdfa55d7525",
+  "response": {
+    "id": "chatcmpl-BaUiWQDkEeKzWrjZhMDyms63yqIOu",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Administration Policies and Rules Governing Students\n\n1. **Attendance**\n   - Students are expected to attend all classes regularly and punctually.\n   - Absences must be reported to the school office by a parent or guardian.\n   - Excessive absences may result in disciplinary action.\n\n2. **Behavior**\n   - Students must adhere to the school's code of conduct at all times.\n   - Disruptive behavior, bullying, or harassment will not be tolerated.\n   - Respect for teachers, staff, and fellow students is mandatory.\n\n3. **Uniform**\n   - Students are required to wear the school uniform as specified in the dress code.\n   - Any deviations from the uniform must be approved by the administration in advance.\n\n4. **Homework**\n   - Students are responsible for completing and submitting homework assignments on time.\n   - Failure to submit homework may result in academic consequences.\n\n5. **Technology**\n   - The use of personal electronic devices is prohibited during school hours.\n   - Any technology use must be for educational purposes with teacher approval.\n\n6. **Safety**\n   - Students must follow all safety protocols and procedures to ensure a secure learning environment.\n   - Any safety concerns should be reported to a teacher or staff member immediately.\n\n7. **Communication**\n   - Parents or guardians are encouraged to maintain open communication with teachers and the school administration.\n   - Important information and updates will be communicated through official channels.\n\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748037584,
+    "model": "gpt-3.5-turbo-0125",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 293,
+      "prompt_tokens": 82,
+      "total_tokens": 375,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

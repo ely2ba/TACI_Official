@@ -1,0 +1,49 @@
+{
+  "uid": "8fc9d168",
+  "variant": 1,
+  "temperature": 0.0,
+  "model": "gpt-3.5-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T21:59:02Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "795a5247d07e6eecf46d0c3de5b1425cdc9e3760d40c259e39cbd16ca127f77b",
+  "response": {
+    "id": "chatcmpl-BaUhplugCi1tEXl602K7iXcibYVne",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>Building and nurturing positive business relationships with a customer's key personnel involved in logistics activities is crucial for ensuring smooth operations and fostering long-term partnerships. By understanding their needs, challenges, and preferences, we can tailor our logistics solutions to better meet their requirements and exceed their expectations. Regular communication, proactive problem-solving, and demonstrating reliability are key strategies to maintain and develop these relationships. Additionally, seeking feedback and continuously improving our services based on their input can further strengthen our partnerships and drive mutual success.</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748037541,
+    "model": "gpt-3.5-turbo-0125",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 104,
+      "prompt_tokens": 89,
+      "total_tokens": 193,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

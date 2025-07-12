@@ -1,0 +1,15 @@
+{
+  "uid": "25c9f684",
+  "variant": 0,
+  "modality": "TEXT",
+  "temperature": 0.5,
+  "model": "claude-3-opus-20240229",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T17:57:08.566304Z",
+  "commit_sha": "98b2eb0f130d4d32e78707f77c440a8f68e4103c",
+  "prompt_sha256": "466348ab4e34c3a0a07daa665b85617e634277736f08944fd2cdb5b5684d8d8b",
+  "response": {
+    "raw": "Here is my attempt at completing the task, wrapped in the specified output tags:\n\n<OUTPUT_TEXT>\nHello [Customer Name],\n\nI'm reaching out regarding the claim you recently submitted. After thoroughly investigating the details of your claim, we have determined that [explain claim result]. \n\n[If claim approved]: We will be processing your claim and issuing payment in the amount of [amount]. You should receive the funds within [timeframe]. Please let me know if you have any other questions!\n\n[If claim denied]: Unfortunately, your claim has been denied because [explain reason, e.g. lack of coverage, failure to meet terms & conditions, etc.]. I know this is not the outcome you were hoping for. If you would like to discuss the decision further or believe there are additional factors we should consider, please feel free to call me directly at [phone number] or reply to this message. I'm happy to go over the details with you.\n\nThank you for your understanding. Please don't hesitate to reach out with any other questions or concerns. We appreciate your business!\n\nBest regards,\n[Your Name]\nCustomer Service Representative \n[Company Name]\n</OUTPUT_TEXT>",
+    "extracted": "<OUTPUT_TEXT>\nHello [Customer Name],\n\nI'm reaching out regarding the claim you recently submitted. After thoroughly investigating the details of your claim, we have determined that [explain claim result]. \n\n[If claim approved]: We will be processing your claim and issuing payment in the amount of [amount]. You should receive the funds within [timeframe]. Please let me know if you have any other questions!\n\n[If claim denied]: Unfortunately, your claim has been denied because [explain reason, e.g. lack of coverage, failure to meet terms & conditions, etc.]. I know this is not the outcome you were hoping for. If you would like to discuss the decision further or believe there are additional factors we should consider, please feel free to call me directly at [phone number] or reply to this message. I'm happy to go over the details with you.\n\nThank you for your understanding. Please don't hesitate to reach out with any other questions or concerns. We appreciate your business!\n\nBest regards,\n[Your Name]\nCustomer Service Representative \n[Company Name]\n</OUTPUT_TEXT>"
+  }
+}

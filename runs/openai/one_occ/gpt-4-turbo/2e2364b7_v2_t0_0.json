@@ -1,0 +1,49 @@
+{
+  "uid": "2e2364b7",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gpt-4-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:42:57Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "cee4e4cced006a4842340997b6ed1bbff872b7344ee46acccdf523da2a41dd4c",
+  "response": {
+    "id": "chatcmpl-Bi1mMjvAxbciSYZKUx4b56hgDQ8yO",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Filing Pleadings with the Court Clerk\n\n1. **Prepare the Documents**\n   - Ensure that all pleadings are complete and comply with the local court rules regarding format, content, and necessary attachments.\n   - Double-check for signatures where required, and make sure all copies are clear and legible.\n\n2. **Review Filing Guidelines**\n   - Consult the specific court\u2019s guidelines for filing pleadings, which can typically be found on the court\u2019s website or by contacting the court clerk\u2019s office directly.\n   - Determine whether the court accepts digital submissions or requires physical copies.\n\n3. **Assemble Filing Fees**\n   - Check if there are any fees associated with filing the pleadings and prepare to pay them. This can usually be done via check, credit card, or through an online payment system if filing electronically.\n\n4. **Submit the Pleadings**\n   - If filing electronically, use the court\u2019s designated system, ensuring that all documents are uploaded in the correct format and that the submission is confirmed.\n   - If filing in person, organize the documents neatly and submit them to the court clerk, obtaining a stamped copy as proof of filing.\n\n5. **Confirm Receipt and Acceptance**\n   - After submission, ensure that the court clerk has officially accepted the pleadings. If electronic, confirmation should be received via email or through the filing system\u2019s notification process.\n   - For in-person filings, ensure that you receive a receipt or confirmation number from the clerk.\n\n6. **Follow Up**\n   - Monitor the case docket for updates or any further requirements from the court regarding the filed pleadings.\n   - Keep copies of all filings and receipts in the case file for future reference.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749832970,
+    "model": "gpt-4-turbo-2024-04-09",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_de235176ee",
+    "usage": {
+      "completion_tokens": 352,
+      "prompt_tokens": 112,
+      "total_tokens": 464,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

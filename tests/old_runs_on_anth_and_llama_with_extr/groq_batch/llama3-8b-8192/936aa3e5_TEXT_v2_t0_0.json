@@ -1,0 +1,43 @@
+{
+  "uid": "936aa3e5",
+  "variant": 2,
+  "modality": "TEXT",
+  "temperature": 0.0,
+  "model": "llama3-8b-8192",
+  "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+  "timestamp": "2025-05-28T14:53:52.218527Z",
+  "prompt_sha256": "67c59d378ebaf9d1b7f895ab9064773167723258cc75eb4b1226b8ffe87977f3",
+  "response": {
+    "id": "chatcmpl-33891fce-6ae3-44c1-8eb2-5255f02d3c12",
+    "object": "chat.completion",
+    "created": 1748444031,
+    "model": "llama3-8b-8192",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "<OUTPUT_TEXT>\n<h1>Financial Calculations</h1>\n\n<h2>Amounts Due</h2>\nTo calculate the amount due, we need to subtract the amount paid from the total amount owed. For example, if the total amount owed is $1,000 and the amount paid is $500, the amount due would be:\n\n$1,000 - $500 = $500\n\n<h2>Interest Charges</h2>\nTo calculate the interest charge, we need to multiply the outstanding balance by the interest rate. For example, if the outstanding balance is $500 and the interest rate is 10%, the interest charge would be:\n\n$500 x 0.10 = $50\n\n<h2>Balance</h2>\nTo calculate the balance, we need to add the amount paid to the outstanding balance. For example, if the outstanding balance is $500 and the amount paid is $200, the new balance would be:\n\n$500 + $200 = $700\n\n<h2>Discounts</h2>\nTo calculate the discount, we need to subtract the discount amount from the total amount owed. For example, if the total amount owed is $1,000 and the discount amount is 5%, the discount would be:\n\n$1,000 x 0.05 = $50\n\n<h2>Equity</h2>\nTo calculate the equity, we need to subtract the liabilities from the assets. For example, if the assets are $10,000 and the liabilities are $5,000, the equity would be:\n\n$10,000 - $5,000 = $5,000\n\n<h2>Principal</h2>\nTo calculate the principal, we need to subtract the interest from the total amount paid. For example, if the total amount paid is $1,000 and the interest is $50, the principal would be:\n\n$1,000 - $50 = $950\n</OUTPUT_TEXT>"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "queue_time": 0.161833816,
+      "prompt_tokens": 131,
+      "prompt_time": 0.020785715,
+      "completion_tokens": 397,
+      "completion_time": 0.330833333,
+      "total_tokens": 528,
+      "total_time": 0.351619048
+    },
+    "usage_breakdown": {
+      "models": null
+    },
+    "system_fingerprint": "fp_179b0f92c9",
+    "x_groq": {
+      "id": "req_01jwbp5atrebtsskwadar79v3e"
+    }
+  }
+}

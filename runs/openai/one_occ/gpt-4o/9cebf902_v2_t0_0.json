@@ -1,0 +1,49 @@
+{
+  "uid": "9cebf902",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gpt-4o",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:51:44Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "201afa7b083de2c80a691ebaaa666ca5aad973841b6540f331ec7d1d01c811ef",
+  "response": {
+    "id": "chatcmpl-Bi1urvEI7I5njZSc9myUnHf1Nu93e",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Legal Research Analysis\n\n1. **Statutes**  \n   Statutes are laws enacted by a legislative body. They provide the legal framework within which individuals and entities must operate. Researching statutes involves identifying relevant laws that apply to a specific legal issue. This can include federal, state, or local statutes depending on the jurisdiction of the case.\n\n2. **Decisions**  \n   Legal decisions, or case law, are outcomes of court cases that interpret statutes and legal principles. Analyzing decisions involves reviewing past court rulings to understand how laws have been applied in similar situations. This helps in predicting how current cases might be decided and in formulating legal arguments.\n\n3. **Legal Articles**  \n   Legal articles are scholarly writings that discuss and analyze legal issues, trends, and developments. They provide insights and expert opinions that can be valuable in understanding complex legal topics. These articles are often found in law reviews and journals.\n\n4. **Codes**  \n   Legal codes are systematic collections of laws, rules, or regulations. They are organized by subject matter and provide comprehensive legal guidelines. Researching codes involves examining these collections to find applicable rules and regulations for a particular legal issue.\n\n5. **Documents**  \n   Legal documents include contracts, wills, deeds, and other written instruments that have legal significance. Analyzing these documents involves understanding their terms, conditions, and implications to ensure compliance with the law and to protect the interests of the parties involved.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749833497,
+    "model": "gpt-4o-2024-08-06",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_a288987b44",
+    "usage": {
+      "completion_tokens": 300,
+      "prompt_tokens": 126,
+      "total_tokens": 426,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

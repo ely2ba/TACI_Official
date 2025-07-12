@@ -1,0 +1,46 @@
+{
+  "uid": "47817359",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gemini-2.5-pro-preview-05-06",
+  "modality": "GUI",
+  "timestamp": "2025-05-27T13:37:26.066077Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_JSON>\n[\n  {\n    \"selector\": \"input[name*=account i]\",\n    \"description\": \"Account identifier input field. Used to enter the account code or name for recording a transaction.\",\n    \"action_type\": \"type\"\n  },\n  {\n    \"selector\": \"input[name*=amount i], input[type=number]\",\n    \"description\": \"Transaction amount input field. Used to enter the monetary value for recording a transaction.\",\n    \"action_type\": \"type\"\n  },\n  {\n    \"selector\": \"textarea[name*=memo i]\",\n    \"description\": \"Memo or description textarea. Used to add a note or detailed description for the transaction being recorded.\",\n    \"action_type\": \"type\"\n  },\n  {\n    \"selector\": \"button:has-text(\\\"post\\\" i), button:has-text(\\\"save\\\" i)\",\n    \"description\": \"Action button to post or save the accounting entry. This action stores the recorded information.\",\n    \"action_type\": \"click\"\n  }\n]\n</OUTPUT_JSON>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -2.783971067334785
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 174,
+      "candidatesTokenCount": 244,
+      "totalTokenCount": 3963,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 174
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 244
+        }
+      ],
+      "thoughtsTokenCount": 3545
+    },
+    "modelVersion": "gemini-2.5-pro-preview-05-06",
+    "createTime": "2025-05-27T13:36:49.326777Z",
+    "responseId": "8b81aPn4E_q0nvgPkbjHyAk"
+  }
+}

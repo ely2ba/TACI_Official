@@ -1,0 +1,49 @@
+{
+  "uid": "07080553",
+  "variant": 0,
+  "temperature": 0.5,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T23:35:16Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "b60d24599d1df23bd17991a8c681b996a2dd542b4a3676448842122e2105f6c1",
+  "response": {
+    "id": "chatcmpl-BaWCu6Po0vpW4Oolx4WIMrbszN5F8",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nIn order to complete this task, I would need to gather all necessary information and materials related to the case or legal issue at hand. I would then draft the affidavits or other documents, ensuring that all information is accurate and that the documents are formatted correctly. After drafting, I would review and revise the documents as needed before finalizing them. I would then organize and file the documents in the appropriate paper or electronic filing system, making sure that they are easily accessible for future reference.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748043312,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 106,
+      "prompt_tokens": 108,
+      "total_tokens": 214,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

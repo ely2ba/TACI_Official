@@ -1,0 +1,45 @@
+{
+  "uid": "dc35566b",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gemini-2.0-flash",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T13:18:23.355046Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "```text\n <OUTPUT_TEXT>\n# Trial Preparation Checklist\n\nHere's a checklist to help organize exhibits and prepare for trial:\n\n1.  **Exhibit Inventory and Organization:**\n\n    *   Create a master exhibit list: This should include exhibit numbers, brief descriptions, dates, and sources. Use a spreadsheet for easy sorting and searching.\n    *   Physically organize exhibits: Store exhibits in a logical order, corresponding to the exhibit list. Use labeled boxes, folders, or binders. Consider using clear plastic sleeves for documents and photographs.\n    *   Maintain a digital copy of all exhibits: Scan all physical exhibits and store them in a well-organized folder structure on a secure drive. Ensure consistent naming conventions.\n    *   Prepare exhibit labels: Print labels with exhibit numbers and descriptions for easy identification.\n    *   Create demonstrative exhibits: Work with attorneys to create charts, graphs, timelines, or other visual aids to present complex information clearly. Ensure these demonstratives are accurate and admissible.\n\n2.  **Exhibit Authentication and Admissibility:**\n\n    *   Review rules of evidence: Familiarize yourself with the rules regarding authentication and admissibility of evidence.\n    *   Gather authentication documents: Collect any documents needed to authenticate exhibits, such as affidavits, business records certifications, or chain of custody forms.\n    *   Anticipate objections: Identify potential objections to each exhibit and prepare arguments to overcome them.\n    *   Prepare motions in limine: Draft motions to exclude inadmissible evidence before trial.\n    *   Organize witness files: Ensure witness files contain copies of exhibits they will be asked to identify or discuss.\n\n3.  **Trial Notebook Preparation:**\n\n    *   Create a trial notebook: This should include key documents, witness outlines, opening and closing statements, motions, and legal research.\n    *   Include exhibit list in trial notebook: Place a copy of the master exhibit list in the trial notebook for quick reference.\n    *   Prepare exhibit binders for court: Assemble binders containing copies of key exhibits for the judge, opposing counsel, and witnesses.\n\n4.  **Technology and Equipment:**\n\n    *   Test all technology: Ensure all laptops, projectors, and other equipment are in good working order.\n    *   Prepare electronic presentations: Create engaging and persuasive electronic presentations of exhibits.\n    *   Arrange for technical support: Coordinate with IT support to ensure smooth operation of technology during trial.\n\n5.  **Communication and Coordination:**\n\n    *   Communicate with witnesses: Confirm witness availability and provide them with necessary information about the trial process.\n    *   Coordinate with court staff: Communicate with court clerks and other staff regarding exhibit procedures and any special needs.\n    *   Liaise with opposing counsel: Exchange exhibit lists and discuss any potential stipulations regarding admissibility.\n\n6.  **Final Review:**\n\n    *   Double-check all exhibits: Ensure all exhibits are properly labeled, organized, and authenticated.\n    *   Review trial notebook: Review the trial notebook to ensure it is complete and up-to-date.\n    *   Conduct a mock trial: Practice presenting exhibits and questioning witnesses in a mock trial setting.\n </TEXT>\n```"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.21439361572265625
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 110,
+      "candidatesTokenCount": 658,
+      "totalTokenCount": 768,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 110
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 658
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:18:18.473602Z",
+    "responseId": "mrs1aIL0HPGX2PgP38qSuQs"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "uid": "1b64c419",
+  "variant": 1,
+  "temperature": 0.5,
+  "model": "gemini-2.0-flash",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T13:19:16.834767Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_TEXT>Okay, I will answer telephones promptly and politely, using the standard greeting: \"Good morning/afternoon, [Practice Name], this is [Your Name], how may I help you?\" I will actively listen to the caller to understand their needs. I will then direct the calls to the appropriate staff member or department based on the caller's request and established office protocols. If the intended recipient is unavailable, I will take a detailed message, including the caller's name, phone number, the reason for their call, and the date and time of the call. I will then deliver the message to the intended recipient promptly via the agreed-upon method (e.g., email, phone call, message slip). If I am unsure of where to direct a call, I will ask clarifying questions to determine the appropriate destination or consult with a supervisor.</OUTPUT_TEXT>\n"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.21542814042833117
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 105,
+      "candidatesTokenCount": 180,
+      "totalTokenCount": 285,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 105
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 180
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:19:15.080668Z",
+    "responseId": "07s1aJz2BNahnvgPjb-S-Ag"
+  }
+}

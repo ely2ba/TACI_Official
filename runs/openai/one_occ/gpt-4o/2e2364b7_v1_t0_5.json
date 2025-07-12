@@ -1,0 +1,49 @@
+{
+  "uid": "2e2364b7",
+  "variant": 1,
+  "temperature": 0.5,
+  "model": "gpt-4o",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:49:49Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "5808175cbc619e24c5c564af0fd9694007e037ba45a7744dae70da83bcc6bb95",
+  "response": {
+    "id": "chatcmpl-Bi1t5Bh6zHTFL8RjCIwQtCHRoRKvW",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>To file pleadings with the court clerk, follow these steps: 1) Ensure all documents are complete and signed as required. 2) Verify compliance with court rules regarding formatting and submission. 3) Assemble the pleadings in the correct order, including any exhibits or attachments. 4) Prepare the necessary number of copies for filing and service. 5) Check the court's schedule for filing deadlines and office hours. 6) Submit the pleadings in person or electronically, if permitted by the court. 7) Obtain a stamped copy as proof of filing for your records. 8) Confirm the filing fee and prepare payment, if applicable. 9) Follow up to ensure the pleadings are docketed correctly.</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749833387,
+    "model": "gpt-4o-2024-08-06",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_a288987b44",
+    "usage": {
+      "completion_tokens": 155,
+      "prompt_tokens": 109,
+      "total_tokens": 264,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

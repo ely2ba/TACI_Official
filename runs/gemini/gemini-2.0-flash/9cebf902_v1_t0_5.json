@@ -1,0 +1,45 @@
+{
+  "uid": "9cebf902",
+  "variant": 1,
+  "temperature": 0.5,
+  "model": "gemini-2.0-flash",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T13:11:31.031645Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "Okay, I'm ready to prepare the client-ready memo. I will focus on gathering and analyzing relevant research data, including statutes, decisions, legal articles, codes, and documents, to provide a comprehensive and well-supported legal analysis.\n<OUTPUT_TEXT>MEMORANDUM\n\nTO: \\[Supervising Attorney Name]\nFROM: \\[Your Name]\nDATE: \\[Current Date]\nRE: \\[Client Name] - \\[Brief Subject of Memo]\n\n**I. Question Presented**\n\n\\[Clearly and concisely state the legal question(s) this memo addresses. Be specific and tailored to the client's situation.]\n\n**II. Brief Answer**\n\n\\[Provide a brief, direct answer to the question(s) presented. This should be a concise summary of your conclusion.]\n\n**III. Facts**\n\n\\[Summarize the relevant facts of the client's situation. Be thorough but avoid unnecessary details. Include only the facts that are relevant to the legal issue(s) you are analyzing. Cite to the source of the facts (e.g., client interview, documents provided). ]\n\n**IV. Discussion**\n\n\\[This is the core of the memo. Analyze the legal issues, applying relevant law to the facts.\n\n*   **Identify the Applicable Law:** State the relevant statutes, case law, and regulations that govern the issue. Provide citations to legal authority (e.g., *United States Code*, Supreme Court decisions, state statutes).\n*   **Analyze the Law:** Explain the meaning and application of the law. Discuss how courts have interpreted the law in similar cases.\n*   **Apply the Law to the Facts:** Argue how the law applies to the specific facts of the client's situation. Address potential counterarguments and weaknesses in your analysis.\n*   **Organize by Issue:** If there are multiple legal issues, address each one separately, using clear headings and subheadings.\n*   **Use Persuasive Reasoning:** Present your analysis in a clear, logical, and persuasive manner.\n*   **Cite Authority:** Support your arguments with proper citations to legal authority. Use Bluebook citation format.\n*   **Address any conflicting authority and how it might affect the outcome.**\n\n**V. Conclusion**\n\n\\[Summarize your analysis and state your conclusion. Explain the likely outcome of the case based on your research and analysis. Provide recommendations for next steps.]\n\n**VI. Appendix (Optional)**\n\n\\[Include copies of relevant statutes, case law, or other documents that are critical to your analysis, *if* they are not readily available through common legal research databases. This section is generally avoided unless absolutely necessary, as the attorney can look up the cases themselves.]\n\n**VII. List of Authorities**\n\n\\[Provide a comprehensive list of all statutes, cases, regulations, and other authorities cited in the memo. Use Bluebook citation format.]\n\n**Note:** This is a template. The specific content and organization of your memo will depend on the specific legal issue and the client's situation. Remember to proofread carefully for errors in grammar, spelling, and citation format. Ensure all legal authorities are properly cited and up-to-date. Double-check all factual information for accuracy.\n</OUTPUT_TEXT>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.2562371046023261
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 117,
+      "candidatesTokenCount": 665,
+      "totalTokenCount": 782,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 117
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 665
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:11:26.017446Z",
+    "responseId": "_rk1aKaIAdTGgLUPtNvO0AE"
+  }
+}

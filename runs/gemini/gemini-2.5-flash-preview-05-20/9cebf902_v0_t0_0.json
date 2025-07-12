@@ -1,0 +1,46 @@
+{
+  "uid": "9cebf902",
+  "variant": 0,
+  "temperature": 0.0,
+  "model": "gemini-2.5-flash-preview-05-20",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T15:39:00.682193Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_TEXT>\nAcknowledged. I am prepared to gather and analyze the requested research data, including statutes, decisions, legal articles, codes, and other relevant documents. To ensure the most effective and targeted results, please specify the legal issue or case for which this research is required.\n</OUTPUT_TEXT>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -5.2241262582632215
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 98,
+      "candidatesTokenCount": 65,
+      "totalTokenCount": 1484,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 98
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 65
+        }
+      ],
+      "thoughtsTokenCount": 1321
+    },
+    "modelVersion": "gemini-2.5-flash-preview-05-20",
+    "createTime": "2025-05-27T15:38:51.767941Z",
+    "responseId": "i9w1aMXvLti7ld8P4IzqyAc"
+  }
+}

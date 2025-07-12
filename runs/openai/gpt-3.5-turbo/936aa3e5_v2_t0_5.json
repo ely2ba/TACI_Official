@@ -1,0 +1,49 @@
+{
+  "uid": "936aa3e5",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-3.5-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T21:58:41Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "e27b33f68330ba9f081ac5cbf0fae70c8cccec958ae0b30242cd1986fe4a4b1c",
+  "response": {
+    "id": "chatcmpl-BaUhUfjvpuP7P9uuMODRJKV29m8l6",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Financial Calculations\n\n1. Amount Due Calculation:\nAmount Due = Invoice Amount - Discount Amount\n\n2. Interest Charges Calculation:\nInterest Charges = Principal Amount * Interest Rate * Time\n\n3. Balance Calculation:\nBalance = Total Assets - Total Liabilities\n\n4. Discount Calculation:\nDiscount = List Price * Discount Rate\n\n5. Equity Calculation:\nEquity = Total Assets - Total Liabilities\n\n6. Principal Calculation:\nPrincipal = Total Loan Amount - Interest\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748037520,
+    "model": "gpt-3.5-turbo-0125",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 100,
+      "prompt_tokens": 95,
+      "total_tokens": 195,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

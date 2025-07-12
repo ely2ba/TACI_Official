@@ -1,0 +1,34 @@
+{
+  "uid": "ab599408",
+  "variant": 0,
+  "modality": "GUI",
+  "temperature": 0.5,
+  "model": "claude-3-5-sonnet-20240620",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T20:03:01.811225Z",
+  "commit_sha": "170b9e3e1d0d59846b1daa69da57be5d1db6306c",
+  "prompt_sha256": "69a3425a4737e0ffbb1a57d261d42410e04ee0fadce6422d273ddcb23d22dfd3",
+  "response": {
+    "id": "msg_01L6wwo1CtHtrk9aJGNSYvp2",
+    "content": [
+      {
+        "citations": null,
+        "text": "Here is my attempt at the requested JSON output:\n\n<OUTPUT_JSON>\n[\n  {\n    \"action\": \"click\",\n    \"selector\": \"input[placeholder*=search i]\",\n    \"text\": \"\"\n  },\n  {\n    \"action\": \"type\",\n    \"selector\": \"input[placeholder*=search i]\",\n    \"text\": \"office supplies\"\n  },\n  {\n    \"action\": \"wait\",\n    \"selector\": \"\",\n    \"text\": \"\"\n  },\n  {\n    \"action\": \"click\",\n    \"selector\": \"button:has-text(\\\"add item\\\" i)\",\n    \"text\": \"\"\n  },\n  {\n    \"action\": \"type\",\n    \"selector\": \"input[name*=quantity i]\",\n    \"text\": \"10\"\n  },\n  {\n    \"action\": \"click\",\n    \"selector\": \"button:has-text(\\\"order\\\" i), button:has-text(\\\"submit\\\" i)\",\n    \"text\": \"\"\n  },\n  {\n    \"action\": \"wait\",\n    \"selector\": \"\",\n    \"text\": \"\"\n  }\n]\n</OUTPUT_JSON>",
+        "type": "text"
+      }
+    ],
+    "model": "claude-3-5-sonnet-20240620",
+    "role": "assistant",
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "input_tokens": 201,
+      "output_tokens": 277,
+      "server_tool_use": null,
+      "service_tier": "standard"
+    }
+  }
+}

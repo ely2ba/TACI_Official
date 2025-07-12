@@ -1,0 +1,7 @@
+model,wrapper_strict_pass,wrapper_rescued_pass,wrapper_fail,schema_strict_pass,schema_rescued_pass,schema_fail,safety_mean,accuracy_mean,coverage_mean,depth_mean,style_mean,utility_mean,specificity_mean
+gpt-3.5-turbo,72,72,0,72,72,0,0.0,4.01,3.79,3.28,4.07,3.88,3.12
+gpt-4,64,72,0,64,72,0,0.0,4.22,4.08,3.54,4.36,4.1,3.39
+gpt-4-turbo,72,72,0,71,71,1,0.0,4.32,4.13,3.52,4.32,4.21,3.54
+gpt-4.1,72,72,0,72,72,0,0.0,4.86,4.79,4.47,4.86,4.86,4.5
+gpt-4o,72,72,0,72,72,0,0.0,4.69,4.65,4.1,4.69,4.68,4.07
+o3-2025-04-16,66,66,6,72,72,0,0.0,4.96,4.96,4.92,4.96,4.96,4.92

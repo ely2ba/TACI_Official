@@ -1,0 +1,46 @@
+{
+  "uid": "0c07452f",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gemini-2.5-flash-preview-05-20",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T15:41:32.766494Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_TEXT>\n# Our School Rules: Helping Us All Learn and Grow!\n\nHello everyone! As your teacher, it's my job to make sure our classroom and our school are safe, happy, and the best places for all of us to learn. Our school has some important rules that help us do just that. These aren't just rules; they are ways we show respect for ourselves, each other, and our school. Let's go over them together!\n\n1.  **Safety First!**\n    *   **Walking Feet and Quiet Voices:** When we are in the hallways, walking to the library, or going to lunch, we always use walking feet and quiet voices. This keeps everyone safe from bumps and allows other classes to keep learning without distractions.\n    *   **Playground Safety:** On the playground, we share the equipment, take turns, and use everything the way it's meant to be used. No pushing, shoving, or rough play. We want everyone to have fun and stay safe!\n    *   **Keeping Hands and Feet to Ourselves:** This is a big one! We use our hands for helping, learning, and playing, not for hitting, pushing, or bothering others. Keeping our hands and feet to ourselves shows respect for everyone's personal space.\n\n2.  **Respect and Kindness**\n    *   **Respecting Others:** This means listening when someone else is talking (especially your teachers and classmates), using kind words, and never teasing or bullying. We treat everyone the way we want to be treated. Our school is a place where everyone feels welcome and safe.\n    *   **Respecting Our School and Property:** Our school building, our classroom, the books, the desks, and all our supplies belong to everyone. We take good care of them by not writing on desks, not tearing pages from books, and cleaning up after ourselves. When we take care of our things, they last longer for everyone to enjoy.\n\n3.  **Classroom Champions!**\n    *   **Listening Ears and Quiet Voices:** When the teacher is talking, or when a classmate is sharing, we use our listening ears. This helps us learn and understand. We raise a quiet hand if we have a question or want to share, instead of calling out.\n    *   **Staying in Your Seat:** During learning time, we stay in our seats unless we have permission to get up. This helps us focus on our work and keeps our classroom organized and ready for learning.\n    *   **Doing Your Best Work:** We always try our hardest on all our assignments and activities. It's okay to make mistakes \u2013 that's how we learn! But we always put in our best effort and ask for help if we need it.\n\n4.  **Being Responsible**\n    *   **Being On Time:** It's important to be at school and in our classroom on time each day. This helps us start our day smoothly and ensures you don't miss any important learning.\n    *   **Following Directions:** When an adult gives directions, we listen carefully and follow them the first time. This helps keep our day running smoothly and keeps everyone safe.\n\nRemember, these rules are here to help us all have a wonderful, safe, and successful school year. When we all follow these rules, our school is a fantastic place to be! If you ever have questions about a rule, or if you see someone not following a rule, please talk to me or another trusted adult. Thank you for being such great students!\n</OUTPUT_TEXT>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.35202397026031124
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 109,
+      "candidatesTokenCount": 741,
+      "totalTokenCount": 1569,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 109
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 741
+        }
+      ],
+      "thoughtsTokenCount": 719
+    },
+    "modelVersion": "gemini-2.5-flash-preview-05-20",
+    "createTime": "2025-05-27T15:41:22.193119Z",
+    "responseId": "It01aN_kC9TGgLUPtNvO0AE"
+  }
+}

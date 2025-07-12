@@ -1,0 +1,49 @@
+{
+  "uid": "47817359",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-4-turbo",
+  "modality": "GUI",
+  "timestamp": "2025-05-23T22:21:58Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "07bb97d4d2ae70be5c970f1ddeffbc3789571dda36aaf1eb6dc1d504bf3a517a",
+  "response": {
+    "id": "chatcmpl-BaV3wcPEVE3xXyNk1jVl92jarWnYi",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_JSON>[\n    {\"action\": \"locate\", \"selector\": \"input[name*=account i]\"},\n    {\"action\": \"input\", \"selector\": \"input[name*=account i]\", \"text\": \"{account_information}\"},\n    {\"action\": \"locate\", \"selector\": \"input[name*=amount i], input[type=number]\"},\n    {\"action\": \"input\", \"selector\": \"input[name*=amount i], input[type=number]\", \"text\": \"{amount}\"},\n    {\"action\": \"locate\", \"selector\": \"textarea[name*=memo i]\"},\n    {\"action\": \"input\", \"selector\": \"textarea[name*=memo i]\", \"text\": \"{memo_details}\"},\n    {\"action\": \"locate\", \"selector\": \"button:has-text(\\\"post\\\" i), button:has-text(\\\"save\\\" i)\"},\n    {\"action\": \"click\", \"selector\": \"button:has-text(\\\"post\\\" i), button:has-text(\\\"save\\\" i)\"}\n]</OUTPUT_JSON>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748038912,
+    "model": "gpt-4-turbo-2024-04-09",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_de235176ee",
+    "usage": {
+      "completion_tokens": 205,
+      "prompt_tokens": 141,
+      "total_tokens": 346,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

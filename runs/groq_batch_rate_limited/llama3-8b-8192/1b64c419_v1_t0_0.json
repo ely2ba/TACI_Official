@@ -1,0 +1,44 @@
+{
+  "uid": "1b64c419",
+  "variant": 1,
+  "modality": "TEXT",
+  "temperature": 0.0,
+  "model": "llama3-8b-8192",
+  "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+  "timestamp": "2025-05-28T19:20:31.516629Z",
+  "prompt_sha256": "0082ea146d1e377b56f5fb53495620fd7c5d9d3ba3bc7c4dbb817be089cdd100",
+  "commit_sha": "170b9e3e1d0d59846b1daa69da57be5d1db6306c",
+  "response": {
+    "id": "chatcmpl-cb7335e0-56ce-4fef-b632-6791d00c427a",
+    "object": "chat.completion",
+    "created": 1748460031,
+    "model": "llama3-8b-8192",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "<OUTPUT_TEXT>When answering telephones, I will greet the caller with a professional and friendly tone, stating the name of the medical practice and my name. I will then ask the caller to state their purpose for calling, and direct the call to the appropriate staff member or department. For example: \"Good morning, [Medical Practice Name], this is [Your Name]. How can I assist you today? Please state your name and the reason for your call.\" If the caller is seeking an appointment, I will ask for their availability and schedule the appointment accordingly. If the caller has a question or concern, I will take a message and forward it to the appropriate staff member. I will also ensure that all calls are handled in a timely and efficient manner, and that all necessary information is documented accurately and confidentially.</OUTPUT_TEXT>"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "queue_time": 2.4176048920000004,
+      "prompt_tokens": 114,
+      "prompt_time": 0.021150642,
+      "completion_tokens": 168,
+      "completion_time": 0.14,
+      "total_tokens": 282,
+      "total_time": 0.161150642
+    },
+    "usage_breakdown": {
+      "models": null
+    },
+    "system_fingerprint": "fp_dadc9d6142",
+    "x_groq": {
+      "id": "req_01jwc5dgtherrrzj1hwn0qdget"
+    }
+  }
+}

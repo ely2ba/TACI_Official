@@ -1,0 +1,49 @@
+{
+  "uid": "1b64c419",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:07:52Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "1f625a6fdd50fe7ecc05734bf1275a4209bfbcb42eba08862b793cb2d021742e",
+  "response": {
+    "id": "chatcmpl-BaUqEA6WAkpzF4ZkHAw7qfgjjxtPS",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Answering Telephones and Directing Calls to Appropriate Staff\n\n1. Answer the telephone promptly and professionally, using the standard greeting for your office. For example, \"Good morning/afternoon, [Your Office Name], this is [Your Name]. How may I assist you?\"\n\n2. Listen carefully to the caller's request. If they ask for a specific staff member, confirm the name to ensure you heard it correctly.\n\n3. If the staff member is available, transfer the call. For example, \"One moment please, I will connect you with [Staff Member's Name].\"\n\n4. If the staff member is not available, offer to take a message or suggest a callback. For example, \"I'm sorry, [Staff Member's Name] is not available at the moment. Would you like to leave a message or would you prefer a callback?\"\n\n5. If the caller is unsure of who they need to speak with, ask questions to determine the appropriate staff member. For example, \"Could you please tell me the nature of your call so I can direct you to the right person?\"\n\n6. Always end the call professionally and courteously. For example, \"Thank you for calling [Your Office Name]. Have a great day!\"\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748038062,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 260,
+      "prompt_tokens": 82,
+      "total_tokens": 342,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

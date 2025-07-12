@@ -1,0 +1,49 @@
+{
+  "uid": "a79efa23",
+  "variant": 1,
+  "temperature": 0.5,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:18:39Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "5c9da18b690c497e8572a7139bb543f83029f40122d65f1b8a04205a17c079c4",
+  "response": {
+    "id": "chatcmpl-BaV0ec5ce0uyhLzVaQgl0UauTQMy8",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n\nDear Valued Customer,\n\nI hope this message finds you well. I am reaching out to provide you with information about our products and services that may be of interest to you. \n\nWe offer a wide range of products designed to meet your specific needs. Whether you're in need of our latest tech gadget, home appliance, or our top-rated health and wellness product, we've got you covered. \n\nIf you're interested in placing an order, we've made the process simple and convenient. You can call our dedicated customer service line, or place your order directly through our website. Our team is always ready to assist you promptly and efficiently.\n\nIn the event that you wish to cancel an account, we have a straightforward procedure in place. You can call our customer service line or send us an email with your account details, and we will process the cancellation as quickly as possible.\n\nWe value your feedback and are always eager to hear about your experiences with our products and services. If you have any complaints or suggestions, please do not hesitate to share them with us. Your satisfaction is our top priority, and your input helps us continuously improve.\n\nThank you for choosing us. We look forward to serving you.\n\nBest Regards,\n\n[Your Name]\n[Your Position]\n[Your Contact Information]\n\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748038708,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 264,
+      "prompt_tokens": 95,
+      "total_tokens": 359,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

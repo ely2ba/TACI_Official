@@ -1,0 +1,49 @@
+{
+  "uid": "db852c6e",
+  "variant": 0,
+  "temperature": 0.0,
+  "model": "gpt-3.5-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:29:13Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "120988dc081b01b620d8d0ac9a66b0eb8a86cea5606c03759f2cba631d6ca4bf",
+  "response": {
+    "id": "chatcmpl-Bi1ZAOAeEoNhYkBTeS0M4BxYZLQkk",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nI will review the necessary documents and information to determine the appropriate individuals to serve with subpoenas. I will then coordinate with process servers or other legal professionals to ensure the subpoenas are properly delivered within the required time frame.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749832152,
+    "model": "gpt-3.5-turbo-0125",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 52,
+      "prompt_tokens": 96,
+      "total_tokens": 148,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "uid": "25c9f684",
+  "variant": 1,
+  "temperature": 0.5,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:18:16Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "d37cf9e48ef1acaab18a849ba7c28d757fa585285d9ad18f6c1d7df20601e396",
+  "response": {
+    "id": "chatcmpl-BaV0KVtZV4O5NVrAnnXdSpmiauAWL",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n\nDear Valued Customer,\n\nSubject: Response to Your Inquiry and Update on Claim Investigation\n\nWe hope this message finds you well. We are writing to provide an update regarding your recent inquiry and the status of your claim investigation.\n\nOur team has been diligently working to resolve your concerns and we are pleased to inform you that the investigation has been completed. We would like to discuss the results of the investigation and any potential adjustments that may be planned.\n\nTo ensure we provide the most accurate and detailed information, we kindly request you to let us know the most convenient time for you, so that we can arrange a call or a meeting as per your preference.\n\nPlease feel free to contact us at your earliest convenience via email at customerservice@ourcompany.com or by phone at (123) 456-7890. \n\nWe value your business and are committed to providing you with the highest level of service. Thank you for your patience and understanding throughout this process.\n\nBest Regards,\n\n[Your Name]\n[Your Position]\n[Your Contact Information]\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748038688,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 213,
+      "prompt_tokens": 83,
+      "total_tokens": 296,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

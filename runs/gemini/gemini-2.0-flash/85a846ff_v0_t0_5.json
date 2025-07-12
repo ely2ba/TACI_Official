@@ -1,0 +1,45 @@
+{
+  "uid": "85a846ff",
+  "variant": 0,
+  "temperature": 0.5,
+  "model": "gemini-2.0-flash",
+  "modality": "GUI",
+  "timestamp": "2025-05-27T13:10:04.032064Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "```json\n[\n  {\n    \"action\": \"type\",\n    \"selector\": \"input[name*=account i]\",\n    \"text\": \"Patient Record\"\n  },\n  {\n    \"action\": \"type\",\n    \"selector\": \"input[name*=amount i], input[type=number]\",\n    \"text\": \"1\"\n  },\n  {\n    \"action\": \"type\",\n    \"selector\": \"textarea[name*=memo i]\",\n    \"text\": \"Updated patient medical history.\"\n  },\n  {\n    \"action\": \"click\",\n    \"selector\": \"button:has-text(\\\"post\\\" i), button:has-text(\\\"save\\\" i)\",\n    \"text\": \"\"\n  }\n]\n```"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.01589480377513276
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 177,
+      "candidatesTokenCount": 169,
+      "totalTokenCount": 346,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 177
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 169
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:10:02.729349Z",
+    "responseId": "qrk1aIXCLNTGgLUPtNvO0AE"
+  }
+}

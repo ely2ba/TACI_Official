@@ -1,0 +1,46 @@
+{
+  "uid": "dc35566b",
+  "variant": 1,
+  "temperature": 0.5,
+  "model": "gemini-2.5-flash-preview-05-20",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T15:37:34.683205Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_TEXT>\n**MEMORANDUM**\n\n**TO:** Trial Team\n**FROM:** Senior Paralegal\n**DATE:** October 26, 2023\n**SUBJECT:** Trial Preparation: Comprehensive Exhibit Organization Protocol\n\nThis memorandum outlines the systematic approach for organizing all trial exhibits to ensure maximum efficiency and effectiveness during the upcoming trial. Meticulous exhibit management is crucial for seamless presentation and adherence to court protocols.\n\nOur exhibit organization protocol will encompass the following key phases:\n\n1.  **Exhibit Identification and Initial Review:**\n    *   All documents identified as potential trial exhibits will undergo a thorough review to confirm relevance, authenticity, and potential admissibility.\n    *   Duplicates will be identified and consolidated.\n\n2.  **Exhibit Numbering and Labeling:**\n    *   Each unique exhibit will be assigned a distinct, sequential exhibit number (e.g., \"Plaintiff's Exhibit 1,\" \"Defendant's Exhibit A,\" or a court-approved joint numbering system).\n    *   A clear, consistent label will be affixed to the bottom right corner of the first page of each exhibit, indicating the exhibit number. For multi-page exhibits, Bates numbering may be applied to individual pages for precise reference.\n\n3.  **Exhibit Log Creation:**\n    *   A comprehensive electronic Exhibit Log (spreadsheet) will be maintained for all potential exhibits. This log will include:\n        *   Exhibit Number\n        *   Brief Description of Document\n        *   Date of Document\n        *   Source (e.g., produced by Plaintiff, Defendant, third-party)\n        *   Witness(es) expected to authenticate/testify about the exhibit\n        *   Purpose/Relevance to the case\n        *   Anticipated Admissibility Issues (if any)\n        *   Status (e.g., \"Pre-marked,\" \"Offered,\" \"Admitted,\" \"Withdrawn,\" \"Stipulated\")\n\n4.  **Physical Exhibit Preparation:**\n    *   **Multiple Sets:** We will prepare the following physical sets of exhibits, ensuring each exhibit is clearly tabbed with its assigned number:\n        *   **Judge's Set:** One pristine set for the Court.\n        *   **Witness Set:** One set for witness testimony (often placed on the witness stand).\n        *   **Opposing Counsel's Set:** One set for opposing counsel.\n        *   **Clerk's Set:** One set for the Court Clerk.\n        *   **Working/Office Set:** At least one complete set for our internal use during trial.\n    *   **Binders/Folders:** Exhibits will be organized in durable binders or folders, clearly labeled on the spine and front with the case name, exhibit range (e.g., \"Exhibits 1-50\"), and set type (e.g., \"Judge's Set\").\n\n5.  **Digital Exhibit Preparation:**\n    *   All physical exhibits will be scanned into high-resolution, searchable PDF files.\n    *   Digital files will be named consistently (e.g., \"PX001_Contract_01-01-2020.pdf\").\n    *   These digital files will be organized into clearly labeled folders on a secure network drive or trial presentation software, mirroring the physical organization.\n    *   We will ensure compatibility with court technology and presentation systems.\n\n6.  **Pre-Trial Exchange and Stipulations:**\n    *   In accordance with court rules and scheduling orders, a final exhibit list will be prepared and exchanged with opposing counsel by the designated deadline.\n    *   Proactive discussions will be initiated with opposing counsel to identify exhibits that can be stipulated to for authenticity and/or admissibility, streamlining the trial process.\n\n7.  **Witness-Specific Exhibit Binders:**\n    *   Individual binders will be prepared for each witness, containing only the specific exhibits relevant to their anticipated testimony, in the order they will be discussed. This facilitates smooth direct and cross-examination.\n\n8.  **Quality Control and Final Review:**\n    *   Prior to trial, a meticulous final review will be conducted on all exhibit sets, the Exhibit Log, and witness binders to verify accuracy, completeness, legibility, and proper numbering.\n    *   Any discrepancies will be immediately rectified.\n\nBy adhering to this comprehensive exhibit organization protocol, we aim to present our case with maximum clarity, efficiency, and professionalism, ensuring all necessary materials are readily accessible throughout the trial.\n\nPlease let me know if you have any questions or require further details.\n\n**[End of Memo]**\n</OUTPUT_TEXT>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.4433615434381531
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 107,
+      "candidatesTokenCount": 957,
+      "totalTokenCount": 1925,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 107
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 957
+        }
+      ],
+      "thoughtsTokenCount": 861
+    },
+    "modelVersion": "gemini-2.5-flash-preview-05-20",
+    "createTime": "2025-05-27T15:37:22.148895Z",
+    "responseId": "Mtw1aJ-LCdD8ld8PhuvHsQ0"
+  }
+}

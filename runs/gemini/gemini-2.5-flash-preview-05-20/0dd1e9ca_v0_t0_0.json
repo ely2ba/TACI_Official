@@ -1,0 +1,46 @@
+{
+  "uid": "0dd1e9ca",
+  "variant": 0,
+  "temperature": 0.0,
+  "model": "gemini-2.5-flash-preview-05-20",
+  "modality": "GUI",
+  "timestamp": "2025-05-27T15:26:22.728065Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_JSON>\n[\n  {\n    \"action\": \"select\",\n    \"selector\": \"select[name*=report i]\",\n    \"text\": \"Financial Summary Report\"\n  },\n  {\n    \"action\": \"click\",\n    \"selector\": \"button:has-text(\\\"generate\\\" i)\"\n  },\n  {\n    \"action\": \"wait\",\n    \"text\": \"5000\"\n  },\n  {\n    \"action\": \"click\",\n    \"selector\": \"a:has-text(\\\"download\\\" i)\"\n  }\n]\n</OUTPUT_JSON>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -1.0019708341055542
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 181,
+      "candidatesTokenCount": 137,
+      "totalTokenCount": 1332,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 181
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 137
+        }
+      ],
+      "thoughtsTokenCount": 1014
+    },
+    "modelVersion": "gemini-2.5-flash-preview-05-20",
+    "createTime": "2025-05-27T15:26:16.452483Z",
+    "responseId": "mNk1aIPPG8epnvgP_sSfsAM"
+  }
+}

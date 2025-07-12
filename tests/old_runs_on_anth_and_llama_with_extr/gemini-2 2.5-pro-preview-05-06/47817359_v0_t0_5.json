@@ -1,0 +1,46 @@
+{
+  "uid": "47817359",
+  "variant": 0,
+  "temperature": 0.5,
+  "model": "gemini-2.5-pro-preview-05-06",
+  "modality": "GUI",
+  "timestamp": "2025-05-27T13:43:26.815888Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_JSON>\n[\n  {\n    \"action\": \"type\",\n    \"selector\": \"input[name*=account i]\",\n    \"text\": \"GL-12345\"\n  },\n  {\n    \"action\": \"type\",\n    \"selector\": \"input[name*=amount i], input[type=number]\",\n    \"text\": \"500.00\"\n  },\n  {\n    \"action\": \"type\",\n    \"selector\": \"textarea[name*=memo i]\",\n    \"text\": \"Monthly expense entry for office supplies\"\n  },\n  {\n    \"action\": \"click\",\n    \"selector"
+            }
+          ]
+        },
+        "finishReason": "MAX_TOKENS",
+        "avgLogprobs": -5.4223042942533555
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 182,
+      "candidatesTokenCount": 149,
+      "totalTokenCount": 4322,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 182
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 149
+        }
+      ],
+      "thoughtsTokenCount": 3991
+    },
+    "modelVersion": "gemini-2.5-pro-preview-05-06",
+    "createTime": "2025-05-27T13:42:45.977033Z",
+    "responseId": "VcE1aInRO9GunvgPueCxkQw"
+  }
+}

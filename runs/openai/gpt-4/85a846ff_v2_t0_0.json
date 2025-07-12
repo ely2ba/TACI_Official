@@ -1,0 +1,49 @@
+{
+  "uid": "85a846ff",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gpt-4",
+  "modality": "GUI",
+  "timestamp": "2025-05-23T22:04:56Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "b914e7cf71e20a0b836c63852989aa53b703bf6d61592f54aaaf027aa1edcf03",
+  "response": {
+    "id": "chatcmpl-BaUnUB38UQrNVxwlZYGrcmFwK6jaZ",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_JSON>[\n  {\"selector\":\"input[name*=account i]\", \"action\":\"fill\", \"value\":\"Medical Records\"},\n  {\"selector\":\"input[name*=amount i], input[type=number]\", \"action\":\"fill\", \"value\":\"1\"},\n  {\"selector\":\"textarea[name*=memo i]\", \"action\":\"fill\", \"value\":\"Maintaining medical records, technical library, and correspondence files.\"},\n  {\"selector\":\"button:has-text(\\\"post\\\" i), button:has-text(\\\"save\\\" i)\", \"action\":\"click\"}\n]</OUTPUT_JSON>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748037892,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 111,
+      "prompt_tokens": 134,
+      "total_tokens": 245,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

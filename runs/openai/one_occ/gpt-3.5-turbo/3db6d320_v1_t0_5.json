@@ -1,0 +1,49 @@
+{
+  "uid": "3db6d320",
+  "variant": 1,
+  "temperature": 0.5,
+  "model": "gpt-3.5-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:28:29Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "7d8015711e704fdfab04979f4d13093ef65d2011a424ce84ac42ad0d09849019",
+  "response": {
+    "id": "chatcmpl-Bi1YSlzv8CthQKhEHnzFXaP4NJdMk",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>Based on my investigation of the facts and relevant laws, I have determined the potential causes of action for our client's case. I have thoroughly researched the case law and statutes applicable to the situation and have compiled a comprehensive memo outlining the legal strategies and options available to pursue the case effectively. Our next steps will involve further analysis and preparation to ensure a strong legal position for our client.</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749832108,
+    "model": "gpt-3.5-turbo-0125",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 83,
+      "prompt_tokens": 132,
+      "total_tokens": 215,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

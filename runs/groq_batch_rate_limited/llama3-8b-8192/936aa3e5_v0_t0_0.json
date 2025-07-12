@@ -1,0 +1,44 @@
+{
+  "uid": "936aa3e5",
+  "variant": 0,
+  "modality": "TEXT",
+  "temperature": 0.0,
+  "model": "llama3-8b-8192",
+  "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+  "timestamp": "2025-05-28T19:19:55.005205Z",
+  "prompt_sha256": "2f4099c73b5825bd045722698629339da5c57fcd3922bf43cd2d678f02fd79d5",
+  "commit_sha": "170b9e3e1d0d59846b1daa69da57be5d1db6306c",
+  "response": {
+    "id": "chatcmpl-6b4e1315-79e0-4096-b6bc-b571492389e3",
+    "object": "chat.completion",
+    "created": 1748459994,
+    "model": "llama3-8b-8192",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "<OUTPUT_TEXT>\nTo perform financial calculations, I would use the following formulas:\n\n* Amounts due: Total amount owed - Amount paid\n* Interest charges: Principal x Rate x Time\n* Balances: Beginning balance + Additions - Subtractions\n* Discounts: Total amount owed - Discount amount\n* Equity: Total assets - Total liabilities\n* Principal: Total amount borrowed - Total interest paid\n\nFor example, if a customer owes $100 and pays $20, the amount due would be $80. If a company borrows $1,000 at a 5% interest rate for 1 year, the interest charge would be $50. If a company has a beginning balance of $1,000, adds $500, and subtracts $200, the new balance would be $1,300. If a company offers a 10% discount on a $100 purchase, the discounted amount would be $90. If a company has total assets of $100,000 and total liabilities of $50,000, the equity would be $50,000. If a company borrows $1,000 and pays back $500 in interest, the principal would be $500.</OUTPUT_TEXT>"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "queue_time": 1.2210438540000002,
+      "prompt_tokens": 109,
+      "prompt_time": 0.040834235,
+      "completion_tokens": 246,
+      "completion_time": 0.205,
+      "total_tokens": 355,
+      "total_time": 0.245834235
+    },
+    "usage_breakdown": {
+      "models": null
+    },
+    "system_fingerprint": "fp_179b0f92c9",
+    "x_groq": {
+      "id": "req_01jwc5cedjfcz8az45x3ybyftt"
+    }
+  }
+}

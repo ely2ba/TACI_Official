@@ -1,0 +1,46 @@
+{
+  "uid": "85a846ff",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gemini-2.5-pro-preview-05-06",
+  "modality": "GUI",
+  "timestamp": "2025-05-27T13:48:54.391700Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_JSON>[\n  {\n    \"action_type\": \"TYPE\",\n    \"selector\": \"input[name*=account i]\",\n    \"text\": \"[Account Information]\",\n    \"description\": \"Enter the relevant account identifier (e.g., patient ID, case number, library item code) for the record being maintained.\"\n  },\n  {\n    \"action_type\": \"TYPE\",\n    \"selector\": \"input[name*=amount i], input[type=number]\",\n    \"text\": \"[Numerical Data]\",\n    \"description\": \"Enter any associated numerical data (e.g., billing amount, quantity, reference number, item count) for the record.\"\n  },\n  {\n    \"action_type\": \"TYPE\",\n    \"selector\": \"textarea[name*=memo i]\",\n    \"text\": \"[Detailed Memo or Notes]\",\n    \"description\": \"Input detailed notes, summary, observations, or any relevant textual information for the medical record, library item, or correspondence.\"\n  },\n  {\n    \"action_type\": \"CLICK\",\n    \"selector\": \"button:has-text(\\\"post\\\" i), button:has-text(\\\"save\\\" i)\",\n    \"description\": \"Click to save or post the entered/updated information, thereby maintaining the record.\"\n  }\n]</OUTPUT_JSON>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -1.6472403690732758
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 169,
+      "candidatesTokenCount": 290,
+      "totalTokenCount": 3893,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 169
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 290
+        }
+      ],
+      "thoughtsTokenCount": 3434
+    },
+    "modelVersion": "gemini-2.5-pro-preview-05-06",
+    "createTime": "2025-05-27T13:48:19.310371Z",
+    "responseId": "o8I1aOP4Eti7ld8P4IzqyAc"
+  }
+}

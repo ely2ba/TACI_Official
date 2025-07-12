@@ -1,0 +1,50 @@
+{
+  "uid": "07080553",
+  "variant": 1,
+  "temperature": 0.5,
+  "seed": 1,
+  "model": "o3-2025-04-16",
+  "modality": "TEXT",
+  "timestamp": "2025-06-21T20:36:24Z",
+  "commit_sha": "ac1698886e89fb01e65b6ca5c8e06e97f58dd0fa",
+  "prompt_sha256": "875ac432cf5c92ad5d518cd80b30f9063e3c9a233738878444a54be9a4e1298b",
+  "response": {
+    "id": "chatcmpl-BkzET6VViqr6sVeInycTzh6cSkAnm",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nTo:      [Supervising Attorney\u2019s Name]  \nFrom:    [Paralegal\u2019s Name]  \nDate:    [Current Date]  \nSubject:  Affidavit & Correspondence Templates and File-Management Protocol\n\nI. Purpose  \nThis memorandum transmits (a) a ready-to-use Affidavit template, (b) a template for formal legal correspondence, and (c) a structured system for organizing and maintaining both paper and electronic files in accordance with firm policy, local court rules, and industry best practices.\n\nII. Affidavit Template  \n\n[CAPTION\u2014centered]  \n[COURT NAME]  \n[CASE TITLE AND DOCKET NO.]\n\nAFFIDAVIT OF [AFFIANT\u2019S NAME]\n\n1.   I, [Affiant\u2019s Full Legal Name], of [Affiant\u2019s Address], being duly sworn, depose and state as follows:  \n\u2003a.  [Fact \u00b61 stated in first-person, concise, numbered format.]  \n\u2003b.  [Fact \u00b62.]  \n\u2003c.  [Continue as necessary.]\n\n2.   I make this Affidavit based on my personal knowledge and for use in connection with the above-captioned matter.\n\nFURTHER AFFIANT SAYETH NAUGHT.\n\n________________________________  \n[Affiant\u2019s Name]  \n\nSTATE OF __________ )  \nCOUNTY OF _________ ) ss.:  \n\nSubscribed and sworn to before me this ___ day of __________, 20__, by [Affiant\u2019s Name].  \n\n________________________________  \nNotary Public  \nMy Commission Expires: __________\n\n(Practice notes: Use single-sided paper for court originals; leave 2-inch top margin in jurisdictions requiring file stamps; verify affiant ID in person.)\n\nIII. Legal Correspondence Template  \n\n[Law Firm Letterhead]\n\nDate:  _____________\n\nVia [Delivery Method: Email / Certified Mail / Hand-Delivery]\n\n[Recipient\u2019s Name]  \n[Recipient\u2019s Title]  \n[Firm / Agency / Court]  \n[Street Address]  \n[City, State ZIP]\n\nRe: [Case Name] \u2014 [Concise Subject]  \n\nDear [Mr./Ms./Judge] [Last Name]:\n\nParagraph 1 \u2013 Purpose of letter (e.g., transmittal of discovery responses, settlement demand).  \nParagraph 2 \u2013 Relevant facts or procedural posture.  \nParagraph 3 \u2013 Action requested and deadline (provide rule citation if applicable).  \n\nPlease contact me at [phone/email] with any questions. Thank you for your attention to this matter.\n\nRespectfully,\n\n________________________________  \n[Attorney\u2019s Name]  \n[Bar No.]  \n[Law Firm]  \nCc: Client; File  \nEncl.: [List documents]  \n\nIV. Document Organization & Maintenance Protocol  \n\nA. Paper Files  \n   1. Color-coded fastener folders:  \n      \u2022 Pleadings (Red)  \n      \u2022 Discovery (Blue)  \n      \u2022 Correspondence (Green)  \n      \u2022 Exhibits/Evidence (Yellow)  \n   2. Two-hole punch top margin; label folder spines with case name, matter number, and section.  \n   3. Chronological filing, newest on top. Create physical \u201cCHECK-OUT\u201d card for any removed item.\n\nB. Electronic Files  \n   1. Root Folder: \\\\Server\\Litigation\\[Client]_[Matter#]  \n   2. Subfolders (mirrors paper colors): 01_Pleadings, 02_Discovery, 03_Correspondence, 04_Exhibits.  \n   3. File-naming convention: YYYY-MM-DD_DocumentType_ShortDesc_AuthorInitials (e.g., 2024-03-22_Affidavit_JSmith_DR).  \n   4. Version Control: Append \u201c_v1\u201d, \u201c_v2\u201d until final; archive non-final versions in \u201cDrafts.\u201d  \n   5. OCR all incoming PDFs; apply Bates ranges where required.\n\nC. Security & Retention  \n   \u2022 Restrict write access to attorneys and assigned paralegals; enable audit trail logs.  \n   \u2022 Weekly off-site encrypted backups; monthly integrity tests.  \n   \u2022 Follow retention schedule: destroy working files 7 years after matter closure unless litigation hold issued.\n\nD. Checklists & Audits  \n   \u2022 Closing checklist signed by responsible attorney prior to archiving.  \n   \u2022 Quarterly random audit of 10% of active matters for compliance with naming, dating, and scanning protocols.\n\nV. Next Steps  \n1. Obtain attorney approval of attached templates.  \n2. Upload approved forms to firm\u2019s template library.  \n3. Schedule a 15-minute training for support staff on the new naming convention.\n\nPlease advise of any modifications or jurisdiction-specific nuances you wish incorporated.\n\nRespectfully submitted,\n\n[Paralegal\u2019s Name]  \nSenior Paralegal  \n[Law Firm]\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1750538165,
+    "model": "o3-2025-04-16",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1351,
+      "prompt_tokens": 126,
+      "total_tokens": 1477,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 320,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

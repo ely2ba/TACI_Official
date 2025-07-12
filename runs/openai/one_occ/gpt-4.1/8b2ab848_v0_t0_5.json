@@ -1,0 +1,49 @@
+{
+  "uid": "8b2ab848",
+  "variant": 0,
+  "temperature": 0.5,
+  "model": "gpt-4.1",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:57:09Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "e7285fca42a00eab8b1b8296f705bdcabf090c721be9acdbab2c0da1dcc2a128",
+  "response": {
+    "id": "chatcmpl-Bi20AUjhADiivZ3FmGhf2XHdQrdwA",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nAs a paralegal or legal assistant, your role in arbitrating disputes is generally limited, as only licensed attorneys or certified arbitrators can formally arbitrate legal disputes. However, you can assist attorneys or parties by gathering relevant documents, preparing summaries of the dispute, and organizing evidence to facilitate the arbitration process.\n\nIn the real estate closing process, you can assist by:\n- Reviewing title searches for any encumbrances, liens, or issues that may affect the property\u2019s title.\n- Preparing closing documents such as the settlement statement, deed, and affidavits.\n- Coordinating with title companies, lenders, and other parties to ensure all documents are in order.\n- Ensuring that all legal requirements are met before closing.\n- Assisting in the scheduling and coordination of the closing meeting.\n\nAlways ensure your tasks are supervised by a licensed attorney and comply with applicable state laws regarding the unauthorized practice of law.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749833826,
+    "model": "gpt-4.1-2025-04-14",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_51e1070cf2",
+    "usage": {
+      "completion_tokens": 189,
+      "prompt_tokens": 105,
+      "total_tokens": 294,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

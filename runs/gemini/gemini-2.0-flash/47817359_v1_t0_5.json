@@ -1,0 +1,45 @@
+{
+  "uid": "47817359",
+  "variant": 1,
+  "temperature": 0.5,
+  "model": "gemini-2.0-flash",
+  "modality": "GUI",
+  "timestamp": "2025-05-27T13:10:37.901296Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "Okay, I understand. I need to create a JSON array containing actions to operate accounting software. The actions should involve interacting with elements like account input fields, amount input fields, memo fields, and post/save buttons.\n\n<OUTPUT_JSON>[{\"action\": \"click\", \"selector\": \"input[name*=account i]\", \"text\": \"\"}, {\"action\": \"set_value\", \"selector\": \"input[name*=account i]\", \"text\": \"Checking Account\"}, {\"action\": \"click\", \"selector\": \"input[name*=amount i], input[type=number]\", \"text\": \"\"}, {\"action\": \"set_value\", \"selector\": \"input[name*=amount i], input[type=number]\", \"text\": \"100.00\"}, {\"action\": \"click\", \"selector\": \"textarea[name*=memo i]\", \"text\": \"\"}, {\"action\": \"set_value\", \"selector\": \"textarea[name*=memo i]\", \"text\": \"Deposit from customer\"}, {\"action\": \"click\", \"selector\": \"button:has-text(\\\"post\\\" i), button:has-text(\\\"save\\\" i)\", \"text\": \"\"}]</OUTPUT_JSON>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.06351040843948424
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 182,
+      "candidatesTokenCount": 251,
+      "totalTokenCount": 433,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 182
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 251
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:10:36.163289Z",
+    "responseId": "zLk1aNn7Cd7bgLUP8cv60A0"
+  }
+}

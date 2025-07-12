@@ -1,0 +1,46 @@
+{
+  "uid": "0c07452f",
+  "variant": 1,
+  "temperature": 0.5,
+  "model": "gemini-2.5-flash-preview-05-20",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T15:44:41.289088Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_TEXT>\nTO: Parents and Guardians of Maplewood Elementary School Students\nFROM: The Faculty and Administration, Maplewood Elementary School\nDATE: October 26, 2023\nSUBJECT: Important Reminder: Upholding School Policies for a Positive Learning Environment\n\nDear Parents and Guardians,\n\nAt Maplewood Elementary School, our unwavering commitment is to provide a safe, nurturing, and effective learning environment where every child can thrive academically, socially, and emotionally. To achieve this vital goal, a clear set of school policies and rules are fundamental. These guidelines are thoughtfully designed to ensure the safety of all students, foster mutual respect, minimize distractions, and promote a consistently positive school culture.\n\nAs we continue through this academic year, we wish to respectfully remind everyone of the importance of consistent adherence to our established school policies. Your active partnership in reinforcing these expectations at home is absolutely invaluable to your child's success and the overall well-being of our entire school community.\n\nWe kindly ask for your continued support in upholding the following key areas:\n\n1.  **Attendance and Punctuality:** Regular and punctual attendance is critical for consistent academic progress. Please ensure your child arrives on time each day, ready to engage in learning. If your child must be absent or tardy, please follow the school's established reporting procedures promptly.\n2.  **Student Conduct and Respect:** We expect all students to treat their peers, teachers, and school staff with kindness, empathy, and respect. This includes following classroom rules, keeping hands and feet to themselves, and refraining from any form of bullying or disruptive behavior. Care for school property is also paramount.\n3.  **Dress Code:** Students are expected to dress in a manner that is appropriate for a school setting and does not cause distraction or pose a safety hazard. We encourage you to refer to the student handbook for specific guidelines.\n4.  **Personal Belongings:** To minimize distractions and potential loss, students should refrain from bringing toys, valuable items, or non-educational electronic devices to school unless specifically requested by a teacher for a classroom activity. Cell phones, if brought, must remain turned off and stored away during school hours.\n5.  **Safety Procedures:** Adherence to our established arrival, dismissal, and visitor sign-in procedures is crucial for the safety and security of all students. Please ensure you are familiar with and consistently follow these protocols.\n\nOur school policies are consistently applied to ensure fairness and maintain an optimal learning environment for everyone. When policies are not followed, appropriate consequences will be implemented, focusing on teaching students responsibility and guiding them towards making positive choices.\n\nWe strongly encourage you to review the student handbook with your child, discussing these expectations and the importance of being a responsible and respectful member of our school community.\n\nThank you for your ongoing cooperation and commitment to making Maplewood Elementary School a truly wonderful place for our children to learn and grow. Together, we can ensure a successful and productive school year for all.\n\nSincerely,\n\nThe Faculty and Administration\nMaplewood Elementary School\n</OUTPUT_TEXT>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.7455351667298042
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 107,
+      "candidatesTokenCount": 629,
+      "totalTokenCount": 2378,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 107
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 629
+        }
+      ],
+      "thoughtsTokenCount": 1642
+    },
+    "modelVersion": "gemini-2.5-flash-preview-05-20",
+    "createTime": "2025-05-27T15:44:26.438336Z",
+    "responseId": "2t01aMDgGu6U2PgPqduJmAs"
+  }
+}

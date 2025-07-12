@@ -1,0 +1,15 @@
+{
+  "uid": "7e365caf",
+  "variant": 0,
+  "modality": "TEXT",
+  "temperature": 0.5,
+  "model": "claude-3-5-sonnet-20240620",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T18:08:51.635121Z",
+  "commit_sha": "98b2eb0f130d4d32e78707f77c440a8f68e4103c",
+  "prompt_sha256": "707bc2f7bb401ddd7c858b68576da117b3f5152b9fab6b3d4bc009a55bfc0da6",
+  "response": {
+    "raw": "<OUTPUT_TEXT>\nTo support the development of training materials and technical manuals:\n\n1. Gather relevant information and specifications\n2. Organize content logically and sequentially\n3. Use clear, concise language and terminology\n4. Incorporate visuals, diagrams, and examples\n5. Create step-by-step instructions where applicable\n6. Include troubleshooting guides and FAQs\n7. Ensure consistency in formatting and style\n8. Review and update materials regularly\n9. Seek feedback from end-users and subject matter experts\n10. Adapt content for different learning styles and formats\n</OUTPUT_TEXT>",
+    "extracted": "<OUTPUT_TEXT>\nTo support the development of training materials and technical manuals:\n\n1. Gather relevant information and specifications\n2. Organize content logically and sequentially\n3. Use clear, concise language and terminology\n4. Incorporate visuals, diagrams, and examples\n5. Create step-by-step instructions where applicable\n6. Include troubleshooting guides and FAQs\n7. Ensure consistency in formatting and style\n8. Review and update materials regularly\n9. Seek feedback from end-users and subject matter experts\n10. Adapt content for different learning styles and formats\n</OUTPUT_TEXT>"
+  }
+}

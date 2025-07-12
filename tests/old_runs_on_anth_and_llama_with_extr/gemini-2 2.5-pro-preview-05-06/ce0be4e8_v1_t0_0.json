@@ -1,0 +1,51 @@
+{
+  "uid": "ce0be4e8",
+  "variant": 1,
+  "temperature": 0.0,
+  "model": "gemini-2.5-pro-preview-05-06",
+  "modality": "VISION",
+  "timestamp": "2025-05-27T13:22:37.127518Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "thought": true
+            }
+          ]
+        },
+        "finishReason": "MAX_TOKENS",
+        "citationMetadata": {
+          "citations": [
+            {
+              "startIndex": 942,
+              "endIndex": 1165,
+              "uri": "http://jiji.ng/jobs/x_ray-technician"
+            }
+          ]
+        }
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 749,
+      "totalTokenCount": 4845,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 516
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 233
+        }
+      ],
+      "thoughtsTokenCount": 4096
+    },
+    "modelVersion": "gemini-2.5-pro-preview-05-06",
+    "createTime": "2025-05-27T13:21:57.498656Z",
+    "responseId": "dbw1aOC3Hvq0nvgPkbjHyAk"
+  }
+}

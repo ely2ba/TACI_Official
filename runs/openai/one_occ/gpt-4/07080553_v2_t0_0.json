@@ -1,0 +1,49 @@
+{
+  "uid": "07080553",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:36:07Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "40b67c629e9856ec273e3f4dfceabf50dd497228e11b942a701560af1d835696",
+  "response": {
+    "id": "chatcmpl-Bi1fhlcBseJU2ezKfDBRTTRwQ7707",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Legal Document Preparation and Organization\n\n1. **Affidavit Preparation**\n   - Identify the purpose of the affidavit and gather all necessary information.\n   - Draft the affidavit, ensuring all statements are factual and can be proven.\n   - Review the draft for any errors or omissions.\n   - Prepare the affidavit for signing, either by the deponent or a notary public.\n\n2. **Legal Correspondence**\n   - Determine the purpose and recipient of the correspondence.\n   - Draft the correspondence, ensuring all information is accurate and relevant.\n   - Review the draft for any errors or omissions.\n   - Prepare the correspondence for sending, either by mail, email, or fax.\n\n3. **Document Organization**\n   - Sort documents by type, date, or relevance to the case.\n   - File documents in the appropriate folders or binders.\n   - Label all folders or binders clearly and accurately.\n   - Maintain an updated index of all documents.\n\n4. **Electronic Filing System**\n   - Scan paper documents into the electronic filing system.\n   - Organize electronic documents in the appropriate folders or directories.\n   - Label all electronic folders or directories clearly and accurately.\n   - Maintain an updated index of all electronic documents.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749832557,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 255,
+      "prompt_tokens": 130,
+      "total_tokens": 385,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

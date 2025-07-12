@@ -1,0 +1,34 @@
+{
+  "uid": "9cebf902",
+  "variant": 1,
+  "modality": "TEXT",
+  "temperature": 0.5,
+  "model": "claude-3-opus-20240229",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T19:44:25.136351Z",
+  "commit_sha": "170b9e3e1d0d59846b1daa69da57be5d1db6306c",
+  "prompt_sha256": "8a785dae0c42bd76581cb68287a32a36fb000a5a6d9cc024152a9c25b13df99a",
+  "response": {
+    "id": "msg_015vdtVst77Lt5tZxHLs3FcF",
+    "content": [
+      {
+        "citations": null,
+        "text": "Here is the memo with the requested research and analysis:\n\n<OUTPUT_TEXT>\nTo: Senior Partner\nFrom: Paralegal\nDate: May 10, 2023\nRe: Research on Relevant Statutes and Legal Precedents\n\nAs requested, I have gathered and analyzed the following research data relevant to our client's case:\n\nStatutes:\n- 28 U.S. Code § 1332 - Diversity of citizenship; amount in controversy; costs\n- 28 U.S. Code § 1391 - Venue generally \n- State statute [citation] on breach of contract claims\n- State statute [citation] on calculation of damages\n\nKey Legal Decisions:\n- ABC Co. v. XYZ Inc., 123 F.3d 456 (7th Cir. 2022) - Ruling on diversity jurisdiction amount in controversy requirement \n- Jones v. Smith, 789 N.E.2d 123 (Ill. 2021) - State supreme court decision on elements required to prove breach of contract\n- Johnson v. Miller, 456 N.E.2d 789 (Ill. App. Ct. 2020) - Appellate court decision on calculation of lost profit damages\n\nBased on my review of these authorities, the key points are:\n1) For diversity jurisdiction, the amount in controversy must exceed $75,000 \n2) To prove breach of contract in this state, the plaintiff must show (1) a valid contract, (2) performance by the plaintiff, (3) breach by the defendant, and (4) resulting damages\n3) Lost profits may be recovered if the plaintiff proves such damages to a reasonable certainty, but speculative profits are not recoverable\n\nLet me know if you need any additional research or have questions about my analysis. I'll begin drafting the relevant portions of our motion based on these authorities.\n</OUTPUT_TEXT>",
+        "type": "text"
+      }
+    ],
+    "model": "claude-3-opus-20240229",
+    "role": "assistant",
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "input_tokens": 131,
+      "output_tokens": 428,
+      "server_tool_use": null,
+      "service_tier": "standard"
+    }
+  }
+}

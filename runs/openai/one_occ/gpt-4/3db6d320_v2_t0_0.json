@@ -1,0 +1,49 @@
+{
+  "uid": "3db6d320",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:34:55Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "d18016c8317a6affa68d1e41ad66b11c8e90fbb032be3265670ac00645baf6d7",
+  "response": {
+    "id": "chatcmpl-Bi1eL7w6mAstYwkPCCZ9esjJsskoe",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<H1> Case Preparation and Investigation Procedure </H1>\n\n<ol>\n<li> <b>Case Overview:</b> Begin by thoroughly understanding the case. This includes reviewing all relevant documents, understanding the client's objectives, and identifying the key legal issues involved. </li>\n\n<li> <b>Fact Investigation:</b> Conduct a comprehensive fact investigation. This involves interviewing the client and other relevant parties, gathering and reviewing documents, and visiting the scene of the incident if applicable. </li>\n\n<li> <b>Legal Research:</b> Conduct legal research to identify the laws and precedents that apply to the case. This involves searching legal databases, reviewing case law, statutes, regulations, and legal journals. </li>\n\n<li> <b>Public Records and Internet Sources:</b> Search public records and internet sources for additional information. This could include court records, property records, business filings, social media profiles, news articles, and other online content that may be relevant to the case. </li>\n\n<li> <b>Determining Causes of Action:</b> Based on the facts gathered and the applicable law, determine the possible causes of action. This involves identifying the legal theories that the client can use to pursue their case. </li>\n\n<li> <b>Case Preparation:</b> Prepare the case for litigation or negotiation. This includes drafting pleadings, motions, and briefs, preparing exhibits, and developing a case strategy. </li>\n</ol>\n\n<OUTPUT_TEXT>Case Preparation and Investigation Procedure\n\n1. Case Overview: Begin by thoroughly understanding the case. This includes reviewing all relevant documents, understanding the client's objectives, and identifying the key legal issues involved.\n\n2. Fact Investigation: Conduct a comprehensive fact investigation. This involves interviewing the client and other relevant parties, gathering and reviewing documents, and visiting the scene of the incident if applicable.\n\n3. Legal Research: Conduct legal research to identify the laws and precedents that apply to the case. This involves searching legal databases, reviewing case law, statutes, regulations, and legal journals.\n\n4. Public Records and Internet Sources: Search public records and internet sources for additional information. This could include court records, property records, business filings, social media profiles, news articles, and other online content that may be relevant to the case.\n\n5. Determining Causes of Action: Based on the facts gathered and the applicable law, determine the possible causes of action. This involves identifying the legal theories that the client can use to pursue their case.\n\n6. Case Preparation: Prepare the case for litigation or negotiation. This includes drafting pleadings, motions, and briefs, preparing exhibits, and developing a case strategy.</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749832473,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 543,
+      "prompt_tokens": 135,
+      "total_tokens": 678,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

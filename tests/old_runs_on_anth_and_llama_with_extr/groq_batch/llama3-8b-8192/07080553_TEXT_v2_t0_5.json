@@ -1,0 +1,43 @@
+{
+  "uid": "07080553",
+  "variant": 2,
+  "modality": "TEXT",
+  "temperature": 0.5,
+  "model": "llama3-8b-8192",
+  "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+  "timestamp": "2025-05-28T14:56:24.820413Z",
+  "prompt_sha256": "828a640016258050a3cfb8fd14c06dd87d9118a39789f121dc3a89bcebd38100",
+  "response": {
+    "id": "chatcmpl-4550f099-7443-4627-8153-6cf1c03ee17b",
+    "object": "chat.completion",
+    "created": 1748444184,
+    "model": "llama3-8b-8192",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "<OUTPUT_TEXT>\n<h1>Preparing Affidavits and Organizing Documents</h1>\n\n<h2>1. Preparing Affidavits</h2>\nAs a paralegal, I ensure that all affidavits are accurately drafted and completed in a timely manner. This involves reviewing and verifying the information provided by clients, witnesses, and other parties involved in the case. I also ensure that all necessary documentation, such as exhibit lists and witness lists, are included and properly formatted.\n\n<h2>2. Organizing and Maintaining Documents</h2>\nI organize and maintain documents in both paper and electronic filing systems, ensuring that all relevant documents are easily accessible and easily searchable. This includes creating and maintaining indexes, categorizing documents by type and date, and ensuring that all documents are properly labeled and stored.\n\n<h2>3. Legal Correspondence</h2>\nI prepare legal correspondence, including letters, emails, and other written communications, on behalf of attorneys and clients. This includes drafting and editing correspondence, reviewing and verifying information, and ensuring that all correspondence is properly signed and dated.\n\n<h2>4. Electronic Filing System</h2>\nI maintain an electronic filing system, ensuring that all documents are properly scanned, indexed, and stored. This includes creating and maintaining electronic folders, categorizing documents by type and date, and ensuring that all documents are easily searchable and accessible.\n\n<h2>5. Paper Filing System</h2>\nI maintain a paper filing system, ensuring that all documents are properly filed and stored. This includes creating and maintaining paper folders, categorizing documents by type and date, and ensuring that all documents are easily accessible and easily searchable.\n\n<h2>6. Document Control</h2>\nI ensure that all documents are properly controlled, including tracking changes, updates, and revisions. This includes maintaining a document control log, tracking document versions, and ensuring that all changes are properly documented and approved.\n</OUTPUT_TEXT>"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "queue_time": 0.163446315,
+      "prompt_tokens": 134,
+      "prompt_time": 0.017018072,
+      "completion_tokens": 399,
+      "completion_time": 0.3325,
+      "total_tokens": 533,
+      "total_time": 0.349518072
+    },
+    "usage_breakdown": {
+      "models": null
+    },
+    "system_fingerprint": "fp_dadc9d6142",
+    "x_groq": {
+      "id": "req_01jwbp9zqbeg7rdjfqawbvse0h"
+    }
+  }
+}

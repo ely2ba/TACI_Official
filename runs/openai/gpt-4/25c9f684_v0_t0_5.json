@@ -1,0 +1,49 @@
+{
+  "uid": "25c9f684",
+  "variant": 0,
+  "temperature": 0.5,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:17:13Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "21442e18f153ec223f5c53b10d750293682ecc3847de0d0e205768be5d4d7f1c",
+  "response": {
+    "id": "chatcmpl-BaUzKCLkzadeStclGFGFvkel3q3WJ",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<INTERNAL_TEXT>\nThis task requires me to reach out to the customers for two main reasons: to answer their inquiries or to update them about the results of their claim investigations. The communication could also involve informing them about any adjustments that are planned. It's important to approach this task with a clear, professional, and empathetic communication style. \n</INTERNAL_TEXT>\n\n<OUTPUT_TEXT>\nDear Customer,\n\nI hope this message finds you well. I am reaching out in response to your recent inquiry. After a thorough investigation, we have concluded the assessment of your claim.\n\nAlternatively, I would like to inform you about some adjustments that we are planning to implement. We believe these changes will improve our services and your experience with us.\n\nPlease feel free to reach out if you have any questions or need further clarification.\n\nBest Regards,\n[Your Name]\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748038626,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 172,
+      "prompt_tokens": 67,
+      "total_tokens": 239,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

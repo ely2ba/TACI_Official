@@ -1,0 +1,49 @@
+{
+  "uid": "936aa3e5",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:07:02Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "e27b33f68330ba9f081ac5cbf0fae70c8cccec958ae0b30242cd1986fe4a4b1c",
+  "response": {
+    "id": "chatcmpl-BaUpSvfOQxyKpNpDxHiRWtDH9LyBq",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<H1>Financial Calculations</H1>\n\n<OUTPUT_TEXT>\n\n1. Amounts Due: The total amount due is calculated by adding up all the outstanding invoices. \n\n2. Interest Charges: To calculate the interest charges, multiply the outstanding balance by the interest rate, then divide by the number of periods in a year.\n\n3. Balances: The balance is calculated by adding all the debits and subtracting all the credits from the initial balance.\n\n4. Discounts: The discount amount is calculated by multiplying the original price by the discount rate. \n\n5. Equity: Equity is calculated by subtracting the total liabilities from the total assets. \n\n6. Principal: The principal amount is the original sum of money borrowed or invested, excluding any interest or charges. \n\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748038014,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 159,
+      "prompt_tokens": 95,
+      "total_tokens": 254,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

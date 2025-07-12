@@ -1,0 +1,49 @@
+{
+  "uid": "d0cae549",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-4o",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:52:09Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "0e8cd22ff001ca6ad7a8b4f58709f39e29490bd143dd1123aee28c51547a181e",
+  "response": {
+    "id": "chatcmpl-Bi1vIHxE5u0xfEWFfCF23331AbWA5",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Witness Testimony Plan\n\n1. **Identify Witnesses**\n   - List all potential witnesses relevant to the case.\n   - Confirm their availability for the hearing date.\n\n2. **Prepare Subpoenas**\n   - Draft subpoenas for each witness.\n   - Ensure subpoenas include the date, time, and location of the hearing.\n\n3. **Coordinate with Legal Team**\n   - Discuss the relevance and importance of each witness with the legal team.\n   - Finalize the list of witnesses to be called.\n\n4. **Notify Witnesses**\n   - Contact each witness to inform them of their role in the hearing.\n   - Provide details on what they should expect and any necessary preparations.\n\n5. **Arrange Logistics**\n   - Coordinate travel and accommodation if necessary for witnesses.\n   - Ensure witnesses know how to access the hearing location.\n\n6. **Prepare Witnesses**\n   - Schedule meetings to review testimony and answer any questions.\n   - Provide guidance on courtroom procedures and etiquette.\n\n7. **Confirm Attendance**\n   - Follow up with each witness to confirm their attendance.\n   - Address any last-minute concerns or issues.\n\n8. **Review and Finalize**\n   - Conduct a final review with the legal team to ensure all preparations are complete.\n   - Update the court if there are any changes to the witness list.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749833524,
+    "model": "gpt-4o-2024-08-06",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_07871e2ad8",
+    "usage": {
+      "completion_tokens": 273,
+      "prompt_tokens": 113,
+      "total_tokens": 386,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

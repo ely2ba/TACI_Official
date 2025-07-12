@@ -1,0 +1,43 @@
+{
+  "uid": "85a846ff",
+  "variant": 2,
+  "modality": "GUI",
+  "temperature": 0.0,
+  "model": "llama3-8b-8192",
+  "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+  "timestamp": "2025-05-28T14:53:32.379095Z",
+  "prompt_sha256": "eb9b702b8aa7a04024c8f40fa6b22a16ac59f7fd2007ca130980197dd5afe59d",
+  "response": {
+    "id": "chatcmpl-2e09f0b8-abd3-49f4-b894-6382884f7573",
+    "object": "chat.completion",
+    "created": 1748444012,
+    "model": "llama3-8b-8192",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "<OUTPUT_JSON>\n[\n  {\n    \"selector\": \"input[name*=account i]\",\n    \"action\": \"type\",\n    \"value\": \"John Doe\"\n  },\n  {\n    \"selector\": \"input[name*=amount i]\",\n    \"action\": \"type\",\n    \"value\": \"100.00\"\n  },\n  {\n    \"selector\": \"textarea[name*=memo i]\",\n    \"action\": \"type\",\n    \"value\": \"Payment for medical services\"\n  },\n  {\n    \"selector\": \"button:has-text(\\\"post\\\" i)\",\n    \"action\": \"click\"\n  }\n]\n</OUTPUT_JSON>"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "queue_time": 0.541494082,
+      "prompt_tokens": 170,
+      "prompt_time": 0.063883888,
+      "completion_tokens": 127,
+      "completion_time": 0.105833333,
+      "total_tokens": 297,
+      "total_time": 0.169717221
+    },
+    "usage_breakdown": {
+      "models": null
+    },
+    "system_fingerprint": "fp_179b0f92c9",
+    "x_groq": {
+      "id": "req_01jwbp4q8af5yrfae43ffp4ycb"
+    }
+  }
+}

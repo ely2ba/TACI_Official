@@ -1,0 +1,49 @@
+{
+  "uid": "d21fc252",
+  "variant": 0,
+  "temperature": 0.0,
+  "model": "gemini-2.0-flash",
+  "modality": "VISION",
+  "timestamp": "2025-05-27T13:09:12.761551Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "The images are identical.\n<OUTPUT_JSON>{\"finding\":\"no_anomaly\",\"image_id\":\"null\",\"bbox\":[],\"explanation\":\"No difference detected between the two images.\"}</OUTPUT_JSON>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.14572288823682208
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 714,
+      "candidatesTokenCount": 43,
+      "totalTokenCount": 757,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 516
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 198
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 43
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:09:11.505118Z",
+    "responseId": "d7k1aJ7qHtTGgLUPtNvO0AE"
+  }
+}

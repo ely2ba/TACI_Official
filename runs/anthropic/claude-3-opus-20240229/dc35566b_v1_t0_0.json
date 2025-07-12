@@ -1,0 +1,34 @@
+{
+  "uid": "dc35566b",
+  "variant": 1,
+  "modality": "TEXT",
+  "temperature": 0.0,
+  "model": "claude-3-opus-20240229",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T19:49:13.708957Z",
+  "commit_sha": "170b9e3e1d0d59846b1daa69da57be5d1db6306c",
+  "prompt_sha256": "765f66845fe94cc26e415321bd6986741705cf0896b53b9a639c6f287a20df02",
+  "response": {
+    "id": "msg_01UWeHLGEc2Vecoa97Uu5fv5",
+    "content": [
+      {
+        "citations": null,
+        "text": "Here is my attempt at a memo for preparing trial exhibits:\n<OUTPUT_TEXT>\nTo: Trial Team\nFrom: [Assistant's Name], Senior Paralegal\nRe: Preparing Exhibits for Upcoming Trial\n\nIn preparation for the upcoming trial in [case name], I have begun organizing the exhibits we plan to introduce as evidence. Here are the key tasks I am working on:\n\n1. Identifying and gathering all relevant documents, photographs, recordings, and physical evidence that may be used as exhibits\n2. Creating an exhibit list that numbers and describes each exhibit \n3. Labeling each physical exhibit with an exhibit sticker showing the assigned exhibit number\n4. Scanning paper exhibits to create digital copies and applying exhibit stamps to the digital files\n5. Organizing digital copies of all exhibits into folders by exhibit number for easy retrieval\n6. Preparing multiple copies of key exhibits to distribute to the judge, opposing counsel, witnesses, and jury as needed\n7. Coordinating with witnesses to prepare any demonstrative exhibits they may use during their testimony\n\nI will continue working on exhibit preparation and keep the trial team updated on progress. Please let me know if there are any additional exhibits to include or if you need any specific exhibits on an expedited basis.\n</OUTPUT_TEXT>",
+        "type": "text"
+      }
+    ],
+    "model": "claude-3-opus-20240229",
+    "role": "assistant",
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "input_tokens": 120,
+      "output_tokens": 272,
+      "server_tool_use": null,
+      "service_tier": "standard"
+    }
+  }
+}

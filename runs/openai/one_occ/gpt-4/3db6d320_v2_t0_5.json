@@ -1,0 +1,49 @@
+{
+  "uid": "3db6d320",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:35:15Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "d18016c8317a6affa68d1e41ad66b11c8e90fbb032be3265670ac00645baf6d7",
+  "response": {
+    "id": "chatcmpl-Bi1ehhqrYMGAKMhoLHK0W5Ql9oOre",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<H1> Investigation and Preparation of Cases </H1>\n\n1. <b>Fact Investigation</b>: \nThe first step is to gather all relevant facts about the case. This includes interviewing the client and other potential witnesses, collecting documents and other physical evidence, and visiting the scene of the incident if necessary.\n\n2. <b>Legal Research</b>: \nOnce the facts are gathered, the next step is to research the law that applies to the case. This involves reviewing statutes, case law, and legal treatises to understand the legal principles and precedents that will guide the judge or jury in deciding the case.\n\n3. <b>Public Records Search</b>: \nPublic records can provide valuable information about the parties involved in the case, the property at issue, or other relevant details. This can include court records, property records, business filings, and criminal records.\n\n4. <b>Internet Research</b>: \nThe internet can be a valuable source of information for case preparation. This can include social media profiles, online news articles, and other digital content that may provide insights into the facts of the case or the credibility of witnesses.\n\n5. <b>Determining Causes of Action</b>: \nBased on the facts and the law, the paralegal will identify the potential legal claims that the client can pursue. This requires a thorough understanding of the law and the ability to apply it to the specific facts of the case.\n\n6. <b>Case Preparation</b>: \nFinally, the paralegal will assist in preparing the case for trial or settlement negotiations. This can include drafting pleadings and motions, organizing evidence, and preparing witness examination outlines.\n\n<OUTPUT_TEXT>Investigation and preparation of cases involve fact investigation, legal research, public records search, internet research, determining causes of action, and case preparation. These steps involve gathering all relevant facts, researching the applicable law, searching public records and internet sources for additional information, identifying potential legal claims based on the facts and the law, and preparing the case for trial or settlement negotiations.</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749832495,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 421,
+      "prompt_tokens": 135,
+      "total_tokens": 556,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

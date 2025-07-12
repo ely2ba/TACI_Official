@@ -1,0 +1,49 @@
+{
+  "uid": "dc35566b",
+  "variant": 1,
+  "temperature": 0.0,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:09:19Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "a0b6c4ca66353d066b84bb1909703160d2d542ff6a0179c6d3f504217c3ee1fc",
+  "response": {
+    "id": "chatcmpl-BaUrWQwU2Yw1RqMlx2kFZZoGOxYk3",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n\nSubject: Preparation for Upcoming Trial - Organizing Exhibits\n\nDear [Client's Name],\n\nI hope this message finds you well. As we approach the date of your upcoming trial, I am writing to inform you about the steps we are taking to ensure we are fully prepared. One of the key tasks we are currently undertaking is the organization of exhibits.\n\nExhibits are crucial pieces of evidence that we will present during the trial to support your case. They can include a variety of materials such as documents, photographs, physical objects, or digital files. Our goal is to present these exhibits in a clear, logical, and persuasive manner.\n\nHere is a brief overview of the steps we are taking:\n\n1. Identification: We are carefully reviewing all potential exhibits to determine their relevance and admissibility. This includes a thorough examination of all documents, photographs, and other materials related to your case.\n\n2. Organization: We are categorizing the exhibits based on their type and relevance to different aspects of the case. This will help us quickly locate and present the right evidence at the right time during the trial.\n\n3. Labeling: Each exhibit is being labeled with a unique identifier. This will allow us to easily reference them during the trial and ensure there is no confusion about which exhibit is being discussed.\n\n4. Preparation of Exhibit List: We are preparing a comprehensive list of all exhibits, including a brief description and the unique identifier for each one. This list will be shared with the court and opposing counsel as required.\n\n5. Packaging: We are ensuring that all exhibits are properly packaged and protected to prevent any damage or loss. This is particularly important for physical objects or delicate documents.\n\n6. Review: Finally, we will review all exhibits with you before the trial. This will give you a clear understanding of the evidence we will present and how it supports your case.\n\nPlease rest assured that we are doing everything we can to prepare for your trial. If you have any questions or if there are any specific exhibits you would like us to focus on, please do not hesitate to let us know.\n\nBest regards,\n\n[Your Name]\n[Your Title]\n[Your Contact Information]\n\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748038142,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 442,
+      "prompt_tokens": 81,
+      "total_tokens": 523,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

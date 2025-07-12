@@ -1,0 +1,46 @@
+{
+  "uid": "47817359",
+  "variant": 0,
+  "temperature": 0.0,
+  "model": "gemini-2.5-flash-preview-05-20",
+  "modality": "GUI",
+  "timestamp": "2025-05-27T15:29:09.741249Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_JSON>\n[\n  {\n    \"action\": \"type\",\n    \"selector\": \"input[name*=account i]\",\n    \"text\": \"Office Supplies Expense\"\n  },\n  {\n    \"action\": \"type\",\n    \"selector\": \"input[name*=amount i], input[type=number]\",\n    \"text\": \"500.00\"\n  },\n  {\n    \"action\": \"type\",\n    \"selector\": \"textarea[name*=memo i]\",\n    \"text\": \"Purchase of office supplies for the month.\"\n  },\n  {\n    \"action\": \"click\",\n    \"selector\": \"button:has-text(\\\"post\\\" i), button:has-text(\\\"save\\\" i)\",\n    \"text\": \"\"\n  }\n]\n</OUTPUT_JSON>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.9789258802259291
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 182,
+      "candidatesTokenCount": 185,
+      "totalTokenCount": 1514,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 182
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 185
+        }
+      ],
+      "thoughtsTokenCount": 1147
+    },
+    "modelVersion": "gemini-2.5-flash-preview-05-20",
+    "createTime": "2025-05-27T15:29:02.168918Z",
+    "responseId": "Pto1aNanCvq0nvgPkbjHyAk"
+  }
+}

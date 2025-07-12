@@ -1,0 +1,44 @@
+{
+  "uid": "9652a31e",
+  "variant": 1,
+  "modality": "TEXT",
+  "temperature": 0.5,
+  "model": "llama3-8b-8192",
+  "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+  "timestamp": "2025-05-28T19:16:44.916120Z",
+  "prompt_sha256": "3e3e36d384a9ed42bb66a4196569487f29516dad7cb5dce6aab758539ec6eabd",
+  "commit_sha": "170b9e3e1d0d59846b1daa69da57be5d1db6306c",
+  "response": {
+    "id": "chatcmpl-b991b83c-86ef-4af1-a395-7e474e4ee03f",
+    "object": "chat.completion",
+    "created": 1748459804,
+    "model": "llama3-8b-8192",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "<OUTPUT_TEXT>Dear [Client],\n\nPlease be advised that we have received your shipment and have identified the following issues: [list damages, shortages, or nonconformities]. We are working closely with our warehouse team to rectify these problems as soon as possible.\n\nWe have contacted the carrier to report the damages and are awaiting their response regarding compensation. In the meantime, we are holding the shipment in our warehouse until the issues are resolved.\n\nWe apologize for any inconvenience this may have caused and appreciate your patience and understanding. We will keep you updated on the status of the shipment and will notify you once it is ready for delivery or pickup.\n\nIf you have any questions or concerns, please do not hesitate to contact us.\n\nSincerely,\n[Your Name]\nShipping Receiving And Inventory Clerk</OUTPUT_TEXT>"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "queue_time": 0.176224324,
+      "prompt_tokens": 131,
+      "prompt_time": 0.025062049,
+      "completion_tokens": 163,
+      "completion_time": 0.135833333,
+      "total_tokens": 294,
+      "total_time": 0.160895382
+    },
+    "usage_breakdown": {
+      "models": null
+    },
+    "system_fingerprint": "fp_179b0f92c9",
+    "x_groq": {
+      "id": "req_01jwc56nvrf9j98ecbn0tf0ynt"
+    }
+  }
+}

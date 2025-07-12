@@ -1,0 +1,45 @@
+{
+  "uid": "07080553",
+  "variant": 1,
+  "temperature": 0.0,
+  "model": "gemini-2.0-flash",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T13:14:46.925093Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_TEXT>Okay, I'm ready to draft affidavits, legal correspondence, and organize documents. To best assist, I need some information. Please provide the following:\n\n1.  **Regarding Affidavits:**\n    *   **Case Name and Number:** (e.g., *Smith v. Jones*, 2023-CV-0001)\n    *   **Affiant's Full Name and Contact Information:** (The person making the sworn statement)\n    *   **Specific Facts to be Included:** (A detailed account of the events, observations, or information the affiant possesses. The more detail, the better.)\n    *   **Purpose of the Affidavit:** (Why is this affidavit being created? What legal issue does it support?)\n    *   **Jurisdiction:** (Which court or legal body will this affidavit be submitted to?)\n    *   **Any Specific Formatting Requirements:** (e.g., font, margins, line spacing, signature block requirements)\n    *   **Draft or Template (if available):** If you have a starting point, please provide it.\n\n2.  **Regarding Legal Correspondence:**\n    *   **Case Name and Number:** (If applicable)\n    *   **Recipient's Full Name, Title, and Contact Information:**\n    *   **Subject Matter of the Letter:** (e.g., Demand for Payment, Notice of Intent to Sue, Request for Information)\n    *   **Key Points to Include:** (A summary of the information to be conveyed in the letter)\n    *   **Desired Outcome or Action:** (What do you want the recipient to do as a result of the letter?)\n    *   **Tone of the Letter:** (e.g., Formal, Informal, Aggressive, Conciliatory)\n    *   **Draft or Template (if available):**\n    *   **Your Name and Title:** (For the closing of the letter)\n\n3.  **Regarding Document Organization and Maintenance:**\n    *   **Type of Filing System:** (Paper or Electronic)\n    *   **Existing Filing Structure:** (How are documents currently organized? e.g., by date, by document type, by client)\n    *   **Specific Documents to be Organized:** (List of documents or types of documents)\n    *   **Naming Conventions:** (How should electronic files be named?)\n    *   **Access Permissions:** (Who should have access to these documents?)\n    *   **Retention Policy:** (How long should these documents be kept?)\n    *   **Software Used:** (If electronic, what software is used for document management? e.g., Clio, NetDocuments, Dropbox, shared drive)\n\nOnce I have this information, I can begin drafting and organizing the documents. I will ensure that all documents are accurate, properly formatted, and comply with relevant legal requirements.\n</OUTPUT_TEXT>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.1252124598768891
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 119,
+      "candidatesTokenCount": 610,
+      "totalTokenCount": 729,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 119
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 610
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:14:42.535423Z",
+    "responseId": "wro1aP_WIKqvgLUP1Lz-8As"
+  }
+}

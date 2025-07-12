@@ -1,0 +1,15 @@
+{
+  "uid": "ab599408",
+  "variant": 2,
+  "modality": "GUI",
+  "temperature": 0.5,
+  "model": "claude-3-opus-20240229",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T17:40:53.485907Z",
+  "commit_sha": "98b2eb0f130d4d32e78707f77c440a8f68e4103c",
+  "prompt_sha256": "c50cc600b463e33a21c34715f3c10e424b6f5e6d54c742e956d590fb94cdb72c",
+  "response": {
+    "raw": "Here is my attempt at the requested task:\n<OUTPUT_JSON>\n[\n  {\n    \"selector\": \"input[placeholder*=search i]\",\n    \"action\": \"type\",\n    \"value\": \"office supplies\"\n  },\n  {\n    \"selector\": \"button:has-text(\\\"add item\\\" i)\",\n    \"action\": \"click\"\n  },\n  {\n    \"selector\": \"input[name*=quantity i]\",\n    \"action\": \"type\",\n    \"value\": \"10\"\n  },\n  {\n    \"selector\": \"button:has-text(\\\"order\\\" i), button:has-text(\\\"submit\\\" i)\",\n    \"action\": \"click\"\n  }\n]\n</OUTPUT_JSON>",
+    "extracted": "<OUTPUT_JSON>\n[\n  {\n    \"selector\": \"input[placeholder*=search i]\",\n    \"action\": \"type\",\n    \"value\": \"office supplies\"\n  },\n  {\n    \"selector\": \"button:has-text(\\\"add item\\\" i)\",\n    \"action\": \"click\"\n  },\n  {\n    \"selector\": \"input[name*=quantity i]\",\n    \"action\": \"type\",\n    \"value\": \"10\"\n  },\n  {\n    \"selector\": \"button:has-text(\\\"order\\\" i), button:has-text(\\\"submit\\\" i)\",\n    \"action\": \"click\"\n  }\n]\n</OUTPUT_JSON>"
+  }
+}

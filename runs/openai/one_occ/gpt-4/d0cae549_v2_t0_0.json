@@ -1,0 +1,49 @@
+{
+  "uid": "d0cae549",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:39:43Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "0e8cd22ff001ca6ad7a8b4f58709f39e29490bd143dd1123aee28c51547a181e",
+  "response": {
+    "id": "chatcmpl-Bi1j9u02vdGWVbvHSrcSzq3bxp7fS",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# H1: Calling Upon Witnesses to Testify at Hearing\n\n1. Identify Potential Witnesses\n   - Determine who has relevant information about the case. This could include the plaintiff, defendant, or any third parties who have knowledge about the incident.\n\n2. Contact Witnesses\n   - Reach out to potential witnesses to discuss their availability and willingness to testify. This can be done through phone calls, emails, or in-person meetings.\n\n3. Prepare Subpoenas\n   - If a witness is unwilling to testify voluntarily, a subpoena may be necessary. This is a legal document that requires the witness to appear in court.\n\n4. Serve Subpoenas\n   - The subpoena must be served to the witness, typically by a process server. This ensures that the witness is legally obligated to appear in court.\n\n5. Confirm Attendance\n   - Follow up with witnesses to confirm their attendance at the hearing. This can help avoid any last-minute issues or misunderstandings.\n\n6. Prepare Witnesses\n   - Meet with witnesses before the hearing to go over their testimony. This can help them feel more comfortable and prepared when they are called to testify.\n\n7. Call Witnesses to Testify\n   - During the hearing, call upon each witness to testify in the order determined by the legal team. This will typically start with the plaintiff's witnesses, followed by the defendant's witnesses.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749832771,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 280,
+      "prompt_tokens": 113,
+      "total_tokens": 393,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

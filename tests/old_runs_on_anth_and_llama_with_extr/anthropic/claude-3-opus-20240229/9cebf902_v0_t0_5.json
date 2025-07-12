@@ -1,0 +1,15 @@
+{
+  "uid": "9cebf902",
+  "variant": 0,
+  "modality": "TEXT",
+  "temperature": 0.5,
+  "model": "claude-3-opus-20240229",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T17:50:28.897208Z",
+  "commit_sha": "98b2eb0f130d4d32e78707f77c440a8f68e4103c",
+  "prompt_sha256": "ad3b2009798c497d8e0645d027e20b7e84b6fd3417524fc220faca49b0cdd031",
+  "response": {
+    "raw": "Here is my attempt at the task, wrapped in the specified output tags:\n\n<OUTPUT_TEXT>\nTo gather and analyze legal research data:\n\n1. Identify relevant statutes, court decisions, legal articles, codes and other documents pertaining to the legal matter being researched. Use legal databases like Westlaw, LexisNexis, and Bloomberg Law to search for these materials.\n\n2. Carefully read through the statutes, decisions and other documents. Take detailed notes and highlight key sections. Look for the main legal principles, holdings, and reasoning in each document. \n\n3. Organize the research findings by issue or topic. Group related statutes, cases and articles together. Create an outline or research memo summarizing the key points from each source.\n\n4. Analyze how the different sources fit together. Note any major trends, splits of authority between jurisdictions, or unresolved legal questions. Synthesize the research to reach an overall conclusion on the legal issues.\n\n5. Draft a memorandum, brief or other work product applying the research to the facts of the case at hand. Cite all sources carefully according to the required legal citation format. Have an attorney review the analysis and conclusions.\n</OUTPUT_TEXT>",
+    "extracted": "<OUTPUT_TEXT>\nTo gather and analyze legal research data:\n\n1. Identify relevant statutes, court decisions, legal articles, codes and other documents pertaining to the legal matter being researched. Use legal databases like Westlaw, LexisNexis, and Bloomberg Law to search for these materials.\n\n2. Carefully read through the statutes, decisions and other documents. Take detailed notes and highlight key sections. Look for the main legal principles, holdings, and reasoning in each document. \n\n3. Organize the research findings by issue or topic. Group related statutes, cases and articles together. Create an outline or research memo summarizing the key points from each source.\n\n4. Analyze how the different sources fit together. Note any major trends, splits of authority between jurisdictions, or unresolved legal questions. Synthesize the research to reach an overall conclusion on the legal issues.\n\n5. Draft a memorandum, brief or other work product applying the research to the facts of the case at hand. Cite all sources carefully according to the required legal citation format. Have an attorney review the analysis and conclusions.\n</OUTPUT_TEXT>"
+  }
+}

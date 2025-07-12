@@ -1,0 +1,46 @@
+{
+  "uid": "85a846ff",
+  "variant": 1,
+  "temperature": 0.0,
+  "model": "gemini-2.5-flash-preview-05-20",
+  "modality": "GUI",
+  "timestamp": "2025-05-27T15:26:06.341062Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_JSON>[\n  {\n    \"action\": \"type\",\n    \"selector\": \"input[name*=account i]\",\n    \"text\": \"Patient_ID_98765\"\n  },\n  {\n    \"action\": \"type\",\n    \"selector\": \"input[name*=amount i], input[type=number]\",\n    \"text\": \"250.00\"\n  },\n  {\n    \"action\": \"type\",\n    \"selector\": \"textarea[name*=memo i]\",\n    \"text\": \"Updated patient contact information and added new prescription details. Follow-up required in 3 months.\"\n  },\n  {\n    \"action\": \"click\",\n    \"selector\": \"button:has-text(\\\"post\\\" i), button:has-text(\\\"save\\\" i)\",\n    \"text\": \"\"\n  }\n]</OUTPUT_JSON>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -1.0664605805368135
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 177,
+      "candidatesTokenCount": 198,
+      "totalTokenCount": 1617,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 177
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 198
+        }
+      ],
+      "thoughtsTokenCount": 1242
+    },
+    "modelVersion": "gemini-2.5-flash-preview-05-20",
+    "createTime": "2025-05-27T15:25:57.951032Z",
+    "responseId": "hdk1aPiFOqO2nvgPrJiG8Qk"
+  }
+}

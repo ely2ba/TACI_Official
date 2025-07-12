@@ -1,0 +1,34 @@
+{
+  "uid": "dc35566b",
+  "variant": 0,
+  "modality": "TEXT",
+  "temperature": 0.0,
+  "model": "claude-3-5-sonnet-20240620",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T20:05:19.343004Z",
+  "commit_sha": "170b9e3e1d0d59846b1daa69da57be5d1db6306c",
+  "prompt_sha256": "b1ac045c1a947bb4d70d059931e67b3014310d0dc0649de077ee69a7bab47991",
+  "response": {
+    "id": "msg_012Lo6JSuUmXMZqgv9D1eyaq",
+    "content": [
+      {
+        "citations": null,
+        "text": "<OUTPUT_TEXT>\nTo prepare for trial by organizing exhibits:\n\n1. Create an exhibit list\n2. Assign unique numbers/letters to each exhibit\n3. Make copies of all exhibits (physical and digital)\n4. Organize exhibits in clearly labeled folders or binders\n5. Prepare exhibit stickers or labels\n6. Create an electronic database of exhibits\n7. Ensure all exhibits are admissible and relevant\n8. Coordinate with attorneys on exhibit presentation order\n9. Prepare exhibit notebooks for attorneys and witnesses\n10. Double-check for completeness and accuracy\n</OUTPUT_TEXT>",
+        "type": "text"
+      }
+    ],
+    "model": "claude-3-5-sonnet-20240620",
+    "role": "assistant",
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "input_tokens": 99,
+      "output_tokens": 133,
+      "server_tool_use": null,
+      "service_tier": "standard"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "uid": "dc35566b",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-4o",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:51:08Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "5c2b1790f2417a640aaa0c9ab20011ff442927bfe17d78d43ba60b94c8a66652",
+  "response": {
+    "id": "chatcmpl-Bi1uGZYoSjBzjNyRo8dlQlr57uFPT",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Trial Preparation: Organizing Exhibits\n\n1. **Catalog All Exhibits**\n   - Create a comprehensive list of all exhibits intended for trial.\n   - Assign a unique identifier to each exhibit for easy reference.\n\n2. **Label Exhibits**\n   - Clearly label each exhibit with its unique identifier.\n   - Ensure labels are consistent and easily readable.\n\n3. **Create Exhibit Index**\n   - Develop an index that includes the exhibit number, description, and relevance to the case.\n   - Include columns for any stipulations or objections related to each exhibit.\n\n4. **Prepare Exhibit Binders**\n   - Assemble binders containing all exhibits in the order they will be presented.\n   - Include a copy of the exhibit index at the front of each binder.\n\n5. **Digital Copies**\n   - Scan all exhibits and save them in a digital format.\n   - Organize digital files in a manner that mirrors the physical binder setup.\n\n6. **Review for Completeness**\n   - Double-check that all exhibits are accounted for and correctly labeled.\n   - Verify that there are no missing pages or documents.\n\n7. **Coordinate with Opposing Counsel**\n   - Share exhibit lists with opposing counsel to address any potential objections or stipulations before trial.\n   - Document any agreements or disputes regarding the exhibits.\n\n8. **Prepare Exhibit Presentation Tools**\n   - Ensure all necessary equipment for exhibit presentation is available and functional (e.g., projectors, screens).\n   - Test any technology to be used in court to avoid technical difficulties.\n\n9. **Rehearse Exhibit Presentation**\n   - Conduct a mock trial or run-through to practice the presentation of exhibits.\n   - Ensure all team members are familiar with the exhibit order and presentation process.\n\n10. **Finalize and Secure Exhibits**\n    - Confirm final exhibit list and organization the day before trial.\n    - Secure all exhibits in a safe location to prevent loss or damage.\n\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749833460,
+    "model": "gpt-4o-2024-08-06",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_07871e2ad8",
+    "usage": {
+      "completion_tokens": 391,
+      "prompt_tokens": 116,
+      "total_tokens": 507,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

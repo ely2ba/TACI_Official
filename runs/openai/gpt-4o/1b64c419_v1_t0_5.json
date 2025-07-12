@@ -1,0 +1,49 @@
+{
+  "uid": "1b64c419",
+  "variant": 1,
+  "temperature": 0.5,
+  "model": "gpt-4o",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:56:04Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "d24b274dae042a5a719f8f536f54d84ac91f64d78f37367d93063cbbc488c55d",
+  "response": {
+    "id": "chatcmpl-BaVb0aeUuZwmNDDRs6Zua0vuh6iSl",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>Thank you for calling [Medical Office Name]. How may I assist you today?\n\n[Pause for response]\n\nCertainly, I will direct your call to the appropriate department. Please hold for a moment while I transfer you to [Name/Department].\n\n[Transfer the call]\n\nThank you for your patience. Is there anything else I can assist you with today?\n\n[If no further assistance is needed]\n\nThank you for calling [Medical Office Name]. Have a great day!</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748040962,
+    "model": "gpt-4o-2024-08-06",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_a288987b44",
+    "usage": {
+      "completion_tokens": 99,
+      "prompt_tokens": 78,
+      "total_tokens": 177,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

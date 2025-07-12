@@ -1,0 +1,49 @@
+{
+  "uid": "0c07452f",
+  "variant": 1,
+  "temperature": 0.0,
+  "model": "gpt-4.1",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T23:06:56Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "c8d3ed7873c8e355cd2790c1bb05da54008e073ef57db1f4ff22c23caf27d4e0",
+  "response": {
+    "id": "chatcmpl-BaVlQ89NPxkSTtJVXZVK5cchB7K5r",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nTo: All Elementary School Staff  \nFrom: [Your Name], Senior Elementary School Teacher  \nDate: [Today's Date]  \nSubject: Enforcement of Administration Policies and Student Rules\n\nDear Colleagues,\n\nAs we strive to maintain a safe, respectful, and productive learning environment, it is essential that we consistently enforce all administration policies and rules governing student behavior. Please review the following guidelines to ensure uniformity in our approach:\n\n1. **Classroom Conduct:**  \n   - Remind students daily of classroom expectations and school-wide rules.  \n   - Address any disruptions promptly and in accordance with the student handbook.\n\n2. **Attendance and Punctuality:**  \n   - Take attendance accurately each morning and after lunch.  \n   - Report repeated tardiness or absences to the administration as outlined in our policy.\n\n3. **Dress Code:**  \n   - Monitor student attire for compliance with the school dress code.  \n   - Address violations discreetly and refer persistent issues to the office.\n\n4. **Respect and Safety:**  \n   - Foster a culture of respect among students and staff.  \n   - Intervene immediately in cases of bullying, unsafe behavior, or disrespect, and document incidents as required.\n\n5. **Use of Technology:**  \n   - Ensure students use school devices and internet access responsibly and only for educational purposes.  \n   - Report misuse to the IT department and administration.\n\n6. **Hall Passes and Supervision:**  \n   - Require students to have a hall pass when outside the classroom during instructional time.  \n   - Supervise students at all times, especially during transitions and recess.\n\nYour commitment to these policies ensures a positive and effective learning environment for all. If you have any questions or need clarification on specific rules, please refer to the staff handbook or contact the administration office.\n\nThank you for your cooperation and dedication.\n\nSincerely,  \n[Your Name]  \nSenior Elementary School Teacher\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748041608,
+    "model": "gpt-4.1-2025-04-14",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_b3f1157249",
+    "usage": {
+      "completion_tokens": 390,
+      "prompt_tokens": 79,
+      "total_tokens": 469,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

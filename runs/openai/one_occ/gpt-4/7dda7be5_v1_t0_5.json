@@ -1,0 +1,49 @@
+{
+  "uid": "7dda7be5",
+  "variant": 1,
+  "temperature": 0.5,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:38:33Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "f619121edfa394cf2f966e745283e437489a58c27b2b7d4b7539289c690206a7",
+  "response": {
+    "id": "chatcmpl-Bi1hzguSG0DRDlOvnCQvsBKvfHsVk",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>Subject: Appraisal and Inventory of Real and Personal Property for Estate Planning\n\nDear Client,\n\nAs part of your estate planning process, it is crucial to appraise and inventory your real and personal property. This process involves determining the fair market value of your assets and documenting them in a comprehensive list.\n\nHere is a preliminary outline of how we will proceed:\n\n1. Real Property: This includes any land and the structures attached to it that you own. We will work with professional appraisers to determine the current market value of these properties.\n\n2. Personal Property: This includes all movable properties like vehicles, furniture, jewelry, and artwork. We will also include financial assets such as bank accounts, stocks, bonds, and retirement accounts. For valuable items, we may need to involve an appraiser to ascertain their value.\n\n3. Business Interests: If you own any part of a business, it's value will also need to be determined.\n\n4. Debts and Liabilities: These will be subtracted from the total value of your estate. They include mortgages, loans, credit card debts, and other financial obligations.\n\nOnce we have a comprehensive inventory and appraisal, we can move forward with creating a strategic estate plan that aligns with your wishes and provides for your beneficiaries in the most effective way possible.\n\nPlease let us know if you have any specific concerns or if there are any particular assets that you would like us to focus on.\n\nBest regards,\n[Your Name]\nSenior Paralegal and Legal Assistant</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749832699,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 310,
+      "prompt_tokens": 114,
+      "total_tokens": 424,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "uid": "ab599408",
+  "variant": 0,
+  "modality": "GUI",
+  "temperature": 0.5,
+  "model": "llama3-8b-8192",
+  "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+  "timestamp": "2025-05-28T14:53:02.153306Z",
+  "prompt_sha256": "64ef5bc8d131f62adab7503426d03ff7ec91c514e6de38b55350fe65937fa84f",
+  "response": {
+    "id": "chatcmpl-036d998c-be8e-4925-9e95-6c138c66129e",
+    "object": "chat.completion",
+    "created": 1748443982,
+    "model": "llama3-8b-8192",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "<OUTPUT_JSON>\n[\n  {\"action\":\"click\",\"selector\":\"input[placeholder*=search i]\",\"text\":\"\"},\n  {\"action\":\"type\",\"selector\":\"input[name*=quantity i]\",\"text\":\"1\"},\n  {\"action\":\"click\",\"selector\":\"button:has-text(\\\"add item\\\" i)\",\"text\":\"\"},\n  {\"action\":\"click\",\"selector\":\"button:has-text(\\\"order\\\" i)\",\"text\":\"\"}\n]\n</OUTPUT_JSON>"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "queue_time": 0.530891302,
+      "prompt_tokens": 185,
+      "prompt_time": 0.040803625,
+      "completion_tokens": 90,
+      "completion_time": 0.075,
+      "total_tokens": 275,
+      "total_time": 0.115803625
+    },
+    "usage_breakdown": {
+      "models": null
+    },
+    "system_fingerprint": "fp_dadc9d6142",
+    "x_groq": {
+      "id": "req_01jwbp3swbf5asccj763r4bt1a"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "uid": "47817359",
+  "variant": 2,
+  "modality": "GUI",
+  "temperature": 0.0,
+  "model": "claude-3-opus-20240229",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T17:41:00.981658Z",
+  "commit_sha": "98b2eb0f130d4d32e78707f77c440a8f68e4103c",
+  "prompt_sha256": "8071b72a48c248c01402b292f427e812c26d828a2a6fec16f18f35d44abcc166",
+  "response": {
+    "raw": "Here is my attempt at the task:\n<OUTPUT_JSON>\n[\n  {\n    \"function\": \"click\",\n    \"selector\": \"input[name*=\\\"account\\\" i]\"\n  },\n  {\n    \"function\": \"fill\",\n    \"selector\": \"input[name*=\\\"amount\\\" i], input[type=number]\",\n    \"value\": \"{{amount}}\"\n  },\n  {\n    \"function\": \"fill\", \n    \"selector\": \"textarea[name*=\\\"memo\\\" i]\",\n    \"value\": \"{{memo}}\"\n  },\n  {\n    \"function\": \"click\",\n    \"selector\": \"button:has-text(\\\"post\\\" i), button:has-text(\\\"save\\\" i)\"\n  }\n]\n</OUTPUT_JSON>",
+    "extracted": "<OUTPUT_JSON>\n[\n  {\n    \"function\": \"click\",\n    \"selector\": \"input[name*=\\\"account\\\" i]\"\n  },\n  {\n    \"function\": \"fill\",\n    \"selector\": \"input[name*=\\\"amount\\\" i], input[type=number]\",\n    \"value\": \"{{amount}}\"\n  },\n  {\n    \"function\": \"fill\", \n    \"selector\": \"textarea[name*=\\\"memo\\\" i]\",\n    \"value\": \"{{memo}}\"\n  },\n  {\n    \"function\": \"click\",\n    \"selector\": \"button:has-text(\\\"post\\\" i), button:has-text(\\\"save\\\" i)\"\n  }\n]\n</OUTPUT_JSON>"
+  }
+}

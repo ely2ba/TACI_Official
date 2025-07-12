@@ -1,0 +1,15 @@
+{
+  "uid": "9cebf902",
+  "variant": 0,
+  "modality": "TEXT",
+  "temperature": 0.5,
+  "model": "claude-3-5-sonnet-20240620",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T18:07:18.259837Z",
+  "commit_sha": "98b2eb0f130d4d32e78707f77c440a8f68e4103c",
+  "prompt_sha256": "ad3b2009798c497d8e0645d027e20b7e84b6fd3417524fc220faca49b0cdd031",
+  "response": {
+    "raw": "<OUTPUT_TEXT>\nTo gather and analyze research data as a Paralegal or Legal Assistant:\n\n1. Identify relevant sources: Statutes, case law, legal journals, codes, and official documents\n2. Use legal databases: Westlaw, LexisNexis, HeinOnline, etc.\n3. Conduct thorough searches using keywords and Boolean operators\n4. Read and summarize key information from each source\n5. Analyze how the research applies to the current case or legal issue\n6. Organize findings in a clear, logical manner (e.g., by topic or chronology)\n7. Create a detailed research report or memo for attorneys\n8. Cite all sources properly using the appropriate legal citation format\n9. Update research regularly to include new developments\n10. Maintain a research log to track sources and avoid duplication of effort\n</OUTPUT_TEXT>",
+    "extracted": "<OUTPUT_TEXT>\nTo gather and analyze research data as a Paralegal or Legal Assistant:\n\n1. Identify relevant sources: Statutes, case law, legal journals, codes, and official documents\n2. Use legal databases: Westlaw, LexisNexis, HeinOnline, etc.\n3. Conduct thorough searches using keywords and Boolean operators\n4. Read and summarize key information from each source\n5. Analyze how the research applies to the current case or legal issue\n6. Organize findings in a clear, logical manner (e.g., by topic or chronology)\n7. Create a detailed research report or memo for attorneys\n8. Cite all sources properly using the appropriate legal citation format\n9. Update research regularly to include new developments\n10. Maintain a research log to track sources and avoid duplication of effort\n</OUTPUT_TEXT>"
+  }
+}

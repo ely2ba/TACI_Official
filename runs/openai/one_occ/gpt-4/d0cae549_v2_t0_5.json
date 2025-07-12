@@ -1,0 +1,49 @@
+{
+  "uid": "d0cae549",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:40:07Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "0e8cd22ff001ca6ad7a8b4f58709f39e29490bd143dd1123aee28c51547a181e",
+  "response": {
+    "id": "chatcmpl-Bi1jL3Aa8QoO9GxIdobxA2HwfacSV",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<H1>Procedure to Call Upon Witnesses to Testify at Hearing</H1>\n\n<ol>\n<li><b>Identify Potential Witnesses:</b> Determine who has relevant information about the case. This could include the plaintiff, defendant, or third parties who have knowledge about the incident.</li>\n\n<li><b>Prepare Witness List:</b> Create a list of all potential witnesses along with their contact information and a brief description of what they may testify about.</li>\n\n<li><b>Subpoena Witnesses:</b> If a witness is necessary for the case but unwilling to testify voluntarily, a subpoena may be issued. This is a legal document that orders someone to appear in court. It should be served to the witness well in advance of the hearing date.</li>\n\n<li><b>Prepare Witnesses:</b> Before the hearing, meet with each witness to discuss what they will be asked and what they should expect. This can help reduce their anxiety and improve the quality of their testimony.</li>\n\n<li><b>Present Witnesses at Hearing:</b> At the hearing, call each witness to the stand in the order that best supports your case. Ask questions that allow the witness to tell their story and provide the necessary facts.</li>\n\n<li><b>Witness Examination:</b> After each witness has given their testimony, the opposing side will have an opportunity to cross-examine them. Be prepared to object to improper questions and to re-direct your witness afterwards.</li>\n</ol> \n\n<OUTPUT_TEXT><H1>Procedure to Call Upon Witnesses to Testify at Hearing</H1>\n\n<ol>\n<li><b>Identify Potential Witnesses:</b> Determine who has relevant information about the case. This could include the plaintiff, defendant, or third parties who have knowledge about the incident.</li>\n\n<li><b>Prepare Witness List:</b> Create a list of all potential witnesses along with their contact information and a brief description of what they may testify about.</li>\n\n<li><b>Subpoena Witnesses:</b> If a witness is necessary for the case but unwilling to testify voluntarily, a subpoena may be issued. This is a legal document that orders someone to appear in court. It should be served to the witness well in advance of the hearing date.</li>\n\n<li><b>Prepare Witnesses:</b> Before the hearing, meet with each witness to discuss what they will be asked and what they should expect. This can help reduce their anxiety and improve the quality of their testimony.</li>\n\n<li><b>Present Witnesses at Hearing:</b> At the hearing, call each witness to the stand in the order that best supports your case. Ask questions that allow the witness to tell their story and provide the necessary facts.</li>\n\n<li><b>Witness Examination:</b> After each witness has given their testimony, the opposing side will have an opportunity to cross-examine them. Be prepared to object to improper questions and to re-direct your witness afterwards.</li>\n</ol></OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749832783,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 608,
+      "prompt_tokens": 113,
+      "total_tokens": 721,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

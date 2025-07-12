@@ -1,0 +1,49 @@
+{
+  "uid": "93eea469",
+  "variant": 0,
+  "temperature": 0.0,
+  "model": "gpt-4.1",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:53:14Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "06709e310474a078930d42864016a76fb1926c6f3db8cd2197a59d801649c3de",
+  "response": {
+    "id": "chatcmpl-Bi1wLmKagCve23zcE1hbKND1WJsu1",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nTo meet with clients and other professionals to discuss details of a case, a paralegal or legal assistant should:\n\n1. Schedule Meetings: Coordinate with clients, attorneys, witnesses, and other relevant professionals to set up convenient meeting times.\n2. Prepare for Meetings: Review case files, draft questions, and prepare an agenda to ensure all necessary topics are covered.\n3. Conduct Meetings: Attend meetings, either in person or virtually, to gather information, clarify facts, and discuss case strategy or progress.\n4. Take Detailed Notes: Document all discussions, agreements, and action items during the meeting for future reference.\n5. Follow Up: Summarize meeting outcomes and distribute notes to relevant parties. Ensure that any agreed-upon tasks are tracked and completed.\n\nThis process helps ensure clear communication, thorough case preparation, and effective collaboration among all parties involved.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749833589,
+    "model": "gpt-4.1-2025-04-14",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_51e1070cf2",
+    "usage": {
+      "completion_tokens": 178,
+      "prompt_tokens": 95,
+      "total_tokens": 273,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

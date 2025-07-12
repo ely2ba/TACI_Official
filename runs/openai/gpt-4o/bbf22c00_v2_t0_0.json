@@ -1,0 +1,49 @@
+{
+  "uid": "bbf22c00",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gpt-4o",
+  "modality": "GUI",
+  "timestamp": "2025-05-23T22:44:36Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "c341b89a47e1703b98d341c7ecfe99aa69e513365176f62810f4f59111402ae3",
+  "response": {
+    "id": "chatcmpl-BaVPvGuJfDV46JgDE2lUZ2VdCc7q7",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_JSON>[\n  {\"action\": \"click\", \"selector\": \"table:has-text(\\\"order\\\" i) >> tr >> input[type=checkbox]\"},\n  {\"action\": \"click\", \"selector\": \"table:has-text(\\\"invoice\\\" i) >> tr >> input[type=checkbox]\"},\n  {\"action\": \"click\", \"selector\": \"button:has-text(\\\"match\\\" i)\"},\n  {\"action\": \"click\", \"selector\": \"button:has-text(\\\"record\\\" i)\"}\n]</OUTPUT_JSON>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748040275,
+    "model": "gpt-4o-2024-08-06",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_a288987b44",
+    "usage": {
+      "completion_tokens": 108,
+      "prompt_tokens": 149,
+      "total_tokens": 257,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

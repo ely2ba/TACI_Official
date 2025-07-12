@@ -1,0 +1,15 @@
+{
+  "uid": "07080553",
+  "variant": 2,
+  "modality": "TEXT",
+  "temperature": 0.5,
+  "model": "claude-3-opus-20240229",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T17:54:36.300581Z",
+  "commit_sha": "98b2eb0f130d4d32e78707f77c440a8f68e4103c",
+  "prompt_sha256": "40b67c629e9856ec273e3f4dfceabf50dd497228e11b942a701560af1d835696",
+  "response": {
+    "raw": "Here is my attempt at the requested output:\n<OUTPUT_TEXT>\n<h1>Preparing Legal Documents and Maintaining Filing Systems</h1>\n1. Draft affidavits and other legal documents\n• Obtain necessary information from clients, attorneys, or case files\n• Prepare initial drafts of affidavits, legal correspondence, motions, briefs, contracts, and other documents\n• Proofread and edit documents for accuracy, clarity, and proper formatting\n• Finalize documents and obtain signatures when required\n2. Organize and maintain documents in filing systems\n• Create logical filing structures for both paper and electronic documents\n• Consistently name and categorize files for easy search and retrieval\n• Regularly back up electronic files and create paper copies of key documents\n• Purge outdated or irrelevant documents in accordance with document retention policies\n• Ensure filing systems adhere to confidentiality and data security protocols\n</OUTPUT_TEXT>",
+    "extracted": "<OUTPUT_TEXT>\n<h1>Preparing Legal Documents and Maintaining Filing Systems</h1>\n1. Draft affidavits and other legal documents\n• Obtain necessary information from clients, attorneys, or case files\n• Prepare initial drafts of affidavits, legal correspondence, motions, briefs, contracts, and other documents\n• Proofread and edit documents for accuracy, clarity, and proper formatting\n• Finalize documents and obtain signatures when required\n2. Organize and maintain documents in filing systems\n• Create logical filing structures for both paper and electronic documents\n• Consistently name and categorize files for easy search and retrieval\n• Regularly back up electronic files and create paper copies of key documents\n• Purge outdated or irrelevant documents in accordance with document retention policies\n• Ensure filing systems adhere to confidentiality and data security protocols\n</OUTPUT_TEXT>"
+  }
+}

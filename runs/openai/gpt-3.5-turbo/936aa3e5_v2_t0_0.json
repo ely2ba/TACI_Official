@@ -1,0 +1,49 @@
+{
+  "uid": "936aa3e5",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gpt-3.5-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T21:58:39Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "e27b33f68330ba9f081ac5cbf0fae70c8cccec958ae0b30242cd1986fe4a4b1c",
+  "response": {
+    "id": "chatcmpl-BaUhRfCnFYIHyrAnMivhwFf3kTEHD",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Financial Calculations\n\n1. Amount Due Calculation:\n   - Formula: Amount Due = Total Amount - Discount\n   - Example: Total Amount = $500, Discount = $50\n   - Calculation: Amount Due = $500 - $50 = $450\n\n2. Interest Charges Calculation:\n   - Formula: Interest Charges = Principal Amount * Interest Rate\n   - Example: Principal Amount = $1000, Interest Rate = 5%\n   - Calculation: Interest Charges = $1000 * 0.05 = $50\n\n3. Balance Calculation:\n   - Formula: Balance = Total Assets - Total Liabilities\n   - Example: Total Assets = $10,000, Total Liabilities = $5,000\n   - Calculation: Balance = $10,000 - $5,000 = $5,000\n\n4. Discount Calculation:\n   - Formula: Discount Amount = List Price * Discount Rate\n   - Example: List Price = $200, Discount Rate = 10%\n   - Calculation: Discount Amount = $200 * 0.10 = $20\n\n5. Equity Calculation:\n   - Formula: Equity = Total Assets - Total Liabilities\n   - Example: Total Assets = $50,000, Total Liabilities = $20,000\n   - Calculation: Equity = $50,000 - $20,000 = $30,000\n\n6. Principal Calculation:\n   - Formula: Principal = Total Loan Amount - Interest\n   - Example: Total Loan Amount = $1000, Interest = $50\n   - Calculation: Principal = $1000 - $50 = $950\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748037517,
+    "model": "gpt-3.5-turbo-0125",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 339,
+      "prompt_tokens": 95,
+      "total_tokens": 434,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

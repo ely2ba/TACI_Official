@@ -1,0 +1,49 @@
+{
+  "uid": "7dda7be5",
+  "variant": 1,
+  "temperature": 0.0,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:38:19Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "f619121edfa394cf2f966e745283e437489a58c27b2b7d4b7539289c690206a7",
+  "response": {
+    "id": "chatcmpl-Bi1hmaxepnwtAPZu2NiBtnUfYMJm9",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>Subject: Appraisal and Inventory of Real and Personal Property for Estate Planning\n\nDear [Client's Name],\n\nAs part of our ongoing estate planning services, we have conducted an appraisal and inventory of your real and personal property. This process is crucial in ensuring that your estate plan accurately reflects your current assets and their respective values.\n\n1. Real Property: This includes all land and buildings you own. We have assessed the market value of these properties based on recent sales of similar properties in the same area. \n\n2. Personal Property: This includes all movable property like vehicles, furniture, jewelry, and other personal belongings. We have evaluated these items based on their current market value.\n\n3. Financial Assets: This includes all your financial assets such as bank accounts, stocks, bonds, and retirement accounts. We have calculated their value based on the most recent statements.\n\n4. Business Interests: If you own any part of a business, we have assessed its value based on the company's current financial status and market conditions.\n\n5. Other Assets: This includes any other assets not covered above, such as intellectual property or valuable collections. We have evaluated these based on their current market value or potential income generation.\n\nPlease review the attached detailed inventory and let us know if there are any discrepancies or if you have any additional assets that need to be included. Once we have your approval, we will proceed with the next steps in your estate planning process.\n\nThank you for your attention to this matter.\n\nBest regards,\n\n[Your Name]\n[Your Title]</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749832686,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 313,
+      "prompt_tokens": 114,
+      "total_tokens": 427,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

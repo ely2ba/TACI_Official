@@ -1,0 +1,46 @@
+{
+  "uid": "85a846ff",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gemini-2.5-flash-preview-05-20",
+  "modality": "GUI",
+  "timestamp": "2025-05-27T15:31:14.396733Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_JSON>\n[\n  {\n    \"action\": \"find\",\n    \"selector\": \"input[name*=account i]\"\n  },\n  {\n    \"action\": \"find\",\n    \"selector\": \"input[name*=amount i], input[type=number]\"\n  },\n  {\n    \"action\": \"find\",\n    \"selector\": \"textarea[name*=memo i]\"\n  },\n  {\n    \"action\": \"find\",\n    \"selector\": \"button:has-text(\\\"post\\\" i), button:has-text(\\\"save\\\" i)\"\n  }\n]\n</OUTPUT_JSON>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -1.658233750034386
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 169,
+      "candidatesTokenCount": 142,
+      "totalTokenCount": 1371,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 169
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 142
+        }
+      ],
+      "thoughtsTokenCount": 1060
+    },
+    "modelVersion": "gemini-2.5-flash-preview-05-20",
+    "createTime": "2025-05-27T15:31:07.667560Z",
+    "responseId": "u9o1aKjfKO6U2PgPqduJmAs"
+  }
+}

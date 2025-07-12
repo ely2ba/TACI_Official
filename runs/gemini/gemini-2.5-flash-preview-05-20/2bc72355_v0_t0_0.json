@@ -1,0 +1,46 @@
+{
+  "uid": "2bc72355",
+  "variant": 0,
+  "temperature": 0.0,
+  "model": "gemini-2.5-flash-preview-05-20",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T15:41:52.732748Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_TEXT>\nTASK \u2013 Develop and implement comprehensive lesson plans and instructional activities across core subjects, adhering to established curriculum standards.\n</OUTPUT_TEXT>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -5.384362423058712
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 98,
+      "candidatesTokenCount": 33,
+      "totalTokenCount": 806,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 98
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 33
+        }
+      ],
+      "thoughtsTokenCount": 675
+    },
+    "modelVersion": "gemini-2.5-flash-preview-05-20",
+    "createTime": "2025-05-27T15:41:47.228740Z",
+    "responseId": "O901aIT7DdTGgLUPtNvO0AE"
+  }
+}

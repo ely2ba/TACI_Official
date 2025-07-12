@@ -1,0 +1,49 @@
+{
+  "uid": "8b2ab848",
+  "variant": 1,
+  "temperature": 0.0,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:35:37Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "6716c2a858e64afc74e3ae791b0c74871b0ca83aaa11124c22bdb987a6538076",
+  "response": {
+    "id": "chatcmpl-Bi1fIdqnlQxNXijeN03izJQmgfFnG",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>As a senior Paralegal and Legal Assistant, I am prepared to arbitrate disputes between parties and assist in the real estate closing process. This will involve a thorough review of title searches to ensure there are no outstanding liens or claims on the property. I will also work to mediate any disagreements that may arise during the closing process, with the goal of reaching a resolution that is satisfactory to all parties involved. My extensive experience in real estate law and dispute resolution will be invaluable in this process.</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749832532,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 107,
+      "prompt_tokens": 123,
+      "total_tokens": 230,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

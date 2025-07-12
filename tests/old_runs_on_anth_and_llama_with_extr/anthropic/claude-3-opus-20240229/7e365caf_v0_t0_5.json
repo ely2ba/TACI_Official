@@ -1,0 +1,15 @@
+{
+  "uid": "7e365caf",
+  "variant": 0,
+  "modality": "TEXT",
+  "temperature": 0.5,
+  "model": "claude-3-opus-20240229",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T17:53:40.920168Z",
+  "commit_sha": "98b2eb0f130d4d32e78707f77c440a8f68e4103c",
+  "prompt_sha256": "707bc2f7bb401ddd7c858b68576da117b3f5152b9fab6b3d4bc009a55bfc0da6",
+  "response": {
+    "raw": "Here is my attempt at the task, wrapped in the specified output tags:\n\n<OUTPUT_TEXT>\nTo support the development of training materials and technical manuals:\n\n• Work with subject matter experts to gather information on processes, procedures, and technical details\n• Organize content in a clear, logical flow that will be easy for users to follow and reference\n• Use instructional design principles to chunk information, highlight key points, and incorporate visuals \n• Write content in plain language, avoiding jargon while still being technically accurate\n• Develop exercises, examples, and knowledge checks to reinforce learning and understanding\n• Conduct reviews with SMEs and end users to validate accuracy, completeness, and usability\n• Maintain version control and make updates as needed to keep materials current\n</OUTPUT_TEXT>",
+    "extracted": "<OUTPUT_TEXT>\nTo support the development of training materials and technical manuals:\n\n• Work with subject matter experts to gather information on processes, procedures, and technical details\n• Organize content in a clear, logical flow that will be easy for users to follow and reference\n• Use instructional design principles to chunk information, highlight key points, and incorporate visuals \n• Write content in plain language, avoiding jargon while still being technically accurate\n• Develop exercises, examples, and knowledge checks to reinforce learning and understanding\n• Conduct reviews with SMEs and end users to validate accuracy, completeness, and usability\n• Maintain version control and make updates as needed to keep materials current\n</OUTPUT_TEXT>"
+  }
+}

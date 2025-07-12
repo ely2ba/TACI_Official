@@ -1,0 +1,15 @@
+{
+  "uid": "9cebf902",
+  "variant": 1,
+  "modality": "TEXT",
+  "temperature": 0.0,
+  "model": "claude-3-opus-20240229",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T17:44:10.684094Z",
+  "commit_sha": "98b2eb0f130d4d32e78707f77c440a8f68e4103c",
+  "prompt_sha256": "8a785dae0c42bd76581cb68287a32a36fb000a5a6d9cc024152a9c25b13df99a",
+  "response": {
+    "raw": "Here is the memo with the requested research and analysis:\n<OUTPUT_TEXT>\nTo: Supervising Attorney\nFrom: Senior Paralegal\nRe: Research on Relevant Statutes, Decisions, and Legal Articles\nDate: [Current Date]\n\nAs requested, I have gathered and analyzed the following research relevant to the client's case:\n\nStatutes:\n- 28 U.S.C. § 1332 - Diversity of citizenship; amount in controversy; costs\n- 28 U.S.C. § 1391 - Venue generally\n- State statute [citation] on [legal issue]\n\nKey Decisions:\n- Supreme Court case [name] ([year]), holding that [key point]\n- [State] Supreme Court case [name] ([year]), ruling that [key point]\n- [Circuit] Circuit Court of Appeals case [name] ([year]), finding that [key point]\n\nLegal Articles:\n- [Author], [Article Title], [Journal], [Year]\n- Discusses [key points relevant to case]\n- Argues that [position relevant to case]\n\n- [Author], [Article Title], [Journal], [Year] \n- Analyzes [issue relevant to case]\n- Concludes that [finding relevant to case]\n\nIn summary, the statutes establish [X], the case law indicates [Y], and the scholarly articles provide support for the position that [Z]. Please let me know if you need any additional research or have questions about my analysis.\n</OUTPUT_TEXT>",
+    "extracted": "<OUTPUT_TEXT>\nTo: Supervising Attorney\nFrom: Senior Paralegal\nRe: Research on Relevant Statutes, Decisions, and Legal Articles\nDate: [Current Date]\n\nAs requested, I have gathered and analyzed the following research relevant to the client's case:\n\nStatutes:\n- 28 U.S.C. § 1332 - Diversity of citizenship; amount in controversy; costs\n- 28 U.S.C. § 1391 - Venue generally\n- State statute [citation] on [legal issue]\n\nKey Decisions:\n- Supreme Court case [name] ([year]), holding that [key point]\n- [State] Supreme Court case [name] ([year]), ruling that [key point]\n- [Circuit] Circuit Court of Appeals case [name] ([year]), finding that [key point]\n\nLegal Articles:\n- [Author], [Article Title], [Journal], [Year]\n- Discusses [key points relevant to case]\n- Argues that [position relevant to case]\n\n- [Author], [Article Title], [Journal], [Year] \n- Analyzes [issue relevant to case]\n- Concludes that [finding relevant to case]\n\nIn summary, the statutes establish [X], the case law indicates [Y], and the scholarly articles provide support for the position that [Z]. Please let me know if you need any additional research or have questions about my analysis.\n</OUTPUT_TEXT>"
+  }
+}

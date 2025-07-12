@@ -1,0 +1,49 @@
+{
+  "uid": "3a55f5ca",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-4.1",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:54:09Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "cd07b991d8a43f6f05d21bac3250f3274274b6b2d0d4cfbb115d60c578d9e5c7",
+  "response": {
+    "id": "chatcmpl-Bi1xAufYr8xBJ7tjbFaBy46Jm876l",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Review of Real Estate Closing Statement\n\n1. **Document Title:** Real Estate Closing Statement Review\n\n2. **Parties Involved:**\n   - Seller: John A. Smith\n   - Buyer: Jane B. Doe\n   - Property Address: 123 Main Street, Springfield, State, ZIP\n\n3. **Purpose of Review:**\n   - To ensure accuracy, completeness, and compliance with applicable laws and contractual terms in the closing statement for the referenced real estate transaction.\n\n4. **Key Elements Reviewed:**\n   1. **Purchase Price:** Confirmed as $350,000, as stipulated in the purchase agreement.\n   2. **Deposit/Earnest Money:** $10,000 deposit credited to buyer.\n   3. **Prorations & Adjustments:**\n      - Property taxes prorated as of the closing date.\n      - Homeowner association dues adjusted accordingly.\n   4. **Loan Payoff:** Seller\u2019s mortgage payoff listed and confirmed.\n   5. **Title Charges:** Title insurance premium and related fees itemized.\n   6. **Recording & Transfer Fees:** Accurate amounts for deed recording and transfer tax.\n   7. **Broker Commissions:** 6% total, split between listing and buyer\u2019s agents.\n   8. **Other Credits & Debits:** All credits (e.g., repair allowance) and debits (e.g., unpaid utilities) itemized.\n\n5. **Findings & Recommendations:**\n   - All entries match supporting documentation and contractual terms.\n   - No discrepancies found in calculations or allocations.\n   - Recommend both parties review and confirm all figures before signing.\n\n6. **Conclusion:**\n   - The closing statement is accurate and in proper form. Both parties may proceed with execution, subject to their independent review and satisfaction.\n\n7. **Attachments Reviewed:**\n   - Purchase Agreement\n   - Title Commitment\n   - Tax Statements\n   - Payoff Letters\n   - Invoices for Services\n\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749833640,
+    "model": "gpt-4.1-2025-04-14",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_51e1070cf2",
+    "usage": {
+      "completion_tokens": 410,
+      "prompt_tokens": 134,
+      "total_tokens": 544,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

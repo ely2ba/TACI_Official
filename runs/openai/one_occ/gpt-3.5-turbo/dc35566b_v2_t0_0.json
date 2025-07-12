@@ -1,0 +1,49 @@
+{
+  "uid": "dc35566b",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gpt-3.5-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:28:55Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "5c2b1790f2417a640aaa0c9ab20011ff442927bfe17d78d43ba60b94c8a66652",
+  "response": {
+    "id": "chatcmpl-Bi1YqSvW0JVlGnwuJyeKMaKcfA0Pp",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n<h1>Preparation for Trial</h1>\n\n1. Organize Exhibits:\n   - Gather all relevant exhibits for the trial.\n   - Arrange exhibits in a logical order for easy presentation.\n   - Label each exhibit clearly for identification during the trial.\n\n2. Review Evidence:\n   - Thoroughly review all evidence to be presented at trial.\n   - Ensure all evidence is admissible and relevant to the case.\n   - Prepare summaries or outlines of key evidence for quick reference.\n\n3. Coordinate with Legal Team:\n   - Communicate with attorneys to discuss trial strategy and objectives.\n   - Coordinate with other legal assistants and paralegals for a cohesive approach.\n   - Confirm roles and responsibilities for each team member during the trial.\n\n4. Prepare Witness Lists:\n   - Compile a list of witnesses to be called during the trial.\n   - Ensure all witness contact information is up to date.\n   - Coordinate with attorneys to prepare witness examination outlines.\n\n5. Create Trial Binders:\n   - Assemble trial binders containing all necessary documents and information.\n   - Include copies of exhibits, evidence summaries, witness lists, and any other relevant materials.\n   - Organize trial binders for easy access and reference during the trial.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749832132,
+    "model": "gpt-3.5-turbo-0125",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 256,
+      "prompt_tokens": 116,
+      "total_tokens": 372,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "uid": "07080553",
+  "variant": 0,
+  "modality": "TEXT",
+  "temperature": 0.5,
+  "model": "claude-3-opus-20240229",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T19:53:15.786537Z",
+  "commit_sha": "170b9e3e1d0d59846b1daa69da57be5d1db6306c",
+  "prompt_sha256": "b60d24599d1df23bd17991a8c681b996a2dd542b4a3676448842122e2105f6c1",
+  "response": {
+    "id": "msg_01PsMCbpy2yZ9D9nRzgN16ZE",
+    "content": [
+      {
+        "citations": null,
+        "text": "Here is my attempt at the task:\n<OUTPUT_TEXT>\nAFFIDAVIT OF JANE DOE\nI, Jane Doe, being duly sworn, depose and say:\n1. I am over the age of 18 and competent to make this affidavit based on my personal knowledge.\n2. I am currently employed as a paralegal at the Law Offices of Smith & Jones, located at 123 Main Street, Anytown, USA.\n3. On April 1, 2023, I was asked by Attorney John Smith to prepare an affidavit in support of Plaintiff's Motion for Summary Judgment in the matter of Doe v. Acme Corp., Case No. 22-cv-1234 (S.D.N.Y.).\n4. I hereby certify that the foregoing statements made by me are true and accurate to the best of my knowledge. I am aware that if any of the foregoing statements made by me are willfully false, I am subject to punishment.\nDated: April 15, 2023\nJane Doe\nSworn to before me this\n15th day of April, 2023\nNotary Public\n</OUTPUT_TEXT>",
+        "type": "text"
+      }
+    ],
+    "model": "claude-3-opus-20240229",
+    "role": "assistant",
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "input_tokens": 114,
+      "output_tokens": 272,
+      "server_tool_use": null,
+      "service_tier": "standard"
+    }
+  }
+}

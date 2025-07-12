@@ -1,0 +1,49 @@
+{
+  "uid": "3db6d320",
+  "variant": 0,
+  "temperature": 0.0,
+  "model": "gpt-4.1",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:57:40Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "048291482c243fca6f2e809c70e31969e7709e03043722c8876feb2b84a2af4b",
+  "response": {
+    "id": "chatcmpl-Bi20Ehp6slNujIBPUD8aHxSRV7maZ",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nTo investigate facts and law of cases and search pertinent sources, such as public records and internet sources, to determine causes of action and to prepare cases, follow these steps:\n\n1. **Gather Case Information**: Collect all relevant details from the client, including documents, correspondence, and a timeline of events.\n\n2. **Identify Legal Issues**: Analyze the facts to identify potential legal issues and causes of action (e.g., breach of contract, negligence, discrimination).\n\n3. **Conduct Legal Research**:\n   - Use legal databases (e.g., Westlaw, LexisNexis) to find statutes, case law, and regulations relevant to the identified issues.\n   - Review secondary sources such as legal encyclopedias, treatises, and law review articles for background and analysis.\n\n4. **Search Public Records**:\n   - Access court records, property records, corporate filings, and government databases for information about parties, prior litigation, assets, or other relevant facts.\n   - Use online resources and government websites to verify information and uncover additional details.\n\n5. **Internet Research**:\n   - Search news articles, social media, and other online sources for information about the parties or events in question.\n   - Verify the credibility and reliability of online sources.\n\n6. **Analyze and Organize Findings**:\n   - Summarize the facts, legal issues, and applicable law.\n   - Prepare a memorandum or report outlining the causes of action, supporting evidence, and legal arguments.\n\n7. **Prepare Case Materials**:\n   - Draft pleadings, discovery requests, and other legal documents as needed.\n   - Organize evidence and exhibits for use in litigation or settlement negotiations.\n\nBy systematically investigating facts and law, and utilizing both public records and internet sources, you can effectively determine causes of action and prepare cases for litigation or resolution.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749833830,
+    "model": "gpt-4.1-2025-04-14",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_51e1070cf2",
+    "usage": {
+      "completion_tokens": 376,
+      "prompt_tokens": 113,
+      "total_tokens": 489,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

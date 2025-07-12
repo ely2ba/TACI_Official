@@ -1,0 +1,49 @@
+{
+  "uid": "07080553",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gpt-4-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:43:56Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "40b67c629e9856ec273e3f4dfceabf50dd497228e11b942a701560af1d835696",
+  "response": {
+    "id": "chatcmpl-Bi1nMQ5isn0wpc2fUxf36VwDlJz3t",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Legal Document Preparation and Organization\n\n1. **Prepare Affidavits**\n   - Collect necessary information from clients and witnesses.\n   - Draft the affidavit ensuring all legal requirements are met.\n   - Review the draft with the attorney for any necessary revisions.\n   - Finalize the affidavit and have it signed and notarized.\n\n2. **Prepare Other Legal Documents**\n   - Draft legal correspondence such as letters, notices, and legal briefs.\n   - Ensure compliance with legal formats and content requirements.\n   - Obtain approval from the attorney before dispatching.\n\n3. **Organize and Maintain Documents**\n   - Create a filing system that categorizes documents in both paper and electronic formats.\n   - Ensure all documents are filed accurately and are easily accessible.\n   - Regularly update the filing system to incorporate new documents and dispose of outdated records securely.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749833032,
+    "model": "gpt-4-turbo-2024-04-09",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_de235176ee",
+    "usage": {
+      "completion_tokens": 178,
+      "prompt_tokens": 130,
+      "total_tokens": 308,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

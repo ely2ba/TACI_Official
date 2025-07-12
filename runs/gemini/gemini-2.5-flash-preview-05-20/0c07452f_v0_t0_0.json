@@ -1,0 +1,46 @@
+{
+  "uid": "0c07452f",
+  "variant": 0,
+  "temperature": 0.0,
+  "model": "gemini-2.5-flash-preview-05-20",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T15:43:04.006261Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_TEXT>\nAs an elementary school teacher, enforcing administration policies and rules is fundamental to creating a safe, respectful, and productive learning environment for all students. My approach is built on clear communication, consistency, and positive reinforcement.\n\nAt the beginning of the year, I dedicate time to explicitly teach and discuss our school's policies \u2013 from hallway expectations and playground rules to dress code and technology use \u2013 ensuring students understand the 'why' behind them using age-appropriate language and examples. We often role-play scenarios to solidify understanding.\n\nThroughout the day, I consistently model expected behaviors and provide frequent, specific praise for students who follow the rules. When a rule is not followed, I address it promptly and calmly, using redirection and logical, age-appropriate consequences as outlined in our school's discipline matrix. I ensure fairness and consistency in application across all students, fostering a sense of predictability and trust.\n\nFor persistent issues or more serious infractions, I maintain clear documentation, communicate proactively with parents to partner in addressing the behavior, and collaborate closely with administration to ensure appropriate support and follow-through, always aiming to guide students toward responsible choices and uphold our school's positive culture.\n</OUTPUT_TEXT>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.9523561917818509
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 87,
+      "candidatesTokenCount": 247,
+      "totalTokenCount": 1228,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 87
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 247
+        }
+      ],
+      "thoughtsTokenCount": 894
+    },
+    "modelVersion": "gemini-2.5-flash-preview-05-20",
+    "createTime": "2025-05-27T15:42:55.392296Z",
+    "responseId": "f901aOj4F_GX2PgP38qSuQs"
+  }
+}

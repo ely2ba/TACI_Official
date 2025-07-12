@@ -1,0 +1,49 @@
+{
+  "uid": "2e2364b7",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-4.1",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:55:53Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "cee4e4cced006a4842340997b6ed1bbff872b7344ee46acccdf523da2a41dd4c",
+  "response": {
+    "id": "chatcmpl-Bi1yttdq7iCbLfPpM8zi3I2L7d9L1",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Filing Pleadings with the Court Clerk\n\n1. **Prepare the Pleadings**\n   - Ensure the pleading is properly formatted according to local court rules.\n   - Include case caption, title, and all required information.\n   - Review for completeness, including signatures and exhibits.\n\n2. **Make Copies**\n   - Prepare the original and the required number of copies (typically one for the court, one for each party, and one for your records).\n\n3. **Complete the Proof of Service**\n   - Attach or prepare a proof of service or certificate of service, indicating how and when other parties were served.\n\n4. **Submit to the Court Clerk**\n   - File the pleadings in person at the courthouse or via the court\u2019s electronic filing system, if available.\n   - Pay any required filing fees or submit a fee waiver application if applicable.\n\n5. **Obtain a Filed-Stamped Copy**\n   - Request a conformed (file-stamped) copy from the clerk for your records.\n\n6. **Serve Other Parties**\n   - Ensure all other parties are served with the filed pleadings as required by law and court rules.\n\n7. **Maintain Records**\n   - Keep a copy of the filed pleading, proof of service, and any receipts or confirmations for your files.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749833747,
+    "model": "gpt-4.1-2025-04-14",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_b3f1157249",
+    "usage": {
+      "completion_tokens": 267,
+      "prompt_tokens": 112,
+      "total_tokens": 379,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

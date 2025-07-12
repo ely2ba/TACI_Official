@@ -1,0 +1,50 @@
+{
+  "uid": "3db6d320",
+  "variant": 2,
+  "temperature": 0.5,
+  "seed": 1,
+  "model": "o3-2025-04-16",
+  "modality": "TEXT",
+  "timestamp": "2025-06-21T20:39:36Z",
+  "commit_sha": "ac1698886e89fb01e65b6ca5c8e06e97f58dd0fa",
+  "prompt_sha256": "d18016c8317a6affa68d1e41ad66b11c8e90fbb032be3265670ac00645baf6d7",
+  "response": {
+    "id": "chatcmpl-BkzHXOj3gQRA8UNOhBvEyqSBCwTXM",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Guide to Investigating Facts, Researching Law, and Preparing Civil or Criminal Cases\n\n1. Define the Case Scope and Objectives  \n   1.1 Identify Parties: Plaintiff(s), Defendant(s), and any third parties.  \n   1.2 Clarify Legal Questions: What rights have allegedly been violated and what relief is sought?  \n   1.3 Set Deadlines: Note statutes of limitation, court\u2010imposed scheduling orders, and discovery cut-offs.\n\n2. Gather Preliminary Facts  \n   2.1 Client Interview or Intake: Obtain a detailed chronology, key documents, and potential witnesses.  \n   2.2 Opposing Party Background: Use public records (court dockets, property records, corporate filings).  \n   2.3 Incident Documentation: Police reports, medical records, photographs, videos, emails, contracts.\n\n3. Identify Causes of Action (or Defenses)  \n   3.1 Statutory Claims: Search federal and state codes (e.g., 42 U.S.C. \u00a71983, state consumer-protection acts).  \n   3.2 Common-Law Claims: Torts (negligence, defamation), contract breaches, equitable remedies.  \n   3.3 Procedural Defenses: Jurisdiction, venue, statute of limitations, failure to state a claim.\n\n4. Legal Research Strategy  \n   4.1 Primary Sources  \n       \u2022 Constitutions, statutes, regulations (use govinfo.gov, state legislature sites).  \n       \u2022 Case Law: Supreme Court, appellate, and trial court opinions (Google Scholar, CourtListener).  \n   4.2 Secondary Sources  \n       \u2022 Treatises (e.g., Prosser on Torts, Corbin on Contracts).  \n       \u2022 Practice Guides (Wright & Miller Federal Practice and Procedure).  \n       \u2022 Law Reviews and Restatements.  \n   4.3 Updating Authority  \n       \u2022 Shepardize/KeyCite to confirm cases are still good law.  \n       \u2022 Check for statutory amendments and pending regulations.\n\n5. Fact Investigation Techniques  \n   5.1 Public Records  \n       \u2022 Property deeds, UCC filings, liens, bankruptcy dockets (PACER).  \n       \u2022 Corporate records from Secretary of State databases.  \n   5.2 Social Media and Open-Source Intelligence (OSINT)  \n       \u2022 Facebook, LinkedIn, Twitter for admissions, photos, timelines. Preserve via screenshots or downloads.  \n   5.3 Formal Discovery (post-filing)  \n       \u2022 Interrogatories, document requests, requests for admission.  \n       \u2022 Depositions (fact and expert).  \n       \u2022 Subpoenas to non-parties (medical providers, employers, banks).  \n   5.4 Expert Consultation  \n       \u2022 Engage experts early (medical, engineering, financial) for causation and damages analysis.\n\n6. Document Management and Preservation  \n   6.1 Litigation Hold: Send to client and relevant custodians to prevent spoliation.  \n   6.2 E-Discovery Protocol: Agree on scope, format (ESI), search terms, and metadata preservation.  \n   6.3 Use Case Management Software: Tag documents, create issue codes, track privilege.\n\n7. Pleadings and Case-Preparation  \n   7.1 Draft Complaint or Answer  \n       \u2022 Include jurisdictional basis, factual allegations, specific causes of action, and prayer for relief.  \n   7.2 Motion Practice  \n       \u2022 Motions to dismiss, compel, or for summary judgment. Research controlling standards.  \n   7.3 Pre-Trial Submissions  \n       \u2022 Witness and exhibit lists, jury instructions, trial briefs, voir dire questions.\n\n8. Settlement Evaluation  \n   8.1 Damages Calculation: Economic (medical bills, lost wages) and noneconomic (pain and suffering).  \n   8.2 Liability Strength: Compare evidence to burden of proof.  \n   8.3 Alternative Dispute Resolution: Mediation, arbitration, early neutral evaluation.\n\n9. Ethical and Confidentiality Considerations  \n   9.1 Attorney-Client Privilege: Limit disclosure of communications.  \n   9.2 Unauthorized Practice of Law: Paralegals work under attorney supervision.  \n   9.3 Conflicts Check: Run potential parties through conflict database before engagement.\n\n10. Key Research Tools and Databases  \n    \u2022 PACER (federal dockets), RECAP, CourtListener.  \n    \u2022 State court portals and electronic filing systems.  \n    \u2022 Westlaw, Lexis, Bloomberg Law (subscription).  \n    \u2022 Free resources: Google Scholar, Cornell LII, govinfo.gov, Justia.  \n    \u2022 Specialized databases: EDGAR (securities filings), USPTO (patents and trademarks).\n\n11. Practical Tips  \n    \u2022 Keep a research log with citations, search strings, and notes.  \n    \u2022 Verify every factual assertion with at least one documentary source.  \n    \u2022 Calendar all deadlines immediately.  \n    \u2022 Maintain clear, organized files to streamline collaboration and avoid duplicative work.\n\n12. Consult Licensed Counsel  \n    This guide provides general information. Always verify jurisdiction-specific rules and consult a licensed attorney for legal advice tailored to any particular case.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1750538355,
+    "model": "o3-2025-04-16",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1288,
+      "prompt_tokens": 134,
+      "total_tokens": 1422,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 192,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

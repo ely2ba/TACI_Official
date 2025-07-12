@@ -1,0 +1,34 @@
+{
+  "uid": "dc35566b",
+  "variant": 1,
+  "modality": "TEXT",
+  "temperature": 0.5,
+  "model": "claude-3-opus-20240229",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T19:49:24.670951Z",
+  "commit_sha": "170b9e3e1d0d59846b1daa69da57be5d1db6306c",
+  "prompt_sha256": "765f66845fe94cc26e415321bd6986741705cf0896b53b9a639c6f287a20df02",
+  "response": {
+    "id": "msg_015JvRqiMb1PysM1xHWXB6T2",
+    "content": [
+      {
+        "citations": null,
+        "text": "Here is my attempt at a memo for preparing exhibits for trial:\n<OUTPUT_TEXT>\nTo: Litigation Team\nFrom: [Assistant's Name], Senior Paralegal\nRe: Exhibit Preparation for [Case Name] Trial\n\nIn preparation for the upcoming trial in [Case Name], I have organized the exhibits as follows:\n\n1. All exhibits have been numbered sequentially and labeled clearly with the exhibit number and a brief description. Exhibit stamps have been placed in the lower right corner of each exhibit.\n\n2. Copies of each exhibit have been made - one copy for the judge, one for opposing counsel, one for each member of our litigation team, and one for the witness binder. All copies have been checked for clarity and completeness.\n\n3. The original exhibits have been placed in labeled folders organized by number. These will be brought to court by [Attorney].\n\n4. A master exhibit list has been prepared listing each exhibit by number, with a description, the identity of the sponsoring witness, and a blank space to record its admission status at trial. Copies of the exhibit list are attached.\n\n5. Separate binders have been created for each witness containing the exhibits that witness will be asked to authenticate or testify about. Extra copies of each witness binder are available if needed.\n\nPlease let me know if any additional exhibit-related tasks are required prior to trial. I will be on hand during the trial to assist with exhibits as needed.\n</OUTPUT_TEXT>",
+        "type": "text"
+      }
+    ],
+    "model": "claude-3-opus-20240229",
+    "role": "assistant",
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "input_tokens": 120,
+      "output_tokens": 315,
+      "server_tool_use": null,
+      "service_tier": "standard"
+    }
+  }
+}

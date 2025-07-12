@@ -1,0 +1,46 @@
+{
+  "uid": "936aa3e5",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gemini-2.5-flash-preview-05-20",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T15:33:57.565829Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_TEXT>\n# Financial Calculations Performed\n\n1.  ### Simple Interest Calculation\n    *   **Principal (P):** $10,000.00\n    *   **Annual Interest Rate (R):** 5% (or 0.05)\n    *   **Time (T):** 3 years\n    *   **Formula:** Simple Interest = P \\* R \\* T\n    *   **Calculation:** $10,000.00 \\* 0.05 \\* 3 = $1,500.00\n    *   **Result:** The total simple interest accrued over 3 years is $1,500.00.\n\n2.  ### Total Amount Due (Loan Balance)\n    *   **Principal:** $10,000.00\n    *   **Total Simple Interest:** $1,500.00\n    *   **Formula:** Total Amount Due = Principal + Total Simple Interest\n    *   **Calculation:** $10,000.00 + $1,500.00 = $11,500.00\n    *   **Result:** The total amount due at the end of the 3-year term is $11,500.00.\n</OUTPUT_TEXT>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.17690461390727275
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 121,
+      "candidatesTokenCount": 296,
+      "totalTokenCount": 671,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 121
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 296
+        }
+      ],
+      "thoughtsTokenCount": 254
+    },
+    "modelVersion": "gemini-2.5-flash-preview-05-20",
+    "createTime": "2025-05-27T15:33:54.602941Z",
+    "responseId": "Yts1aL3mJLOb2PgPotLkyQs"
+  }
+}

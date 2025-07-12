@@ -1,0 +1,44 @@
+{
+    "compute_shipping_charges": [
+      "input[name*=space i], input[placeholder*=space i]",
+      "input[name*=charge i]",
+      "button:has-text(\"calculate\" i), button:has-text(\"compute\" i)",
+      "button:has-text(\"save\" i)"
+    ],
+  
+    "match_order_invoice": [
+      "table:has-text(\"order\" i) >> tr >> input[type=checkbox]",
+      "table:has-text(\"invoice\" i) >> tr >> input[type=checkbox]",
+      "button:has-text(\"match\" i)",
+      "button:has-text(\"record\" i)"
+    ],
+  
+    "accounting_data_entry": [
+      "input[name*=account i]",
+      "input[name*=amount i], input[type=number]",
+      "textarea[name*=memo i]",
+      "button:has-text(\"post\" i), button:has-text(\"save\" i)"
+    ],
+  
+    "inventory_supply_management": [
+      "input[placeholder*=search i]",
+      "button:has-text(\"add item\" i)",
+      "input[name*=quantity i]",
+      "button:has-text(\"order\" i), button:has-text(\"submit\" i)"
+    ],
+  
+    "medical_records_management": [
+      "input[name*=patient i]",
+      "button:has-text(\"open record\" i)",
+      "textarea[name*=notes i]",
+      "button:has-text(\"save\" i), button:has-text(\"update\" i)"
+    ],
+  
+    "report_generation": [
+      "select[name*=report i]",
+      "button:has-text(\"generate\" i)",
+      "button:has-text(\"export\" i)",
+      "a:has-text(\"download\" i)"
+    ]
+  }
+  

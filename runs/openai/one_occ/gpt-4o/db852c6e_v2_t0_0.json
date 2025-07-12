@@ -1,0 +1,49 @@
+{
+  "uid": "db852c6e",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gpt-4o",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:48:45Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "514e9d920cc9bb2199db9c49d64af653ef994d999979b37fdafb0ba8806e0c8e",
+  "response": {
+    "id": "chatcmpl-Bi1ryI0cMWP8Bawhn5NCM9poBqI5V",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Law Office Activity Coordination\n\n1. **Organize and Prioritize Tasks**\n   - Assess the urgency and importance of various tasks.\n   - Create a schedule or calendar to manage deadlines effectively.\n\n2. **Manage Communication**\n   - Coordinate with attorneys, clients, and court officials.\n   - Ensure all parties are informed of relevant updates and changes.\n\n3. **Oversee Document Preparation**\n   - Ensure all legal documents, including subpoenas, are accurately prepared.\n   - Verify that documents comply with legal standards and requirements.\n\n4. **Coordinate Delivery of Subpoenas**\n   - Arrange for the timely and proper delivery of subpoenas.\n   - Confirm receipt and maintain records of delivery.\n\n5. **Monitor Case Progress**\n   - Track the status of ongoing cases and legal proceedings.\n   - Update attorneys and clients on case developments.\n\n6. **Maintain Office Efficiency**\n   - Implement systems to improve workflow and reduce bottlenecks.\n   - Ensure that office resources are used effectively.\n\n7. **Ensure Compliance with Legal Procedures**\n   - Stay informed about changes in legal procedures and regulations.\n   - Ensure that all office activities adhere to current legal standards.\n\n8. **Facilitate Team Collaboration**\n   - Encourage communication and collaboration among legal staff.\n   - Organize meetings and briefings to align team efforts.\n\n9. **Handle Client Inquiries**\n   - Respond to client questions and concerns promptly.\n   - Provide information and updates as authorized by attorneys.\n\n10. **Evaluate and Improve Processes**\n    - Regularly review office procedures for efficiency.\n    - Implement improvements based on feedback and performance metrics.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749833318,
+    "model": "gpt-4o-2024-08-06",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_a288987b44",
+    "usage": {
+      "completion_tokens": 329,
+      "prompt_tokens": 118,
+      "total_tokens": 447,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

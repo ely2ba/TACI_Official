@@ -1,0 +1,49 @@
+{
+  "uid": "3a55f5ca",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:31:15Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "cd07b991d8a43f6f05d21bac3250f3274274b6b2d0d4cfbb115d60c578d9e5c7",
+  "response": {
+    "id": "chatcmpl-Bi1anXCURNOzXrNn3wFXQrhI1ydw8",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Legal Document Preparation\n\n1. **Legislation**\n   - Draft the proposed law, ensuring it is clear, concise, and unambiguous.\n   - Review the draft for any potential legal issues or conflicts with existing laws.\n   - Edit the draft as necessary, ensuring it meets all legal requirements.\n\n2. **Briefs**\n   - Prepare a summary of the facts, legal issues, and arguments in a case.\n   - Review the brief for accuracy and completeness.\n   - Edit the brief as necessary, ensuring it is persuasive and complies with court rules.\n\n3. **Pleadings**\n   - Draft the initial complaint or answer, setting out the parties, claims, defenses, and relief sought.\n   - Review the pleading for legal sufficiency and adherence to procedural rules.\n   - Edit the pleading as necessary, ensuring it is clear, concise, and persuasive.\n\n4. **Appeals**\n   - Prepare the notice of appeal and appellate brief, summarizing the case history, issues on appeal, and arguments.\n   - Review the appeal documents for accuracy, completeness, and compliance with appellate rules.\n   - Edit the appeal documents as necessary, ensuring they are persuasive and meet all legal and procedural requirements.\n\n5. **Wills**\n   - Draft the will, setting out the testator's wishes for the distribution of their estate.\n   - Review the will for legal validity and compliance with the testator's wishes.\n   - Edit the will as necessary, ensuring it is clear, unambiguous, and legally enforceable.\n\n6. **Contracts**\n   - Prepare the contract, setting out the parties, terms, and conditions of the agreement.\n   - Review the contract for legal sufficiency and fairness.\n   - Edit the contract as necessary, ensuring it is clear, concise, and legally enforceable.\n\n7. **Real Estate Closing Statements**\n   - Prepare the closing statement, summarizing the financial transactions involved in the real estate deal.\n   - Review the closing statement for accuracy and completeness.\n   - Edit the closing statement as necessary, ensuring it accurately reflects the deal and complies with all legal and financial requirements.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749832253,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 434,
+      "prompt_tokens": 136,
+      "total_tokens": 570,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

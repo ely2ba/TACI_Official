@@ -1,0 +1,34 @@
+{
+  "uid": "9cebf902",
+  "variant": 0,
+  "modality": "TEXT",
+  "temperature": 0.5,
+  "model": "claude-3-opus-20240229",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T19:50:53.654500Z",
+  "commit_sha": "170b9e3e1d0d59846b1daa69da57be5d1db6306c",
+  "prompt_sha256": "ad3b2009798c497d8e0645d027e20b7e84b6fd3417524fc220faca49b0cdd031",
+  "response": {
+    "id": "msg_014KGBajEZhU8g5a5MMT47jQ",
+    "content": [
+      {
+        "citations": null,
+        "text": "Here is my attempt at the task, wrapped in the specified output tags:\n\n<OUTPUT_TEXT>\nTo gather and analyze research data as a paralegal or legal assistant:\n\n1. Identify the legal issue or topic that needs to be researched based on the case or matter you are working on. Clarify the scope of research needed with the attorney.\n\n2. Locate relevant primary sources of law, including statutes, codes, court decisions, and regulations. Use legal databases like Westlaw or LexisNexis, or free resources like Cornell's Legal Information Institute. \n\n3. Find persuasive secondary sources that analyze the primary law, such as law review articles, legal encyclopedias, treatises, and practice guides. Check if your law firm or organization subscribes to secondary source databases.\n\n4. Analyze the sources you have gathered. Read carefully to understand the relevant legal rules, reasoning, and holdings. Take notes and begin to organize the research.\n\n5. Synthesize your research findings into an overview for the attorney, explaining the current state of the law and highlighting key primary and secondary sources. Prepare a formal legal memorandum if needed.\n\n6. Discuss the research with the attorney and incorporate any feedback. Be prepared to conduct additional research as the case or legal matter develops. Maintain organized files of all research.\n</OUTPUT_TEXT>",
+        "type": "text"
+      }
+    ],
+    "model": "claude-3-opus-20240229",
+    "role": "assistant",
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "input_tokens": 110,
+      "output_tokens": 293,
+      "server_tool_use": null,
+      "service_tier": "standard"
+    }
+  }
+}

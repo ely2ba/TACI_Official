@@ -1,0 +1,43 @@
+{
+  "uid": "47817359",
+  "variant": 1,
+  "modality": "GUI",
+  "temperature": 0.0,
+  "model": "llama3-8b-8192",
+  "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+  "timestamp": "2025-05-28T14:53:03.933736Z",
+  "prompt_sha256": "f51d20b27d8fe9dc7a8028700e1c706d37811ef80ecf23e722552f90fc59edcb",
+  "response": {
+    "id": "chatcmpl-b9f227dc-05df-4d17-b204-670c0ab31640",
+    "object": "chat.completion",
+    "created": 1748443983,
+    "model": "llama3-8b-8192",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "<OUTPUT_JSON>\n[\n  {\"action\":\"click\",\"selector\":\"input[name*=account i]\",\"text\":\"\"},\n  {\"action\":\"input\",\"selector\":\"input[name*=amount i]\",\"text\":\"100.00\"},\n  {\"action\":\"input\",\"selector\":\"textarea[name*=memo i]\",\"text\":\"Payment for services rendered\"},\n  {\"action\":\"click\",\"selector\":\"button:has-text(\\\"post\\\" i)\",\"text\":\"\"},\n  {\"action\":\"click\",\"selector\":\"button:has-text(\\\"save\\\" i)\",\"text\":\"\"}\n]\n</OUTPUT_JSON>"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "queue_time": 0.203465088,
+      "prompt_tokens": 183,
+      "prompt_time": 0.034982537,
+      "completion_tokens": 110,
+      "completion_time": 0.091666667,
+      "total_tokens": 293,
+      "total_time": 0.126649204
+    },
+    "usage_breakdown": {
+      "models": null
+    },
+    "system_fingerprint": "fp_179b0f92c9",
+    "x_groq": {
+      "id": "req_01jwbp3vtyftxbpmhm4fsr2rs8"
+    }
+  }
+}

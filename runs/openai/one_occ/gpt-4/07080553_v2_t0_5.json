@@ -1,0 +1,49 @@
+{
+  "uid": "07080553",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:36:25Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "40b67c629e9856ec273e3f4dfceabf50dd497228e11b942a701560af1d835696",
+  "response": {
+    "id": "chatcmpl-Bi1fsr5TmKMbAkYF3iSLSWxm8YYPA",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Legal Document Preparation and Organization\n\n1. **Affidavit Preparation**\n    1.1. Identify the purpose of the affidavit and gather all necessary information.\n    1.2. Draft the heading and caption of the affidavit, including the name of the court, the names of all parties involved, and the case number.\n    1.3. Write a clear and concise statement of facts. Each fact should be stated in a separate paragraph and numbered.\n    1.4. Include a sworn statement of truth, a jurat, at the end of the document.\n    1.5. Review the affidavit for accuracy and completeness before it is signed.\n\n2. **Legal Correspondence Preparation**\n    2.1. Identify the recipient and the purpose of the correspondence.\n    2.2. Draft the heading, which includes the sender's and recipient's addresses, the date, and a re line that summarizes the subject of the letter.\n    2.3. Write a clear and concise body, organized into introduction, discussion, and conclusion.\n    2.4. Include a proper closing and the sender's name and title.\n    2.5. Proofread the letter for clarity, grammar, and punctuation errors before sending.\n\n3. **Document Organization and Maintenance**\n    3.1. Create a filing system, either paper or electronic, that is logical and easily accessible.\n    3.2. File documents in a timely manner to ensure they are easily found when needed.\n    3.3. Regularly update and maintain the filing system to ensure its efficiency.\n    3.4. Secure all files to maintain client confidentiality and comply with legal standards.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749832568,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 354,
+      "prompt_tokens": 130,
+      "total_tokens": 484,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "uid": "936aa3e5",
+  "variant": 1,
+  "modality": "TEXT",
+  "temperature": 0.5,
+  "model": "llama3-8b-8192",
+  "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+  "timestamp": "2025-05-28T14:57:36.602335Z",
+  "prompt_sha256": "32523cb04b5b680be40f92a3482810c3b5f50c7a542aa28503b9f10a2e53615a",
+  "response": {
+    "id": "chatcmpl-97d44a0b-e2d3-4f0f-b771-9570e3085c41",
+    "object": "chat.completion",
+    "created": 1748444256,
+    "model": "llama3-8b-8192",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "<OUTPUT_TEXT>\nTo: [Client's Name]\n\nFrom: [Your Name]\nDate: [Date]\n\nSubject: Financial Calculations for [Client's Name]\n\nDear [Client's Name],\n\nAs per our previous discussions, we have calculated the following financial amounts:\n\n1. Amount Due: $10,000\n2. Interest Charge: 5% of $10,000 = $500\n3. Balance: $10,000 - $500 = $9,500\n4. Discount: 2% of $9,500 = $190\n5. Equity: $9,500 - $190 = $9,310\n6. Principal: $10,000 - $500 - $190 = $9,310\n\nPlease find the above calculations for your reference. If you have any questions or concerns, please do not hesitate to contact us.\n\nBest regards,\n\n[Your Name]\n\nBookkeeping Accounting And Auditing Clerk\n</OUTPUT_TEXT>"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "queue_time": 0.16254085,
+      "prompt_tokens": 129,
+      "prompt_time": 0.01672044,
+      "completion_tokens": 195,
+      "completion_time": 0.1625,
+      "total_tokens": 324,
+      "total_time": 0.17922044
+    },
+    "usage_breakdown": {
+      "models": null
+    },
+    "system_fingerprint": "fp_179b0f92c9",
+    "x_groq": {
+      "id": "req_01jwbpc63te579jdjevcdjcdq0"
+    }
+  }
+}

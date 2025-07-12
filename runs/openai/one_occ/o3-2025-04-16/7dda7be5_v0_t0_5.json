@@ -1,0 +1,50 @@
+{
+  "uid": "7dda7be5",
+  "variant": 0,
+  "temperature": 0.5,
+  "seed": 1,
+  "model": "o3-2025-04-16",
+  "modality": "TEXT",
+  "timestamp": "2025-06-21T20:48:44Z",
+  "commit_sha": "ac1698886e89fb01e65b6ca5c8e06e97f58dd0fa",
+  "prompt_sha256": "f13d2c99c39a476287c57f6efceaef8cfa4d97a531c3e023231a94c1b7e1e2bc",
+  "response": {
+    "id": "chatcmpl-BkzQA8oI3SwWYJXSXgCVl3OxYmYaB",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nBelow is a practical, step-by-step guide a paralegal or legal assistant can use to appraise and inventory real and personal property for estate-planning purposes. Adjust the sequence and depth as dictated by jurisdictional rules, the client\u2019s goals, and the supervising attorney\u2019s instructions.\n\n1. Clarify Scope and Objectives  \n   \u2022 Identify whether the inventory is for a will, revocable trust, irrevocable trust, gift planning, or anticipated probate filing.  \n   \u2022 Determine valuation date (today, projected date of death, or gift date).  \n   \u2022 Confirm applicable tax thresholds (e.g., federal estate-tax exemption, state inheritance or estate tax, gift-tax exclusion).\n\n2. Gather Core Documents and Data  \n   A. Real Property  \n      \u2013 Deeds, title policies, recent closing statements, property-tax bills, mortgage statements, surveys, HOA documents, and rental agreements.  \n   B. Personal Property  \n      \u2013 Bank, brokerage, and retirement statements; life-insurance policies; vehicle titles; business entity documents; promissory notes; intellectual-property registrations; collectibles receipts; prior appraisals; cryptocurrency keys; digital-asset account logs; safe-deposit box inventory.  \n   C. Supporting Paperwork  \n      \u2013 Prior gift tax returns (Form 709), estate-tax returns (Form 706), financial statements, and household insurance schedules (often list jewelry, art).\n\n3. Create Preliminary Asset List  \n   \u2022 Separate into Real Property vs. Tangible Personal Property vs. Intangible Personal Property.  \n   \u2022 Record ownership type (sole, joint tenancy, tenancy-in-common, community, TOD/POD, trust-owned).  \n   \u2022 Note encumbrances (mortgages, liens, UCC filings) and beneficiary designations.\n\n4. Conduct Physical and Digital Inspections  \n   \u2022 Visit real-estate sites; photograph exterior/interior, note condition, upgrades, environmental issues.  \n   \u2022 For personal property, photograph high-value items (art, antiques, firearms, vehicles).  \n   \u2022 Inventory digital assets: list platforms, user names, location of access credentials.  \n   \u2022 Secure vulnerable items (jewelry, collectibles, firearms) in a locked safe or bank box and document chain of custody.\n\n5. Obtain Valuations (Fair Market Value)  \n   A. Real Property  \n      \u2013 Engage a licensed real-estate appraiser; follow USPAP standards.  \n      \u2013 Supplement with county tax assessment and comparative market analysis (CMA) for reasonableness.  \n   B. Tangible Personal Property  \n      \u2013 Hire qualified appraisers for art, antiques, jewelry, or specialty items; reference IRS Publication 561 for appraisal standards.  \n      \u2013 Vehicles: Kelley Blue Book, NADA guides, or certified auto appraisal.  \n      \u2013 Boats/aircraft: use specialty valuation guides.  \n   C. Intangible Personal Property  \n      \u2013 Marketable securities: closing price on valuation date (use IRS alternate valuation method if authorized).  \n      \u2013 Closely held business interests: accredited business appraiser using accepted methodologies (income, market, asset approach).  \n      \u2013 Life insurance: compute interpolated terminal reserve plus unearned premiums (if whole life).  \n      \u2013 Retirement accounts: account balance on valuation date.  \n      \u2013 Cryptocurrency: recorded exchange value on valuation date; document exchange source.  \n   \u2022 Keep written appraisal reports with credentials, methodology, assumptions, and valuation date.\n\n6. Compile Master Inventory Spreadsheet  \n   Columns: Asset category | Description | Owner | Cost basis | FMV on valuation date | Source of value | Encumbrance | Net value | Location | Notes.  \n   \u2022 Link each entry to supporting documents (scan and label PDFs).  \n   \u2022 Track subtotal by category and grand totals; flag items requiring periodic updates (e.g., fluctuating securities).\n\n7. Reconcile, Review, and Correct  \n   \u2022 Verify legal descriptions, serial numbers, VINs, and policy numbers.  \n   \u2022 Cross-check ownership against estate-plan documents; alert attorney to titling conflicts (e.g., TOD deed vs. will disposition).  \n   \u2022 Adjust inventory if new assets or liabilities emerge.\n\n8. Prepare Formal Inventory Report  \n   \u2022 Follow format required by governing probate code or trust agreement (some states mandate statutory language).  \n   \u2022 Include schedules for separate or community property where relevant.  \n   \u2022 Attach sworn verification page for executor/trustee if needed.  \n   \u2022 Provide summary sheets sorted by liquidity to assist in future distribution or tax-payment planning.\n\n9. Coordinate With Tax, Insurance, and Planning Teams  \n   \u2022 Supply valuations to CPA for potential Form 706, 709, or state returns.  \n   \u2022 Review insurance coverage adequacy; recommend riders or increased limits if FMV exceeds current policies.  \n   \u2022 Assist attorney in drafting or updating dispositive provisions, funding revocable trusts, or equalizing gifts.\n\n10. Maintain and Update  \n   \u2022 Store master inventory and appraisals in secure, backed-up digital repository and a fire-proof physical file.  \n   \u2022 Schedule periodic reviews (annually or upon major acquisition/disposition).  \n   \u2022 Update client on significant value changes and confirm whether estate plan remains tax-efficient.\n\nKey References & Resources  \n   \u2022 Uniform Probate Code \u00a7\u00a7 3-706 & 3-707 (inventory duties).  \n   \u2022 IRS Publication 561 (Determining the Value of Donated Property).  \n   \u2022 Internal Revenue Code \u00a7\u00a7 2031\u20132033 (valuation rules for gross estate).  \n   \u2022 USPAP (Uniform Standards of Professional Appraisal Practice).  \n   \u2022 American Society of Appraisers (ASA), International Society of Appraisers (ISA).  \n   \u2022 State-specific estate-tax statutes and probate rules.\n\nBest Practices and Compliance Notes  \n   \u2022 Maintain detailed time records and log all third-party costs for client billing and probate court accounting.  \n   \u2022 Obtain signed engagement letters for outside appraisers specifying fee structure and confidentiality.  \n   \u2022 Keep client communications privileged; do not provide legal advice beyond authorized scope.  \n   \u2022 Stay alert to potential conflicts, e.g., self-dealing by fiduciaries or undervaluation of assets to reduce taxes.\n\nBy following this structured workflow, a paralegal can efficiently gather, verify, and document the information the attorney needs to draft estate-planning instruments, satisfy probate requirements, and minimize tax exposure.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1750538890,
+    "model": "o3-2025-04-16",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1710,
+      "prompt_tokens": 94,
+      "total_tokens": 1804,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

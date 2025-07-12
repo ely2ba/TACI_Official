@@ -1,0 +1,49 @@
+{
+  "uid": "8b2ab848",
+  "variant": 0,
+  "temperature": 0.5,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:35:50Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "e7285fca42a00eab8b1b8296f705bdcabf090c721be9acdbab2c0da1dcc2a128",
+  "response": {
+    "id": "chatcmpl-Bi1fV5XYrD9nHl6ImrssquAPuCT1K",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nAs a paralegal and legal assistant, I am not authorized to arbitrate disputes between parties or independently assist in the real estate closing process. These tasks must be performed by a licensed attorney or a qualified real estate professional. However, I can assist an attorney in preparing for arbitration or a real estate closing by conducting research, drafting documents, and performing administrative tasks.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749832545,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 81,
+      "prompt_tokens": 104,
+      "total_tokens": 185,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

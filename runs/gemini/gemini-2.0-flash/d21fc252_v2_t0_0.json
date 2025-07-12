@@ -1,0 +1,49 @@
+{
+  "uid": "d21fc252",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gemini-2.0-flash",
+  "modality": "VISION",
+  "timestamp": "2025-05-27T13:09:25.777103Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "The task is to detect anomalies in shipment contents by comparing them with records. In this case, the images show a capsule. Without any records to compare against, I cannot determine if there is an anomaly. Therefore, I will return the normal stub.\n<OUTPUT_JSON>{\"finding\":\"normal\",\"image_id\":null,\"bbox\":null,\"explanation\":\"\"}</OUTPUT_JSON>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.22406480251214442
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 679,
+      "candidatesTokenCount": 78,
+      "totalTokenCount": 757,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 516
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 163
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 78
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:09:24.870886Z",
+    "responseId": "hLk1aOaTNd7bgLUP8cv60A0"
+  }
+}

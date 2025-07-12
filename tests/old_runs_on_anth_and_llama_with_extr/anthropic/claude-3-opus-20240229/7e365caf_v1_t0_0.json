@@ -1,0 +1,15 @@
+{
+  "uid": "7e365caf",
+  "variant": 1,
+  "modality": "TEXT",
+  "temperature": 0.0,
+  "model": "claude-3-opus-20240229",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T17:53:47.964462Z",
+  "commit_sha": "98b2eb0f130d4d32e78707f77c440a8f68e4103c",
+  "prompt_sha256": "b7e99fd88cdddb7b23e66f8729ac9433382215e8c4892561808868fbc6e88bca",
+  "response": {
+    "raw": "Here is my response:\n<OUTPUT_TEXT>\nTo support the development of training materials and technical manuals:\n• Gather input from subject matter experts on key processes, procedures, and technical information that needs to be documented\n• Organize content in a clear, logical flow, breaking it into manageable sections and subsections\n• Use simple language, avoiding jargon and acronyms where possible; define key terms\n• Incorporate visuals like diagrams, flowcharts, and screenshots to illustrate complex concepts\n• Develop hands-on exercises and knowledge checks to reinforce learning\n• Have the drafts reviewed by both experts and novices to validate technical accuracy and ease of understanding\n• Maintain the materials over time, updating as needed to reflect process changes or new information\n</OUTPUT_TEXT>",
+    "extracted": "<OUTPUT_TEXT>\nTo support the development of training materials and technical manuals:\n• Gather input from subject matter experts on key processes, procedures, and technical information that needs to be documented\n• Organize content in a clear, logical flow, breaking it into manageable sections and subsections\n• Use simple language, avoiding jargon and acronyms where possible; define key terms\n• Incorporate visuals like diagrams, flowcharts, and screenshots to illustrate complex concepts\n• Develop hands-on exercises and knowledge checks to reinforce learning\n• Have the drafts reviewed by both experts and novices to validate technical accuracy and ease of understanding\n• Maintain the materials over time, updating as needed to reflect process changes or new information\n</OUTPUT_TEXT>"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "uid": "1b64c419",
+  "variant": 2,
+  "modality": "TEXT",
+  "temperature": 0.5,
+  "model": "claude-3-opus-20240229",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T19:47:30.299984Z",
+  "commit_sha": "170b9e3e1d0d59846b1daa69da57be5d1db6306c",
+  "prompt_sha256": "40e5184f7a2d407496471943452b87d5c376fad2cc37b036f887fb583a7af3c2",
+  "response": {
+    "id": "msg_01MAy4zJTvQAGBLhLbAECkF3",
+    "content": [
+      {
+        "citations": null,
+        "text": "Here is my response, formatted as requested:\n\n<OUTPUT_TEXT>\n<h1>Answering Telephones and Directing Calls</h1>\n\n1. Greet callers in a friendly, professional manner\n2. Ask for the caller's name and the purpose of their call\n3. Look up the appropriate staff member to handle the call based on the caller's needs\n4. Transfer the call to the correct staff member\n5. If the staff member is unavailable, take a message with the caller's name, number, and reason for calling\n6. Relay messages to staff in a timely manner\n7. Keep a log of incoming calls for record-keeping purposes\n</OUTPUT_TEXT>",
+        "type": "text"
+      }
+    ],
+    "model": "claude-3-opus-20240229",
+    "role": "assistant",
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "input_tokens": 121,
+      "output_tokens": 156,
+      "server_tool_use": null,
+      "service_tier": "standard"
+    }
+  }
+}

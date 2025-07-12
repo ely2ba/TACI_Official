@@ -1,0 +1,50 @@
+{
+  "uid": "3a55f5ca",
+  "variant": 2,
+  "temperature": 0.0,
+  "seed": 0,
+  "model": "o3-2025-04-16",
+  "modality": "TEXT",
+  "timestamp": "2025-06-21T20:30:47Z",
+  "commit_sha": "ac1698886e89fb01e65b6ca5c8e06e97f58dd0fa",
+  "prompt_sha256": "cd07b991d8a43f6f05d21bac3250f3274274b6b2d0d4cfbb115d60c578d9e5c7",
+  "response": {
+    "id": "chatcmpl-Bkz9EXaP2IRSglGE2i7po79mILCNz",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Legal Document Assistance\n\n1. Purpose of Request  \n   You have asked for assistance in preparing, editing, or reviewing a legal document. To provide an accurate and compliant work-product, I need to know the type of document and pertinent details.\n\n2. Information Needed  \n   a. Document type (e.g., contract, lease, will, complaint, answer, motion, appellate brief, real-estate closing statement, legislation, etc.)  \n   b. Jurisdiction(s) that will govern the document (state, federal, or foreign).  \n   c. Parties\u2019 names and roles (use placeholders if anonymity is required).  \n   d. Key facts, dates, and dollar amounts.  \n   e. Specific objectives or clauses you want included, revised, or removed.  \n   f. Deadline or filing date, if applicable.  \n   g. Any style guide or template the document must follow.\n\n3. Confidentiality & Privilege Notice  \n   Do not share privileged or highly sensitive information. Provide only the details necessary for drafting; placeholders can be used and replaced later.\n\n4. Next Steps  \n   Please supply the requested information. Once received, I will:  \n   i. Draft or revise the document.  \n   ii. Insert tailored clauses and citations.  \n   iii. Include comments on risk, compliance, and potential improvements.  \n   iv. Return the document in your desired format (Word, PDF outline, or plain text).\n\n5. Disclaimer  \n   I am a paralegal assistant, not a licensed attorney. My work should be reviewed by qualified counsel before reliance or filing.\n\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1750537840,
+    "model": "o3-2025-04-16",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 413,
+      "prompt_tokens": 133,
+      "total_tokens": 546,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 64,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

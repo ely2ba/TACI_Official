@@ -1,0 +1,43 @@
+{
+  "uid": "85a846ff",
+  "variant": 0,
+  "modality": "GUI",
+  "temperature": 0.5,
+  "model": "llama3-8b-8192",
+  "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+  "timestamp": "2025-05-28T14:52:41.848115Z",
+  "prompt_sha256": "c43c0d7ade90bb92ec5df67717b756f049f69b04bf2df53a3ac4ecad2f82fcca",
+  "response": {
+    "id": "chatcmpl-fb4a851d-cdc7-49ad-a5c1-8b80c65a4463",
+    "object": "chat.completion",
+    "created": 1748443961,
+    "model": "llama3-8b-8192",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "<OUTPUT_JSON>\n[\n  {\"action\": \"click\", \"selector\": \"input[name*=account i]\", \"text\": \"\"},\n  {\"action\": \"type\", \"selector\": \"input[name*=amount i]\", \"text\": \"\"},\n  {\"action\": \"type\", \"selector\": \"textarea[name*=memo i]\", \"text\": \"\"},\n  {\"action\": \"click\", \"selector\": \"button:has-text(\\\"post\\\" i)\", \"text\": \"\"},\n  {\"action\": \"click\", \"selector\": \"button:has-text(\\\"save\\\" i)\", \"text\": \"\"}\n]\n</OUTPUT_JSON>"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "queue_time": 0.71562506,
+      "prompt_tokens": 178,
+      "prompt_time": 0.034348429,
+      "completion_tokens": 122,
+      "completion_time": 0.101666667,
+      "total_tokens": 300,
+      "total_time": 0.136015096
+    },
+    "usage_breakdown": {
+      "models": null
+    },
+    "system_fingerprint": "fp_179b0f92c9",
+    "x_groq": {
+      "id": "req_01jwbp35rvf4tavs0qfc4v2b73"
+    }
+  }
+}

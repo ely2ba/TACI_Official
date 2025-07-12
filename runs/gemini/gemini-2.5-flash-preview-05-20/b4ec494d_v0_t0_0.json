@@ -1,0 +1,46 @@
+{
+  "uid": "b4ec494d",
+  "variant": 0,
+  "temperature": 0.0,
+  "model": "gemini-2.5-flash-preview-05-20",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T15:36:48.295004Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_TEXT>\nUnderstood. I will ensure all unresolved customer grievances are promptly and accurately referred to the appropriate designated departments for thorough investigation and resolution, maintaining clear communication channels throughout the process.\n</OUTPUT_TEXT>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -2.4131342569986978
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 86,
+      "candidatesTokenCount": 45,
+      "totalTokenCount": 587,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 86
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 45
+        }
+      ],
+      "thoughtsTokenCount": 456
+    },
+    "modelVersion": "gemini-2.5-flash-preview-05-20",
+    "createTime": "2025-05-27T15:36:44.657004Z",
+    "responseId": "DNw1aOyMKKCqmecP-pa3iAo"
+  }
+}

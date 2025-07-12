@@ -1,0 +1,49 @@
+{
+  "uid": "dc35566b",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gpt-3.5-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:00:50Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "26edbd2e16ae6cdd1e49d23da961fd220dd9bcf754598e12a7e36824c4246f40",
+  "response": {
+    "id": "chatcmpl-BaUjXmxc9u1JPutwgtD9yXVD2WiIZ",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Trial Preparation Tasks\n\n1. **Organize Exhibits**\n   - Gather all relevant exhibits for the trial.\n   - Arrange exhibits in a logical order for presentation.\n   - Ensure all exhibits are properly labeled and indexed for easy reference during the trial.\n\n2. **Review Case Documents**\n   - Familiarize yourself with all case documents, including pleadings, motions, and evidence.\n   - Highlight key points and important details that may be relevant during the trial.\n\n3. **Prepare Witness Lists**\n   - Compile a list of witnesses who will be called to testify at the trial.\n   - Ensure contact information for each witness is up to date.\n   - Coordinate with attorneys to schedule witness preparation sessions.\n\n4. **Coordinate with Attorneys**\n   - Communicate regularly with attorneys to discuss trial strategy and any last-minute preparations.\n   - Assist attorneys in preparing trial briefs, motions, and other necessary documents.\n\n5. **Create Trial Binders**\n   - Assemble trial binders containing all relevant documents, exhibits, and witness statements.\n   - Organize binders in a way that facilitates easy access to information during the trial.\n\n6. **Prepare Courtroom Technology**\n   - Test and familiarize yourself with any technology that will be used during the trial, such as presentation software or audiovisual equipment.\n   - Ensure all technology is in working order and ready for use in the courtroom.\n\n7. **Coordinate Logistics**\n   - Confirm trial dates, times, and locations with the court.\n   - Arrange for transportation and accommodations for witnesses, attorneys, and other trial participants if necessary.\n\n8. **Finalize Trial Preparation**\n   - Conduct a final review of all trial materials to ensure everything is in order.\n   - Address any last-minute issues or concerns that may arise before the trial begins.\n\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748037647,
+    "model": "gpt-3.5-turbo-0125",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 370,
+      "prompt_tokens": 84,
+      "total_tokens": 454,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "uid": "07080553",
+  "variant": 0,
+  "temperature": 0.5,
+  "model": "gemini-2.5-flash-preview-05-20",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T15:42:17.410889Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_TEXT>\nTASK \u2013 Prepare affidavits or other documents, such as legal correspondence, and organize and maintain documents in paper or electronic filing system.\n</OUTPUT_TEXT>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "citationMetadata": {
+          "citations": [
+            {
+              "startIndex": 159,
+              "endIndex": 300,
+              "uri": "https://www.qwikresume.com/resume-samples/legal-assistant/"
+            },
+            {
+              "startIndex": 2634,
+              "endIndex": 2775,
+              "uri": "https://www.qwikresume.com/resume-samples/legal-assistant/"
+            },
+            {
+              "startIndex": 3655,
+              "endIndex": 3796,
+              "uri": "https://www.qwikresume.com/resume-samples/legal-assistant/"
+            },
+            {
+              "startIndex": 4546,
+              "endIndex": 4687,
+              "uri": "https://www.qwikresume.com/resume-samples/legal-assistant/"
+            },
+            {
+              "startIndex": 6972,
+              "endIndex": 7113,
+              "uri": "https://www.qwikresume.com/resume-samples/legal-assistant/"
+            },
+            {
+              "startIndex": 7766,
+              "endIndex": 7907,
+              "uri": "https://www.qwikresume.com/resume-samples/legal-assistant/"
+            }
+          ]
+        },
+        "avgLogprobs": -16.409923656566722
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 100,
+      "candidatesTokenCount": 37,
+      "totalTokenCount": 1934,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 100
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 37
+        }
+      ],
+      "thoughtsTokenCount": 1797
+    },
+    "modelVersion": "gemini-2.5-flash-preview-05-20",
+    "createTime": "2025-05-27T15:42:05.043786Z",
+    "responseId": "Td01aIrWAqLkgLUPlsyasAI"
+  }
+}

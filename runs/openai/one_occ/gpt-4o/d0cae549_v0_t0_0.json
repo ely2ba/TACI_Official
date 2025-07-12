@@ -1,0 +1,49 @@
+{
+  "uid": "d0cae549",
+  "variant": 0,
+  "temperature": 0.0,
+  "model": "gpt-4o",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:48:35Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "c8f9de8a2b48e1c47cf41cc0a44a96ee9a11901e8e5945edafca2f2382dd69f6",
+  "response": {
+    "id": "chatcmpl-Bi1rscmcSW0VUL9iMs2Yja1tFNxhK",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>To call upon witnesses to testify at a hearing, you should first identify the witnesses whose testimony is relevant to the case. Then, issue subpoenas or formal requests for their appearance, ensuring compliance with legal procedures and deadlines. Coordinate with the witnesses to confirm their availability and provide them with details about the hearing, including date, time, and location. Prepare them for their testimony by discussing the topics they will cover and any documents they may need to bring. Finally, ensure that all logistical arrangements, such as travel and accommodations, are in place if necessary.</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749833312,
+    "model": "gpt-4o-2024-08-06",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_a288987b44",
+    "usage": {
+      "completion_tokens": 117,
+      "prompt_tokens": 91,
+      "total_tokens": 208,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

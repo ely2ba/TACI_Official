@@ -1,0 +1,49 @@
+{
+  "uid": "07080553",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gpt-3.5-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:00:15Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "acb24bee05a0f7b8bea5c38e5a76f68132b2b74e13fdae3608ba58b711cf52c6",
+  "response": {
+    "id": "chatcmpl-BaUiy4nUo2CIF011CLM3PzQkFZjkM",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Affidavit Preparation and Document Organization\n\n1. **Affidavit Preparation**\n   - Gather all necessary information and details for the affidavit.\n   - Draft the affidavit in a clear and concise manner, ensuring all facts are accurately represented.\n   - Include a statement of truth and have the affiant sign in the presence of a notary public.\n   - Review the affidavit for accuracy and completeness before finalizing.\n\n2. **Legal Correspondence**\n   - Prepare legal correspondence such as letters, memos, and emails as required.\n   - Ensure all correspondence is professional, clear, and in compliance with legal standards.\n   - Address correspondence to the appropriate parties and maintain a record of all outgoing communications.\n\n3. **Document Organization**\n   - Establish and maintain a systematic filing system for both paper and electronic documents.\n   - Organize documents according to case or client, making retrieval easy and efficient.\n   - Regularly update and maintain the filing system to ensure all documents are properly stored and accessible.\n\n4. **Review and Revision**\n   - Conduct regular reviews of documents to identify any errors or inconsistencies.\n   - Make necessary revisions to documents to ensure accuracy and compliance with legal requirements.\n   - Seek feedback from supervising attorneys or legal professionals to improve document quality.\n\n5. **Confidentiality and Security**\n   - Maintain strict confidentiality of all documents and information in accordance with legal and ethical standards.\n   - Implement security measures to protect sensitive documents from unauthorized access or disclosure.\n   - Limit access to confidential documents to authorized personnel only.\n\n6. **Record Keeping**\n   - Keep detailed records of all documents prepared, filed, and maintained.\n   - Track deadlines, court dates, and other important information related to documents.\n   - Ensure all records are up to date and easily accessible for reference.\n\n7. **Professional Development**\n   - Stay informed about changes in legal procedures, regulations, and best practices related to document preparation and organization.\n   - Participate in training programs or continuing education to enhance skills and knowledge in the legal field.\n   - Seek opportunities for professional growth and advancement within the legal profession.\n\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748037612,
+    "model": "gpt-3.5-turbo-0125",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 429,
+      "prompt_tokens": 98,
+      "total_tokens": 527,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

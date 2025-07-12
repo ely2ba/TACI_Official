@@ -1,0 +1,49 @@
+{
+  "uid": "dc35566b",
+  "variant": 1,
+  "temperature": 0.0,
+  "model": "gpt-3.5-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:27:39Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "765f66845fe94cc26e415321bd6986741705cf0896b53b9a639c6f287a20df02",
+  "response": {
+    "id": "chatcmpl-Bi1XeOqu0OX1xPrtWhvfxvUEjtn60",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>As the senior Paralegal and Legal Assistant, I will ensure all exhibits are properly organized and ready for trial. This includes labeling each exhibit, creating a detailed exhibit list, and coordinating with the legal team to ensure all necessary documents are included. I will also assist in preparing witness binders and coordinating with expert witnesses to ensure they are ready to testify. Additionally, I will review all trial materials to ensure accuracy and completeness before the trial begins.</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749832058,
+    "model": "gpt-3.5-turbo-0125",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 96,
+      "prompt_tokens": 113,
+      "total_tokens": 209,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

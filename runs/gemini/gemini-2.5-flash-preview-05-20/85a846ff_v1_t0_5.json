@@ -1,0 +1,46 @@
+{
+  "uid": "85a846ff",
+  "variant": 1,
+  "temperature": 0.5,
+  "model": "gemini-2.5-flash-preview-05-20",
+  "modality": "GUI",
+  "timestamp": "2025-05-27T15:26:14.841285Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_JSON>[{\"action\":\"type\",\"selector\":\"input[name*=account i]\",\"text\":\"PatientID00123\"}, {\"action\":\"type\",\"selector\":\"input[name*=amount i], input[type=number]\",\"text\":\"0.00\"}, {\"action\":\"type\",\"selector\":\"textarea[name*=memo i]\",\"text\":\"Medical record updated: New lab results from 2023-10-26 added to patient file. Correspondence filed: Referral letter from Dr. Smith received and scanned.\"}, {\"action\":\"click\",\"selector\":\"button:has-text(\\\"post\\\" i), button:has-text(\\\"save\\\" i)\",\"text\":\"\"}]</OUTPUT_JSON>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -1.5749429321289063
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 177,
+      "candidatesTokenCount": 150,
+      "totalTokenCount": 1295,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 177
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 150
+        }
+      ],
+      "thoughtsTokenCount": 968
+    },
+    "modelVersion": "gemini-2.5-flash-preview-05-20",
+    "createTime": "2025-05-27T15:26:07.929973Z",
+    "responseId": "j9k1aLXhOO6U2PgPqduJmAs"
+  }
+}

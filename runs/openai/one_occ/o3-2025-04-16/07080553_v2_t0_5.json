@@ -1,0 +1,50 @@
+{
+  "uid": "07080553",
+  "variant": 2,
+  "temperature": 0.5,
+  "seed": 1,
+  "model": "o3-2025-04-16",
+  "modality": "TEXT",
+  "timestamp": "2025-06-21T20:44:17Z",
+  "commit_sha": "ac1698886e89fb01e65b6ca5c8e06e97f58dd0fa",
+  "prompt_sha256": "40b67c629e9856ec273e3f4dfceabf50dd497228e11b942a701560af1d835696",
+  "response": {
+    "id": "chatcmpl-BkzM23DAYbQ2z7kLArrFB9mntGUeD",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Affidavit Preparation & Comprehensive Document Management Guide\n\n1. Scope & Purpose  \n   Provide paralegals, legal assistants, and support staff with practical instructions, checklists, and templates for:  \n   \u2022 Drafting affidavits and other legal correspondence.  \n   \u2022 Establishing and maintaining a reliable paper and electronic filing system.  \n\n2. Affidavit Drafting Workflow  \n   2.1 Intake & Information Gathering  \n   \u2011 Interview affiant; use a standardized questionnaire capturing: personal details, chronology of events, facts within personal knowledge, and supporting exhibits.  \n   2.2 Drafting Basics  \n   \u2011 Caption: court name, division, case number, parties.  \n   \u2011 Title: \u201cAffidavit of [Name].\u201d  \n   \u2011 Introduction: identify affiant, capacity, and statement of oath.  \n   \u2011 Numbered Paragraphs: one fact per paragraph; no legal arguments.  \n   \u2011 Attach Exhibits: label \u201cExhibit A,\u201d \u201cExhibit B,\u201d etc.; reference in body.  \n   \u2011 Jurat: state, county, date, notary signature, seal, and expiration.  \n   2.3 Review & Revision  \n   \u2011 Verify accuracy with affiant.  \n   \u2011 Spell-check; confirm dates, names, and exhibit labels.  \n   \u2011 Circulate to supervising attorney for substantive review.  \n   2.4 Execution & Notarization  \n   \u2011 Schedule signing; affiant must present valid ID.  \n   \u2011 Notary certifies oath/affirmation; affiant signs in notary\u2019s presence.  \n   2.5 Finalization  \n   \u2011 Insert notarized page; paginate \u201cPage X of Y.\u201d  \n   \u2011 Convert to PDF for e-filing; produce two ink-signed originals for paper filing.  \n\n3. Template: Standard Affidavit  \n   (Editable Word document recommended)  \n   ______________________________  \n   IN THE [COURT NAME] COURT OF [COUNTY], [STATE]  \n   [Plaintiff],  \n   v.  \n   [Defendant].  \n   Case No. _______  \n   AFFIDAVIT OF [NAME]  \n   1. I, [Name], am over 18 years of age and competent to testify.  \n   2. \u2026  \n   [Continue numbered statements]  \n   Further Affiant sayeth naught.  \n   ______________________________  \n   [Affiant Signature]  \n   Subscribed and sworn before me this ___ day of _______, 20__.  \n   ______________________________  \n   Notary Public, State of ______  \n   My commission expires: _______  \n   ______________________________  \n\n4. Legal Correspondence Preparation  \n   4.1 Letterhead & Formatting  \n   \u2011 Use firm-approved digital letterhead; 1-inch margins; 12-pt Times New Roman.  \n   4.2 Core Components  \n   \u2011 Date, recipient info, subject line, salutation.  \n   \u2011 Body: concise paragraphs; reference case name/number.  \n   \u2011 Closing, signature block, cc list, enclosures list.  \n   4.3 Quality Control  \n   \u2011 Proofread; confirm addresses; run conflict-check before sending.  \n   4.4 Transmission  \n   \u2011 Choose certified mail, overnight courier, or secure email per attorney instruction.  \n   \u2011 Save PDF of final signed letter to electronic folder; log dispatch details.  \n\n5. Paper Filing System Protocol  \n   5.1 File Structure  \n   \u2011 Master file \u21b3 Pleadings, Discovery, Correspondence, Evidence, Billing, Research.  \n   5.2 Labels & Indexing  \n   \u2011 Color-code categories; barcode or numeric file identifiers.  \n   5.3 Chronological Order  \n   \u2011 Reverse chronological inside each tab; stamp \u201cFILED\u201d plus date on top-right.  \n   5.4 File Room Management  \n   \u2011 Locked cabinets; check-out log; annual inventory.  \n   5.5 Retention & Destruction  \n   \u2011 Follow jurisdictional retention schedule (typically 6\u201310 years); shred with certificate of destruction.  \n\n6. Electronic Document Management (EDM)  \n   6.1 Folder Architecture (Example)  \n   \\Client-Matter#\\01 Pleadings\\YYYY-MM-DD_DocumentName.pdf  \n   6.2 Naming Convention  \n   \u2011 YYYY-MM-DD_Type_DocumentTitle_Version#.ext (e.g., 2024-05-30_Affidavit_Smith_v2.docx).  \n   6.3 Version Control  \n   \u2011 Use \u201cv1, v2, FINAL, FINAL-SIGNED\u201d; lock signed PDFs as read-only.  \n   6.4 Metadata & Tagging  \n   \u2011 Input author, client-matter, doc type for quick retrieval.  \n   6.5 Backup & Security  \n   \u2011 Daily encrypted cloud backup + weekly off-site; implement two-factor authentication.  \n   6.6 Audit Trail  \n   \u2011 Enable automatic logging of access, edits, and downloads to satisfy e-discovery.  \n\n7. Best Practices & Compliance  \n   7.1 Confidentiality  \n   \u2011 Apply attorney-client privilege headers; redact PII before external sharing.  \n   7.2 Ethical Obligations  \n   \u2011 Avoid unauthorized practice of law; obtain attorney approval before filing.  \n   7.3 Software Tools  \n   \u2011 Adobe Acrobat Pro (Bates stamping), Microsoft 365 (version history), Clio/NetDocuments (EDM).  \n\n8. Quick-Reference Checklists  \n   8.1 Affidavit Finalization  \n   \u2610 Caption correct \u2610 Facts accurate \u2610 Exhibits attached \u2610 Paginated \u2610 Signed & notarized \u2610 PDF created \u2610 Filed & served  \n   8.2 Filing System Maintenance  \n   \u2610 New docs filed daily \u2610 Index updated \u2610 Backups verified \u2610 Destruction schedule reviewed quarterly  \n\n9. Records & Reporting  \n   \u2011 Maintain a \u201cDocument Register\u201d spreadsheet listing filing dates, document descriptions, physical location, and electronic path.  \n   \u2011 Generate monthly reports for attorney oversight and litigation readiness.  \n\n10. Continuous Improvement  \n    \u2011 Conduct semi-annual audits; solicit attorney feedback; update templates per rule changes.  \n    \u2011 Provide staff training on the above protocols and any new software features.  \n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1750538634,
+    "model": "o3-2025-04-16",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1572,
+      "prompt_tokens": 129,
+      "total_tokens": 1701,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 192,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

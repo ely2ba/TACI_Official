@@ -1,0 +1,49 @@
+{
+  "uid": "dc35566b",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-4-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:38:51Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "26edbd2e16ae6cdd1e49d23da961fd220dd9bcf754598e12a7e36824c4246f40",
+  "response": {
+    "id": "chatcmpl-BaVKENaK7goAV6kPddUQahSrSr7ZM",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Trial Preparation: Organizing Exhibits\n\n1. **Collecting All Relevant Exhibits**\n   - Gather all documents, photographs, videos, and other physical or digital items that will be used as exhibits in the trial.\n   - Ensure each item is accounted for and has been disclosed to the opposing counsel as per discovery rules.\n\n2. **Labeling and Numbering**\n   - Assign a unique identifier to each exhibit. Typically, this can be numerical (Exhibit 1, Exhibit 2, etc.) or alphabetical (Exhibit A, Exhibit B, etc.).\n   - Ensure labels are clear and consistent across all documentation and communications.\n\n3. **Creating an Exhibit List**\n   - Compile a detailed list of all exhibits, including their label, a brief description, and the relevance to the case.\n   - Make multiple copies of the exhibit list for the court, opposing counsel, and for your own team\u2019s reference during the trial.\n\n4. **Preparing Exhibit Binders**\n   - Organize exhibits into binders or digital folders, depending on the format of the trial (physical court setting or virtual).\n   - Use tabs and dividers for easy access and reference. Each section should correlate with the exhibit list for seamless navigation.\n\n5. **Reviewing and Updating**\n   - Regularly review the exhibits with the attorney to ensure all items are pertinent and properly documented.\n   - Update the exhibit list and binders as new items are added or if there are changes in the strategy that affect the relevance of certain exhibits.\n\n6. **Final Check and Coordination**\n   - Perform a final check to ensure all exhibits are in order and properly labeled.\n   - Coordinate with the legal team to confirm that everyone has the latest copies of the exhibit list and understands the layout of the exhibit binders.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748039922,
+    "model": "gpt-4-turbo-2024-04-09",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_de235176ee",
+    "usage": {
+      "completion_tokens": 370,
+      "prompt_tokens": 84,
+      "total_tokens": 454,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

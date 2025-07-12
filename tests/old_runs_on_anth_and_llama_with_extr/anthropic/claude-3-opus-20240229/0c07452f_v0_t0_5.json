@@ -1,0 +1,15 @@
+{
+  "uid": "0c07452f",
+  "variant": 0,
+  "modality": "TEXT",
+  "temperature": 0.5,
+  "model": "claude-3-opus-20240229",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T17:53:25.230795Z",
+  "commit_sha": "98b2eb0f130d4d32e78707f77c440a8f68e4103c",
+  "prompt_sha256": "94f55007cd256d772e637429d9c823ad3b682e225e1b5775e08942f4b64da08a",
+  "response": {
+    "raw": "Here is my attempt at the task, with the response wrapped in OUTPUT_TEXT tags as requested:\n\n<OUTPUT_TEXT>\nAs an elementary school teacher, some key ways I enforce school policies and rules with students include:\n\n- Clearly communicating expectations and consequences at the beginning of the year and reinforcing them regularly \n- Consistently following through on stated consequences for misbehavior in a fair, impartial way\n- Praising and rewarding students for following rules and meeting expectations\n- Modeling good behavior and respect for rules myself as a positive example \n- Stopping and addressing misbehavior immediately when I see it happen\n- Partnering with parents to ensure rules are understood and followed both at school and at home\n- Posting rules visibly in the classroom as reminders\n- Adapting enforcement of rules as needed for individual student circumstances while still maintaining high standards\n</OUTPUT_TEXT>",
+    "extracted": "<OUTPUT_TEXT>\nAs an elementary school teacher, some key ways I enforce school policies and rules with students include:\n\n- Clearly communicating expectations and consequences at the beginning of the year and reinforcing them regularly \n- Consistently following through on stated consequences for misbehavior in a fair, impartial way\n- Praising and rewarding students for following rules and meeting expectations\n- Modeling good behavior and respect for rules myself as a positive example \n- Stopping and addressing misbehavior immediately when I see it happen\n- Partnering with parents to ensure rules are understood and followed both at school and at home\n- Posting rules visibly in the classroom as reminders\n- Adapting enforcement of rules as needed for individual student circumstances while still maintaining high standards\n</OUTPUT_TEXT>"
+  }
+}

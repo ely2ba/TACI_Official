@@ -1,0 +1,49 @@
+{
+  "uid": "a79efa23",
+  "variant": 1,
+  "temperature": 0.0,
+  "model": "gpt-4-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:39:35Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "5c9da18b690c497e8572a7139bb543f83029f40122d65f1b8a04205a17c079c4",
+  "response": {
+    "id": "chatcmpl-BaVL1U11tDhb95wKi9W1h5inzYZ8B",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>Dear [Client's Name],\n\nThank you for reaching out to us. We are committed to providing you with the highest level of service. If you need information about our products or services, wish to place an order, or need assistance with an existing order, please feel free to contact us at your convenience.\n\nFor any complaints or account cancellations, we encourage you to discuss these matters with us directly, either over the phone or in person, so that we can address your concerns promptly and effectively.\n\nWe value your business and are here to assist you in any way we can.\n\nBest regards,\n\n[Your Name]\nSenior Customer Service Representative\n[Your Contact Information]\n[Company Name]\n[Company Phone Number]\n[Company Email Address]</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748039971,
+    "model": "gpt-4-turbo-2024-04-09",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_de235176ee",
+    "usage": {
+      "completion_tokens": 153,
+      "prompt_tokens": 95,
+      "total_tokens": 248,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

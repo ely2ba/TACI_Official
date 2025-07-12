@@ -1,0 +1,49 @@
+{
+  "uid": "dc35566b",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:16:42Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "26edbd2e16ae6cdd1e49d23da961fd220dd9bcf754598e12a7e36824c4246f40",
+  "response": {
+    "id": "chatcmpl-BaUyeZLNCnb9LeHmxOLDsPHak1QMn",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Trial Preparation Tasks\n\n1. **Organizing Exhibits**\n    - Identify all potential exhibits for the trial. This includes documents, photos, physical objects, digital files, etc.\n    - Label each exhibit clearly and consistently. Use a system that makes it easy to find each item quickly.\n    - Prepare an exhibit list. This should include the exhibit number, a brief description, and any relevant notes.\n    - Make copies of all exhibits. You'll need copies for the court, opposing counsel, and for your own records.\n    - Pack exhibits for transport. Ensure they are secure and protected, especially if they are fragile or valuable.\n    - Check the court rules for exhibits. Some courts have specific requirements for how exhibits should be presented.\n\n2. **Preparing Witness Testimony**\n    - Identify all potential witnesses and gather their contact information.\n    - Schedule meetings with witnesses to prepare their testimony.\n    - Review all relevant documents and evidence with each witness.\n    - Prepare a witness list. This should include the witness's name, contact information, and a brief summary of their testimony.\n\n3. **Document Review and Organization**\n    - Review all documents related to the case. This includes pleadings, discovery materials, correspondence, etc.\n    - Organize documents in a way that makes them easy to find during the trial. This could be by date, by issue, by witness, etc.\n    - Prepare a document index. This should include the document number, a brief description, and any relevant notes.\n    - Make copies of all documents. You'll need copies for the court, opposing counsel, and for your own records.\n\n4. **Trial Notebook Preparation**\n    - Prepare a trial notebook. This should include all key documents, witness lists, exhibit lists, opening and closing statements, etc.\n    - Organize the trial notebook in a way that makes it easy to find each item quickly.\n    - Make copies of the trial notebook. You'll need copies for the attorney, for the court, and for your own records.\n\n5. **Courtroom Logistics**\n    - Check the court rules for trial procedures. This includes rules about opening statements, witness examination, objections, etc.\n    - Plan for courtroom technology needs. This includes projectors, screens, laptops, etc.\n    - Coordinate with court staff to ensure all logistics are in place for the trial.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748038584,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 485,
+      "prompt_tokens": 84,
+      "total_tokens": 569,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

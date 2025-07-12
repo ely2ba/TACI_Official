@@ -1,0 +1,66 @@
+{
+  "uid": "07080553",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gemini-2.0-flash",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T13:16:53.906071Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "```text\n<OUTPUT_TEXT>\n# Affidavit of [Client Name]\n\n## 1. Identification\n\nI, [Client Name], being duly sworn, depose and state as follows:\n\n1.  My name is [Client Name]. I am over the age of eighteen (18) years and am competent to testify to the matters set forth herein.\n2.  My current address is [Client Address].\n3.  My date of birth is [Client Date of Birth].\n\n## 2. Background\n\n4.  I am the [Plaintiff/Defendant] in the matter of [Case Name], Case Number [Case Number], currently pending in the [Court Name] of [Jurisdiction].\n5.  [Provide a brief, neutral description of the case. E.g., \"This case concerns a dispute over a breach of contract.\"]\n\n## 3. Factual Allegations\n\n6.  On or about [Date], I [Describe your action or event. Be specific. E.g., \"entered into a written agreement with [Opposing Party Name] to provide consulting services.\"]. A copy of said agreement is attached hereto as Exhibit A.\n7.  [Opposing Party Name] [Describe the opposing party's action or event. Be specific. E.g., \"failed to pay me for the consulting services I provided, as outlined in the agreement.\"].\n8.  As a result of [Opposing Party Name]'s actions, I have suffered [Describe the damages you have suffered. Be specific. E.g., \"financial losses in the amount of $[Amount], as well as emotional distress.\"].\n9.  [Provide any additional relevant facts, numbered sequentially. E.g., \"I have made repeated attempts to contact [Opposing Party Name] to resolve this matter, but they have not responded.\"].\n10. [Provide any additional relevant facts, numbered sequentially. E.g., \"I have retained legal counsel to represent me in this matter.\"].\n\n## 4. Sworn Oath\n\nI declare under penalty of perjury under the laws of [State/Jurisdiction] that the foregoing is true and correct to the best of my knowledge and belief.\n\nExecuted this [Day] day of [Month], [Year].\n\n____________________________\n[Client Name]\n\n## 5. Notary Acknowledgment\n\nState of [State]\n\nCounty of [County]\n\nOn this [Day] day of [Month], [Year], before me, the undersigned, a Notary Public in and for said State, personally appeared [Client Name], known to me (or satisfactorily proven) to be the person whose name is subscribed to the within instrument and acknowledged that he/she executed the same for the purposes therein contained.\n\nIn witness whereof, I hereunto set my hand and official seal.\n\n____________________________\n[Notary Public Name]\nNotary Public in and for the State of [State]\nMy commission expires: [Date]\n\n[Notary Seal (if applicable)]\n\n**Exhibit A:** [Attach relevant document, e.g., the contract]\n</TEXT>\n```"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "citationMetadata": {
+          "citations": [
+            {
+              "startIndex": 1910,
+              "endIndex": 2088
+            },
+            {
+              "startIndex": 2104,
+              "endIndex": 2232,
+              "title": "Issues Concerning the Failure of Federally-insured Federal Credit Unions",
+              "publicationDate": {
+                "year": 1989
+              }
+            },
+            {
+              "startIndex": 2248,
+              "endIndex": 2421,
+              "uri": "https://createdraft.com/blogs/ascension-deed"
+            }
+          ]
+        },
+        "avgLogprobs": -0.12903820678522848
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 122,
+      "candidatesTokenCount": 649,
+      "totalTokenCount": 771,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 122
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 649
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:16:49.340443Z",
+    "responseId": "Qbs1aNvjFPq0nvgPkbjHyAk"
+  }
+}

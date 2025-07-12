@@ -1,0 +1,44 @@
+{
+  "uid": "25c9f684",
+  "variant": 0,
+  "modality": "TEXT",
+  "temperature": 0.5,
+  "model": "llama3-8b-8192",
+  "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+  "timestamp": "2025-05-28T19:19:52.636805Z",
+  "prompt_sha256": "c5c46fabee72f433cc3c12d002d31cdbe3498a5f399a58798cf054a5a79699cb",
+  "commit_sha": "170b9e3e1d0d59846b1daa69da57be5d1db6306c",
+  "response": {
+    "id": "chatcmpl-2409f116-357a-4990-a11e-eeee0a30a1e9",
+    "object": "chat.completion",
+    "created": 1748459992,
+    "model": "llama3-8b-8192",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "<OUTPUT_TEXT>\nHello, thank you for reaching out to us. I'm happy to assist you with your inquiry. Can you please provide me with more details about your concern, such as the claim number and a brief summary of what's going on? This will help me better understand your situation and provide a more accurate response."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "queue_time": 1.065292044,
+      "prompt_tokens": 103,
+      "prompt_time": 0.033001178,
+      "completion_tokens": 67,
+      "completion_time": 0.055833333,
+      "total_tokens": 170,
+      "total_time": 0.088834511
+    },
+    "usage_breakdown": {
+      "models": null
+    },
+    "system_fingerprint": "fp_dadc9d6142",
+    "x_groq": {
+      "id": "req_01jwc5cce3er6tn20aj2cswdjm"
+    }
+  }
+}

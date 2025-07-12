@@ -1,0 +1,44 @@
+{
+  "uid": "dc35566b",
+  "variant": 1,
+  "modality": "TEXT",
+  "temperature": 0.5,
+  "model": "llama3-8b-8192",
+  "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+  "timestamp": "2025-05-28T19:17:25.004466Z",
+  "prompt_sha256": "6c6a86649c81fea2ed1d8c84be328a38563e33ba324ede3cdadaa3e6f5f90a91",
+  "commit_sha": "170b9e3e1d0d59846b1daa69da57be5d1db6306c",
+  "response": {
+    "id": "chatcmpl-78b73530-6495-48ea-a4c0-81d37504708b",
+    "object": "chat.completion",
+    "created": 1748459844,
+    "model": "llama3-8b-8192",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "<OUTPUT_TEXT>As a senior Paralegal And Legal Assistant, I would begin by creating an exhibit list, which would include all the documents, photographs, and other physical evidence that will be presented during the trial. This list would be organized alphabetically and include the exhibit number, description, and the witness who will be presenting the exhibit. I would also ensure that all exhibits are properly labeled and stored in a secure location to prevent loss or tampering. Additionally, I would prepare exhibit charts or diagrams to help illustrate complex evidence and make it easier for the jury to understand. Finally, I would verify that all exhibits are properly authenticated and meet the requirements of the court's rules of evidence.</OUTPUT_TEXT>"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "queue_time": 0.17553461,
+      "prompt_tokens": 117,
+      "prompt_time": 0.022496129,
+      "completion_tokens": 143,
+      "completion_time": 0.119166667,
+      "total_tokens": 260,
+      "total_time": 0.141662796
+    },
+    "usage_breakdown": {
+      "models": null
+    },
+    "system_fingerprint": "fp_dadc9d6142",
+    "x_groq": {
+      "id": "req_01jwc57x0mfaa9q51v9psxdpg2"
+    }
+  }
+}

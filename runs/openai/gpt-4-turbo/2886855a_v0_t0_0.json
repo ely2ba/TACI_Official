@@ -1,0 +1,9 @@
+{
+  "uid": "2886855a",
+  "variant": 0,
+  "temperature": 0.0,
+  "model": "gpt-4-turbo",
+  "modality": "MANUAL",
+  "skipped": true,
+  "reason": "manual task \u2013 auto-scored 0"
+}

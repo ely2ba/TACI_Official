@@ -1,0 +1,46 @@
+{
+  "uid": "2bc72355",
+  "variant": 0,
+  "temperature": 0.5,
+  "model": "gemini-2.5-flash-preview-05-20",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T15:41:58.979777Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_TEXT>\nTASK \u2013 Evaluate student performance and progress through observation, assignments, projects, and assessments to inform instruction and provide feedback.\n</OUTPUT_TEXT>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -4.361547415597098
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 98,
+      "candidatesTokenCount": 35,
+      "totalTokenCount": 738,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 98
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 35
+        }
+      ],
+      "thoughtsTokenCount": 605
+    },
+    "modelVersion": "gemini-2.5-flash-preview-05-20",
+    "createTime": "2025-05-27T15:41:54.319979Z",
+    "responseId": "Qt01aOvDE9TGgLUPtNvO0AE"
+  }
+}

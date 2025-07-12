@@ -1,0 +1,44 @@
+{
+  "uid": "07080553",
+  "variant": 2,
+  "modality": "TEXT",
+  "temperature": 0.0,
+  "model": "llama3-8b-8192",
+  "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+  "timestamp": "2025-05-28T19:19:01.785968Z",
+  "prompt_sha256": "828a640016258050a3cfb8fd14c06dd87d9118a39789f121dc3a89bcebd38100",
+  "commit_sha": "170b9e3e1d0d59846b1daa69da57be5d1db6306c",
+  "response": {
+    "id": "chatcmpl-f1042f91-ec32-4651-b36d-ba7e01c07442",
+    "object": "chat.completion",
+    "created": 1748459941,
+    "model": "llama3-8b-8192",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "<OUTPUT_TEXT>\n<h1>Document Preparation and Organization</h1>\n\n<h2>1. Affidavits and Legal Correspondence</h2>\nAs a paralegal, I prepare affidavits and other legal documents, such as legal correspondence, with precision and attention to detail. I ensure that all documents are accurate, complete, and compliant with relevant laws and regulations.\n\n<h2>2. Document Organization and Maintenance</h2>\nI organize and maintain documents in both paper and electronic filing systems, ensuring that all documents are easily accessible and up-to-date. This includes creating and updating indexes, filing documents in the correct order, and maintaining confidentiality and security protocols.\n\n<h2>3. Electronic Filing Systems</h2>\nI am proficient in using electronic filing systems, including document management software and cloud-based storage solutions. I ensure that all electronic documents are properly indexed, tagged, and stored in a secure and organized manner.\n\n<h2>4. Paper Filing Systems</h2>\nI also maintain paper filing systems, including physical files and binders. I ensure that all paper documents are properly labeled, filed, and stored in a secure and organized manner.\n\n<h2>5. Document Retrieval and Production</h2>\nI retrieve and produce documents as needed, ensuring that all documents are accurate, complete, and properly formatted. I also ensure that all documents are properly redacted and protected from unauthorized disclosure.\n\n</OUTPUT_TEXT>"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "queue_time": 0.16120022099999998,
+      "prompt_tokens": 134,
+      "prompt_time": 0.025270899,
+      "completion_tokens": 294,
+      "completion_time": 0.245,
+      "total_tokens": 428,
+      "total_time": 0.270270899
+    },
+    "usage_breakdown": {
+      "models": null
+    },
+    "system_fingerprint": "fp_179b0f92c9",
+    "x_groq": {
+      "id": "req_01jwc5avb3fbvtbvzb82rz2yk2"
+    }
+  }
+}

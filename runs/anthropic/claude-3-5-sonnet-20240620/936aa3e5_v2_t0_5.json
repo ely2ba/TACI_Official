@@ -1,0 +1,34 @@
+{
+  "uid": "936aa3e5",
+  "variant": 2,
+  "modality": "TEXT",
+  "temperature": 0.5,
+  "model": "claude-3-5-sonnet-20240620",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T20:05:02.559242Z",
+  "commit_sha": "170b9e3e1d0d59846b1daa69da57be5d1db6306c",
+  "prompt_sha256": "428bfea113e6c77fae06e9d9c304a178c09a141dc88a71404a7f772e62d629cf",
+  "response": {
+    "id": "msg_01D1QLFzneRoMe6PRgqZEk7U",
+    "content": [
+      {
+        "citations": null,
+        "text": "Here is my response formatted as requested:\n\n<OUTPUT_TEXT>\n\n# Financial Calculations\n\n1. Amounts Due\nCalculate total amount due, including taxes and fees\nApply any discounts or credits\nDetermine payment due dates\n\n2. Interest Charges  \nCalculate simple and compound interest\nDetermine interest rates and periods\nApply interest to outstanding balances\n\n3. Account Balances\nReconcile debits and credits\nCalculate running balances\nDetermine available funds or credit\n\n4. Discounts\nApply percentage or fixed discounts\nCalculate early payment discounts\nDetermine volume pricing discounts\n\n5. Equity\nCalculate owner's equity\nDetermine shareholder equity\nTrack changes in equity over time\n\n6. Principal\nCalculate remaining principal on loans\nDetermine principal and interest portions of payments\nTrack principal reduction over loan term\n\n</OUTPUT_TEXT>",
+        "type": "text"
+      }
+    ],
+    "model": "claude-3-5-sonnet-20240620",
+    "role": "assistant",
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "input_tokens": 142,
+      "output_tokens": 186,
+      "server_tool_use": null,
+      "service_tier": "standard"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "uid": "2bc72355",
+  "variant": 0,
+  "temperature": 0.5,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:12:32Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "d83bb7d9a3c61c78ac7061b6a8fd2048a16c3337b3baa7d7fe706715f0aee39c",
+  "response": {
+    "id": "chatcmpl-BaUuqSYVIJx40gKmJivyDDypNZb8X",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nAlright class, today we're going to learn about the life cycle of a butterfly. We'll start with a short lecture where I'll explain each stage of the life cycle. Then, we'll have a group discussion where you can share your thoughts and ask questions. Finally, we'll have a demonstration where you'll get to see each stage of the life cycle in real life. Let's get started!\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748038348,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 89,
+      "prompt_tokens": 71,
+      "total_tokens": 160,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

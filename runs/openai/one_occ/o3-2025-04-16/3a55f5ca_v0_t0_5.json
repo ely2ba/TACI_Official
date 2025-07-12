@@ -1,0 +1,50 @@
+{
+  "uid": "3a55f5ca",
+  "variant": 0,
+  "temperature": 0.5,
+  "seed": 1,
+  "model": "o3-2025-04-16",
+  "modality": "TEXT",
+  "timestamp": "2025-06-21T20:47:10Z",
+  "commit_sha": "ac1698886e89fb01e65b6ca5c8e06e97f58dd0fa",
+  "prompt_sha256": "9e8065a0df45fff3124b290e2e56e5942fb5f8e9aee02101e2f2cc1bf539fb0e",
+  "response": {
+    "id": "chatcmpl-BkzOgkhJRSjIiKEnjHcfcL1GadHBI",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nBelow is a practical, step-by-step reference guide you can use when you are asked to prepare, edit, or review the following seven common categories of legal documents. Adjust specific citations, filing deadlines, and local-court requirements to the governing jurisdiction.\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n1. LEGISLATION (Bills, Ordinances, Regulations)\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nA. Preparation\n  \u2022 Identify legislative authority (constitution/statute charter).  \n  \u2022 Draft a clear Titles/Enacting Clause (\u201cBe it enacted\u2026\u201d).  \n  \u2022 Structure: Findings \u2192 Purpose \u2192 Definitions \u2192 Substantive Sections \u2192 Enforcement/ Penalties \u2192 Effective Date \u2192 Severability.  \n  \u2022 Use plain-language, singular tense, active voice, defined terms.  \nB. Editing & Review Checklist\n  \u25a1 Internal consistency of defined terms, cross-references, and numbering.  \n  \u25a1 Confirm it does not conflict with higher law (pre-emption check).  \n  \u25a1 Fiscal impact statement completed (if required).  \n  \u25a1 Conformity with drafting manual/style guide of the legislative body.  \n  \u25a1 Clarity of enforcement mechanisms & effective dates.  \n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n2. BRIEFS (Trial & Appellate)\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nA. Preparation\n  \u2022 Research controlling statutes, precedents, and standards of review.  \n  \u2022 Outline: Cover Page \u2192 Table of Contents & Authorities \u2192 Jurisdictional Statement \u2192 Issues Presented \u2192 Statement of the Case/ Facts \u2192 Standard of Review \u2192 Argument (point headings with requested relief) \u2192 Conclusion \u2192 Signature Block.  \nB. Editing & Review Checklist\n  \u25a1 All citations in required citation style (Bluebook, ALWD, local rules).  \n  \u25a1 Record references accurate (appendix, transcript page).  \n  \u25a1 Complies with word/page limits, font, margin, and filing formatting.  \n  \u25a1 Issues preserved below; correct standard of review stated.  \n  \u25a1 Proofread for persuasive tone, logical flow, and factual accuracy.  \n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n3. PLEADINGS (Complaints, Answers, Motions)\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nA. Preparation\n  \u2022 Caption with court, parties, case number.  \n  \u2022 Include jurisdictional allegations and venue.  \n  \u2022 Plead each element of the claim/defense with supporting facts.  \n  \u2022 Demand for jury trial (if desired).  \n  \u2022 Prayer for relief with specific remedies.  \nB. Editing & Review Checklist\n  \u25a1 Service list and certificate of service correct.  \n  \u25a1 Proper verification/notarization where required.  \n  \u25a1 Exhibits labeled and referenced.  \n  \u25a1 Ensure no confidential information (redaction per Rule 5.2/F.R.C.P.).  \n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n4. APPEALS (Notices, Records, Appellate Briefs)\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nA. Preparation\n  \u2022 File Notice of Appeal within jurisdictional deadline; include judgment date and court.  \n  \u2022 Compile record on appeal: pleadings, exhibits, transcripts, orders.  \n  \u2022 Docketing statement per appellate clerk instructions.  \nB. Editing & Review Checklist\n  \u25a1 Timing: confirm tolled deadlines (post-trial motions, etc.).  \n  \u25a1 Correct lower-court docket information and parties.  \n  \u25a1 Statement of issues matches notice & brief.  \n  \u25a1 Properly formatted appendix.  \n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n5. WILLS & ESTATE PLANNING DOCUMENTS\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nA. Preparation\n  \u2022 Confirm testator capacity, intent, and absence of undue influence.  \n  \u2022 Key clauses: Declaration, Family Info, Debts/Taxes, Specific Gifts, Residuary, Fiduciary (executor, trustee, guardian), Powers, No-Contest, Governing Law, Attestation.  \n  \u2022 Execution: statutory number of witnesses, notarization, self-proving affidavit.  \nB. Editing & Review Checklist\n  \u25a1 All beneficiaries identified correctly; alternate takers included.  \n  \u25a1 Property descriptions precise (legal description for real property).  \n  \u25a1 Coordinate with existing trusts, beneficiary designations, marital agreements.  \n  \u25a1 Incorporate portability, tax-efficient provisions if applicable.  \n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n6. CONTRACTS (Commercial, Employment, Service, IP)\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nA. Preparation\n  \u2022 Parties & Recitals \u2192 Definitions \u2192 Term/Termination \u2192 Consideration \u2192 Duties & Deliverables \u2192 Representations/Warranties \u2192 Covenants \u2192 Payment Terms \u2192 Indemnification \u2192 Limitation of Liability \u2192 Confidentiality \u2192 IP Ownership \u2192 Governing Law & Dispute Resolution \u2192 Boilerplate (assignment, notice, counterparts, integration, amendment).  \nB. Editing & Review Checklist\n  \u25a1 Clear statement of consideration and mutual obligations.  \n  \u25a1 Dates, deadlines, performance metrics, and remedies for breach.  \n  \u25a1 Avoid ambiguous pronouns; defined terms capitalized consistently.  \n  \u25a1 Confirm enforceability of choice-of-law, arbitration, non-compete under state law.  \n  \u25a1 Signature blocks match entity names; authorized signatories.  \n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n7. REAL ESTATE CLOSING STATEMENTS & DOCUMENTS\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nA. Preparation\n  \u2022 Gather purchase agreement, title commitment, municipal lien search, survey, appraisal.  \n  \u2022 Draft HUD-1 (legacy) or Closing Disclosure (TRID) where applicable.  \n  \u2022 Prepare deed (warranty, special warranty, quitclaim), bill of sale, assignment of leases, affidavits (title, non-foreign, occupancy).  \nB. Editing & Review Checklist\n  \u25a1 Verify legal description matches survey and title policy Schedule A.  \n  \u25a1 Prorations for taxes, HOA dues, rent, utilities correct.  \n  \u25a1 Payoff letters, estoppel certificates, and wire instructions confirmed.  \n  \u25a1 Ensure recordation requirements met (font, margins, notary blocks).  \n  \u25a1 Obtain title insurance premium disclosures, endorsements, ALTA statements.  \n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nGENERAL BEST-PRACTICE CONTROLS\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\u2022 Version Control: Maintain redline history and change log.  \n\u2022 Proofreading: Triple-check names, dates, numbers, and citations.  \n\u2022 Ethical Compliance: No unauthorized practice of law; supervise under attorney.  \n\u2022 Confidentiality: Use secure file-sharing / privilege labels.  \n\u2022 Deadlines: Calendar critical dates with reminders; verify time-zone differences for e-filings.  \n\u2022 Final Sign-Off: Obtain supervising attorney\u2019s written approval before filing or releasing any document.  \n\nUse the above framework as a customizable checklist to ensure every legal document you handle is thorough, compliant, and professionally polished.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1750538798,
+    "model": "o3-2025-04-16",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1684,
+      "prompt_tokens": 111,
+      "total_tokens": 1795,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 320,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

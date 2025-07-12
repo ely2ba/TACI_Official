@@ -1,0 +1,46 @@
+{
+  "uid": "9cebf902",
+  "variant": 0,
+  "temperature": 0.5,
+  "model": "gemini-2.5-flash-preview-05-20",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T15:39:16.879560Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_TEXT>\nUnderstood. I am prepared to conduct comprehensive legal research and analysis, including statutes, decisions, legal articles, codes, and relevant documents, upon receiving specific case details or research parameters.\n</OUTPUT_TEXT>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -16.290128072102863
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 98,
+      "candidatesTokenCount": 48,
+      "totalTokenCount": 2389,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 98
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 48
+        }
+      ],
+      "thoughtsTokenCount": 2243
+    },
+    "modelVersion": "gemini-2.5-flash-preview-05-20",
+    "createTime": "2025-05-27T15:39:02.268849Z",
+    "responseId": "ltw1aLG0EPX9ld8PtJKR-Ao"
+  }
+}

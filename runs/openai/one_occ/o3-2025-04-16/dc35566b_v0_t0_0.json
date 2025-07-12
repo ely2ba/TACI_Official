@@ -1,0 +1,50 @@
+{
+  "uid": "dc35566b",
+  "variant": 0,
+  "temperature": 0.0,
+  "seed": 0,
+  "model": "o3-2025-04-16",
+  "modality": "TEXT",
+  "timestamp": "2025-06-21T20:30:20Z",
+  "commit_sha": "ac1698886e89fb01e65b6ca5c8e06e97f58dd0fa",
+  "prompt_sha256": "b1ac045c1a947bb4d70d059931e67b3014310d0dc0649de077ee69a7bab47991",
+  "response": {
+    "id": "chatcmpl-Bkz8YGPv0c3J7Ut1va8ulUp4hbaL9",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nComprehensive Paralegal Trial-Preparation Checklist (Focus: Organizing Exhibits)\n\n1. Master Exhibit Index\n   \u2022 Create a spreadsheet or litigation-support database with columns for: Exhibit No., Bates range, description, date, source/witness, relevance/issue, authenticity stipulation, objections, admission status, and courtroom display file name.  \n   \u2022 Integrate search filters (e.g., by witness or topic) and version-control the index so only one up-to-date copy exists.\n\n2. Exhibit Numbering & Bates Labeling\n   \u2022 Confirm with court/local rules whether plaintiff uses numbers and defendant letters (or other scheme).  \n   \u2022 Assign permanent exhibit numbers early; avoid renumbering by inserting lettered suffixes (e.g., 12A) for late additions.  \n   \u2022 Bates-stamp every page; verify all citations in pleadings/discovery correspond to final Bates IDs.\n\n3. Evidentiary Review & Pre-Admission\n   \u2022 For each exhibit, evaluate authentication foundation (witness, business-records declaration, FRE 902 self-authenticating, etc.).  \n   \u2022 Draft exhibit-specific motion in limine summaries and anticipated objections (hearsay, relevance, Rule 403).  \n   \u2022 Track rulings in real time so the exhibit list reflects \u201cAdmitted,\u201d \u201cDenied,\u201d or \u201cReserved.\u201d\n\n4. Physical & Digital Exhibit Sets\n   A. Hard-copy binders\n      \u2022 Prepare four identical sets unless the judge orders otherwise: Court, Witness/Working, Opposing Counsel, and Spare.  \n      \u2022 Use heavy-duty binders, spine-labeled by volume with color coding; include table of contents behind cover sheet.  \n      \u2022 Insert numbered exhibit tabs; for voluminous documents use slip sheets identifying the Bates start page.\n   B. Electronic set\n      \u2022 Convert exhibits to PDFs, OCR-searchable, named \u201cPX-001.pdf\u201d or similar.  \n      \u2022 Load into trial-presentation software (TrialDirector, OnCue, etc.); hyperlink in master index.  \n      \u2022 Create a trial USB drive for the clerk per local e-filing specs (PDF/A, <50 MB per doc, no security passwords).\n\n5. Demonstratives & Enlargements\n   \u2022 Size check: poster boards within court easel dimensions; electronic animations pre-exchanged per standing order.  \n   \u2022 Mark demonstratives separately (e.g., \u201cD-Dem-3\u201d) and track whether they will be offered into evidence or merely shown as aids.\n\n6. Witness/Attorney Binders\n   \u2022 Prepare individualized binders with only the exhibits that witness will authenticate or discuss; add outlines, deposition excerpts, impeachment materials behind a separate section.  \n   \u2022 Flag documents with colored stickies labeled \u201cID ONLY,\u201d \u201cADMIT,\u201d \u201cREFRESH,\u201d etc. to cue questioning attorney.\n\n7. Trial Notebook (Paralegal Edition)\n   Tabs: Case caption sheet, daily schedule, service lists, exhibit index, witness list/contacts, seating chart, courtroom tech checklist, blank forms (subpoena receipts, exhibit-status log), local rule excerpts, emergency motion templates.\n\n8. Courtroom Technology Rehearsal\n   \u2022 Bring laptop with duplicate image, spare HDMI/VGA adapters, remote clicker, elmo/doc cam tested.  \n   \u2022 Coordinate with courtroom deputy for screen-sharing protocols and on/off procedures.  \n   \u2022 Stage exhibits in presentation software order matching direct-examination outline.\n\n9. Chain-of-Custody & Integrity\n   \u2022 For physical evidence (devices, originals), maintain log with seal numbers, transfer signatures, and storage location.  \n   \u2022 Photograph condition upon entry/exit; bring evidence bags, gloves, and security cable lockbox.\n\n10. Logistics & Contingencies\n    \u2022 Courier schedule for daily print updates; standing order with copy shop for overnight enlargements.  \n    \u2022 Extra exhibit stickers, binder hardware, USB drives, spare printer/ink in war room.  \n    \u2022 \u201cLast-minute\u201d protocol: new exhibit arrives \u2192 scan, Bates, assign number with \u201c00\u201d series, circulate to team, notify court/opposing.\n\n11. After Each Trial Day\n    \u2022 Update admission status in index; move admitted exhibits into \u201cOfficial\u201d subfolder; prepare next-day exhibit set for clerk.  \n    \u2022 Debrief with lead counsel on exhibits not used and adjust witness binders accordingly.\n\nFollowing this structured workflow ensures exhibits are flawlessly organized, admissible, and instantly retrievable\u2014minimizing courtroom delays and maximizing persuasive impact.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1750537798,
+    "model": "o3-2025-04-16",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1213,
+      "prompt_tokens": 93,
+      "total_tokens": 1306,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 256,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

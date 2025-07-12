@@ -1,0 +1,49 @@
+{
+  "uid": "8cc4a9e1",
+  "variant": 1,
+  "temperature": 0.0,
+  "model": "gpt-4",
+  "modality": "GUI",
+  "timestamp": "2025-05-23T22:04:35Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "cc886c5383f067afde63e63fc310c41b8f18d981ef72caa5fd3d25ae35542f08",
+  "response": {
+    "id": "chatcmpl-BaUn9dKlvBmf0OrkaOJLaWOtMSa0s",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_JSON>[{\"action\": \"click\", \"selector\": \"input[name*=space i], input[placeholder*=space i]\", \"text\": \"\"}, {\"action\": \"click\", \"selector\": \"input[name*=charge i]\", \"text\": \"\"}, {\"action\": \"click\", \"selector\": \"button:has-text(\\\"calculate\\\" i), button:has-text(\\\"compute\\\" i)\", \"text\": \"\"}, {\"action\": \"click\", \"selector\": \"button:has-text(\\\"save\\\" i)\", \"text\": \"\"}]</OUTPUT_JSON>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748037871,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 114,
+      "prompt_tokens": 166,
+      "total_tokens": 280,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "uid": "dc35566b",
+  "variant": 0,
+  "temperature": 0.0,
+  "model": "gpt-4o",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:47:50Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "b1ac045c1a947bb4d70d059931e67b3014310d0dc0649de077ee69a7bab47991",
+  "response": {
+    "id": "chatcmpl-Bi1r9BxIj6mgknjioEbPI9BU8b0ld",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>To prepare for trial, begin by organizing exhibits meticulously. This involves creating a comprehensive list of all exhibits, ensuring each is clearly labeled and numbered. Prepare an exhibit binder or digital folder for easy access during trial. Verify that all exhibits are admissible and have been disclosed to the opposing party as required. Coordinate with the attorney to understand the strategy for presenting each exhibit. Additionally, prepare an exhibit index for quick reference and ensure all exhibits are in the correct order for presentation. Finally, conduct a final review to ensure all exhibits are complete and in compliance with court rules.</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749833267,
+    "model": "gpt-4o-2024-08-06",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_a288987b44",
+    "usage": {
+      "completion_tokens": 120,
+      "prompt_tokens": 94,
+      "total_tokens": 214,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

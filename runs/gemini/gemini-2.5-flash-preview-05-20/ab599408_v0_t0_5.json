@@ -1,0 +1,46 @@
+{
+  "uid": "ab599408",
+  "variant": 0,
+  "temperature": 0.5,
+  "model": "gemini-2.5-flash-preview-05-20",
+  "modality": "GUI",
+  "timestamp": "2025-05-27T15:28:13.694236Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_JSON>\n[\n  {\n    \"action\": \"type\",\n    \"selector\": \"input[placeholder*=search i]\",\n    \"text\": \"Sterile Gauze Pads\"\n  },\n  {\n    \"action\": \"click\",\n    \"selector\": \"button:has-text(\\\"add item\\\" i)\"\n  },\n  {\n    \"action\": \"type\",\n    \"selector\": \"input[name*=quantity i]\",\n    \"text\": \"50\"\n  },\n  {\n    \"action\": \"click\",\n    \"selector\": \"button:has-text(\\\"order\\\" i), button:has-text(\\\"submit\\\" i)\"\n  }\n]\n</OUTPUT_JSON>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.4694512408712636
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 181,
+      "candidatesTokenCount": 161,
+      "totalTokenCount": 956,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 181
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 161
+        }
+      ],
+      "thoughtsTokenCount": 614
+    },
+    "modelVersion": "gemini-2.5-flash-preview-05-20",
+    "createTime": "2025-05-27T15:28:09.685202Z",
+    "responseId": "Cdo1aJLpKcamnvgPuOOl0As"
+  }
+}

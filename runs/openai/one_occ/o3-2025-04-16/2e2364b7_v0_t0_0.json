@@ -1,0 +1,50 @@
+{
+  "uid": "2e2364b7",
+  "variant": 0,
+  "temperature": 0.0,
+  "seed": 0,
+  "model": "o3-2025-04-16",
+  "modality": "TEXT",
+  "timestamp": "2025-06-21T20:44:36Z",
+  "commit_sha": "ac1698886e89fb01e65b6ca5c8e06e97f58dd0fa",
+  "prompt_sha256": "5c72f093ad8c01025219f856b4db21e96920791a3450b64e0f30ca4c915fe49e",
+  "response": {
+    "id": "chatcmpl-BkzMQKhlHpdymU9ldOLM5ulL3sUUd",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nBelow is a practical, step-by-step checklist a paralegal or legal assistant can follow to file pleadings with a court clerk. Adapt to the specific jurisdiction, local court rules, and your attorney\u2019s instructions.\n\n1. Confirm Court & Filing Requirements\n   \u2022 Identify the correct court (state, federal, appellate, or specialty) and the specific division or department.  \n   \u2022 Download and review the governing rules: local rules, general orders, and any standing orders of the assigned judge.  \n   \u2022 Note page limits, font size, margin requirements, exhibit labeling, signature block format, and proposed-order requirements.\n\n2. Prepare the Pleading Package\n   \u2022 Finalize the pleading (complaint, answer, motion, brief, etc.) in Word or PDF-fillable format.  \n   \u2022 Insert case caption with accurate case number; leave space if the case number is not yet assigned.  \n   \u2022 Include attorney signature block that meets jurisdictional standards (bar number, email, phone, address).  \n   \u2022 Add certificate of service conforming to service method (mail, hand, e-service).  \n   \u2022 Assemble exhibits: Bates-stamp, index, and tabs where required.\n\n3. Proofread & Obtain Approvals\n   \u2022 Perform line-by-line proofing for accuracy, citations, and formatting.  \n   \u2022 Run spell-check and bluebook (or local citation) check.  \n   \u2022 Route the final draft to the responsible attorney for signature/approval.  \n   \u2022 Obtain wet-ink or electronic signature per court policy (many accept /s/ typed signatures for e-filing).\n\n4. Convert & Bookmark (for e-Filing)\n   \u2022 Convert documents to PDF in OCR, text-searchable form.  \n   \u2022 Combine main document and exhibits as separate PDFs or as a single PDF with bookmarks, following e-filing size limits (often 25 MB per upload).  \n   \u2022 Apply required security settings; avoid password protection unless expressly permitted.\n\n5. Calculate Filing Fees & Apply Fee Waivers (if any)\n   \u2022 Use the court\u2019s fee schedule to determine filing fees.  \n   \u2022 Prepare checks or electronic payment info; if seeking fee waiver, complete and include approved forms.\n\n6. Prepare Service & Courtesy Copies\n   \u2022 Determine service method on opposing counsel/parties: electronic portal, email, mail, or personal service.  \n   \u2022 Create proof or certificate of service.  \n   \u2022 Check local rules for judge\u2019s hard-copy courtesy copy requirements (e.g., \u201cchambers copy\u201d within 24\u201348 hrs).\n\n7. File the Pleadings\n   a. Electronic Filing (most courts):\n      \u2022 Log in to the court\u2019s e-filing portal (e.g., CM/ECF, Odyssey, TrueFiling).  \n      \u2022 Select correct case; if this is the initiating pleading, open a new case.  \n      \u2022 Upload the pleading(s) and exhibits under the correct event codes.  \n      \u2022 Pay fees through the portal.  \n      \u2022 Review docket text for accuracy before final submission; click \u201cSubmit.\u201d  \n      \u2022 Save/print the Notice of Electronic Filing (NEF) or confirmation receipt.\n\n   b. Paper Filing (if required or allowed):\n      \u2022 Print originals on white 8\u00bd\u2033\u00d711\u2033 paper, single-sided unless local rule permits double-sided.  \n      \u2022 Tab exhibits if rule requires.  \n      \u2022 Make the required number of copies (often original + 2).  \n      \u2022 Staple or bind per clerk instruction (e.g., two-hole punch at top).  \n      \u2022 Prepare filing fee (check, money order) or fee-waiver packet.  \n      \u2022 Go to the clerk\u2019s office during filing hours.  \n      \u2022 Hand the pleading to the clerk; obtain file-stamped copies or a receipt.\n\n8. Serve Parties & Distribute\n   \u2022 Immediately serve all parties as stated in the certificate of service.  \n   \u2022 Send the NEF or file-stamped copy to the attorney team and client.  \n   \u2022 Calendar response deadlines triggered by filing (e.g., 14 days to oppose motion).\n\n9. Update Docketing & File Management\n   \u2022 Enter the filing details, docket number, and deadlines into the firm\u2019s docketing software.  \n   \u2022 Save final PDFs, NEF, and service proofs in the electronic case file with clear naming conventions.\n\n10. Follow Up\n   \u2022 Monitor the docket for any clerk\u2019s deficiency notices or rejections.  \n   \u2022 Cure deficiencies promptly (e.g., wrong event code, missing exhibit index).  \n   \u2022 Track issuance of summons (for complaints) and arrange prompt service.\n\nKey Tips\n\u2022 Always keep a time-stamped copy, NEF, or file-stamped hard copy for your records.  \n\u2022 Double-check filing cut-off times; many e-filing systems use 11:59 p.m. local time, but some close earlier (e.g., 5:00 p.m.).  \n\u2022 If uncertainties arise, call the clerk\u2019s office\u2014most provide procedural assistance (not legal advice).\n\nDisclaimer: This checklist is for general informational purposes and not legal advice. Always consult your supervising attorney and applicable court rules before filing.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1750538658,
+    "model": "o3-2025-04-16",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1232,
+      "prompt_tokens": 89,
+      "total_tokens": 1321,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 128,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "uid": "7e365caf",
+  "variant": 2,
+  "modality": "TEXT",
+  "temperature": 0.5,
+  "model": "claude-3-opus-20240229",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T17:51:59.930724Z",
+  "commit_sha": "98b2eb0f130d4d32e78707f77c440a8f68e4103c",
+  "prompt_sha256": "5cefa5f05d4e264907bdcc332e11d0f35576bc342acf8e367e8850e3b0cb7563",
+  "response": {
+    "raw": "Here is my attempt at the task:\n\n<OUTPUT_TEXT>\n<h1>Supporting Development of Training Materials and Technical Manuals</h1>\n\n1. Gather source material\n   - Collect existing documentation, subject matter expert input, and other relevant content\n   - Organize content and identify gaps that need to be filled\n\n2. Create content outlines \n   - Break material into major topics and subtopics\n   - Develop a logical flow and hierarchy for the content\n   - Get outlines reviewed and approved by stakeholders\n\n3. Write the content\n   - Draft the training material or technical manual sections \n   - Explain concepts clearly using plain language\n   - Use examples, diagrams, and other visual aids as appropriate\n   - Ensure consistency in style, terminology and formatting\n\n4. Review and revise\n   - Have subject matter experts review content for technical accuracy\n   - Edit and proofread content for clarity, grammar, and adherence to style guide\n   - Make revisions based on feedback \n\n5. Format and publish\n   - Format content attractively for print or online delivery\n   - Publish or deploy finished training materials or manuals\n   - Make content available to target audience\n</OUTPUT_TEXT>",
+    "extracted": "<OUTPUT_TEXT>\n<h1>Supporting Development of Training Materials and Technical Manuals</h1>\n\n1. Gather source material\n   - Collect existing documentation, subject matter expert input, and other relevant content\n   - Organize content and identify gaps that need to be filled\n\n2. Create content outlines \n   - Break material into major topics and subtopics\n   - Develop a logical flow and hierarchy for the content\n   - Get outlines reviewed and approved by stakeholders\n\n3. Write the content\n   - Draft the training material or technical manual sections \n   - Explain concepts clearly using plain language\n   - Use examples, diagrams, and other visual aids as appropriate\n   - Ensure consistency in style, terminology and formatting\n\n4. Review and revise\n   - Have subject matter experts review content for technical accuracy\n   - Edit and proofread content for clarity, grammar, and adherence to style guide\n   - Make revisions based on feedback \n\n5. Format and publish\n   - Format content attractively for print or online delivery\n   - Publish or deploy finished training materials or manuals\n   - Make content available to target audience\n</OUTPUT_TEXT>"
+  }
+}

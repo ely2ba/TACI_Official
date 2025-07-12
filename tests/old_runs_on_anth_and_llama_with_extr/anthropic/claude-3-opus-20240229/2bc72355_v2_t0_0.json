@@ -1,0 +1,15 @@
+{
+  "uid": "2bc72355",
+  "variant": 2,
+  "modality": "TEXT",
+  "temperature": 0.0,
+  "model": "claude-3-opus-20240229",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T17:54:46.660842Z",
+  "commit_sha": "98b2eb0f130d4d32e78707f77c440a8f68e4103c",
+  "prompt_sha256": "07aea8e8cf6467f222ca4ac5d0a655a4e65a4462917f3975f47987a52b9b6bfa",
+  "response": {
+    "raw": "Here is my suggested output:\n<OUTPUT_TEXT>\n<h1>Instructing Students Individually and in Groups</h1>\n1. Prepare engaging lesson plans\n- Develop lectures, discussions, demonstrations and other teaching methods to convey the material\n- Incorporate different learning styles (visual, auditory, kinesthetic) to reach all students\n2. Deliver instruction to the full class\n- Present lectures and lead class discussions\n- Use visual aids, multimedia, and demonstrations as appropriate \n- Ask questions to check for understanding and encourage participation\n3. Break class into small groups\n- Assign group projects and activities\n- Have students collaborate and learn from each other\n- Circulate between groups to facilitate discussion and answer questions\n4. Work with students one-on-one\n- Provide individualized instruction as needed\n- Help students who are struggling with the material\n- Offer enrichment to students who need an extra challenge\n5. Assess learning and adjust instruction\n- Evaluate students' understanding through assignments, quizzes, projects\n- Identify areas where students need additional support\n- Modify lessons and teaching methods as needed to optimize learning\n</OUTPUT_TEXT>",
+    "extracted": "<OUTPUT_TEXT>\n<h1>Instructing Students Individually and in Groups</h1>\n1. Prepare engaging lesson plans\n- Develop lectures, discussions, demonstrations and other teaching methods to convey the material\n- Incorporate different learning styles (visual, auditory, kinesthetic) to reach all students\n2. Deliver instruction to the full class\n- Present lectures and lead class discussions\n- Use visual aids, multimedia, and demonstrations as appropriate \n- Ask questions to check for understanding and encourage participation\n3. Break class into small groups\n- Assign group projects and activities\n- Have students collaborate and learn from each other\n- Circulate between groups to facilitate discussion and answer questions\n4. Work with students one-on-one\n- Provide individualized instruction as needed\n- Help students who are struggling with the material\n- Offer enrichment to students who need an extra challenge\n5. Assess learning and adjust instruction\n- Evaluate students' understanding through assignments, quizzes, projects\n- Identify areas where students need additional support\n- Modify lessons and teaching methods as needed to optimize learning\n</OUTPUT_TEXT>"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "uid": "07080553",
+  "variant": 1,
+  "temperature": 0.0,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:10:36Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "ca65019701b219e673d37a5ddbfdb70839253fca5816fda8501517c5c5846e16",
+  "response": {
+    "id": "chatcmpl-BaUsrszvv26SHI4yryNpepypE6W7S",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n\nSubject: Preparation of Affidavits and Other Legal Documents\n\nDear [Client's Name],\n\nI hope this message finds you well. I am writing to inform you that we are in the process of preparing the necessary affidavits and other legal documents pertinent to your case. \n\nOur team is working diligently to ensure that all documents are accurate, comprehensive, and in compliance with all legal standards and requirements. We understand the importance of these documents to your case, and we are committed to providing you with the highest level of service.\n\nIn addition to preparing these documents, we are also organizing and maintaining them in our secure paper and electronic filing systems. This will ensure that all documents are easily accessible and can be retrieved quickly when needed. \n\nPlease rest assured that we are taking all necessary steps to protect your confidential information. Our electronic filing system is encrypted and password-protected, and our paper files are stored in a secure location.\n\nWe will notify you as soon as the affidavits and other documents are ready for your review. In the meantime, if you have any questions or concerns, please do not hesitate to contact us.\n\nThank you for entrusting us with your legal needs. We look forward to serving you.\n\nBest regards,\n\n[Your Name]\nSenior Paralegal and Legal Assistant\n\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748038225,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 266,
+      "prompt_tokens": 95,
+      "total_tokens": 361,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

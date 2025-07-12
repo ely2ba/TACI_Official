@@ -1,0 +1,15 @@
+{
+  "uid": "dc35566b",
+  "variant": 0,
+  "modality": "TEXT",
+  "temperature": 0.0,
+  "model": "claude-3-5-sonnet-20240620",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T18:05:26.641788Z",
+  "commit_sha": "98b2eb0f130d4d32e78707f77c440a8f68e4103c",
+  "prompt_sha256": "b1ac045c1a947bb4d70d059931e67b3014310d0dc0649de077ee69a7bab47991",
+  "response": {
+    "raw": "<OUTPUT_TEXT>\nTo prepare for trial by organizing exhibits:\n\n1. Create an exhibit list\n2. Assign unique numbers/letters to each exhibit\n3. Make copies of all exhibits (physical and digital)\n4. Organize exhibits in clearly labeled folders or binders\n5. Prepare exhibit stickers or labels\n6. Create an electronic database of exhibits\n7. Ensure all exhibits are admissible and relevant\n8. Coordinate with attorneys on exhibit presentation order\n9. Prepare exhibit notebooks for attorneys and witnesses\n10. Double-check for completeness and accuracy\n</OUTPUT_TEXT>",
+    "extracted": "<OUTPUT_TEXT>\nTo prepare for trial by organizing exhibits:\n\n1. Create an exhibit list\n2. Assign unique numbers/letters to each exhibit\n3. Make copies of all exhibits (physical and digital)\n4. Organize exhibits in clearly labeled folders or binders\n5. Prepare exhibit stickers or labels\n6. Create an electronic database of exhibits\n7. Ensure all exhibits are admissible and relevant\n8. Coordinate with attorneys on exhibit presentation order\n9. Prepare exhibit notebooks for attorneys and witnesses\n10. Double-check for completeness and accuracy\n</OUTPUT_TEXT>"
+  }
+}

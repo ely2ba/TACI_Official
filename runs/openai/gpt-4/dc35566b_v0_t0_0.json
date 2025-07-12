@@ -1,0 +1,49 @@
+{
+  "uid": "dc35566b",
+  "variant": 0,
+  "temperature": 0.0,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:07:23Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "25d7a8de541d91c81fb3067edf07ff6bd5e5ec424be51391eac90de8080b628a",
+  "response": {
+    "id": "chatcmpl-BaUprs8eLXhznAygQex8H34u3RMzo",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nTo prepare for the upcoming trial, I will begin by organizing all the exhibits. This includes categorizing them based on their relevance to the case, labeling them for easy identification, and ensuring they are in a logical order for presentation. I will also prepare a detailed list of the exhibits for reference during the trial. This task is crucial as it aids in the smooth running of the trial and helps the legal team to present their case effectively.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748038039,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 95,
+      "prompt_tokens": 62,
+      "total_tokens": 157,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "uid": "07080553",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:14:40Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "acb24bee05a0f7b8bea5c38e5a76f68132b2b74e13fdae3608ba58b711cf52c6",
+  "response": {
+    "id": "chatcmpl-BaUwn9O7uYMxCQZtAhYv9VJRnvv7b",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Paralegal Task: Document Preparation and Organization\n\n1. **Affidavit Preparation**\n   An affidavit is a written statement from an individual which is sworn to be true. It is an important document in legal proceedings. The preparation of an affidavit involves the following steps:\n   - Identify the affiant, the person who is making the statement.\n   - Write a statement of truth.\n   - Write the affiant's statement.\n   - Include a jurat, the portion where the notary public will sign.\n   - Have the affiant sign the document in the presence of a notary public.\n\n2. **Preparing Other Legal Documents**\n   Legal correspondence and other documents are essential in legal proceedings. The steps to prepare such documents include:\n   - Identify the type of document required.\n   - Write the document, ensuring all necessary legal language and stipulations are included.\n   - Review the document for accuracy and completeness.\n   - Have the document signed by the necessary parties.\n\n3. **Organizing and Maintaining Documents**\n   Proper organization and maintenance of documents is crucial in the legal field. This can be done either in a paper or electronic filing system. The steps include:\n   - Categorize documents based on case, type, date, or other relevant factors.\n   - File the documents in the appropriate folders or directories.\n   - Regularly update the filing system to ensure all documents are accounted for and easily accessible.\n   - Back up electronic files to prevent loss of information.\n   - Maintain confidentiality and security of all documents.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748038469,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 318,
+      "prompt_tokens": 98,
+      "total_tokens": 416,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

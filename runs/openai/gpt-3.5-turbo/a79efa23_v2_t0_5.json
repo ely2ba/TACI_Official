@@ -1,0 +1,49 @@
+{
+  "uid": "a79efa23",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-3.5-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T21:58:52Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "32ef1a18109ce6f7d3009a995ee3910867c0a46194b44472ba6d53fb53a6e42c",
+  "response": {
+    "id": "chatcmpl-BaUhf9gNPdCAyavLrk5RKtY1mdn2e",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Customer Service Assistance\n\n1. **Providing Information**: \n   - Listen to customer inquiries and provide detailed information about products or services.\n   \n2. **Order Taking**:\n   - Efficiently take and enter customer orders, ensuring accuracy and completeness.\n   \n3. **Account Cancellation**:\n   - Assist customers with canceling their accounts, following the company's procedures and policies.\n   \n4. **Handling Complaints**:\n   - Collect and document all relevant details of customer complaints to facilitate resolution.\n\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748037531,
+    "model": "gpt-3.5-turbo-0125",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 110,
+      "prompt_tokens": 101,
+      "total_tokens": 211,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

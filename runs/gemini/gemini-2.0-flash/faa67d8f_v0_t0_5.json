@@ -1,0 +1,45 @@
+{
+  "uid": "faa67d8f",
+  "variant": 0,
+  "temperature": 0.5,
+  "model": "gemini-2.0-flash",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T13:18:01.677466Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "Okay, I understand. I will analyze technology trends to identify potential markets for new product development or to enhance sales of current products. I will focus on identifying actionable insights.\n"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.29860630035400393
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 94,
+      "candidatesTokenCount": 35,
+      "totalTokenCount": 129,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 94
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 35
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:18:01.186563Z",
+    "responseId": "ibs1aMOxC8epnvgP_sSfsAM"
+  }
+}

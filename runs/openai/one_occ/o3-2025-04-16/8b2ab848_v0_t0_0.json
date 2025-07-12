@@ -1,0 +1,50 @@
+{
+  "uid": "8b2ab848",
+  "variant": 0,
+  "temperature": 0.0,
+  "seed": 0,
+  "model": "o3-2025-04-16",
+  "modality": "TEXT",
+  "timestamp": "2025-06-22T01:29:48Z",
+  "commit_sha": "804359864749ca9f67aac246209838ff70615b83",
+  "prompt_sha256": "e7285fca42a00eab8b1b8296f705bdcabf090c721be9acdbab2c0da1dcc2a128",
+  "response": {
+    "id": "chatcmpl-Bl3oN05fypBXGTOvbiP5fOjLChMdg",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nBelow is a practical guide, written from the perspective of a paralegal / closing specialist, on (1) arbitrating real-estate-related disputes, and (2) supporting a real-estate closing by reviewing the title search and curing title issues.  It is intended for informational purposes only and does not constitute legal advice.  Always confirm local rules and obtain attorney oversight where required.\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nI. ARBITRATING DISPUTES BETWEEN PARTIES\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nA. Determine Whether Arbitration Is Required or Elective\n1. Review the purchase-and-sale agreement (PSA), lease, or other governing contract for an arbitration clause.\n2. Verify scope (which disputes are covered), governing rules (e.g., AAA, JAMS), seat of arbitration, and deadlines for initiating the proceeding.\n3. Identify any statutory obligations (e.g., state law may mandate mediation before arbitration for residential disputes).\n\nB. Pre-Arbitration Steps\n1. Notice of Dispute\n   \u2022 Draft and send a notice that satisfies contractual language (delivery method, timeframe, issues in dispute).\n2. Selection of Arbitrator(s)\n   \u2022 Follow contract or forum rules for striking lists or jointly appointing an arbitrator.\n3. Drafting the Demand or Response\n   \u2022 Collect documents: PSA, addenda, correspondence, inspection reports, title documents.\n   \u2022 Confirm filing fees and service requirements.\n\nC. Managing the Arbitration\n1. Scheduling & Case Management\n   \u2022 Prepare a procedural calendar tracking disclosure, hearing, and briefing deadlines.\n2. Discovery Support\n   \u2022 Organize document productions, maintain privilege logs, and prepare exhibits.\n3. Hearing Preparation\n   \u2022 Assist counsel in assembling witness binders, exhibits, demonstratives, and logistical arrangements (venue, videoconferencing, court reporter).\n4. Award & Post-Award\n   \u2022 Calendar any deadlines to seek modification, correction, or confirmation of the award in court.\n\nD. Settlement Possibilities\n1. Evaluate mediation at any stage; draft settlement agreements with precise release language.\n2. If settlement impacts title (e.g., lien releases), coordinate recording of documents so the closing can proceed.\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nII. ASSISTING IN THE REAL-ESTATE CLOSING PROCESS\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nA. Pre-Closing Checklist\n1. Obtain Executed PSA and All Amendments.\n2. Verify Buyer\u2019s Entity Documents (LLC formation, operating agreement, resolutions).\n3. Confirm Lender Requirements (commitment letter, closing instructions, title endorsements).\n4. Tax, HOA, and Municipal Certs (payoffs, estoppel letters, utility prorations).\n\nB. Title Search Review \u2013 Step-by-Step\n1. Examine the Commitment / Preliminary Report\n   \u2022 Schedule A: Correct legal description? Vesting matches seller?\n   \u2022 Schedule B-I: Note requirements (releases, corporate docs, power of attorney, affidavits).\n   \u2022 Schedule B-II: Identify exceptions to be cleared or accepted.\n2. Chain of Title\n   \u2022 Confirm proper conveyances and recordation gaps.\n   \u2022 Watch for wild deeds, unreleased prior mortgages, tax deeds.\n3. Liens & Judgments\n   \u2022 Search name variations; obtain payoff statements with good-through dates.\n   \u2022 Verify that UCC-1s against fixtures or personal property are addressed.\n4. Easements & Restrictions\n   \u2022 Review plats, CCRs, or utility easements that could affect use or value.\n5. Survey Matters\n   \u2022 Compare survey calls to legal description; flag encroachments or boundary overlaps.\n6. Title Insurance Endorsements\n   \u2022 Draft request for lender\u2019s or owner\u2019s endorsements (e.g., ALTA 9.10, 9.6, 22-06).\n\nC. Curing Common Title Issues\n1. Missing or Defective Releases\n   \u2022 Draft and record satisfaction of mortgage or release of lien; obtain corporate authority.\n2. Probate / Heirship Gaps\n   \u2022 Prepare affidavits of heirship or assist counsel with quiet-title action if needed.\n3. Entity Authority\n   \u2022 Collect certificates of good standing; draft resolutions authorizing sale.\n4. Boundary or Easement Disputes\n   \u2022 Negotiate reciprocal easement agreements or lot line adjustments; arrange recordation.\n5. Mechanic\u2019s Liens\n   \u2022 Obtain conditional / unconditional lien waivers; escrow holdback if work ongoing.\n\nD. Preparing the Closing Package\n1. Draft deed (warranty, special warranty, or quitclaim), transfer tax forms, and disclosures.\n2. Coordinate with lender for note, deed of trust/mortgage, and closing statement (CD or HUD-1).\n3. Calculate prorations and adjust settlement statement.\n4. Prepare affidavits (title, non-foreign/FERPTA, gap, occupancy).\n5. Ensure wire instructions are verified via two-factor confirmation to prevent fraud.\n\nE. Closing Day & Post-Closing\n1. Execute documents, notarize, and scan copies for immediate distribution.\n2. Disburse funds upon receipt of title insurer\u2019s funding authorization.\n3. Record deed and security instruments the same day where e-recording is available.\n4. Prepare post-closing binder with final policy, recorded documents, and tax filings.\n5. Calendar survival periods for reps and warranties, escrow hold-release dates, and policy issuance.\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nIII. RISK MANAGEMENT & ETHICAL CONSIDERATIONS\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\u2022 Maintain confidentiality (NDA, attorney\u2013client privilege under attorney supervision).\n\u2022 Avoid unauthorized practice of law: obtain attorney review for legal conclusions, deed drafting, and arbitration pleadings.\n\u2022 Comply with CFPB, RESPA, and state escrow regulations.\n\u2022 Follow ALTA Best Practices for title and settlement agents.\n\u2022 Use secure portals for transmission of personal identifying information (PII).\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nIV. QUICK REFERENCE TIMELINE\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n1. Offer Acceptance \u2192 Immediate order of title search & survey.\n2. 30\u201345 Days Before Closing \u2192 Cure title defects, finalize loan approval.\n3. 1 Week Before Closing \u2192 Issue draft settlement statement, confirm closing figures.\n4. Closing Day \u2192 Execute, fund, record.\n5. Within 30 Days After Closing \u2192 Deliver owner\u2019s and lender\u2019s policies; store files per retention policy.\n\nBy systematically managing arbitration procedures and diligently reviewing and curing title issues, a paralegal can keep transactions on track, resolve disputes efficiently, and help ensure a smooth real-estate closing.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1750555767,
+    "model": "o3-2025-04-16",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1684,
+      "prompt_tokens": 104,
+      "total_tokens": 1788,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 320,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

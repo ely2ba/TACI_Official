@@ -1,0 +1,43 @@
+{
+  "uid": "dc35566b",
+  "variant": 1,
+  "modality": "TEXT",
+  "temperature": 0.5,
+  "model": "llama3-8b-8192",
+  "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+  "timestamp": "2025-05-28T14:54:42.339889Z",
+  "prompt_sha256": "6c6a86649c81fea2ed1d8c84be328a38563e33ba324ede3cdadaa3e6f5f90a91",
+  "response": {
+    "id": "chatcmpl-d6b505c0-c1e3-4181-9fba-3fb7ca71d4d1",
+    "object": "chat.completion",
+    "created": 1748444082,
+    "model": "llama3-8b-8192",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "<OUTPUT_TEXT>\nAs a senior Paralegal And Legal Assistant, I will begin by gathering all relevant exhibits and organizing them in a logical and easily accessible manner. This will involve reviewing the case file, identifying the key exhibits, and categorizing them by type and relevance. I will also ensure that each exhibit is properly labeled and that all necessary documentation, such as witness statements and expert reports, is included. Additionally, I will prepare an exhibit list, which will detail the contents and relevance of each exhibit, and provide it to the attorney for review and approval. This will enable the attorney to easily locate and reference specific exhibits during the trial, and will help to ensure a smooth and efficient presentation of the case.\n</OUTPUT_TEXT>"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "queue_time": 0.16338350100000001,
+      "prompt_tokens": 117,
+      "prompt_time": 0.015052125,
+      "completion_tokens": 144,
+      "completion_time": 0.12,
+      "total_tokens": 261,
+      "total_time": 0.135052125
+    },
+    "usage_breakdown": {
+      "models": null
+    },
+    "system_fingerprint": "fp_dadc9d6142",
+    "x_groq": {
+      "id": "req_01jwbp6vybede8pvdensk5qmjs"
+    }
+  }
+}

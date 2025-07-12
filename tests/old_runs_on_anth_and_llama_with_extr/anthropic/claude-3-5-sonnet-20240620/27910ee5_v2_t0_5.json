@@ -1,0 +1,15 @@
+{
+  "uid": "27910ee5",
+  "variant": 2,
+  "modality": "TEXT",
+  "temperature": 0.5,
+  "model": "claude-3-5-sonnet-20240620",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T18:07:51.707188Z",
+  "commit_sha": "98b2eb0f130d4d32e78707f77c440a8f68e4103c",
+  "prompt_sha256": "6060748aeb3ca712c2c1996ec3884666a13bf44a4737fc0dbd4a0d7f6edcc871",
+  "response": {
+    "raw": "Here is my response formatted as requested:\n\n<OUTPUT_TEXT>\n\n# Project Reporting\n\n1. Project Plans\n   - Define clear project scope, objectives, and deliverables\n   - Create detailed work breakdown structure and timeline\n   - Assign roles and responsibilities to team members\n   - Identify key milestones and dependencies\n   - Develop risk management and mitigation strategies\n\n2. Progress Tracking\n   - Hold regular status meetings to review progress\n   - Use project management software to track tasks and timelines\n   - Monitor budget and resource utilization\n   - Identify and address any bottlenecks or issues\n   - Provide stakeholder updates on key metrics and KPIs\n\n3. Results Reporting  \n   - Compile data on project outcomes and deliverables\n   - Analyze performance against initial objectives and success criteria\n   - Document lessons learned and areas for improvement\n   - Prepare executive summary and detailed final report\n   - Present results to stakeholders and leadership\n\n</OUTPUT_TEXT>",
+    "extracted": "<OUTPUT_TEXT>\n# Project Reporting\n\n1. Project Plans\n   - Define clear project scope, objectives, and deliverables\n   - Create detailed work breakdown structure and timeline\n   - Assign roles and responsibilities to team members\n   - Identify key milestones and dependencies\n   - Develop risk management and mitigation strategies\n\n2. Progress Tracking\n   - Hold regular status meetings to review progress\n   - Use project management software to track tasks and timelines\n   - Monitor budget and resource utilization\n   - Identify and address any bottlenecks or issues\n   - Provide stakeholder updates on key metrics and KPIs\n\n3. Results Reporting  \n   - Compile data on project outcomes and deliverables\n   - Analyze performance against initial objectives and success criteria\n   - Document lessons learned and areas for improvement\n   - Prepare executive summary and detailed final report\n   - Present results to stakeholders and leadership\n</OUTPUT_TEXT>"
+  }
+}

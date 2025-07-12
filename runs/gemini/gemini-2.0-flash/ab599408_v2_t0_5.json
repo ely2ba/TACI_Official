@@ -1,0 +1,45 @@
+{
+  "uid": "ab599408",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gemini-2.0-flash",
+  "modality": "GUI",
+  "timestamp": "2025-05-27T13:10:15.149452Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "Okay, I understand. I need to use the provided selectors to automate the task of ordering and maintaining an inventory of supplies, which involves searching for items, adding them to an order, specifying quantities, and submitting the order.\n\n```json\n[\n  {\"click\": \"input[placeholder*=search i]\"},\n  {\"type\": \"input[placeholder*=search i]\", \"value\": \"gloves\"},\n  {\"click\": \"button:has-text(\\\"add item\\\" i)\"},\n  {\"click\": \"input[name*=quantity i]\"},\n  {\"type\": \"input[name*=quantity i]\", \"value\": \"10\"},\n  {\"click\": \"button:has-text(\\\"order\\\" i), button:has-text(\\\"submit\\\" i)\"}\n]\n```"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.07131424635470271
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 173,
+      "candidatesTokenCount": 167,
+      "totalTokenCount": 340,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 173
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 167
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:10:13.914601Z",
+    "responseId": "tbk1aKnpN_CNgLUP-_fggAY"
+  }
+}

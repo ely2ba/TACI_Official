@@ -1,0 +1,60 @@
+{
+  "uid": "0dd1e9ca",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gemini-2.5-pro-preview-05-06",
+  "modality": "GUI",
+  "timestamp": "2025-05-27T13:45:02.844775Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_JSON>[\n  {\n    \"selector\": \"select[name*=report i]\",\n    \"action\": \"select_option\",\n    \"value\": \"{{report_type}}\",\n    \"description\": \"Select the desired report type from the dropdown. The value for '{{report_type}}' (e.g., 'Sales Summary Q3', 'Financial Performance YTD') needs to be provided at runtime.\"\n  },\n  {\n    \"selector\": \"button:has-text(\\\"generate\\\" i)\",\n    \"action\": \"click\",\n    \"description\": \"Click the 'Generate' button to produce the selected report on the screen or in the background.\"\n  },\n  {\n    \"selector\": \"button:has-text(\\\"export\\\" i)\",\n    \"action\": \"click\",\n    \"description\": \"Click the 'Export' button to prepare the generated report for download, possibly choosing a format (e.g., PDF, CSV, XLSX).\"\n  },\n  {\n    \"selector\": \"a:has-text(\\\"download\\\" i)\",\n    \"action\": \"click\",\n    \"description\": \"Click the 'Download' link to save the exported report file to the local system.\"\n  }\n]</OUTPUT_JSON>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "citationMetadata": {
+          "citations": [
+            {
+              "startIndex": 4243,
+              "endIndex": 4396,
+              "uri": "https://www.gsaadvantage.gov/ref_text/GS00F0001U/GS00F0001U_online.htm"
+            },
+            {
+              "startIndex": 7458,
+              "endIndex": 7611,
+              "uri": "https://www.gsaadvantage.gov/ref_text/GS00F0001U/GS00F0001U_online.htm"
+            }
+          ]
+        },
+        "avgLogprobs": -1.3890094687213828
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 173,
+      "candidatesTokenCount": 273,
+      "totalTokenCount": 3229,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 173
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 273
+        }
+      ],
+      "thoughtsTokenCount": 2783
+    },
+    "modelVersion": "gemini-2.5-pro-preview-05-06",
+    "createTime": "2025-05-27T13:44:34.212437Z",
+    "responseId": "wsE1aNX7DO6U2PgPqduJmAs"
+  }
+}

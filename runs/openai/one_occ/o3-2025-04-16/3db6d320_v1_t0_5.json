@@ -1,0 +1,50 @@
+{
+  "uid": "3db6d320",
+  "variant": 1,
+  "temperature": 0.5,
+  "seed": 1,
+  "model": "o3-2025-04-16",
+  "modality": "TEXT",
+  "timestamp": "2025-06-21T20:40:59Z",
+  "commit_sha": "ac1698886e89fb01e65b6ca5c8e06e97f58dd0fa",
+  "prompt_sha256": "7d8015711e704fdfab04979f4d13093ef65d2011a424ce84ac42ad0d09849019",
+  "response": {
+    "id": "chatcmpl-BkzIqjyiYvY5d8TKkE5KAXNLRIRxz",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nTo:        [Supervising Attorney\u2019s Name]  \nFrom:      [Your Name], Senior Paralegal  \nDate:      [Today\u2019s Date]  \nRe:        Standard Research & Case-Preparation Protocol\u2014Identifying Facts, Causes of Action, and Supporting Law  \n\nI. Purpose  \nThis memorandum outlines a step-by-step protocol for (1) gathering and verifying facts, (2) conducting legal research, (3) identifying viable causes of action or defenses, and (4) compiling a litigation-ready work-up file. The framework is intended for use in any new matter before specific factual details are known.\n\nII. Fact Investigation Procedure  \n\nA. Preliminary Intake  \n   1. Client Interview \u2013 Obtain chronology, key documents, witnesses, and objectives.  \n   2. Conflict Check \u2013 Run client, adverse parties, and witnesses through firm database.  \n\nB. Documentary Collection & Preservation  \n   1. Client-Held Records \u2013 Contracts, correspondence, employment files, medical reports, photographs, social-media posts.  \n   2. Third-Party/Public Records \u2013  \n      \u2022 Secretary of State entity filings  \n      \u2022 Real-property records (grant deeds, liens, plats)  \n      \u2022 Court dockets (state, federal, bankruptcy)  \n      \u2022 Police/incident reports (FOIA / state public-records request)  \n      \u2022 Administrative agency files (EEOC, NLRB, OSHA)  \n      \u2022 UCC filings, patent/trademark registers, SEC filings  \n   3. Litigation Hold \u2013 Draft instructions to preserve ESI and hard copies.  \n\nC. Witness Identification & Statements  \n   1. Prepare witness list with contact information, relevance, and anticipated testimony.  \n   2. Conduct informal interviews; summarize statements; obtain declarations where feasible.  \n\nIII. Legal Research Strategy  \n\nA. Frame Preliminary Legal Questions  \n   \u2022 Primary rights violated?  \n   \u2022 Applicable jurisdiction (state v. federal) and venue.  \n   \u2022 Statutes of limitation and repose.  \n\nB. Source Hierarchy  \n   1. Binding Authorities \u2013 Constitutions, statutes, administrative regulations, controlling case law.  \n   2. Persuasive Authorities \u2013 Out-of-jurisdiction cases, secondary sources.  \n   3. Secondary Sources \u2013 Practice guides (Witkin, C.J.S.), Restatements, law-review articles.  \n\nC. Research Tools  \n   \u2022 Westlaw/Lexis (Key Numbers; headnotes)  \n   \u2022 Fastcase/Google Scholar for cost-control  \n   \u2022 Government portals (PACER, state appellate websites)  \n   \u2022 Docket-alert services (CourtLink, Bloomberg Law)  \n\nIV. Cause-of-Action Checklist (Illustrative)  \n\nA. Contract & Commercial  \n   \u2022 Breach of contract / implied covenant of good faith  \n   \u2022 Account stated / quantum meruit / unjust enrichment  \n   \u2022 Fraudulent inducement / negligent misrepresentation  \n\nB. Tort  \n   \u2022 Negligence (duty, breach, causation, damages)  \n   \u2022 Products liability (manufacturing defect, design defect, failure to warn)  \n   \u2022 Intentional torts (assault, battery, IIED, conversion, trespass)  \n\nC. Employment  \n   \u2022 Title VII discrimination / harassment / retaliation  \n   \u2022 FLSA / state wage-and-hour violations  \n   \u2022 Wrongful termination in violation of public policy  \n\nD. Intellectual Property  \n   \u2022 Copyright infringement  \n   \u2022 Trademark infringement / dilution  \n   \u2022 Patent infringement / trade-secret misappropriation (DTSA, UTSA)  \n\nE. Statutory/Regulatory  \n   \u2022 Consumer statutes (FDCPA, TCPA, state UDAP)  \n   \u2022 Civil rights (42 U.S.C. \u00a7 1983; ADA)  \n   \u2022 Securities fraud (Rule 10b-5, \u00a7 11, \u00a7 12(a)(2))  \n\nV. Case-Preparation Deliverables  \n\n1. Chronology \u2013 Excel or CaseMap spreadsheet keyed to Bates numbers.  \n2. Issues List \u2013 Each element of each cause of action cross-referenced to facts and evidence.  \n3. Research Binder \u2013 Copies of all cited cases, statutes, and regulations with Shepard\u2019s/KeyCite flags.  \n4. Damages Analysis \u2013 Preliminary calculations (economic, non-economic, punitive).  \n5. Draft Pleadings \u2013 Complaint or answer with affirmative defenses; template discovery requests.  \n6. Settlement Valuation \u2013 SWOT analysis, comparable verdict/settlement data, insurance coverage evaluation.  \n7. Calendar \u2013 Critical deadlines (SOL, administrative prerequisites, discovery cut-off, expert disclosures).  \n\nVI. Ethical & Privacy Considerations  \n\n\u2022 Privilege \u2013 Label all attorney-client and work-product documents; use secure share portals.  \n\u2022 Data Privacy \u2013 Comply with HIPAA, GDPR/CCPA where applicable; redact SSNs, birthdates.  \n\u2022 Unauthorized Practice \u2013 All legal conclusions reviewed by supervising attorney before dissemination.  \n\nVII. Next Steps  \n\n1. Finalize intake questionnaire and secure client signature on retainer.  \n2. Launch litigation hold notice within 24 hours.  \n3. Complete preliminary research memorandum on top three probable causes of action within five business days.  \n4. Schedule strategy meeting with supervising attorney to refine pleadings and discovery plan.  \n\nPlease advise if you would like deeper analysis on any of the above components or if additional jurisdiction-specific authority should be compiled.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1750538436,
+    "model": "o3-2025-04-16",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1330,
+      "prompt_tokens": 131,
+      "total_tokens": 1461,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 192,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

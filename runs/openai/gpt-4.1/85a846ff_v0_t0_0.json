@@ -1,0 +1,49 @@
+{
+  "uid": "85a846ff",
+  "variant": 0,
+  "temperature": 0.0,
+  "model": "gpt-4.1",
+  "modality": "GUI",
+  "timestamp": "2025-05-23T23:00:09Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "83d128daaf6824cb5995770d4c1c1a222d19d512661f40cf78738cec7ede9d23",
+  "response": {
+    "id": "chatcmpl-BaVevGconmuXlu8dXOPJsMnVT7IF4",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_JSON>\n[\n  {\"action\": \"click\", \"selector\": \"input[name*=account i]\", \"text\": \"\"},\n  {\"action\": \"type\", \"selector\": \"input[name*=account i]\", \"text\": \"Medical Records\"},\n  {\"action\": \"click\", \"selector\": \"input[name*=amount i], input[type=number]\", \"text\": \"\"},\n  {\"action\": \"type\", \"selector\": \"input[name*=amount i], input[type=number]\", \"text\": \"1\"},\n  {\"action\": \"click\", \"selector\": \"textarea[name*=memo i]\", \"text\": \"\"},\n  {\"action\": \"type\", \"selector\": \"textarea[name*=memo i]\", \"text\": \"Updated and maintained medical records, technical library, and correspondence files.\"},\n  {\"action\": \"click\", \"selector\": \"button:has-text(\\\"save\\\" i)\", \"text\": \"\"}\n]\n</OUTPUT_JSON>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748041205,
+    "model": "gpt-4.1-2025-04-14",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_ccc6ec921d",
+    "usage": {
+      "completion_tokens": 189,
+      "prompt_tokens": 143,
+      "total_tokens": 332,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

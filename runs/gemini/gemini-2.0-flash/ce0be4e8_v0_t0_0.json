@@ -1,0 +1,49 @@
+{
+  "uid": "ce0be4e8",
+  "variant": 0,
+  "temperature": 0.0,
+  "model": "gemini-2.0-flash",
+  "modality": "VISION",
+  "timestamp": "2025-06-02T21:03:08.357814Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "I need to compare the two images and identify any anomalies. Both images are mammograms. I will look for any unusual masses, calcifications, or changes in tissue density.\n\n```json\n{\"finding\":\"mass\", \"image_id\": \"img_000\", \"bbox\": [250, 100, 400, 200], \"explanation\": \"There is a possible mass in the upper outer quadrant of the breast.\"}\n```"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.2717022514343262
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 736,
+      "candidatesTokenCount": 100,
+      "totalTokenCount": 836,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 220
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 516
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 100
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-06-02T21:03:06.825249Z",
+    "responseId": "ihE-aKGvMvC-gLUPq9uj-Qg"
+  }
+}

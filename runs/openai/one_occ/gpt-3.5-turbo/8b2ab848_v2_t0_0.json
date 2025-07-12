@@ -1,0 +1,49 @@
+{
+  "uid": "8b2ab848",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gpt-3.5-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:27:59Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "0f9d513f0ee228b1b7529ec92a6adc7f8a0472989ce4d1d57412a50387e5de87",
+  "response": {
+    "id": "chatcmpl-Bi1Xwx79QMyBIiVomyIo1m9mfVCVn",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n<h1>Arbitration and Real Estate Closing Assistance</h1>\n\n1. **Arbitration Process:**\n   - Facilitate communication between parties involved in disputes.\n   - Review relevant documents and evidence to make informed decisions.\n   - Help parties reach a mutually agreeable resolution.\n\n2. **Real Estate Closing Support:**\n   - Assist in reviewing title searches to ensure clear ownership of the property.\n   - Coordinate with all parties involved in the closing process.\n   - Ensure all legal requirements are met for a smooth and successful closing.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749832076,
+    "model": "gpt-3.5-turbo-0125",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 118,
+      "prompt_tokens": 126,
+      "total_tokens": 244,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

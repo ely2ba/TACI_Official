@@ -1,0 +1,45 @@
+{
+  "uid": "0dd1e9ca",
+  "variant": 1,
+  "temperature": 0.0,
+  "model": "gemini-2.0-flash",
+  "modality": "GUI",
+  "timestamp": "2025-05-27T13:09:49.504053Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_JSON>[{\"action\": \"click\", \"selector\": \"select[name*=report i]\", \"text\": \"\"}, {\"action\": \"click\", \"selector\": \"button:has-text(\\\"generate\\\" i)\", \"text\": \"\"}]</OUTPUT_JSON>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.015344267351585523
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 181,
+      "candidatesTokenCount": 57,
+      "totalTokenCount": 238,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 181
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 57
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:09:48.949731Z",
+    "responseId": "nLk1aOP7ObOMgLUPq7OY6QY"
+  }
+}

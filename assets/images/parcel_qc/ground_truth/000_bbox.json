@@ -1,0 +1,15 @@
+{
+  "labels": [
+    "crack",
+    "defect",
+    "damage",
+    "broken capsule",
+    "anomaly"
+  ],
+  "bbox": [
+    714,
+    601,
+    886,
+    623
+  ]
+}

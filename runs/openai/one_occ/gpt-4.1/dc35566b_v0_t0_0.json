@@ -1,0 +1,49 @@
+{
+  "uid": "dc35566b",
+  "variant": 0,
+  "temperature": 0.0,
+  "model": "gpt-4.1",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:53:43Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "b1ac045c1a947bb4d70d059931e67b3014310d0dc0649de077ee69a7bab47991",
+  "response": {
+    "id": "chatcmpl-Bi1wnI8A5IXMxN7ifxZlLsAA8QDjN",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nTo prepare for trial by organizing exhibits, follow these steps:\n\n1. **Gather All Exhibits**: Collect all documents, photographs, physical evidence, and other materials that may be introduced at trial.\n2. **Create an Exhibit List**: Prepare a detailed list of all exhibits, assigning each a unique identifier (e.g., Plaintiff\u2019s Exhibit 1, Defendant\u2019s Exhibit A).\n3. **Label Exhibits**: Clearly label each exhibit with its identifier, ensuring consistency with the exhibit list.\n4. **Prepare Exhibit Binders**: Place exhibits in binders or folders in the order they will be presented. Prepare separate sets for the judge, opposing counsel, and witnesses as required.\n5. **Prepare an Exhibit Index**: Create an index or table of contents for quick reference, including exhibit numbers, descriptions, and relevant Bates numbers or page references.\n6. **Review Admissibility**: Confirm that each exhibit complies with evidentiary rules and is properly authenticated.\n7. **Coordinate with Counsel**: Review the exhibit list with the attorney to confirm the order of presentation and discuss any potential objections.\n8. **Prepare for Marking in Court**: Ensure that unmarked exhibits are ready for marking by the court clerk if required.\n9. **Prepare Digital Copies**: If the court allows or requires, prepare digital versions of exhibits for electronic presentation.\n10. **Transport and Security**: Arrange secure transport of exhibits to the courthouse and ensure all materials are accounted for.\n\nBy following these steps, you will ensure that exhibits are organized, accessible, and ready for efficient use during trial.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749833617,
+    "model": "gpt-4.1-2025-04-14",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_51e1070cf2",
+    "usage": {
+      "completion_tokens": 330,
+      "prompt_tokens": 94,
+      "total_tokens": 424,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

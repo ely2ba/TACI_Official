@@ -1,0 +1,50 @@
+{
+  "uid": "3db6d320",
+  "variant": 2,
+  "temperature": 0.0,
+  "seed": 0,
+  "model": "o3-2025-04-16",
+  "modality": "TEXT",
+  "timestamp": "2025-06-21T20:39:14Z",
+  "commit_sha": "ac1698886e89fb01e65b6ca5c8e06e97f58dd0fa",
+  "prompt_sha256": "d18016c8317a6affa68d1e41ad66b11c8e90fbb032be3265670ac00645baf6d7",
+  "response": {
+    "id": "chatcmpl-BkzH0oDKvyIGPvMQzoGwwWgo6AlFz",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Comprehensive Guide for Investigating Facts, Identifying Causes of Action, and Preparing a Case  \n\n1. Case Intake & Preliminary Assessment  \n   1.1 Obtain a detailed client interview or intake form capturing: parties, timeline, damages, related documents, and desired outcomes.  \n   1.2 Identify potential jurisdiction (state or federal) and any immediate deadlines (e.g., statutes of limitation, notice requirements for government defendants).  \n   1.3 Generate an issues-spotting memo summarizing the factual matrix and flagging presumptive claims or defenses.  \n\n2. Fact Investigation Plan  \n   2.1 Draft an investigation checklist specifying: witnesses, physical evidence, documents, electronic data, and potential experts.  \n   2.2 Preserve evidence\u2014issue litigation-hold letters to client and third parties.  \n   2.3 Schedule and conduct recorded interviews or affidavits from key witnesses; capture chain-of-custody details.  \n\n3. Public Records & Database Research  \n   3.1 Court filings: PACER (federal), state e-filing portals, clerks\u2019 docket systems.  \n   3.2 Property/land records: county assessor, recorder of deeds, GIS mapping sites.  \n   3.3 Corporate records: Secretary of State databases, FINRA BrokerCheck, EDGAR for public companies.  \n   3.4 Regulatory bodies: OSHA, FDA, EEOC charge status portal, NLRB case search.  \n   3.5 Criminal & traffic: local sheriff, Department of Corrections inmate locator, DMV abstracts.  \n   3.6 FOIA / state public-records requests for police reports, agency investigations, or contracts.  \n   3.7 Social media & internet archives (Wayback Machine) while complying with ethical \u201cno-contact\u201d rules.  \n\n4. Secondary Legal Research Tools  \n   4.1 Case law: Westlaw, Lexis, Fastcase, Google Scholar (free).  \n   4.2 Statutes & administrative codes: official state legislatures, U.S. Code, CFR.  \n   4.3 Jury instructions & treatises: pattern instructions, Restatements, Wright & Miller.  \n   4.4 Law-review articles and practice guides (e.g., Rutter, O\u2019Connor\u2019s, CEB).  \n\n5. Determining Causes of Action  \n   Use elements-based analysis:  \n   \u2022 Compare collected facts against each statutory or common-law element.  \n   \u2022 Create a table: Column A\u2014Element; B\u2014Evidence supporting; C\u2014Missing proof; D\u2014Sources to obtain.  \n   Common civil causes: negligence, breach of contract, fraud, tortious interference, products liability, employment discrimination (Title VII, ADA, FMLA), \u00a71983 civil rights, unfair trade practices.  \n   Cross-check for possible counterclaims or affirmative defenses (e.g., comparative negligence, assumption of risk, statute of frauds).  \n\n6. Drafting Pleadings & Initial Documents  \n   6.1 Complaint / Petition: jurisdiction, statement of facts, causes, prayer for relief.  \n   6.2 Summons & civil cover sheet.  \n   6.3 Certificates of service and venue affidavits.  \n   6.4 For defense files: Answer, Rule 12 motions, affirmative defenses, cross-claims.  \n   6.5 Maintain a pleading index and version-control system.  \n\n7. Discovery Strategy & Evidence Management  \n   7.1 Draft interrogatories, requests for production, admissions, and Rule 30(b)(6) notices.  \n   7.2 Subpoenas duces tecum for third-party records (medical, banking, cell-tower).  \n   7.3 ESI protocol\u2014identify custodians, data maps, forensic imaging.  \n   7.4 Summarize deposition transcripts and mark key exhibits for easy retrieval.  \n   7.5 Utilize litigation-support software (Relativity, CaseMap, Everlaw).  \n\n8. Motion Practice & Pre-Trial Preparation  \n   8.1 Research and draft dispositive motions (summary judgment, Daubert).  \n   8.2 Prepare witness & exhibit lists, trial binders, and demonstratives.  \n   8.3 Draft mediation statements or settlement brochures referencing damages models.  \n\n9. Compliance, Ethics & Confidentiality  \n   9.1 Follow ABA Model Rules 4.2 (no contact with represented party) and 5.3 (supervision of nonlawyer assistants).  \n   9.2 Redact personal identifiers under FRCP 5.2 / state equivalents.  \n   9.3 Obtain HIPAA or 42 C.F.R. Part 2 releases before accessing protected records.  \n\n10. Timeline & Checklist (Sample)  \n   \u2022 Day 0: Client intake, engagement letter, limitation-period check.  \n   \u2022 Day 1-14: Evidence preservation letters, public-record pulls, witness outreach.  \n   \u2022 Day 15-30: Legal research memo, causes-of-action table, draft complaint.  \n   \u2022 Day 30-60: File & serve pleadings; initiate written discovery.  \n   \u2022 Month 2-6: Depositions, expert retention, dispositive motions.  \n   \u2022 Month 7+: ADR / trial prep.  \n\n11. Templates & Sample Forms (create firm-specific versions)  \n   A. Litigation-hold notice.  \n   B. FOIA/state public records request.  \n   C. Elements-evidence matrix.  \n   D. Complaint caption & signature block.  \n   E. Deposition summary chart.  \n\n12. Continuous Monitoring  \n   \u2022 Set docket alerts and Google alerts for parties and legal issues.  \n   \u2022 Update case law citators (KeyCite/Shepard\u2019s) before filing motions or briefs.  \n\nFollowing this structured approach ensures thorough fact gathering, accurate identification of viable causes of action, and well-prepared pleadings, maximizing the likelihood of a favorable outcome while maintaining ethical compliance.  \n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1750538322,
+    "model": "o3-2025-04-16",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1663,
+      "prompt_tokens": 134,
+      "total_tokens": 1797,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

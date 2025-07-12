@@ -1,0 +1,44 @@
+{
+  "uid": "07080553",
+  "variant": 0,
+  "modality": "TEXT",
+  "temperature": 0.5,
+  "model": "llama3-8b-8192",
+  "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+  "timestamp": "2025-05-28T19:18:33.040509Z",
+  "prompt_sha256": "ad00733411e81ecb1ec172c214c5595facd9a929694923ec8cc79cd6f1b52bcf",
+  "commit_sha": "170b9e3e1d0d59846b1daa69da57be5d1db6306c",
+  "response": {
+    "id": "chatcmpl-1c290968-5200-400f-9516-ead3cee39d16",
+    "object": "chat.completion",
+    "created": 1748459912,
+    "model": "llama3-8b-8192",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "<OUTPUT_TEXT>As a paralegal, I would carefully draft and prepare affidavits, legal correspondence, and other documents, ensuring accuracy and attention to detail. I would also maintain and organize documents in both physical and electronic filing systems, ensuring easy retrieval and compliance with relevant regulations and laws.</OUTPUT_TEXT>"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "queue_time": 0.161279313,
+      "prompt_tokens": 112,
+      "prompt_time": 0.014434732,
+      "completion_tokens": 64,
+      "completion_time": 0.053333333,
+      "total_tokens": 176,
+      "total_time": 0.067768065
+    },
+    "usage_breakdown": {
+      "models": null
+    },
+    "system_fingerprint": "fp_179b0f92c9",
+    "x_groq": {
+      "id": "req_01jwc59zhzepm9varbrag2r7xk"
+    }
+  }
+}

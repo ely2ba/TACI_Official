@@ -1,0 +1,49 @@
+{
+  "uid": "47817359",
+  "variant": 1,
+  "temperature": 0.5,
+  "model": "gpt-3.5-turbo",
+  "modality": "GUI",
+  "timestamp": "2025-05-23T21:57:59Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "4211992196c13b74de9525118334ee8ef7b593b7ce8f7b9b929e4a62c048c6a6",
+  "response": {
+    "id": "chatcmpl-BaUgnzskbyFC8fdGevxn79F95XQcV",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_JSON>[{'action':'click','selector':'input[name*=account i]','text':''}, {'action':'click','selector':'input[name*=amount i], input[type=number]','text':''}, {'action':'click','selector':'textarea[name*=memo i]','text':''}, {'action':'click','selector':'button:has-text(\"post\" i), button:has-text(\"save\" i)','text':''}]</OUTPUT_JSON>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748037477,
+    "model": "gpt-3.5-turbo-0125",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 92,
+      "prompt_tokens": 147,
+      "total_tokens": 239,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

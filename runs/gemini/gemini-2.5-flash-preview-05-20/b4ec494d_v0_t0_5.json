@@ -1,0 +1,46 @@
+{
+  "uid": "b4ec494d",
+  "variant": 0,
+  "temperature": 0.5,
+  "model": "gemini-2.5-flash-preview-05-20",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T15:37:04.166500Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_TEXT>\nAbsolutely. I will meticulously document and promptly refer all unresolved customer grievances to the designated departments for thorough investigation. My focus will be on providing comprehensive details to ensure efficient resolution and uphold our commitment to customer satisfaction.\n</OUTPUT_TEXT>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -13.522191461527123
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 86,
+      "candidatesTokenCount": 53,
+      "totalTokenCount": 2329,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 86
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 53
+        }
+      ],
+      "thoughtsTokenCount": 2190
+    },
+    "modelVersion": "gemini-2.5-flash-preview-05-20",
+    "createTime": "2025-05-27T15:36:49.915631Z",
+    "responseId": "Edw1aK_xN5iam9IPn42_-Ak"
+  }
+}

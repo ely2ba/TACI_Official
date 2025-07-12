@@ -1,0 +1,49 @@
+{
+  "uid": "7dda7be5",
+  "variant": 1,
+  "temperature": 0.5,
+  "model": "gpt-4o",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:51:32Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "f619121edfa394cf2f966e745283e437489a58c27b2b7d4b7539289c690206a7",
+  "response": {
+    "id": "chatcmpl-Bi1ueFc9xwAjD0IhIs5QvwxHMm2Tg",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>To appraise and inventory real and personal property for estate planning, follow these steps:\n\n1. **Identify and List Assets**:\n   - Compile a comprehensive list of all real property (real estate) owned by the client, including residential, commercial, and undeveloped land.\n   - List all personal property, such as vehicles, jewelry, collectibles, and household items.\n\n2. **Determine Ownership and Title**:\n   - Verify how each asset is titled (e.g., sole ownership, joint tenancy, tenancy in common) and gather relevant documents such as deeds, titles, and registration papers.\n\n3. **Appraise Real Property**:\n   - Obtain a professional appraisal for each real estate property to determine its current market value. Consider hiring a certified appraiser for accuracy and credibility.\n\n4. **Appraise Personal Property**:\n   - For valuable personal items, consider professional appraisals or use recent sales data of similar items to estimate their value.\n   - For less valuable items, a general estimation based on replacement cost or market value may suffice.\n\n5. **Inventory Financial Assets**:\n   - List all financial accounts, including bank accounts, investment accounts, retirement accounts, and life insurance policies. Note the current balance or cash value.\n\n6. **Consider Liabilities**:\n   - Document any debts or liabilities associated with the assets, such as mortgages, loans, or liens, to calculate the net value of the estate.\n\n7. **Compile Supporting Documents**:\n   - Gather all supporting documents, including appraisals, account statements, and titles, to substantiate the inventory and valuations.\n\n8. **Prepare a Detailed Report**:\n   - Create a detailed inventory report summarizing the assets, their appraised values, ownership details, and any associated liabilities. This report will serve as a foundation for the estate planning process.\n\n9. **Review with Client**:\n   - Review the inventory and appraisal with the client to ensure accuracy and completeness. Make any necessary adjustments based on client feedback.\n\n10. **Consult with Legal and Financial Advisors**:\n   - Work with the client's legal and financial advisors to integrate the inventory into the estate plan, considering tax implications and distribution strategies.\n\nBy following these steps, you will provide a thorough and accurate appraisal and inventory of the client's real and personal property, facilitating effective estate planning.</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749833484,
+    "model": "gpt-4o-2024-08-06",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_9bddfca6e2",
+    "usage": {
+      "completion_tokens": 473,
+      "prompt_tokens": 114,
+      "total_tokens": 587,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

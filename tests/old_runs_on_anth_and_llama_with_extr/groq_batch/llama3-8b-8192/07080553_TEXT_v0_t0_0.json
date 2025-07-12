@@ -1,0 +1,43 @@
+{
+  "uid": "07080553",
+  "variant": 0,
+  "modality": "TEXT",
+  "temperature": 0.0,
+  "model": "llama3-8b-8192",
+  "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+  "timestamp": "2025-05-28T14:55:48.185251Z",
+  "prompt_sha256": "ad00733411e81ecb1ec172c214c5595facd9a929694923ec8cc79cd6f1b52bcf",
+  "response": {
+    "id": "chatcmpl-7872c6b5-5bd7-4248-b847-7d35a471e032",
+    "object": "chat.completion",
+    "created": 1748444148,
+    "model": "llama3-8b-8192",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "<OUTPUT_TEXT>\nAs a paralegal, I would prepare affidavits and other documents, such as legal correspondence, by reviewing and analyzing relevant information, drafting and editing documents, and ensuring accuracy and completeness. I would also organize and maintain documents in a paper or electronic filing system, ensuring that all documents are properly labeled, dated, and stored in a secure and accessible location. This would involve creating and maintaining a filing system, both physical and digital, and ensuring that all documents are properly indexed and cross-referenced. Additionally, I would ensure that all documents are properly signed and notarized, and that all necessary certifications and acknowledgments are obtained.\n</OUTPUT_TEXT>"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "queue_time": 0.163096917,
+      "prompt_tokens": 112,
+      "prompt_time": 0.019182071,
+      "completion_tokens": 134,
+      "completion_time": 0.111666667,
+      "total_tokens": 246,
+      "total_time": 0.130848738
+    },
+    "usage_breakdown": {
+      "models": null
+    },
+    "system_fingerprint": "fp_179b0f92c9",
+    "x_groq": {
+      "id": "req_01jwbp8w83fa6ryyd8hjzeqhsq"
+    }
+  }
+}

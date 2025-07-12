@@ -1,0 +1,50 @@
+{
+  "uid": "9cebf902",
+  "variant": 2,
+  "temperature": 0.5,
+  "seed": 1,
+  "model": "o3-2025-04-16",
+  "modality": "TEXT",
+  "timestamp": "2025-06-21T20:51:01Z",
+  "commit_sha": "ac1698886e89fb01e65b6ca5c8e06e97f58dd0fa",
+  "prompt_sha256": "201afa7b083de2c80a691ebaaa666ca5aad973841b6540f331ec7d1d01c811ef",
+  "response": {
+    "id": "chatcmpl-BkzSfysoY31l0pGvEbEcq4g7gg066",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Guide to Gathering and Analyzing Legal Research Data\n\n1. Define the Research Objective  \n   \u2022 Clearly articulate the legal question, jurisdiction, time frame, and type of authority required (statute, case law, regulation, secondary source).  \n   \u2022 Identify key terms and potential synonyms to structure searches effectively.\n\n2. Identify Relevant Sources  \n   2.1 Primary Authority  \n   \u2022 Statutes & Codes: Federal (e.g., U.S. Code), state, or municipal codes.  \n   \u2022 Case Law: Reported decisions from appellate and trial courts.  \n   \u2022 Administrative Law: Agency regulations, orders, and guidance.  \n   2.2 Secondary Authority  \n   \u2022 Legal Encyclopedias (Am. Jur., C.J.S.).  \n   \u2022 Treatises & Practice Guides.  \n   \u2022 Law Review & Journal Articles.  \n   \u2022 Restatements, Uniform Acts, model codes.  \n   2.3 Finding Tools  \n   \u2022 Indexes (West\u2019s Key Number System, Digests).  \n   \u2022 Citators (Shepard\u2019s, KeyCite) for validation and research expansion.  \n   \u2022 Government and judicial websites for free materials.\n\n3. Conduct Efficient Searches  \n   \u2022 Use Boolean connectors (AND, OR, NOT), proximity operators (/p, /s), and field restrictions (title, judge, counsel).  \n   \u2022 Filter by jurisdiction, date, court level, and document type.  \n   \u2022 Employ headnotes or classification to jump to controlling legal points.\n\n4. Collect and Organize Data  \n   \u2022 Save authorities in a structured file system or research management software (e.g., Zotero, Evernote, Lexis folders).  \n   \u2022 Record full citations, docket numbers, publication status, and key headnotes.  \n   \u2022 Use spreadsheets or tables to track issues, holdings, and procedural postures.\n\n5. Analyze the Authority  \n   5.1 Statutes & Codes  \n   \u2022 Read statutory definitions, cross-references, and historical notes.  \n   \u2022 Check session laws for amendments and legislative intent.  \n   5.2 Case Law  \n   \u2022 Identify essential facts, issues, rule of law, reasoning, and holding.  \n   \u2022 Distinguish mandatory versus persuasive precedent; note any dissent or concurrence.  \n   \u2022 Verify good law status with a citator; flag negative treatments (overruled, criticized).  \n   5.3 Secondary Sources  \n   \u2022 Evaluate author credentials, publication date, and jurisdictional relevance.  \n   \u2022 Extract persuasive reasoning, policy arguments, and footnoted authority.\n\n6. Synthesize Findings  \n   \u2022 Create an outline that aligns each legal issue with supporting authority.  \n   \u2022 Reconcile conflicting cases using hierarchy of courts, dates, and factual distinctions.  \n   \u2022 Note trends, majority/minority approaches, and unsettled areas.\n\n7. Draft Work Product  \n   \u2022 Incorporate direct quotes sparingly; paraphrase with pinpoint citations.  \n   \u2022 Follow citation style (Bluebook or jurisdiction-specific).  \n   \u2022 Include procedural posture, standards of review, and public-policy implications where relevant.\n\n8. Update and Verify  \n   \u2022 Run a \u201clast search\u201d immediately before filing to capture new decisions or amendments.  \n   \u2022 Re-Shepardize/KeyCite all primary authorities for subsequent history.  \n   \u2022 Ensure secondary sources remain current; check pocket parts, supplements, or online updates.\n\n9. Ethical and Practical Considerations  \n   \u2022 Maintain confidentiality and privilege when handling client materials.  \n   \u2022 Avoid plagiarism; attribute all sources accurately.  \n   \u2022 Account for licensing restrictions on database content; respect fair-use limits.\n\n10. Useful Research Platforms and Resources  \n   \u2022 Commercial: Westlaw, Lexis+, Bloomberg Law, HeinOnline.  \n   \u2022 Government: Congress.gov, govinfo.gov, state legislative portals, agency sites.  \n   \u2022 Open Access: Google Scholar for case law, CourtListener, Justia, Cornell\u2019s LII.  \n   \u2022 Specialty: PACER (federal dockets), SSRN (working papers), Regulations.gov (rulemaking).\n\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1750539045,
+    "model": "o3-2025-04-16",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 984,
+      "prompt_tokens": 125,
+      "total_tokens": 1109,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 128,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

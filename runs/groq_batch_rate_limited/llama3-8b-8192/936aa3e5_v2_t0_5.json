@@ -1,0 +1,44 @@
+{
+  "uid": "936aa3e5",
+  "variant": 2,
+  "modality": "TEXT",
+  "temperature": 0.5,
+  "model": "llama3-8b-8192",
+  "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+  "timestamp": "2025-05-28T19:16:49.359186Z",
+  "prompt_sha256": "67c59d378ebaf9d1b7f895ab9064773167723258cc75eb4b1226b8ffe87977f3",
+  "commit_sha": "170b9e3e1d0d59846b1daa69da57be5d1db6306c",
+  "response": {
+    "id": "chatcmpl-b06b0e07-16f0-4ade-9143-420ee2e843c7",
+    "object": "chat.completion",
+    "created": 1748459808,
+    "model": "llama3-8b-8192",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "<OUTPUT_TEXT>\n<h1>Financial Calculations</h1>\n\n<h2>Amount Due</h2>\nTo calculate the amount due, we need to subtract the total payments made from the total amount owed.\n\nTotal Amount Owed: $10,000\nTotal Payments Made: $8,000\nAmount Due: $2,000\n\n<h2>Interest Charges</h2>\nTo calculate the interest charges, we need to multiply the outstanding balance by the interest rate.\n\nOutstanding Balance: $2,000\nInterest Rate: 5% per annum\nInterest Charges: $100 (2,000 x 0.05)\n\n<h2>Balance</h2>\nTo calculate the balance, we need to subtract the interest charges from the outstanding balance.\n\nOutstanding Balance: $2,000\nInterest Charges: $100\nBalance: $1,900\n\n<h2>Discounts</h2>\nTo calculate the discounts, we need to multiply the outstanding balance by the discount rate.\n\nOutstanding Balance: $1,900\nDiscount Rate: 2% per annum\nDiscount: $38 (1,900 x 0.02)\n\n<h2>Equity</h2>\nTo calculate the equity, we need to subtract the outstanding balance from the total amount owed.\n\nTotal Amount Owed: $10,000\nOutstanding Balance: $1,900\nEquity: $8,100\n\n<h2>Principal</h2>\nTo calculate the principal, we need to subtract the interest charges from the outstanding balance.\n\nOutstanding Balance: $1,900\nInterest Charges: $100\nPrincipal: $1,800\n\n</OUTPUT_TEXT>"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "queue_time": 0.22346210900000002,
+      "prompt_tokens": 131,
+      "prompt_time": 0.032537838,
+      "completion_tokens": 341,
+      "completion_time": 0.284166667,
+      "total_tokens": 472,
+      "total_time": 0.316704505
+    },
+    "usage_breakdown": {
+      "models": null
+    },
+    "system_fingerprint": "fp_179b0f92c9",
+    "x_groq": {
+      "id": "req_01jwc56sstf9nbe5ypvcvfa5jw"
+    }
+  }
+}

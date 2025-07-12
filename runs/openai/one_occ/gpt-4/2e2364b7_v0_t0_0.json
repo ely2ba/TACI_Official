@@ -1,0 +1,49 @@
+{
+  "uid": "2e2364b7",
+  "variant": 0,
+  "temperature": 0.0,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:36:30Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "5c72f093ad8c01025219f856b4db21e96920791a3450b64e0f30ca4c915fe49e",
+  "response": {
+    "id": "chatcmpl-Bi1gAWEtSU2xcKKn9v4Tc4Q0X5kZe",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<REASONING>As a paralegal and legal assistant, one of my main responsibilities is to prepare and file legal documents with the court. This includes pleadings, which are formal written statements that present or respond to allegations, claims, denials, or defenses. Filing these documents with the court clerk ensures they are officially entered into the court record. This task is crucial in the legal process as it sets the stage for the litigation process.</REASONING>\n\n<OUTPUT_TEXT>\nTASK \u2013 Conduct legal research.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749832586,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 109,
+      "prompt_tokens": 90,
+      "total_tokens": 199,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

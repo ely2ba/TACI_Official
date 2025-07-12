@@ -1,0 +1,44 @@
+{
+  "uid": "1b64c419",
+  "variant": 1,
+  "modality": "TEXT",
+  "temperature": 0.5,
+  "model": "llama3-8b-8192",
+  "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+  "timestamp": "2025-05-28T19:20:33.469911Z",
+  "prompt_sha256": "0082ea146d1e377b56f5fb53495620fd7c5d9d3ba3bc7c4dbb817be089cdd100",
+  "commit_sha": "170b9e3e1d0d59846b1daa69da57be5d1db6306c",
+  "response": {
+    "id": "chatcmpl-e67ed1ca-4e73-4dd6-8fb6-1261b984f18b",
+    "object": "chat.completion",
+    "created": 1748460033,
+    "model": "llama3-8b-8192",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "<OUTPUT_TEXT>When answering the phone, I will greet the caller politely and identify myself as a Medical Secretary and Administrative Assistant. I will then ask the caller to state their name and the purpose of their call. Based on the caller's response, I will direct the call to the appropriate staff member, such as a doctor, nurse, or other medical professional. If the caller is a patient, I will ask for their medical record number or other relevant information to ensure accurate routing of the call. I will also take a message if the staff member is unavailable to take the call, and ensure that the message is delivered to the correct person in a timely manner.</OUTPUT_TEXT>"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "queue_time": 0.95598132,
+      "prompt_tokens": 114,
+      "prompt_time": 0.021498273,
+      "completion_tokens": 137,
+      "completion_time": 0.114166667,
+      "total_tokens": 251,
+      "total_time": 0.13566494
+    },
+    "usage_breakdown": {
+      "models": null
+    },
+    "system_fingerprint": "fp_179b0f92c9",
+    "x_groq": {
+      "id": "req_01jwc5dm56fdbbhh8jnn8hqbkb"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "uid": "dc35566b",
+  "variant": 0,
+  "temperature": 0.0,
+  "model": "gpt-4.1",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T23:39:34Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "b1ac045c1a947bb4d70d059931e67b3014310d0dc0649de077ee69a7bab47991",
+  "response": {
+    "id": "chatcmpl-BaWH27IRFh8g3FnCsOVKf1xEDI6im",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nTo prepare for trial by organizing exhibits, follow these steps:\n\n1. **Gather All Exhibits**: Collect all documents, photographs, physical evidence, and other materials that may be introduced at trial.\n2. **Create an Exhibit List**: Prepare a detailed list of all exhibits, assigning each a unique identifier (e.g., Plaintiff\u2019s Exhibit 1, Defendant\u2019s Exhibit A).\n3. **Label Exhibits**: Clearly label each exhibit with its identifier, ensuring consistency with the exhibit list.\n4. **Prepare Exhibit Binders**: Place exhibits in binders or folders in the order they will be presented. Prepare separate sets for the judge, opposing counsel, and witnesses as required.\n5. **Prepare an Exhibit Index**: Create an index or table of contents for quick reference, including exhibit numbers, descriptions, and relevant Bates numbers or page references.\n6. **Check Admissibility**: Review each exhibit for admissibility, ensuring proper foundation and compliance with evidentiary rules.\n7. **Coordinate with Counsel**: Confirm with attorneys which exhibits will be used, and flag any that may be subject to objection.\n8. **Prepare for Electronic Presentation**: If exhibits will be presented electronically, ensure all files are properly formatted and accessible.\n9. **File Exhibits with the Court**: If required, file pre-marked exhibits with the court according to local rules and deadlines.\n10. **Prepare Exhibit Stipulations**: Work with opposing counsel to stipulate to the admissibility of certain exhibits, if possible, to streamline trial proceedings.\n\nBy following these steps, you will ensure that all exhibits are organized, accessible, and ready for efficient use during trial.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748043568,
+    "model": "gpt-4.1-2025-04-14",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_51e1070cf2",
+    "usage": {
+      "completion_tokens": 346,
+      "prompt_tokens": 94,
+      "total_tokens": 440,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

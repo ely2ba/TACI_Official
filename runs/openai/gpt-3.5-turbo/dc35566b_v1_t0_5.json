@@ -1,0 +1,49 @@
+{
+  "uid": "dc35566b",
+  "variant": 1,
+  "temperature": 0.5,
+  "model": "gpt-3.5-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T21:59:12Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "a0b6c4ca66353d066b84bb1909703160d2d542ff6a0179c6d3f504217c3ee1fc",
+  "response": {
+    "id": "chatcmpl-BaUhxt882G2CwoXdAXd2iV1oqGT9l",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>Dear [Client],\n\nI am writing to inform you that we are currently preparing for trial and part of this process involves organizing exhibits. Exhibits are crucial pieces of evidence that will be presented in court to support our case. \n\nTo ensure that we are fully prepared for trial, I will be organizing the exhibits in a clear and logical manner. This will involve labeling each exhibit, creating an exhibit list, and organizing them in a way that is easy to access during the trial.\n\nI will also be working closely with the legal team to ensure that all exhibits are properly authenticated and admissible in court. If there are any specific exhibits that you believe are particularly important to our case, please let me know so that we can give them special attention during the organization process.\n\nIf you have any questions or concerns about the exhibit organization process, please do not hesitate to reach out. We are committed to ensuring that we are fully prepared for trial and that all exhibits are presented effectively to support our case.\n\nThank you for your attention to this matter.\n\nSincerely,\n[Your Name]\nSenior Paralegal and Legal Assistant</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748037549,
+    "model": "gpt-3.5-turbo-0125",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 228,
+      "prompt_tokens": 81,
+      "total_tokens": 309,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

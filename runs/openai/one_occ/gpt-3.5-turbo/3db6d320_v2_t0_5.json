@@ -1,0 +1,49 @@
+{
+  "uid": "3db6d320",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-3.5-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:28:22Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "d18016c8317a6affa68d1e41ad66b11c8e90fbb032be3265670ac00645baf6d7",
+  "response": {
+    "id": "chatcmpl-Bi1YK3MSTqo5sb3TL1AnxSXnfIweZ",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n\n# Causes of Action in the Case\n\n1. **Breach of Contract**\n   - The plaintiff can argue that the defendant breached a valid contract by failing to fulfill their obligations under the agreement.\n\n2. **Fraudulent Misrepresentation**\n   - If the plaintiff can prove that the defendant made false statements with the intent to deceive and that the plaintiff relied on those statements to their detriment, they may have a claim for fraudulent misrepresentation.\n\n3. **Negligence**\n   - The plaintiff may also have a claim for negligence if they can show that the defendant owed them a duty of care, breached that duty, and caused harm to the plaintiff as a result.\n\n4. **Unjust Enrichment**\n   - In some cases, the plaintiff may be able to argue that the defendant was unjustly enriched at the plaintiff's expense, giving rise to a claim for unjust enrichment.\n\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749832100,
+    "model": "gpt-3.5-turbo-0125",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 186,
+      "prompt_tokens": 135,
+      "total_tokens": 321,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

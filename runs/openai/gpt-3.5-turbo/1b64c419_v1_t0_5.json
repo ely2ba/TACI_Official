@@ -1,0 +1,49 @@
+{
+  "uid": "1b64c419",
+  "variant": 1,
+  "temperature": 0.5,
+  "model": "gpt-3.5-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:01:18Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "d24b274dae042a5a719f8f536f54d84ac91f64d78f37367d93063cbbc488c55d",
+  "response": {
+    "id": "chatcmpl-BaUk1mZa6W7CHepGPlCsIcd9nCCul",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>Dear Team Members,\n\nEffective immediately, all incoming calls will be routed through the main office line at extension 123. Please ensure that you answer calls promptly and direct them to the appropriate staff member or department. This will help streamline communication and ensure that all calls are handled efficiently.\n\nThank you for your cooperation in this matter.\n\nSincerely,\n[Your Name]\nSenior Medical Secretary and Administrative Assistant</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748037677,
+    "model": "gpt-3.5-turbo-0125",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 85,
+      "prompt_tokens": 78,
+      "total_tokens": 163,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

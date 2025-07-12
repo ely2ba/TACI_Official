@@ -1,0 +1,45 @@
+{
+  "uid": "9cebf902",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gemini-2.0-flash",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T13:19:46.940017Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "```text\n# Research Data on Legal Topics\n\n## 1. Statutes\n\nStatutes are laws enacted by a legislative body. They are a primary source of law and can be found at both the federal and state levels.\n\n*   **Federal Statutes:** These are laws passed by the United States Congress and are codified in the United States Code (U.S.C.). Examples include the Americans with Disabilities Act (ADA), the Civil Rights Act, and the Sherman Antitrust Act.\n*   **State Statutes:** Each state has its own set of statutes, covering a wide range of topics from criminal law to business regulations. These are typically codified in state-specific codes, such as the California Penal Code or the New York Business Corporation Law.\n\n## 2. Decisions (Case Law)\n\nDecisions, also known as case law or common law, are rulings made by courts in legal cases. These decisions interpret statutes and establish legal precedents.\n\n*   **Federal Court Decisions:** Decisions from the United States Supreme Court, Circuit Courts of Appeals, and District Courts. These decisions are published in reporters such as the United States Reports (U.S.), Federal Reporter (F.), and Federal Supplement (F. Supp.).\n*   **State Court Decisions:** Decisions from state supreme courts, appellate courts, and trial courts. These decisions are published in regional reporters, such as the Pacific Reporter (P.), Southern Reporter (So.), and North Eastern Reporter (N.E.).\n\n## 3. Legal Articles\n\nLegal articles are scholarly writings that analyze and discuss legal issues. They can provide valuable insights and perspectives on the law.\n\n*   **Law Reviews:** Academic journals published by law schools, featuring articles written by professors, practitioners, and students. Examples include the Harvard Law Review, Yale Law Journal, and Stanford Law Review.\n*   **Legal Journals and Periodicals:** Publications that focus on specific areas of law, such as tax law, environmental law, or intellectual property law. Examples include the Journal of Taxation and the Environmental Law Reporter.\n\n## 4. Codes\n\nCodes are systematic compilations of laws and regulations. They organize legal rules by subject matter.\n\n*   **United States Code (U.S.C.):** The official compilation of federal statutes.\n*   **Code of Federal Regulations (C.F.R.):** A compilation of regulations issued by federal agencies.\n*   **State Codes:** Each state has its own code, which contains the state's statutes and regulations.\n\n## 5. Legal Documents\n\nLegal documents are written instruments that create, modify, or terminate legal rights and obligations.\n\n*   **Contracts:** Agreements between parties that are legally enforceable.\n*   **Wills:** Legal documents that specify how a person's assets will be distributed after their death.\n*   **Deeds:** Legal documents that transfer ownership of real property.\n*   **Pleadings:** Documents filed in court to initiate or respond to a lawsuit.\n*   **Memoranda:** Internal documents used to communicate legal advice or analysis.\n*   **Briefs:** Documents submitted to a court to argue a legal position.\n```\n<OUTPUT_TEXT>\n# Research Data on Legal Topics\n\n## 1. Statutes\n\nStatutes are laws enacted by a legislative body. They are a primary source of law and can be found at both the federal and state levels.\n\n*   **Federal Statutes:** These are laws passed by the United States Congress and are codified in the United States Code (U.S.C.). Examples include the Americans with Disabilities Act (ADA), the Civil Rights Act, and the Sherman Antitrust Act.\n*   **State Statutes:** Each state has its own set of statutes, covering a wide range of topics from criminal law to business regulations. These are typically codified in state-specific codes, such as the California Penal Code or the New York Business Corporation Law.\n\n## 2. Decisions (Case Law)\n\nDecisions, also known as case law or common law, are rulings made by courts in legal cases. These decisions interpret statutes and establish legal precedents.\n\n*   **Federal Court Decisions:** Decisions from the United States Supreme Court, Circuit Courts of Appeals, and District Courts. These decisions are published in reporters such as the United States Reports (U.S.), Federal Reporter (F.), and Federal Supplement (F. Supp.).\n*   **State Court Decisions:** Decisions from state supreme courts, appellate courts, and trial courts. These decisions are published in regional reporters, such as the Pacific Reporter (P.), Southern Reporter (So.), and North Eastern Reporter (N.E.).\n\n## 3. Legal Articles\n\nLegal articles are scholarly writings that analyze and discuss legal issues. They can provide valuable insights and perspectives on the law.\n\n*   **Law Reviews:** Academic journals published by law schools, featuring articles written by professors, practitioners, and students. Examples include the Harvard Law Review, Yale Law Journal, and Stanford Law Review.\n*   **Legal Journals and Periodicals:** Publications that focus on specific areas of law, such as tax law, environmental law, or intellectual property law. Examples include the Journal of Taxation and the Environmental Law Reporter.\n\n## 4. Codes\n\nCodes are systematic compilations of laws and regulations. They organize legal rules by subject matter.\n\n*   **United States Code (U.S.C.):** The official compilation of federal statutes.\n*   **Code of Federal Regulations (C.F.R.):** A compilation of regulations issued by federal agencies.\n*   **State Codes:** Each state has its own code, which contains the state's statutes and regulations.\n\n## 5. Legal Documents\n\nLegal documents are written instruments that create, modify, or terminate legal rights and obligations.\n\n*   **Contracts:** Agreements between parties that are legally enforceable.\n*   **Wills:** Legal documents that specify how a person's assets will be distributed after their death.\n*   **Deeds:** Legal documents that transfer ownership of real property.\n*   **Pleadings:** Documents filed in court to initiate or respond to a lawsuit.\n*   **Memoranda:** Internal documents used to communicate legal advice or analysis.\n*   **Briefs:** Documents submitted to a court to argue a legal position.\n</OUTPUT_TEXT>\n```"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.0492526127741887
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 120,
+      "candidatesTokenCount": 1300,
+      "totalTokenCount": 1420,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 120
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1300
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:19:39.330818Z",
+    "responseId": "67s1aMKYFO6U2PgPqduJmAs"
+  }
+}

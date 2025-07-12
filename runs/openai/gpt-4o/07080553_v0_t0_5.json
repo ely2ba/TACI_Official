@@ -1,0 +1,49 @@
+{
+  "uid": "07080553",
+  "variant": 0,
+  "temperature": 0.5,
+  "model": "gpt-4o",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T23:38:28Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "b60d24599d1df23bd17991a8c681b996a2dd542b4a3676448842122e2105f6c1",
+  "response": {
+    "id": "chatcmpl-BaWG2BP5eg98KwY8JT7Z0NMP2PL6f",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>To prepare affidavits or other legal documents, begin by gathering all necessary information and evidence relevant to the case. Draft the document by clearly stating the facts and ensuring compliance with legal standards and formats. Once drafted, review the document for accuracy and completeness. For organizing and maintaining documents, establish a systematic filing system whether in paper or electronic form. Categorize and label documents appropriately for easy retrieval. Regularly update the filing system to reflect new documents and changes. Ensure confidentiality and security measures are in place to protect sensitive information.</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748043506,
+    "model": "gpt-4o-2024-08-06",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_07871e2ad8",
+    "usage": {
+      "completion_tokens": 112,
+      "prompt_tokens": 108,
+      "total_tokens": 220,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

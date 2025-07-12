@@ -1,0 +1,34 @@
+{
+  "uid": "85a846ff",
+  "variant": 1,
+  "modality": "GUI",
+  "temperature": 0.5,
+  "model": "claude-3-opus-20240229",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T19:39:05.629796Z",
+  "commit_sha": "170b9e3e1d0d59846b1daa69da57be5d1db6306c",
+  "prompt_sha256": "63ec0ad813479a12e60ea77be750c9cf011037520bbc33c81d446201772c62c9",
+  "response": {
+    "id": "msg_01DLas9j1pXNQyP4kM42Vrcm",
+    "content": [
+      {
+        "citations": null,
+        "text": "Here is the JSON array to maintain medical records, technical library, or correspondence files:\n\n<OUTPUT_JSON>\n[\n  {\n    \"action\": \"click\",\n    \"selector\": \"input[name*=\\\"account\\\" i]\",\n    \"text\": \"\"\n  },\n  {\n    \"action\": \"fill\",\n    \"selector\": \"input[name*=\\\"amount\\\" i], input[type=\\\"number\\\"]\", \n    \"text\": \"1\"\n  },\n  {\n    \"action\": \"fill\",\n    \"selector\": \"textarea[name*=\\\"memo\\\" i]\",\n    \"text\": \"Maintaining medical records, technical library, or correspondence files.\"\n  },\n  {\n    \"action\": \"click\",\n    \"selector\": \"button:has-text(\\\"post\\\" i), button:has-text(\\\"save\\\" i)\",\n    \"text\": \"\"\n  }\n]\n</OUTPUT_JSON>",
+        "type": "text"
+      }
+    ],
+    "model": "claude-3-opus-20240229",
+    "role": "assistant",
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "input_tokens": 199,
+      "output_tokens": 214,
+      "server_tool_use": null,
+      "service_tier": "standard"
+    }
+  }
+}

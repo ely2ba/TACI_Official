@@ -1,0 +1,49 @@
+{
+  "uid": "ab599408",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gpt-3.5-turbo",
+  "modality": "GUI",
+  "timestamp": "2025-05-23T23:34:19Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "c50cc600b463e33a21c34715f3c10e424b6f5e6d54c742e956d590fb94cdb72c",
+  "response": {
+    "id": "chatcmpl-BaWC3TFmZHohAd1BTA7RcTr04txHV",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_JSON>{\"selectors\":[\"input[placeholder*=search i]\",\"button:has-text(\\\"add item\\\" i)\",\"input[name*=quantity i]\",\"button:has-text(\\\"order\\\" i), button:has-text(\\\"submit\\\" i)]}</OUTPUT_JSON>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748043259,
+    "model": "gpt-3.5-turbo-0125",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 53,
+      "prompt_tokens": 173,
+      "total_tokens": 226,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

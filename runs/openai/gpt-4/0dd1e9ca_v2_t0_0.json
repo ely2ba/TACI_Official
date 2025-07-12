@@ -1,0 +1,49 @@
+{
+  "uid": "0dd1e9ca",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gpt-4",
+  "modality": "GUI",
+  "timestamp": "2025-05-23T22:04:25Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "13c181a349fef0d7a40647cef55193c82ed79ccdc608131858764f1578854389",
+  "response": {
+    "id": "chatcmpl-BaUmzXOQTyRWzfT6B7o8XC25M9zIw",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_JSON>[\n  {\"action\": \"click\", \"selector\": \"select[name*=report i]\"},\n  {\"action\": \"click\", \"selector\": \"button:has-text(\\\"generate\\\" i)\"},\n  {\"action\": \"click\", \"selector\": \"button:has-text(\\\"export\\\" i)\"},\n  {\"action\": \"click\", \"selector\": \"a:has-text(\\\"download\\\" i)\"}\n]</OUTPUT_JSON>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748037861,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 87,
+      "prompt_tokens": 141,
+      "total_tokens": 228,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

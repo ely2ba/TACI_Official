@@ -1,0 +1,46 @@
+{
+  "uid": "936aa3e5",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gemini-2.5-pro-preview-05-06",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T14:03:02.906878Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_TEXT>\n# Financial Calculations\n\n1.  **Calculation of Amount Due (Including Sales Tax)**\n    *   **Scenario:** A customer purchases items with a subtotal of $250.00. The applicable sales tax rate is 6.5%.\n    *   **Calculation:**\n        *   Sales Tax Amount = Subtotal \u00d7 Sales Tax Rate\n        *   Sales Tax Amount = $250.00 \u00d7 0.065 = $16.25\n        *   Total Amount Due = Subtotal + Sales Tax Amount\n        *   Total Amount Due = $250.00 + $16.25 = $266.25\n    *   **Result:** The total amount due from the customer is $266.25.\n\n2.  **Calculation of Simple Interest Charges**\n    *   **Scenario:** A business has an overdue invoice of $1,200.00. The terms state that a simple interest rate of 1.5% per month is charged on overdue amounts. The invoice is 2 months overdue.\n    *   **Formula:** Interest (I) = Principal (P) \u00d7 Rate (R) \u00d7 Time (T)\n    *   **Calculation:**\n        *   P = $1,200.00\n        *   R = 0.015 (per month)\n        *   T = 2 (months)\n        *   Interest = $1,200.00 \u00d7 0.015 \u00d7 2\n        *   Interest = $18.00 \u00d7 2 = $36.00\n    *   **Result:** The interest charges for the overdue invoice amount to $36.00. The total amount now due is $1,200.00 + $36.00 = $1,236.00.\n\n3.  **Calculation of an Ending Bank Balance**\n    *   **Scenario:** A company's bank account had a starting balance of $5,450.75. During the month, deposits totaled $12,300.50, and withdrawals (checks and electronic payments) totaled $9,875.25. Bank service charges for the month were $15.00.\n    *   **Calculation:**\n        *   Ending Balance = Starting Balance + Deposits - Withdrawals - Service Charges\n        *   Ending Balance = $5,450.75 + $12,300.50 - $9,875.25 - $15.00\n        *   Ending Balance = $17,751.25 - $9,875.25 - $15.00\n        *   Ending Balance = $7,876.00 - $15.00 = $7,861.00\n    *   **Result:** The ending bank balance is $7,861.00.\n\n4.  **Calculation of a Purchase Discount**\n    *   **Scenario:** A business purchases goods with an invoice price of $3,000.00. The supplier offers terms of 2/10, n/30 (a 2% discount if paid within 10 days, otherwise the net amount is due in 30 days). The business pays within the discount period.\n    *   **Calculation:**\n        *   Discount Amount = Invoice Price \u00d7 Discount Rate\n        *   Discount Amount = $3,000.00 \u00d7 0.02 = $60.00\n        *   Amount Paid = Invoice Price - Discount Amount\n        *   Amount Paid = $3,000.00 - $60.00 = $2,940.00\n    *   **Result:** The discount taken is $60.00, and the amount paid is $2,940.00.\n\n5.  **Calculation of Owner's Equity**\n    *   **Scenario:** At the end of the fiscal year, a sole proprietorship has total assets valued at $125,000 and total liabilities of $45,000.\n    *   **Formula:** Owner's Equity = Assets - Liabilities\n    *   **Calculation:**\n        *   Owner's Equity = $125,000 - $45,000\n        *   Owner's Equity = $80,000\n    *   **Result:** The owner's equity in the business is $80,000.\n\n6.  **Calculation of Principal Portion of a Loan Payment (Simple Interest Loan Example)**\n    *   **Scenario:** A payment of $550 is made on a loan. The interest accrued for the period is $120.\n    *   **Calculation:**\n        *   Principal Repaid = Total Payment - Interest Portion\n        *   Principal Repaid = $550 - $120 = $430\n    *   **Result:** The portion of the payment applied to the principal of the loan is $430.\n</OUTPUT_TEXT>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.07973814636390666
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 121,
+      "candidatesTokenCount": 1143,
+      "totalTokenCount": 2554,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 121
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1143
+        }
+      ],
+      "thoughtsTokenCount": 1290
+    },
+    "modelVersion": "gemini-2.5-pro-preview-05-06",
+    "createTime": "2025-05-27T14:02:42.958186Z",
+    "responseId": "AsY1aOq9Ou6U2PgPqduJmAs"
+  }
+}

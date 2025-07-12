@@ -1,0 +1,43 @@
+{
+  "uid": "a79efa23",
+  "variant": 2,
+  "modality": "TEXT",
+  "temperature": 0.5,
+  "model": "llama3-8b-8192",
+  "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+  "timestamp": "2025-05-28T14:54:06.197952Z",
+  "prompt_sha256": "0e49efdfed639b992278c8309af37eaee12ced345a4b0c55918f59fa240e6053",
+  "response": {
+    "id": "chatcmpl-c1d4f0b2-16f9-49a7-8e26-60b6a0179037",
+    "object": "chat.completion",
+    "created": 1748444046,
+    "model": "llama3-8b-8192",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "<OUTPUT_TEXT>\n<h1>Customer Service Representative</h1>\n\n<h2>Key Responsibilities</h2>\n1. Confer with customers by telephone or in person to provide information about products or services, take or enter orders, cancel accounts, or obtain details of complaints.\n\n<h2>Key Skills</h2>\n1. Excellent communication and interpersonal skills to effectively interact with customers.\n2. Strong problem-solving skills to resolve customer issues and concerns.\n3. Ability to work in a fast-paced environment and prioritize tasks to meet customer needs.\n4. Knowledge of products and services to provide accurate information and support.\n\n<h2>Key Actions</h2>\n1. Respond to customer inquiries and concerns in a timely and professional manner.\n2. Provide clear and concise information about products and services to customers.\n3. Take or enter orders and process payments accurately.\n4. Cancel accounts or resolve customer issues and concerns in a fair and timely manner.\n5. Document customer interactions and issues in a clear and concise manner.\n</OUTPUT_TEXT>"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "queue_time": 0.214725863,
+      "prompt_tokens": 137,
+      "prompt_time": 0.032134416,
+      "completion_tokens": 208,
+      "completion_time": 0.173333333,
+      "total_tokens": 345,
+      "total_time": 0.205467749
+    },
+    "usage_breakdown": {
+      "models": null
+    },
+    "system_fingerprint": "fp_dadc9d6142",
+    "x_groq": {
+      "id": "req_01jwbp5rhjfxst2dyz9ysqd19d"
+    }
+  }
+}

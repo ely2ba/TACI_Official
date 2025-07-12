@@ -1,0 +1,50 @@
+{
+  "uid": "8b2ab848",
+  "variant": 1,
+  "temperature": 0.0,
+  "seed": 0,
+  "model": "o3-2025-04-16",
+  "modality": "TEXT",
+  "timestamp": "2025-06-21T20:41:20Z",
+  "commit_sha": "ac1698886e89fb01e65b6ca5c8e06e97f58dd0fa",
+  "prompt_sha256": "6716c2a858e64afc74e3ae791b0c74871b0ca83aaa11124c22bdb987a6538076",
+  "response": {
+    "id": "chatcmpl-BkzJDfVoVmvE5fhGQfi6H1WffVY17",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nMEMORANDUM  \n--------------------------------------------------------------------  \nTo:  Alicia Romero, Esq., Supervising Real-Estate Partner  \nFrom:  Jamie Patel, Senior Paralegal & Closing Coordinator  \nDate:  28 June 2024  \nRe:  Dispute Resolution & Title Review \u2013 Purchase of 123 Maple St., Anytown, NY (\u201cProperty\u201d)  \n\n--------------------------------------------------------------------  \nI. PURPOSE  \nThis memo (a) summarizes the disputes presently impeding the scheduled 19 July 2024 closing, (b) analyzes the results of the title search, and (c) recommends practical, attorney-ready steps to clear title and move the transaction to closing.  \n\n--------------------------------------------------------------------  \nII. FACTUAL BACKGROUND  \n1. Parties  \n   \u2022 Seller: Maple Holdings LLC (Manager: Robert Lang)  \n   \u2022 Buyer: Emma & Jonathan Reid (represented by this firm)  \n2. Contract of Sale executed 6 May 2024; purchase price $785,000; closing to occur on or before 19 July 2024; NY law governs.  \n3. Contingencies satisfied: inspection, mortgage commitment, appraisal.  \n4. Outstanding matters discovered during due-diligence:  \n   a. Boundary Fence Encroachment \u2013 Neighbor (Lot 17) alleges 18-inch intrusion along 76-ft rear lot line; claims adverse possession.  \n   b. Unpaid Municipal Utility Lien \u2013 $4,312.58 water/sewer arrearage (filed 14 Jan 2022).  \n   c. Unsatisfied Mortgage of Record \u2013 $240,000 mortgage (Beneficial Bank) recorded 3 Mar 2004; assignment + payoff letter exist but satisfaction was never recorded.  \n\n--------------------------------------------------------------------  \nIII. ISSUES FOR ARBITRATION / RESOLUTION  \nIssue 1: Responsibility for curing the fence encroachment and any diminution in value.  \nIssue 2: Allocation of liability for the utility lien and mechanism for payoff at closing.  \nIssue 3: Clearing the outstanding mortgage from title so buyer obtains marketable title and lender policy coverage.  \n\n--------------------------------------------------------------------  \nIV. TITLE SEARCH REVIEW  \nA. Chain of Title (last 40 yrs) \u2013 clean transfers; no breaks.  \nB. Encumbrances Noted:  \n   \u2022 Easement \u2013 Recorded 12 Aug 1998 (Book 2412 p. 331) in favor of Anytown Gas & Electric; no impact to improvements.  \n   \u2022 Restrictive Covenant (Subdivision) \u2013 single-family use only; no violations found.  \n   \u2022 Judgment Liens \u2013 none.  \n   \u2022 Federal/State Tax Liens \u2013 none.  \n   \u2022 Mechanics\u2019 Liens \u2013 none.  \nC. Title Co. Requirements (FirstTitle N.Y. Commitment No. 220-9987, effective 10 Jun 2024):  \n   R-1  Release/Satisfaction of 2004 mortgage.  \n   R-2  Pay and discharge utility lien.  \n   R-3  Evidentiary resolution of boundary dispute or issuance of survey endorsement with indemnity/escrow.  \n\n--------------------------------------------------------------------  \nV. ANALYSIS & RECOMMENDATIONS  \n1. Fence Encroachment  \n   \u2022 Surveyor affidavit confirms encroachment; title underwriter will insure with either (a) lot-line adjustment deed, or (b) $15K indemnity escrow for three years.  \n   \u2022 Negotiation leverage: Seller asserts neighbor installed fence; neighbor claims 19-yr possession. To avoid quiet-title litigation, recommend:  \n        a. Tripartite Boundary Agreement: Seller, Neighbor, Buyer.  \n        b. Seller funds $15K escrow to cover potential fence relocation/legal fees.  \n        c. Title company issues survey coverage on policy.  \n\n2. Utility Lien  \n   \u2022 Municipal liens attach to land; buyer\u2019s lender requires release.  \n   \u2022 Contract \u00a79(b) obligates Seller to deliver clear title subject only to permitted exceptions; lien is not permitted.  \n   \u2022 Action: Obtain updated payoff letter; collect from Seller proceeds at settlement; have closing agent wire to municipality same day; secure lien release for recording.  \n\n3. Unsatisfied Mortgage  \n   \u2022 Payoff made 2016 per Seller bank statements; however, satisfaction piece never recorded.  \n   \u2022 Remedies:  \n        a. Follow lender succession trail: Beneficial \u2192 TrustCo 2018; request duplicate satisfaction. Timeframe 3\u20134 wks.  \n        b. Alternate: Title company will accept Lost Satisfaction Affidavit pursuant to NY RPL \u00a7321 if accompanied by indemnity from Seller and our firm.  \n   \u2022 Recommendation: Start both tracks; if duplicate not received by 12 July, file \u00a7321 affidavit to keep closing date.  \n\n--------------------------------------------------------------------  \nVI. STEP-BY-STEP CLOSING ACTION PLAN  \nDate        Task / Responsible                                        Status  \n29 Jun      Draft boundary agreement; circulate to Neighbor counsel \u2013 JP  \n01 Jul      Obtain escrow agreement & survey endorsement wording from FirstTitle \u2013 JP  \n02 Jul      Request updated utility payoff; calendar follow-up \u2013 AR (asst.)  \n03 Jul      Send certified request to TrustCo for duplicate satisfaction \u2013 JP  \n10 Jul      Receive fully executed boundary & escrow agreements \u2013 All parties  \n12 Jul      If no duplicate satisfaction, prepare \u00a7321 affidavit for Seller signature \u2013 JP  \n15 Jul      Final pre-closing checklist/call with lender, Title, Buyer \u2013 AR & JP  \n19 Jul      Closing at FirstTitle offices; record docs; disburse funds \u2013 Escrow Officer  \n\n--------------------------------------------------------------------  \nVII. CLIENT COMMUNICATION POINTS  \n\u2022 Advise Buyers that the fence issue is low-risk once indemnity/escrow in place; litigation alternative could delay closing 6\u201312 mos.  \n\u2022 Explain that utility lien will be fully satisfied from Seller proceeds; Buyers assume no liability.  \n\u2022 Confirm to lender that title will be clear of all monetary liens at settlement, backed by policy.  \n\n--------------------------------------------------------------------  \nVIII. DISCLAIMER  \nThis memorandum is prepared by a paralegal for attorney review. It is not intended as independent legal advice to the parties. All recommendations should be approved and, where necessary, modified by a licensed attorney prior to implementation.  \n\n--------------------------------------------------------------------  \nPlease advise if additional research or documentation is required.  \n--------------------------------------------------------------------  \n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1750538459,
+    "model": "o3-2025-04-16",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1657,
+      "prompt_tokens": 123,
+      "total_tokens": 1780,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 320,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

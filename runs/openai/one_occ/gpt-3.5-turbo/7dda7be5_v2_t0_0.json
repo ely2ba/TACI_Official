@@ -1,0 +1,49 @@
+{
+  "uid": "7dda7be5",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gpt-3.5-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:27:30Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "4c035523dbfa2f05b815093ba9091189dc436fae6d0bd061eed6aa84ba109961",
+  "response": {
+    "id": "chatcmpl-Bi1XS22QLK9b8Taeo20YQzsCAr9qz",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n<h1>Appraisal and Inventory Report for Estate Planning</h1>\n\n1. Real Property:\n   - Description: [Include detailed description of each property]\n   - Value: [Provide estimated value of each property]\n   - Ownership: [Specify ownership details]\n\n2. Personal Property:\n   - Description: [List all personal belongings with detailed descriptions]\n   - Value: [Assign estimated value to each item]\n   - Ownership: [Specify ownership details]\n\n3. Summary:\n   - Total estimated value of real property: [Sum of all real property values]\n   - Total estimated value of personal property: [Sum of all personal property values]\n   - Total estimated value of estate: [Sum of real and personal property values combined]\n\n4. Recommendations:\n   - Any recommendations for updating or revising estate plan based on appraisal results.\n\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749832046,
+    "model": "gpt-3.5-turbo-0125",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 176,
+      "prompt_tokens": 117,
+      "total_tokens": 293,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

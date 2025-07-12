@@ -1,0 +1,101 @@
+occupation,model,mean_score,N,ci_low,ci_high
+"Bookkeeping, Accounting, and Auditing Clerks",claude-3-5-sonnet-20240620,62.99145299145299,18,50.21367521367522,73.76282051282053
+"Bookkeeping, Accounting, and Auditing Clerks",claude-3-opus-20240229,61.794871794871796,18,49.61431623931624,73.30341880341878
+"Bookkeeping, Accounting, and Auditing Clerks",gemini-2.0-flash,28.205128205128208,18,12.094017094017095,43.675213675213676
+"Bookkeeping, Accounting, and Auditing Clerks",gemini-2.5-flash-preview-05-20,64.27350427350427,18,51.452991452991455,77.17948717948717
+"Bookkeeping, Accounting, and Auditing Clerks",gpt-3.5-turbo,54.871794871794876,18,38.11752136752137,69.05982905982906
+"Bookkeeping, Accounting, and Auditing Clerks",gpt-4,72.3931623931624,18,65.64102564102564,79.18803418803418
+"Bookkeeping, Accounting, and Auditing Clerks",gpt-4-turbo,59.48717948717948,18,46.15170940170941,71.62393162393163
+"Bookkeeping, Accounting, and Auditing Clerks",gpt-4.1,59.65811965811966,18,42.205128205128204,73.17521367521364
+"Bookkeeping, Accounting, and Auditing Clerks",gpt-4o,65.04273504273505,18,51.66452991452992,75.85576923076924
+"Bookkeeping, Accounting, and Auditing Clerks",llama3-8b-8192,44.78632478632479,18,28.034188034188034,60.17307692307692
+Business Intelligence Analysts,claude-3-5-sonnet-20240620,67.6923076923077,18,53.491452991453,78.46153846153845
+Business Intelligence Analysts,claude-3-opus-20240229,60.68376068376069,18,47.820512820512825,69.4871794871795
+Business Intelligence Analysts,gemini-2.0-flash,24.91452991452992,18,10.085470085470087,40.342948717948715
+Business Intelligence Analysts,gemini-2.5-flash-preview-05-20,65.0,18,50.89636752136753,75.95192307692305
+Business Intelligence Analysts,gpt-3.5-turbo,64.27350427350429,18,50.8525641025641,74.35897435897436
+Business Intelligence Analysts,gpt-4,69.65811965811966,18,58.2905982905983,78.46153846153845
+Business Intelligence Analysts,gpt-4-turbo,57.43589743589743,18,42.56410256410257,70.35683760683757
+Business Intelligence Analysts,gpt-4.1,71.83760683760684,18,57.73504273504274,81.92307692307692
+Business Intelligence Analysts,gpt-4o,77.17948717948718,18,65.12820512820514,83.24786324786324
+Business Intelligence Analysts,llama3-8b-8192,56.32478632478633,18,38.205128205128204,72.39529914529915
+Customer Service Representatives,claude-3-5-sonnet-20240620,72.82051282051283,18,69.4871794871795,76.15384615384615
+Customer Service Representatives,claude-3-opus-20240229,63.504273504273506,18,59.401709401709404,66.92307692307693
+Customer Service Representatives,gemini-2.0-flash,41.111111111111114,18,24.23076923076923,57.949786324786324
+Customer Service Representatives,gemini-2.5-flash-preview-05-20,80.51282051282051,18,77.09401709401709,83.24786324786324
+Customer Service Representatives,gpt-3.5-turbo,79.82905982905983,18,77.09401709401709,82.56410256410257
+Customer Service Representatives,gpt-4,75.81196581196582,18,71.06837606837608,79.87179487179488
+Customer Service Representatives,gpt-4-turbo,80.51282051282051,18,77.77777777777779,83.24786324786324
+Customer Service Representatives,gpt-4.1,77.77777777777777,18,75.04273504273505,80.52991452991452
+Customer Service Representatives,gpt-4o,76.45299145299145,18,69.74358974358974,80.51282051282053
+Customer Service Representatives,llama3-8b-8192,50.25641025641026,18,32.82051282051283,67.00854700854703
+"Elementary School Teachers, Except Special Education",claude-3-5-sonnet-20240620,78.71794871794872,18,75.38461538461539,82.008547008547
+"Elementary School Teachers, Except Special Education",claude-3-opus-20240229,68.2905982905983,18,65.55555555555556,71.02564102564104
+"Elementary School Teachers, Except Special Education",gemini-2.0-flash,65.85470085470087,18,49.10256410256411,78.50641025641025
+"Elementary School Teachers, Except Special Education",gemini-2.5-flash-preview-05-20,79.14529914529913,18,71.62393162393163,84.6153846153846
+"Elementary School Teachers, Except Special Education",gpt-3.5-turbo,69.57264957264958,18,62.73504273504274,75.72649572649573
+"Elementary School Teachers, Except Special Education",gpt-4,76.41025641025641,18,73.67521367521368,79.14529914529915
+"Elementary School Teachers, Except Special Education",gpt-4-turbo,75.04273504273505,18,65.47008547008546,82.56410256410255
+"Elementary School Teachers, Except Special Education",gpt-4.1,83.93162393162393,18,82.56410256410255,84.6153846153846
+"Elementary School Teachers, Except Special Education",gpt-4o,81.88034188034187,18,79.14529914529913,83.93162393162392
+"Elementary School Teachers, Except Special Education",llama3-8b-8192,52.39316239316239,18,34.27350427350427,68.50534188034187
+"Inspectors, Testers, Sorters, Samplers, and Weighers",claude-3-5-sonnet-20240620,0.0,18,0.0,0.0
+"Inspectors, Testers, Sorters, Samplers, and Weighers",claude-3-opus-20240229,0.0,18,0.0,0.0
+"Inspectors, Testers, Sorters, Samplers, and Weighers",gemini-2.0-flash,0.0,18,0.0,0.0
+"Inspectors, Testers, Sorters, Samplers, and Weighers",gemini-2.5-flash-preview-05-20,0.0,18,0.0,0.0
+"Inspectors, Testers, Sorters, Samplers, and Weighers",gpt-3.5-turbo,0.0,18,0.0,0.0
+"Inspectors, Testers, Sorters, Samplers, and Weighers",gpt-4,0.0,18,0.0,0.0
+"Inspectors, Testers, Sorters, Samplers, and Weighers",gpt-4-turbo,0.0,18,0.0,0.0
+"Inspectors, Testers, Sorters, Samplers, and Weighers",gpt-4.1,0.0,18,0.0,0.0
+"Inspectors, Testers, Sorters, Samplers, and Weighers",gpt-4o,0.0,18,0.0,0.0
+"Inspectors, Testers, Sorters, Samplers, and Weighers",llama3-8b-8192,0.0,18,0.0,0.0
+Logisticians,claude-3-5-sonnet-20240620,79.40170940170941,18,76.79487179487178,82.00854700854701
+Logisticians,claude-3-opus-20240229,68.97435897435898,18,66.23931623931624,71.70940170940172
+Logisticians,gemini-2.0-flash,24.358974358974358,18,8.11965811965812,40.5982905982906
+Logisticians,gemini-2.5-flash-preview-05-20,79.14529914529913,18,70.94017094017094,84.6153846153846
+Logisticians,gpt-3.5-turbo,75.04273504273505,18,69.57264957264957,80.51282051282053
+Logisticians,gpt-4,77.77777777777777,18,73.67521367521368,81.1965811965812
+Logisticians,gpt-4-turbo,79.14529914529913,18,70.94017094017094,84.6153846153846
+Logisticians,gpt-4.1,84.61538461538461,18,84.6153846153846,84.6153846153846
+Logisticians,gpt-4o,83.93162393162393,18,82.56410256410255,84.6153846153846
+Logisticians,llama3-8b-8192,47.69230769230769,18,30.33974358974359,65.17094017094016
+Medical Secretaries and Administrative Assistants,claude-3-5-sonnet-20240620,57.00854700854701,18,40.938034188034194,70.47008547008546
+Medical Secretaries and Administrative Assistants,claude-3-opus-20240229,65.81196581196582,18,56.36752136752139,71.79594017094018
+Medical Secretaries and Administrative Assistants,gemini-2.0-flash,16.752136752136753,18,4.017094017094018,32.820512820512825
+Medical Secretaries and Administrative Assistants,gemini-2.5-flash-preview-05-20,73.07692307692308,18,62.3076923076923,80.51282051282051
+Medical Secretaries and Administrative Assistants,gpt-3.5-turbo,58.97435897435898,18,42.123931623931625,73.76068376068376
+Medical Secretaries and Administrative Assistants,gpt-4,64.87179487179488,18,52.81837606837608,73.67521367521368
+Medical Secretaries and Administrative Assistants,gpt-4-turbo,64.95726495726495,18,51.53846153846155,75.04273504273505
+Medical Secretaries and Administrative Assistants,gpt-4.1,59.017094017094024,18,42.263888888888886,73.11965811965813
+Medical Secretaries and Administrative Assistants,gpt-4o,58.2905982905983,18,42.222222222222236,72.3931623931624
+Medical Secretaries and Administrative Assistants,llama3-8b-8192,46.66666666666667,18,33.914529914529915,58.80341880341881
+Paralegals and Legal Assistants,claude-3-5-sonnet-20240620,75.47008547008548,18,72.13568376068376,78.76068376068376
+Paralegals and Legal Assistants,claude-3-opus-20240229,66.92307692307693,18,62.82051282051283,70.34188034188035
+Paralegals and Legal Assistants,gemini-2.0-flash,35.0,18,19.528846153846157,51.83867521367522
+Paralegals and Legal Assistants,gemini-2.5-flash-preview-05-20,83.24786324786325,18,81.19658119658119,84.6153846153846
+Paralegals and Legal Assistants,gpt-3.5-turbo,72.991452991453,18,67.52136752136751,77.77777777777779
+Paralegals and Legal Assistants,gpt-4,75.72649572649573,18,72.30769230769232,79.14529914529915
+Paralegals and Legal Assistants,gpt-4-turbo,70.25641025641026,18,60.66666666666667,78.46153846153845
+Paralegals and Legal Assistants,gpt-4.1,84.61538461538461,18,84.6153846153846,84.6153846153846
+Paralegals and Legal Assistants,gpt-4o,81.19658119658119,18,77.0940170940171,83.93162393162392
+Paralegals and Legal Assistants,llama3-8b-8192,54.35897435897436,18,36.239316239316246,71.81196581196579
+Radiologic Technologists and Technicians,claude-3-5-sonnet-20240620,0.0,18,0.0,0.0
+Radiologic Technologists and Technicians,claude-3-opus-20240229,0.0,18,0.0,0.0
+Radiologic Technologists and Technicians,gemini-2.0-flash,0.0,18,0.0,0.0
+Radiologic Technologists and Technicians,gemini-2.5-flash-preview-05-20,0.0,18,0.0,0.0
+Radiologic Technologists and Technicians,gpt-3.5-turbo,0.0,18,0.0,0.0
+Radiologic Technologists and Technicians,gpt-4,0.0,18,0.0,0.0
+Radiologic Technologists and Technicians,gpt-4-turbo,0.0,18,0.0,0.0
+Radiologic Technologists and Technicians,gpt-4.1,0.0,18,0.0,0.0
+Radiologic Technologists and Technicians,gpt-4o,0.0,18,0.0,0.0
+Radiologic Technologists and Technicians,llama3-8b-8192,0.0,18,0.0,0.0
+"Shipping, Receiving, and Inventory Clerks",claude-3-5-sonnet-20240620,39.572649572649574,18,23.375000000000004,57.19123931623931
+"Shipping, Receiving, and Inventory Clerks",claude-3-opus-20240229,45.72649572649573,18,30.169871794871796,61.324786324786324
+"Shipping, Receiving, and Inventory Clerks",gemini-2.0-flash,16.794871794871796,18,4.017094017094018,34.231837606837615
+"Shipping, Receiving, and Inventory Clerks",gemini-2.5-flash-preview-05-20,43.504273504273506,18,25.28632478632479,60.34188034188034
+"Shipping, Receiving, and Inventory Clerks",gpt-3.5-turbo,41.53846153846154,18,24.685897435897438,59.67307692307692
+"Shipping, Receiving, and Inventory Clerks",gpt-4,42.136752136752136,18,25.982905982905987,59.05982905982906
+"Shipping, Receiving, and Inventory Clerks",gpt-4-turbo,52.99145299145299,18,34.871794871794876,70.42735042735042
+"Shipping, Receiving, and Inventory Clerks",gpt-4.1,45.64102564102564,18,26.837606837606838,65.14316239316238
+"Shipping, Receiving, and Inventory Clerks",gpt-4o,47.00854700854701,18,28.205128205128204,65.8119658119658
+"Shipping, Receiving, and Inventory Clerks",llama3-8b-8192,28.717948717948723,18,14.700854700854702,45.38461538461539

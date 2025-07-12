@@ -1,0 +1,50 @@
+{
+  "uid": "d21fc252",
+  "variant": 0,
+  "temperature": 0.0,
+  "model": "gemini-2.5-flash-preview-05-20",
+  "modality": "VISION",
+  "timestamp": "2025-05-27T15:25:04.389360Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_JSON>{\"finding\":\"Foreign object\",\"image_id\":\"img_000\",\"bbox\":[490,210,520,230],\"explanation\":\"Foreign object (hair/fiber) present above capsule.\"}</OUTPUT_JSON>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -3.1802621568952287
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 714,
+      "candidatesTokenCount": 56,
+      "totalTokenCount": 1780,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 516
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 198
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 56
+        }
+      ],
+      "thoughtsTokenCount": 1010
+    },
+    "modelVersion": "gemini-2.5-flash-preview-05-20",
+    "createTime": "2025-05-27T15:24:57.332796Z",
+    "responseId": "Sdk1aPynFMamnvgPuOOl0As"
+  }
+}

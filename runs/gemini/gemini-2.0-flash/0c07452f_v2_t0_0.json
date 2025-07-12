@@ -1,0 +1,45 @@
+{
+  "uid": "0c07452f",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gemini-2.0-flash",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T13:15:37.391869Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "```text\n<OUTPUT_TEXT>\n# Enforcing Administration Policies and Rules\n\n1.  **Know the Policies:** I must thoroughly understand all school policies and rules outlined in the student handbook, faculty guidelines, and any other official documents. This includes policies on attendance, dress code, technology use, behavior, safety procedures (fire drills, lockdowns), and academic integrity.\n\n2.  **Communicate Clearly:** I will explain the rules and policies to my students in age-appropriate language at the beginning of the year and reinforce them throughout the year. I will use examples and scenarios to help them understand the reasoning behind the rules. I will also communicate any changes in policies promptly and clearly.\n\n3.  **Be Consistent and Fair:** I will enforce the rules consistently and fairly for all students. This means applying the same consequences for similar infractions, regardless of the student involved. Avoid showing favoritism or bias.\n\n4.  **Positive Reinforcement:** I will focus on positive reinforcement by praising students who follow the rules and demonstrating good behavior. This can include verbal praise, small rewards (stickers, extra recess time), or positive notes home to parents.\n\n5.  **Address Minor Infractions Promptly:** I will address minor infractions immediately and discreetly. This might involve a verbal reminder, a redirection, or a brief conversation with the student about their behavior.\n\n6.  **Document and Report Serious Infractions:** I will document all serious infractions, such as bullying, fighting, or theft, and report them to the appropriate school authorities (principal, assistant principal, counselor) according to school policy. I will maintain accurate records of student behavior and interventions.\n\n7.  **Collaborate with Parents/Guardians:** I will communicate with parents/guardians about student behavior, both positive and negative. I will work with them to develop strategies for addressing behavioral issues and ensuring that students understand the importance of following the rules.\n\n8.  **Model Appropriate Behavior:** I will model appropriate behavior at all times, demonstrating respect for the rules, school staff, and students. My actions should align with the expectations I set for my students.\n\n9.  **Seek Support When Needed:** I will not hesitate to seek support from the principal, assistant principal, school counselor, or other colleagues when dealing with challenging student behavior or complex policy issues.\n\n10. **Stay Updated:** I will stay informed about any changes or updates to school policies and procedures by attending faculty meetings, reading school newsletters, and communicating with school administrators.\n</OUTPUT_TEXT>\n```"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.17058927027875392
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 109,
+      "candidatesTokenCount": 518,
+      "totalTokenCount": 627,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 109
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 518
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:15:33.611664Z",
+    "responseId": "9bo1aNCqJdGunvgPueCxkQw"
+  }
+}

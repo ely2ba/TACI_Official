@@ -1,0 +1,45 @@
+{
+  "uid": "faa67d8f",
+  "variant": 0,
+  "temperature": 0.0,
+  "model": "gemini-2.0-flash",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T13:17:59.557132Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "Okay, I'm ready to analyze technology trends and identify potential markets for future product development or to improve sales of existing products. I will focus on identifying emerging technologies, assessing their potential impact on various industries, and pinpointing unmet needs or opportunities that can be addressed through new or improved products.\n"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.21737410227457682
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 94,
+      "candidatesTokenCount": 60,
+      "totalTokenCount": 154,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 94
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 60
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:17:58.978735Z",
+    "responseId": "hrs1aK_eO9ahnvgPjb-S-Ag"
+  }
+}

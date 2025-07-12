@@ -1,0 +1,46 @@
+{
+  "uid": "85a846ff",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gemini-2.5-flash-preview-05-20",
+  "modality": "GUI",
+  "timestamp": "2025-05-27T15:31:06.067538Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_JSON>\n[\n  {\n    \"action\": \"type\",\n    \"selector\": \"input[name*=account i]\",\n    \"value\": \"[DATA_FOR_ACCOUNT_ID]\"\n  },\n  {\n    \"action\": \"type\",\n    \"selector\": \"input[name*=amount i], input[type=number]\",\n    \"value\": \"[DATA_FOR_AMOUNT_OR_NUMBER]\"\n  },\n  {\n    \"action\": \"type\",\n    \"selector\": \"textarea[name*=memo i]\",\n    \"value\": \"[DATA_FOR_MEMO_OR_NOTES]\"\n  },\n  {\n    \"action\": \"click\",\n    \"selector\": \"button:has-text(\\\"post\\\" i), button:has-text(\\\"save\\\" i)\"\n  }\n]\n</OUTPUT_JSON>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -4.421384458188657
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 169,
+      "candidatesTokenCount": 189,
+      "totalTokenCount": 3684,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 169
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 189
+        }
+      ],
+      "thoughtsTokenCount": 3326
+    },
+    "modelVersion": "gemini-2.5-flash-preview-05-20",
+    "createTime": "2025-05-27T15:30:43.880005Z",
+    "responseId": "o9o1aIXbNfGX2PgP38qSuQs"
+  }
+}

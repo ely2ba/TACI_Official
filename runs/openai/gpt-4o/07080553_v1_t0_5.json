@@ -1,0 +1,49 @@
+{
+  "uid": "07080553",
+  "variant": 1,
+  "temperature": 0.5,
+  "model": "gpt-4o",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:49:15Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "ca65019701b219e673d37a5ddbfdb70839253fca5816fda8501517c5c5846e16",
+  "response": {
+    "id": "chatcmpl-BaVUJWW6A9MkvYPQsCYcRERaINsrO",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n[Client Name]\n[Client Address]\n[City, State, ZIP Code]\n\n[Date]\n\n[Attorney's Name]\n[Law Firm's Name]\n[Law Firm's Address]\n[City, State, ZIP Code]\n\nRe: [Case Name/Number]\n\nDear [Attorney's Name],\n\nPlease find below the draft of the affidavit and other necessary documents prepared as per your instructions. These documents are organized to ensure seamless integration into our existing filing system, both electronically and in paper form.\n\n1. **Affidavit of [Affiant's Name]**\n   - **Introduction**: The affiant's full name, address, and relationship to the case.\n   - **Statement of Facts**: A detailed account of the facts as known by the affiant, presented in numbered paragraphs for clarity.\n   - **Affirmation**: A statement that the affiant swears or affirms the truthfulness of the information provided.\n   - **Signature and Notarization**: Space for the affiant's signature and the notary's acknowledgment.\n\n2. **Legal Correspondence**\n   - **Letter to Opposing Counsel**: A draft letter addressing recent developments and requesting specific information or actions.\n   - **Client Update Letter**: A draft letter updating the client on case progress and next steps.\n\n3. **Document Organization**\n   - **Electronic Filing**: All documents have been scanned and saved in the client's electronic file folder, titled \"[Client Name] - [Case Name/Number]\".\n   - **Paper Filing**: Hard copies of all documents have been filed under the client's case file in the physical filing cabinet, located in the [specific location].\n\n4. **Additional Documentation**\n   - **Exhibit List**: A comprehensive list of exhibits referenced in the affidavit, with corresponding labels for easy identification.\n   - **Chronology of Events**: A timeline of significant events related to the case, aiding in the understanding of the affidavit's context.\n\nPlease review the drafts and let me know if any amendments are required. Once approved, the affidavit can be finalized and signed by the affiant, after which we will arrange for notarization.\n\nShould you need any further assistance or additional documents, feel free to reach out.\n\nSincerely,\n\n[Your Name]\nSenior Paralegal\n[Law Firm's Name]\n[Contact Information]\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748040547,
+    "model": "gpt-4o-2024-08-06",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_9bddfca6e2",
+    "usage": {
+      "completion_tokens": 479,
+      "prompt_tokens": 95,
+      "total_tokens": 574,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

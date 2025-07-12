@@ -1,0 +1,49 @@
+{
+  "uid": "ab599408",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-4",
+  "modality": "GUI",
+  "timestamp": "2025-05-23T22:03:04Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "a4821034ef2bec192a24c849eb83e9ad24ea23488e7dd15e280525b593f12670",
+  "response": {
+    "id": "chatcmpl-BaUlfkjU0Ip6bTTmxzD85zu7zusQK",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_JSON>[\n  {\"selector\":\"input[placeholder*=search i]\", \"action\":\"type\", \"value\":\"Supplies\"},\n  {\"selector\":\"button:has-text(\\\"add item\\\" i)\", \"action\":\"click\"},\n  {\"selector\":\"input[name*=quantity i]\", \"action\":\"type\", \"value\":\"1\"},\n  {\"selector\":\"button:has-text(\\\"order\\\" i), button:has-text(\\\"submit\\\" i)\", \"action\":\"click\"}\n]</OUTPUT_JSON>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748037779,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 96,
+      "prompt_tokens": 141,
+      "total_tokens": 237,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

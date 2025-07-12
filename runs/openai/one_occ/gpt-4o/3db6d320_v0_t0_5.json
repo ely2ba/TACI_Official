@@ -1,0 +1,49 @@
+{
+  "uid": "3db6d320",
+  "variant": 0,
+  "temperature": 0.5,
+  "model": "gpt-4o",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:50:11Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "048291482c243fca6f2e809c70e31969e7709e03043722c8876feb2b84a2af4b",
+  "response": {
+    "id": "chatcmpl-Bi1tRnBc4JnmcjUB4MJHZ2NvZ7L90",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>As a paralegal or legal assistant, your task involves conducting thorough investigations into the facts and laws relevant to cases. This includes searching through pertinent sources such as public records, legal databases, and internet sources to gather necessary information. The goal is to determine potential causes of action and prepare cases effectively by compiling and analyzing the data to support legal proceedings. This preparation is crucial for building a strong case strategy and ensuring all legal avenues are explored.</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749833409,
+    "model": "gpt-4o-2024-08-06",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_07871e2ad8",
+    "usage": {
+      "completion_tokens": 95,
+      "prompt_tokens": 113,
+      "total_tokens": 208,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

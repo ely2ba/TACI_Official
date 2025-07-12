@@ -1,0 +1,45 @@
+{
+  "uid": "dc35566b",
+  "variant": 1,
+  "temperature": 0.0,
+  "model": "gemini-2.0-flash",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T13:13:53.171424Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_TEXT>Okay, I'm ready to prepare for trial. To best assist, I need specific information about the case. However, I can outline the general steps I would take as a senior paralegal to organize exhibits and prepare for trial:\n\n**I. Exhibit Organization & Management**\n\n1.  **Review and Inventory:**\n    *   Thoroughly review all documents, photos, and other potential exhibits produced during discovery.\n    *   Create a detailed exhibit list/log. This should include:\n        *   Exhibit Number (sequential, and consider using prefixes to categorize by source or type, e.g., \"P-1\" for Plaintiff's Exhibit 1, \"D-A-1\" for Defendant A's Exhibit 1).\n        *   Exhibit Description (concise and accurate).\n        *   Source (where the exhibit came from \u2013 deposition, document production, etc.).\n        *   Date of Creation/Date on Document (if applicable).\n        *   Bates Stamp Range (if applicable).\n        *   Admissibility Notes (initial thoughts on potential admissibility issues \u2013 hearsay, relevance, etc.).\n        *   Custodian (who can authenticate the exhibit).\n        *   Location (where the physical exhibit is stored).\n        *   Linked Documents (if the exhibit is related to other exhibits).\n    *   Ensure all exhibits are clearly and permanently marked with their exhibit number. Use exhibit stickers or stamps.\n\n2.  **Digital Organization:**\n    *   Create a well-organized digital folder structure mirroring the exhibit list.\n    *   Scan all physical exhibits to create digital copies.\n    *   Name digital files consistently with the exhibit number (e.g., \"P-1_Contract.pdf\").\n    *   Consider using a litigation support software (e.g., Relativity, CaseMap, TrialDirector) for more advanced exhibit management, searching, and annotation capabilities.\n\n3.  **Admissibility Assessment:**\n    *   Work with the legal team to assess the admissibility of each exhibit.\n    *   Research relevant rules of evidence and case law regarding admissibility.\n    *   Prepare motions in limine to address any anticipated admissibility challenges.\n    *   Note any stipulations regarding admissibility agreed upon with opposing counsel.\n\n4.  **Exhibit Binders/Notebooks:**\n    *   Create exhibit binders for the legal team, witnesses, and the judge (if required by court rules).\n    *   Organize exhibits logically within the binders (chronologically, by topic, or by witness).\n    *   Include a table of contents in each binder.\n    *   Ensure binders are clearly labeled.\n\n5.  **Witness Preparation:**\n    *   Prepare exhibit sets for each witness who will be testifying about specific exhibits.\n    *   Meet with witnesses to review the exhibits they will be discussing and prepare them for potential questions.\n\n**II. Trial Preparation \u2013 General**\n\n1.  **Trial Notebook:**\n    *   Create a comprehensive trial notebook containing:\n        *   Pleadings\n        *   Motions and Orders\n        *   Witness List\n        *   Exhibit List\n        *   Opening Statement Outline\n        *   Direct and Cross-Examination Outlines for each witness\n        *   Legal Research and Case Law\n        *   Jury Instructions (proposed)\n        *   Closing Argument Outline\n        *   Contact Information for key parties (court staff, opposing counsel, witnesses)\n\n2.  **Witness Management:**\n    *   Confirm witness availability and coordinate travel arrangements.\n    *   Prepare witness subpoenas and ensure proper service.\n    *   Maintain regular communication with witnesses.\n    *   Prepare witnesses for trial testimony (demeanor, dress code, answering questions).\n\n3.  **Deposition Designations:**\n    *   Review deposition transcripts and designate key portions to be used at trial.\n    *   Exchange deposition designations with opposing counsel.\n    *   Prepare objections to opposing counsel's designations.\n    *   Create deposition summaries or digests for quick reference.\n\n4.  **Trial Technology:**\n    *   Ensure all necessary technology is available and functioning properly (projector, laptop, ELMO, etc.).\n    *   Prepare electronic presentations of exhibits.\n    *   Practice using the technology in the courtroom.\n\n5.  **Courtroom Logistics:**\n    *   Confirm courtroom setup and availability.\n    *   Arrange for necessary equipment and supplies.\n    *   Coordinate with court staff regarding any special needs.\n\n6.  **Pre-Trial Conference:**\n    *   Attend the pre-trial conference with the legal team.\n    *   Prepare any necessary documents or exhibits for the conference.\n\n7.  **Communication:**\n    *   Maintain clear and consistent communication with the legal team, witnesses, and court staff.\n\n**III. Specific Questions for the Attorney**\n\nTo tailor my preparation, I need answers to the following:\n\n*   What is the specific nature of the case (e.g., breach of contract, personal injury, etc.)?\n*   What are the key legal issues in dispute?\n*   Who are the key witnesses?\n*   What are the most important exhibits?\n*   What is the trial schedule?\n*   What are the court's specific rules and procedures for trial?\n*   What litigation support software are we using, if any?\n*   What is the budget for trial preparation?\n\nOnce I have this information, I can create a detailed trial preparation plan and begin organizing the exhibits and other materials accordingly.\n</OUTPUT_TEXT>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.14023634128538173
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 107,
+      "candidatesTokenCount": 1178,
+      "totalTokenCount": 1285,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 107
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1178
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:13:44.701996Z",
+    "responseId": "iLo1aKzsKrOMgLUPq7OY6QY"
+  }
+}

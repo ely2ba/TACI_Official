@@ -1,0 +1,15 @@
+{
+  "uid": "bbf22c00",
+  "variant": 2,
+  "modality": "GUI",
+  "temperature": 0.0,
+  "model": "claude-3-5-sonnet-20240620",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T18:03:16.279251Z",
+  "commit_sha": "98b2eb0f130d4d32e78707f77c440a8f68e4103c",
+  "prompt_sha256": "207a34bec8c7de8fd35aa6823a9b3224311f61ac35a5760b6239aceff4a0a2ad",
+  "response": {
+    "raw": "Here is my response wrapped in the requested format:\n\n<OUTPUT_JSON>\n[\n  {\n    \"action\": \"click\",\n    \"selector\": \"table:has-text(\\\"order\\\" i) >> tr >> input[type=checkbox]\"\n  },\n  {\n    \"action\": \"click\", \n    \"selector\": \"table:has-text(\\\"invoice\\\" i) >> tr >> input[type=checkbox]\"\n  },\n  {\n    \"action\": \"click\",\n    \"selector\": \"button:has-text(\\\"match\\\" i)\"\n  },\n  {\n    \"action\": \"click\",\n    \"selector\": \"button:has-text(\\\"record\\\" i)\"\n  }\n]\n</OUTPUT_JSON>",
+    "extracted": "<OUTPUT_JSON>\n[\n  {\n    \"action\": \"click\",\n    \"selector\": \"table:has-text(\\\"order\\\" i) >> tr >> input[type=checkbox]\"\n  },\n  {\n    \"action\": \"click\", \n    \"selector\": \"table:has-text(\\\"invoice\\\" i) >> tr >> input[type=checkbox]\"\n  },\n  {\n    \"action\": \"click\",\n    \"selector\": \"button:has-text(\\\"match\\\" i)\"\n  },\n  {\n    \"action\": \"click\",\n    \"selector\": \"button:has-text(\\\"record\\\" i)\"\n  }\n]\n</OUTPUT_JSON>"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "uid": "9cebf902",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-4-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:45:56Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "201afa7b083de2c80a691ebaaa666ca5aad973841b6540f331ec7d1d01c811ef",
+  "response": {
+    "id": "chatcmpl-Bi1pBAj4JZkoCnn2NK3IpqBFOveV3",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Legal Research Summary\n\n1. **Statutes**: Statutes are laws enacted by legislative bodies. They are a primary source of law and are used to govern specific areas of public and private actions. Researching statutes involves identifying relevant laws applicable to a specific legal issue or jurisdiction.\n\n2. **Decisions**: Legal decisions, particularly those made by higher courts, are crucial in understanding how laws are interpreted and applied. These decisions serve as precedents in common law jurisdictions and are essential in legal arguments and case strategies.\n\n3. **Legal Articles**: Articles from legal journals and publications provide insights, critiques, and discussions on various legal topics. They are secondary sources but are invaluable for understanding broader legal concepts, recent changes, and opinions within the legal community.\n\n4. **Codes**: Legal codes are systematic collections of laws and regulations in a particular jurisdiction. They are organized by subject matter and are essential in legal research for finding all relevant laws and regulations on a particular topic.\n\n5. **Documents**: Legal documents include a range of materials such as court filings, legal correspondence, contracts, and wills. Analyzing these documents is crucial for case preparation, understanding contractual obligations, and assessing legal rights and duties.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749833145,
+    "model": "gpt-4-turbo-2024-04-09",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_de235176ee",
+    "usage": {
+      "completion_tokens": 248,
+      "prompt_tokens": 126,
+      "total_tokens": 374,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

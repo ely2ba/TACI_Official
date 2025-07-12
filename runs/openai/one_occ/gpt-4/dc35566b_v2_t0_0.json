@@ -1,0 +1,49 @@
+{
+  "uid": "dc35566b",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:37:40Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "5c2b1790f2417a640aaa0c9ab20011ff442927bfe17d78d43ba60b94c8a66652",
+  "response": {
+    "id": "chatcmpl-Bi1h801rS1HhdADPlDrEO5bh2gXZ9",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Trial Preparation: Organizing Exhibits\n\n1. **Identify Exhibits**\n   Begin by identifying all potential exhibits that may be used during the trial. This could include documents, photos, physical objects, digital files, etc. \n\n2. **Catalog Exhibits**\n   Create a detailed catalog of all exhibits. This should include a brief description, the source of the exhibit, and its relevance to the case.\n\n3. **Label Exhibits**\n   Each exhibit should be clearly labeled for easy identification. Use a consistent system, such as numbering or lettering.\n\n4. **Prepare Exhibit List**\n   Compile a master list of all exhibits. This list should include the exhibit label, a brief description, and any other relevant details.\n\n5. **Review Exhibits with Attorney**\n   Review all exhibits with the attorney to ensure they are relevant and admissible. Make any necessary adjustments based on the attorney's feedback.\n\n6. **Prepare Exhibit Binders**\n   Organize exhibits into binders or digital files for easy access during the trial. Each binder should have a table of contents and tabs for quick reference.\n\n7. **Duplicate Exhibits for Court**\n   Make copies of all exhibits to be provided to the court, opposing counsel, and any other relevant parties.\n\n8. **Pack Exhibits for Transport**\n   Pack all physical exhibits carefully for transport to the court. Ensure digital exhibits are accessible and backed up.\n\n9. **Set Up Exhibits in Courtroom**\n   Arrive early to set up exhibits in the courtroom. Ensure all exhibits are easily accessible and in the order they will be presented.\n\n10. **Manage Exhibits During Trial**\n    During the trial, manage the exhibits to ensure they are presented at the appropriate times and collected afterward.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749832646,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 360,
+      "prompt_tokens": 116,
+      "total_tokens": 476,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

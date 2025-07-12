@@ -1,0 +1,49 @@
+{
+  "uid": "dc35566b",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-4.1",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:58:45Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "5c2b1790f2417a640aaa0c9ab20011ff442927bfe17d78d43ba60b94c8a66652",
+  "response": {
+    "id": "chatcmpl-Bi21eR3jId2xUdsOKN9YjpWoUbj60",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Trial Preparation: Organizing Exhibits\n\n1. **Create an Exhibit List**  \n   - Prepare a comprehensive list of all exhibits, including exhibit numbers, brief descriptions, and corresponding Bates numbers or other identifying marks.\n\n2. **Label Exhibits**  \n   - Clearly label each exhibit with its assigned number or letter (e.g., Plaintiff\u2019s Exhibit 1, Defendant\u2019s Exhibit A). Use standardized stickers or labels.\n\n3. **Prepare Exhibit Binders**  \n   - Assemble exhibits in binders or folders in the order they will be presented. Create separate sets for the court, opposing counsel, and witnesses as required.\n\n4. **Prepare an Exhibit Index**  \n   - Draft an index or table of contents for the exhibit binder, listing each exhibit, its description, and its location in the binder.\n\n5. **Ensure Admissibility**  \n   - Review each exhibit for admissibility issues. Confirm that all necessary foundation documents or witnesses are identified.\n\n6. **Prepare Electronic Exhibits**  \n   - If the court requires, scan and organize exhibits electronically, naming files clearly and consistently. Test all electronic files for accessibility.\n\n7. **Coordinate with Counsel**  \n   - Confer with attorneys to confirm the order of presentation and identify any exhibits that may be stipulated or objected to.\n\n8. **Prepare Exhibit Stipulation/Objection Chart**  \n   - Create a chart noting which exhibits are stipulated to, which are objected to, and the basis for any objections.\n\n9. **Prepare for Court Submission**  \n   - Ensure you have the correct number of exhibit copies for submission to the court, witnesses, and opposing counsel.\n\n10. **Update and Maintain Exhibit List**  \n    - Keep the exhibit list updated throughout trial preparation and during trial as exhibits are admitted or excluded.\n\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749833918,
+    "model": "gpt-4.1-2025-04-14",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_b3f1157249",
+    "usage": {
+      "completion_tokens": 369,
+      "prompt_tokens": 116,
+      "total_tokens": 485,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

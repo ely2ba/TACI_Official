@@ -1,0 +1,49 @@
+{
+  "uid": "2e2364b7",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-4-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:43:02Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "cee4e4cced006a4842340997b6ed1bbff872b7344ee46acccdf523da2a41dd4c",
+  "response": {
+    "id": "chatcmpl-Bi1mU3MvCmkyuhXxJaHs4ipXNMeIB",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Task Completion: Filing Pleadings with Court Clerk\n\n1. **Preparation of Documents**: Ensure all pleadings are properly formatted, signed, and include all necessary attachments and exhibits.\n\n2. **Review of Requirements**: Double-check the court's specific filing requirements, including the number of copies needed and any electronic filing protocols.\n\n3. **Submission to Clerk**: Physically or electronically submit the documents to the appropriate court clerk's office.\n\n4. **Receipt Confirmation**: Obtain a stamped receipt or confirmation that the documents have been filed, which serves as proof of filing.\n\n5. **Follow-Up**: Monitor the case docket to confirm the pleadings have been processed and to prepare for any subsequent legal actions.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749832978,
+    "model": "gpt-4-turbo-2024-04-09",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_de235176ee",
+    "usage": {
+      "completion_tokens": 151,
+      "prompt_tokens": 112,
+      "total_tokens": 263,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

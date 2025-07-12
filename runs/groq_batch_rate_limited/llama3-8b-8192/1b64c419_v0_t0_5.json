@@ -1,0 +1,44 @@
+{
+  "uid": "1b64c419",
+  "variant": 0,
+  "modality": "TEXT",
+  "temperature": 0.5,
+  "model": "llama3-8b-8192",
+  "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+  "timestamp": "2025-05-28T19:19:36.118142Z",
+  "prompt_sha256": "4c820b93c0a97c8cb762fd274b2900d9a471a9bd42f76cf01ed15bf389a13aa8",
+  "commit_sha": "170b9e3e1d0d59846b1daa69da57be5d1db6306c",
+  "response": {
+    "id": "chatcmpl-fb6e8cf9-736d-4f8d-a6e3-47e75b249be3",
+    "object": "chat.completion",
+    "created": 1748459975,
+    "model": "llama3-8b-8192",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "<OUTPUT_TEXT>\nWhen answering telephones, I would greet the caller with a friendly and professional tone, identify myself, and ask how I can assist them. If the caller is requesting to speak with a specific staff member, I would politely inform them of the staff member's availability and either transfer the call or take a message if they are unavailable. If the caller is seeking general information or has a question, I would do my best to provide the necessary information or direct them to the appropriate resource."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "queue_time": 0.307820802,
+      "prompt_tokens": 96,
+      "prompt_time": 0.018144206,
+      "completion_tokens": 101,
+      "completion_time": 0.084166667,
+      "total_tokens": 197,
+      "total_time": 0.102310873
+    },
+    "usage_breakdown": {
+      "models": null
+    },
+    "system_fingerprint": "fp_dadc9d6142",
+    "x_groq": {
+      "id": "req_01jwc5bwseeqvrb1ttj7hxr0mj"
+    }
+  }
+}

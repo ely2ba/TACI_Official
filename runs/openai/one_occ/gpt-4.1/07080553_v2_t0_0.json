@@ -1,0 +1,49 @@
+{
+  "uid": "07080553",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gpt-4.1",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:57:50Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "40b67c629e9856ec273e3f4dfceabf50dd497228e11b942a701560af1d835696",
+  "response": {
+    "id": "chatcmpl-Bi20n1S4gYA3j0AdYz7LWHFh4zhNk",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Legal Document Preparation and Organization\n\n1. **Affidavit Preparation**  \n   - Draft affidavits based on client-provided facts, ensuring all statements are clear, concise, and sworn under oath.  \n   - Include necessary identification of the affiant, statement of facts, and jurat (notary section).  \n   - Review for accuracy and compliance with jurisdictional requirements.\n\n2. **Legal Correspondence Drafting**  \n   - Prepare letters, notices, and other legal correspondence as directed by attorneys.  \n   - Use appropriate legal formatting and language.  \n   - Ensure all correspondence is dated, addressed correctly, and includes necessary enclosures or references.\n\n3. **Document Organization and Maintenance**  \n   - Create and maintain both paper and electronic filing systems for all case-related documents.  \n   - Label files clearly with case names, numbers, and document types.  \n   - Regularly update files to include new pleadings, correspondence, and evidence.  \n   - Implement a secure backup system for electronic files.\n\n4. **Filing System Best Practices**  \n   - Use chronological and/or subject-based organization for easy retrieval.  \n   - Maintain a master index or log of all documents.  \n   - Ensure compliance with confidentiality and data protection standards.\n\n5. **Ongoing Review and Updates**  \n   - Periodically audit files for completeness and accuracy.  \n   - Remove outdated or duplicate documents as necessary, following retention policies.  \n   - Coordinate with attorneys and staff to ensure all documents are up to date and accessible.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749833865,
+    "model": "gpt-4.1-2025-04-14",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_51e1070cf2",
+    "usage": {
+      "completion_tokens": 317,
+      "prompt_tokens": 130,
+      "total_tokens": 447,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

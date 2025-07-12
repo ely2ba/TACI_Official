@@ -1,0 +1,49 @@
+{
+  "uid": "85a846ff",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gpt-4.1",
+  "modality": "GUI",
+  "timestamp": "2025-05-23T23:39:27Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "4f8e3d8dae67170a0aa1500b7651ac2c75b32741c56a1b051b45dda8c89c04d8",
+  "response": {
+    "id": "chatcmpl-BaWH0Yf5Sa8XENWTZD0DJi0Loybvz",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_JSON>[\"input[name*=account i]\", \"input[name*=amount i], input[type=number]\", \"textarea[name*=memo i]\", \"button:has-text(\\\"post\\\" i), button:has-text(\\\"save\\\" i)\"]</OUTPUT_JSON>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748043566,
+    "model": "gpt-4.1-2025-04-14",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_ccc6ec921d",
+    "usage": {
+      "completion_tokens": 54,
+      "prompt_tokens": 167,
+      "total_tokens": 221,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

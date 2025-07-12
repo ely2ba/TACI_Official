@@ -1,0 +1,49 @@
+{
+  "uid": "a79efa23",
+  "variant": 0,
+  "temperature": 0.0,
+  "model": "gpt-4.1",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T23:40:57Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "2194fc6d65fd8ba9f24f6208c4e40b072764ccf82917b9d1b68d88353bffb853",
+  "response": {
+    "id": "chatcmpl-BaWISfhHyvmFX1DlZHnCW9LvpstiI",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nCertainly! I am here to assist you. Please let me know how I can help\u2014whether you need information about our products or services, would like to place or cancel an order, close an account, or have a concern or complaint you\u2019d like to discuss. Your satisfaction is important to us!\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748043656,
+    "model": "gpt-4.1-2025-04-14",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_ccc6ec921d",
+    "usage": {
+      "completion_tokens": 68,
+      "prompt_tokens": 110,
+      "total_tokens": 178,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "uid": "936aa3e5",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gpt-4.1",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T23:02:21Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "e27b33f68330ba9f081ac5cbf0fae70c8cccec958ae0b30242cd1986fe4a4b1c",
+  "response": {
+    "id": "chatcmpl-BaVh4rKGUoKuchjCsnu6HImYRrKeq",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Financial Calculations\n\n1. **Amounts Due**  \n   Please provide the invoice amount, payments made, and any adjustments to calculate the amount due.\n\n2. **Interest Charges**  \n   To calculate interest charges, specify the principal amount, interest rate, and time period.\n\n3. **Balances**  \n   For balance calculation, provide the opening balance, credits, and debits.\n\n4. **Discounts**  \n   To determine the discount, provide the original amount and the discount rate or amount.\n\n5. **Equity**  \n   For equity calculation, provide total assets and total liabilities.\n\n6. **Principal**  \n   To find the principal, specify the total amount and any interest or fees included.\n\n*Please provide the relevant figures for the specific calculation you need, and I will perform the computation.*\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748041338,
+    "model": "gpt-4.1-2025-04-14",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_ccc6ec921d",
+    "usage": {
+      "completion_tokens": 172,
+      "prompt_tokens": 95,
+      "total_tokens": 267,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

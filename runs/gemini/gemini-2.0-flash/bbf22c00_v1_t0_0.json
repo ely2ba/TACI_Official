@@ -1,0 +1,45 @@
+{
+  "uid": "bbf22c00",
+  "variant": 1,
+  "temperature": 0.0,
+  "model": "gemini-2.0-flash",
+  "modality": "GUI",
+  "timestamp": "2025-05-27T13:10:06.891628Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "Okay, I need to match order forms with invoices and record the information. I will start by selecting the first order and invoice, then click the \"match\" button, and finally click the \"record\" button.\n```json\n<OUTPUT_JSON>[\n  {\"action\": \"click\", \"selector\": \"table:has-text(\\\"order\\\" i) >> tr >> input[type=checkbox]\", \"text\": \"\"},\n  {\"action\": \"click\", \"selector\": \"table:has-text(\\\"invoice\\\" i) >> tr >> input[type=checkbox]\", \"text\": \"\"},\n  {\"action\": \"click\", \"selector\": \"button:has-text(\\\"match\\\" i)\", \"text\": \"\"},\n  {\"action\": \"click\", \"selector\": \"button:has-text(\\\"record\\\" i)\", \"text\": \"\"}\n]</OUTPUT_JSON>\n```"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.046855251209155936
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 202,
+      "candidatesTokenCount": 185,
+      "totalTokenCount": 387,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 202
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 185
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:10:05.606767Z",
+    "responseId": "rbk1aK-EJd7bgLUP8cv60A0"
+  }
+}

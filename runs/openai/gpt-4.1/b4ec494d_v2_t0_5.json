@@ -1,0 +1,49 @@
+{
+  "uid": "b4ec494d",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-4.1",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T23:09:27Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "35cb9e6ff43fb27cd8326f8faff3bc2a2491453b44dbf8e85204442630abfa38",
+  "response": {
+    "id": "chatcmpl-BaVnxTTESBnrrvvIvIBmyR8SgxoEh",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Referral of Unresolved Customer Grievances\n\n1. Your concern has been noted and requires further investigation.\n2. We are referring your unresolved grievance to the designated department for specialized review.\n3. The appropriate team will contact you with updates or requests for additional information as needed.\n4. If you have any further questions in the meantime, please let us know.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748041765,
+    "model": "gpt-4.1-2025-04-14",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_ccc6ec921d",
+    "usage": {
+      "completion_tokens": 81,
+      "prompt_tokens": 81,
+      "total_tokens": 162,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

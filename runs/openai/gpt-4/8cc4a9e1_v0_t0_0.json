@@ -1,0 +1,49 @@
+{
+  "uid": "8cc4a9e1",
+  "variant": 0,
+  "temperature": 0.0,
+  "model": "gpt-4",
+  "modality": "GUI",
+  "timestamp": "2025-05-23T22:04:46Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "c86658276cd36309ab7609ec8dede3e75c1ce61843b0c5df8e16249c51a21d0b",
+  "response": {
+    "id": "chatcmpl-BaUnIyT49RU61fR1BhjALC1mOX0Lm",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_JSON>[\n{\"action\": \"type\", \"selector\": \"input[name*=space i], input[placeholder*=space i]\", \"text\": \"\"},\n{\"action\": \"type\", \"selector\": \"input[name*=charge i]\", \"text\": \"\"},\n{\"action\": \"click\", \"selector\": \"button:has-text(\\\"calculate\\\" i), button:has-text(\\\"compute\\\" i)\", \"text\": \"\"},\n{\"action\": \"wait\", \"selector\": \"\", \"text\": \"\"},\n{\"action\": \"click\", \"selector\": \"button:has-text(\\\"save\\\" i)\", \"text\": \"\"}\n]</OUTPUT_JSON>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748037880,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 124,
+      "prompt_tokens": 161,
+      "total_tokens": 285,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

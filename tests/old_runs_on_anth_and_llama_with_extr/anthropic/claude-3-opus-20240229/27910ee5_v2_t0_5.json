@@ -1,0 +1,15 @@
+{
+  "uid": "27910ee5",
+  "variant": 2,
+  "modality": "TEXT",
+  "temperature": 0.5,
+  "model": "claude-3-opus-20240229",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T17:51:39.041298Z",
+  "commit_sha": "98b2eb0f130d4d32e78707f77c440a8f68e4103c",
+  "prompt_sha256": "6060748aeb3ca712c2c1996ec3884666a13bf44a4737fc0dbd4a0d7f6edcc871",
+  "response": {
+    "raw": "Here is my report on project plans, progress, and results:\n\n<OUTPUT_TEXT>\n<h1>Project Status Report</h1>\n\n<ol>\n<li><h2>Project Plans</h2>\n<ul>\n<li>Finalize requirements and specifications</li>\n<li>Create detailed project plan and schedule</li>  \n<li>Assemble project team and assign roles</li>\n<li>Procure necessary resources and equipment</li>\n</ul>\n</li>\n\n<li><h2>Progress To Date</h2>  \n<ul>\n<li>Requirements gathering 90% complete</li>\n<li>Project plan drafted, under review</li>\n<li>Core project team identified, role assignments pending</li>  \n<li>Submitted purchase orders for key equipment and materials</li>\n</ul>\n</li>\n\n<li><h2>Results Achieved</h2>\n<ul>\n<li>Alignment with key stakeholders on project objectives</li>\n<li>Identification of critical success factors</li>\n<li>Preliminary budget and schedule baselines established</li>\n</ul>  \n</li>\n</ol>\n</OUTPUT_TEXT>",
+    "extracted": "<OUTPUT_TEXT>\n<h1>Project Status Report</h1>\n\n<ol>\n<li><h2>Project Plans</h2>\n<ul>\n<li>Finalize requirements and specifications</li>\n<li>Create detailed project plan and schedule</li>  \n<li>Assemble project team and assign roles</li>\n<li>Procure necessary resources and equipment</li>\n</ul>\n</li>\n\n<li><h2>Progress To Date</h2>  \n<ul>\n<li>Requirements gathering 90% complete</li>\n<li>Project plan drafted, under review</li>\n<li>Core project team identified, role assignments pending</li>  \n<li>Submitted purchase orders for key equipment and materials</li>\n</ul>\n</li>\n\n<li><h2>Results Achieved</h2>\n<ul>\n<li>Alignment with key stakeholders on project objectives</li>\n<li>Identification of critical success factors</li>\n<li>Preliminary budget and schedule baselines established</li>\n</ul>  \n</li>\n</ol>\n</OUTPUT_TEXT>"
+  }
+}

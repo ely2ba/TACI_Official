@@ -1,0 +1,46 @@
+{
+  "uid": "0c07452f",
+  "variant": 0,
+  "temperature": 0.5,
+  "model": "gemini-2.5-flash-preview-05-20",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T15:43:17.537344Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_TEXT>\nAs an expert Elementary School Teacher, my approach to enforcing administration policies and rules governing students is comprehensive and proactive, focusing on fostering a positive and productive learning environment:\n\n1.  **Explicit Instruction & Modeling:** I begin by clearly teaching, modeling, and regularly reviewing all school-wide and classroom-specific rules and expectations. We discuss *why* these rules are essential for safety, respect, and learning, ensuring students understand their purpose. I use age-appropriate language, visual aids, and positive framing.\n2.  **Consistent & Equitable Application:** I apply all policies and rules fairly and consistently to every student, ensuring predictability and equity in the classroom. Students understand that expectations are universal and reliable.\n3.  **Positive Behavior Reinforcement:** I proactively acknowledge and celebrate students who consistently adhere to rules and demonstrate positive behavior through verbal praise, classroom incentives, and positive communication with families. This reinforces desired conduct and builds a positive school culture.\n4.  **Age-Appropriate Consequences & Redirection:** When rules are broken, I implement logical, age-appropriate consequences focused on teaching responsibility, problem-solving, and making amends, rather than solely punishment. I utilize non-verbal cues, proximity control, and gentle redirection to guide students back to expected behavior whenever possible.\n5.  **Collaborative Communication:** For significant or recurring policy violations, I maintain clear, objective, and timely communication with parents, seeking partnership in addressing the behavior. I collaborate closely with school administration, counselors, and other support staff to ensure consistent school-wide enforcement and provide holistic support for students.\n6.  **Objective Documentation:** I maintain accurate and objective records of behavioral incidents and interventions, adhering to school policy, which informs ongoing support strategies, communication with stakeholders, and administrative actions when necessary.\n</OUTPUT_TEXT>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -1.153484251942596
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 87,
+      "candidatesTokenCount": 371,
+      "totalTokenCount": 1881,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 87
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 371
+        }
+      ],
+      "thoughtsTokenCount": 1423
+    },
+    "modelVersion": "gemini-2.5-flash-preview-05-20",
+    "createTime": "2025-05-27T15:43:05.626234Z",
+    "responseId": "id01aLqcJtTGgLUPtNvO0AE"
+  }
+}

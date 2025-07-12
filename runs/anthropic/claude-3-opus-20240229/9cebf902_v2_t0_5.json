@@ -1,0 +1,34 @@
+{
+  "uid": "9cebf902",
+  "variant": 2,
+  "modality": "TEXT",
+  "temperature": 0.5,
+  "model": "claude-3-opus-20240229",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T20:00:20.033525Z",
+  "commit_sha": "170b9e3e1d0d59846b1daa69da57be5d1db6306c",
+  "prompt_sha256": "201afa7b083de2c80a691ebaaa666ca5aad973841b6540f331ec7d1d01c811ef",
+  "response": {
+    "id": "msg_01D9fXCvYuomza47ZPRoQQZg",
+    "content": [
+      {
+        "citations": null,
+        "text": "Here is my attempt at the requested output:\n<OUTPUT_TEXT>\n<h1>Gathering and Analyzing Legal Research Data</h1>\n1. Identify the legal issue or question that needs to be researched. Determine the relevant jurisdiction and sources of law that apply (statutes, case law, regulations, etc.).\n2. Conduct searches of online legal databases such as Westlaw, LexisNexis, and Bloomberg Law to find relevant statutes, court decisions, law review articles, and other secondary sources. Use Boolean operators and filters to narrow results.\n3. Review the text of statutes and case law to determine if they are applicable to the facts and legal issues in question. Take notes on key points and holdings. Shepardize or KeyCite cases to check if they are still good law.\n4. Analyze the findings to determine the current state of the law on the issue. Look for majority and minority views among courts. Note any circuit splits or unresolved questions.\n5. Organize the research results in an outline or memo, summarizing the relevant authorities and how they apply. Cite all sources properly using Bluebook format. Proofread carefully and verify citations and quotations.\n</OUTPUT_TEXT>",
+        "type": "text"
+      }
+    ],
+    "model": "claude-3-opus-20240229",
+    "role": "assistant",
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "input_tokens": 135,
+      "output_tokens": 271,
+      "server_tool_use": null,
+      "service_tier": "standard"
+    }
+  }
+}

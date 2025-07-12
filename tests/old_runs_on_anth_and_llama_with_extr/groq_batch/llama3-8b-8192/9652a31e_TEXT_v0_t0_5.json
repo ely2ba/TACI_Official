@@ -1,0 +1,43 @@
+{
+  "uid": "9652a31e",
+  "variant": 0,
+  "modality": "TEXT",
+  "temperature": 0.5,
+  "model": "llama3-8b-8192",
+  "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+  "timestamp": "2025-05-28T14:54:46.231102Z",
+  "prompt_sha256": "4963eecdeb7bca67c802163f168cad8102f28285ecca405ba9a86095b5fe4bd3",
+  "response": {
+    "id": "chatcmpl-f49e4b60-ac4e-4ad6-b07d-b2b0d1a64b88",
+    "object": "chat.completion",
+    "created": 1748444086,
+    "model": "llama3-8b-8192",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "<OUTPUT_TEXT>\nCommunicate with establishment representatives via phone, email, or in-person meetings to resolve issues related to damaged or missing items, or products that do not meet specifications. This may involve negotiating with vendors to correct errors, providing detailed documentation of discrepancies, and ensuring that corrective actions are taken to prevent similar problems in the future.\n</OUTPUT_TEXT>"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "queue_time": 0.16201589100000002,
+      "prompt_tokens": 112,
+      "prompt_time": 0.019517779,
+      "completion_tokens": 68,
+      "completion_time": 0.056666667,
+      "total_tokens": 180,
+      "total_time": 0.076184446
+    },
+    "usage_breakdown": {
+      "models": null
+    },
+    "system_fingerprint": "fp_179b0f92c9",
+    "x_groq": {
+      "id": "req_01jwbp6ztmedhbzbqeac8se6m8"
+    }
+  }
+}

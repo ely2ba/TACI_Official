@@ -1,0 +1,45 @@
+{
+  "uid": "a79efa23",
+  "variant": 0,
+  "temperature": 0.5,
+  "model": "gemini-2.0-flash",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T13:18:09.573508Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "Okay, I understand. I will focus on providing information, taking orders, handling cancellations, and addressing complaints effectively and professionally.\n"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.22953029779287484
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 105,
+      "candidatesTokenCount": 26,
+      "totalTokenCount": 131,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 105
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 26
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:18:09.215467Z",
+    "responseId": "kbs1aKuTDdGunvgPueCxkQw"
+  }
+}

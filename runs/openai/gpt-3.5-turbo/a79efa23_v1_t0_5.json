@@ -1,0 +1,49 @@
+{
+  "uid": "a79efa23",
+  "variant": 1,
+  "temperature": 0.5,
+  "model": "gpt-3.5-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:01:16Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "5c9da18b690c497e8572a7139bb543f83029f40122d65f1b8a04205a17c079c4",
+  "response": {
+    "id": "chatcmpl-BaUjxWYwiDtGs5wBTxYI0TrMS7AJc",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>Subject: Customer Service Interaction Summary\n\nDate: [Date]\n\nTo: [Client Name]\n\nFrom: [Your Name], Senior Customer Service Representative\n\nSummary of Interaction:\n\nDuring our recent customer service interaction, I had the opportunity to assist you with [briefly describe the purpose of the interaction - providing information about products/services, taking orders, canceling accounts, or addressing complaints]. \n\nI ensured to actively listen to your concerns and provided clear and concise information to address your inquiries. Additionally, I efficiently processed your requests and ensured that all necessary details were accurately recorded in our system.\n\nIf you have any further questions or require additional assistance, please do not hesitate to contact me directly at [Your Contact Information]. \n\nThank you for choosing our company, and we appreciate the opportunity to assist you.\n\nWarm regards,\n\n[Your Name]\nSenior Customer Service Representative</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748037673,
+    "model": "gpt-3.5-turbo-0125",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 176,
+      "prompt_tokens": 95,
+      "total_tokens": 271,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

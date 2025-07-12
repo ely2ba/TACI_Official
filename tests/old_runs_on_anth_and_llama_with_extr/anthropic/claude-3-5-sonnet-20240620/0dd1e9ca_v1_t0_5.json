@@ -1,0 +1,15 @@
+{
+  "uid": "0dd1e9ca",
+  "variant": 1,
+  "modality": "GUI",
+  "temperature": 0.5,
+  "model": "claude-3-5-sonnet-20240620",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T18:01:55.331521Z",
+  "commit_sha": "98b2eb0f130d4d32e78707f77c440a8f68e4103c",
+  "prompt_sha256": "912426fbc21e1c57fdeff49672289a5c7e2ae1a9043a6e0bc2d3cd689cc93e0c",
+  "response": {
+    "raw": "<OUTPUT_JSON>\n[\n  {'action':'click','selector':'select[name*=report i]','text':''},\n  {'action':'click','selector':'button:has-text(\"generate\" i)','text':''},\n  {'action':'click','selector':'button:has-text(\"export\" i)','text':''},\n  {'action':'click','selector':'a:has-text(\"download\" i)','text':''}\n]\n</OUTPUT_JSON>",
+    "extracted": "<OUTPUT_JSON>\n[\n  {'action':'click','selector':'select[name*=report i]','text':''},\n  {'action':'click','selector':'button:has-text(\"generate\" i)','text':''},\n  {'action':'click','selector':'button:has-text(\"export\" i)','text':''},\n  {'action':'click','selector':'a:has-text(\"download\" i)','text':''}\n]\n</OUTPUT_JSON>"
+  }
+}

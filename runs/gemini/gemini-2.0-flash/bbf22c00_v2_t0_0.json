@@ -1,0 +1,45 @@
+{
+  "uid": "bbf22c00",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gemini-2.0-flash",
+  "modality": "GUI",
+  "timestamp": "2025-05-27T13:10:41.146394Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "Okay, I understand. I need to match order forms with invoices by selecting the corresponding checkboxes in the order and invoice tables, then click the \"match\" button, and finally click the \"record\" button.\n\n```json\n[\n  {\"click\": \"table:has-text(\\\"order\\\" i) >> tr >> input[type=checkbox]\"},\n  {\"click\": \"table:has-text(\\\"invoice\\\" i) >> tr >> input[type=checkbox]\"},\n  {\"click\": \"button:has-text(\\\"match\\\" i)\"},\n  {\"click\": \"button:has-text(\\\"record\\\" i)\"}\n]\n```\n<OUTPUT_JSON>[{\"click\": \"table:has-text(\\\"order\\\" i) >> tr >> input[type=checkbox]\"}, {\"click\": \"table:has-text(\\\"invoice\\\" i) >> tr >> input[type=checkbox]\"}, {\"click\": \"button:has-text(\\\"match\\\" i)\"}, {\"click\": \"button:has-text(\\\"record\\\" i)\"}]</OUTPUT_JSON>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.029859807522811553
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 182,
+      "candidatesTokenCount": 227,
+      "totalTokenCount": 409,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 182
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 227
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:10:39.479248Z",
+    "responseId": "z7k1aJCgHd7bgLUP8cv60A0"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "uid": "d0cae549",
+  "variant": 1,
+  "temperature": 0.5,
+  "model": "gpt-4o",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:47:17Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "4e234ff3d6e83521d26588cef8dcc04a4c6d3fb0f771b86cd015840be14aca27",
+  "response": {
+    "id": "chatcmpl-Bi1qY7poxrIX05MXX91oikWCKRdCI",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>To: [Attorney's Name]  \nFrom: [Your Name]  \nDate: [Today's Date]  \nSubject: Witness Preparation for Upcoming Hearing\n\nDear [Attorney's Name],\n\nIn preparation for the upcoming hearing, I have outlined the necessary steps to ensure that our witnesses are ready to testify effectively. Below are the details and actions required:\n\n1. **Witness List Confirmation**:  \n   - Confirm the list of witnesses we intend to call. Ensure all witnesses are available on the hearing date.\n\n2. **Contact Information Verification**:  \n   - Verify and update contact information for each witness to ensure we can reach them promptly if needed.\n\n3. **Scheduling Pre-Testimony Meetings**:  \n   - Schedule meetings with each witness to review their testimony and discuss the key points they need to address. This will also allow us to clarify any uncertainties they might have.\n\n4. **Document Review and Preparation**:  \n   - Provide each witness with relevant documents related to their testimony. Ensure they understand the context and can reference these documents accurately during their testimony.\n\n5. **Mock Testimony Sessions**:  \n   - Conduct mock testimony sessions to help witnesses become familiar with the process and the types of questions they may encounter. This practice will help them feel more comfortable and confident.\n\n6. **Logistics Coordination**:  \n   - Confirm the logistics for each witness, including transportation and accommodations if necessary, to ensure they arrive on time and are well-prepared.\n\n7. **Legal and Ethical Guidelines Review**:  \n   - Remind witnesses of the legal and ethical guidelines they must adhere to while testifying, emphasizing the importance of honesty and clarity.\n\nPlease let me know if there are any additional instructions or specific concerns you would like to address with the witnesses. I will ensure that all preparations are completed in a timely manner.\n\nBest regards,\n\n[Your Name]  \n[Your Position]  \n[Your Contact Information]</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749833230,
+    "model": "gpt-4o-2024-08-06",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_a288987b44",
+    "usage": {
+      "completion_tokens": 390,
+      "prompt_tokens": 110,
+      "total_tokens": 500,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

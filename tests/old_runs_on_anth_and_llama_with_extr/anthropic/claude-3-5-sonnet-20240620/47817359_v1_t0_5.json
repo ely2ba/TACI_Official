@@ -1,0 +1,15 @@
+{
+  "uid": "47817359",
+  "variant": 1,
+  "modality": "GUI",
+  "temperature": 0.5,
+  "model": "claude-3-5-sonnet-20240620",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T18:03:13.215362Z",
+  "commit_sha": "98b2eb0f130d4d32e78707f77c440a8f68e4103c",
+  "prompt_sha256": "8a2ea3f60ea5c6c4da12b9ac00d3b89eb46f4c8799db8f1653ed23c2d04ab7bd",
+  "response": {
+    "raw": "<OUTPUT_JSON>\n[\n  {'action':'click','selector':'input[name*=account i]','text':''},\n  {'action':'type','selector':'input[name*=account i]','text':'Accounts Receivable'},\n  {'action':'click','selector':'input[name*=amount i], input[type=number]','text':''},\n  {'action':'type','selector':'input[name*=amount i], input[type=number]','text':'1000.00'},\n  {'action':'click','selector':'textarea[name*=memo i]','text':''},\n  {'action':'type','selector':'textarea[name*=memo i]','text':'Invoice payment from Client XYZ'},\n  {'action':'click','selector':'button:has-text(\"post\" i), button:has-text(\"save\" i)','text':''}\n]\n</OUTPUT_JSON>",
+    "extracted": "<OUTPUT_JSON>\n[\n  {'action':'click','selector':'input[name*=account i]','text':''},\n  {'action':'type','selector':'input[name*=account i]','text':'Accounts Receivable'},\n  {'action':'click','selector':'input[name*=amount i], input[type=number]','text':''},\n  {'action':'type','selector':'input[name*=amount i], input[type=number]','text':'1000.00'},\n  {'action':'click','selector':'textarea[name*=memo i]','text':''},\n  {'action':'type','selector':'textarea[name*=memo i]','text':'Invoice payment from Client XYZ'},\n  {'action':'click','selector':'button:has-text(\"post\" i), button:has-text(\"save\" i)','text':''}\n]\n</OUTPUT_JSON>"
+  }
+}

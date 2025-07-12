@@ -1,0 +1,49 @@
+{
+  "uid": "07080553",
+  "variant": 1,
+  "temperature": 0.5,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:10:47Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "ca65019701b219e673d37a5ddbfdb70839253fca5816fda8501517c5c5846e16",
+  "response": {
+    "id": "chatcmpl-BaUt3wdPGuIjzz3vkMRocsLjJwpDe",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n\nSubject: Preparation of Affidavits and Legal Correspondence\n\nDear [Client's Name],\n\nI hope this message finds you well. I am writing to inform you that your legal documents, including affidavits and other correspondence, are currently being prepared and will be ready for your review shortly.\n\nOur team is taking great care in ensuring that all necessary information is accurately represented and that all legalities are duly observed. We understand the importance of these documents for your case and are committed to providing you with the highest level of service.\n\nOnce the documents are ready, we will organize and maintain them in our secure paper and electronic filing systems. You will have access to these files at all times and can request copies as needed.\n\nWe appreciate your patience during this process and assure you that we are working diligently to complete these tasks as soon as possible. We will keep you updated on our progress and will notify you once everything is ready.\n\nShould you have any questions or concerns in the meantime, please do not hesitate to contact us. We are here to assist you and make this process as seamless as possible.\n\nThank you for your trust in our services.\n\nBest regards,\n\n[Your Name]\n[Your Position]\n\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748038237,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 247,
+      "prompt_tokens": 95,
+      "total_tokens": 342,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

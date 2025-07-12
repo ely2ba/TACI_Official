@@ -1,0 +1,45 @@
+{
+  "uid": "2bc72355",
+  "variant": 1,
+  "temperature": 0.0,
+  "model": "gemini-2.0-flash",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T13:14:56.765534Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_TEXT>Alright class, let's get ready to learn! Here's what we'll focus on to help you succeed:\n\n**Individualized Instruction:**\n\n*   **One-on-One Help:** I'll be walking around to check on everyone and offer help when you need it. Don't be shy about raising your hand if you're stuck! We can work through problems together, step-by-step.\n*   **Personalized Goals:** We'll set individual goals for reading, writing, and math. This will help you focus on what *you* need to improve.\n*   **Differentiation:** I'll provide different activities and assignments based on your learning style and pace. Some of you might work on more challenging problems, while others might need extra practice with the basics. That's perfectly okay!\n\n**Group Instruction:**\n\n*   **Lectures:** I'll explain new concepts clearly and concisely, using examples and visuals to help you understand. Pay attention and take notes!\n*   **Discussions:** We'll have class discussions to share ideas, ask questions, and learn from each other. Remember to listen respectfully to your classmates.\n*   **Demonstrations:** I'll show you how to do things step-by-step, like solving math problems or conducting science experiments. Watch carefully and ask questions if you're unsure about anything.\n*   **Small Group Activities:** We'll work in small groups on projects, games, and problem-solving activities. This is a great way to collaborate and learn from your peers. Remember to work together and share your ideas.\n\n**General Tips for Success:**\n\n*   **Ask Questions:** Never be afraid to ask questions! There's no such thing as a silly question.\n*   **Participate:** Get involved in class discussions and activities. The more you participate, the more you'll learn.\n*   **Stay Organized:** Keep your materials organized so you can find what you need quickly.\n*   **Practice Regularly:** Practice makes perfect! The more you practice, the better you'll become.\n*   **Be Respectful:** Treat your classmates and teachers with respect.\n*   **Have Fun!** Learning should be enjoyable. Let's make this a great year!\n\nI'm here to help you succeed. Let's work together to make this a fantastic learning experience!\n</OUTPUT_TEXT>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.16796148034116373
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 118,
+      "candidatesTokenCount": 509,
+      "totalTokenCount": 627,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 118
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 509
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:14:53.081108Z",
+    "responseId": "zbo1aNT5BLOMgLUPq7OY6QY"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "uid": "3a55f5ca",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:31:31Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "cd07b991d8a43f6f05d21bac3250f3274274b6b2d0d4cfbb115d60c578d9e5c7",
+  "response": {
+    "id": "chatcmpl-Bi1b9YkwAUq95heFjtWZPbPNtQ1Mx",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Legal Document Preparation, Editing, and Review\n\n1. Legislation\n   - Draft legislation proposals that clearly state the intent and scope of the law.\n   - Review and edit existing legislation for accuracy, clarity, and legal compliance.\n\n2. Briefs\n   - Prepare briefs that effectively summarize the facts, issues, and arguments in a case.\n   - Edit and review existing briefs to ensure they are persuasive, concise, and legally sound.\n\n3. Pleadings\n   - Draft pleadings that clearly and accurately state the claims or defenses.\n   - Review and edit pleadings to ensure they comply with court rules and legal standards.\n\n4. Appeals\n   - Prepare appeal documents that effectively present the issues and arguments for reconsideration.\n   - Review and edit appeal documents to ensure they comply with appellate rules and legal standards.\n\n5. Wills\n   - Draft wills that clearly express the testator's wishes and comply with legal requirements.\n   - Review and edit wills to ensure they are legally valid and reflect the testator's intentions.\n\n6. Contracts\n   - Prepare contract drafts that clearly define the rights and obligations of the parties.\n   - Review and edit contracts to ensure they are legally enforceable and protect the client's interests.\n\n7. Real Estate Closing Statements\n   - Prepare real estate closing statements that accurately reflect the terms of the sale.\n   - Review and edit closing statements to ensure they comply with real estate laws and regulations.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749832275,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 301,
+      "prompt_tokens": 136,
+      "total_tokens": 437,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

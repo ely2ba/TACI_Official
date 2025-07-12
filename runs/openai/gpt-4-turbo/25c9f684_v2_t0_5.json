@@ -1,0 +1,49 @@
+{
+  "uid": "25c9f684",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-4-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T23:36:11Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "e3d82401dcb61502da7e37a09c5979566303f6b8baa1433dc7428938c473b793",
+  "response": {
+    "id": "chatcmpl-BaWDn5K3SR55HyHdE1PoqOWL6TxnZ",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Customer Contact Response\n\n1. **Inquiry Response**:\n   - Thank you for reaching out with your inquiry. We have reviewed your request and are here to assist you. Please find the details below regarding your query.\n\n2. **Claim Investigation Results**:\n   - We have completed the investigation of your claim. Based on our findings, the following adjustments have been planned. Please review the details and let us know if you have any further questions.\n\n3. **Planned Adjustments**:\n   - As a result of the investigation, we are planning the following adjustments to your account/service. We aim to ensure your satisfaction and appreciate your understanding in this matter.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748043367,
+    "model": "gpt-4-turbo-2024-04-09",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_de235176ee",
+    "usage": {
+      "completion_tokens": 142,
+      "prompt_tokens": 121,
+      "total_tokens": 263,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

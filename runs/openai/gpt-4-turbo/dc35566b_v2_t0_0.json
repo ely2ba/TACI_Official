@@ -1,0 +1,49 @@
+{
+  "uid": "dc35566b",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gpt-4-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:38:42Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "26edbd2e16ae6cdd1e49d23da961fd220dd9bcf754598e12a7e36824c4246f40",
+  "response": {
+    "id": "chatcmpl-BaVK4miYmUqHUsF5Gu4tIMvkvgFxs",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Trial Preparation: Organizing Exhibits\n\n1. **Collect All Relevant Exhibits**\n   - Gather all documents, photographs, videos, and other physical or digital items that will be used as exhibits in the trial. Ensure that each item is accounted for and has been disclosed to the opposing counsel as per discovery rules.\n\n2. **Label Each Exhibit**\n   - Assign a unique identifier to each exhibit (e.g., Exhibit A, Exhibit B, etc.). Label them clearly and consistently to avoid any confusion during the trial.\n\n3. **Prepare Exhibit List**\n   - Create a comprehensive list of all exhibits in the order they will likely be introduced at trial. Include a brief description and the corresponding label for each exhibit.\n\n4. **Organize Exhibits Logically**\n   - Arrange the exhibits in a logical order that aligns with the sequence of the trial presentation. Group related exhibits together to facilitate easy access and presentation.\n\n5. **Create Digital Copies**\n   - Ensure that all physical exhibits have digital counterparts, if possible. Store these digital versions in a secure and easily accessible digital format.\n\n6. **Prepare Binders or Folders**\n   - Use binders or folders to organize the exhibits physically. Each binder or folder should be clearly marked with the exhibit labels and contain all related documents.\n\n7. **Review with Legal Team**\n   - Go over the organized exhibits with attorneys and other team members. Confirm that every exhibit is in its proper place and that there are no missing items.\n\n8. **Prepare for Presentation**\n   - Plan how each exhibit will be presented in court. This might involve setting up electronic displays or preparing physical items for easy viewing by the court.\n\n9. **Backup Plan**\n   - Have backups for all exhibits, especially critical ones. Prepare for potential technical issues with digital exhibits by having physical copies available.\n\n10. **Final Check**\n    - Conduct a final review of all exhibits and their organization the day before the trial to ensure everything is in order and ready for a smooth presentation.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748039912,
+    "model": "gpt-4-turbo-2024-04-09",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_de235176ee",
+    "usage": {
+      "completion_tokens": 412,
+      "prompt_tokens": 84,
+      "total_tokens": 496,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

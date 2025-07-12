@@ -1,0 +1,50 @@
+{
+  "uid": "2e2364b7",
+  "variant": 0,
+  "temperature": 0.5,
+  "seed": 1,
+  "model": "o3-2025-04-16",
+  "modality": "TEXT",
+  "timestamp": "2025-06-21T20:44:54Z",
+  "commit_sha": "ac1698886e89fb01e65b6ca5c8e06e97f58dd0fa",
+  "prompt_sha256": "5c72f093ad8c01025219f856b4db21e96920791a3450b64e0f30ca4c915fe49e",
+  "response": {
+    "id": "chatcmpl-BkzMju9KxZ3mHuUKcyWSM5ONA3jB1",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nStep-by-Step Guide: Filing Pleadings with the Court Clerk\n\n1. Confirm Court Rules\n   \u2022 Identify the correct court (state, federal, appellate, etc.).\n   \u2022 Download the local rules and any standing orders; note page limits, font size, signature requirements, and mandatory filing formats (PDF, Word, paper).\n\n2. Calendar Critical Deadlines\n   \u2022 Compute filing deadline under the applicable procedural rule (e.g., FRCP, state equivalents).\n   \u2022 Add buffer time for service and clerk processing.\n\n3. Assemble the Pleading Packet\n   a. Pleading Document\n      \u2013 Caption, case number, party names, title (e.g., \u201cDefendant\u2019s Motion to Dismiss\u201d), numbered paragraphs, signature block with attorney bar number and contact info.\n   b. Proposed Order (if required) in a separate document.\n   c. Supporting Exhibits\n      \u2013 Bates-label, index, redact sensitive data (addresses, SSNs, birthdates).\n   d. Certificate of Service\n      \u2013 Specify method (e-service, mail, hand delivery) and date; list all counsel/parties served.\n\n4. Format & Proof\n   \u2022 Convert to searchable PDF (OCR) if e-filing; ensure combined file size below court limits.\n   \u2022 Double-check headings, citations, page numbering, and bluebook/local-rule citation style.\n   \u2022 Run spell-check and confirm consistency of defined terms.\n\n5. Prepare Filing Fees\n   \u2022 Verify any motion or first-appearance fees; obtain check, money order, or authorize credit card/ACH on e-filing portal.\n   \u2022 Complete fee waiver/IFP application if client qualifies.\n\n6. Select Filing Method\n   a. Electronic Filing (most state/federal trial courts)\n      \u2013 Log in to CM/ECF, Odyssey, or state e-portal.\n      \u2013 Choose correct event code (e.g., \u201cMotion to Dismiss,\u201d \u201cBrief in Support\u201d).\n      \u2013 Upload main pleading, proposed order, exhibits, certificate of service as separate attachments if required.\n      \u2013 Pay fees; wait for confirmation receipt with document/stamp numbers\u2014save it.\n   b. Paper/In-Person Filing\n      \u2013 Print original + required copies (typically 1 for clerk, 1 for judge, 1 for each party).\n      \u2013 Add hole punches or tabs per local rule.\n      \u2013 Staple or use two-prong fasteners; no spiral bindings unless allowed.\n      \u2013 Deliver to clerk\u2019s window; request file-stamped copies for proof.\n   c. Mail/Courier\n      \u2013 Use certified mail or courier with tracking.\n      \u2013 Include self-addressed stamped envelope for return file-stamped copies if court lacks electronic notice.\n\n7. Confirm Docket Entry\n   \u2022 Monitor docket; ensure pleading appears with correct title and date.\n   \u2022 If discrepancy, call clerk immediately and file a \u201cNotice of Errata\u201d if needed.\n\n8. Serve All Parties\n   \u2022 Electronic service via portal is usually automatic, but verify.\n   \u2022 For non-registered parties, mail or hand-deliver within required timeframe.\n   \u2022 File proof of service if separate from certificate.\n\n9. Retain Records\n   \u2022 Save electronic confirmation, stamped copies, and payment receipt in case file.\n   \u2022 Calendar any response deadlines triggered by the filing.\n\n10. Follow-Up\n   \u2022 Notify supervising attorney that filing is complete; provide docket number and next action dates.\n   \u2022 Prepare courtesy copies for judge if local rules request (often within 24\u201348 hrs).\n\nCompliance Tips\n\u2022 Never alter the clerk\u2019s file-stamp; if an issue arises, refile with \u201cCorrected\u201d in the title.\n\u2022 Use consistent naming conventions: \u201c2024-05-31_Def_MotDismiss.pdf.\u201d\n\u2022 Check for confidential information\u2014file redacted/unredacted versions under seal when required.\n\u2022 Maintain professionalism when interacting with clerk staff; they cannot give legal advice but can clarify procedural mechanics.\n\nThis workflow satisfies most U.S. jurisdictions; always adapt to specific court directives.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1750538677,
+    "model": "o3-2025-04-16",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1176,
+      "prompt_tokens": 89,
+      "total_tokens": 1265,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 320,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "uid": "dc35566b",
+  "variant": 2,
+  "temperature": 0.5,
+  "seed": 1,
+  "model": "o3-2025-04-16",
+  "modality": "TEXT",
+  "timestamp": "2025-06-21T20:47:45Z",
+  "commit_sha": "ac1698886e89fb01e65b6ca5c8e06e97f58dd0fa",
+  "prompt_sha256": "5c2b1790f2417a640aaa0c9ab20011ff442927bfe17d78d43ba60b94c8a66652",
+  "response": {
+    "id": "chatcmpl-BkzPQMWf9esnwsYcs8sxQasKni4GL",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Trial Preparation Plan \u2013 Exhibit Organization\n\n1. Case File Review  \n   a. Verify court scheduling order, exhibit deadlines, and pre-trial disclosure requirements (FRCP 26, local rules, standing orders).  \n   b. Cross-check pleadings, discovery responses, deposition transcripts, expert reports, and prior motions for potential exhibit sources.  \n   c. Flag privileged or confidential documents for redaction or protective-order compliance.\n\n2. Master Exhibit List Creation  \n   a. Assign a unique, consecutive exhibit number (e.g., PX-001, DX-101) in a shared spreadsheet.  \n   b. Record: document description, Bates range, authenticity/legal foundation, intended witness, admissibility objections, and status (original, copy, demonstrative, stipulation).  \n   c. Color-code by party (plaintiff/defense) and by category (contracts, emails, photos, financials, etc.).\n\n3. Bates Numbering & File Naming Protocol  \n   a. Apply electronic Bates stamps (4\u20136 digits) to every page of potential exhibits.  \n   b. Rename digital files to include exhibit number and short description (e.g., \u201cPX-017_Supply-Agreement_2019-05-12.pdf\u201d).  \n   c. Maintain a Bates index linking old file names to new exhibit IDs to avoid confusion during testimony.\n\n4. Exhibit Authentication Packets  \n   a. Gather certifications (business-records affidavits, public-records seals) and chain-of-custody declarations.  \n   b. Draft stipulations of authenticity to streamline trial (serve on opposing counsel).  \n   c. Create foundation outlines for exhibits likely to face objections.\n\n5. Physical & Digital Exhibit Binders  \n   a. Prepare three identical physical sets: Court, Witness/Working, Adversary (tabbed, chronologically or thematically).  \n   b. Insert colored \u201cADMITTED\u201d or \u201cOFFERED\u201d sheets to track trial status in real time.  \n   c. Load all exhibits onto trial presentation software (TrialDirector, Sanction, or PowerPoint) with hyperlinked index for instant retrieval.\n\n6. Demonstratives & Enlargements  \n   a. Design timelines, flowcharts, and call-outs using high-resolution images of key documents.  \n   b. Check courtroom technology (monitors, ELMO) and obtain judge\u2019s approval for demonstratives per local rules.  \n   c. Print poster-size boards if digital display fails.\n\n7. Pre-Trial Conference & Exhibit Exchange  \n   a. Serve final exhibit list and copies on opposing counsel by deadline.  \n   b. Create chart of objections received; draft motions in limine or pre-admit stipulations.  \n   c. Update judge\u2019s courtesy copy with only uncontested exhibits to reduce bench review time.\n\n8. Witness-Exhibit Cross-Matrix  \n   a. Compile table mapping each witness to the exhibits they will authenticate or discuss.  \n   b. Provide deposition page/line citations for impeachment exhibits.  \n   c. Send tailored exhibit packets to witnesses for prep sessions (ensure compliance with sequestration orders).\n\n9. Trial Notebook Assembly  \n   a. Tabs: Pleadings, Orders, Jury Instructions, Voir Dire, Opening, Exhibit List, Witness Outlines, Objections Log, Closing.  \n   b. Insert checklist to record when exhibits are offered, ruled upon, or published to jury.  \n   c. Include quick-reference evidentiary rule chart (FRE 401\u2013803).\n\n10. Logistics & Contingencies  \n    a. Schedule courier for daily exhibit transport; keep backup set in hotel war room.  \n    b. Arrange on-site scanner/printer for last-minute exhibits or redactions.  \n    c. Prepare emergency motion template (in limine or seal) for unforeseen exhibit disputes.\n\n11. Post-Trial Exhibit Handling  \n    a. Retrieve admitted exhibits from clerk; log chain of custody.  \n    b. Archive electronically with verdict sheet and judgment for appeal record.  \n    c. Initiate destruction or return of confidential documents per protective order.\n\nCompletion of these steps will ensure all exhibits are accurately cataloged, authenticated, and readily accessible, minimizing disruptions and strengthening evidentiary presentation at trial.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1750538844,
+    "model": "o3-2025-04-16",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1083,
+      "prompt_tokens": 115,
+      "total_tokens": 1198,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 192,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "uid": "bbf22c00",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gemini-2.5-pro-preview-05-06",
+  "modality": "GUI",
+  "timestamp": "2025-05-27T13:41:22.908716Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_JSON>[\n  {\n    \"selector\": \"table:has-text(\\\"order\\\" i) >> tr >> input[type=checkbox]\",\n    \"action\": \"click\",\n    \"description\": \"Select an order form by clicking its checkbox. Assumes clicking the first available if multiple match.\"\n  },\n  {\n    \"selector\": \"table:has-text(\\\"invoice\\\" i) >> tr >> input[type=checkbox]\",\n    \"action\": \"click\",\n    \"description\": \"Select an invoice by clicking its checkbox. Assumes clicking the first available if multiple match.\"\n  },\n  {\n    \"selector\": \"button:has-text(\\\"match\\\" i)\",\n    \"action\": \"click\",\n    \"description\": \"Click the 'match' button to match the selected order form and invoice.\"\n  },\n  {\n    \"selector\": \"button:has-text(\\\"record\\\" i)\",\n    \"action\": \"click\",\n    \"description\": \"Click the 'record' button to record the necessary information after matching.\"\n  }\n]</OUTPUT_JSON>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -1.8982228554442337
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 182,
+      "candidatesTokenCount": 239,
+      "totalTokenCount": 3629,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 182
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 239
+        }
+      ],
+      "thoughtsTokenCount": 3208
+    },
+    "modelVersion": "gemini-2.5-pro-preview-05-06",
+    "createTime": "2025-05-27T13:40:51.176237Z",
+    "responseId": "48A1aO3gCvq0nvgPkbjHyAk"
+  }
+}

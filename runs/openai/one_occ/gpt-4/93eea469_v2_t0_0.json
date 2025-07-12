@@ -1,0 +1,49 @@
+{
+  "uid": "93eea469",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:36:42Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "5840f80417a02a7d3ad8c40d2d2041b1542ff5380995b92d069040eb287bf935",
+  "response": {
+    "id": "chatcmpl-Bi1gJLHwpTzokwoJPVsDw5wyTrxET",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Meeting Agenda for Case Discussion\n\n1. **Introduction**\n   - Brief introduction of all the participants in the meeting.\n   - Overview of the case.\n\n2. **Case Details**\n   - Detailed discussion about the case.\n   - Review of the facts and evidence.\n   - Discussion on the legal issues involved.\n\n3. **Client's Perspective**\n   - Understanding the client's perspective and objectives.\n   - Discussing the client's concerns and questions.\n\n4. **Legal Strategy**\n   - Discussion on potential legal strategies.\n   - Evaluation of the pros and cons of each strategy.\n\n5. **Roles and Responsibilities**\n   - Clarification of roles and responsibilities of each team member.\n   - Discussion on the next steps and timeline.\n\n6. **Questions and Answers**\n   - Addressing any questions or concerns from the client or team members.\n   - Providing clarifications on any legal terms or procedures.\n\n7. **Conclusion**\n   - Summary of the meeting.\n   - Setting the date and time for the next meeting or follow-up.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749832595,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 216,
+      "prompt_tokens": 117,
+      "total_tokens": 333,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "uid": "8cc4a9e1",
+  "variant": 1,
+  "temperature": 0.5,
+  "model": "gemini-2.0-flash",
+  "modality": "GUI",
+  "timestamp": "2025-05-27T13:11:04.987153Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "I need to identify input fields for space and charges, a calculate button, and a save button. Then I will produce a JSON array containing click actions for each of the identified selectors.\n<OUTPUT_JSON>[{\"action\": \"click\", \"selector\": \"input[name*=space i], input[placeholder*=space i]\", \"text\": \"\"}, {\"action\": \"click\", \"selector\": \"input[name*=charge i]\", \"text\": \"\"}, {\"action\": \"click\", \"selector\": \"button:has-text(\\\"calculate\\\" i), button:has-text(\\\"compute\\\" i)\"}, {\"action\": \"click\", \"selector\": \"button:has-text(\\\"save\\\" i)\"}]</OUTPUT_JSON>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.15824816874320932
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 200,
+      "candidatesTokenCount": 151,
+      "totalTokenCount": 351,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 200
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 151
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:11:03.737533Z",
+    "responseId": "57k1aP2BLYmF1dkP4aj2sQY"
+  }
+}

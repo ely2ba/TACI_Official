@@ -1,0 +1,45 @@
+{
+  "uid": "ab599408",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gemini-2.0-flash",
+  "modality": "GUI",
+  "timestamp": "2025-05-27T13:10:12.297830Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "Okay, I will perform the task of ordering and maintaining an inventory of supplies. I will use the provided selectors to interact with the web page.\n```json\n[\n  {\n    \"action\": \"click\",\n    \"selector\": \"input[placeholder*=search i]\"\n  },\n  {\n    \"action\": \"fill\",\n    \"selector\": \"input[placeholder*=search i]\",\n    \"value\": \"gloves\"\n  },\n  {\n    \"action\": \"click\",\n    \"selector\": \"button:has-text(\\\"add item\\\" i)\"\n  },\n  {\n    \"action\": \"fill\",\n    \"selector\": \"input[name*=quantity i]\",\n    \"value\": \"20\"\n  },\n  {\n    \"action\": \"click\",\n    \"selector\": \"button:has-text(\\\"order\\\" i), button:has-text(\\\"submit\\\" i)\"\n  }\n]\n```"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.0499263176551232
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 173,
+      "candidatesTokenCount": 208,
+      "totalTokenCount": 381,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 173
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 208
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:10:10.898091Z",
+    "responseId": "srk1aKvoNt7bgLUP8cv60A0"
+  }
+}

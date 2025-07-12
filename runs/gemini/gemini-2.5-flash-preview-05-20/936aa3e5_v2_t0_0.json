@@ -1,0 +1,46 @@
+{
+  "uid": "936aa3e5",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gemini-2.5-flash-preview-05-20",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T15:33:52.981481Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_TEXT>\n<h1>Financial Calculations Performed</h1>\n\n1.  **Amount Due Calculation (with Discount and Sales Tax)**\n    *   **Scenario:** An invoice for goods with an original price of $500 is subject to a 10% trade discount and an 8% sales tax applied after the discount.\n    *   **Calculations:**\n        *   Original Price: $500.00\n        *   Less: Trade Discount (10% of $500.00): $50.00\n        *   Subtotal (Price after Discount): $450.00\n        *   Add: Sales Tax (8% of $450.00): $36.00\n        *   **Total Amount Due:** $486.00\n\n2.  **Simple Interest Calculation**\n    *   **Scenario:** A business takes out a simple interest loan of $10,000 at an annual interest rate of 5% for 3 years.\n    *   **Calculations:**\n        *   Principal (P): $10,000.00\n        *   Annual Interest Rate (R): 5% (or 0.05)\n        *   Time (T): 3 years\n        *   Interest (I = P * R * T): $10,000.00 * 0.05 * 3 = $1,500.00\n        *   **Total Amount to be Repaid (Principal + Interest):** $10,000.00 + $1,500.00 = $11,500.00\n\n3.  **Owner's Equity Calculation**\n    *   **Scenario:** A company reports total assets of $150,000 and total liabilities of $70,000.\n    *   **Calculations:**\n        *   Total Assets: $150,000.00\n        *   Total Liabilities: $70,000.00\n        *   **Owner's Equity (Assets - Liabilities):** $150,000.00 - $70,000.00 = $80,000.00\n</OUTPUT_TEXT>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.11238796631339022
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 121,
+      "candidatesTokenCount": 509,
+      "totalTokenCount": 1227,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 121
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 509
+        }
+      ],
+      "thoughtsTokenCount": 597
+    },
+    "modelVersion": "gemini-2.5-flash-preview-05-20",
+    "createTime": "2025-05-27T15:33:47.290132Z",
+    "responseId": "W9s1aNTaEcamnvgPuOOl0As"
+  }
+}

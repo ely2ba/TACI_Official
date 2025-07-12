@@ -1,0 +1,50 @@
+{
+  "uid": "3a55f5ca",
+  "variant": 1,
+  "temperature": 0.5,
+  "seed": 1,
+  "model": "o3-2025-04-16",
+  "modality": "TEXT",
+  "timestamp": "2025-06-21T20:50:35Z",
+  "commit_sha": "ac1698886e89fb01e65b6ca5c8e06e97f58dd0fa",
+  "prompt_sha256": "f082a124fd0b55b995ea4b6b7cbe5a09d594a83832c0f42db7a153e6959a6ad9",
+  "response": {
+    "id": "chatcmpl-BkzS4wNgxmhx44htZnebNDuA5ubfT",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nMemorandum  \n---------------------------------------------------------------------  \nTo:          Jessica Morales, Esq. \u2013 Supervising Attorney  \nCc:          Jonathan Pierce \u2013 Client  \nFrom:        Alexandra Wells \u2013 Senior Paralegal & Legal Assistant  \nDate:        11 June 2024  \nRe:          Review of Draft Purchase & Sale Agreement, Warranty Deed, and Closing Statement for 1280 Harbor View Drive, Clearwater, FL (File No. 23-714)\n\n---------------------------------------------------------------------\nI. Assignment & Scope  \nYou asked me to (1) conduct a line-by-line review of the seller-proposed Purchase and Sale Agreement (\u201cPSA\u201d), (2) confirm that the accompanying Warranty Deed and Closing Statement comport with the PSA and Florida law, and (3) flag any provisions or omissions that could expose Mr. Pierce to legal or financial risk prior to the scheduled 27 June 2024 closing.\n\nDocuments examined:  \n\u2022 Draft PSA (v. 4, redline dated 07 June 2024, 18 pp.)  \n\u2022 Warranty Deed (unsigned, 2 pp.)  \n\u2022 ALTA Settlement/Closing Statement (pre-closing estimate, 4 pp.)  \n\u2022 Title Commitment No. FC-10298 (First Coastal Title, 30 May 2024)  \n\u2022 Municipal Lien & Permit Search Report (City of Clearwater, 05 June 2024)\n\n---------------------------------------------------------------------\nII. Key Findings & Recommendations (Executive Summary)  \n1. Financing Contingency Window. The PSA shortens the financing contingency to seven (7) calendar days from effective date; industry norm is at least 15 business days. Recommend requesting extension to 15 business days (\u00b64(b)).  \n2. \u201cAs-Is\u201d Clause Without Due-Diligence Out. Agreement is drafted \u201cas-is\u201d but fails to grant buyer disapproval right based on inspection results. Add explicit right to cancel or negotiate credits within five days of receipt of inspection report (\u00b612).  \n3. Escrow Deposit Risk. Only $5,000 earnest money is being held (0.5 % of purchase price). Recommend increasing to $25,000 to strengthen buyer posture if seller reneges and to satisfy customary practice (\u00b63(a)).  \n4. Title Exceptions. Schedule B-II lists utility easement (OR Book 2148, p. 53) running across south boundary. Requires confirmation that easement does not hinder intended pool installation; obtain survey endorsement or negotiate easement relocation prior to closing.  \n5. Prorations & Closing Costs. Draft Closing Statement allocates municipal solid waste fee to buyer for entire tax year rather than prorated through closing. Request prorated allocation in accordance with PSA \u00b69(b).  \n6. Attorney\u2019s Fees Clause Unilateral. Clause gives seller right to recover fees for enforcement, silent as to buyer. Insert mutual prevailing-party fee provision or delete for parity (\u00b616).  \n7. Deed Language. Warranty Deed lacks joinder of seller\u2019s non-titled spouse; under Fla. Stat. \u00a7689.01, spousal joinder required to waive homestead rights. Obtain spouse signature or separate Homestead Waiver.  \n8. FIRPTA Withholding. Seller is an out-of-state LLC; no FIRPTA affidavit attached. Require sworn certification of non-foreign status or arrange for 15 % withholding.  \n9. Permit/Lien Search. Open permit #20-1468 (HVAC replacement) listed as \u201cAwaiting Final Inspection.\u201d Condition closing on final sign-off or escrow holdback (125 % of estimated cure cost).  \n10. Post-Closing Occupancy. Seller requests 3-day post-closing occupancy without rent or security deposit. Recommend adding post-closing occupancy agreement with daily holdover fee and liability waiver.\n\n---------------------------------------------------------------------\nIII. Detailed Clause-by-Clause Comments (Select Provisions)\n\n\u00b62 \u2013 Purchase Price  \n\u2022 Corrects total to $965,000 (closing statement shows $965,500). Ensure consistency across documents.  \n\u2022 Add provision that any personal property (washer/dryer, outdoor furniture) is conveyed \u201cfree and clear of liens.\u201d\n\n\u00b64 \u2013 Financing Contingency  \n\u2022 Amend \u201ccalendar days\u201d to \u201cbusiness days.\u201d  \n\u2022 Insert automatic termination if lender appraisal is less than purchase price unless parties renegotiate within 3 days.\n\n\u00b68 \u2013 Title Evidence  \n\u2022 Require ALTA Owner\u2019s Policy 2021 Form w/ Florida Form 9 and survey endorsement.  \n\u2022 Provide five (5) days after receipt of updated commitment to object to exceptions.\n\n\u00b612 \u2013 Property Inspection  \n\u2022 Insert right to conduct wood-destroying organism (WDO) inspection; seller to treat or credit buyer for any infestation/rot.  \n\u2022 Allow buyer to cancel if estimated repairs exceed $7,500.\n\n\u00b616 \u2013 Legal Expenses  \n\u2022 Modify to: \u201cIn any litigation arising out of this Agreement, the prevailing party shall be entitled to reasonable attorney\u2019s fees and costs, including on appeal.\u201d\n\nAdd-on Riders Needed  \n\u2022 Coastal Construction Control Line Rider (property within 1,500 ft of mean high-water line).  \n\u2022 Lead-Based Paint Disclosure not required (structure built 2004).  \n\u2022 Flood Insurance Notice (FEMA Zone AE per NFIP FIRM 12103C0112H).\n\n---------------------------------------------------------------------\nIV. Closing Checklist\n\nAction / Responsible / Deadline  \n1. Deliver revised PSA to seller\u2019s counsel \u2013 Paralegal \u2013 13 Jun  \n2. Secure lender commitment letter \u2013 Client \u2013 20 Jun  \n3. Order updated survey & elevation certificate \u2013 Title Co. \u2013 18 Jun  \n4. Obtain seller spouse joinder/homestead waiver \u2013 Seller \u2013 21 Jun  \n5. Resolve open permit #20-1468 or establish escrow \u2013 Seller/Title \u2013 24 Jun  \n6. Final walkthrough scheduled \u2013 Agent \u2013 26 Jun  \n7. Confirm funds to close (wire) \u2013 Client \u2013 26 Jun  \n8. Execute closing documents \u2013 All Parties \u2013 27 Jun  \n\n---------------------------------------------------------------------\nV. Next Steps\n\nPlease advise whether to proceed with the redline incorporating the above changes. Once approved, I will circulate to opposing counsel, monitor title curatives, and coordinate with First Coastal Title to finalize the settlement statement. Let me know if you would like a separate draft of the post-closing occupancy agreement or if additional clauses warrant negotiation.\n\n---------------------------------------------------------------------\nDisclaimer: This memorandum is intended solely for internal use by counsel and client and does not constitute legal advice to any other party.\n\n---------------------------------------------------------------------\nPrepared by:  \n/s/ Alexandra Wells  \nSenior Paralegal & Legal Assistant  \nPierce & Morales LLP\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1750539008,
+    "model": "o3-2025-04-16",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1721,
+      "prompt_tokens": 130,
+      "total_tokens": 1851,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 320,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

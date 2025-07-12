@@ -1,0 +1,45 @@
+{
+  "uid": "0c07452f",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gemini-2.0-flash",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T13:15:45.891113Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": ".\n3. Use appropriate tone for elementary school teachers.\n\n# Enforcing School Policies and Rules\n\n1.  **Consistency is Key:** Make sure you understand all school policies and rules. This includes things like the dress code, cell phone usage, hallway behavior, and procedures for handling conflicts. Enforce these rules consistently and fairly for all students. This helps create a predictable and safe environment.\n\n2.  **Positive Reinforcement:** Focus on encouraging positive behavior. When you see students following the rules or demonstrating good citizenship, praise them! This could be a simple \"Thank you for walking quietly in the hallway, Sarah!\" or a class-wide reward system for good behavior.\n\n3.  **Clear Communication:** Explain the rules clearly and simply to your students. Use age-appropriate language and provide examples. For instance, instead of saying \"No disruptive behavior,\" you could say, \"Raise your hand if you have a question or comment so everyone can hear.\" Post the rules in a visible location in the classroom.\n\n4.  **Redirection and Reminders:** Often, students simply forget or need a gentle reminder. If you see a student breaking a rule, try redirecting their behavior first. A quiet word or a nonverbal cue can often be enough to get them back on track. \"Remember, we're using our inside voices in the classroom.\"\n\n5.  **Consequences:** When redirection isn't enough, follow the school's established procedures for consequences. These should be age-appropriate and designed to help students learn from their mistakes. Make sure students understand why they are receiving a consequence. Examples include a verbal warning, loss of privileges, or a note home to parents.\n\n6.  **Documentation:** Keep a record of any repeated or serious violations of school policies. This documentation will be helpful when communicating with parents, administrators, or other staff members.\n\n7.  **Collaboration:** Work closely with other teachers, administrators, and support staff to ensure that school policies are being enforced consistently across the school. Share strategies and best practices for managing student behavior.\n\n8.  **Parent Communication:** Keep parents informed about school policies and their child's behavior. Positive communication is just as important as communicating about rule infractions. Let parents know when their child is doing a great job following the rules!\n\n9.  **Be a Role Model:** Students learn by observing the adults around them. Model respectful and responsible behavior at all times. Follow school policies yourself and demonstrate a positive attitude.\n\n10. **Fairness and Empathy:** While consistency is important, remember that each student is an individual with unique needs and circumstances. Be fair and empathetic when enforcing rules, and try to understand the reasons behind a student's behavior. Sometimes, a student is acting out because they are struggling with something else.\n\n<OUTPUT_TEXT>\n# Enforcing School Policies and Rules\n\n1.  **Consistency is Key:** Make sure you understand all school policies and rules. This includes things like the dress code, cell phone usage, hallway behavior, and procedures for handling conflicts. Enforce these rules consistently and fairly for all students. This helps create a predictable and safe environment.\n\n2.  **Positive Reinforcement:** Focus on encouraging positive behavior. When you see students following the rules or demonstrating good citizenship, praise them! This could be a simple \"Thank you for walking quietly in the hallway, Sarah!\" or a class-wide reward system for good behavior.\n\n3.  **Clear Communication:** Explain the rules clearly and simply to your students. Use age-appropriate language and provide examples. For instance, instead of saying \"No disruptive behavior,\" you could say, \"Raise your hand if you have a question or comment so everyone can hear.\" Post the rules in a visible location in the classroom.\n\n4.  **Redirection and Reminders:** Often, students simply forget or need a gentle reminder. If you see a student breaking a rule, try redirecting their behavior first. A quiet word or a nonverbal cue can often be enough to get them back on track. \"Remember, we're using our inside voices in the classroom.\"\n\n5.  **Consequences:** When redirection isn't enough, follow the school's established procedures for consequences. These should be age-appropriate and designed to help students learn from their mistakes. Make sure students understand why they are receiving a consequence. Examples include a verbal warning, loss of privileges, or a note home to parents.\n\n6.  **Documentation:** Keep a record of any repeated or serious violations of school policies. This documentation will be helpful when communicating with parents, administrators, or other staff members.\n\n7.  **Collaboration:** Work closely with other teachers, administrators, and support staff to ensure that school policies are being enforced consistently across the school. Share strategies and best practices for managing student behavior.\n\n8.  **Parent Communication:** Keep parents informed about school policies and their child's behavior. Positive communication is just as important as communicating about rule infractions. Let parents know when their child is doing a great job following the rules!\n\n9.  **Be a Role Model:** Students learn by observing the adults around them. Model respectful and responsible behavior at all times. Follow school policies yourself and demonstrate a positive attitude.\n\n10. **Fairness and Empathy:** While consistency is important, remember that each student is an individual with unique needs and circumstances. Be fair and empathetic when enforcing rules, and try to understand the reasons behind a student's behavior. Sometimes, a student is acting out because they are struggling with something else.\n</OUTPUT_TEXT>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.1261464704547012
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 109,
+      "candidatesTokenCount": 1140,
+      "totalTokenCount": 1249,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 109
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1140
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:15:38.992707Z",
+    "responseId": "-ro1aMPLPN_52PgPo--GyAI"
+  }
+}

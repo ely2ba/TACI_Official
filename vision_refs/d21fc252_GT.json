@@ -1,0 +1,19 @@
+{
+  "labels": [
+    "crack",
+    "defect",
+    "damage",
+    "broken capsule",
+    "anomaly"
+  ],
+  "image_id_map": {
+    "img_000": "abnormal",   
+    "img_001": "normal"      
+  },
+  "bbox": [
+    714,
+    601,
+    886,
+    623
+  ]
+}

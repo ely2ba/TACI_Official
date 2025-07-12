@@ -1,0 +1,53 @@
+{
+  "uid": "25c9f684",
+  "variant": 1,
+  "temperature": 0.0,
+  "model": "gemini-2.0-flash",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T13:18:57.172701Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_TEXT>Subject: Regarding Your Recent Inquiry/Claim - [Claim Number or Inquiry Topic]\n\nDear [Customer Name],\n\nThis memo is to follow up on your recent inquiry regarding [briefly state the inquiry topic] or your claim, [Claim Number], submitted on [Date].\n\n[Choose ONE of the following options and customize it based on the situation. Delete the options that are NOT relevant.]\n\n**Option 1: Responding to Inquiry**\n\nThank you for contacting us. We have reviewed your inquiry and [provide a concise answer or explanation. Be specific and helpful. If you need more information, clearly state what you need and how the customer can provide it].\n\n**Option 2: Claim Investigation Results**\n\nWe have completed our investigation of your claim, [Claim Number]. [Clearly state the outcome of the investigation. If the claim is approved, state the amount and how/when it will be paid. If the claim is denied, provide a clear and concise reason for the denial, referencing specific policy language if applicable. Be empathetic but firm.]\n\n**Option 3: Planned Adjustments**\n\nWe are writing to inform you of a planned adjustment to [specify what is being adjusted, e.g., your policy, your account, etc.]. This adjustment is due to [explain the reason for the adjustment clearly and concisely]. The adjustment will take effect on [Date]. [Explain the impact of the adjustment on the customer. If there are any actions the customer needs to take, clearly state them.]\n\n[Regardless of the option chosen, include the following:]\n\nWe value your business and appreciate your patience. If you have any further questions or require additional clarification, please do not hesitate to contact us at [Phone Number] or reply to this email.\n\nSincerely,\n\n[Your Name]\n\n[Your Title]\n</OUTPUT_TEXT>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "citationMetadata": {
+          "citations": [
+            {
+              "startIndex": 1587,
+              "endIndex": 1758
+            }
+          ]
+        },
+        "avgLogprobs": -0.14588820808812192
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 111,
+      "candidatesTokenCount": 380,
+      "totalTokenCount": 491,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 111
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 380
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:18:54.291524Z",
+    "responseId": "vrs1aMTlEeC4nvgPz_H5yAI"
+  }
+}

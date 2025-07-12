@@ -1,0 +1,49 @@
+{
+  "uid": "9cebf902",
+  "variant": 1,
+  "temperature": 0.0,
+  "model": "gpt-4.1",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T23:01:22Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "9e1bc814b212e4c47604050a66e9da3073e7f1683e2e3a3d8cb6c57d123c3014",
+  "response": {
+    "id": "chatcmpl-BaVfgmE8ZY0albp3ZZcCoKkUz4Jl9",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nMEMORANDUM\n\nTO: [Attorney/Client Name]  \nFROM: [Your Name], Senior Paralegal  \nDATE: [Today's Date]  \nRE: Research Analysis \u2013 [Subject/Issue]\n\nI. INTRODUCTION  \nThis memorandum summarizes the research findings regarding [briefly state the legal issue or question, e.g., \"the enforceability of non-compete agreements in California\"].\n\nII. STATUTES  \n- California Business and Professions Code \u00a7 16600: Prohibits contracts that restrain anyone from engaging in a lawful profession, trade, or business, with limited statutory exceptions.\n- [List any other relevant statutes, e.g., Uniform Trade Secrets Act, if applicable.]\n\nIII. CASE LAW  \n- Edwards v. Arthur Andersen LLP, 44 Cal. 4th 937 (2008): The California Supreme Court held that non-compete agreements are generally void under \u00a7 16600, except in narrow circumstances expressly provided by statute.\n- AMN Healthcare, Inc. v. Aya Healthcare Services, Inc., 28 Cal. App. 5th 923 (2018): Reinforced the broad application of \u00a7 16600, invalidating non-solicitation of employee provisions.\n- [Add any additional relevant cases.]\n\nIV. LEGAL ARTICLES & SECONDARY SOURCES  \n- \"Non-Compete Agreements in California: Recent Developments,\" California Law Review, Vol. XX, No. X (Year): Discusses the trend of California courts strictly interpreting \u00a7 16600.\n- CEB Practice Guide, \"Drafting and Enforcing Employment Agreements in California\": Provides practical guidance and sample clauses compliant with California law.\n\nV. ANALYSIS  \nBased on the above authorities, California law strongly disfavors non-compete agreements, rendering them void except in limited statutory exceptions (e.g., sale of business, partnership dissolution). Recent case law continues to reinforce this position, and courts have also scrutinized non-solicitation and confidentiality provisions for overbreadth.\n\nVI. CONCLUSION  \nNon-compete agreements are generally unenforceable in California, and related restrictive covenants must be narrowly tailored to survive judicial scrutiny. It is advisable to focus on protecting trade secrets and confidential information through properly drafted agreements and policies.\n\nPlease advise if you require further research or a draft of compliant agreement language.\n\nAttachments:  \n- Copies of cited statutes and cases  \n- Relevant legal articles\n\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748041252,
+    "model": "gpt-4.1-2025-04-14",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_ccc6ec921d",
+    "usage": {
+      "completion_tokens": 491,
+      "prompt_tokens": 91,
+      "total_tokens": 582,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

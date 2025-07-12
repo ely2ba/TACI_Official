@@ -1,0 +1,46 @@
+{
+  "uid": "dc35566b",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gemini-2.5-flash-preview-05-20",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T15:48:51.778968Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_TEXT>\n# Trial Exhibit Organization Plan\n\nAs an expert Paralegal and Legal Assistant, preparing exhibits for trial is a critical task that requires meticulous attention to detail and a systematic approach. The following steps outline a comprehensive plan for organizing exhibits to ensure a smooth and efficient trial presentation.\n\n1.  **Exhibit List Development and Management:**\n    *   **Create a Master Exhibit List:** Develop a comprehensive spreadsheet (e.g., in Excel) that serves as the central tracking document for all potential exhibits. Key columns should include:\n        *   **Exhibit Number:** A unique, sequential number (e.g., P-001 for Plaintiff's Exhibit 1, D-001 for Defendant's Exhibit 1).\n        *   **Description:** A concise yet clear description of the document or item (e.g., \"Contract between Smith & Jones, dated 01/15/2022\").\n        *   **Date of Document:** The date the document was created or effective.\n        *   **Proponent:** Who intends to offer the exhibit (Plaintiff/Defendant).\n        *   **Witness for Foundation:** The witness(es) who can authenticate the exhibit and lay the necessary foundation for its admission.\n        *   **Admissibility Status:** Track whether it's Proposed, Stipulated, Admitted, Objected, or Withdrawn.\n        *   **Notes:** Any relevant information, such as specific objections, page numbers, or related testimony.\n    *   **Review and Identify:** Thoroughly review all discovery responses, deposition transcripts, pleadings, and witness statements to identify every document or item that may be used as an exhibit.\n\n2.  **Physical Preparation and Labeling:**\n    *   **Print and Prepare:** Print clear, legible copies of each document exhibit. For physical objects, ensure they are clean and ready for presentation.\n    *   **Affix Exhibit Labels:** Apply pre-printed exhibit stickers or labels to the bottom right corner of the first page of each document. Ensure consistency in placement and clarity of numbering (e.g., \"Plaintiff's Exhibit 1,\" \"Defendant's Exhibit 1\"). For multi-page documents, consider stamping or numbering subsequent pages if required by local rules or for ease of reference.\n    *   **Secure Physical Exhibits:** For non-documentary exhibits (e.g., physical objects), attach a durable tag or label securely with the exhibit number and party designation.\n\n3.  **Exhibit Binder Assembly:**\n    *   **Create Multiple Sets:** Prepare several identical sets of exhibit binders, organized numerically by exhibit number, separated by tab dividers. Essential sets include:\n        *   **Originals/Clerk's Set:** Contains the original or best available copy of each exhibit, for the court clerk and judge.\n        *   **Judge's Bench Set:** For the judge's direct reference during trial.\n        *   **Opposing Counsel's Set:** For opposing counsel's use.\n        *   **Witness Sets:** For witnesses to refer to during their testimony (may be smaller, containing only relevant exhibits for that witness).\n        *   **Attorney's Working Set:** For the trial attorney's direct use at counsel table.\n    *   **Table of Contents:** Include a detailed exhibit list/table of contents at the front of each binder.\n    *   **Quality Control:** Double-check that all exhibits are in the correct order, tabs are accurate, and all pages are present in each binder.\n\n4.  **Copying and Distribution:**\n    *   **Calculate Copies:** Determine the exact number of copies needed based on the number of required sets (judge, clerk, opposing counsel, witnesses, attorney, backup).\n    *   **High-Quality Copies:** Ensure all copies are clear, complete, and free of errors.\n    *   **Pre-Trial Exchange:** Prepare exhibits for formal exchange with opposing counsel according to court rules and scheduling orders. Include a transmittal letter detailing the exhibits provided.\n\n5.  **Pre-Trial Exhibit Review and Stipulations:**\n    *   **Review Opposing Exhibits:** Upon receipt of opposing counsel's exhibits, review them thoroughly and update your master exhibit list to include their proposed exhibits.\n    *   **Identify Stipulations:** Work with the trial attorney to identify exhibits that can be stipulated to for admissibility, thereby avoiding the need for formal foundation at trial.\n    *   **Prepare Objections:** For exhibits that cannot be stipulated, prepare a detailed list of objections, citing specific rules of evidence (e.g., hearsay, relevance, lack of foundation).\n\n6.  **Digital Exhibit Management (if applicable):**\n    *   **Scan and Organize:** Scan all physical exhibits into high-resolution, searchable PDF files.\n    *   **Consistent Naming Convention:** Rename digital files consistently (e.g., \"PX001_Contract_Smith_Jones.pdf\").\n    *   **Trial Presentation Software:** If using trial presentation software (e.g., TrialDirector, Sanction), import all exhibits, tag them with relevant metadata (witness, issue), and practice their display.\n    *   **Backup:** Create multiple backups of all digital exhibit files on separate drives or cloud storage.\n\n7.  **Witness Correlation and Foundation Notes:**\n    *   **Link Exhibits to Witnesses:** For each exhibit, identify the specific witness(es) who will introduce it and lay the necessary foundation for its admission.\n    *   **Foundation Checklist:** Create a brief checklist or notes for each exhibit outlining the foundational questions that must be asked to ensure admissibility (e.g., \"Do you recognize this document?\", \"Is this a true and accurate copy?\", \"Was this document kept in the ordinary course of business?\").\n    *   **Integrate into Outlines:** Incorporate exhibit references and foundation notes directly into witness examination outlines.\n\n8.  **Trial Readiness Checklist:**\n    *   **Final Verification:** Before trial, conduct a final review of all exhibit binders and lists to ensure accuracy and completeness.\n    *   **Packing:** Pack all exhibit binders, digital media, presentation equipment, and any necessary supplies (e.g., extra labels, pens, sticky notes) for transport to the courthouse.\n    *   **Communication:** Confirm with the trial attorney that all exhibit-related tasks are complete and that they are comfortable with the organization.\n\n</OUTPUT_TEXT>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.3289615994408017
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 110,
+      "candidatesTokenCount": 1344,
+      "totalTokenCount": 2474,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 110
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1344
+        }
+      ],
+      "thoughtsTokenCount": 1020
+    },
+    "modelVersion": "gemini-2.5-flash-preview-05-20",
+    "createTime": "2025-05-27T15:48:35.441644Z",
+    "responseId": "0941aKz6GqO2nvgPrJiG8Qk"
+  }
+}

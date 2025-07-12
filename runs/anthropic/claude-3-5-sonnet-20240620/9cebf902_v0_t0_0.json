@@ -1,0 +1,34 @@
+{
+  "uid": "9cebf902",
+  "variant": 0,
+  "modality": "TEXT",
+  "temperature": 0.0,
+  "model": "claude-3-5-sonnet-20240620",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T20:06:59.901467Z",
+  "commit_sha": "170b9e3e1d0d59846b1daa69da57be5d1db6306c",
+  "prompt_sha256": "ad3b2009798c497d8e0645d027e20b7e84b6fd3417524fc220faca49b0cdd031",
+  "response": {
+    "id": "msg_01Gg5mdaprv4fR9fMaUKeAG8",
+    "content": [
+      {
+        "citations": null,
+        "text": "<OUTPUT_TEXT>\nTo gather and analyze research data as a Paralegal or Legal Assistant:\n\n1. Identify relevant sources: statutes, case law, legal journals, codes, and documents\n2. Use legal databases like Westlaw, LexisNexis, or HeinOnline\n3. Conduct thorough searches using keywords, citations, and Boolean operators\n4. Read and comprehend complex legal materials\n5. Take detailed notes and organize findings\n6. Analyze data for relevance to the case or legal issue at hand\n7. Summarize key points and legal principles\n8. Identify potential arguments or counterarguments\n9. Check for updates or changes in laws and precedents\n10. Prepare research memos or briefs for attorneys\n11. Maintain proper citation formats (e.g., Bluebook)\n12. Ensure client confidentiality and ethical handling of information\n</OUTPUT_TEXT>",
+        "type": "text"
+      }
+    ],
+    "model": "claude-3-5-sonnet-20240620",
+    "role": "assistant",
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "input_tokens": 110,
+      "output_tokens": 205,
+      "server_tool_use": null,
+      "service_tier": "standard"
+    }
+  }
+}

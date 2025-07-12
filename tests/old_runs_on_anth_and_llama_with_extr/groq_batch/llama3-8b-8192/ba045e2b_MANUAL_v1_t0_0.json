@@ -1,0 +1,10 @@
+{
+  "uid": "ba045e2b",
+  "variant": 1,
+  "modality": "MANUAL",
+  "temperature": 0.0,
+  "model": "llama3-8b-8192",
+  "skipped": true,
+  "reason": "manual stub\u2014text model",
+  "timestamp": "2025-05-28T14:52:19.918893Z"
+}

@@ -1,0 +1,49 @@
+{
+  "uid": "07080553",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-4.1",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:57:55Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "40b67c629e9856ec273e3f4dfceabf50dd497228e11b942a701560af1d835696",
+  "response": {
+    "id": "chatcmpl-Bi20s0rX6Rnu0WyCWgpWT88HZhqqC",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Legal Document Preparation and Organization\n\n1. **Preparation of Affidavits and Legal Documents**  \n   - Draft affidavits using client-provided facts, ensuring all statements are clear, factual, and properly formatted according to court requirements.  \n   - Prepare other legal correspondence, such as demand letters, notices, or responses, using appropriate legal language and formatting.  \n   - Review documents for accuracy, completeness, and compliance with relevant laws and court rules.\n\n2. **Organizing and Maintaining Documents**  \n   - Create and label folders for each case or matter, both in physical and electronic formats.  \n   - File incoming and outgoing documents promptly, ensuring chronological or subject-based organization as required.  \n   - Implement a consistent naming convention for electronic files to facilitate easy retrieval.  \n   - Regularly back up electronic files and maintain confidentiality and security of all sensitive documents.\n\n3. **Document Management Procedures**  \n   - Maintain a document log or index for each case, listing all documents and their locations.  \n   - Archive closed files according to firm policy and legal retention requirements.  \n   - Periodically audit files to ensure all documents are accounted for and properly stored.\n\n4. **Best Practices**  \n   - Use document management software for efficient electronic filing and retrieval.  \n   - Train staff on proper filing procedures and confidentiality protocols.  \n   - Stay updated on changes in legal filing requirements and technology advancements.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749833870,
+    "model": "gpt-4.1-2025-04-14",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_51e1070cf2",
+    "usage": {
+      "completion_tokens": 292,
+      "prompt_tokens": 130,
+      "total_tokens": 422,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

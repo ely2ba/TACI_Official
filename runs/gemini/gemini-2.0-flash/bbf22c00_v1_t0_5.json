@@ -1,0 +1,45 @@
+{
+  "uid": "bbf22c00",
+  "variant": 1,
+  "temperature": 0.5,
+  "model": "gemini-2.0-flash",
+  "modality": "GUI",
+  "timestamp": "2025-05-27T13:10:09.323216Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "Okay, I understand. I need to generate a JSON array of actions to match order forms with invoices and record the information, using the provided selectors.\n\n```json\n<OUTPUT_JSON>[\n  {\"action\": \"click\", \"selector\": \"table:has-text(\\\"order\\\" i) >> tr >> input[type=checkbox]\", \"text\": \"\"},\n  {\"action\": \"click\", \"selector\": \"table:has-text(\\\"invoice\\\" i) >> tr >> input[type=checkbox]\", \"text\": \"\"},\n  {\"action\": \"click\", \"selector\": \"button:has-text(\\\"match\\\" i)\", \"text\": \"\"},\n  {\"action\": \"click\", \"selector\": \"button:has-text(\\\"record\\\" i)\", \"text\": \"\"}\n]</OUTPUT_JSON>\n```"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.026454562364622604
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 202,
+      "candidatesTokenCount": 172,
+      "totalTokenCount": 374,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 202
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 172
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:10:08.007263Z",
+    "responseId": "sLk1aN841MaAtQ-0287QAQ"
+  }
+}

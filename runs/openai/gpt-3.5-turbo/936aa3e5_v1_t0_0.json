@@ -1,0 +1,49 @@
+{
+  "uid": "936aa3e5",
+  "variant": 1,
+  "temperature": 0.0,
+  "model": "gpt-3.5-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:01:04Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "b617c32531fd6744a3261fd8796f26de73fe268cd4aa07f24b39dd8870b9621d",
+  "response": {
+    "id": "chatcmpl-BaUjn5GDOSOfvc96jKOXyefc5fbyd",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>Dear Client,\n\nI have conducted a thorough review of your financial records and have calculated the following amounts due:\n\n- Total amount due: $5,000\n- Interest charges: $250\n- Balance after interest: $5,250\n- Discount applied: $500\n- Final amount due after discount: $4,750\n\nIf you have any questions or require further clarification on these calculations, please do not hesitate to reach out.\n\nSincerely,\n[Your Name]\nSenior Bookkeeping Accounting And Auditing Clerk</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748037663,
+    "model": "gpt-3.5-turbo-0125",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 111,
+      "prompt_tokens": 93,
+      "total_tokens": 204,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

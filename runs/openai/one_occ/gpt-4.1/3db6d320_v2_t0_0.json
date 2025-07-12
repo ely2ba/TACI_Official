@@ -1,0 +1,49 @@
+{
+  "uid": "3db6d320",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gpt-4.1",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:56:07Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "d18016c8317a6affa68d1e41ad66b11c8e90fbb032be3265670ac00645baf6d7",
+  "response": {
+    "id": "chatcmpl-Bi1z62qugGoD3yKMiv2ANnFS7HieK",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Case Investigation: Fact and Law Analysis\n\n1. **Case Fact Investigation**\n   - **Gathering Facts:** Begin by collecting all relevant information from the client, witnesses, and available documentation. This includes contracts, correspondence, photographs, and any other physical or digital evidence.\n   - **Public Records Search:** Access public records such as court filings, property records, business registrations, and criminal records to uncover additional facts or verify information provided.\n   - **Internet Research:** Utilize reputable online sources, including news articles, social media, and professional databases, to gather background information on parties involved and to identify any prior legal actions or disputes.\n\n2. **Legal Research**\n   - **Identify Legal Issues:** Based on the facts, determine the potential legal issues and causes of action (e.g., breach of contract, negligence, fraud).\n   - **Statutory and Case Law Search:** Use legal research databases (e.g., Westlaw, LexisNexis, government websites) to find statutes, regulations, and relevant case law that apply to the identified issues.\n   - **Secondary Sources:** Consult legal treatises, law review articles, and practice guides for analysis and interpretation of the law.\n\n3. **Determining Causes of Action**\n   - **Element Analysis:** For each potential cause of action, list the required legal elements and compare them to the facts gathered to assess viability.\n   - **Defenses and Counterclaims:** Identify possible defenses or counterclaims that may be raised by the opposing party.\n\n4. **Case Preparation**\n   - **Organize Evidence:** Catalog and index all evidence and documentation for easy reference.\n   - **Prepare Chronology:** Create a timeline of events to clarify the sequence and relevance of facts.\n   - **Draft Legal Documents:** Prepare initial pleadings, discovery requests, and other necessary legal documents based on the research and analysis.\n\n5. **Reporting and Recommendations**\n   - **Summary Report:** Prepare a concise report summarizing the facts, applicable law, potential causes of action, and recommended next steps.\n   - **Attorney Review:** Present findings and documentation to the supervising attorney for review and further action.\n\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749833760,
+    "model": "gpt-4.1-2025-04-14",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_51e1070cf2",
+    "usage": {
+      "completion_tokens": 437,
+      "prompt_tokens": 135,
+      "total_tokens": 572,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

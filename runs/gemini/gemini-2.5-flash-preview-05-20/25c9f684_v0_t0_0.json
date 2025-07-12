@@ -1,0 +1,46 @@
+{
+  "uid": "25c9f684",
+  "variant": 0,
+  "temperature": 0.0,
+  "model": "gemini-2.5-flash-preview-05-20",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T15:49:12.841625Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_TEXT>\nUnderstood. I am fully prepared to engage with our customers, providing clear and comprehensive responses to their inquiries, delivering timely updates on claim investigation results, and explaining any planned adjustments with the utmost clarity and professionalism.\n</OUTPUT_TEXT>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -2.0207358306308962
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 94,
+      "candidatesTokenCount": 53,
+      "totalTokenCount": 571,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 94
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 53
+        }
+      ],
+      "thoughtsTokenCount": 424
+    },
+    "modelVersion": "gemini-2.5-flash-preview-05-20",
+    "createTime": "2025-05-27T15:49:09.246117Z",
+    "responseId": "9d41aOWCD_q0nvgPkbjHyAk"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "uid": "936aa3e5",
+  "variant": 1,
+  "temperature": 0.0,
+  "model": "gpt-4.1",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T23:08:59Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "b617c32531fd6744a3261fd8796f26de73fe268cd4aa07f24b39dd8870b9621d",
+  "response": {
+    "id": "chatcmpl-BaVnSuGV6z5nJXqce2QRZ4rVsS0I9",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nTo: [Client Name]  \nFrom: [Your Name], Senior Bookkeeping, Accounting, and Auditing Clerk  \nDate: [Today's Date]  \nSubject: Financial Calculations Summary\n\nDear [Client Name],\n\nAs requested, please find below the summary of key financial calculations for your review:\n\n1. **Amounts Due**  \n   - Total outstanding invoices: $12,500.00  \n   - Less payments received: $4,200.00  \n   - **Net amount due:** $8,300.00\n\n2. **Interest Charges**  \n   - Outstanding balance: $8,300.00  \n   - Annual interest rate: 6%  \n   - Interest period: 2 months (60 days)  \n   - Interest charge: $8,300.00 \u00d7 6% \u00d7 (60/360) = $83.00\n\n3. **Balances**  \n   - Opening balance (as of 01/06/2024): $15,000.00  \n   - Add: Receipts during period: $5,000.00  \n   - Less: Payments made: $7,500.00  \n   - **Closing balance (as of 30/06/2024):** $12,500.00\n\n4. **Discounts**  \n   - Invoice amount: $2,000.00  \n   - Early payment discount: 2%  \n   - Discount amount: $2,000.00 \u00d7 2% = $40.00  \n   - **Net payable after discount:** $1,960.00\n\n5. **Equity**  \n   - Total assets: $50,000.00  \n   - Total liabilities: $18,000.00  \n   - **Owner\u2019s equity:** $50,000.00 \u2013 $18,000.00 = $32,000.00\n\n6. **Principal**  \n   - Loan principal at start: $10,000.00  \n   - Payments made towards principal: $2,500.00  \n   - **Remaining principal:** $7,500.00\n\nPlease let me know if you require further breakdowns or additional calculations.\n\nBest regards,  \n[Your Name]  \nSenior Bookkeeping, Accounting, and Auditing Clerk\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748041734,
+    "model": "gpt-4.1-2025-04-14",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_e28d076185",
+    "usage": {
+      "completion_tokens": 470,
+      "prompt_tokens": 93,
+      "total_tokens": 563,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

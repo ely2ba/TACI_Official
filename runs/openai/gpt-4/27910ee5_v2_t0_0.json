@@ -1,0 +1,49 @@
+{
+  "uid": "27910ee5",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:11:23Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "772b1704c6fbc3b1844b6d0e09750cbd2fdbe55362965f9cdce526271ead740a",
+  "response": {
+    "id": "chatcmpl-BaUtgqXUj3F9FtDmpf1fI3s7HjAGu",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Project Report\n\n1. Project Plans\nOur team has outlined a comprehensive plan for the upcoming project. This includes a detailed timeline, resource allocation, and risk management strategies. We have also identified key milestones and deliverables to ensure we stay on track.\n\n2. Project Progress\nAs of the current reporting period, we are on schedule with our project timeline. We have successfully completed the initial phases of the project and are now moving into the execution stage. Our team has been diligent in meeting deadlines and addressing any issues that arise promptly.\n\n3. Project Results\nWhile it is too early to report on the final results of the project, preliminary outcomes are promising. We have achieved our initial objectives and are making steady progress towards our ultimate goal. We will continue to monitor and evaluate our performance to ensure we meet our targets.\n\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748038276,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 172,
+      "prompt_tokens": 78,
+      "total_tokens": 250,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

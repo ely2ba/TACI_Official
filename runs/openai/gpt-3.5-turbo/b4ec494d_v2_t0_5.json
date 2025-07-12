@@ -1,0 +1,49 @@
+{
+  "uid": "b4ec494d",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-3.5-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:01:23Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "35cb9e6ff43fb27cd8326f8faff3bc2a2491453b44dbf8e85204442630abfa38",
+  "response": {
+    "id": "chatcmpl-BaUk5erWs8a9mpjSHk0rGU8QnuEHl",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Unresolved Customer Grievances Referral\n\n1. Gather all necessary information about the customer grievance.\n2. Clearly document the details of the issue and any previous interactions with the customer.\n3. Analyze the situation to determine if the grievance can be resolved within your scope.\n4. If unable to resolve the grievance, refer the case to the designated department for further investigation.\n5. Provide all relevant information and documentation to the designated department for their review.\n6. Follow up with the customer to inform them that their grievance has been escalated for further investigation.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748037681,
+    "model": "gpt-3.5-turbo-0125",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 124,
+      "prompt_tokens": 81,
+      "total_tokens": 205,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

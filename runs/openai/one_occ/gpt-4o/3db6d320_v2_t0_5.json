@@ -1,0 +1,49 @@
+{
+  "uid": "3db6d320",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-4o",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:49:44Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "d18016c8317a6affa68d1e41ad66b11c8e90fbb032be3265670ac00645baf6d7",
+  "response": {
+    "id": "chatcmpl-Bi1swM6l93b3no0ADJHJjJiPjVNh2",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Case Investigation Report\n\n1. **Case Facts Investigation**\n   - Gather all relevant details about the case, including parties involved, timeline of events, and any documentation or evidence available.\n   - Interview witnesses and collect statements to corroborate the facts.\n   - Review any existing police reports or incident records related to the case.\n\n2. **Legal Research**\n   - Identify the applicable laws and precedents that relate to the case, focusing on statutes, regulations, and case law.\n   - Utilize legal databases such as Westlaw or LexisNexis to find relevant case law and legal interpretations.\n   - Analyze how similar cases have been ruled to predict possible outcomes.\n\n3. **Public Records and Internet Search**\n   - Search public records for any additional information, such as property records, business registrations, or prior legal actions involving the parties.\n   - Use internet sources to gather any publicly available information that may be relevant, including social media posts or news articles.\n   - Verify the authenticity and relevance of the information obtained online.\n\n4. **Determination of Causes of Action**\n   - Based on the facts and legal research, identify potential causes of action that can be pursued.\n   - Evaluate the strength of each cause of action considering the evidence and legal standards.\n   - Discuss with the legal team to determine the most viable legal strategies.\n\n5. **Preparation of Case**\n   - Organize all collected information and evidence into a comprehensive case file.\n   - Prepare legal documents, including complaints, motions, and briefs as necessary.\n   - Collaborate with attorneys to develop a strategic plan for case presentation in court.\n\n6. **Conclusion**\n   - Summarize the findings and provide recommendations for the next steps in the legal process.\n   - Ensure all documentation is complete and ready for submission to the court or for further legal proceedings.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749833378,
+    "model": "gpt-4o-2024-08-06",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_a288987b44",
+    "usage": {
+      "completion_tokens": 375,
+      "prompt_tokens": 135,
+      "total_tokens": 510,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

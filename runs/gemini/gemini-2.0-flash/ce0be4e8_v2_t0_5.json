@@ -1,0 +1,49 @@
+{
+  "uid": "ce0be4e8",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gemini-2.0-flash",
+  "modality": "VISION",
+  "timestamp": "2025-06-02T21:03:20.457975Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "Both images appear to be mammograms and I don't see any obvious abnormalities.\n<OUTPUT_JSON>{\"finding\":\"normal\",\"image_id\":null,\"bbox\":null,\"explanation\":\"\"}</OUTPUT_JSON>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.14754562377929686
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 701,
+      "candidatesTokenCount": 45,
+      "totalTokenCount": 746,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 516
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 185
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 45
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-06-02T21:03:19.521396Z",
+    "responseId": "lxE-aLTpH-yU1dkPwcbKoQc"
+  }
+}

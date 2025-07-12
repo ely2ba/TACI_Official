@@ -1,0 +1,12 @@
+{
+  "uid": "d90fb1a3",
+  "variant": 2,
+  "modality": "MANUAL",
+  "temperature": 0.5,
+  "model": "llama3-8b-8192",
+  "skipped": true,
+  "reason": "manual stub\u2014text model",
+  "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+  "timestamp": "2025-05-28T19:15:05.043716Z",
+  "commit_sha": "170b9e3e1d0d59846b1daa69da57be5d1db6306c"
+}

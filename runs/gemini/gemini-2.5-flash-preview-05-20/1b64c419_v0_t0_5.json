@@ -1,0 +1,46 @@
+{
+  "uid": "1b64c419",
+  "variant": 0,
+  "temperature": 0.5,
+  "model": "gemini-2.5-flash-preview-05-20",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T15:48:05.157993Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_TEXT>\n\"Good morning, Maplewood Medical Clinic, this is your Medical Secretary. How may I assist you today?\"\n[Pause, simulating listening to the caller's request]\n\"I understand you're calling to schedule a follow-up appointment. For all appointment bookings, I will connect you directly with our scheduling coordinator. Please hold while I transfer your call.\"\n[Brief pause, simulating transfer]\n\"You are now being connected to the scheduling department.\"\n</OUTPUT_TEXT>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -3.836816175928656
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 86,
+      "candidatesTokenCount": 106,
+      "totalTokenCount": 1431,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 86
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 106
+        }
+      ],
+      "thoughtsTokenCount": 1239
+    },
+    "modelVersion": "gemini-2.5-flash-preview-05-20",
+    "createTime": "2025-05-27T15:47:56.028661Z",
+    "responseId": "rN41aPXfAcepnvgP_sSfsAM"
+  }
+}

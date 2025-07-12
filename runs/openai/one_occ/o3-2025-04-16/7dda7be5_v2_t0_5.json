@@ -1,0 +1,50 @@
+{
+  "uid": "7dda7be5",
+  "variant": 2,
+  "temperature": 0.5,
+  "seed": 1,
+  "model": "o3-2025-04-16",
+  "modality": "TEXT",
+  "timestamp": "2025-06-21T20:29:57Z",
+  "commit_sha": "ac1698886e89fb01e65b6ca5c8e06e97f58dd0fa",
+  "prompt_sha256": "4c035523dbfa2f05b815093ba9091189dc436fae6d0bd061eed6aa84ba109961",
+  "response": {
+    "id": "chatcmpl-Bkz8BeUIxheHVzU5foJ9XyEXGJok6",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Estate Property Appraisal & Inventory Guide\n\n1. Purpose & Scope  \n   \u2022 Provide a systematic process for identifying, valuing, and documenting all real and personal property owned by a decedent or living client for estate-planning purposes.\n\n2. Preliminary Information Collection  \n   a. Obtain legal names, dates of birth, Social Security numbers, and marital status of the property owner(s).  \n   b. Secure copies of the last executed Will, Trust, prenuptial agreements, deeds, titles, promissory notes, leases, and existing appraisals.  \n   c. Request recent federal and state income-tax returns (past 3 years) and the most recent property-tax bills.  \n   d. Identify all entities (LLCs, partnerships, trusts) through which property may be held.\n\n3. Real Property Inventory & Appraisal  \n   a. Identify each parcel: street address, county, legal description, parcel ID, zoning classification.  \n   b. Verify ownership interests: sole, joint tenancy, tenancy-in-common, community-property, or trust.  \n   c. Collect current deeds, title insurance policies, and mortgage statements to confirm encumbrances.  \n   d. Appraisal options:  \n      \u2022 Certified Residential Appraisal (Uniform Residential Appraisal Report, URAR).  \n      \u2022 Certified Commercial Appraisal (Uniform Standards of Professional Appraisal Practice, USPAP, compliant).  \n      \u2022 Broker Price Opinion (BPO) for preliminary estimates when full appraisal is impractical.  \n   e. Adjust for special factors: conservation easements, mineral rights, agricultural use restrictions, or historic designations.  \n   f. Record fair market value (FMV) as of the valuation date required (date of death, alternate valuation date, or planning date).\n\n4. Personal Property Inventory  \n   a. Tangible Personal Property  \n      i. Household furniture, electronics, artwork, jewelry, collections (coins, stamps, firearms, wine), vehicles, boats, aircraft.  \n      ii. Use photographs and serial numbers; describe make, model, year, condition, and location.  \n      iii. Determine who holds title or registration and note any liens.  \n   b. Intangible Personal Property  \n      i. Bank accounts (checking, savings, CDs) \u2013 list institution, account number (last 4 digits), ownership type, and balance.  \n      ii. Brokerage accounts \u2013 include stocks, bonds, mutual funds, options; attach most recent statement.  \n      iii. Retirement accounts \u2013 IRAs, 401(k)s, pension benefits; identify primary and contingent beneficiaries.  \n      iv. Insurance \u2013 life insurance cash value and death benefit; identify policy owner and beneficiaries.  \n      v. Business interests \u2013 LLC membership units, corporate shares, partnership interests; obtain operating agreements and last three years\u2019 financials.  \n      vi. Intellectual property \u2013 copyrights, patents, trademarks, royalties; include registration numbers and royalty statements.  \n      vii. Digital assets \u2013 cryptocurrency wallets, domain names, online payment accounts; list access credentials separately.\n\n5. Valuation Methodologies for Personal Property  \n   a. Blue-book or Kelley Blue Book for vehicles.  \n   b. Qualified appraisers for art, jewelry, and collectibles (IRS Publication 561 guidelines).  \n   c. Account statements for cash and marketable securities (use average of high-low on valuation date).  \n   d. Actuarial tables for annuities and life estates.  \n   e. Professional business valuation (asset, income, or market approach) for closely held entities.\n\n6. Documentation & Record-Keeping  \n   \u2022 Prepare a master inventory spreadsheet with unique ID numbers, descriptions, ownership percentages, acquisition dates, cost basis, FMV, and supporting documents reference.  \n   \u2022 Scan and store PDFs of all supporting records in an encrypted, cloud-based vault; keep hard-copies in a fire-resistant file.  \n   \u2022 Maintain an appraisal report folder for each asset exceeding $5,000 FMV.  \n   \u2022 Cross-reference items to specific dispositive provisions in the Will or Trust.\n\n7. Tax & Legal Considerations  \n   a. Step-up or step-down in basis at death (IRC \u00a71014).  \n   b. Alternate valuation date election (six months after death, IRC \u00a72032).  \n   c. Special-use valuation for family farms or businesses (IRC \u00a72032A).  \n   d. Portability of unused estate-tax exemption and generation-skipping transfer (GST) planning.  \n   e. Gift-tax implications if assets have been transferred within the prior three years (IRC \u00a72035).\n\n8. Periodic Review & Updates  \n   \u2022 Re-appraise real property every 3\u20135 years or upon major market shifts.  \n   \u2022 Update personal property inventory annually or when high-value items are acquired/disposed.  \n   \u2022 Verify beneficiary designations and titling after major life events (marriage, divorce, birth, death).  \n   \u2022 Align asset ownership with revocable trusts or business entities to reduce probate exposure.\n\n9. Deliverables Checklist  \n   \u2610 Comprehensive Inventory Spreadsheet (Excel/PDF)  \n   \u2610 Real Property Appraisal Reports (USPAP-compliant)  \n   \u2610 Tangible Personal Property Appraisal Certificates  \n   \u2610 Statements for all Financial Accounts (dated valuation day)  \n   \u2610 Business Valuation Report(s)  \n   \u2610 Signed Affidavit of No Debt & Ownership (where applicable)  \n   \u2610 Summary Letter outlining total gross estate value, liens, and net estate.\n\n10. Final Recommendations  \n   \u2022 Engage qualified appraisers early to avoid valuation disputes with taxing authorities.  \n   \u2022 Use consistent valuation dates across all asset classes.  \n   \u2022 Communicate findings with the estate-planning attorney to integrate tax-saving strategies like charitable bequests, GRATs, or life-insurance trusts.  \n   \u2022 Keep the inventory confidential and accessible only to authorized fiduciaries and advisors.\n\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1750537775,
+    "model": "o3-2025-04-16",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1373,
+      "prompt_tokens": 116,
+      "total_tokens": 1489,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 128,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

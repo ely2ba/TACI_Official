@@ -1,0 +1,44 @@
+{
+  "uid": "936aa3e5",
+  "variant": 0,
+  "modality": "TEXT",
+  "temperature": 0.5,
+  "model": "llama3-8b-8192",
+  "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+  "timestamp": "2025-05-28T19:19:56.016210Z",
+  "prompt_sha256": "2f4099c73b5825bd045722698629339da5c57fcd3922bf43cd2d678f02fd79d5",
+  "commit_sha": "170b9e3e1d0d59846b1daa69da57be5d1db6306c",
+  "response": {
+    "id": "chatcmpl-70a8fa27-7ca2-42b2-9f8f-6f9332b22018",
+    "object": "chat.completion",
+    "created": 1748459995,
+    "model": "llama3-8b-8192",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "<OUTPUT_TEXT>\nTo perform financial calculations, I would use the following formulas:\n\n* Amounts due: Total amount - Paid amount\n* Interest charges: Principal amount x Rate of interest x Time period\n* Balances: Running total of all transactions\n* Discounts: Total amount - Discount amount\n* Equity: Total assets - Total liabilities\n* Principal: Original amount borrowed\n\nFor example, if a customer owes $100 and has paid $20, the amount due would be $80. If a business borrows $1,000 at an interest rate of 10% per year, the interest charge for one year would be $100. If a company has assets worth $50,000 and liabilities worth $20,000, its equity would be $30,000. If a customer is offered a 5% discount on a $100 purchase, the discounted amount would be $95."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "queue_time": 0.162308229,
+      "prompt_tokens": 109,
+      "prompt_time": 0.014110112,
+      "completion_tokens": 182,
+      "completion_time": 0.151666667,
+      "total_tokens": 291,
+      "total_time": 0.165776779
+    },
+    "usage_breakdown": {
+      "models": null
+    },
+    "system_fingerprint": "fp_179b0f92c9",
+    "x_groq": {
+      "id": "req_01jwc5cgf3er8vskq357p9bt2r"
+    }
+  }
+}

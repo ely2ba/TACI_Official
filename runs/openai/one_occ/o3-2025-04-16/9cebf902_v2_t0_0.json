@@ -1,0 +1,50 @@
+{
+  "uid": "9cebf902",
+  "variant": 2,
+  "temperature": 0.0,
+  "seed": 0,
+  "model": "o3-2025-04-16",
+  "modality": "TEXT",
+  "timestamp": "2025-06-21T20:50:45Z",
+  "commit_sha": "ac1698886e89fb01e65b6ca5c8e06e97f58dd0fa",
+  "prompt_sha256": "201afa7b083de2c80a691ebaaa666ca5aad973841b6540f331ec7d1d01c811ef",
+  "response": {
+    "id": "chatcmpl-BkzSVrkCC3VHEtYuhzRYTH6ufiIgt",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Legal Research Data: Methods for Gathering & Analysis\n\n1. Identifying the Research Question  \n   - Clarify the legal issue (jurisdiction, time frame, subject).  \n   - Break it into sub-issues (elements, defenses, remedies).  \n\n2. Source Hierarchy & Selection  \n   a. Primary Authority  \n      i. Constitutions (U.S. & state).  \n      ii. Statutes & session laws.  \n      iii. Administrative codes & regulations.  \n      iv. Judicial decisions (reported & unreported).  \n   b. Secondary Authority  \n      i. Legal encyclopedias (Am. Jur. 2d, C.J.S.).  \n      ii. Treatises & practice guides.  \n      iii. Law review & bar journal articles.  \n      iv. Restatements, model acts, ALR annotations.  \n\n3. Tools & Databases  \n   - Paid: Westlaw, Lexis, Bloomberg Law, VitalLaw.  \n   - Free: Congress.gov, GovInfo, FDsys, state legislature portals, Google Scholar.  \n   - Dockets & filings: PACER, state e-courts.  \n   - Agency materials: Federal Register, e-CFR, FOIA reading rooms.  \n\n4. Statutory Research Steps  \n   1. Locate the current code section.  \n   2. Retrieve legislative history: bills, committee reports, hearings.  \n   3. Note amendments & repeal dates.  \n   4. Use annotations for citing cases & secondary sources.  \n\n5. Case Law Research  \n   - Pull relevant headnotes/key numbers.  \n   - Shepardize/KeyCite to verify good law & find citing references.  \n   - Analyze majority, concurring, dissenting opinions for reasoning trends.  \n   - Check subsequent history (remand, cert denied, en banc).  \n\n6. Administrative & Regulatory Materials  \n   - Identify enabling statute.  \n   - Track proposed & final rules in Federal Register / state register.  \n   - Examine agency adjudications, policy statements, guidance, advisory opinions.  \n\n7. Synthesizing Secondary Sources  \n   - Use treatises for black-letter summaries.  \n   - Cite law review critiques for policy arguments.  \n   - Incorporate ALR annotations for 50-state surveys.  \n\n8. Multi-Jurisdictional Surveys  \n   - Compile the text of each jurisdiction\u2019s statute/regulation.  \n   - Chart key variations (effective date, penalties, exemptions).  \n   - Highlight majority, minority, and unique approaches.  \n\n9. Analytical Framework  \n   a. Compare authority by hierarchy (constitution > statute > regulation > common law).  \n   b. Weigh persuasive value (binding v. persuasive).  \n   c. Identify standards of review and burden of proof.  \n   d. Extract governing rules, then analogize/distinguish facts.  \n\n10. Documentation & Citation  \n    - Bluebook or ALWD citation formats.  \n    - Maintain research log (source, date, relevance note).  \n    - Store PDFs with naming convention (jurisdiction_year_topic).  \n\n11. Updating & Validating  \n    - Re-Shepardize/KeyCite before finalizing.  \n    - Check slip opinions & advance sheets.  \n    - Monitor pending legislation & rulemaking.  \n\n12. Deliverable Formats  \n    - Research memo (Question Presented, Brief Answer, Facts, Discussion, Conclusion).  \n    - Annotated bibliography.  \n    - 50-state comparison chart.  \n\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1750539035,
+    "model": "o3-2025-04-16",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 807,
+      "prompt_tokens": 125,
+      "total_tokens": 932,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 64,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

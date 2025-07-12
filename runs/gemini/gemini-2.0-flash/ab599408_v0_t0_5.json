@@ -1,0 +1,45 @@
+{
+  "uid": "ab599408",
+  "variant": 0,
+  "temperature": 0.5,
+  "model": "gemini-2.0-flash",
+  "modality": "GUI",
+  "timestamp": "2025-05-27T13:10:31.698576Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "```json\n[\n  {\"action\": \"type\", \"selector\": \"input[placeholder*=search i]\", \"text\": \"gloves\"},\n  {\"action\": \"click\", \"selector\": \"button:has-text(\\\"add item\\\" i)\", \"text\": \"\"},\n  {\"action\": \"type\", \"selector\": \"input[name*=quantity i]\", \"text\": \"20\"},\n  {\"action\": \"click\", \"selector\": \"button:has-text(\\\"order\\\" i), button:has-text(\\\"submit\\\" i)\", \"text\": \"\"}\n]\n```"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.006533125235188392
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 181,
+      "candidatesTokenCount": 124,
+      "totalTokenCount": 305,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 181
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 124
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:10:30.765307Z",
+    "responseId": "xrk1aPvaLrOMgLUPq7OY6QY"
+  }
+}

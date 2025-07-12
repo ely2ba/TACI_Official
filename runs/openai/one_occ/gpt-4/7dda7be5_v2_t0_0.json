@@ -1,0 +1,49 @@
+{
+  "uid": "7dda7be5",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:30:29Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "4c035523dbfa2f05b815093ba9091189dc436fae6d0bd061eed6aa84ba109961",
+  "response": {
+    "id": "chatcmpl-Bi1a9ydjzXxoM0TNqVhml5iD72Ghc",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Estate Property Appraisal and Inventory\n\n1. **Real Property Appraisal**\n   - Identify all real property owned by the estate. This includes homes, land, rental properties, and any other real estate.\n   - Obtain a professional appraisal for each property to determine its fair market value. This should be done by a licensed real estate appraiser.\n   - Document the location, size, condition, and any other relevant details of each property.\n\n2. **Personal Property Appraisal**\n   - Identify all personal property. This includes vehicles, furniture, jewelry, artwork, and any other personal belongings.\n   - Obtain a professional appraisal for high-value items. For lower-value items, estimate the value based on the current market.\n   - Document the type, condition, and any other relevant details of each item.\n\n3. **Financial Assets**\n   - Identify all financial assets. This includes bank accounts, stocks, bonds, retirement accounts, and any other financial investments.\n   - Determine the value of each asset. For bank accounts, this is the current balance. For stocks and bonds, this is the current market value.\n   - Document the type, location, and any other relevant details of each asset.\n\n4. **Debts and Liabilities**\n   - Identify all debts and liabilities. This includes mortgages, car loans, credit card debt, and any other liabilities.\n   - Determine the amount owed for each debt.\n   - Document the type, creditor, and any other relevant details of each debt.\n\n5. **Inventory Compilation**\n   - Compile all of the above information into a comprehensive inventory. This should include a detailed description and the appraised value of each asset, as well as the amount owed for each debt.\n   - Ensure the inventory is organized and easy to understand. It should be clear what the estate owns and owes.\n   - Keep the inventory updated. As assets are sold or debts are paid off, update the inventory to reflect these changes.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749832213,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 403,
+      "prompt_tokens": 117,
+      "total_tokens": 520,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

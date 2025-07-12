@@ -1,0 +1,9 @@
+{
+  "uid": "ce0be4e8",
+  "variant": 1,
+  "modality": "VISION",
+  "model": "gpt-4-turbo",
+  "temperature": 0.5,
+  "skipped": true,
+  "reason": "vision not supported"
+}

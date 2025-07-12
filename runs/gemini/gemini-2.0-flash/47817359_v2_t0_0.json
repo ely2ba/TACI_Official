@@ -1,0 +1,45 @@
+{
+  "uid": "47817359",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gemini-2.0-flash",
+  "modality": "GUI",
+  "timestamp": "2025-05-27T13:10:17.853367Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "```json\n[\n  {\"click\": \"input[name*=account i]\"},\n  {\"type\": \"input[name*=account i]\", \"value\": \"Utilities Expense\"},\n  {\"click\": \"input[name*=amount i], input[type=number]\"},\n  {\"type\": \"input[name*=amount i], input[type=number]\", \"value\": \"150.00\"},\n  {\"click\": \"textarea[name*=memo i]\"},\n  {\"type\": \"textarea[name*=memo i]\", \"value\": \"Monthly utilities bill\"},\n  {\"click\": \"button:has-text(\\\"post\\\" i), button:has-text(\\\"save\\\" i)\"}\n]\n```"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.03356505369211172
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 174,
+      "candidatesTokenCount": 154,
+      "totalTokenCount": 328,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 174
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 154
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:10:16.729013Z",
+    "responseId": "uLk1aLW_LLOMgLUPq7OY6QY"
+  }
+}

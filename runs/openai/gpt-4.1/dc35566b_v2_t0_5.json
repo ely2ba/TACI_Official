@@ -1,0 +1,49 @@
+{
+  "uid": "dc35566b",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-4.1",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T23:08:30Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "26edbd2e16ae6cdd1e49d23da961fd220dd9bcf754598e12a7e36824c4246f40",
+  "response": {
+    "id": "chatcmpl-BaVmwcI7YgUZstr6QOGQ7jB0rTNSl",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Trial Preparation: Organizing Exhibits\n\n1. **Create an Exhibit List**\n   - Prepare a comprehensive list of all exhibits to be used at trial. Include exhibit numbers, brief descriptions, and references to their sources.\n   - Ensure each exhibit is assigned a unique identifier (e.g., Exhibit 1, Exhibit 2, etc.).\n\n2. **Label Exhibits**\n   - Clearly label each physical and electronic exhibit with its assigned number or letter.\n   - Use exhibit stickers for physical documents and digital watermarks or file names for electronic files.\n\n3. **Prepare Exhibit Binders and Folders**\n   - Assemble exhibit binders for the judge, opposing counsel, and each party\u2019s legal team.\n   - Organize exhibits in the order they will be introduced at trial, separated by tabs or folders.\n\n4. **Create an Exhibit Index**\n   - Prepare an index or table of contents for each binder, listing exhibits with corresponding page numbers or locations.\n   - Include columns for \u201cAdmitted,\u201d \u201cOffered,\u201d and \u201cObjection\u201d to track the status of each exhibit during trial.\n\n5. **Review Admissibility and Foundation**\n   - Verify that each exhibit has the necessary foundation and is likely to be admissible.\n   - Prepare supporting documents or witness testimony needed to authenticate each exhibit.\n\n6. **Coordinate with Witnesses**\n   - Cross-reference exhibits with witness lists to ensure witnesses are prepared to discuss relevant exhibits.\n   - Prepare exhibit packets for witnesses, if necessary.\n\n7. **Prepare Electronic Presentation**\n   - If using technology in the courtroom, ensure all electronic exhibits are loaded and organized on presentation software.\n   - Test equipment and software for compatibility and functionality.\n\n8. **File Pretrial Exhibit Lists**\n   - File and serve pretrial exhibit lists as required by court rules or scheduling orders.\n   - Provide copies to opposing counsel and the court in the required format.\n\n9. **Maintain a Master Set**\n   - Keep a master set of all exhibits, both physical and electronic, for reference and backup during trial.\n\n10. **Prepare for Exhibit Objections**\n    - Anticipate possible objections and prepare responses or alternative exhibits as needed.\n    - Note any exhibits likely to be challenged and discuss strategies with the attorney.\n\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748041702,
+    "model": "gpt-4.1-2025-04-14",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_ccc6ec921d",
+    "usage": {
+      "completion_tokens": 460,
+      "prompt_tokens": 84,
+      "total_tokens": 544,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

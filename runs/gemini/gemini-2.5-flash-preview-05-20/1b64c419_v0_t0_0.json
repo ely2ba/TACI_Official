@@ -1,0 +1,46 @@
+{
+  "uid": "1b64c419",
+  "variant": 0,
+  "temperature": 0.0,
+  "model": "gemini-2.5-flash-preview-05-20",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T15:47:54.881970Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_TEXT>\nUnderstood. I will manage all incoming calls professionally and ensure they are directed efficiently to the appropriate staff or department.\n</OUTPUT_TEXT>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -1.7138899634866154
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 86,
+      "candidatesTokenCount": 34,
+      "totalTokenCount": 321,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 86
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 34
+        }
+      ],
+      "thoughtsTokenCount": 201
+    },
+    "modelVersion": "gemini-2.5-flash-preview-05-20",
+    "createTime": "2025-05-27T15:47:52.814346Z",
+    "responseId": "qN41aIraMai3nvgP4IvSuAs"
+  }
+}

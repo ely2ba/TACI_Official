@@ -1,0 +1,49 @@
+{
+  "uid": "07080553",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:14:29Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "acb24bee05a0f7b8bea5c38e5a76f68132b2b74e13fdae3608ba58b711cf52c6",
+  "response": {
+    "id": "chatcmpl-BaUwcYZjtzGSZljDojBZ0w0ju6y6d",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Legal Document Preparation and Organization\n\n1. **Affidavit Preparation**\n   An affidavit is a written statement confirmed by oath or affirmation, for use as evidence in court. The preparation of an affidavit involves gathering all necessary information, ensuring its accuracy, and formatting it according to legal standards. The affidavit must be signed in the presence of a notary public.\n\n2. **Legal Correspondence**\n   Legal correspondence refers to any written communication involving legal matters. This could include letters to clients, opposing counsel, court officials, or other relevant parties. The preparation of legal correspondence involves drafting the letter, ensuring its accuracy and appropriateness, and formatting it according to professional standards.\n\n3. **Document Organization**\n   Organizing legal documents involves sorting and storing them in a way that they can be easily retrieved when needed. This could involve categorizing documents by case, date, or type, and storing them in physical files or electronic databases.\n\n4. **Paper Filing System**\n   A paper filing system involves storing physical copies of documents in folders or binders. These are typically organized in a filing cabinet, with labels indicating the contents of each file.\n\n5. **Electronic Filing System**\n   An electronic filing system involves storing digital copies of documents on a computer or server. These can be organized in folders and subfolders, with file names and metadata used to indicate the contents of each file. Electronic filing systems often include search functions, making it easier to find specific documents.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748038458,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 303,
+      "prompt_tokens": 98,
+      "total_tokens": 401,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "uid": "bbf22c00",
+  "variant": 0,
+  "modality": "GUI",
+  "temperature": 0.5,
+  "model": "claude-3-5-sonnet-20240620",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T18:02:55.910779Z",
+  "commit_sha": "98b2eb0f130d4d32e78707f77c440a8f68e4103c",
+  "prompt_sha256": "d0fa17329a3f5d6bc44e5e17c3933fdaa95184385776c6b66031ae04d45f9b6f",
+  "response": {
+    "raw": "Here is my proposed sequence of actions to match order forms with invoices and record the information:\n\n<OUTPUT_JSON>\n[\n  {\n    \"action\": \"click\",\n    \"selector\": \"table:has-text(\\\"order\\\" i) >> tr >> input[type=checkbox]\",\n    \"text\": \"\"\n  },\n  {\n    \"action\": \"click\", \n    \"selector\": \"table:has-text(\\\"invoice\\\" i) >> tr >> input[type=checkbox]\",\n    \"text\": \"\"\n  },\n  {\n    \"action\": \"click\",\n    \"selector\": \"button:has-text(\\\"match\\\" i)\",\n    \"text\": \"\"\n  },\n  {\n    \"action\": \"wait\",\n    \"selector\": \"\",\n    \"text\": \"2000\"\n  },\n  {\n    \"action\": \"click\",\n    \"selector\": \"button:has-text(\\\"record\\\" i)\", \n    \"text\": \"\"\n  }\n]\n</OUTPUT_JSON>",
+    "extracted": "<OUTPUT_JSON>\n[\n  {\n    \"action\": \"click\",\n    \"selector\": \"table:has-text(\\\"order\\\" i) >> tr >> input[type=checkbox]\",\n    \"text\": \"\"\n  },\n  {\n    \"action\": \"click\", \n    \"selector\": \"table:has-text(\\\"invoice\\\" i) >> tr >> input[type=checkbox]\",\n    \"text\": \"\"\n  },\n  {\n    \"action\": \"click\",\n    \"selector\": \"button:has-text(\\\"match\\\" i)\",\n    \"text\": \"\"\n  },\n  {\n    \"action\": \"wait\",\n    \"selector\": \"\",\n    \"text\": \"2000\"\n  },\n  {\n    \"action\": \"click\",\n    \"selector\": \"button:has-text(\\\"record\\\" i)\", \n    \"text\": \"\"\n  }\n]\n</OUTPUT_JSON>"
+  }
+}

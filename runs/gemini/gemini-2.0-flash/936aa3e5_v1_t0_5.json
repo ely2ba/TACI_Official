@@ -1,0 +1,54 @@
+{
+  "uid": "936aa3e5",
+  "variant": 1,
+  "temperature": 0.5,
+  "model": "gemini-2.0-flash",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T13:18:52.667535Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "```tool_code\n# Calculate simple interest\ndef simple_interest(principal, rate, time):\n    interest = principal * rate * time\n    return interest\n\n# Calculate compound interest\ndef compound_interest(principal, rate, time, compounding_periods):\n    amount = principal * (1 + (rate / compounding_periods))**(compounding_periods * time)\n    interest = amount - principal\n    return interest\n\n# Calculate discount amount\ndef discount(price, discount_rate):\n    discount_amount = price * discount_rate\n    return discount_amount\n\n# Calculate final price after discount\ndef discounted_price(price, discount_rate):\n    final_price = price - (price * discount_rate)\n    return final_price\n\n# Calculate equity\ndef equity(assets, liabilities):\n    equity_value = assets - liabilities\n    return equity_value\n\n# Calculate remaining principal after payment\ndef remaining_principal(principal, payment):\n    remaining = principal - payment\n    return remaining\n\n#Example Usage\n#Simple interest calculation\nprincipal = 1000\nrate = 0.05\ntime = 2\nsimple_interest_earned = simple_interest(principal, rate, time)\nprint(f\"Simple interest earned: {simple_interest_earned}\")\n\n#Compound interest calculation\nprincipal = 1000\nrate = 0.05\ntime = 2\ncompounding_periods = 12\ncompound_interest_earned = compound_interest(principal, rate, time, compounding_periods)\nprint(f\"Compound interest earned: {compound_interest_earned}\")\n\n#Discount calculation\nprice = 100\ndiscount_rate = 0.10\ndiscount_amount = discount(price, discount_rate)\nprint(f\"Discount amount: {discount_amount}\")\n\n#Discounted price calculation\nprice = 100\ndiscount_rate = 0.10\nfinal_price = discounted_price(price, discount_rate)\nprint(f\"Final price: {final_price}\")\n\n#Equity calculation\nassets = 100000\nliabilities = 40000\nequity_value = equity(assets, liabilities)\nprint(f\"Equity: {equity_value}\")\n\n#Remaining principal calculation\nprincipal = 5000\npayment = 1000\nremaining = remaining_principal(principal, payment)\nprint(f\"Remaining principal: {remaining}\")\n```\n<OUTPUT_TEXT>I am an expert Bookkeeping Accounting And Auditing Clerk. I can perform financial calculations, such as amounts due, interest charges, balances, discounts, equity, and principal.</OUTPUT_TEXT>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "citationMetadata": {
+          "citations": [
+            {
+              "startIndex": 175,
+              "endIndex": 375,
+              "uri": "https://github.com/pawan-xdd/python-exam-practice-2024"
+            }
+          ]
+        },
+        "avgLogprobs": -0.06645517056305661
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 119,
+      "candidatesTokenCount": 586,
+      "totalTokenCount": 705,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 119
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 586
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:18:48.859103Z",
+    "responseId": "uLs1aN-3NPq0nvgPkbjHyAk"
+  }
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "role": "system",
+    "content": "You are an expert Paralegal And Legal Assistant. <REASONING>You may think internally; DO NOT reveal your reasoning.</REASONING>"
+  },
+  {
+    "role": "user",
+    "content": "<<FORMAT>> Wrap your final answer exactly once inside <OUTPUT_TEXT> … </OUTPUT_TEXT> . Do not output anything outside these tags. <</FORMAT>>\n\n<OUTPUT_TEXT>\nTASK – File pleadings with court clerk.\n</OUTPUT_TEXT>"
+  }
+]

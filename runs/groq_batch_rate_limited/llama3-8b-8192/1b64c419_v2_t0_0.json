@@ -1,0 +1,44 @@
+{
+  "uid": "1b64c419",
+  "variant": 2,
+  "modality": "TEXT",
+  "temperature": 0.0,
+  "model": "llama3-8b-8192",
+  "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+  "timestamp": "2025-05-28T19:17:03.129464Z",
+  "prompt_sha256": "510c0791a8642c9c4fb94af378ab88f7de891d1fc65e299e98721d78d8c11d7b",
+  "commit_sha": "170b9e3e1d0d59846b1daa69da57be5d1db6306c",
+  "response": {
+    "id": "chatcmpl-469ca898-f30b-4d3a-ae9e-847ccecc603a",
+    "object": "chat.completion",
+    "created": 1748459822,
+    "model": "llama3-8b-8192",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "<OUTPUT_TEXT>\n\n# Answering Telephones and Directing Calls\n\n## Answering the Phone\n\nWhen answering the phone, I will:\n\n* Greet the caller with a friendly and professional tone\n* Identify myself and the medical practice\n* Take a message or provide assistance as needed\n\n## Directing Calls to Appropriate Staff\n\nWhen directing calls to appropriate staff, I will:\n\n* Ask the caller for the reason for their call and the staff member they are trying to reach\n* Check the schedule and availability of the staff member\n* Transfer the call to the appropriate staff member or take a message if they are unavailable\n* Follow up with the caller to ensure their needs are met\n\n</OUTPUT_TEXT>"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "queue_time": 0.343564626,
+      "prompt_tokens": 118,
+      "prompt_time": 0.023240982,
+      "completion_tokens": 144,
+      "completion_time": 0.12,
+      "total_tokens": 262,
+      "total_time": 0.143240982
+    },
+    "usage_breakdown": {
+      "models": null
+    },
+    "system_fingerprint": "fp_dadc9d6142",
+    "x_groq": {
+      "id": "req_01jwc577fremqawfj1ecpwbcyh"
+    }
+  }
+}

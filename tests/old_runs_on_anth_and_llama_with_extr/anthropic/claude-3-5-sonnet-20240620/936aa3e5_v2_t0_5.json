@@ -1,0 +1,15 @@
+{
+  "uid": "936aa3e5",
+  "variant": 2,
+  "modality": "TEXT",
+  "temperature": 0.5,
+  "model": "claude-3-5-sonnet-20240620",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T18:05:13.613757Z",
+  "commit_sha": "98b2eb0f130d4d32e78707f77c440a8f68e4103c",
+  "prompt_sha256": "428bfea113e6c77fae06e9d9c304a178c09a141dc88a71404a7f772e62d629cf",
+  "response": {
+    "raw": "Here is my response following the output rules:\n\n<OUTPUT_TEXT>\n\n# Financial Calculations\n\n1. Amounts Due\nCalculate total amount due, including taxes and fees\nApply any discounts or credits\nDetermine payment due dates\n\n2. Interest Charges  \nCalculate simple and compound interest\nDetermine interest rates and periods\nApply interest to outstanding balances\n\n3. Account Balances\nReconcile debits and credits\nCalculate running balances\nIdentify discrepancies or errors\n\n4. Discounts\nApply percentage or fixed discounts\nCalculate early payment discounts\nDetermine discount periods and eligibility\n\n5. Equity\nCalculate owner's equity\nDetermine retained earnings\nTrack changes in equity over time\n\n6. Principal\nCalculate loan principal amounts\nDetermine principal payments\nTrack remaining principal balances\n\n</OUTPUT_TEXT>",
+    "extracted": "<OUTPUT_TEXT>\n# Financial Calculations\n\n1. Amounts Due\nCalculate total amount due, including taxes and fees\nApply any discounts or credits\nDetermine payment due dates\n\n2. Interest Charges  \nCalculate simple and compound interest\nDetermine interest rates and periods\nApply interest to outstanding balances\n\n3. Account Balances\nReconcile debits and credits\nCalculate running balances\nIdentify discrepancies or errors\n\n4. Discounts\nApply percentage or fixed discounts\nCalculate early payment discounts\nDetermine discount periods and eligibility\n\n5. Equity\nCalculate owner's equity\nDetermine retained earnings\nTrack changes in equity over time\n\n6. Principal\nCalculate loan principal amounts\nDetermine principal payments\nTrack remaining principal balances\n</OUTPUT_TEXT>"
+  }
+}

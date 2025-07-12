@@ -1,0 +1,49 @@
+{
+  "uid": "7dda7be5",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gpt-4.1",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:53:26Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "4c035523dbfa2f05b815093ba9091189dc436fae6d0bd061eed6aa84ba109961",
+  "response": {
+    "id": "chatcmpl-Bi1wT4ZYIDOIBbNd1fzAEX6kHIC8Y",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Appraisal and Inventory of Real and Personal Property for Estate Planning\n\n1. **Identify and List All Real Property**\n   - Collect deeds, titles, and property tax statements for all real estate owned (e.g., primary residence, vacation homes, rental properties, undeveloped land).\n   - Record property addresses, legal descriptions, and ownership details (sole, joint, tenants in common, etc.).\n   - Obtain recent appraisals or fair market value estimates for each property.\n\n2. **Inventory Personal Property**\n   - List all significant personal property, including vehicles, jewelry, artwork, collectibles, antiques, and valuable household items.\n   - For each item, note a description, serial numbers (if applicable), and estimated value. Use appraisals for high-value items.\n   - Include digital assets (e.g., cryptocurrency, domain names) and intellectual property (patents, copyrights, trademarks).\n\n3. **Document Financial Accounts and Investments**\n   - List all bank accounts, investment accounts, retirement accounts (IRAs, 401(k)s), and life insurance policies.\n   - Record account numbers, institutions, current balances, and designated beneficiaries.\n\n4. **Assess Business Interests**\n   - Identify ownership in any businesses (sole proprietorships, partnerships, LLCs, corporations).\n   - Gather documentation such as operating agreements, stock certificates, and recent business valuations.\n\n5. **Compile Debts and Liabilities**\n   - List all outstanding mortgages, loans, credit card balances, and other debts.\n   - Note the creditor, account number, balance, and terms for each liability.\n\n6. **Organize and Store Documentation**\n   - Create a master inventory document summarizing all assets and liabilities.\n   - Store supporting documents (deeds, titles, appraisals, account statements) in a secure, accessible location.\n   - Update the inventory regularly and inform the estate executor or attorney of its location.\n\n7. **Consult Professionals as Needed**\n   - Engage qualified appraisers for real estate and high-value personal property.\n   - Work with financial advisors and attorneys to ensure accurate valuation and proper documentation for estate planning purposes.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749833597,
+    "model": "gpt-4.1-2025-04-14",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_51e1070cf2",
+    "usage": {
+      "completion_tokens": 435,
+      "prompt_tokens": 117,
+      "total_tokens": 552,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

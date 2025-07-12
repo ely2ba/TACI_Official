@@ -1,0 +1,44 @@
+{
+  "uid": "9652a31e",
+  "variant": 1,
+  "modality": "TEXT",
+  "temperature": 0.0,
+  "model": "llama3-8b-8192",
+  "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+  "timestamp": "2025-05-28T19:16:42.968986Z",
+  "prompt_sha256": "3e3e36d384a9ed42bb66a4196569487f29516dad7cb5dce6aab758539ec6eabd",
+  "commit_sha": "170b9e3e1d0d59846b1daa69da57be5d1db6306c",
+  "response": {
+    "id": "chatcmpl-6efdf672-3063-46ce-a55d-4a8d241383b5",
+    "object": "chat.completion",
+    "created": 1748459802,
+    "model": "llama3-8b-8192",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "<OUTPUT_TEXT>Dear [Client],\n\nRe: Damaged Goods Received on [Date]\n\nI am writing to inform you that we have received a shipment of goods from your company on [Date], which has been damaged during transit. Upon inspection, we have found that [list specific items or quantities that are damaged]. We understand that this is not the standard quality that your company is known for, and we are working to resolve this issue as soon as possible.\n\nWe have contacted the shipping carrier and they are investigating the matter. In the meantime, we would like to request that you send a replacement shipment of the damaged goods as soon as possible. We would also appreciate it if you could provide a credit for the damaged goods to our account.\n\nPlease let us know if there are any issues or concerns regarding this matter. We appreciate your prompt attention to this matter and look forward to resolving this issue.\n\nSincerely,\n[Your Name]\nShipping Receiving And Inventory Clerk</OUTPUT_TEXT>"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "queue_time": 0.16310298299999998,
+      "prompt_tokens": 131,
+      "prompt_time": 0.016960252,
+      "completion_tokens": 197,
+      "completion_time": 0.164166667,
+      "total_tokens": 328,
+      "total_time": 0.181126919
+    },
+    "usage_breakdown": {
+      "models": null
+    },
+    "system_fingerprint": "fp_179b0f92c9",
+    "x_groq": {
+      "id": "req_01jwc56kzkem48xcyhqd059re8"
+    }
+  }
+}

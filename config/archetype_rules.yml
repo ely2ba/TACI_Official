@@ -1,0 +1,32 @@
+compute_shipping_charges:
+  keywords:
+    - shipping
+    - demurrage
+    - storage
+
+match_order_invoice:
+  keywords:
+    - invoice
+    - match order
+
+accounting_data_entry:
+  keywords:
+    - accounting software
+    - record
+    - store
+
+inventory_supply_management:
+  keywords:
+    - inventory
+    - order supplies
+
+medical_records_management:
+  keywords:
+    - medical records
+    - technical library
+
+report_generation:
+  keywords:
+    - generate report
+    - custom reports
+

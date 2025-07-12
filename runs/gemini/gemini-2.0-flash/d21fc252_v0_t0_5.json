@@ -1,0 +1,49 @@
+{
+  "uid": "d21fc252",
+  "variant": 0,
+  "temperature": 0.5,
+  "model": "gemini-2.0-flash",
+  "modality": "VISION",
+  "timestamp": "2025-05-27T13:09:16.030592Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "I need to compare the two images and identify any differences. They appear identical.\n<OUTPUT_JSON>{\"finding\":\"no_difference\",\"image_id\":\"null\",\"bbox\":[],\"explanation\":\"The two images are identical; there are no anomalies.\"}</OUTPUT_JSON>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.2140293972832816
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 714,
+      "candidatesTokenCount": 56,
+      "totalTokenCount": 770,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 198
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 516
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 56
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:09:15.104467Z",
+    "responseId": "e7k1aJOwBqLkgLUPlsyasAI"
+  }
+}

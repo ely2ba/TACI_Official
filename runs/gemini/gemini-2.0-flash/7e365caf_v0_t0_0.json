@@ -1,0 +1,45 @@
+{
+  "uid": "7e365caf",
+  "variant": 0,
+  "temperature": 0.0,
+  "model": "gemini-2.0-flash",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T13:16:03.647430Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "Okay, I understand. My task is to assist in creating training materials and technical manuals.\n</OUTPUT_TEXT>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.1097514530022939
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 85,
+      "candidatesTokenCount": 24,
+      "totalTokenCount": 109,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 85
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 24
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:16:03.261939Z",
+    "responseId": "E7s1aLP-D_q0nvgPkbjHyAk"
+  }
+}

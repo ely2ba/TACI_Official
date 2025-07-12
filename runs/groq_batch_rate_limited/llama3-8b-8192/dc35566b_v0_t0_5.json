@@ -1,0 +1,44 @@
+{
+  "uid": "dc35566b",
+  "variant": 0,
+  "modality": "TEXT",
+  "temperature": 0.5,
+  "model": "llama3-8b-8192",
+  "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+  "timestamp": "2025-05-28T19:16:57.130297Z",
+  "prompt_sha256": "4d0a4869800557dffc8240663963d817aaed340baf12762affca5fd8d0c837f8",
+  "commit_sha": "170b9e3e1d0d59846b1daa69da57be5d1db6306c",
+  "response": {
+    "id": "chatcmpl-c43c11eb-16a6-425e-89ad-0210c47342c9",
+    "object": "chat.completion",
+    "created": 1748459816,
+    "model": "llama3-8b-8192",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "<OUTPUT_TEXT>As a paralegal, I would begin by reviewing the case file and identifying all relevant exhibits that will be presented during trial. I would then organize these exhibits in a logical and easily accessible manner, such as by category or chronologically. This would involve creating a detailed index or catalog of the exhibits, including descriptions, dates, and other relevant information. I would also ensure that all exhibits are properly labeled and stored in a secure and controlled environment to prevent loss or tampering. Additionally, I would prepare a plan for presenting the exhibits during trial, including determining the order in which they will be presented and identifying any necessary authentication or foundation for their admission into evidence.</OUTPUT_TEXT>"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "queue_time": 0.320097788,
+      "prompt_tokens": 98,
+      "prompt_time": 0.036402755,
+      "completion_tokens": 141,
+      "completion_time": 0.1175,
+      "total_tokens": 239,
+      "total_time": 0.153902755
+    },
+    "usage_breakdown": {
+      "models": null
+    },
+    "system_fingerprint": "fp_dadc9d6142",
+    "x_groq": {
+      "id": "req_01jwc571k7f9wv60zr2tv4v4j7"
+    }
+  }
+}

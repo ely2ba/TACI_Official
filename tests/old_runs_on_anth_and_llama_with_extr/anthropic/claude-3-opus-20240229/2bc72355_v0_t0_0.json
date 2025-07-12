@@ -1,0 +1,15 @@
+{
+  "uid": "2bc72355",
+  "variant": 0,
+  "modality": "TEXT",
+  "temperature": 0.0,
+  "model": "claude-3-opus-20240229",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T17:52:25.325974Z",
+  "commit_sha": "98b2eb0f130d4d32e78707f77c440a8f68e4103c",
+  "prompt_sha256": "b43d5c2a137206cfaafbdeab88bf4061f82ee4637860e0743ef2c3754052be83",
+  "response": {
+    "raw": "Here is my attempt at the task, wrapped in the specified output tags:\n\n<OUTPUT_TEXT>\nAs an elementary school teacher, some key ways to instruct students individually and in groups include:\n\n- Giving engaging lectures and presentations to the whole class on key topics and concepts\n- Leading small group discussions and activities to reinforce learning and encourage participation \n- Providing one-on-one instruction and support to individual students as needed\n- Using visual aids, multimedia, and hands-on demonstrations to illustrate ideas\n- Assigning individual and group projects and guiding students through the work\n- Facilitating collaborative learning by having students work in pairs or small groups\n- Differentiating instruction to meet the varied learning needs and styles of students\n</OUTPUT_TEXT>",
+    "extracted": "<OUTPUT_TEXT>\nAs an elementary school teacher, some key ways to instruct students individually and in groups include:\n\n- Giving engaging lectures and presentations to the whole class on key topics and concepts\n- Leading small group discussions and activities to reinforce learning and encourage participation \n- Providing one-on-one instruction and support to individual students as needed\n- Using visual aids, multimedia, and hands-on demonstrations to illustrate ideas\n- Assigning individual and group projects and guiding students through the work\n- Facilitating collaborative learning by having students work in pairs or small groups\n- Differentiating instruction to meet the varied learning needs and styles of students\n</OUTPUT_TEXT>"
+  }
+}

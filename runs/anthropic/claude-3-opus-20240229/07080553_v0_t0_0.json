@@ -1,0 +1,34 @@
+{
+  "uid": "07080553",
+  "variant": 0,
+  "modality": "TEXT",
+  "temperature": 0.0,
+  "model": "claude-3-opus-20240229",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T19:53:05.138158Z",
+  "commit_sha": "170b9e3e1d0d59846b1daa69da57be5d1db6306c",
+  "prompt_sha256": "b60d24599d1df23bd17991a8c681b996a2dd542b4a3676448842122e2105f6c1",
+  "response": {
+    "id": "msg_01KbjXC9zCvp4sudwWqmnmgu",
+    "content": [
+      {
+        "citations": null,
+        "text": "Here is my attempt at the task:\n<OUTPUT_TEXT>\nAFFIDAVIT OF JOHN SMITH\nState of New York\nCounty of Kings\n\nJohn Smith, being duly sworn, deposes and says:\n\n1. I am over the age of 18 and competent to make this affidavit.\n\n2. I have personal knowledge of the facts set forth herein.\n\n3. On June 1, 2023, I witnessed the motor vehicle accident that occurred at the intersection of Main St. and 1st Ave. in Brooklyn, NY.\n\n4. I saw a blue sedan, traveling northbound on 1st Ave., run the red light and collide with a green minivan that was proceeding through the intersection westbound on Main St. on a green light.\n\n5. The blue sedan was traveling at an excessive rate of speed, which I estimate was 50 mph in a 30 mph zone.\n\n6. I called 911 to report the accident and remained on scene to provide a statement to the responding police officers.\n\nDATED: June 15, 2023\nBrooklyn, New York\n\n[Signature]\nJohn Smith\n\nSworn to before me this\n15th day of June, 2023\n\n[Notary Signature and Stamp]\n</OUTPUT_TEXT>",
+        "type": "text"
+      }
+    ],
+    "model": "claude-3-opus-20240229",
+    "role": "assistant",
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "input_tokens": 114,
+      "output_tokens": 290,
+      "server_tool_use": null,
+      "service_tier": "standard"
+    }
+  }
+}

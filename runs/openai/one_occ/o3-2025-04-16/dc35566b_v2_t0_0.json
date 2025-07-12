@@ -1,0 +1,50 @@
+{
+  "uid": "dc35566b",
+  "variant": 2,
+  "temperature": 0.0,
+  "seed": 0,
+  "model": "o3-2025-04-16",
+  "modality": "TEXT",
+  "timestamp": "2025-06-21T20:47:24Z",
+  "commit_sha": "ac1698886e89fb01e65b6ca5c8e06e97f58dd0fa",
+  "prompt_sha256": "5c2b1790f2417a640aaa0c9ab20011ff442927bfe17d78d43ba60b94c8a66652",
+  "response": {
+    "id": "chatcmpl-BkzPCYMpxVCP0AXrDbdliWQOY9FRH",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Trial Exhibit Organization Plan\n\n1. Case Overview  \n   a. Case Name / Docket No.: _________________________________  \n   b. Trial Date / Courtroom: _________________________________  \n   c. Judge\u2019s Standing Orders Reviewed:  \u2610Yes  \u2610No  \n   d. Applicable Local Rules on Exhibits & Pre-Marking: _________  \n\n2. Master Exhibit List  \n   2.1 Create a spreadsheet with the following columns:  \n        \u2022 Exhibit No.  \n        \u2022 Bates Range / File Name  \n        \u2022 Description  \n        \u2022 Offered By (P/D)  \n        \u2022 Admissibility Stipulation (Y/N)  \n        \u2022 Objection Grounds (if any)  \n        \u2022 Admitted (Court to complete)  \n   2.2 Color-code: Plaintiff (yellow), Defendant (blue), Joint (green).  \n   2.3 Save file to shared drive: \u201c\u2026\\Trial\\Exhibit Management\\Master_Exhibit_List.xlsx\u201d.  \n\n3. Pre-Marking & Physical Preparation  \n   3.1 Numbering Scheme: P-1, P-2 \u2026 ; D-1, D-2 \u2026 ; J-1 \u2026  \n   3.2 Affix exhibit stickers on bottom-right corner of first page.  \n   3.3 Use red \u201cCONFIDENTIAL\u201d stamp where protective order applies.  \n   3.4 Assemble three identical exhibit binders (Court, Witness, Working).  \n        \u2022 3-ring, 2-inch, D-ring binders.  \n        \u2022 Tabbed dividers 1-100 (expandable).  \n   3.5 Create master table of contents and insert behind cover.  \n\n4. Digital Exhibit Set  \n   4.1 PDF each exhibit; file name = \u201cP-12_Sales_Agreement_2019-03-04.pdf\u201d.  \n   4.2 Apply OCR and confirm text searchability.  \n   4.3 Load into trial presentation software (e.g., TrialDirector, OnCue).  \n   4.4 Mirror folder structure on two encrypted USB drives (primary/backup).  \n\n5. Chain-of-Custody & Authenticity Files  \n   5.1 For physical objects or original docs, draft custody logs.  \n   5.2 Place originals in fireproof cabinet; scan certified copies for court use.  \n   5.3 Collect declarations of authenticity (FRE 902(11)) where available.  \n\n6. Exhibit Objections & Motions in Limine  \n   6.1 Review opposing party\u2019s disclosures; annotate objection basis (hearsay, relevance, 403, foundation).  \n   6.2 Draft chart summarizing objections with rule citations and supporting cases.  \n   6.3 Coordinate with attorney on motions in limine filing deadlines.  \n\n7. Witness-Exhibit Cross-Reference  \n   7.1 For each witness, build a \u201chit list\u201d of exhibits.  \n   7.2 Place colored stick-on tabs on binder copies to speed retrieval.  \n   7.3 Prepare impeachment packets (sealed) with deposition excerpts + exhibits.  \n\n8. Courtroom Technology Check  \n   8.1 Reserve evidence presentation system (ELMO / HDMI).  \n   8.2 Conduct in-courtroom test of laptop, monitors, audio.  \n   8.3 Prepare backup hardware: spare laptop, dongles, power strips.  \n\n9. Delivery & Filing Deadlines  \n   9.1 Exchange final exhibit lists with opposing counsel by ________ (per local rule).  \n   9.2 File joint exhibit list and binder for judge by ________ .  \n   9.3 Provide electronic exhibits to court clerk per formatting specs.  \n\n10. Day-of-Trial Workspace  \n    \u2022 Rolling cart with numbered binders  \n    \u2022 Laptop + backup USB  \n    \u2022 Exhibit stickers, tabs, highlighters  \n    \u2022 Copies of evidentiary rules and cheat-sheet  \n\n11. Post-Trial Preservation  \n    11.1 Update master list with admission status and exhibit numbers used.  \n    11.2 Collect and seal admitted exhibits for appellate record.  \n    11.3 Archive digital set to long-term storage; note retention policy dates.  \n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1750538830,
+    "model": "o3-2025-04-16",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 974,
+      "prompt_tokens": 115,
+      "total_tokens": 1089,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 64,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

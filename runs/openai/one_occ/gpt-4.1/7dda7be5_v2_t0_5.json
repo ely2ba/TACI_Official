@@ -1,0 +1,49 @@
+{
+  "uid": "7dda7be5",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-4.1",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:53:36Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "4c035523dbfa2f05b815093ba9091189dc436fae6d0bd061eed6aa84ba109961",
+  "response": {
+    "id": "chatcmpl-Bi1wcD8w54Sfg5t2JlYfA9hMJrvdw",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Appraisal and Inventory of Real and Personal Property for Estate Planning\n\n1. **Identify and List All Assets**\n   - **Real Property**: Include all real estate owned by the individual (e.g., primary residence, vacation homes, rental properties, undeveloped land). Record addresses, legal descriptions, and ownership documents (deeds, titles).\n   - **Personal Property**: List all tangible and intangible personal assets, such as:\n     - Vehicles (cars, boats, motorcycles)\n     - Jewelry, artwork, collectibles, and antiques\n     - Household furnishings and electronics\n     - Bank accounts (checking, savings, money market)\n     - Investment accounts (stocks, bonds, mutual funds)\n     - Retirement accounts (IRAs, 401(k)s, pensions)\n     - Business interests (ownership in LLCs, partnerships, corporations)\n     - Life insurance policies (with cash value)\n     - Intellectual property (patents, copyrights, trademarks)\n\n2. **Obtain Valuations for Each Asset**\n   - **Real Property**: Obtain recent appraisals or comparative market analyses (CMA) from licensed appraisers or real estate professionals. Use property tax assessments as supporting documentation.\n   - **Personal Property**: For high-value items (jewelry, art, collectibles), obtain professional appraisals. For vehicles, use fair market values from sources like Kelley Blue Book or NADA Guides. For investment and bank accounts, use current statements to determine value as of the date of inventory.\n   - **Business Interests**: Have a qualified business appraiser or accountant provide a valuation based on current financials and market conditions.\n   - **Retirement Accounts and Life Insurance**: Use the most recent account statements or policy statements to determine cash value or account balance.\n\n3. **Document Ownership and Title**\n   - Gather and organize all documents proving ownership (deeds, titles, account statements, policy documents, business agreements).\n   - Note whether assets are held individually, jointly, in trust, or with designated beneficiaries.\n\n4. **Prepare a Comprehensive Inventory Report**\n   - Create a detailed inventory listing each asset, its estimated value, ownership status, and supporting documentation.\n   - Use a standardized format or spreadsheet for clarity and ease of reference.\n\n5. **Review and Update Regularly**\n   - Ensure the inventory is reviewed and updated periodically or whenever significant assets are acquired or disposed of.\n   - Keep copies of all appraisals and supporting documents with the estate planning records.\n\n6. **Consult with Professionals**\n   - Work with attorneys, appraisers, accountants, and financial advisors to ensure accurate valuations and compliance with estate planning requirements and tax laws.\n\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749833606,
+    "model": "gpt-4.1-2025-04-14",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_b3f1157249",
+    "usage": {
+      "completion_tokens": 544,
+      "prompt_tokens": 117,
+      "total_tokens": 661,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

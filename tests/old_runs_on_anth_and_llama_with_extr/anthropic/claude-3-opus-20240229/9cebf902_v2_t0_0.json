@@ -1,0 +1,15 @@
+{
+  "uid": "9cebf902",
+  "variant": 2,
+  "modality": "TEXT",
+  "temperature": 0.0,
+  "model": "claude-3-opus-20240229",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T17:59:59.466477Z",
+  "commit_sha": "98b2eb0f130d4d32e78707f77c440a8f68e4103c",
+  "prompt_sha256": "201afa7b083de2c80a691ebaaa666ca5aad973841b6540f331ec7d1d01c811ef",
+  "response": {
+    "raw": "Here is my attempt at the task:\n\n<OUTPUT_TEXT>\n<h1>Gathering and Analyzing Legal Research Data</h1>\n\n1. Identify the legal issue or question that needs to be researched. Determine the relevant jurisdiction and sources of law that apply (statutes, case law, regulations, etc.).\n\n2. Conduct searches of online legal databases such as Westlaw, LexisNexis, Bloomberg Law, or free sources like Google Scholar to find relevant statutes, court decisions, law review articles, and other secondary sources. Use boolean searches and key words related to the legal issue.\n\n3. Review the full text of relevant laws and court opinions. Take notes and analyze how the authorities answer the legal question at hand. Look for the holding of cases and courts' reasoning. Determine if the authorities are mandatory or persuasive for the jurisdiction.\n\n4. Organize the research results. Separate mandatory from persuasive authorities. Outline the statutes and case law and summarize key points. Note any splits of authority or unresolved issues.\n\n5. Analyze the overall weight of authority and how it applies to the facts and legal issue being researched. Synthesize the rules and holdings from the authorities into an answer or recommendation on the legal question.\n</OUTPUT_TEXT>",
+    "extracted": "<OUTPUT_TEXT>\n<h1>Gathering and Analyzing Legal Research Data</h1>\n\n1. Identify the legal issue or question that needs to be researched. Determine the relevant jurisdiction and sources of law that apply (statutes, case law, regulations, etc.).\n\n2. Conduct searches of online legal databases such as Westlaw, LexisNexis, Bloomberg Law, or free sources like Google Scholar to find relevant statutes, court decisions, law review articles, and other secondary sources. Use boolean searches and key words related to the legal issue.\n\n3. Review the full text of relevant laws and court opinions. Take notes and analyze how the authorities answer the legal question at hand. Look for the holding of cases and courts' reasoning. Determine if the authorities are mandatory or persuasive for the jurisdiction.\n\n4. Organize the research results. Separate mandatory from persuasive authorities. Outline the statutes and case law and summarize key points. Note any splits of authority or unresolved issues.\n\n5. Analyze the overall weight of authority and how it applies to the facts and legal issue being researched. Synthesize the rules and holdings from the authorities into an answer or recommendation on the legal question.\n</OUTPUT_TEXT>"
+  }
+}

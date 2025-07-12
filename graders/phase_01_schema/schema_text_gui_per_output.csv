@@ -1,0 +1,1381 @@
+uid,variant,temp,model,modality,file,strict,strict_reason,rescued,rescued_reason,schema_status
+faa67d8f,1,0.5,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/faa67d8f_v1_t0_5.json,1.0,ok,1.0,ok,strict
+47817359,0,0.0,gemini-2.5-flash-preview-05-20,GUI,gemini/gemini-2.5-flash-preview-05-20/47817359_v0_t0_0.json,1.0,ok,1.0,ok,strict
+27910ee5,1,0.0,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/27910ee5_v1_t0_0.json,1.0,ok,1.0,ok,strict
+0dd1e9ca,1,0.0,gemini-2.5-flash-preview-05-20,GUI,gemini/gemini-2.5-flash-preview-05-20/0dd1e9ca_v1_t0_0.json,1.0,ok,1.0,ok,strict
+bbf22c00,2,0.0,gemini-2.5-flash-preview-05-20,GUI,gemini/gemini-2.5-flash-preview-05-20/bbf22c00_v2_t0_0.json,1.0,ok,1.0,ok,strict
+8fc9d168,0,0.5,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/8fc9d168_v0_t0_5.json,1.0,ok,1.0,ok,strict
+936aa3e5,0,0.5,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/936aa3e5_v0_t0_5.json,1.0,ok,1.0,ok,strict
+2bc72355,2,0.0,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/2bc72355_v2_t0_0.json,1.0,ok,1.0,ok,strict
+9cebf902,1,0.0,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/9cebf902_v1_t0_0.json,1.0,ok,1.0,ok,strict
+85a846ff,0,0.5,gemini-2.5-flash-preview-05-20,GUI,gemini/gemini-2.5-flash-preview-05-20/85a846ff_v0_t0_5.json,1.0,ok,1.0,ok,strict
+8cc4a9e1,2,0.0,gemini-2.5-flash-preview-05-20,GUI,gemini/gemini-2.5-flash-preview-05-20/8cc4a9e1_v2_t0_0.json,1.0,ok,1.0,ok,strict
+7e365caf,2,0.5,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/7e365caf_v2_t0_5.json,1.0,ok,1.0,ok,strict
+f260aa25,1,0.0,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/f260aa25_v1_t0_0.json,1.0,ok,1.0,ok,strict
+9652a31e,2,0.5,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/9652a31e_v2_t0_5.json,1.0,ok,1.0,ok,strict
+07080553,0,0.0,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/07080553_v0_t0_0.json,1.0,ok,1.0,ok,strict
+ab599408,2,0.0,gemini-2.5-flash-preview-05-20,GUI,gemini/gemini-2.5-flash-preview-05-20/ab599408_v2_t0_0.json,0.0,{'error': 'unable'} is not valid under any of the given schemas,0.0,{'error': 'unable'} is not valid under any of the given schemas,fail
+25c9f684,0,0.5,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/25c9f684_v0_t0_5.json,1.0,ok,1.0,ok,strict
+0c07452f,2,0.5,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/0c07452f_v2_t0_5.json,1.0,ok,1.0,ok,strict
+2bc72355,0,0.5,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/2bc72355_v0_t0_5.json,1.0,ok,1.0,ok,strict
+85a846ff,2,0.0,gemini-2.5-flash-preview-05-20,GUI,gemini/gemini-2.5-flash-preview-05-20/85a846ff_v2_t0_0.json,1.0,ok,1.0,ok,strict
+dc35566b,1,0.5,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/dc35566b_v1_t0_5.json,1.0,ok,1.0,ok,strict
+47817359,2,0.5,gemini-2.5-flash-preview-05-20,GUI,gemini/gemini-2.5-flash-preview-05-20/47817359_v2_t0_5.json,0.0,{'error': 'unable'} is not valid under any of the given schemas,0.0,{'error': 'unable'} is not valid under any of the given schemas,fail
+1b64c419,1,0.0,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/1b64c419_v1_t0_0.json,1.0,ok,1.0,ok,strict
+bbf22c00,0,0.5,gemini-2.5-flash-preview-05-20,GUI,gemini/gemini-2.5-flash-preview-05-20/bbf22c00_v0_t0_5.json,1.0,ok,1.0,ok,strict
+a79efa23,1,0.0,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/a79efa23_v1_t0_0.json,1.0,ok,1.0,ok,strict
+8fc9d168,2,0.0,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/8fc9d168_v2_t0_0.json,1.0,ok,1.0,ok,strict
+936aa3e5,2,0.0,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/936aa3e5_v2_t0_0.json,1.0,ok,1.0,ok,strict
+9652a31e,0,0.0,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/9652a31e_v0_t0_0.json,1.0,ok,1.0,ok,strict
+25c9f684,2,0.0,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/25c9f684_v2_t0_0.json,1.0,ok,1.0,ok,strict
+ab599408,0,0.5,gemini-2.5-flash-preview-05-20,GUI,gemini/gemini-2.5-flash-preview-05-20/ab599408_v0_t0_5.json,1.0,ok,1.0,ok,strict
+07080553,2,0.5,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/07080553_v2_t0_5.json,1.0,ok,1.0,ok,strict
+f6d74921,1,0.5,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/f6d74921_v1_t0_5.json,1.0,ok,1.0,ok,strict
+0c07452f,0,0.0,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/0c07452f_v0_t0_0.json,1.0,ok,1.0,ok,strict
+8cc4a9e1,0,0.5,gemini-2.5-flash-preview-05-20,GUI,gemini/gemini-2.5-flash-preview-05-20/8cc4a9e1_v0_t0_5.json,1.0,ok,1.0,ok,strict
+7e365caf,0,0.0,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/7e365caf_v0_t0_0.json,1.0,ok,1.0,ok,strict
+b4ec494d,1,0.5,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/b4ec494d_v1_t0_5.json,1.0,ok,1.0,ok,strict
+8fc9d168,1,0.5,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/8fc9d168_v1_t0_5.json,1.0,ok,1.0,ok,strict
+936aa3e5,1,0.5,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/936aa3e5_v1_t0_5.json,1.0,ok,1.0,ok,strict
+faa67d8f,0,0.5,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/faa67d8f_v0_t0_5.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+47817359,1,0.0,gemini-2.5-flash-preview-05-20,GUI,gemini/gemini-2.5-flash-preview-05-20/47817359_v1_t0_0.json,1.0,ok,1.0,ok,strict
+27910ee5,0,0.0,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/27910ee5_v0_t0_0.json,1.0,ok,1.0,ok,strict
+a79efa23,2,0.5,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/a79efa23_v2_t0_5.json,1.0,ok,1.0,ok,strict
+1b64c419,2,0.5,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/1b64c419_v2_t0_5.json,1.0,ok,1.0,ok,strict
+0dd1e9ca,0,0.0,gemini-2.5-flash-preview-05-20,GUI,gemini/gemini-2.5-flash-preview-05-20/0dd1e9ca_v0_t0_0.json,0.0,"[{'action': 'select', 'selector': 'select[name*=report i]', 'text': 'Financial Summary Report'}, {'action': 'click', 'selector': 'button:has-text(""generate"" i)'}, {'action': 'wait', 'text': '5000'}, {'action': 'click', 'selector': 'a:has-text(""download"" i)'}] is not valid under any of the given schemas",0.0,"[{'action': 'select', 'selector': 'select[name*=report i]', 'text': 'Financial Summary Report'}, {'action': 'click', 'selector': 'button:has-text(""generate"" i)'}, {'action': 'wait', 'text': '5000'}, {'action': 'click', 'selector': 'a:has-text(""download"" i)'}] is not valid under any of the given schemas",fail
+9cebf902,0,0.0,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/9cebf902_v0_t0_0.json,1.0,ok,1.0,ok,strict
+dc35566b,2,0.0,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/dc35566b_v2_t0_0.json,1.0,ok,1.0,ok,strict
+85a846ff,1,0.5,gemini-2.5-flash-preview-05-20,GUI,gemini/gemini-2.5-flash-preview-05-20/85a846ff_v1_t0_5.json,1.0,ok,1.0,ok,strict
+b4ec494d,2,0.0,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/b4ec494d_v2_t0_0.json,1.0,ok,1.0,ok,strict
+f260aa25,0,0.0,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/f260aa25_v0_t0_0.json,1.0,ok,1.0,ok,strict
+07080553,1,0.0,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/07080553_v1_t0_0.json,1.0,ok,1.0,ok,strict
+25c9f684,1,0.5,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/25c9f684_v1_t0_5.json,1.0,ok,1.0,ok,strict
+f6d74921,2,0.0,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/f6d74921_v2_t0_0.json,1.0,ok,1.0,ok,strict
+9cebf902,2,0.5,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/9cebf902_v2_t0_5.json,1.0,ok,1.0,ok,strict
+dc35566b,0,0.5,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/dc35566b_v0_t0_5.json,1.0,ok,1.0,ok,strict
+2bc72355,1,0.5,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/2bc72355_v1_t0_5.json,1.0,ok,1.0,ok,strict
+faa67d8f,2,0.0,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/faa67d8f_v2_t0_0.json,1.0,ok,1.0,ok,strict
+bbf22c00,1,0.5,gemini-2.5-flash-preview-05-20,GUI,gemini/gemini-2.5-flash-preview-05-20/bbf22c00_v1_t0_5.json,1.0,ok,1.0,ok,strict
+0dd1e9ca,2,0.5,gemini-2.5-flash-preview-05-20,GUI,gemini/gemini-2.5-flash-preview-05-20/0dd1e9ca_v2_t0_5.json,1.0,ok,1.0,ok,strict
+1b64c419,0,0.0,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/1b64c419_v0_t0_0.json,1.0,ok,1.0,ok,strict
+a79efa23,0,0.0,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/a79efa23_v0_t0_0.json,1.0,ok,1.0,ok,strict
+27910ee5,2,0.5,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/27910ee5_v2_t0_5.json,1.0,ok,1.0,ok,strict
+ab599408,1,0.5,gemini-2.5-flash-preview-05-20,GUI,gemini/gemini-2.5-flash-preview-05-20/ab599408_v1_t0_5.json,1.0,ok,1.0,ok,strict
+f6d74921,0,0.5,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/f6d74921_v0_t0_5.json,1.0,ok,1.0,ok,strict
+0c07452f,1,0.0,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/0c07452f_v1_t0_0.json,1.0,ok,1.0,ok,strict
+9652a31e,1,0.0,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/9652a31e_v1_t0_0.json,1.0,ok,1.0,ok,strict
+b4ec494d,0,0.5,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/b4ec494d_v0_t0_5.json,1.0,ok,1.0,ok,strict
+f260aa25,2,0.5,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/f260aa25_v2_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+8cc4a9e1,1,0.5,gemini-2.5-flash-preview-05-20,GUI,gemini/gemini-2.5-flash-preview-05-20/8cc4a9e1_v1_t0_5.json,1.0,ok,1.0,ok,strict
+7e365caf,1,0.0,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/7e365caf_v1_t0_0.json,1.0,ok,1.0,ok,strict
+2bc72355,0,0.0,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/2bc72355_v0_t0_0.json,1.0,ok,1.0,ok,strict
+85a846ff,2,0.5,gemini-2.5-flash-preview-05-20,GUI,gemini/gemini-2.5-flash-preview-05-20/85a846ff_v2_t0_5.json,1.0,ok,1.0,ok,strict
+dc35566b,1,0.0,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/dc35566b_v1_t0_0.json,1.0,ok,1.0,ok,strict
+47817359,2,0.0,gemini-2.5-flash-preview-05-20,GUI,gemini/gemini-2.5-flash-preview-05-20/47817359_v2_t0_0.json,0.0,"['input[name*=account i]', 'input[name*=amount i], input[type=number]', 'textarea[name*=memo i]', 'button:has-text(""post"" i), button:has-text(""save"" i)'] is not valid under any of the given schemas",0.0,"['input[name*=account i]', 'input[name*=amount i], input[type=number]', 'textarea[name*=memo i]', 'button:has-text(""post"" i), button:has-text(""save"" i)'] is not valid under any of the given schemas",fail
+bbf22c00,0,0.0,gemini-2.5-flash-preview-05-20,GUI,gemini/gemini-2.5-flash-preview-05-20/bbf22c00_v0_t0_0.json,1.0,ok,1.0,ok,strict
+1b64c419,1,0.5,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/1b64c419_v1_t0_5.json,1.0,ok,1.0,ok,strict
+a79efa23,1,0.5,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/a79efa23_v1_t0_5.json,1.0,ok,1.0,ok,strict
+8fc9d168,2,0.5,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/8fc9d168_v2_t0_5.json,1.0,ok,1.0,ok,strict
+936aa3e5,2,0.5,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/936aa3e5_v2_t0_5.json,1.0,ok,1.0,ok,strict
+9652a31e,0,0.5,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/9652a31e_v0_t0_5.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+ab599408,0,0.0,gemini-2.5-flash-preview-05-20,GUI,gemini/gemini-2.5-flash-preview-05-20/ab599408_v0_t0_0.json,1.0,ok,1.0,ok,strict
+25c9f684,2,0.5,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/25c9f684_v2_t0_5.json,1.0,ok,1.0,ok,strict
+07080553,2,0.0,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/07080553_v2_t0_0.json,1.0,ok,1.0,ok,strict
+f6d74921,1,0.0,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/f6d74921_v1_t0_0.json,1.0,ok,1.0,ok,strict
+0c07452f,0,0.5,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/0c07452f_v0_t0_5.json,1.0,ok,1.0,ok,strict
+8cc4a9e1,0,0.0,gemini-2.5-flash-preview-05-20,GUI,gemini/gemini-2.5-flash-preview-05-20/8cc4a9e1_v0_t0_0.json,1.0,ok,1.0,ok,strict
+7e365caf,0,0.5,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/7e365caf_v0_t0_5.json,1.0,ok,1.0,ok,strict
+b4ec494d,1,0.0,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/b4ec494d_v1_t0_0.json,1.0,ok,1.0,ok,strict
+faa67d8f,1,0.0,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/faa67d8f_v1_t0_0.json,1.0,ok,1.0,ok,strict
+47817359,0,0.5,gemini-2.5-flash-preview-05-20,GUI,gemini/gemini-2.5-flash-preview-05-20/47817359_v0_t0_5.json,1.0,ok,1.0,ok,strict
+27910ee5,1,0.5,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/27910ee5_v1_t0_5.json,1.0,ok,1.0,ok,strict
+bbf22c00,2,0.5,gemini-2.5-flash-preview-05-20,GUI,gemini/gemini-2.5-flash-preview-05-20/bbf22c00_v2_t0_5.json,1.0,ok,1.0,ok,strict
+0dd1e9ca,1,0.5,gemini-2.5-flash-preview-05-20,GUI,gemini/gemini-2.5-flash-preview-05-20/0dd1e9ca_v1_t0_5.json,1.0,ok,1.0,ok,strict
+8fc9d168,0,0.0,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/8fc9d168_v0_t0_0.json,1.0,ok,1.0,ok,strict
+936aa3e5,0,0.0,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/936aa3e5_v0_t0_0.json,1.0,ok,1.0,ok,strict
+2bc72355,2,0.5,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/2bc72355_v2_t0_5.json,1.0,ok,1.0,ok,strict
+9cebf902,1,0.5,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/9cebf902_v1_t0_5.json,1.0,ok,1.0,ok,strict
+85a846ff,0,0.0,gemini-2.5-flash-preview-05-20,GUI,gemini/gemini-2.5-flash-preview-05-20/85a846ff_v0_t0_0.json,1.0,ok,1.0,ok,strict
+8cc4a9e1,2,0.5,gemini-2.5-flash-preview-05-20,GUI,gemini/gemini-2.5-flash-preview-05-20/8cc4a9e1_v2_t0_5.json,1.0,ok,1.0,ok,strict
+7e365caf,2,0.0,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/7e365caf_v2_t0_0.json,1.0,ok,1.0,ok,strict
+f260aa25,1,0.5,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/f260aa25_v1_t0_5.json,1.0,ok,1.0,ok,strict
+9652a31e,2,0.0,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/9652a31e_v2_t0_0.json,1.0,ok,1.0,ok,strict
+07080553,0,0.5,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/07080553_v0_t0_5.json,1.0,ok,1.0,ok,strict
+25c9f684,0,0.0,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/25c9f684_v0_t0_0.json,1.0,ok,1.0,ok,strict
+ab599408,2,0.5,gemini-2.5-flash-preview-05-20,GUI,gemini/gemini-2.5-flash-preview-05-20/ab599408_v2_t0_5.json,1.0,ok,1.0,ok,strict
+0c07452f,2,0.0,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/0c07452f_v2_t0_0.json,1.0,ok,1.0,ok,strict
+9cebf902,2,0.0,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/9cebf902_v2_t0_0.json,1.0,ok,1.0,ok,strict
+dc35566b,0,0.0,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/dc35566b_v0_t0_0.json,1.0,ok,1.0,ok,strict
+2bc72355,1,0.0,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/2bc72355_v1_t0_0.json,1.0,ok,1.0,ok,strict
+faa67d8f,2,0.5,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/faa67d8f_v2_t0_5.json,1.0,ok,1.0,ok,strict
+1b64c419,0,0.5,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/1b64c419_v0_t0_5.json,1.0,ok,1.0,ok,strict
+0dd1e9ca,2,0.0,gemini-2.5-flash-preview-05-20,GUI,gemini/gemini-2.5-flash-preview-05-20/0dd1e9ca_v2_t0_0.json,1.0,ok,1.0,ok,strict
+bbf22c00,1,0.0,gemini-2.5-flash-preview-05-20,GUI,gemini/gemini-2.5-flash-preview-05-20/bbf22c00_v1_t0_0.json,1.0,ok,1.0,ok,strict
+a79efa23,0,0.5,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/a79efa23_v0_t0_5.json,1.0,ok,1.0,ok,strict
+27910ee5,2,0.0,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/27910ee5_v2_t0_0.json,1.0,ok,1.0,ok,strict
+ab599408,1,0.0,gemini-2.5-flash-preview-05-20,GUI,gemini/gemini-2.5-flash-preview-05-20/ab599408_v1_t0_0.json,1.0,ok,1.0,ok,strict
+f6d74921,0,0.0,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/f6d74921_v0_t0_0.json,1.0,ok,1.0,ok,strict
+0c07452f,1,0.5,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/0c07452f_v1_t0_5.json,1.0,ok,1.0,ok,strict
+9652a31e,1,0.5,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/9652a31e_v1_t0_5.json,1.0,ok,1.0,ok,strict
+b4ec494d,0,0.0,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/b4ec494d_v0_t0_0.json,1.0,ok,1.0,ok,strict
+f260aa25,2,0.0,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/f260aa25_v2_t0_0.json,1.0,ok,1.0,ok,strict
+8cc4a9e1,1,0.0,gemini-2.5-flash-preview-05-20,GUI,gemini/gemini-2.5-flash-preview-05-20/8cc4a9e1_v1_t0_0.json,1.0,ok,1.0,ok,strict
+7e365caf,1,0.5,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/7e365caf_v1_t0_5.json,1.0,ok,1.0,ok,strict
+8fc9d168,1,0.0,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/8fc9d168_v1_t0_0.json,1.0,ok,1.0,ok,strict
+936aa3e5,1,0.0,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/936aa3e5_v1_t0_0.json,1.0,ok,1.0,ok,strict
+faa67d8f,0,0.0,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/faa67d8f_v0_t0_0.json,1.0,ok,1.0,ok,strict
+47817359,1,0.5,gemini-2.5-flash-preview-05-20,GUI,gemini/gemini-2.5-flash-preview-05-20/47817359_v1_t0_5.json,1.0,ok,1.0,ok,strict
+27910ee5,0,0.5,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/27910ee5_v0_t0_5.json,1.0,ok,1.0,ok,strict
+a79efa23,2,0.0,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/a79efa23_v2_t0_0.json,1.0,ok,1.0,ok,strict
+0dd1e9ca,0,0.5,gemini-2.5-flash-preview-05-20,GUI,gemini/gemini-2.5-flash-preview-05-20/0dd1e9ca_v0_t0_5.json,1.0,ok,1.0,ok,strict
+1b64c419,2,0.0,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/1b64c419_v2_t0_0.json,1.0,ok,1.0,ok,strict
+9cebf902,0,0.5,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/9cebf902_v0_t0_5.json,1.0,ok,1.0,ok,strict
+dc35566b,2,0.5,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/dc35566b_v2_t0_5.json,1.0,ok,1.0,ok,strict
+85a846ff,1,0.0,gemini-2.5-flash-preview-05-20,GUI,gemini/gemini-2.5-flash-preview-05-20/85a846ff_v1_t0_0.json,1.0,ok,1.0,ok,strict
+b4ec494d,2,0.5,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/b4ec494d_v2_t0_5.json,1.0,ok,1.0,ok,strict
+f260aa25,0,0.5,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/f260aa25_v0_t0_5.json,1.0,ok,1.0,ok,strict
+07080553,1,0.5,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/07080553_v1_t0_5.json,1.0,ok,1.0,ok,strict
+25c9f684,1,0.0,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/25c9f684_v1_t0_0.json,1.0,ok,1.0,ok,strict
+f6d74921,2,0.5,gemini-2.5-flash-preview-05-20,TEXT,gemini/gemini-2.5-flash-preview-05-20/f6d74921_v2_t0_5.json,1.0,ok,1.0,ok,strict
+faa67d8f,1,0.5,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/faa67d8f_v1_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+47817359,0,0.0,gemini-2.0-flash,GUI,gemini/gemini-2.0-flash/47817359_v0_t0_0.json,0.0,no parsable JSON,0.0,no parsable JSON,fail
+27910ee5,1,0.0,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/27910ee5_v1_t0_0.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+0dd1e9ca,1,0.0,gemini-2.0-flash,GUI,gemini/gemini-2.0-flash/0dd1e9ca_v1_t0_0.json,1.0,ok,1.0,ok,strict
+bbf22c00,2,0.0,gemini-2.0-flash,GUI,gemini/gemini-2.0-flash/bbf22c00_v2_t0_0.json,0.0,"[{'click': 'table:has-text(""order"" i) >> tr >> input[type=checkbox]'}, {'click': 'table:has-text(""invoice"" i) >> tr >> input[type=checkbox]'}, {'click': 'button:has-text(""match"" i)'}, {'click': 'button:has-text(""record"" i)'}] is not valid under any of the given schemas",0.0,"[{'click': 'table:has-text(""order"" i) >> tr >> input[type=checkbox]'}, {'click': 'table:has-text(""invoice"" i) >> tr >> input[type=checkbox]'}, {'click': 'button:has-text(""match"" i)'}, {'click': 'button:has-text(""record"" i)'}] is not valid under any of the given schemas",fail
+8fc9d168,0,0.5,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/8fc9d168_v0_t0_5.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+936aa3e5,0,0.5,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/936aa3e5_v0_t0_5.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+2bc72355,2,0.0,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/2bc72355_v2_t0_0.json,1.0,ok,1.0,ok,strict
+9cebf902,1,0.0,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/9cebf902_v1_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+85a846ff,0,0.5,gemini-2.0-flash,GUI,gemini/gemini-2.0-flash/85a846ff_v0_t0_5.json,0.0,no parsable JSON,0.0,no parsable JSON,fail
+8cc4a9e1,2,0.0,gemini-2.0-flash,GUI,gemini/gemini-2.0-flash/8cc4a9e1_v2_t0_0.json,0.0,"[{'action': 'wait_for_input', 'selectors': ['input[name*=space i], input[placeholder*=space i]', 'input[name*=charge i]']}, {'action': 'click', 'selectors': ['button:has-text(""calculate"" i), button:has-text(""compute"" i)']}, {'action': 'click', 'selectors': ['button:has-text(""save"" i)']}] is not valid under any of the given schemas",0.0,"[{'action': 'wait_for_input', 'selectors': ['input[name*=space i], input[placeholder*=space i]', 'input[name*=charge i]']}, {'action': 'click', 'selectors': ['button:has-text(""calculate"" i), button:has-text(""compute"" i)']}, {'action': 'click', 'selectors': ['button:has-text(""save"" i)']}] is not valid under any of the given schemas",fail
+7e365caf,2,0.5,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/7e365caf_v2_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+f260aa25,1,0.0,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/f260aa25_v1_t0_0.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+9652a31e,2,0.5,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/9652a31e_v2_t0_5.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+07080553,0,0.0,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/07080553_v0_t0_0.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+ab599408,2,0.0,gemini-2.0-flash,GUI,gemini/gemini-2.0-flash/ab599408_v2_t0_0.json,0.0,no parsable JSON,0.0,no parsable JSON,fail
+25c9f684,0,0.5,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/25c9f684_v0_t0_5.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+0c07452f,2,0.5,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/0c07452f_v2_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+2bc72355,0,0.5,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/2bc72355_v0_t0_5.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+85a846ff,2,0.0,gemini-2.0-flash,GUI,gemini/gemini-2.0-flash/85a846ff_v2_t0_0.json,0.0,no parsable JSON,0.0,no parsable JSON,fail
+dc35566b,1,0.5,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/dc35566b_v1_t0_5.json,1.0,ok,1.0,ok,strict
+47817359,2,0.5,gemini-2.0-flash,GUI,gemini/gemini-2.0-flash/47817359_v2_t0_5.json,0.0,no parsable JSON,0.0,no parsable JSON,fail
+1b64c419,1,0.0,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/1b64c419_v1_t0_0.json,1.0,ok,1.0,ok,strict
+bbf22c00,0,0.5,gemini-2.0-flash,GUI,gemini/gemini-2.0-flash/bbf22c00_v0_t0_5.json,0.0,no parsable JSON,0.0,no parsable JSON,fail
+a79efa23,1,0.0,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/a79efa23_v1_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+8fc9d168,2,0.0,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/8fc9d168_v2_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+936aa3e5,2,0.0,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/936aa3e5_v2_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+9652a31e,0,0.0,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/9652a31e_v0_t0_0.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+25c9f684,2,0.0,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/25c9f684_v2_t0_0.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+ab599408,0,0.5,gemini-2.0-flash,GUI,gemini/gemini-2.0-flash/ab599408_v0_t0_5.json,0.0,no parsable JSON,0.0,no parsable JSON,fail
+07080553,2,0.5,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/07080553_v2_t0_5.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+f6d74921,1,0.5,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/f6d74921_v1_t0_5.json,1.0,ok,1.0,ok,strict
+0c07452f,0,0.0,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/0c07452f_v0_t0_0.json,1.0,ok,1.0,ok,strict
+8cc4a9e1,0,0.5,gemini-2.0-flash,GUI,gemini/gemini-2.0-flash/8cc4a9e1_v0_t0_5.json,0.0,no parsable JSON,0.0,no parsable JSON,fail
+7e365caf,0,0.0,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/7e365caf_v0_t0_0.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+b4ec494d,1,0.5,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/b4ec494d_v1_t0_5.json,1.0,ok,1.0,ok,strict
+8fc9d168,1,0.5,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/8fc9d168_v1_t0_5.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+936aa3e5,1,0.5,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/936aa3e5_v1_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+faa67d8f,0,0.5,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/faa67d8f_v0_t0_5.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+47817359,1,0.0,gemini-2.0-flash,GUI,gemini/gemini-2.0-flash/47817359_v1_t0_0.json,1.0,ok,1.0,ok,strict
+27910ee5,0,0.0,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/27910ee5_v0_t0_0.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+a79efa23,2,0.5,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/a79efa23_v2_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+1b64c419,2,0.5,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/1b64c419_v2_t0_5.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+0dd1e9ca,0,0.0,gemini-2.0-flash,GUI,gemini/gemini-2.0-flash/0dd1e9ca_v0_t0_0.json,0.0,no parsable JSON,0.0,no parsable JSON,fail
+9cebf902,0,0.0,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/9cebf902_v0_t0_0.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+dc35566b,2,0.0,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/dc35566b_v2_t0_0.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+85a846ff,1,0.5,gemini-2.0-flash,GUI,gemini/gemini-2.0-flash/85a846ff_v1_t0_5.json,0.0,no parsable JSON,0.0,no parsable JSON,fail
+b4ec494d,2,0.0,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/b4ec494d_v2_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+f260aa25,0,0.0,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/f260aa25_v0_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+07080553,1,0.0,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/07080553_v1_t0_0.json,1.0,ok,1.0,ok,strict
+25c9f684,1,0.5,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/25c9f684_v1_t0_5.json,1.0,ok,1.0,ok,strict
+f6d74921,2,0.0,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/f6d74921_v2_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+9cebf902,2,0.5,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/9cebf902_v2_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+dc35566b,0,0.5,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/dc35566b_v0_t0_5.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+2bc72355,1,0.5,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/2bc72355_v1_t0_5.json,1.0,ok,1.0,ok,strict
+faa67d8f,2,0.0,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/faa67d8f_v2_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+bbf22c00,1,0.5,gemini-2.0-flash,GUI,gemini/gemini-2.0-flash/bbf22c00_v1_t0_5.json,1.0,ok,1.0,ok,strict
+0dd1e9ca,2,0.5,gemini-2.0-flash,GUI,gemini/gemini-2.0-flash/0dd1e9ca_v2_t0_5.json,0.0,no parsable JSON,0.0,no parsable JSON,fail
+1b64c419,0,0.0,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/1b64c419_v0_t0_0.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+a79efa23,0,0.0,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/a79efa23_v0_t0_0.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+27910ee5,2,0.5,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/27910ee5_v2_t0_5.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+ab599408,1,0.5,gemini-2.0-flash,GUI,gemini/gemini-2.0-flash/ab599408_v1_t0_5.json,0.0,no parsable JSON,0.0,no parsable JSON,fail
+f6d74921,0,0.5,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/f6d74921_v0_t0_5.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+0c07452f,1,0.0,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/0c07452f_v1_t0_0.json,1.0,ok,1.0,ok,strict
+9652a31e,1,0.0,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/9652a31e_v1_t0_0.json,1.0,ok,1.0,ok,strict
+b4ec494d,0,0.5,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/b4ec494d_v0_t0_5.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+f260aa25,2,0.5,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/f260aa25_v2_t0_5.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+8cc4a9e1,1,0.5,gemini-2.0-flash,GUI,gemini/gemini-2.0-flash/8cc4a9e1_v1_t0_5.json,1.0,ok,1.0,ok,strict
+7e365caf,1,0.0,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/7e365caf_v1_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+2bc72355,0,0.0,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/2bc72355_v0_t0_0.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+85a846ff,2,0.5,gemini-2.0-flash,GUI,gemini/gemini-2.0-flash/85a846ff_v2_t0_5.json,0.0,no parsable JSON,0.0,no parsable JSON,fail
+dc35566b,1,0.0,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/dc35566b_v1_t0_0.json,1.0,ok,1.0,ok,strict
+47817359,2,0.0,gemini-2.0-flash,GUI,gemini/gemini-2.0-flash/47817359_v2_t0_0.json,0.0,no parsable JSON,0.0,no parsable JSON,fail
+bbf22c00,0,0.0,gemini-2.0-flash,GUI,gemini/gemini-2.0-flash/bbf22c00_v0_t0_0.json,0.0,no parsable JSON,0.0,no parsable JSON,fail
+1b64c419,1,0.5,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/1b64c419_v1_t0_5.json,1.0,ok,1.0,ok,strict
+a79efa23,1,0.5,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/a79efa23_v1_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+8fc9d168,2,0.5,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/8fc9d168_v2_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+936aa3e5,2,0.5,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/936aa3e5_v2_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+9652a31e,0,0.5,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/9652a31e_v0_t0_5.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+ab599408,0,0.0,gemini-2.0-flash,GUI,gemini/gemini-2.0-flash/ab599408_v0_t0_0.json,0.0,no parsable JSON,0.0,no parsable JSON,fail
+25c9f684,2,0.5,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/25c9f684_v2_t0_5.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+07080553,2,0.0,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/07080553_v2_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+f6d74921,1,0.0,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/f6d74921_v1_t0_0.json,1.0,ok,1.0,ok,strict
+0c07452f,0,0.5,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/0c07452f_v0_t0_5.json,1.0,ok,1.0,ok,strict
+8cc4a9e1,0,0.0,gemini-2.0-flash,GUI,gemini/gemini-2.0-flash/8cc4a9e1_v0_t0_0.json,0.0,no parsable JSON,0.0,no parsable JSON,fail
+7e365caf,0,0.5,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/7e365caf_v0_t0_5.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+b4ec494d,1,0.0,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/b4ec494d_v1_t0_0.json,1.0,ok,1.0,ok,strict
+faa67d8f,1,0.0,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/faa67d8f_v1_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+47817359,0,0.5,gemini-2.0-flash,GUI,gemini/gemini-2.0-flash/47817359_v0_t0_5.json,0.0,no parsable JSON,0.0,no parsable JSON,fail
+27910ee5,1,0.5,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/27910ee5_v1_t0_5.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+bbf22c00,2,0.5,gemini-2.0-flash,GUI,gemini/gemini-2.0-flash/bbf22c00_v2_t0_5.json,0.0,no parsable JSON,0.0,no parsable JSON,fail
+0dd1e9ca,1,0.5,gemini-2.0-flash,GUI,gemini/gemini-2.0-flash/0dd1e9ca_v1_t0_5.json,1.0,ok,1.0,ok,strict
+8fc9d168,0,0.0,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/8fc9d168_v0_t0_0.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+936aa3e5,0,0.0,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/936aa3e5_v0_t0_0.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+2bc72355,2,0.5,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/2bc72355_v2_t0_5.json,1.0,ok,1.0,ok,strict
+9cebf902,1,0.5,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/9cebf902_v1_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+85a846ff,0,0.0,gemini-2.0-flash,GUI,gemini/gemini-2.0-flash/85a846ff_v0_t0_0.json,0.0,no parsable JSON,0.0,no parsable JSON,fail
+8cc4a9e1,2,0.5,gemini-2.0-flash,GUI,gemini/gemini-2.0-flash/8cc4a9e1_v2_t0_5.json,0.0,no parsable JSON,0.0,no parsable JSON,fail
+7e365caf,2,0.0,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/7e365caf_v2_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+f260aa25,1,0.5,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/f260aa25_v1_t0_5.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+9652a31e,2,0.0,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/9652a31e_v2_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+07080553,0,0.5,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/07080553_v0_t0_5.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+25c9f684,0,0.0,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/25c9f684_v0_t0_0.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+ab599408,2,0.5,gemini-2.0-flash,GUI,gemini/gemini-2.0-flash/ab599408_v2_t0_5.json,0.0,no parsable JSON,0.0,no parsable JSON,fail
+0c07452f,2,0.0,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/0c07452f_v2_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+9cebf902,2,0.0,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/9cebf902_v2_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+dc35566b,0,0.0,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/dc35566b_v0_t0_0.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+2bc72355,1,0.0,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/2bc72355_v1_t0_0.json,1.0,ok,1.0,ok,strict
+faa67d8f,2,0.5,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/faa67d8f_v2_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+1b64c419,0,0.5,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/1b64c419_v0_t0_5.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+0dd1e9ca,2,0.0,gemini-2.0-flash,GUI,gemini/gemini-2.0-flash/0dd1e9ca_v2_t0_0.json,0.0,no parsable JSON,0.0,no parsable JSON,fail
+bbf22c00,1,0.0,gemini-2.0-flash,GUI,gemini/gemini-2.0-flash/bbf22c00_v1_t0_0.json,1.0,ok,1.0,ok,strict
+a79efa23,0,0.5,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/a79efa23_v0_t0_5.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+27910ee5,2,0.0,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/27910ee5_v2_t0_0.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+ab599408,1,0.0,gemini-2.0-flash,GUI,gemini/gemini-2.0-flash/ab599408_v1_t0_0.json,1.0,ok,1.0,ok,strict
+f6d74921,0,0.0,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/f6d74921_v0_t0_0.json,1.0,ok,1.0,ok,strict
+0c07452f,1,0.5,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/0c07452f_v1_t0_5.json,1.0,ok,1.0,ok,strict
+9652a31e,1,0.5,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/9652a31e_v1_t0_5.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+b4ec494d,0,0.0,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/b4ec494d_v0_t0_0.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+f260aa25,2,0.0,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/f260aa25_v2_t0_0.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+8cc4a9e1,1,0.0,gemini-2.0-flash,GUI,gemini/gemini-2.0-flash/8cc4a9e1_v1_t0_0.json,1.0,ok,1.0,ok,strict
+7e365caf,1,0.5,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/7e365caf_v1_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+8fc9d168,1,0.0,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/8fc9d168_v1_t0_0.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+936aa3e5,1,0.0,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/936aa3e5_v1_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+faa67d8f,0,0.0,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/faa67d8f_v0_t0_0.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+47817359,1,0.5,gemini-2.0-flash,GUI,gemini/gemini-2.0-flash/47817359_v1_t0_5.json,1.0,ok,1.0,ok,strict
+27910ee5,0,0.5,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/27910ee5_v0_t0_5.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+a79efa23,2,0.0,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/a79efa23_v2_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+0dd1e9ca,0,0.5,gemini-2.0-flash,GUI,gemini/gemini-2.0-flash/0dd1e9ca_v0_t0_5.json,0.0,no parsable JSON,0.0,no parsable JSON,fail
+1b64c419,2,0.0,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/1b64c419_v2_t0_0.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+9cebf902,0,0.5,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/9cebf902_v0_t0_5.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+dc35566b,2,0.5,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/dc35566b_v2_t0_5.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+85a846ff,1,0.0,gemini-2.0-flash,GUI,gemini/gemini-2.0-flash/85a846ff_v1_t0_0.json,1.0,ok,1.0,ok,strict
+b4ec494d,2,0.5,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/b4ec494d_v2_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+f260aa25,0,0.5,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/f260aa25_v0_t0_5.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+07080553,1,0.5,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/07080553_v1_t0_5.json,1.0,ok,1.0,ok,strict
+25c9f684,1,0.0,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/25c9f684_v1_t0_0.json,1.0,ok,1.0,ok,strict
+f6d74921,2,0.5,gemini-2.0-flash,TEXT,gemini/gemini-2.0-flash/f6d74921_v2_t0_5.json,1.0,ok,1.0,ok,strict
+faa67d8f,1,0.5,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/faa67d8f_v1_t0_5.json,1.0,ok,1.0,ok,strict
+47817359,0,0.0,llama3-8b-8192,GUI,groq_batch_rate_limited/llama3-8b-8192/47817359_v0_t0_0.json,1.0,ok,1.0,ok,strict
+27910ee5,1,0.0,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/27910ee5_v1_t0_0.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+0dd1e9ca,1,0.0,llama3-8b-8192,GUI,groq_batch_rate_limited/llama3-8b-8192/0dd1e9ca_v1_t0_0.json,1.0,ok,1.0,ok,strict
+bbf22c00,2,0.0,llama3-8b-8192,GUI,groq_batch_rate_limited/llama3-8b-8192/bbf22c00_v2_t0_0.json,0.0,"[{'action': 'click', 'targets': ['table:has-text(""order"" i) >> tr >> input[type=checkbox]']}, {'action': 'click', 'targets': ['table:has-text(""invoice"" i) >> tr >> input[type=checkbox]']}, {'action': 'click', 'targets': ['button:has-text(""match"" i)']}, {'action': 'click', 'targets': ['button:has-text(""record"" i)']}] is not valid under any of the given schemas",0.0,"[{'action': 'click', 'targets': ['table:has-text(""order"" i) >> tr >> input[type=checkbox]']}, {'action': 'click', 'targets': ['table:has-text(""invoice"" i) >> tr >> input[type=checkbox]']}, {'action': 'click', 'targets': ['button:has-text(""match"" i)']}, {'action': 'click', 'targets': ['button:has-text(""record"" i)']}] is not valid under any of the given schemas",fail
+8fc9d168,0,0.5,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/8fc9d168_v0_t0_5.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+936aa3e5,0,0.5,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/936aa3e5_v0_t0_5.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+2bc72355,2,0.0,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/2bc72355_v2_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+9cebf902,1,0.0,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/9cebf902_v1_t0_0.json,1.0,ok,1.0,ok,strict
+85a846ff,0,0.5,llama3-8b-8192,GUI,groq_batch_rate_limited/llama3-8b-8192/85a846ff_v0_t0_5.json,1.0,ok,1.0,ok,strict
+8cc4a9e1,2,0.0,llama3-8b-8192,GUI,groq_batch_rate_limited/llama3-8b-8192/8cc4a9e1_v2_t0_0.json,0.0,"[{'action': 'click', 'target': 'button:has-text(""calculate"" i), button:has-text(""compute"" i)'}, {'action': 'click', 'target': 'input[name*=charge i]'}, {'action': 'type', 'target': 'input[name*=charge i]', 'value': 'price list'}, {'action': 'click', 'target': 'button:has-text(""save"" i)'}] is not valid under any of the given schemas",0.0,"[{'action': 'click', 'target': 'button:has-text(""calculate"" i), button:has-text(""compute"" i)'}, {'action': 'click', 'target': 'input[name*=charge i]'}, {'action': 'type', 'target': 'input[name*=charge i]', 'value': 'price list'}, {'action': 'click', 'target': 'button:has-text(""save"" i)'}] is not valid under any of the given schemas",fail
+7e365caf,2,0.5,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/7e365caf_v2_t0_5.json,1.0,ok,1.0,ok,strict
+f260aa25,1,0.0,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/f260aa25_v1_t0_0.json,1.0,ok,1.0,ok,strict
+9652a31e,2,0.5,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/9652a31e_v2_t0_5.json,1.0,ok,1.0,ok,strict
+07080553,0,0.0,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/07080553_v0_t0_0.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+ab599408,2,0.0,llama3-8b-8192,GUI,groq_batch_rate_limited/llama3-8b-8192/ab599408_v2_t0_0.json,0.0,"[{'action': 'click', 'target': 'input[placeholder*=search i]'}, {'action': 'click', 'target': 'button:has-text(""add item"" i)'}, {'action': 'set_value', 'target': 'input[name*=quantity i]', 'value': '1'}, {'action': 'click', 'target': 'button:has-text(""order"" i)'}] is not valid under any of the given schemas",0.0,"[{'action': 'click', 'target': 'input[placeholder*=search i]'}, {'action': 'click', 'target': 'button:has-text(""add item"" i)'}, {'action': 'set_value', 'target': 'input[name*=quantity i]', 'value': '1'}, {'action': 'click', 'target': 'button:has-text(""order"" i)'}] is not valid under any of the given schemas",fail
+25c9f684,0,0.5,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/25c9f684_v0_t0_5.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+0c07452f,2,0.5,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/0c07452f_v2_t0_5.json,1.0,ok,1.0,ok,strict
+2bc72355,0,0.5,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/2bc72355_v0_t0_5.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+85a846ff,2,0.0,llama3-8b-8192,GUI,groq_batch_rate_limited/llama3-8b-8192/85a846ff_v2_t0_0.json,1.0,ok,1.0,ok,strict
+dc35566b,1,0.5,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/dc35566b_v1_t0_5.json,1.0,ok,1.0,ok,strict
+47817359,2,0.5,llama3-8b-8192,GUI,groq_batch_rate_limited/llama3-8b-8192/47817359_v2_t0_5.json,0.0,"[{'type': 'click', 'selector': 'input[name*=account i]'}, {'type': 'type', 'selector': 'input[name*=amount i]', 'value': '100'}, {'type': 'type', 'selector': 'textarea[name*=memo i]', 'value': 'Test transaction'}, {'type': 'click', 'selector': 'button:has-text(""post"" i)'}] is not valid under any of the given schemas",0.0,"[{'type': 'click', 'selector': 'input[name*=account i]'}, {'type': 'type', 'selector': 'input[name*=amount i]', 'value': '100'}, {'type': 'type', 'selector': 'textarea[name*=memo i]', 'value': 'Test transaction'}, {'type': 'click', 'selector': 'button:has-text(""post"" i)'}] is not valid under any of the given schemas",fail
+1b64c419,1,0.0,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/1b64c419_v1_t0_0.json,1.0,ok,1.0,ok,strict
+bbf22c00,0,0.5,llama3-8b-8192,GUI,groq_batch_rate_limited/llama3-8b-8192/bbf22c00_v0_t0_5.json,1.0,ok,1.0,ok,strict
+a79efa23,1,0.0,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/a79efa23_v1_t0_0.json,1.0,ok,1.0,ok,strict
+8fc9d168,2,0.0,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/8fc9d168_v2_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+936aa3e5,2,0.0,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/936aa3e5_v2_t0_0.json,1.0,ok,1.0,ok,strict
+9652a31e,0,0.0,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/9652a31e_v0_t0_0.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+25c9f684,2,0.0,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/25c9f684_v2_t0_0.json,1.0,ok,1.0,ok,strict
+ab599408,0,0.5,llama3-8b-8192,GUI,groq_batch_rate_limited/llama3-8b-8192/ab599408_v0_t0_5.json,1.0,ok,1.0,ok,strict
+07080553,2,0.5,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/07080553_v2_t0_5.json,1.0,ok,1.0,ok,strict
+f6d74921,1,0.5,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/f6d74921_v1_t0_5.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+0c07452f,0,0.0,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/0c07452f_v0_t0_0.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+8cc4a9e1,0,0.5,llama3-8b-8192,GUI,groq_batch_rate_limited/llama3-8b-8192/8cc4a9e1_v0_t0_5.json,1.0,ok,1.0,ok,strict
+7e365caf,0,0.0,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/7e365caf_v0_t0_0.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+b4ec494d,1,0.5,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/b4ec494d_v1_t0_5.json,1.0,ok,1.0,ok,strict
+8fc9d168,1,0.5,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/8fc9d168_v1_t0_5.json,1.0,ok,1.0,ok,strict
+936aa3e5,1,0.5,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/936aa3e5_v1_t0_5.json,1.0,ok,1.0,ok,strict
+faa67d8f,0,0.5,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/faa67d8f_v0_t0_5.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+47817359,1,0.0,llama3-8b-8192,GUI,groq_batch_rate_limited/llama3-8b-8192/47817359_v1_t0_0.json,1.0,ok,1.0,ok,strict
+27910ee5,0,0.0,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/27910ee5_v0_t0_0.json,1.0,ok,1.0,ok,strict
+a79efa23,2,0.5,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/a79efa23_v2_t0_5.json,1.0,ok,1.0,ok,strict
+1b64c419,2,0.5,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/1b64c419_v2_t0_5.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+0dd1e9ca,0,0.0,llama3-8b-8192,GUI,groq_batch_rate_limited/llama3-8b-8192/0dd1e9ca_v0_t0_0.json,1.0,ok,1.0,ok,strict
+9cebf902,0,0.0,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/9cebf902_v0_t0_0.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+dc35566b,2,0.0,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/dc35566b_v2_t0_0.json,1.0,ok,1.0,ok,strict
+85a846ff,1,0.5,llama3-8b-8192,GUI,groq_batch_rate_limited/llama3-8b-8192/85a846ff_v1_t0_5.json,1.0,ok,1.0,ok,strict
+b4ec494d,2,0.0,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/b4ec494d_v2_t0_0.json,1.0,ok,1.0,ok,strict
+f260aa25,0,0.0,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/f260aa25_v0_t0_0.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+07080553,1,0.0,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/07080553_v1_t0_0.json,1.0,ok,1.0,ok,strict
+25c9f684,1,0.5,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/25c9f684_v1_t0_5.json,1.0,ok,1.0,ok,strict
+f6d74921,2,0.0,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/f6d74921_v2_t0_0.json,1.0,ok,1.0,ok,strict
+9cebf902,2,0.5,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/9cebf902_v2_t0_5.json,1.0,ok,1.0,ok,strict
+dc35566b,0,0.5,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/dc35566b_v0_t0_5.json,1.0,ok,1.0,ok,strict
+2bc72355,1,0.5,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/2bc72355_v1_t0_5.json,1.0,ok,1.0,ok,strict
+faa67d8f,2,0.0,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/faa67d8f_v2_t0_0.json,1.0,ok,1.0,ok,strict
+bbf22c00,1,0.5,llama3-8b-8192,GUI,groq_batch_rate_limited/llama3-8b-8192/bbf22c00_v1_t0_5.json,1.0,ok,1.0,ok,strict
+0dd1e9ca,2,0.5,llama3-8b-8192,GUI,groq_batch_rate_limited/llama3-8b-8192/0dd1e9ca_v2_t0_5.json,1.0,ok,1.0,ok,strict
+1b64c419,0,0.0,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/1b64c419_v0_t0_0.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+a79efa23,0,0.0,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/a79efa23_v0_t0_0.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+27910ee5,2,0.5,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/27910ee5_v2_t0_5.json,1.0,ok,1.0,ok,strict
+ab599408,1,0.5,llama3-8b-8192,GUI,groq_batch_rate_limited/llama3-8b-8192/ab599408_v1_t0_5.json,1.0,ok,1.0,ok,strict
+f6d74921,0,0.5,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/f6d74921_v0_t0_5.json,1.0,ok,1.0,ok,strict
+0c07452f,1,0.0,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/0c07452f_v1_t0_0.json,1.0,ok,1.0,ok,strict
+9652a31e,1,0.0,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/9652a31e_v1_t0_0.json,1.0,ok,1.0,ok,strict
+b4ec494d,0,0.5,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/b4ec494d_v0_t0_5.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+f260aa25,2,0.5,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/f260aa25_v2_t0_5.json,1.0,ok,1.0,ok,strict
+8cc4a9e1,1,0.5,llama3-8b-8192,GUI,groq_batch_rate_limited/llama3-8b-8192/8cc4a9e1_v1_t0_5.json,1.0,ok,1.0,ok,strict
+7e365caf,1,0.0,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/7e365caf_v1_t0_0.json,1.0,ok,1.0,ok,strict
+2bc72355,0,0.0,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/2bc72355_v0_t0_0.json,1.0,ok,1.0,ok,strict
+85a846ff,2,0.5,llama3-8b-8192,GUI,groq_batch_rate_limited/llama3-8b-8192/85a846ff_v2_t0_5.json,1.0,ok,1.0,ok,strict
+dc35566b,1,0.0,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/dc35566b_v1_t0_0.json,1.0,ok,1.0,ok,strict
+47817359,2,0.0,llama3-8b-8192,GUI,groq_batch_rate_limited/llama3-8b-8192/47817359_v2_t0_0.json,0.0,"[{'action': 'click', 'target': 'input[name*=account i]'}, {'action': 'type', 'target': 'input[name*=account i]', 'value': 'Account Name'}, {'action': 'click', 'target': 'input[name*=amount i]'}, {'action': 'type', 'target': 'input[name*=amount i]', 'value': '100.00'}, {'action': 'click', 'target': 'textarea[name*=memo i]'}, {'action': 'type', 'target': 'textarea[name*=memo i]', 'value': 'This is a memo'}, {'action': 'click', 'target': 'button:has-text(""post"" i)'}] is not valid under any of the given schemas",0.0,"[{'action': 'click', 'target': 'input[name*=account i]'}, {'action': 'type', 'target': 'input[name*=account i]', 'value': 'Account Name'}, {'action': 'click', 'target': 'input[name*=amount i]'}, {'action': 'type', 'target': 'input[name*=amount i]', 'value': '100.00'}, {'action': 'click', 'target': 'textarea[name*=memo i]'}, {'action': 'type', 'target': 'textarea[name*=memo i]', 'value': 'This is a memo'}, {'action': 'click', 'target': 'button:has-text(""post"" i)'}] is not valid under any of the given schemas",fail
+bbf22c00,0,0.0,llama3-8b-8192,GUI,groq_batch_rate_limited/llama3-8b-8192/bbf22c00_v0_t0_0.json,1.0,ok,1.0,ok,strict
+1b64c419,1,0.5,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/1b64c419_v1_t0_5.json,1.0,ok,1.0,ok,strict
+a79efa23,1,0.5,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/a79efa23_v1_t0_5.json,1.0,ok,1.0,ok,strict
+8fc9d168,2,0.5,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/8fc9d168_v2_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+936aa3e5,2,0.5,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/936aa3e5_v2_t0_5.json,1.0,ok,1.0,ok,strict
+9652a31e,0,0.5,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/9652a31e_v0_t0_5.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+ab599408,0,0.0,llama3-8b-8192,GUI,groq_batch_rate_limited/llama3-8b-8192/ab599408_v0_t0_0.json,1.0,ok,1.0,ok,strict
+25c9f684,2,0.5,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/25c9f684_v2_t0_5.json,1.0,ok,1.0,ok,strict
+07080553,2,0.0,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/07080553_v2_t0_0.json,1.0,ok,1.0,ok,strict
+f6d74921,1,0.0,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/f6d74921_v1_t0_0.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+0c07452f,0,0.5,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/0c07452f_v0_t0_5.json,1.0,ok,1.0,ok,strict
+8cc4a9e1,0,0.0,llama3-8b-8192,GUI,groq_batch_rate_limited/llama3-8b-8192/8cc4a9e1_v0_t0_0.json,1.0,ok,1.0,ok,strict
+7e365caf,0,0.5,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/7e365caf_v0_t0_5.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+b4ec494d,1,0.0,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/b4ec494d_v1_t0_0.json,1.0,ok,1.0,ok,strict
+faa67d8f,1,0.0,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/faa67d8f_v1_t0_0.json,1.0,ok,1.0,ok,strict
+47817359,0,0.5,llama3-8b-8192,GUI,groq_batch_rate_limited/llama3-8b-8192/47817359_v0_t0_5.json,1.0,ok,1.0,ok,strict
+27910ee5,1,0.5,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/27910ee5_v1_t0_5.json,1.0,ok,1.0,ok,strict
+bbf22c00,2,0.5,llama3-8b-8192,GUI,groq_batch_rate_limited/llama3-8b-8192/bbf22c00_v2_t0_5.json,0.0,"[{'type': 'click', 'selector': 'table:has-text(""order"" i) >> tr >> input[type=checkbox]'}, {'type': 'click', 'selector': 'table:has-text(""invoice"" i) >> tr >> input[type=checkbox]'}, {'type': 'click', 'selector': 'button:has-text(""match"" i)'}, {'type': 'click', 'selector': 'button:has-text(""record"" i)'}] is not valid under any of the given schemas",0.0,"[{'type': 'click', 'selector': 'table:has-text(""order"" i) >> tr >> input[type=checkbox]'}, {'type': 'click', 'selector': 'table:has-text(""invoice"" i) >> tr >> input[type=checkbox]'}, {'type': 'click', 'selector': 'button:has-text(""match"" i)'}, {'type': 'click', 'selector': 'button:has-text(""record"" i)'}] is not valid under any of the given schemas",fail
+0dd1e9ca,1,0.5,llama3-8b-8192,GUI,groq_batch_rate_limited/llama3-8b-8192/0dd1e9ca_v1_t0_5.json,1.0,ok,1.0,ok,strict
+8fc9d168,0,0.0,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/8fc9d168_v0_t0_0.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+936aa3e5,0,0.0,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/936aa3e5_v0_t0_0.json,1.0,ok,1.0,ok,strict
+2bc72355,2,0.5,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/2bc72355_v2_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+9cebf902,1,0.5,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/9cebf902_v1_t0_5.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+85a846ff,0,0.0,llama3-8b-8192,GUI,groq_batch_rate_limited/llama3-8b-8192/85a846ff_v0_t0_0.json,1.0,ok,1.0,ok,strict
+8cc4a9e1,2,0.5,llama3-8b-8192,GUI,groq_batch_rate_limited/llama3-8b-8192/8cc4a9e1_v2_t0_5.json,0.0,"[{'action': 'click', 'target': 'input[name*=space i]'}, {'action': 'type', 'target': 'input[name*=space i]', 'value': '100'}, {'action': 'click', 'target': 'input[name*=charge i]'}, {'action': 'type', 'target': 'input[name*=charge i]', 'value': '50'}, {'action': 'click', 'target': 'button:has-text(""calculate"" i)'}, {'action': 'wait', 'timeout': 3000}, {'action': 'click', 'target': 'button:has-text(""save"" i)'}] is not valid under any of the given schemas",0.0,"[{'action': 'click', 'target': 'input[name*=space i]'}, {'action': 'type', 'target': 'input[name*=space i]', 'value': '100'}, {'action': 'click', 'target': 'input[name*=charge i]'}, {'action': 'type', 'target': 'input[name*=charge i]', 'value': '50'}, {'action': 'click', 'target': 'button:has-text(""calculate"" i)'}, {'action': 'wait', 'timeout': 3000}, {'action': 'click', 'target': 'button:has-text(""save"" i)'}] is not valid under any of the given schemas",fail
+7e365caf,2,0.0,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/7e365caf_v2_t0_0.json,1.0,ok,1.0,ok,strict
+f260aa25,1,0.5,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/f260aa25_v1_t0_5.json,1.0,ok,1.0,ok,strict
+9652a31e,2,0.0,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/9652a31e_v2_t0_0.json,1.0,ok,1.0,ok,strict
+07080553,0,0.5,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/07080553_v0_t0_5.json,1.0,ok,1.0,ok,strict
+25c9f684,0,0.0,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/25c9f684_v0_t0_0.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+ab599408,2,0.5,llama3-8b-8192,GUI,groq_batch_rate_limited/llama3-8b-8192/ab599408_v2_t0_5.json,1.0,ok,1.0,ok,strict
+0c07452f,2,0.0,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/0c07452f_v2_t0_0.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+9cebf902,2,0.0,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/9cebf902_v2_t0_0.json,1.0,ok,1.0,ok,strict
+dc35566b,0,0.0,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/dc35566b_v0_t0_0.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+2bc72355,1,0.0,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/2bc72355_v1_t0_0.json,1.0,ok,1.0,ok,strict
+faa67d8f,2,0.5,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/faa67d8f_v2_t0_5.json,1.0,ok,1.0,ok,strict
+1b64c419,0,0.5,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/1b64c419_v0_t0_5.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+0dd1e9ca,2,0.0,llama3-8b-8192,GUI,groq_batch_rate_limited/llama3-8b-8192/0dd1e9ca_v2_t0_0.json,0.0,"[{'action': 'click', 'target': 'select[name*=report i]'}, {'action': 'click', 'target': 'button:has-text(""generate"" i)'}, {'action': 'click', 'target': 'button:has-text(""export"" i)'}, {'action': 'click', 'target': 'a:has-text(""download"" i)'}] is not valid under any of the given schemas",0.0,"[{'action': 'click', 'target': 'select[name*=report i]'}, {'action': 'click', 'target': 'button:has-text(""generate"" i)'}, {'action': 'click', 'target': 'button:has-text(""export"" i)'}, {'action': 'click', 'target': 'a:has-text(""download"" i)'}] is not valid under any of the given schemas",fail
+bbf22c00,1,0.0,llama3-8b-8192,GUI,groq_batch_rate_limited/llama3-8b-8192/bbf22c00_v1_t0_0.json,1.0,ok,1.0,ok,strict
+a79efa23,0,0.5,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/a79efa23_v0_t0_5.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+27910ee5,2,0.0,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/27910ee5_v2_t0_0.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+ab599408,1,0.0,llama3-8b-8192,GUI,groq_batch_rate_limited/llama3-8b-8192/ab599408_v1_t0_0.json,1.0,ok,1.0,ok,strict
+f6d74921,0,0.0,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/f6d74921_v0_t0_0.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+0c07452f,1,0.5,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/0c07452f_v1_t0_5.json,1.0,ok,1.0,ok,strict
+9652a31e,1,0.5,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/9652a31e_v1_t0_5.json,1.0,ok,1.0,ok,strict
+b4ec494d,0,0.0,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/b4ec494d_v0_t0_0.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+f260aa25,2,0.0,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/f260aa25_v2_t0_0.json,1.0,ok,1.0,ok,strict
+8cc4a9e1,1,0.0,llama3-8b-8192,GUI,groq_batch_rate_limited/llama3-8b-8192/8cc4a9e1_v1_t0_0.json,1.0,ok,1.0,ok,strict
+7e365caf,1,0.5,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/7e365caf_v1_t0_5.json,1.0,ok,1.0,ok,strict
+8fc9d168,1,0.0,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/8fc9d168_v1_t0_0.json,1.0,ok,1.0,ok,strict
+936aa3e5,1,0.0,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/936aa3e5_v1_t0_0.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+faa67d8f,0,0.0,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/faa67d8f_v0_t0_0.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+47817359,1,0.5,llama3-8b-8192,GUI,groq_batch_rate_limited/llama3-8b-8192/47817359_v1_t0_5.json,1.0,ok,1.0,ok,strict
+27910ee5,0,0.5,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/27910ee5_v0_t0_5.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+a79efa23,2,0.0,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/a79efa23_v2_t0_0.json,1.0,ok,1.0,ok,strict
+0dd1e9ca,0,0.5,llama3-8b-8192,GUI,groq_batch_rate_limited/llama3-8b-8192/0dd1e9ca_v0_t0_5.json,1.0,ok,1.0,ok,strict
+1b64c419,2,0.0,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/1b64c419_v2_t0_0.json,1.0,ok,1.0,ok,strict
+9cebf902,0,0.5,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/9cebf902_v0_t0_5.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+dc35566b,2,0.5,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/dc35566b_v2_t0_5.json,1.0,ok,1.0,ok,strict
+85a846ff,1,0.0,llama3-8b-8192,GUI,groq_batch_rate_limited/llama3-8b-8192/85a846ff_v1_t0_0.json,1.0,ok,1.0,ok,strict
+b4ec494d,2,0.5,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/b4ec494d_v2_t0_5.json,1.0,ok,1.0,ok,strict
+f260aa25,0,0.5,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/f260aa25_v0_t0_5.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+07080553,1,0.5,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/07080553_v1_t0_5.json,0.0,empty or missing block (strict),0.0,empty or missing block (rescued),fail
+25c9f684,1,0.0,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/25c9f684_v1_t0_0.json,1.0,ok,1.0,ok,strict
+f6d74921,2,0.5,llama3-8b-8192,TEXT,groq_batch_rate_limited/llama3-8b-8192/f6d74921_v2_t0_5.json,1.0,ok,1.0,ok,strict
+faa67d8f,1,0.5,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/faa67d8f_v1_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+47817359,0,0.0,claude-3-opus-20240229,GUI,anthropic/claude-3-opus-20240229/47817359_v0_t0_0.json,1.0,ok,1.0,ok,strict
+27910ee5,1,0.0,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/27910ee5_v1_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+0dd1e9ca,1,0.0,claude-3-opus-20240229,GUI,anthropic/claude-3-opus-20240229/0dd1e9ca_v1_t0_0.json,1.0,ok,1.0,ok,strict
+bbf22c00,2,0.0,claude-3-opus-20240229,GUI,anthropic/claude-3-opus-20240229/bbf22c00_v2_t0_0.json,1.0,ok,1.0,ok,strict
+8fc9d168,0,0.5,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/8fc9d168_v0_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+936aa3e5,0,0.5,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/936aa3e5_v0_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+2bc72355,2,0.0,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/2bc72355_v2_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+9cebf902,1,0.0,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/9cebf902_v1_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+85a846ff,0,0.5,claude-3-opus-20240229,GUI,anthropic/claude-3-opus-20240229/85a846ff_v0_t0_5.json,1.0,ok,1.0,ok,strict
+8cc4a9e1,2,0.0,claude-3-opus-20240229,GUI,anthropic/claude-3-opus-20240229/8cc4a9e1_v2_t0_0.json,1.0,ok,1.0,ok,strict
+7e365caf,2,0.5,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/7e365caf_v2_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+f260aa25,1,0.0,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/f260aa25_v1_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+9652a31e,2,0.5,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/9652a31e_v2_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+07080553,0,0.0,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/07080553_v0_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+ab599408,2,0.0,claude-3-opus-20240229,GUI,anthropic/claude-3-opus-20240229/ab599408_v2_t0_0.json,1.0,ok,1.0,ok,strict
+25c9f684,0,0.5,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/25c9f684_v0_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+0c07452f,2,0.5,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/0c07452f_v2_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+2bc72355,0,0.5,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/2bc72355_v0_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+85a846ff,2,0.0,claude-3-opus-20240229,GUI,anthropic/claude-3-opus-20240229/85a846ff_v2_t0_0.json,1.0,ok,1.0,ok,strict
+dc35566b,1,0.5,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/dc35566b_v1_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+47817359,2,0.5,claude-3-opus-20240229,GUI,anthropic/claude-3-opus-20240229/47817359_v2_t0_5.json,0.0,"[{'function': 'click', 'selector': 'input[name*=""account"" i]'}, {'function': 'fill', 'selector': 'input[name*=""amount"" i], input[type=number]', 'value': '{{amount}}'}, {'function': 'fill', 'selector': 'textarea[name*=""memo"" i]', 'value': '{{memo}}'}, {'function': 'click', 'selector': 'button:has-text(""post"" i), button:has-text(""save"" i)'}] is not valid under any of the given schemas",0.0,"[{'function': 'click', 'selector': 'input[name*=""account"" i]'}, {'function': 'fill', 'selector': 'input[name*=""amount"" i], input[type=number]', 'value': '{{amount}}'}, {'function': 'fill', 'selector': 'textarea[name*=""memo"" i]', 'value': '{{memo}}'}, {'function': 'click', 'selector': 'button:has-text(""post"" i), button:has-text(""save"" i)'}] is not valid under any of the given schemas",fail
+1b64c419,1,0.0,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/1b64c419_v1_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+bbf22c00,0,0.5,claude-3-opus-20240229,GUI,anthropic/claude-3-opus-20240229/bbf22c00_v0_t0_5.json,1.0,ok,1.0,ok,strict
+a79efa23,1,0.0,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/a79efa23_v1_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+8fc9d168,2,0.0,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/8fc9d168_v2_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+936aa3e5,2,0.0,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/936aa3e5_v2_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+9652a31e,0,0.0,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/9652a31e_v0_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+25c9f684,2,0.0,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/25c9f684_v2_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+ab599408,0,0.5,claude-3-opus-20240229,GUI,anthropic/claude-3-opus-20240229/ab599408_v0_t0_5.json,1.0,ok,1.0,ok,strict
+07080553,2,0.5,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/07080553_v2_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+f6d74921,1,0.5,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/f6d74921_v1_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+0c07452f,0,0.0,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/0c07452f_v0_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+8cc4a9e1,0,0.5,claude-3-opus-20240229,GUI,anthropic/claude-3-opus-20240229/8cc4a9e1_v0_t0_5.json,1.0,ok,1.0,ok,strict
+7e365caf,0,0.0,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/7e365caf_v0_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+b4ec494d,1,0.5,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/b4ec494d_v1_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+8fc9d168,1,0.5,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/8fc9d168_v1_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+936aa3e5,1,0.5,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/936aa3e5_v1_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+faa67d8f,0,0.5,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/faa67d8f_v0_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+47817359,1,0.0,claude-3-opus-20240229,GUI,anthropic/claude-3-opus-20240229/47817359_v1_t0_0.json,1.0,ok,1.0,ok,strict
+27910ee5,0,0.0,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/27910ee5_v0_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+a79efa23,2,0.5,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/a79efa23_v2_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+1b64c419,2,0.5,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/1b64c419_v2_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+0dd1e9ca,0,0.0,claude-3-opus-20240229,GUI,anthropic/claude-3-opus-20240229/0dd1e9ca_v0_t0_0.json,1.0,ok,1.0,ok,strict
+9cebf902,0,0.0,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/9cebf902_v0_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+dc35566b,2,0.0,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/dc35566b_v2_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+85a846ff,1,0.5,claude-3-opus-20240229,GUI,anthropic/claude-3-opus-20240229/85a846ff_v1_t0_5.json,1.0,ok,1.0,ok,strict
+b4ec494d,2,0.0,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/b4ec494d_v2_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+f260aa25,0,0.0,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/f260aa25_v0_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+07080553,1,0.0,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/07080553_v1_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+25c9f684,1,0.5,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/25c9f684_v1_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+f6d74921,2,0.0,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/f6d74921_v2_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+9cebf902,2,0.5,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/9cebf902_v2_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+dc35566b,0,0.5,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/dc35566b_v0_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+2bc72355,1,0.5,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/2bc72355_v1_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+faa67d8f,2,0.0,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/faa67d8f_v2_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+bbf22c00,1,0.5,claude-3-opus-20240229,GUI,anthropic/claude-3-opus-20240229/bbf22c00_v1_t0_5.json,1.0,ok,1.0,ok,strict
+0dd1e9ca,2,0.5,claude-3-opus-20240229,GUI,anthropic/claude-3-opus-20240229/0dd1e9ca_v2_t0_5.json,0.0,"[{'action': 'click', 'selector': 'select[name*=""report i""]', 'description': 'Select the type of report to generate from a dropdown'}, {'action': 'click', 'selector': 'button:has-text(""generate"" i)', 'description': 'Click the button to generate the selected report'}, {'action': 'click', 'selector': 'button:has-text(""export"" i)', 'description': 'Click the button to export the generated report'}, {'action': 'click', 'selector': 'a:has-text(""download"" i)', 'description': 'Click the link to download the exported report'}] is not valid under any of the given schemas",0.0,"[{'action': 'click', 'selector': 'select[name*=""report i""]', 'description': 'Select the type of report to generate from a dropdown'}, {'action': 'click', 'selector': 'button:has-text(""generate"" i)', 'description': 'Click the button to generate the selected report'}, {'action': 'click', 'selector': 'button:has-text(""export"" i)', 'description': 'Click the button to export the generated report'}, {'action': 'click', 'selector': 'a:has-text(""download"" i)', 'description': 'Click the link to download the exported report'}] is not valid under any of the given schemas",fail
+1b64c419,0,0.0,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/1b64c419_v0_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+a79efa23,0,0.0,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/a79efa23_v0_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+27910ee5,2,0.5,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/27910ee5_v2_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+ab599408,1,0.5,claude-3-opus-20240229,GUI,anthropic/claude-3-opus-20240229/ab599408_v1_t0_5.json,1.0,ok,1.0,ok,strict
+f6d74921,0,0.5,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/f6d74921_v0_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+0c07452f,1,0.0,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/0c07452f_v1_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+9652a31e,1,0.0,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/9652a31e_v1_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+b4ec494d,0,0.5,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/b4ec494d_v0_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+f260aa25,2,0.5,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/f260aa25_v2_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+8cc4a9e1,1,0.5,claude-3-opus-20240229,GUI,anthropic/claude-3-opus-20240229/8cc4a9e1_v1_t0_5.json,1.0,ok,1.0,ok,strict
+7e365caf,1,0.0,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/7e365caf_v1_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+2bc72355,0,0.0,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/2bc72355_v0_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+85a846ff,2,0.5,claude-3-opus-20240229,GUI,anthropic/claude-3-opus-20240229/85a846ff_v2_t0_5.json,0.0,"[{'action': 'click', 'selector': 'input[name*=""account i""]', 'description': 'Click on the account number input field'}, {'action': 'fill', 'selector': 'input[name*=""account i""]', 'value': '<account_number>', 'description': 'Enter the account number'}, {'action': 'click', 'selector': 'input[name*=""amount i""], input[type=""number""]', 'description': 'Click on the amount or ID number field'}, {'action': 'fill', 'selector': 'input[name*=""amount i""], input[type=""number""]', 'value': '<amount_or_id>', 'description': 'Enter the numerical amount or ID number'}, {'action': 'click', 'selector': 'textarea[name*=""memo i""]', 'description': 'Click on the memo text field'}, {'action': 'fill', 'selector': 'textarea[name*=""memo i""]', 'value': '<memo_text>', 'description': 'Enter the memo details'}, {'action': 'click', 'selector': 'button:has-text(""post"" i), button:has-text(""save"" i)', 'description': 'Click the post or save button to commit the record'}] is not valid under any of the given schemas",0.0,"[{'action': 'click', 'selector': 'input[name*=""account i""]', 'description': 'Click on the account number input field'}, {'action': 'fill', 'selector': 'input[name*=""account i""]', 'value': '<account_number>', 'description': 'Enter the account number'}, {'action': 'click', 'selector': 'input[name*=""amount i""], input[type=""number""]', 'description': 'Click on the amount or ID number field'}, {'action': 'fill', 'selector': 'input[name*=""amount i""], input[type=""number""]', 'value': '<amount_or_id>', 'description': 'Enter the numerical amount or ID number'}, {'action': 'click', 'selector': 'textarea[name*=""memo i""]', 'description': 'Click on the memo text field'}, {'action': 'fill', 'selector': 'textarea[name*=""memo i""]', 'value': '<memo_text>', 'description': 'Enter the memo details'}, {'action': 'click', 'selector': 'button:has-text(""post"" i), button:has-text(""save"" i)', 'description': 'Click the post or save button to commit the record'}] is not valid under any of the given schemas",fail
+dc35566b,1,0.0,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/dc35566b_v1_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+47817359,2,0.0,claude-3-opus-20240229,GUI,anthropic/claude-3-opus-20240229/47817359_v2_t0_0.json,0.0,"[{'function': 'click', 'selector': 'input[name*=""account"" i]'}, {'function': 'fill', 'selector': 'input[name*=""amount"" i], input[type=number]', 'value': '{{amount}}'}, {'function': 'fill', 'selector': 'textarea[name*=""memo"" i]', 'value': '{{memo}}'}, {'function': 'click', 'selector': 'button:has-text(""post"" i), button:has-text(""save"" i)'}] is not valid under any of the given schemas",0.0,"[{'function': 'click', 'selector': 'input[name*=""account"" i]'}, {'function': 'fill', 'selector': 'input[name*=""amount"" i], input[type=number]', 'value': '{{amount}}'}, {'function': 'fill', 'selector': 'textarea[name*=""memo"" i]', 'value': '{{memo}}'}, {'function': 'click', 'selector': 'button:has-text(""post"" i), button:has-text(""save"" i)'}] is not valid under any of the given schemas",fail
+bbf22c00,0,0.0,claude-3-opus-20240229,GUI,anthropic/claude-3-opus-20240229/bbf22c00_v0_t0_0.json,1.0,ok,1.0,ok,strict
+1b64c419,1,0.5,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/1b64c419_v1_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+a79efa23,1,0.5,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/a79efa23_v1_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+8fc9d168,2,0.5,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/8fc9d168_v2_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+936aa3e5,2,0.5,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/936aa3e5_v2_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+9652a31e,0,0.5,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/9652a31e_v0_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+ab599408,0,0.0,claude-3-opus-20240229,GUI,anthropic/claude-3-opus-20240229/ab599408_v0_t0_0.json,1.0,ok,1.0,ok,strict
+25c9f684,2,0.5,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/25c9f684_v2_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+07080553,2,0.0,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/07080553_v2_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+f6d74921,1,0.0,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/f6d74921_v1_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+0c07452f,0,0.5,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/0c07452f_v0_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+8cc4a9e1,0,0.0,claude-3-opus-20240229,GUI,anthropic/claude-3-opus-20240229/8cc4a9e1_v0_t0_0.json,1.0,ok,1.0,ok,strict
+7e365caf,0,0.5,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/7e365caf_v0_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+b4ec494d,1,0.0,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/b4ec494d_v1_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+faa67d8f,1,0.0,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/faa67d8f_v1_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+47817359,0,0.5,claude-3-opus-20240229,GUI,anthropic/claude-3-opus-20240229/47817359_v0_t0_5.json,1.0,ok,1.0,ok,strict
+27910ee5,1,0.5,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/27910ee5_v1_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+bbf22c00,2,0.5,claude-3-opus-20240229,GUI,anthropic/claude-3-opus-20240229/bbf22c00_v2_t0_5.json,1.0,ok,1.0,ok,strict
+0dd1e9ca,1,0.5,claude-3-opus-20240229,GUI,anthropic/claude-3-opus-20240229/0dd1e9ca_v1_t0_5.json,1.0,ok,1.0,ok,strict
+8fc9d168,0,0.0,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/8fc9d168_v0_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+936aa3e5,0,0.0,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/936aa3e5_v0_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+2bc72355,2,0.5,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/2bc72355_v2_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+9cebf902,1,0.5,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/9cebf902_v1_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+85a846ff,0,0.0,claude-3-opus-20240229,GUI,anthropic/claude-3-opus-20240229/85a846ff_v0_t0_0.json,1.0,ok,1.0,ok,strict
+8cc4a9e1,2,0.5,claude-3-opus-20240229,GUI,anthropic/claude-3-opus-20240229/8cc4a9e1_v2_t0_5.json,1.0,ok,1.0,ok,strict
+7e365caf,2,0.0,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/7e365caf_v2_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+f260aa25,1,0.5,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/f260aa25_v1_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+9652a31e,2,0.0,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/9652a31e_v2_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+07080553,0,0.5,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/07080553_v0_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+25c9f684,0,0.0,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/25c9f684_v0_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+ab599408,2,0.5,claude-3-opus-20240229,GUI,anthropic/claude-3-opus-20240229/ab599408_v2_t0_5.json,1.0,ok,1.0,ok,strict
+0c07452f,2,0.0,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/0c07452f_v2_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+9cebf902,2,0.0,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/9cebf902_v2_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+dc35566b,0,0.0,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/dc35566b_v0_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+2bc72355,1,0.0,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/2bc72355_v1_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+faa67d8f,2,0.5,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/faa67d8f_v2_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+1b64c419,0,0.5,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/1b64c419_v0_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+0dd1e9ca,2,0.0,claude-3-opus-20240229,GUI,anthropic/claude-3-opus-20240229/0dd1e9ca_v2_t0_0.json,0.0,"[{'action': 'click', 'selector': 'select[name*=""report"" i]', 'description': 'Select the type of report to generate from a dropdown'}, {'action': 'click', 'selector': 'button:has-text(""generate"" i)', 'description': 'Click the button to generate the selected report'}, {'action': 'click', 'selector': 'button:has-text(""export"" i)', 'description': 'Click the button to export the generated report'}, {'action': 'click', 'selector': 'a:has-text(""download"" i)', 'description': 'Click the link to download the exported report file'}] is not valid under any of the given schemas",0.0,"[{'action': 'click', 'selector': 'select[name*=""report"" i]', 'description': 'Select the type of report to generate from a dropdown'}, {'action': 'click', 'selector': 'button:has-text(""generate"" i)', 'description': 'Click the button to generate the selected report'}, {'action': 'click', 'selector': 'button:has-text(""export"" i)', 'description': 'Click the button to export the generated report'}, {'action': 'click', 'selector': 'a:has-text(""download"" i)', 'description': 'Click the link to download the exported report file'}] is not valid under any of the given schemas",fail
+bbf22c00,1,0.0,claude-3-opus-20240229,GUI,anthropic/claude-3-opus-20240229/bbf22c00_v1_t0_0.json,1.0,ok,1.0,ok,strict
+a79efa23,0,0.5,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/a79efa23_v0_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+27910ee5,2,0.0,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/27910ee5_v2_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+ab599408,1,0.0,claude-3-opus-20240229,GUI,anthropic/claude-3-opus-20240229/ab599408_v1_t0_0.json,1.0,ok,1.0,ok,strict
+f6d74921,0,0.0,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/f6d74921_v0_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+0c07452f,1,0.5,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/0c07452f_v1_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+9652a31e,1,0.5,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/9652a31e_v1_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+b4ec494d,0,0.0,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/b4ec494d_v0_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+f260aa25,2,0.0,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/f260aa25_v2_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+8cc4a9e1,1,0.0,claude-3-opus-20240229,GUI,anthropic/claude-3-opus-20240229/8cc4a9e1_v1_t0_0.json,1.0,ok,1.0,ok,strict
+7e365caf,1,0.5,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/7e365caf_v1_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+8fc9d168,1,0.0,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/8fc9d168_v1_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+936aa3e5,1,0.0,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/936aa3e5_v1_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+faa67d8f,0,0.0,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/faa67d8f_v0_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+47817359,1,0.5,claude-3-opus-20240229,GUI,anthropic/claude-3-opus-20240229/47817359_v1_t0_5.json,1.0,ok,1.0,ok,strict
+27910ee5,0,0.5,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/27910ee5_v0_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+a79efa23,2,0.0,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/a79efa23_v2_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+0dd1e9ca,0,0.5,claude-3-opus-20240229,GUI,anthropic/claude-3-opus-20240229/0dd1e9ca_v0_t0_5.json,1.0,ok,1.0,ok,strict
+1b64c419,2,0.0,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/1b64c419_v2_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+9cebf902,0,0.5,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/9cebf902_v0_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+dc35566b,2,0.5,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/dc35566b_v2_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+85a846ff,1,0.0,claude-3-opus-20240229,GUI,anthropic/claude-3-opus-20240229/85a846ff_v1_t0_0.json,1.0,ok,1.0,ok,strict
+b4ec494d,2,0.5,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/b4ec494d_v2_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+f260aa25,0,0.5,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/f260aa25_v0_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+07080553,1,0.5,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/07080553_v1_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+25c9f684,1,0.0,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/25c9f684_v1_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+f6d74921,2,0.5,claude-3-opus-20240229,TEXT,anthropic/claude-3-opus-20240229/f6d74921_v2_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+faa67d8f,1,0.5,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/faa67d8f_v1_t0_5.json,1.0,ok,1.0,ok,strict
+47817359,0,0.0,claude-3-5-sonnet-20240620,GUI,anthropic/claude-3-5-sonnet-20240620/47817359_v0_t0_0.json,1.0,ok,1.0,ok,strict
+27910ee5,1,0.0,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/27910ee5_v1_t0_0.json,1.0,ok,1.0,ok,strict
+0dd1e9ca,1,0.0,claude-3-5-sonnet-20240620,GUI,anthropic/claude-3-5-sonnet-20240620/0dd1e9ca_v1_t0_0.json,1.0,ok,1.0,ok,strict
+bbf22c00,2,0.0,claude-3-5-sonnet-20240620,GUI,anthropic/claude-3-5-sonnet-20240620/bbf22c00_v2_t0_0.json,1.0,ok,1.0,ok,strict
+8fc9d168,0,0.5,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/8fc9d168_v0_t0_5.json,1.0,ok,1.0,ok,strict
+936aa3e5,0,0.5,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/936aa3e5_v0_t0_5.json,1.0,ok,1.0,ok,strict
+2bc72355,2,0.0,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/2bc72355_v2_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+9cebf902,1,0.0,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/9cebf902_v1_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+85a846ff,0,0.5,claude-3-5-sonnet-20240620,GUI,anthropic/claude-3-5-sonnet-20240620/85a846ff_v0_t0_5.json,1.0,ok,1.0,ok,strict
+8cc4a9e1,2,0.0,claude-3-5-sonnet-20240620,GUI,anthropic/claude-3-5-sonnet-20240620/8cc4a9e1_v2_t0_0.json,0.0,"[{'action': 'find', 'selector': 'input[name*=space i], input[placeholder*=space i]', 'description': 'Find input field for entering space/volume'}, {'action': 'type', 'text': '1000', 'description': 'Enter sample space/volume value'}, {'action': 'find', 'selector': 'input[name*=charge i]', 'description': 'Find input field for entering charge rate'}, {'action': 'type', 'text': '5.50', 'description': 'Enter sample charge rate'}, {'action': 'click', 'selector': 'button:has-text(""calculate"" i), button:has-text(""compute"" i)', 'description': 'Click calculate/compute button'}, {'action': 'read', 'selector': 'output, #result, .total', 'description': 'Read calculated result'}, {'action': 'click', 'selector': 'button:has-text(""save"" i)', 'description': 'Click save button to store result'}] is not valid under any of the given schemas",0.0,"[{'action': 'find', 'selector': 'input[name*=space i], input[placeholder*=space i]', 'description': 'Find input field for entering space/volume'}, {'action': 'type', 'text': '1000', 'description': 'Enter sample space/volume value'}, {'action': 'find', 'selector': 'input[name*=charge i]', 'description': 'Find input field for entering charge rate'}, {'action': 'type', 'text': '5.50', 'description': 'Enter sample charge rate'}, {'action': 'click', 'selector': 'button:has-text(""calculate"" i), button:has-text(""compute"" i)', 'description': 'Click calculate/compute button'}, {'action': 'read', 'selector': 'output, #result, .total', 'description': 'Read calculated result'}, {'action': 'click', 'selector': 'button:has-text(""save"" i)', 'description': 'Click save button to store result'}] is not valid under any of the given schemas",fail
+7e365caf,2,0.5,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/7e365caf_v2_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+f260aa25,1,0.0,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/f260aa25_v1_t0_0.json,1.0,ok,1.0,ok,strict
+9652a31e,2,0.5,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/9652a31e_v2_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+07080553,0,0.0,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/07080553_v0_t0_0.json,1.0,ok,1.0,ok,strict
+ab599408,2,0.0,claude-3-5-sonnet-20240620,GUI,anthropic/claude-3-5-sonnet-20240620/ab599408_v2_t0_0.json,0.0,"[{'action': 'find', 'selector': 'input[placeholder*=search i]', 'description': 'Find the search input field'}, {'action': 'type', 'text': 'medical supplies', 'description': 'Enter search term for medical supplies'}, {'action': 'click', 'selector': 'button:has-text(""add item"" i)', 'description': 'Click button to add items to order'}, {'action': 'find', 'selector': 'input[name*=quantity i]', 'description': 'Find quantity input field'}, {'action': 'type', 'text': '10', 'description': 'Enter quantity of 10'}, {'action': 'click', 'selector': 'button:has-text(""order"" i), button:has-text(""submit"" i)', 'description': 'Click button to submit order'}] is not valid under any of the given schemas",0.0,"[{'action': 'find', 'selector': 'input[placeholder*=search i]', 'description': 'Find the search input field'}, {'action': 'type', 'text': 'medical supplies', 'description': 'Enter search term for medical supplies'}, {'action': 'click', 'selector': 'button:has-text(""add item"" i)', 'description': 'Click button to add items to order'}, {'action': 'find', 'selector': 'input[name*=quantity i]', 'description': 'Find quantity input field'}, {'action': 'type', 'text': '10', 'description': 'Enter quantity of 10'}, {'action': 'click', 'selector': 'button:has-text(""order"" i), button:has-text(""submit"" i)', 'description': 'Click button to submit order'}] is not valid under any of the given schemas",fail
+25c9f684,0,0.5,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/25c9f684_v0_t0_5.json,1.0,ok,1.0,ok,strict
+0c07452f,2,0.5,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/0c07452f_v2_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+2bc72355,0,0.5,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/2bc72355_v0_t0_5.json,1.0,ok,1.0,ok,strict
+85a846ff,2,0.0,claude-3-5-sonnet-20240620,GUI,anthropic/claude-3-5-sonnet-20240620/85a846ff_v2_t0_0.json,0.0,"[{'action': 'find', 'selector': 'input[name*=account i]', 'description': 'Find account input field'}, {'action': 'type', 'text': '{ACCOUNT_NUMBER}', 'description': 'Enter account number'}, {'action': 'find', 'selector': 'input[name*=amount i], input[type=number]', 'description': 'Find amount input field'}, {'action': 'type', 'text': '{AMOUNT}', 'description': 'Enter amount'}, {'action': 'find', 'selector': 'textarea[name*=memo i]', 'description': 'Find memo text area'}, {'action': 'type', 'text': '{MEMO_TEXT}', 'description': 'Enter memo text'}, {'action': 'find', 'selector': 'button:has-text(""post"" i), button:has-text(""save"" i)', 'description': 'Find post/save button'}, {'action': 'click', 'description': 'Click post/save button'}] is not valid under any of the given schemas",0.0,"[{'action': 'find', 'selector': 'input[name*=account i]', 'description': 'Find account input field'}, {'action': 'type', 'text': '{ACCOUNT_NUMBER}', 'description': 'Enter account number'}, {'action': 'find', 'selector': 'input[name*=amount i], input[type=number]', 'description': 'Find amount input field'}, {'action': 'type', 'text': '{AMOUNT}', 'description': 'Enter amount'}, {'action': 'find', 'selector': 'textarea[name*=memo i]', 'description': 'Find memo text area'}, {'action': 'type', 'text': '{MEMO_TEXT}', 'description': 'Enter memo text'}, {'action': 'find', 'selector': 'button:has-text(""post"" i), button:has-text(""save"" i)', 'description': 'Find post/save button'}, {'action': 'click', 'description': 'Click post/save button'}] is not valid under any of the given schemas",fail
+dc35566b,1,0.5,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/dc35566b_v1_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+47817359,2,0.5,claude-3-5-sonnet-20240620,GUI,anthropic/claude-3-5-sonnet-20240620/47817359_v2_t0_5.json,0.0,"[{'action': 'find', 'selector': 'input[name*=account i]', 'description': 'Find the account input field'}, {'action': 'type', 'selector': 'input[name*=account i]', 'text': '{ACCOUNT_NUMBER}', 'description': 'Enter the account number'}, {'action': 'find', 'selector': 'input[name*=amount i], input[type=number]', 'description': 'Find the amount input field'}, {'action': 'type', 'selector': 'input[name*=amount i], input[type=number]', 'text': '{TRANSACTION_AMOUNT}', 'description': 'Enter the transaction amount'}, {'action': 'find', 'selector': 'textarea[name*=memo i]', 'description': 'Find the memo text area'}, {'action': 'type', 'selector': 'textarea[name*=memo i]', 'text': '{TRANSACTION_DESCRIPTION}', 'description': 'Enter a description of the transaction'}, {'action': 'click', 'selector': 'button:has-text(""post"" i), button:has-text(""save"" i)', 'description': 'Click the post/save button to record the transaction'}] is not valid under any of the given schemas",0.0,"[{'action': 'find', 'selector': 'input[name*=account i]', 'description': 'Find the account input field'}, {'action': 'type', 'selector': 'input[name*=account i]', 'text': '{ACCOUNT_NUMBER}', 'description': 'Enter the account number'}, {'action': 'find', 'selector': 'input[name*=amount i], input[type=number]', 'description': 'Find the amount input field'}, {'action': 'type', 'selector': 'input[name*=amount i], input[type=number]', 'text': '{TRANSACTION_AMOUNT}', 'description': 'Enter the transaction amount'}, {'action': 'find', 'selector': 'textarea[name*=memo i]', 'description': 'Find the memo text area'}, {'action': 'type', 'selector': 'textarea[name*=memo i]', 'text': '{TRANSACTION_DESCRIPTION}', 'description': 'Enter a description of the transaction'}, {'action': 'click', 'selector': 'button:has-text(""post"" i), button:has-text(""save"" i)', 'description': 'Click the post/save button to record the transaction'}] is not valid under any of the given schemas",fail
+1b64c419,1,0.0,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/1b64c419_v1_t0_0.json,1.0,ok,1.0,ok,strict
+bbf22c00,0,0.5,claude-3-5-sonnet-20240620,GUI,anthropic/claude-3-5-sonnet-20240620/bbf22c00_v0_t0_5.json,1.0,ok,1.0,ok,strict
+a79efa23,1,0.0,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/a79efa23_v1_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+8fc9d168,2,0.0,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/8fc9d168_v2_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+936aa3e5,2,0.0,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/936aa3e5_v2_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+9652a31e,0,0.0,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/9652a31e_v0_t0_0.json,1.0,ok,1.0,ok,strict
+25c9f684,2,0.0,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/25c9f684_v2_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+ab599408,0,0.5,claude-3-5-sonnet-20240620,GUI,anthropic/claude-3-5-sonnet-20240620/ab599408_v0_t0_5.json,1.0,ok,1.0,ok,strict
+07080553,2,0.5,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/07080553_v2_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+f6d74921,1,0.5,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/f6d74921_v1_t0_5.json,1.0,ok,1.0,ok,strict
+0c07452f,0,0.0,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/0c07452f_v0_t0_0.json,1.0,ok,1.0,ok,strict
+8cc4a9e1,0,0.5,claude-3-5-sonnet-20240620,GUI,anthropic/claude-3-5-sonnet-20240620/8cc4a9e1_v0_t0_5.json,1.0,ok,1.0,ok,strict
+7e365caf,0,0.0,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/7e365caf_v0_t0_0.json,1.0,ok,1.0,ok,strict
+b4ec494d,1,0.5,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/b4ec494d_v1_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+8fc9d168,1,0.5,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/8fc9d168_v1_t0_5.json,1.0,ok,1.0,ok,strict
+936aa3e5,1,0.5,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/936aa3e5_v1_t0_5.json,1.0,ok,1.0,ok,strict
+faa67d8f,0,0.5,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/faa67d8f_v0_t0_5.json,1.0,ok,1.0,ok,strict
+47817359,1,0.0,claude-3-5-sonnet-20240620,GUI,anthropic/claude-3-5-sonnet-20240620/47817359_v1_t0_0.json,1.0,ok,1.0,ok,strict
+27910ee5,0,0.0,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/27910ee5_v0_t0_0.json,1.0,ok,1.0,ok,strict
+a79efa23,2,0.5,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/a79efa23_v2_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+1b64c419,2,0.5,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/1b64c419_v2_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+0dd1e9ca,0,0.0,claude-3-5-sonnet-20240620,GUI,anthropic/claude-3-5-sonnet-20240620/0dd1e9ca_v0_t0_0.json,1.0,ok,1.0,ok,strict
+9cebf902,0,0.0,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/9cebf902_v0_t0_0.json,1.0,ok,1.0,ok,strict
+dc35566b,2,0.0,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/dc35566b_v2_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+85a846ff,1,0.5,claude-3-5-sonnet-20240620,GUI,anthropic/claude-3-5-sonnet-20240620/85a846ff_v1_t0_5.json,1.0,ok,1.0,ok,strict
+b4ec494d,2,0.0,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/b4ec494d_v2_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+f260aa25,0,0.0,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/f260aa25_v0_t0_0.json,1.0,ok,1.0,ok,strict
+07080553,1,0.0,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/07080553_v1_t0_0.json,1.0,ok,1.0,ok,strict
+25c9f684,1,0.5,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/25c9f684_v1_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+f6d74921,2,0.0,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/f6d74921_v2_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+9cebf902,2,0.5,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/9cebf902_v2_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+dc35566b,0,0.5,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/dc35566b_v0_t0_5.json,1.0,ok,1.0,ok,strict
+2bc72355,1,0.5,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/2bc72355_v1_t0_5.json,1.0,ok,1.0,ok,strict
+faa67d8f,2,0.0,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/faa67d8f_v2_t0_0.json,1.0,ok,1.0,ok,strict
+bbf22c00,1,0.5,claude-3-5-sonnet-20240620,GUI,anthropic/claude-3-5-sonnet-20240620/bbf22c00_v1_t0_5.json,1.0,ok,1.0,ok,strict
+0dd1e9ca,2,0.5,claude-3-5-sonnet-20240620,GUI,anthropic/claude-3-5-sonnet-20240620/0dd1e9ca_v2_t0_5.json,0.0,"[{'action': 'click', 'selector': 'select[name*=report i]', 'value': None}, {'action': 'select', 'selector': 'select[name*=report i]', 'value': 'Executive Summary'}, {'action': 'click', 'selector': 'button:has-text(""generate"" i)', 'value': None}, {'action': 'wait', 'selector': None, 'value': 5000}, {'action': 'click', 'selector': 'button:has-text(""export"" i)', 'value': None}, {'action': 'click', 'selector': 'a:has-text(""download"" i)', 'value': None}] is not valid under any of the given schemas",0.0,"[{'action': 'click', 'selector': 'select[name*=report i]', 'value': None}, {'action': 'select', 'selector': 'select[name*=report i]', 'value': 'Executive Summary'}, {'action': 'click', 'selector': 'button:has-text(""generate"" i)', 'value': None}, {'action': 'wait', 'selector': None, 'value': 5000}, {'action': 'click', 'selector': 'button:has-text(""export"" i)', 'value': None}, {'action': 'click', 'selector': 'a:has-text(""download"" i)', 'value': None}] is not valid under any of the given schemas",fail
+1b64c419,0,0.0,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/1b64c419_v0_t0_0.json,1.0,ok,1.0,ok,strict
+a79efa23,0,0.0,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/a79efa23_v0_t0_0.json,1.0,ok,1.0,ok,strict
+27910ee5,2,0.5,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/27910ee5_v2_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+ab599408,1,0.5,claude-3-5-sonnet-20240620,GUI,anthropic/claude-3-5-sonnet-20240620/ab599408_v1_t0_5.json,1.0,ok,1.0,ok,strict
+f6d74921,0,0.5,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/f6d74921_v0_t0_5.json,1.0,ok,1.0,ok,strict
+0c07452f,1,0.0,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/0c07452f_v1_t0_0.json,1.0,ok,1.0,ok,strict
+9652a31e,1,0.0,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/9652a31e_v1_t0_0.json,1.0,ok,1.0,ok,strict
+b4ec494d,0,0.5,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/b4ec494d_v0_t0_5.json,1.0,ok,1.0,ok,strict
+f260aa25,2,0.5,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/f260aa25_v2_t0_5.json,1.0,ok,1.0,ok,strict
+8cc4a9e1,1,0.5,claude-3-5-sonnet-20240620,GUI,anthropic/claude-3-5-sonnet-20240620/8cc4a9e1_v1_t0_5.json,1.0,ok,1.0,ok,strict
+7e365caf,1,0.0,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/7e365caf_v1_t0_0.json,1.0,ok,1.0,ok,strict
+2bc72355,0,0.0,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/2bc72355_v0_t0_0.json,1.0,ok,1.0,ok,strict
+85a846ff,2,0.5,claude-3-5-sonnet-20240620,GUI,anthropic/claude-3-5-sonnet-20240620/85a846ff_v2_t0_5.json,0.0,"[{'action': 'find', 'selector': 'input[name*=account i]', 'description': 'Find account input field'}, {'action': 'type', 'text': '{ACCOUNT_NUMBER}', 'description': 'Enter account number'}, {'action': 'find', 'selector': 'input[name*=amount i], input[type=number]', 'description': 'Find amount input field'}, {'action': 'type', 'text': '{AMOUNT}', 'description': 'Enter amount'}, {'action': 'find', 'selector': 'textarea[name*=memo i]', 'description': 'Find memo text area'}, {'action': 'type', 'text': '{MEMO}', 'description': 'Enter memo details'}, {'action': 'find', 'selector': 'button:has-text(""post"" i), button:has-text(""save"" i)', 'description': 'Find post/save button'}, {'action': 'click', 'description': 'Click post/save button to submit record'}] is not valid under any of the given schemas",0.0,"[{'action': 'find', 'selector': 'input[name*=account i]', 'description': 'Find account input field'}, {'action': 'type', 'text': '{ACCOUNT_NUMBER}', 'description': 'Enter account number'}, {'action': 'find', 'selector': 'input[name*=amount i], input[type=number]', 'description': 'Find amount input field'}, {'action': 'type', 'text': '{AMOUNT}', 'description': 'Enter amount'}, {'action': 'find', 'selector': 'textarea[name*=memo i]', 'description': 'Find memo text area'}, {'action': 'type', 'text': '{MEMO}', 'description': 'Enter memo details'}, {'action': 'find', 'selector': 'button:has-text(""post"" i), button:has-text(""save"" i)', 'description': 'Find post/save button'}, {'action': 'click', 'description': 'Click post/save button to submit record'}] is not valid under any of the given schemas",fail
+dc35566b,1,0.0,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/dc35566b_v1_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+47817359,2,0.0,claude-3-5-sonnet-20240620,GUI,anthropic/claude-3-5-sonnet-20240620/47817359_v2_t0_0.json,0.0,"[{'action': 'find', 'selector': 'input[name*=account i]', 'description': 'Find account input field'}, {'action': 'type', 'value': '{ACCOUNT_NUMBER}', 'description': 'Enter account number'}, {'action': 'find', 'selector': 'input[name*=amount i], input[type=number]', 'description': 'Find amount input field'}, {'action': 'type', 'value': '{TRANSACTION_AMOUNT}', 'description': 'Enter transaction amount'}, {'action': 'find', 'selector': 'textarea[name*=memo i]', 'description': 'Find memo text area'}, {'action': 'type', 'value': '{TRANSACTION_DESCRIPTION}', 'description': 'Enter transaction description/memo'}, {'action': 'find', 'selector': 'button:has-text(""post"" i), button:has-text(""save"" i)', 'description': 'Find post/save button'}, {'action': 'click', 'description': 'Click post/save button to record transaction'}] is not valid under any of the given schemas",0.0,"[{'action': 'find', 'selector': 'input[name*=account i]', 'description': 'Find account input field'}, {'action': 'type', 'value': '{ACCOUNT_NUMBER}', 'description': 'Enter account number'}, {'action': 'find', 'selector': 'input[name*=amount i], input[type=number]', 'description': 'Find amount input field'}, {'action': 'type', 'value': '{TRANSACTION_AMOUNT}', 'description': 'Enter transaction amount'}, {'action': 'find', 'selector': 'textarea[name*=memo i]', 'description': 'Find memo text area'}, {'action': 'type', 'value': '{TRANSACTION_DESCRIPTION}', 'description': 'Enter transaction description/memo'}, {'action': 'find', 'selector': 'button:has-text(""post"" i), button:has-text(""save"" i)', 'description': 'Find post/save button'}, {'action': 'click', 'description': 'Click post/save button to record transaction'}] is not valid under any of the given schemas",fail
+bbf22c00,0,0.0,claude-3-5-sonnet-20240620,GUI,anthropic/claude-3-5-sonnet-20240620/bbf22c00_v0_t0_0.json,1.0,ok,1.0,ok,strict
+1b64c419,1,0.5,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/1b64c419_v1_t0_5.json,1.0,ok,1.0,ok,strict
+a79efa23,1,0.5,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/a79efa23_v1_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+8fc9d168,2,0.5,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/8fc9d168_v2_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+936aa3e5,2,0.5,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/936aa3e5_v2_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+9652a31e,0,0.5,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/9652a31e_v0_t0_5.json,1.0,ok,1.0,ok,strict
+ab599408,0,0.0,claude-3-5-sonnet-20240620,GUI,anthropic/claude-3-5-sonnet-20240620/ab599408_v0_t0_0.json,1.0,ok,1.0,ok,strict
+25c9f684,2,0.5,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/25c9f684_v2_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+07080553,2,0.0,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/07080553_v2_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+f6d74921,1,0.0,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/f6d74921_v1_t0_0.json,1.0,ok,1.0,ok,strict
+0c07452f,0,0.5,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/0c07452f_v0_t0_5.json,1.0,ok,1.0,ok,strict
+8cc4a9e1,0,0.0,claude-3-5-sonnet-20240620,GUI,anthropic/claude-3-5-sonnet-20240620/8cc4a9e1_v0_t0_0.json,1.0,ok,1.0,ok,strict
+7e365caf,0,0.5,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/7e365caf_v0_t0_5.json,1.0,ok,1.0,ok,strict
+b4ec494d,1,0.0,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/b4ec494d_v1_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+faa67d8f,1,0.0,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/faa67d8f_v1_t0_0.json,1.0,ok,1.0,ok,strict
+47817359,0,0.5,claude-3-5-sonnet-20240620,GUI,anthropic/claude-3-5-sonnet-20240620/47817359_v0_t0_5.json,1.0,ok,1.0,ok,strict
+27910ee5,1,0.5,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/27910ee5_v1_t0_5.json,1.0,ok,1.0,ok,strict
+bbf22c00,2,0.5,claude-3-5-sonnet-20240620,GUI,anthropic/claude-3-5-sonnet-20240620/bbf22c00_v2_t0_5.json,1.0,ok,1.0,ok,strict
+0dd1e9ca,1,0.5,claude-3-5-sonnet-20240620,GUI,anthropic/claude-3-5-sonnet-20240620/0dd1e9ca_v1_t0_5.json,1.0,ok,1.0,ok,strict
+8fc9d168,0,0.0,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/8fc9d168_v0_t0_0.json,1.0,ok,1.0,ok,strict
+936aa3e5,0,0.0,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/936aa3e5_v0_t0_0.json,1.0,ok,1.0,ok,strict
+2bc72355,2,0.5,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/2bc72355_v2_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+9cebf902,1,0.5,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/9cebf902_v1_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+85a846ff,0,0.0,claude-3-5-sonnet-20240620,GUI,anthropic/claude-3-5-sonnet-20240620/85a846ff_v0_t0_0.json,1.0,ok,1.0,ok,strict
+8cc4a9e1,2,0.5,claude-3-5-sonnet-20240620,GUI,anthropic/claude-3-5-sonnet-20240620/8cc4a9e1_v2_t0_5.json,0.0,"[{'action': 'find', 'selector': 'input[name*=space i], input[placeholder*=space i]', 'description': 'Find input field for entering space/volume'}, {'action': 'type', 'text': '1000', 'description': 'Enter sample space/volume value'}, {'action': 'find', 'selector': 'input[name*=charge i]', 'description': 'Find input field for entering charge rate'}, {'action': 'type', 'text': '5.50', 'description': 'Enter sample charge rate'}, {'action': 'click', 'selector': 'button:has-text(""calculate"" i), button:has-text(""compute"" i)', 'description': 'Click calculate/compute button'}, {'action': 'read', 'selector': 'output, #result, .total', 'description': 'Read calculated result'}, {'action': 'click', 'selector': 'button:has-text(""save"" i)', 'description': 'Click save button to store result'}] is not valid under any of the given schemas",0.0,"[{'action': 'find', 'selector': 'input[name*=space i], input[placeholder*=space i]', 'description': 'Find input field for entering space/volume'}, {'action': 'type', 'text': '1000', 'description': 'Enter sample space/volume value'}, {'action': 'find', 'selector': 'input[name*=charge i]', 'description': 'Find input field for entering charge rate'}, {'action': 'type', 'text': '5.50', 'description': 'Enter sample charge rate'}, {'action': 'click', 'selector': 'button:has-text(""calculate"" i), button:has-text(""compute"" i)', 'description': 'Click calculate/compute button'}, {'action': 'read', 'selector': 'output, #result, .total', 'description': 'Read calculated result'}, {'action': 'click', 'selector': 'button:has-text(""save"" i)', 'description': 'Click save button to store result'}] is not valid under any of the given schemas",fail
+7e365caf,2,0.0,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/7e365caf_v2_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+f260aa25,1,0.5,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/f260aa25_v1_t0_5.json,1.0,ok,1.0,ok,strict
+9652a31e,2,0.0,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/9652a31e_v2_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+07080553,0,0.5,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/07080553_v0_t0_5.json,1.0,ok,1.0,ok,strict
+25c9f684,0,0.0,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/25c9f684_v0_t0_0.json,1.0,ok,1.0,ok,strict
+ab599408,2,0.5,claude-3-5-sonnet-20240620,GUI,anthropic/claude-3-5-sonnet-20240620/ab599408_v2_t0_5.json,0.0,"[{'action': 'find', 'selector': 'input[placeholder*=search i]', 'human_step': 'Locate the search input field'}, {'action': 'type', 'text': 'medical supplies', 'human_step': ""Enter 'medical supplies' in the search field""}, {'action': 'find', 'selector': 'button:has-text(""add item"" i)', 'human_step': ""Find the 'Add Item' button""}, {'action': 'click', 'human_step': ""Click the 'Add Item' button to add supplies to the order""}, {'action': 'find', 'selector': 'input[name*=quantity i]', 'human_step': 'Locate the quantity input field'}, {'action': 'type', 'text': '10', 'human_step': 'Enter a quantity of 10'}, {'action': 'find', 'selector': 'button:has-text(""order"" i), button:has-text(""submit"" i)', 'human_step': ""Find the 'Order' or 'Submit' button""}, {'action': 'click', 'human_step': 'Click the button to submit the order'}] is not valid under any of the given schemas",0.0,"[{'action': 'find', 'selector': 'input[placeholder*=search i]', 'human_step': 'Locate the search input field'}, {'action': 'type', 'text': 'medical supplies', 'human_step': ""Enter 'medical supplies' in the search field""}, {'action': 'find', 'selector': 'button:has-text(""add item"" i)', 'human_step': ""Find the 'Add Item' button""}, {'action': 'click', 'human_step': ""Click the 'Add Item' button to add supplies to the order""}, {'action': 'find', 'selector': 'input[name*=quantity i]', 'human_step': 'Locate the quantity input field'}, {'action': 'type', 'text': '10', 'human_step': 'Enter a quantity of 10'}, {'action': 'find', 'selector': 'button:has-text(""order"" i), button:has-text(""submit"" i)', 'human_step': ""Find the 'Order' or 'Submit' button""}, {'action': 'click', 'human_step': 'Click the button to submit the order'}] is not valid under any of the given schemas",fail
+0c07452f,2,0.0,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/0c07452f_v2_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+9cebf902,2,0.0,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/9cebf902_v2_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+dc35566b,0,0.0,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/dc35566b_v0_t0_0.json,1.0,ok,1.0,ok,strict
+2bc72355,1,0.0,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/2bc72355_v1_t0_0.json,1.0,ok,1.0,ok,strict
+faa67d8f,2,0.5,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/faa67d8f_v2_t0_5.json,1.0,ok,1.0,ok,strict
+1b64c419,0,0.5,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/1b64c419_v0_t0_5.json,1.0,ok,1.0,ok,strict
+0dd1e9ca,2,0.0,claude-3-5-sonnet-20240620,GUI,anthropic/claude-3-5-sonnet-20240620/0dd1e9ca_v2_t0_0.json,0.0,"[{'action': 'click', 'selector': 'select[name*=report i]', 'value': None}, {'action': 'select', 'selector': 'select[name*=report i]', 'value': 'Executive Summary'}, {'action': 'click', 'selector': 'button:has-text(""generate"" i)', 'value': None}, {'action': 'wait', 'selector': None, 'value': 5000}, {'action': 'click', 'selector': 'button:has-text(""export"" i)', 'value': None}, {'action': 'click', 'selector': 'a:has-text(""download"" i)', 'value': None}] is not valid under any of the given schemas",0.0,"[{'action': 'click', 'selector': 'select[name*=report i]', 'value': None}, {'action': 'select', 'selector': 'select[name*=report i]', 'value': 'Executive Summary'}, {'action': 'click', 'selector': 'button:has-text(""generate"" i)', 'value': None}, {'action': 'wait', 'selector': None, 'value': 5000}, {'action': 'click', 'selector': 'button:has-text(""export"" i)', 'value': None}, {'action': 'click', 'selector': 'a:has-text(""download"" i)', 'value': None}] is not valid under any of the given schemas",fail
+bbf22c00,1,0.0,claude-3-5-sonnet-20240620,GUI,anthropic/claude-3-5-sonnet-20240620/bbf22c00_v1_t0_0.json,1.0,ok,1.0,ok,strict
+a79efa23,0,0.5,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/a79efa23_v0_t0_5.json,1.0,ok,1.0,ok,strict
+27910ee5,2,0.0,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/27910ee5_v2_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+ab599408,1,0.0,claude-3-5-sonnet-20240620,GUI,anthropic/claude-3-5-sonnet-20240620/ab599408_v1_t0_0.json,1.0,ok,1.0,ok,strict
+f6d74921,0,0.0,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/f6d74921_v0_t0_0.json,1.0,ok,1.0,ok,strict
+0c07452f,1,0.5,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/0c07452f_v1_t0_5.json,1.0,ok,1.0,ok,strict
+9652a31e,1,0.5,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/9652a31e_v1_t0_5.json,1.0,ok,1.0,ok,strict
+b4ec494d,0,0.0,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/b4ec494d_v0_t0_0.json,1.0,ok,1.0,ok,strict
+f260aa25,2,0.0,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/f260aa25_v2_t0_0.json,1.0,ok,1.0,ok,strict
+8cc4a9e1,1,0.0,claude-3-5-sonnet-20240620,GUI,anthropic/claude-3-5-sonnet-20240620/8cc4a9e1_v1_t0_0.json,1.0,ok,1.0,ok,strict
+7e365caf,1,0.5,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/7e365caf_v1_t0_5.json,1.0,ok,1.0,ok,strict
+8fc9d168,1,0.0,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/8fc9d168_v1_t0_0.json,1.0,ok,1.0,ok,strict
+936aa3e5,1,0.0,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/936aa3e5_v1_t0_0.json,1.0,ok,1.0,ok,strict
+faa67d8f,0,0.0,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/faa67d8f_v0_t0_0.json,1.0,ok,1.0,ok,strict
+47817359,1,0.5,claude-3-5-sonnet-20240620,GUI,anthropic/claude-3-5-sonnet-20240620/47817359_v1_t0_5.json,1.0,ok,1.0,ok,strict
+27910ee5,0,0.5,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/27910ee5_v0_t0_5.json,1.0,ok,1.0,ok,strict
+a79efa23,2,0.0,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/a79efa23_v2_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+0dd1e9ca,0,0.5,claude-3-5-sonnet-20240620,GUI,anthropic/claude-3-5-sonnet-20240620/0dd1e9ca_v0_t0_5.json,1.0,ok,1.0,ok,strict
+1b64c419,2,0.0,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/1b64c419_v2_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+9cebf902,0,0.5,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/9cebf902_v0_t0_5.json,1.0,ok,1.0,ok,strict
+dc35566b,2,0.5,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/dc35566b_v2_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+85a846ff,1,0.0,claude-3-5-sonnet-20240620,GUI,anthropic/claude-3-5-sonnet-20240620/85a846ff_v1_t0_0.json,1.0,ok,1.0,ok,strict
+b4ec494d,2,0.5,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/b4ec494d_v2_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+f260aa25,0,0.5,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/f260aa25_v0_t0_5.json,1.0,ok,1.0,ok,strict
+07080553,1,0.5,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/07080553_v1_t0_5.json,1.0,ok,1.0,ok,strict
+25c9f684,1,0.0,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/25c9f684_v1_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+f6d74921,2,0.5,claude-3-5-sonnet-20240620,TEXT,anthropic/claude-3-5-sonnet-20240620/f6d74921_v2_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+faa67d8f,1,0.5,gpt-4o,TEXT,openai/gpt-4o/faa67d8f_v1_t0_5.json,1.0,ok,1.0,ok,strict
+47817359,0,0.0,gpt-4o,GUI,openai/gpt-4o/47817359_v0_t0_0.json,1.0,ok,1.0,ok,strict
+27910ee5,1,0.0,gpt-4o,TEXT,openai/gpt-4o/27910ee5_v1_t0_0.json,1.0,ok,1.0,ok,strict
+0dd1e9ca,1,0.0,gpt-4o,GUI,openai/gpt-4o/0dd1e9ca_v1_t0_0.json,1.0,ok,1.0,ok,strict
+bbf22c00,2,0.0,gpt-4o,GUI,openai/gpt-4o/bbf22c00_v2_t0_0.json,1.0,ok,1.0,ok,strict
+8fc9d168,0,0.5,gpt-4o,TEXT,openai/gpt-4o/8fc9d168_v0_t0_5.json,1.0,ok,1.0,ok,strict
+936aa3e5,0,0.5,gpt-4o,TEXT,openai/gpt-4o/936aa3e5_v0_t0_5.json,1.0,ok,1.0,ok,strict
+2bc72355,2,0.0,gpt-4o,TEXT,openai/gpt-4o/2bc72355_v2_t0_0.json,1.0,ok,1.0,ok,strict
+9cebf902,1,0.0,gpt-4o,TEXT,openai/gpt-4o/9cebf902_v1_t0_0.json,1.0,ok,1.0,ok,strict
+85a846ff,0,0.5,gpt-4o,GUI,openai/gpt-4o/85a846ff_v0_t0_5.json,1.0,ok,1.0,ok,strict
+8cc4a9e1,2,0.0,gpt-4o,GUI,openai/gpt-4o/8cc4a9e1_v2_t0_0.json,0.0,{'error': 'unable'} is not valid under any of the given schemas,0.0,{'error': 'unable'} is not valid under any of the given schemas,fail
+7e365caf,2,0.5,gpt-4o,TEXT,openai/gpt-4o/7e365caf_v2_t0_5.json,1.0,ok,1.0,ok,strict
+f260aa25,1,0.0,gpt-4o,TEXT,openai/gpt-4o/f260aa25_v1_t0_0.json,1.0,ok,1.0,ok,strict
+9652a31e,2,0.5,gpt-4o,TEXT,openai/gpt-4o/9652a31e_v2_t0_5.json,1.0,ok,1.0,ok,strict
+07080553,0,0.0,gpt-4o,TEXT,openai/gpt-4o/07080553_v0_t0_0.json,1.0,ok,1.0,ok,strict
+ab599408,2,0.0,gpt-4o,GUI,openai/gpt-4o/ab599408_v2_t0_0.json,0.0,{'error': 'unable'} is not valid under any of the given schemas,0.0,{'error': 'unable'} is not valid under any of the given schemas,fail
+25c9f684,0,0.5,gpt-4o,TEXT,openai/gpt-4o/25c9f684_v0_t0_5.json,1.0,ok,1.0,ok,strict
+0c07452f,2,0.5,gpt-4o,TEXT,openai/gpt-4o/0c07452f_v2_t0_5.json,1.0,ok,1.0,ok,strict
+2bc72355,0,0.5,gpt-4o,TEXT,openai/gpt-4o/2bc72355_v0_t0_5.json,1.0,ok,1.0,ok,strict
+85a846ff,2,0.0,gpt-4o,GUI,openai/gpt-4o/85a846ff_v2_t0_0.json,0.0,{'error': 'unable'} is not valid under any of the given schemas,0.0,{'error': 'unable'} is not valid under any of the given schemas,fail
+dc35566b,1,0.5,gpt-4o,TEXT,openai/gpt-4o/dc35566b_v1_t0_5.json,1.0,ok,1.0,ok,strict
+47817359,2,0.5,gpt-4o,GUI,openai/gpt-4o/47817359_v2_t0_5.json,1.0,ok,1.0,ok,strict
+1b64c419,1,0.0,gpt-4o,TEXT,openai/gpt-4o/1b64c419_v1_t0_0.json,1.0,ok,1.0,ok,strict
+bbf22c00,0,0.5,gpt-4o,GUI,openai/gpt-4o/bbf22c00_v0_t0_5.json,1.0,ok,1.0,ok,strict
+a79efa23,1,0.0,gpt-4o,TEXT,openai/gpt-4o/a79efa23_v1_t0_0.json,1.0,ok,1.0,ok,strict
+8fc9d168,2,0.0,gpt-4o,TEXT,openai/gpt-4o/8fc9d168_v2_t0_0.json,1.0,ok,1.0,ok,strict
+936aa3e5,2,0.0,gpt-4o,TEXT,openai/gpt-4o/936aa3e5_v2_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+9652a31e,0,0.0,gpt-4o,TEXT,openai/gpt-4o/9652a31e_v0_t0_0.json,1.0,ok,1.0,ok,strict
+25c9f684,2,0.0,gpt-4o,TEXT,openai/gpt-4o/25c9f684_v2_t0_0.json,1.0,ok,1.0,ok,strict
+ab599408,0,0.5,gpt-4o,GUI,openai/gpt-4o/ab599408_v0_t0_5.json,1.0,ok,1.0,ok,strict
+07080553,2,0.5,gpt-4o,TEXT,openai/gpt-4o/07080553_v2_t0_5.json,1.0,ok,1.0,ok,strict
+f6d74921,1,0.5,gpt-4o,TEXT,openai/gpt-4o/f6d74921_v1_t0_5.json,1.0,ok,1.0,ok,strict
+0c07452f,0,0.0,gpt-4o,TEXT,openai/gpt-4o/0c07452f_v0_t0_0.json,1.0,ok,1.0,ok,strict
+8cc4a9e1,0,0.5,gpt-4o,GUI,openai/gpt-4o/8cc4a9e1_v0_t0_5.json,1.0,ok,1.0,ok,strict
+7e365caf,0,0.0,gpt-4o,TEXT,openai/gpt-4o/7e365caf_v0_t0_0.json,1.0,ok,1.0,ok,strict
+b4ec494d,1,0.5,gpt-4o,TEXT,openai/gpt-4o/b4ec494d_v1_t0_5.json,1.0,ok,1.0,ok,strict
+8fc9d168,1,0.5,gpt-4o,TEXT,openai/gpt-4o/8fc9d168_v1_t0_5.json,1.0,ok,1.0,ok,strict
+936aa3e5,1,0.5,gpt-4o,TEXT,openai/gpt-4o/936aa3e5_v1_t0_5.json,1.0,ok,1.0,ok,strict
+faa67d8f,0,0.5,gpt-4o,TEXT,openai/gpt-4o/faa67d8f_v0_t0_5.json,1.0,ok,1.0,ok,strict
+47817359,1,0.0,gpt-4o,GUI,openai/gpt-4o/47817359_v1_t0_0.json,1.0,ok,1.0,ok,strict
+27910ee5,0,0.0,gpt-4o,TEXT,openai/gpt-4o/27910ee5_v0_t0_0.json,1.0,ok,1.0,ok,strict
+a79efa23,2,0.5,gpt-4o,TEXT,openai/gpt-4o/a79efa23_v2_t0_5.json,1.0,ok,1.0,ok,strict
+1b64c419,2,0.5,gpt-4o,TEXT,openai/gpt-4o/1b64c419_v2_t0_5.json,1.0,ok,1.0,ok,strict
+0dd1e9ca,0,0.0,gpt-4o,GUI,openai/gpt-4o/0dd1e9ca_v0_t0_0.json,1.0,ok,1.0,ok,strict
+9cebf902,0,0.0,gpt-4o,TEXT,openai/gpt-4o/9cebf902_v0_t0_0.json,1.0,ok,1.0,ok,strict
+dc35566b,2,0.0,gpt-4o,TEXT,openai/gpt-4o/dc35566b_v2_t0_0.json,1.0,ok,1.0,ok,strict
+85a846ff,1,0.5,gpt-4o,GUI,openai/gpt-4o/85a846ff_v1_t0_5.json,1.0,ok,1.0,ok,strict
+b4ec494d,2,0.0,gpt-4o,TEXT,openai/gpt-4o/b4ec494d_v2_t0_0.json,1.0,ok,1.0,ok,strict
+f260aa25,0,0.0,gpt-4o,TEXT,openai/gpt-4o/f260aa25_v0_t0_0.json,1.0,ok,1.0,ok,strict
+07080553,1,0.0,gpt-4o,TEXT,openai/gpt-4o/07080553_v1_t0_0.json,1.0,ok,1.0,ok,strict
+25c9f684,1,0.5,gpt-4o,TEXT,openai/gpt-4o/25c9f684_v1_t0_5.json,1.0,ok,1.0,ok,strict
+f6d74921,2,0.0,gpt-4o,TEXT,openai/gpt-4o/f6d74921_v2_t0_0.json,1.0,ok,1.0,ok,strict
+9cebf902,2,0.5,gpt-4o,TEXT,openai/gpt-4o/9cebf902_v2_t0_5.json,1.0,ok,1.0,ok,strict
+dc35566b,0,0.5,gpt-4o,TEXT,openai/gpt-4o/dc35566b_v0_t0_5.json,1.0,ok,1.0,ok,strict
+2bc72355,1,0.5,gpt-4o,TEXT,openai/gpt-4o/2bc72355_v1_t0_5.json,1.0,ok,1.0,ok,strict
+faa67d8f,2,0.0,gpt-4o,TEXT,openai/gpt-4o/faa67d8f_v2_t0_0.json,1.0,ok,1.0,ok,strict
+bbf22c00,1,0.5,gpt-4o,GUI,openai/gpt-4o/bbf22c00_v1_t0_5.json,1.0,ok,1.0,ok,strict
+0dd1e9ca,2,0.5,gpt-4o,GUI,openai/gpt-4o/0dd1e9ca_v2_t0_5.json,0.0,"{'actions': [{'action': 'select', 'selector': 'select[name*=report i]', 'option': 'summary'}, {'action': 'click', 'selector': 'button:has-text(""generate"" i)'}, {'action': 'click', 'selector': 'button:has-text(""export"" i)'}, {'action': 'click', 'selector': 'a:has-text(""download"" i)'}]} is not valid under any of the given schemas",0.0,"{'actions': [{'action': 'select', 'selector': 'select[name*=report i]', 'option': 'summary'}, {'action': 'click', 'selector': 'button:has-text(""generate"" i)'}, {'action': 'click', 'selector': 'button:has-text(""export"" i)'}, {'action': 'click', 'selector': 'a:has-text(""download"" i)'}]} is not valid under any of the given schemas",fail
+1b64c419,0,0.0,gpt-4o,TEXT,openai/gpt-4o/1b64c419_v0_t0_0.json,1.0,ok,1.0,ok,strict
+a79efa23,0,0.0,gpt-4o,TEXT,openai/gpt-4o/a79efa23_v0_t0_0.json,1.0,ok,1.0,ok,strict
+27910ee5,2,0.5,gpt-4o,TEXT,openai/gpt-4o/27910ee5_v2_t0_5.json,1.0,ok,1.0,ok,strict
+ab599408,1,0.5,gpt-4o,GUI,openai/gpt-4o/ab599408_v1_t0_5.json,1.0,ok,1.0,ok,strict
+f6d74921,0,0.5,gpt-4o,TEXT,openai/gpt-4o/f6d74921_v0_t0_5.json,1.0,ok,1.0,ok,strict
+0c07452f,1,0.0,gpt-4o,TEXT,openai/gpt-4o/0c07452f_v1_t0_0.json,1.0,ok,1.0,ok,strict
+9652a31e,1,0.0,gpt-4o,TEXT,openai/gpt-4o/9652a31e_v1_t0_0.json,1.0,ok,1.0,ok,strict
+b4ec494d,0,0.5,gpt-4o,TEXT,openai/gpt-4o/b4ec494d_v0_t0_5.json,1.0,ok,1.0,ok,strict
+f260aa25,2,0.5,gpt-4o,TEXT,openai/gpt-4o/f260aa25_v2_t0_5.json,1.0,ok,1.0,ok,strict
+8cc4a9e1,1,0.5,gpt-4o,GUI,openai/gpt-4o/8cc4a9e1_v1_t0_5.json,1.0,ok,1.0,ok,strict
+7e365caf,1,0.0,gpt-4o,TEXT,openai/gpt-4o/7e365caf_v1_t0_0.json,1.0,ok,1.0,ok,strict
+2bc72355,0,0.0,gpt-4o,TEXT,openai/gpt-4o/2bc72355_v0_t0_0.json,1.0,ok,1.0,ok,strict
+85a846ff,2,0.5,gpt-4o,GUI,openai/gpt-4o/85a846ff_v2_t0_5.json,0.0,{'error': 'unable'} is not valid under any of the given schemas,0.0,{'error': 'unable'} is not valid under any of the given schemas,fail
+dc35566b,1,0.0,gpt-4o,TEXT,openai/gpt-4o/dc35566b_v1_t0_0.json,1.0,ok,1.0,ok,strict
+47817359,2,0.0,gpt-4o,GUI,openai/gpt-4o/47817359_v2_t0_0.json,0.0,"{'actions': [{'action': 'querySelector', 'selector': 'input[name*=account i]'}, {'action': 'type', 'text': 'Account Information'}, {'action': 'querySelector', 'selector': 'input[name*=amount i], input[type=number]'}, {'action': 'type', 'text': '1000'}, {'action': 'querySelector', 'selector': 'textarea[name*=memo i]'}, {'action': 'type', 'text': 'Transaction Memo'}, {'action': 'querySelector', 'selector': 'button:has-text(""post"" i), button:has-text(""save"" i)'}, {'action': 'click'}]} is not valid under any of the given schemas",0.0,"{'actions': [{'action': 'querySelector', 'selector': 'input[name*=account i]'}, {'action': 'type', 'text': 'Account Information'}, {'action': 'querySelector', 'selector': 'input[name*=amount i], input[type=number]'}, {'action': 'type', 'text': '1000'}, {'action': 'querySelector', 'selector': 'textarea[name*=memo i]'}, {'action': 'type', 'text': 'Transaction Memo'}, {'action': 'querySelector', 'selector': 'button:has-text(""post"" i), button:has-text(""save"" i)'}, {'action': 'click'}]} is not valid under any of the given schemas",fail
+bbf22c00,0,0.0,gpt-4o,GUI,openai/gpt-4o/bbf22c00_v0_t0_0.json,1.0,ok,1.0,ok,strict
+1b64c419,1,0.5,gpt-4o,TEXT,openai/gpt-4o/1b64c419_v1_t0_5.json,1.0,ok,1.0,ok,strict
+a79efa23,1,0.5,gpt-4o,TEXT,openai/gpt-4o/a79efa23_v1_t0_5.json,1.0,ok,1.0,ok,strict
+8fc9d168,2,0.5,gpt-4o,TEXT,openai/gpt-4o/8fc9d168_v2_t0_5.json,1.0,ok,1.0,ok,strict
+936aa3e5,2,0.5,gpt-4o,TEXT,openai/gpt-4o/936aa3e5_v2_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+9652a31e,0,0.5,gpt-4o,TEXT,openai/gpt-4o/9652a31e_v0_t0_5.json,1.0,ok,1.0,ok,strict
+ab599408,0,0.0,gpt-4o,GUI,openai/gpt-4o/ab599408_v0_t0_0.json,1.0,ok,1.0,ok,strict
+25c9f684,2,0.5,gpt-4o,TEXT,openai/gpt-4o/25c9f684_v2_t0_5.json,1.0,ok,1.0,ok,strict
+07080553,2,0.0,gpt-4o,TEXT,openai/gpt-4o/07080553_v2_t0_0.json,1.0,ok,1.0,ok,strict
+f6d74921,1,0.0,gpt-4o,TEXT,openai/gpt-4o/f6d74921_v1_t0_0.json,1.0,ok,1.0,ok,strict
+0c07452f,0,0.5,gpt-4o,TEXT,openai/gpt-4o/0c07452f_v0_t0_5.json,1.0,ok,1.0,ok,strict
+8cc4a9e1,0,0.0,gpt-4o,GUI,openai/gpt-4o/8cc4a9e1_v0_t0_0.json,1.0,ok,1.0,ok,strict
+7e365caf,0,0.5,gpt-4o,TEXT,openai/gpt-4o/7e365caf_v0_t0_5.json,1.0,ok,1.0,ok,strict
+b4ec494d,1,0.0,gpt-4o,TEXT,openai/gpt-4o/b4ec494d_v1_t0_0.json,1.0,ok,1.0,ok,strict
+faa67d8f,1,0.0,gpt-4o,TEXT,openai/gpt-4o/faa67d8f_v1_t0_0.json,1.0,ok,1.0,ok,strict
+47817359,0,0.5,gpt-4o,GUI,openai/gpt-4o/47817359_v0_t0_5.json,1.0,ok,1.0,ok,strict
+27910ee5,1,0.5,gpt-4o,TEXT,openai/gpt-4o/27910ee5_v1_t0_5.json,1.0,ok,1.0,ok,strict
+bbf22c00,2,0.5,gpt-4o,GUI,openai/gpt-4o/bbf22c00_v2_t0_5.json,0.0,"['table:has-text(""order"" i) >> tr >> input[type=checkbox]', 'table:has-text(""invoice"" i) >> tr >> input[type=checkbox]', 'button:has-text(""match"" i)', 'button:has-text(""record"" i)'] is not valid under any of the given schemas",0.0,"['table:has-text(""order"" i) >> tr >> input[type=checkbox]', 'table:has-text(""invoice"" i) >> tr >> input[type=checkbox]', 'button:has-text(""match"" i)', 'button:has-text(""record"" i)'] is not valid under any of the given schemas",fail
+0dd1e9ca,1,0.5,gpt-4o,GUI,openai/gpt-4o/0dd1e9ca_v1_t0_5.json,1.0,ok,1.0,ok,strict
+8fc9d168,0,0.0,gpt-4o,TEXT,openai/gpt-4o/8fc9d168_v0_t0_0.json,1.0,ok,1.0,ok,strict
+936aa3e5,0,0.0,gpt-4o,TEXT,openai/gpt-4o/936aa3e5_v0_t0_0.json,1.0,ok,1.0,ok,strict
+2bc72355,2,0.5,gpt-4o,TEXT,openai/gpt-4o/2bc72355_v2_t0_5.json,1.0,ok,1.0,ok,strict
+9cebf902,1,0.5,gpt-4o,TEXT,openai/gpt-4o/9cebf902_v1_t0_5.json,1.0,ok,1.0,ok,strict
+85a846ff,0,0.0,gpt-4o,GUI,openai/gpt-4o/85a846ff_v0_t0_0.json,1.0,ok,1.0,ok,strict
+8cc4a9e1,2,0.5,gpt-4o,GUI,openai/gpt-4o/8cc4a9e1_v2_t0_5.json,0.0,{'error': 'unable'} is not valid under any of the given schemas,0.0,{'error': 'unable'} is not valid under any of the given schemas,fail
+7e365caf,2,0.0,gpt-4o,TEXT,openai/gpt-4o/7e365caf_v2_t0_0.json,1.0,ok,1.0,ok,strict
+f260aa25,1,0.5,gpt-4o,TEXT,openai/gpt-4o/f260aa25_v1_t0_5.json,1.0,ok,1.0,ok,strict
+9652a31e,2,0.0,gpt-4o,TEXT,openai/gpt-4o/9652a31e_v2_t0_0.json,1.0,ok,1.0,ok,strict
+07080553,0,0.5,gpt-4o,TEXT,openai/gpt-4o/07080553_v0_t0_5.json,1.0,ok,1.0,ok,strict
+25c9f684,0,0.0,gpt-4o,TEXT,openai/gpt-4o/25c9f684_v0_t0_0.json,1.0,ok,1.0,ok,strict
+ab599408,2,0.5,gpt-4o,GUI,openai/gpt-4o/ab599408_v2_t0_5.json,0.0,{'error': 'unable'} is not valid under any of the given schemas,0.0,{'error': 'unable'} is not valid under any of the given schemas,fail
+0c07452f,2,0.0,gpt-4o,TEXT,openai/gpt-4o/0c07452f_v2_t0_0.json,1.0,ok,1.0,ok,strict
+9cebf902,2,0.0,gpt-4o,TEXT,openai/gpt-4o/9cebf902_v2_t0_0.json,1.0,ok,1.0,ok,strict
+dc35566b,0,0.0,gpt-4o,TEXT,openai/gpt-4o/dc35566b_v0_t0_0.json,1.0,ok,1.0,ok,strict
+2bc72355,1,0.0,gpt-4o,TEXT,openai/gpt-4o/2bc72355_v1_t0_0.json,1.0,ok,1.0,ok,strict
+faa67d8f,2,0.5,gpt-4o,TEXT,openai/gpt-4o/faa67d8f_v2_t0_5.json,1.0,ok,1.0,ok,strict
+1b64c419,0,0.5,gpt-4o,TEXT,openai/gpt-4o/1b64c419_v0_t0_5.json,1.0,ok,1.0,ok,strict
+0dd1e9ca,2,0.0,gpt-4o,GUI,openai/gpt-4o/0dd1e9ca_v2_t0_0.json,1.0,ok,1.0,ok,strict
+bbf22c00,1,0.0,gpt-4o,GUI,openai/gpt-4o/bbf22c00_v1_t0_0.json,1.0,ok,1.0,ok,strict
+a79efa23,0,0.5,gpt-4o,TEXT,openai/gpt-4o/a79efa23_v0_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+27910ee5,2,0.0,gpt-4o,TEXT,openai/gpt-4o/27910ee5_v2_t0_0.json,1.0,ok,1.0,ok,strict
+ab599408,1,0.0,gpt-4o,GUI,openai/gpt-4o/ab599408_v1_t0_0.json,1.0,ok,1.0,ok,strict
+f6d74921,0,0.0,gpt-4o,TEXT,openai/gpt-4o/f6d74921_v0_t0_0.json,1.0,ok,1.0,ok,strict
+0c07452f,1,0.5,gpt-4o,TEXT,openai/gpt-4o/0c07452f_v1_t0_5.json,1.0,ok,1.0,ok,strict
+9652a31e,1,0.5,gpt-4o,TEXT,openai/gpt-4o/9652a31e_v1_t0_5.json,1.0,ok,1.0,ok,strict
+b4ec494d,0,0.0,gpt-4o,TEXT,openai/gpt-4o/b4ec494d_v0_t0_0.json,1.0,ok,1.0,ok,strict
+f260aa25,2,0.0,gpt-4o,TEXT,openai/gpt-4o/f260aa25_v2_t0_0.json,1.0,ok,1.0,ok,strict
+8cc4a9e1,1,0.0,gpt-4o,GUI,openai/gpt-4o/8cc4a9e1_v1_t0_0.json,1.0,ok,1.0,ok,strict
+7e365caf,1,0.5,gpt-4o,TEXT,openai/gpt-4o/7e365caf_v1_t0_5.json,1.0,ok,1.0,ok,strict
+8fc9d168,1,0.0,gpt-4o,TEXT,openai/gpt-4o/8fc9d168_v1_t0_0.json,1.0,ok,1.0,ok,strict
+936aa3e5,1,0.0,gpt-4o,TEXT,openai/gpt-4o/936aa3e5_v1_t0_0.json,1.0,ok,1.0,ok,strict
+faa67d8f,0,0.0,gpt-4o,TEXT,openai/gpt-4o/faa67d8f_v0_t0_0.json,1.0,ok,1.0,ok,strict
+47817359,1,0.5,gpt-4o,GUI,openai/gpt-4o/47817359_v1_t0_5.json,1.0,ok,1.0,ok,strict
+27910ee5,0,0.5,gpt-4o,TEXT,openai/gpt-4o/27910ee5_v0_t0_5.json,1.0,ok,1.0,ok,strict
+a79efa23,2,0.0,gpt-4o,TEXT,openai/gpt-4o/a79efa23_v2_t0_0.json,1.0,ok,1.0,ok,strict
+0dd1e9ca,0,0.5,gpt-4o,GUI,openai/gpt-4o/0dd1e9ca_v0_t0_5.json,1.0,ok,1.0,ok,strict
+1b64c419,2,0.0,gpt-4o,TEXT,openai/gpt-4o/1b64c419_v2_t0_0.json,1.0,ok,1.0,ok,strict
+9cebf902,0,0.5,gpt-4o,TEXT,openai/gpt-4o/9cebf902_v0_t0_5.json,1.0,ok,1.0,ok,strict
+dc35566b,2,0.5,gpt-4o,TEXT,openai/gpt-4o/dc35566b_v2_t0_5.json,1.0,ok,1.0,ok,strict
+85a846ff,1,0.0,gpt-4o,GUI,openai/gpt-4o/85a846ff_v1_t0_0.json,1.0,ok,1.0,ok,strict
+b4ec494d,2,0.5,gpt-4o,TEXT,openai/gpt-4o/b4ec494d_v2_t0_5.json,1.0,ok,1.0,ok,strict
+f260aa25,0,0.5,gpt-4o,TEXT,openai/gpt-4o/f260aa25_v0_t0_5.json,1.0,ok,1.0,ok,strict
+07080553,1,0.5,gpt-4o,TEXT,openai/gpt-4o/07080553_v1_t0_5.json,1.0,ok,1.0,ok,strict
+25c9f684,1,0.0,gpt-4o,TEXT,openai/gpt-4o/25c9f684_v1_t0_0.json,1.0,ok,1.0,ok,strict
+f6d74921,2,0.5,gpt-4o,TEXT,openai/gpt-4o/f6d74921_v2_t0_5.json,1.0,ok,1.0,ok,strict
+faa67d8f,1,0.5,gpt-4.1,TEXT,openai/gpt-4-1/faa67d8f_v1_t0_5.json,1.0,ok,1.0,ok,strict
+47817359,0,0.0,gpt-4.1,GUI,openai/gpt-4-1/47817359_v0_t0_0.json,1.0,ok,1.0,ok,strict
+27910ee5,1,0.0,gpt-4.1,TEXT,openai/gpt-4-1/27910ee5_v1_t0_0.json,1.0,ok,1.0,ok,strict
+0dd1e9ca,1,0.0,gpt-4.1,GUI,openai/gpt-4-1/0dd1e9ca_v1_t0_0.json,1.0,ok,1.0,ok,strict
+bbf22c00,2,0.0,gpt-4.1,GUI,openai/gpt-4-1/bbf22c00_v2_t0_0.json,0.0,"['table:has-text(""order"" i) >> tr >> input[type=checkbox]', 'table:has-text(""invoice"" i) >> tr >> input[type=checkbox]', 'button:has-text(""match"" i)', 'button:has-text(""record"" i)'] is not valid under any of the given schemas",0.0,"['table:has-text(""order"" i) >> tr >> input[type=checkbox]', 'table:has-text(""invoice"" i) >> tr >> input[type=checkbox]', 'button:has-text(""match"" i)', 'button:has-text(""record"" i)'] is not valid under any of the given schemas",fail
+8fc9d168,0,0.5,gpt-4.1,TEXT,openai/gpt-4-1/8fc9d168_v0_t0_5.json,1.0,ok,1.0,ok,strict
+936aa3e5,0,0.5,gpt-4.1,TEXT,openai/gpt-4-1/936aa3e5_v0_t0_5.json,1.0,ok,1.0,ok,strict
+2bc72355,2,0.0,gpt-4.1,TEXT,openai/gpt-4-1/2bc72355_v2_t0_0.json,1.0,ok,1.0,ok,strict
+9cebf902,1,0.0,gpt-4.1,TEXT,openai/gpt-4-1/9cebf902_v1_t0_0.json,1.0,ok,1.0,ok,strict
+85a846ff,0,0.5,gpt-4.1,GUI,openai/gpt-4-1/85a846ff_v0_t0_5.json,0.0,no parsable JSON,1.0,ok,rescued
+8cc4a9e1,2,0.0,gpt-4.1,GUI,openai/gpt-4-1/8cc4a9e1_v2_t0_0.json,0.0,"['input[name*=space i]', 'input[name*=charge i]', 'button:has-text(""calculate"" i)'] is not valid under any of the given schemas",0.0,"['input[name*=space i]', 'input[name*=charge i]', 'button:has-text(""calculate"" i)'] is not valid under any of the given schemas",fail
+7e365caf,2,0.5,gpt-4.1,TEXT,openai/gpt-4-1/7e365caf_v2_t0_5.json,1.0,ok,1.0,ok,strict
+f260aa25,1,0.0,gpt-4.1,TEXT,openai/gpt-4-1/f260aa25_v1_t0_0.json,1.0,ok,1.0,ok,strict
+9652a31e,2,0.5,gpt-4.1,TEXT,openai/gpt-4-1/9652a31e_v2_t0_5.json,1.0,ok,1.0,ok,strict
+07080553,0,0.0,gpt-4.1,TEXT,openai/gpt-4-1/07080553_v0_t0_0.json,1.0,ok,1.0,ok,strict
+ab599408,2,0.0,gpt-4.1,GUI,openai/gpt-4-1/ab599408_v2_t0_0.json,0.0,"['input[placeholder*=search i]', 'button:has-text(""add item"" i)', 'input[name*=quantity i]', 'button:has-text(""order"" i), button:has-text(""submit"" i)'] is not valid under any of the given schemas",0.0,"['input[placeholder*=search i]', 'button:has-text(""add item"" i)', 'input[name*=quantity i]', 'button:has-text(""order"" i), button:has-text(""submit"" i)'] is not valid under any of the given schemas",fail
+25c9f684,0,0.5,gpt-4.1,TEXT,openai/gpt-4-1/25c9f684_v0_t0_5.json,1.0,ok,1.0,ok,strict
+0c07452f,2,0.5,gpt-4.1,TEXT,openai/gpt-4-1/0c07452f_v2_t0_5.json,1.0,ok,1.0,ok,strict
+2bc72355,0,0.5,gpt-4.1,TEXT,openai/gpt-4-1/2bc72355_v0_t0_5.json,1.0,ok,1.0,ok,strict
+85a846ff,2,0.0,gpt-4.1,GUI,openai/gpt-4-1/85a846ff_v2_t0_0.json,0.0,"['input[name*=account i]', 'input[name*=amount i], input[type=number]', 'textarea[name*=memo i]', 'button:has-text(""post"" i), button:has-text(""save"" i)'] is not valid under any of the given schemas",0.0,"['input[name*=account i]', 'input[name*=amount i], input[type=number]', 'textarea[name*=memo i]', 'button:has-text(""post"" i), button:has-text(""save"" i)'] is not valid under any of the given schemas",fail
+dc35566b,1,0.5,gpt-4.1,TEXT,openai/gpt-4-1/dc35566b_v1_t0_5.json,1.0,ok,1.0,ok,strict
+47817359,2,0.5,gpt-4.1,GUI,openai/gpt-4-1/47817359_v2_t0_5.json,0.0,"['input[name*=account i]', 'input[name*=amount i], input[type=number]', 'textarea[name*=memo i]', 'button:has-text(""post"" i), button:has-text(""save"" i)'] is not valid under any of the given schemas",0.0,"['input[name*=account i]', 'input[name*=amount i], input[type=number]', 'textarea[name*=memo i]', 'button:has-text(""post"" i), button:has-text(""save"" i)'] is not valid under any of the given schemas",fail
+1b64c419,1,0.0,gpt-4.1,TEXT,openai/gpt-4-1/1b64c419_v1_t0_0.json,1.0,ok,1.0,ok,strict
+bbf22c00,0,0.5,gpt-4.1,GUI,openai/gpt-4-1/bbf22c00_v0_t0_5.json,1.0,ok,1.0,ok,strict
+a79efa23,1,0.0,gpt-4.1,TEXT,openai/gpt-4-1/a79efa23_v1_t0_0.json,1.0,ok,1.0,ok,strict
+8fc9d168,2,0.0,gpt-4.1,TEXT,openai/gpt-4-1/8fc9d168_v2_t0_0.json,1.0,ok,1.0,ok,strict
+936aa3e5,2,0.0,gpt-4.1,TEXT,openai/gpt-4-1/936aa3e5_v2_t0_0.json,1.0,ok,1.0,ok,strict
+9652a31e,0,0.0,gpt-4.1,TEXT,openai/gpt-4-1/9652a31e_v0_t0_0.json,1.0,ok,1.0,ok,strict
+25c9f684,2,0.0,gpt-4.1,TEXT,openai/gpt-4-1/25c9f684_v2_t0_0.json,1.0,ok,1.0,ok,strict
+ab599408,0,0.5,gpt-4.1,GUI,openai/gpt-4-1/ab599408_v0_t0_5.json,1.0,ok,1.0,ok,strict
+07080553,2,0.5,gpt-4.1,TEXT,openai/gpt-4-1/07080553_v2_t0_5.json,1.0,ok,1.0,ok,strict
+f6d74921,1,0.5,gpt-4.1,TEXT,openai/gpt-4-1/f6d74921_v1_t0_5.json,1.0,ok,1.0,ok,strict
+0c07452f,0,0.0,gpt-4.1,TEXT,openai/gpt-4-1/0c07452f_v0_t0_0.json,1.0,ok,1.0,ok,strict
+8cc4a9e1,0,0.5,gpt-4.1,GUI,openai/gpt-4-1/8cc4a9e1_v0_t0_5.json,1.0,ok,1.0,ok,strict
+7e365caf,0,0.0,gpt-4.1,TEXT,openai/gpt-4-1/7e365caf_v0_t0_0.json,1.0,ok,1.0,ok,strict
+b4ec494d,1,0.5,gpt-4.1,TEXT,openai/gpt-4-1/b4ec494d_v1_t0_5.json,1.0,ok,1.0,ok,strict
+8fc9d168,1,0.5,gpt-4.1,TEXT,openai/gpt-4-1/8fc9d168_v1_t0_5.json,1.0,ok,1.0,ok,strict
+936aa3e5,1,0.5,gpt-4.1,TEXT,openai/gpt-4-1/936aa3e5_v1_t0_5.json,1.0,ok,1.0,ok,strict
+faa67d8f,0,0.5,gpt-4.1,TEXT,openai/gpt-4-1/faa67d8f_v0_t0_5.json,1.0,ok,1.0,ok,strict
+47817359,1,0.0,gpt-4.1,GUI,openai/gpt-4-1/47817359_v1_t0_0.json,1.0,ok,1.0,ok,strict
+27910ee5,0,0.0,gpt-4.1,TEXT,openai/gpt-4-1/27910ee5_v0_t0_0.json,1.0,ok,1.0,ok,strict
+a79efa23,2,0.5,gpt-4.1,TEXT,openai/gpt-4-1/a79efa23_v2_t0_5.json,1.0,ok,1.0,ok,strict
+1b64c419,2,0.5,gpt-4.1,TEXT,openai/gpt-4-1/1b64c419_v2_t0_5.json,1.0,ok,1.0,ok,strict
+0dd1e9ca,0,0.0,gpt-4.1,GUI,openai/gpt-4-1/0dd1e9ca_v0_t0_0.json,1.0,ok,1.0,ok,strict
+9cebf902,0,0.0,gpt-4.1,TEXT,openai/gpt-4-1/9cebf902_v0_t0_0.json,1.0,ok,1.0,ok,strict
+dc35566b,2,0.0,gpt-4.1,TEXT,openai/gpt-4-1/dc35566b_v2_t0_0.json,1.0,ok,1.0,ok,strict
+85a846ff,1,0.5,gpt-4.1,GUI,openai/gpt-4-1/85a846ff_v1_t0_5.json,1.0,ok,1.0,ok,strict
+b4ec494d,2,0.0,gpt-4.1,TEXT,openai/gpt-4-1/b4ec494d_v2_t0_0.json,1.0,ok,1.0,ok,strict
+f260aa25,0,0.0,gpt-4.1,TEXT,openai/gpt-4-1/f260aa25_v0_t0_0.json,1.0,ok,1.0,ok,strict
+07080553,1,0.0,gpt-4.1,TEXT,openai/gpt-4-1/07080553_v1_t0_0.json,1.0,ok,1.0,ok,strict
+25c9f684,1,0.5,gpt-4.1,TEXT,openai/gpt-4-1/25c9f684_v1_t0_5.json,1.0,ok,1.0,ok,strict
+f6d74921,2,0.0,gpt-4.1,TEXT,openai/gpt-4-1/f6d74921_v2_t0_0.json,1.0,ok,1.0,ok,strict
+9cebf902,2,0.5,gpt-4.1,TEXT,openai/gpt-4-1/9cebf902_v2_t0_5.json,1.0,ok,1.0,ok,strict
+dc35566b,0,0.5,gpt-4.1,TEXT,openai/gpt-4-1/dc35566b_v0_t0_5.json,1.0,ok,1.0,ok,strict
+2bc72355,1,0.5,gpt-4.1,TEXT,openai/gpt-4-1/2bc72355_v1_t0_5.json,1.0,ok,1.0,ok,strict
+faa67d8f,2,0.0,gpt-4.1,TEXT,openai/gpt-4-1/faa67d8f_v2_t0_0.json,1.0,ok,1.0,ok,strict
+bbf22c00,1,0.5,gpt-4.1,GUI,openai/gpt-4-1/bbf22c00_v1_t0_5.json,1.0,ok,1.0,ok,strict
+0dd1e9ca,2,0.5,gpt-4.1,GUI,openai/gpt-4-1/0dd1e9ca_v2_t0_5.json,0.0,"['select[name*=report i]', 'button:has-text(""generate"" i)', 'button:has-text(""export"" i)', 'a:has-text(""download"" i)'] is not valid under any of the given schemas",0.0,"['select[name*=report i]', 'button:has-text(""generate"" i)', 'button:has-text(""export"" i)', 'a:has-text(""download"" i)'] is not valid under any of the given schemas",fail
+1b64c419,0,0.0,gpt-4.1,TEXT,openai/gpt-4-1/1b64c419_v0_t0_0.json,1.0,ok,1.0,ok,strict
+a79efa23,0,0.0,gpt-4.1,TEXT,openai/gpt-4-1/a79efa23_v0_t0_0.json,1.0,ok,1.0,ok,strict
+27910ee5,2,0.5,gpt-4.1,TEXT,openai/gpt-4-1/27910ee5_v2_t0_5.json,1.0,ok,1.0,ok,strict
+ab599408,1,0.5,gpt-4.1,GUI,openai/gpt-4-1/ab599408_v1_t0_5.json,1.0,ok,1.0,ok,strict
+f6d74921,0,0.5,gpt-4.1,TEXT,openai/gpt-4-1/f6d74921_v0_t0_5.json,1.0,ok,1.0,ok,strict
+0c07452f,1,0.0,gpt-4.1,TEXT,openai/gpt-4-1/0c07452f_v1_t0_0.json,1.0,ok,1.0,ok,strict
+9652a31e,1,0.0,gpt-4.1,TEXT,openai/gpt-4-1/9652a31e_v1_t0_0.json,1.0,ok,1.0,ok,strict
+b4ec494d,0,0.5,gpt-4.1,TEXT,openai/gpt-4-1/b4ec494d_v0_t0_5.json,1.0,ok,1.0,ok,strict
+f260aa25,2,0.5,gpt-4.1,TEXT,openai/gpt-4-1/f260aa25_v2_t0_5.json,1.0,ok,1.0,ok,strict
+8cc4a9e1,1,0.5,gpt-4.1,GUI,openai/gpt-4-1/8cc4a9e1_v1_t0_5.json,1.0,ok,1.0,ok,strict
+7e365caf,1,0.0,gpt-4.1,TEXT,openai/gpt-4-1/7e365caf_v1_t0_0.json,1.0,ok,1.0,ok,strict
+2bc72355,0,0.0,gpt-4.1,TEXT,openai/gpt-4-1/2bc72355_v0_t0_0.json,1.0,ok,1.0,ok,strict
+85a846ff,2,0.5,gpt-4.1,GUI,openai/gpt-4-1/85a846ff_v2_t0_5.json,0.0,"['input[name*=account i]', 'input[name*=amount i], input[type=number]', 'textarea[name*=memo i]', 'button:has-text(""post"" i), button:has-text(""save"" i)'] is not valid under any of the given schemas",0.0,"['input[name*=account i]', 'input[name*=amount i], input[type=number]', 'textarea[name*=memo i]', 'button:has-text(""post"" i), button:has-text(""save"" i)'] is not valid under any of the given schemas",fail
+dc35566b,1,0.0,gpt-4.1,TEXT,openai/gpt-4-1/dc35566b_v1_t0_0.json,1.0,ok,1.0,ok,strict
+47817359,2,0.0,gpt-4.1,GUI,openai/gpt-4-1/47817359_v2_t0_0.json,0.0,"['input[name*=account i]', 'input[name*=amount i], input[type=number]', 'textarea[name*=memo i]', 'button:has-text(""post"" i), button:has-text(""save"" i)'] is not valid under any of the given schemas",0.0,"['input[name*=account i]', 'input[name*=amount i], input[type=number]', 'textarea[name*=memo i]', 'button:has-text(""post"" i), button:has-text(""save"" i)'] is not valid under any of the given schemas",fail
+bbf22c00,0,0.0,gpt-4.1,GUI,openai/gpt-4-1/bbf22c00_v0_t0_0.json,1.0,ok,1.0,ok,strict
+1b64c419,1,0.5,gpt-4.1,TEXT,openai/gpt-4-1/1b64c419_v1_t0_5.json,1.0,ok,1.0,ok,strict
+a79efa23,1,0.5,gpt-4.1,TEXT,openai/gpt-4-1/a79efa23_v1_t0_5.json,1.0,ok,1.0,ok,strict
+8fc9d168,2,0.5,gpt-4.1,TEXT,openai/gpt-4-1/8fc9d168_v2_t0_5.json,1.0,ok,1.0,ok,strict
+936aa3e5,2,0.5,gpt-4.1,TEXT,openai/gpt-4-1/936aa3e5_v2_t0_5.json,1.0,ok,1.0,ok,strict
+9652a31e,0,0.5,gpt-4.1,TEXT,openai/gpt-4-1/9652a31e_v0_t0_5.json,1.0,ok,1.0,ok,strict
+ab599408,0,0.0,gpt-4.1,GUI,openai/gpt-4-1/ab599408_v0_t0_0.json,1.0,ok,1.0,ok,strict
+25c9f684,2,0.5,gpt-4.1,TEXT,openai/gpt-4-1/25c9f684_v2_t0_5.json,1.0,ok,1.0,ok,strict
+07080553,2,0.0,gpt-4.1,TEXT,openai/gpt-4-1/07080553_v2_t0_0.json,1.0,ok,1.0,ok,strict
+f6d74921,1,0.0,gpt-4.1,TEXT,openai/gpt-4-1/f6d74921_v1_t0_0.json,1.0,ok,1.0,ok,strict
+0c07452f,0,0.5,gpt-4.1,TEXT,openai/gpt-4-1/0c07452f_v0_t0_5.json,1.0,ok,1.0,ok,strict
+8cc4a9e1,0,0.0,gpt-4.1,GUI,openai/gpt-4-1/8cc4a9e1_v0_t0_0.json,1.0,ok,1.0,ok,strict
+7e365caf,0,0.5,gpt-4.1,TEXT,openai/gpt-4-1/7e365caf_v0_t0_5.json,1.0,ok,1.0,ok,strict
+b4ec494d,1,0.0,gpt-4.1,TEXT,openai/gpt-4-1/b4ec494d_v1_t0_0.json,1.0,ok,1.0,ok,strict
+faa67d8f,1,0.0,gpt-4.1,TEXT,openai/gpt-4-1/faa67d8f_v1_t0_0.json,1.0,ok,1.0,ok,strict
+47817359,0,0.5,gpt-4.1,GUI,openai/gpt-4-1/47817359_v0_t0_5.json,1.0,ok,1.0,ok,strict
+27910ee5,1,0.5,gpt-4.1,TEXT,openai/gpt-4-1/27910ee5_v1_t0_5.json,1.0,ok,1.0,ok,strict
+bbf22c00,2,0.5,gpt-4.1,GUI,openai/gpt-4-1/bbf22c00_v2_t0_5.json,0.0,"['table:has-text(""order"" i) >> tr >> input[type=checkbox]', 'table:has-text(""invoice"" i) >> tr >> input[type=checkbox]', 'button:has-text(""match"" i)', 'button:has-text(""record"" i)'] is not valid under any of the given schemas",0.0,"['table:has-text(""order"" i) >> tr >> input[type=checkbox]', 'table:has-text(""invoice"" i) >> tr >> input[type=checkbox]', 'button:has-text(""match"" i)', 'button:has-text(""record"" i)'] is not valid under any of the given schemas",fail
+0dd1e9ca,1,0.5,gpt-4.1,GUI,openai/gpt-4-1/0dd1e9ca_v1_t0_5.json,1.0,ok,1.0,ok,strict
+8fc9d168,0,0.0,gpt-4.1,TEXT,openai/gpt-4-1/8fc9d168_v0_t0_0.json,1.0,ok,1.0,ok,strict
+936aa3e5,0,0.0,gpt-4.1,TEXT,openai/gpt-4-1/936aa3e5_v0_t0_0.json,1.0,ok,1.0,ok,strict
+2bc72355,2,0.5,gpt-4.1,TEXT,openai/gpt-4-1/2bc72355_v2_t0_5.json,1.0,ok,1.0,ok,strict
+9cebf902,1,0.5,gpt-4.1,TEXT,openai/gpt-4-1/9cebf902_v1_t0_5.json,1.0,ok,1.0,ok,strict
+85a846ff,0,0.0,gpt-4.1,GUI,openai/gpt-4-1/85a846ff_v0_t0_0.json,1.0,ok,1.0,ok,strict
+8cc4a9e1,2,0.5,gpt-4.1,GUI,openai/gpt-4-1/8cc4a9e1_v2_t0_5.json,0.0,"['input[name*=space i], input[placeholder*=space i]', 'input[name*=charge i]', 'button:has-text(""calculate"" i), button:has-text(""compute"" i)', 'button:has-text(""save"" i)'] is not valid under any of the given schemas",0.0,"['input[name*=space i], input[placeholder*=space i]', 'input[name*=charge i]', 'button:has-text(""calculate"" i), button:has-text(""compute"" i)', 'button:has-text(""save"" i)'] is not valid under any of the given schemas",fail
+7e365caf,2,0.0,gpt-4.1,TEXT,openai/gpt-4-1/7e365caf_v2_t0_0.json,1.0,ok,1.0,ok,strict
+f260aa25,1,0.5,gpt-4.1,TEXT,openai/gpt-4-1/f260aa25_v1_t0_5.json,1.0,ok,1.0,ok,strict
+9652a31e,2,0.0,gpt-4.1,TEXT,openai/gpt-4-1/9652a31e_v2_t0_0.json,1.0,ok,1.0,ok,strict
+07080553,0,0.5,gpt-4.1,TEXT,openai/gpt-4-1/07080553_v0_t0_5.json,1.0,ok,1.0,ok,strict
+25c9f684,0,0.0,gpt-4.1,TEXT,openai/gpt-4-1/25c9f684_v0_t0_0.json,1.0,ok,1.0,ok,strict
+ab599408,2,0.5,gpt-4.1,GUI,openai/gpt-4-1/ab599408_v2_t0_5.json,0.0,"['input[placeholder*=search i]', 'button:has-text(""add item"" i)', 'input[name*=quantity i]', 'button:has-text(""order"" i), button:has-text(""submit"" i)'] is not valid under any of the given schemas",0.0,"['input[placeholder*=search i]', 'button:has-text(""add item"" i)', 'input[name*=quantity i]', 'button:has-text(""order"" i), button:has-text(""submit"" i)'] is not valid under any of the given schemas",fail
+0c07452f,2,0.0,gpt-4.1,TEXT,openai/gpt-4-1/0c07452f_v2_t0_0.json,1.0,ok,1.0,ok,strict
+9cebf902,2,0.0,gpt-4.1,TEXT,openai/gpt-4-1/9cebf902_v2_t0_0.json,1.0,ok,1.0,ok,strict
+dc35566b,0,0.0,gpt-4.1,TEXT,openai/gpt-4-1/dc35566b_v0_t0_0.json,1.0,ok,1.0,ok,strict
+2bc72355,1,0.0,gpt-4.1,TEXT,openai/gpt-4-1/2bc72355_v1_t0_0.json,1.0,ok,1.0,ok,strict
+faa67d8f,2,0.5,gpt-4.1,TEXT,openai/gpt-4-1/faa67d8f_v2_t0_5.json,1.0,ok,1.0,ok,strict
+1b64c419,0,0.5,gpt-4.1,TEXT,openai/gpt-4-1/1b64c419_v0_t0_5.json,1.0,ok,1.0,ok,strict
+0dd1e9ca,2,0.0,gpt-4.1,GUI,openai/gpt-4-1/0dd1e9ca_v2_t0_0.json,0.0,"['select[name*=report i]', 'button:has-text(""generate"" i)', 'button:has-text(""export"" i)', 'a:has-text(""download"" i)'] is not valid under any of the given schemas",0.0,"['select[name*=report i]', 'button:has-text(""generate"" i)', 'button:has-text(""export"" i)', 'a:has-text(""download"" i)'] is not valid under any of the given schemas",fail
+bbf22c00,1,0.0,gpt-4.1,GUI,openai/gpt-4-1/bbf22c00_v1_t0_0.json,1.0,ok,1.0,ok,strict
+a79efa23,0,0.5,gpt-4.1,TEXT,openai/gpt-4-1/a79efa23_v0_t0_5.json,1.0,ok,1.0,ok,strict
+27910ee5,2,0.0,gpt-4.1,TEXT,openai/gpt-4-1/27910ee5_v2_t0_0.json,1.0,ok,1.0,ok,strict
+ab599408,1,0.0,gpt-4.1,GUI,openai/gpt-4-1/ab599408_v1_t0_0.json,1.0,ok,1.0,ok,strict
+f6d74921,0,0.0,gpt-4.1,TEXT,openai/gpt-4-1/f6d74921_v0_t0_0.json,1.0,ok,1.0,ok,strict
+0c07452f,1,0.5,gpt-4.1,TEXT,openai/gpt-4-1/0c07452f_v1_t0_5.json,1.0,ok,1.0,ok,strict
+9652a31e,1,0.5,gpt-4.1,TEXT,openai/gpt-4-1/9652a31e_v1_t0_5.json,1.0,ok,1.0,ok,strict
+b4ec494d,0,0.0,gpt-4.1,TEXT,openai/gpt-4-1/b4ec494d_v0_t0_0.json,1.0,ok,1.0,ok,strict
+f260aa25,2,0.0,gpt-4.1,TEXT,openai/gpt-4-1/f260aa25_v2_t0_0.json,1.0,ok,1.0,ok,strict
+8cc4a9e1,1,0.0,gpt-4.1,GUI,openai/gpt-4-1/8cc4a9e1_v1_t0_0.json,1.0,ok,1.0,ok,strict
+7e365caf,1,0.5,gpt-4.1,TEXT,openai/gpt-4-1/7e365caf_v1_t0_5.json,1.0,ok,1.0,ok,strict
+8fc9d168,1,0.0,gpt-4.1,TEXT,openai/gpt-4-1/8fc9d168_v1_t0_0.json,1.0,ok,1.0,ok,strict
+936aa3e5,1,0.0,gpt-4.1,TEXT,openai/gpt-4-1/936aa3e5_v1_t0_0.json,1.0,ok,1.0,ok,strict
+faa67d8f,0,0.0,gpt-4.1,TEXT,openai/gpt-4-1/faa67d8f_v0_t0_0.json,1.0,ok,1.0,ok,strict
+47817359,1,0.5,gpt-4.1,GUI,openai/gpt-4-1/47817359_v1_t0_5.json,1.0,ok,1.0,ok,strict
+27910ee5,0,0.5,gpt-4.1,TEXT,openai/gpt-4-1/27910ee5_v0_t0_5.json,1.0,ok,1.0,ok,strict
+a79efa23,2,0.0,gpt-4.1,TEXT,openai/gpt-4-1/a79efa23_v2_t0_0.json,1.0,ok,1.0,ok,strict
+0dd1e9ca,0,0.5,gpt-4.1,GUI,openai/gpt-4-1/0dd1e9ca_v0_t0_5.json,0.0,no parsable JSON,1.0,ok,rescued
+1b64c419,2,0.0,gpt-4.1,TEXT,openai/gpt-4-1/1b64c419_v2_t0_0.json,1.0,ok,1.0,ok,strict
+9cebf902,0,0.5,gpt-4.1,TEXT,openai/gpt-4-1/9cebf902_v0_t0_5.json,1.0,ok,1.0,ok,strict
+dc35566b,2,0.5,gpt-4.1,TEXT,openai/gpt-4-1/dc35566b_v2_t0_5.json,1.0,ok,1.0,ok,strict
+85a846ff,1,0.0,gpt-4.1,GUI,openai/gpt-4-1/85a846ff_v1_t0_0.json,1.0,ok,1.0,ok,strict
+b4ec494d,2,0.5,gpt-4.1,TEXT,openai/gpt-4-1/b4ec494d_v2_t0_5.json,1.0,ok,1.0,ok,strict
+f260aa25,0,0.5,gpt-4.1,TEXT,openai/gpt-4-1/f260aa25_v0_t0_5.json,1.0,ok,1.0,ok,strict
+07080553,1,0.5,gpt-4.1,TEXT,openai/gpt-4-1/07080553_v1_t0_5.json,1.0,ok,1.0,ok,strict
+25c9f684,1,0.0,gpt-4.1,TEXT,openai/gpt-4-1/25c9f684_v1_t0_0.json,1.0,ok,1.0,ok,strict
+f6d74921,2,0.5,gpt-4.1,TEXT,openai/gpt-4-1/f6d74921_v2_t0_5.json,1.0,ok,1.0,ok,strict
+faa67d8f,1,0.5,gpt-4,TEXT,openai/gpt-4/faa67d8f_v1_t0_5.json,1.0,ok,1.0,ok,strict
+47817359,0,0.0,gpt-4,GUI,openai/gpt-4/47817359_v0_t0_0.json,1.0,ok,1.0,ok,strict
+27910ee5,1,0.0,gpt-4,TEXT,openai/gpt-4/27910ee5_v1_t0_0.json,1.0,ok,1.0,ok,strict
+0dd1e9ca,1,0.0,gpt-4,GUI,openai/gpt-4/0dd1e9ca_v1_t0_0.json,1.0,ok,1.0,ok,strict
+bbf22c00,2,0.0,gpt-4,GUI,openai/gpt-4/bbf22c00_v2_t0_0.json,1.0,ok,1.0,ok,strict
+8fc9d168,0,0.5,gpt-4,TEXT,openai/gpt-4/8fc9d168_v0_t0_5.json,1.0,ok,1.0,ok,strict
+936aa3e5,0,0.5,gpt-4,TEXT,openai/gpt-4/936aa3e5_v0_t0_5.json,1.0,ok,1.0,ok,strict
+2bc72355,2,0.0,gpt-4,TEXT,openai/gpt-4/2bc72355_v2_t0_0.json,1.0,ok,1.0,ok,strict
+9cebf902,1,0.0,gpt-4,TEXT,openai/gpt-4/9cebf902_v1_t0_0.json,1.0,ok,1.0,ok,strict
+85a846ff,0,0.5,gpt-4,GUI,openai/gpt-4/85a846ff_v0_t0_5.json,1.0,ok,1.0,ok,strict
+8cc4a9e1,2,0.0,gpt-4,GUI,openai/gpt-4/8cc4a9e1_v2_t0_0.json,1.0,ok,1.0,ok,strict
+7e365caf,2,0.5,gpt-4,TEXT,openai/gpt-4/7e365caf_v2_t0_5.json,1.0,ok,1.0,ok,strict
+f260aa25,1,0.0,gpt-4,TEXT,openai/gpt-4/f260aa25_v1_t0_0.json,1.0,ok,1.0,ok,strict
+9652a31e,2,0.5,gpt-4,TEXT,openai/gpt-4/9652a31e_v2_t0_5.json,1.0,ok,1.0,ok,strict
+07080553,0,0.0,gpt-4,TEXT,openai/gpt-4/07080553_v0_t0_0.json,1.0,ok,1.0,ok,strict
+ab599408,2,0.0,gpt-4,GUI,openai/gpt-4/ab599408_v2_t0_0.json,1.0,ok,1.0,ok,strict
+25c9f684,0,0.5,gpt-4,TEXT,openai/gpt-4/25c9f684_v0_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+0c07452f,2,0.5,gpt-4,TEXT,openai/gpt-4/0c07452f_v2_t0_5.json,1.0,ok,1.0,ok,strict
+2bc72355,0,0.5,gpt-4,TEXT,openai/gpt-4/2bc72355_v0_t0_5.json,1.0,ok,1.0,ok,strict
+85a846ff,2,0.0,gpt-4,GUI,openai/gpt-4/85a846ff_v2_t0_0.json,1.0,ok,1.0,ok,strict
+dc35566b,1,0.5,gpt-4,TEXT,openai/gpt-4/dc35566b_v1_t0_5.json,1.0,ok,1.0,ok,strict
+47817359,2,0.5,gpt-4,GUI,openai/gpt-4/47817359_v2_t0_5.json,1.0,ok,1.0,ok,strict
+1b64c419,1,0.0,gpt-4,TEXT,openai/gpt-4/1b64c419_v1_t0_0.json,1.0,ok,1.0,ok,strict
+bbf22c00,0,0.5,gpt-4,GUI,openai/gpt-4/bbf22c00_v0_t0_5.json,1.0,ok,1.0,ok,strict
+a79efa23,1,0.0,gpt-4,TEXT,openai/gpt-4/a79efa23_v1_t0_0.json,1.0,ok,1.0,ok,strict
+8fc9d168,2,0.0,gpt-4,TEXT,openai/gpt-4/8fc9d168_v2_t0_0.json,1.0,ok,1.0,ok,strict
+936aa3e5,2,0.0,gpt-4,TEXT,openai/gpt-4/936aa3e5_v2_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+9652a31e,0,0.0,gpt-4,TEXT,openai/gpt-4/9652a31e_v0_t0_0.json,1.0,ok,1.0,ok,strict
+25c9f684,2,0.0,gpt-4,TEXT,openai/gpt-4/25c9f684_v2_t0_0.json,1.0,ok,1.0,ok,strict
+ab599408,0,0.5,gpt-4,GUI,openai/gpt-4/ab599408_v0_t0_5.json,1.0,ok,1.0,ok,strict
+07080553,2,0.5,gpt-4,TEXT,openai/gpt-4/07080553_v2_t0_5.json,1.0,ok,1.0,ok,strict
+f6d74921,1,0.5,gpt-4,TEXT,openai/gpt-4/f6d74921_v1_t0_5.json,1.0,ok,1.0,ok,strict
+0c07452f,0,0.0,gpt-4,TEXT,openai/gpt-4/0c07452f_v0_t0_0.json,1.0,ok,1.0,ok,strict
+8cc4a9e1,0,0.5,gpt-4,GUI,openai/gpt-4/8cc4a9e1_v0_t0_5.json,1.0,ok,1.0,ok,strict
+7e365caf,0,0.0,gpt-4,TEXT,openai/gpt-4/7e365caf_v0_t0_0.json,1.0,ok,1.0,ok,strict
+b4ec494d,1,0.5,gpt-4,TEXT,openai/gpt-4/b4ec494d_v1_t0_5.json,1.0,ok,1.0,ok,strict
+8fc9d168,1,0.5,gpt-4,TEXT,openai/gpt-4/8fc9d168_v1_t0_5.json,1.0,ok,1.0,ok,strict
+936aa3e5,1,0.5,gpt-4,TEXT,openai/gpt-4/936aa3e5_v1_t0_5.json,1.0,ok,1.0,ok,strict
+faa67d8f,0,0.5,gpt-4,TEXT,openai/gpt-4/faa67d8f_v0_t0_5.json,1.0,ok,1.0,ok,strict
+47817359,1,0.0,gpt-4,GUI,openai/gpt-4/47817359_v1_t0_0.json,1.0,ok,1.0,ok,strict
+27910ee5,0,0.0,gpt-4,TEXT,openai/gpt-4/27910ee5_v0_t0_0.json,1.0,ok,1.0,ok,strict
+a79efa23,2,0.5,gpt-4,TEXT,openai/gpt-4/a79efa23_v2_t0_5.json,1.0,ok,1.0,ok,strict
+1b64c419,2,0.5,gpt-4,TEXT,openai/gpt-4/1b64c419_v2_t0_5.json,1.0,ok,1.0,ok,strict
+0dd1e9ca,0,0.0,gpt-4,GUI,openai/gpt-4/0dd1e9ca_v0_t0_0.json,1.0,ok,1.0,ok,strict
+9cebf902,0,0.0,gpt-4,TEXT,openai/gpt-4/9cebf902_v0_t0_0.json,1.0,ok,1.0,ok,strict
+dc35566b,2,0.0,gpt-4,TEXT,openai/gpt-4/dc35566b_v2_t0_0.json,1.0,ok,1.0,ok,strict
+85a846ff,1,0.5,gpt-4,GUI,openai/gpt-4/85a846ff_v1_t0_5.json,1.0,ok,1.0,ok,strict
+b4ec494d,2,0.0,gpt-4,TEXT,openai/gpt-4/b4ec494d_v2_t0_0.json,1.0,ok,1.0,ok,strict
+f260aa25,0,0.0,gpt-4,TEXT,openai/gpt-4/f260aa25_v0_t0_0.json,1.0,ok,1.0,ok,strict
+07080553,1,0.0,gpt-4,TEXT,openai/gpt-4/07080553_v1_t0_0.json,1.0,ok,1.0,ok,strict
+25c9f684,1,0.5,gpt-4,TEXT,openai/gpt-4/25c9f684_v1_t0_5.json,1.0,ok,1.0,ok,strict
+f6d74921,2,0.0,gpt-4,TEXT,openai/gpt-4/f6d74921_v2_t0_0.json,1.0,ok,1.0,ok,strict
+9cebf902,2,0.5,gpt-4,TEXT,openai/gpt-4/9cebf902_v2_t0_5.json,1.0,ok,1.0,ok,strict
+dc35566b,0,0.5,gpt-4,TEXT,openai/gpt-4/dc35566b_v0_t0_5.json,1.0,ok,1.0,ok,strict
+2bc72355,1,0.5,gpt-4,TEXT,openai/gpt-4/2bc72355_v1_t0_5.json,1.0,ok,1.0,ok,strict
+faa67d8f,2,0.0,gpt-4,TEXT,openai/gpt-4/faa67d8f_v2_t0_0.json,1.0,ok,1.0,ok,strict
+bbf22c00,1,0.5,gpt-4,GUI,openai/gpt-4/bbf22c00_v1_t0_5.json,1.0,ok,1.0,ok,strict
+0dd1e9ca,2,0.5,gpt-4,GUI,openai/gpt-4/0dd1e9ca_v2_t0_5.json,0.0,"[{'action': 'run_script', 'parameters': {'javascript': ""document.querySelector('select[name*=report i]').value = 'standard';""}}, {'action': 'click', 'parameters': {'selector': 'button:has-text(""generate"" i)'}}, {'action': 'wait', 'parameters': {'timeout': 5000}}, {'action': 'click', 'parameters': {'selector': 'button:has-text(""export"" i)'}}, {'action': 'wait', 'parameters': {'timeout': 5000}}, {'action': 'click', 'parameters': {'selector': 'a:has-text(""download"" i)'}}] is not valid under any of the given schemas",0.0,"[{'action': 'run_script', 'parameters': {'javascript': ""document.querySelector('select[name*=report i]').value = 'standard';""}}, {'action': 'click', 'parameters': {'selector': 'button:has-text(""generate"" i)'}}, {'action': 'wait', 'parameters': {'timeout': 5000}}, {'action': 'click', 'parameters': {'selector': 'button:has-text(""export"" i)'}}, {'action': 'wait', 'parameters': {'timeout': 5000}}, {'action': 'click', 'parameters': {'selector': 'a:has-text(""download"" i)'}}] is not valid under any of the given schemas",fail
+1b64c419,0,0.0,gpt-4,TEXT,openai/gpt-4/1b64c419_v0_t0_0.json,1.0,ok,1.0,ok,strict
+a79efa23,0,0.0,gpt-4,TEXT,openai/gpt-4/a79efa23_v0_t0_0.json,1.0,ok,1.0,ok,strict
+27910ee5,2,0.5,gpt-4,TEXT,openai/gpt-4/27910ee5_v2_t0_5.json,1.0,ok,1.0,ok,strict
+ab599408,1,0.5,gpt-4,GUI,openai/gpt-4/ab599408_v1_t0_5.json,1.0,ok,1.0,ok,strict
+f6d74921,0,0.5,gpt-4,TEXT,openai/gpt-4/f6d74921_v0_t0_5.json,1.0,ok,1.0,ok,strict
+0c07452f,1,0.0,gpt-4,TEXT,openai/gpt-4/0c07452f_v1_t0_0.json,1.0,ok,1.0,ok,strict
+9652a31e,1,0.0,gpt-4,TEXT,openai/gpt-4/9652a31e_v1_t0_0.json,1.0,ok,1.0,ok,strict
+b4ec494d,0,0.5,gpt-4,TEXT,openai/gpt-4/b4ec494d_v0_t0_5.json,1.0,ok,1.0,ok,strict
+f260aa25,2,0.5,gpt-4,TEXT,openai/gpt-4/f260aa25_v2_t0_5.json,1.0,ok,1.0,ok,strict
+8cc4a9e1,1,0.5,gpt-4,GUI,openai/gpt-4/8cc4a9e1_v1_t0_5.json,1.0,ok,1.0,ok,strict
+7e365caf,1,0.0,gpt-4,TEXT,openai/gpt-4/7e365caf_v1_t0_0.json,1.0,ok,1.0,ok,strict
+2bc72355,0,0.0,gpt-4,TEXT,openai/gpt-4/2bc72355_v0_t0_0.json,1.0,ok,1.0,ok,strict
+85a846ff,2,0.5,gpt-4,GUI,openai/gpt-4/85a846ff_v2_t0_5.json,0.0,"[{'selector': 'input[name*=account i]', 'action': 'fill', 'content': 'Medical Records'}, {'selector': 'input[name*=amount i], input[type=number]', 'action': 'fill', 'content': '1'}, {'selector': 'textarea[name*=memo i]', 'action': 'fill', 'content': 'Maintaining medical records, technical library and correspondence files'}, {'selector': 'button:has-text(""post"" i), button:has-text(""save"" i)', 'action': 'click'}] is not valid under any of the given schemas",0.0,"[{'selector': 'input[name*=account i]', 'action': 'fill', 'content': 'Medical Records'}, {'selector': 'input[name*=amount i], input[type=number]', 'action': 'fill', 'content': '1'}, {'selector': 'textarea[name*=memo i]', 'action': 'fill', 'content': 'Maintaining medical records, technical library and correspondence files'}, {'selector': 'button:has-text(""post"" i), button:has-text(""save"" i)', 'action': 'click'}] is not valid under any of the given schemas",fail
+dc35566b,1,0.0,gpt-4,TEXT,openai/gpt-4/dc35566b_v1_t0_0.json,1.0,ok,1.0,ok,strict
+47817359,2,0.0,gpt-4,GUI,openai/gpt-4/47817359_v2_t0_0.json,1.0,ok,1.0,ok,strict
+bbf22c00,0,0.0,gpt-4,GUI,openai/gpt-4/bbf22c00_v0_t0_0.json,1.0,ok,1.0,ok,strict
+1b64c419,1,0.5,gpt-4,TEXT,openai/gpt-4/1b64c419_v1_t0_5.json,1.0,ok,1.0,ok,strict
+a79efa23,1,0.5,gpt-4,TEXT,openai/gpt-4/a79efa23_v1_t0_5.json,1.0,ok,1.0,ok,strict
+8fc9d168,2,0.5,gpt-4,TEXT,openai/gpt-4/8fc9d168_v2_t0_5.json,1.0,ok,1.0,ok,strict
+936aa3e5,2,0.5,gpt-4,TEXT,openai/gpt-4/936aa3e5_v2_t0_5.json,0.0,empty or missing block (strict),1.0,ok,rescued
+9652a31e,0,0.5,gpt-4,TEXT,openai/gpt-4/9652a31e_v0_t0_5.json,1.0,ok,1.0,ok,strict
+ab599408,0,0.0,gpt-4,GUI,openai/gpt-4/ab599408_v0_t0_0.json,1.0,ok,1.0,ok,strict
+25c9f684,2,0.5,gpt-4,TEXT,openai/gpt-4/25c9f684_v2_t0_5.json,1.0,ok,1.0,ok,strict
+07080553,2,0.0,gpt-4,TEXT,openai/gpt-4/07080553_v2_t0_0.json,1.0,ok,1.0,ok,strict
+f6d74921,1,0.0,gpt-4,TEXT,openai/gpt-4/f6d74921_v1_t0_0.json,1.0,ok,1.0,ok,strict
+0c07452f,0,0.5,gpt-4,TEXT,openai/gpt-4/0c07452f_v0_t0_5.json,1.0,ok,1.0,ok,strict
+8cc4a9e1,0,0.0,gpt-4,GUI,openai/gpt-4/8cc4a9e1_v0_t0_0.json,1.0,ok,1.0,ok,strict
+7e365caf,0,0.5,gpt-4,TEXT,openai/gpt-4/7e365caf_v0_t0_5.json,1.0,ok,1.0,ok,strict
+b4ec494d,1,0.0,gpt-4,TEXT,openai/gpt-4/b4ec494d_v1_t0_0.json,1.0,ok,1.0,ok,strict
+faa67d8f,1,0.0,gpt-4,TEXT,openai/gpt-4/faa67d8f_v1_t0_0.json,1.0,ok,1.0,ok,strict
+47817359,0,0.5,gpt-4,GUI,openai/gpt-4/47817359_v0_t0_5.json,1.0,ok,1.0,ok,strict
+27910ee5,1,0.5,gpt-4,TEXT,openai/gpt-4/27910ee5_v1_t0_5.json,1.0,ok,1.0,ok,strict
+bbf22c00,2,0.5,gpt-4,GUI,openai/gpt-4/bbf22c00_v2_t0_5.json,1.0,ok,1.0,ok,strict
+0dd1e9ca,1,0.5,gpt-4,GUI,openai/gpt-4/0dd1e9ca_v1_t0_5.json,1.0,ok,1.0,ok,strict
+8fc9d168,0,0.0,gpt-4,TEXT,openai/gpt-4/8fc9d168_v0_t0_0.json,1.0,ok,1.0,ok,strict
+936aa3e5,0,0.0,gpt-4,TEXT,openai/gpt-4/936aa3e5_v0_t0_0.json,1.0,ok,1.0,ok,strict
+2bc72355,2,0.5,gpt-4,TEXT,openai/gpt-4/2bc72355_v2_t0_5.json,1.0,ok,1.0,ok,strict
+9cebf902,1,0.5,gpt-4,TEXT,openai/gpt-4/9cebf902_v1_t0_5.json,1.0,ok,1.0,ok,strict
+85a846ff,0,0.0,gpt-4,GUI,openai/gpt-4/85a846ff_v0_t0_0.json,1.0,ok,1.0,ok,strict
+8cc4a9e1,2,0.5,gpt-4,GUI,openai/gpt-4/8cc4a9e1_v2_t0_5.json,0.0,"[{'action': 'fill', 'selectors': ['input[name*=space i], input[placeholder*=space i]'], 'value': '<space_available>'}, {'action': 'fill', 'selectors': ['input[name*=charge i]'], 'value': '<charge_amount>'}, {'action': 'click', 'selectors': ['button:has-text(""calculate"" i), button:has-text(""compute"" i)']}, {'action': 'click', 'selectors': ['button:has-text(""save"" i)']}] is not valid under any of the given schemas",0.0,"[{'action': 'fill', 'selectors': ['input[name*=space i], input[placeholder*=space i]'], 'value': '<space_available>'}, {'action': 'fill', 'selectors': ['input[name*=charge i]'], 'value': '<charge_amount>'}, {'action': 'click', 'selectors': ['button:has-text(""calculate"" i), button:has-text(""compute"" i)']}, {'action': 'click', 'selectors': ['button:has-text(""save"" i)']}] is not valid under any of the given schemas",fail
+7e365caf,2,0.0,gpt-4,TEXT,openai/gpt-4/7e365caf_v2_t0_0.json,1.0,ok,1.0,ok,strict
+f260aa25,1,0.5,gpt-4,TEXT,openai/gpt-4/f260aa25_v1_t0_5.json,1.0,ok,1.0,ok,strict
+9652a31e,2,0.0,gpt-4,TEXT,openai/gpt-4/9652a31e_v2_t0_0.json,1.0,ok,1.0,ok,strict
+07080553,0,0.5,gpt-4,TEXT,openai/gpt-4/07080553_v0_t0_5.json,1.0,ok,1.0,ok,strict
+25c9f684,0,0.0,gpt-4,TEXT,openai/gpt-4/25c9f684_v0_t0_0.json,0.0,empty or missing block (strict),1.0,ok,rescued
+ab599408,2,0.5,gpt-4,GUI,openai/gpt-4/ab599408_v2_t0_5.json,1.0,ok,1.0,ok,strict
+0c07452f,2,0.0,gpt-4,TEXT,openai/gpt-4/0c07452f_v2_t0_0.json,1.0,ok,1.0,ok,strict
+9cebf902,2,0.0,gpt-4,TEXT,openai/gpt-4/9cebf902_v2_t0_0.json,1.0,ok,1.0,ok,strict
+dc35566b,0,0.0,gpt-4,TEXT,openai/gpt-4/dc35566b_v0_t0_0.json,1.0,ok,1.0,ok,strict
+2bc72355,1,0.0,gpt-4,TEXT,openai/gpt-4/2bc72355_v1_t0_0.json,1.0,ok,1.0,ok,strict
+faa67d8f,2,0.5,gpt-4,TEXT,openai/gpt-4/faa67d8f_v2_t0_5.json,1.0,ok,1.0,ok,strict
+1b64c419,0,0.5,gpt-4,TEXT,openai/gpt-4/1b64c419_v0_t0_5.json,1.0,ok,1.0,ok,strict
+0dd1e9ca,2,0.0,gpt-4,GUI,openai/gpt-4/0dd1e9ca_v2_t0_0.json,1.0,ok,1.0,ok,strict
+bbf22c00,1,0.0,gpt-4,GUI,openai/gpt-4/bbf22c00_v1_t0_0.json,1.0,ok,1.0,ok,strict
+a79efa23,0,0.5,gpt-4,TEXT,openai/gpt-4/a79efa23_v0_t0_5.json,1.0,ok,1.0,ok,strict
+27910ee5,2,0.0,gpt-4,TEXT,openai/gpt-4/27910ee5_v2_t0_0.json,1.0,ok,1.0,ok,strict
+ab599408,1,0.0,gpt-4,GUI,openai/gpt-4/ab599408_v1_t0_0.json,1.0,ok,1.0,ok,strict
+f6d74921,0,0.0,gpt-4,TEXT,openai/gpt-4/f6d74921_v0_t0_0.json,1.0,ok,1.0,ok,strict
+0c07452f,1,0.5,gpt-4,TEXT,openai/gpt-4/0c07452f_v1_t0_5.json,1.0,ok,1.0,ok,strict
+9652a31e,1,0.5,gpt-4,TEXT,openai/gpt-4/9652a31e_v1_t0_5.json,1.0,ok,1.0,ok,strict
+b4ec494d,0,0.0,gpt-4,TEXT,openai/gpt-4/b4ec494d_v0_t0_0.json,1.0,ok,1.0,ok,strict
+f260aa25,2,0.0,gpt-4,TEXT,openai/gpt-4/f260aa25_v2_t0_0.json,1.0,ok,1.0,ok,strict
+8cc4a9e1,1,0.0,gpt-4,GUI,openai/gpt-4/8cc4a9e1_v1_t0_0.json,1.0,ok,1.0,ok,strict
+7e365caf,1,0.5,gpt-4,TEXT,openai/gpt-4/7e365caf_v1_t0_5.json,1.0,ok,1.0,ok,strict
+8fc9d168,1,0.0,gpt-4,TEXT,openai/gpt-4/8fc9d168_v1_t0_0.json,1.0,ok,1.0,ok,strict
+936aa3e5,1,0.0,gpt-4,TEXT,openai/gpt-4/936aa3e5_v1_t0_0.json,1.0,ok,1.0,ok,strict
+faa67d8f,0,0.0,gpt-4,TEXT,openai/gpt-4/faa67d8f_v0_t0_0.json,1.0,ok,1.0,ok,strict
+47817359,1,0.5,gpt-4,GUI,openai/gpt-4/47817359_v1_t0_5.json,1.0,ok,1.0,ok,strict
+27910ee5,0,0.5,gpt-4,TEXT,openai/gpt-4/27910ee5_v0_t0_5.json,1.0,ok,1.0,ok,strict
+a79efa23,2,0.0,gpt-4,TEXT,openai/gpt-4/a79efa23_v2_t0_0.json,1.0,ok,1.0,ok,strict
+0dd1e9ca,0,0.5,gpt-4,GUI,openai/gpt-4/0dd1e9ca_v0_t0_5.json,1.0,ok,1.0,ok,strict
+1b64c419,2,0.0,gpt-4,TEXT,openai/gpt-4/1b64c419_v2_t0_0.json,1.0,ok,1.0,ok,strict
+9cebf902,0,0.5,gpt-4,TEXT,openai/gpt-4/9cebf902_v0_t0_5.json,1.0,ok,1.0,ok,strict
+dc35566b,2,0.5,gpt-4,TEXT,openai/gpt-4/dc35566b_v2_t0_5.json,1.0,ok,1.0,ok,strict
+85a846ff,1,0.0,gpt-4,GUI,openai/gpt-4/85a846ff_v1_t0_0.json,1.0,ok,1.0,ok,strict
+b4ec494d,2,0.5,gpt-4,TEXT,openai/gpt-4/b4ec494d_v2_t0_5.json,1.0,ok,1.0,ok,strict
+f260aa25,0,0.5,gpt-4,TEXT,openai/gpt-4/f260aa25_v0_t0_5.json,1.0,ok,1.0,ok,strict
+07080553,1,0.5,gpt-4,TEXT,openai/gpt-4/07080553_v1_t0_5.json,1.0,ok,1.0,ok,strict
+25c9f684,1,0.0,gpt-4,TEXT,openai/gpt-4/25c9f684_v1_t0_0.json,1.0,ok,1.0,ok,strict
+f6d74921,2,0.5,gpt-4,TEXT,openai/gpt-4/f6d74921_v2_t0_5.json,1.0,ok,1.0,ok,strict
+faa67d8f,1,0.5,gpt-4-turbo,TEXT,openai/gpt-4-turbo/faa67d8f_v1_t0_5.json,1.0,ok,1.0,ok,strict
+47817359,0,0.0,gpt-4-turbo,GUI,openai/gpt-4-turbo/47817359_v0_t0_0.json,1.0,ok,1.0,ok,strict
+27910ee5,1,0.0,gpt-4-turbo,TEXT,openai/gpt-4-turbo/27910ee5_v1_t0_0.json,1.0,ok,1.0,ok,strict
+0dd1e9ca,1,0.0,gpt-4-turbo,GUI,openai/gpt-4-turbo/0dd1e9ca_v1_t0_0.json,1.0,ok,1.0,ok,strict
+bbf22c00,2,0.0,gpt-4-turbo,GUI,openai/gpt-4-turbo/bbf22c00_v2_t0_0.json,0.0,{'error': 'unable'} is not valid under any of the given schemas,0.0,{'error': 'unable'} is not valid under any of the given schemas,fail
+8fc9d168,0,0.5,gpt-4-turbo,TEXT,openai/gpt-4-turbo/8fc9d168_v0_t0_5.json,1.0,ok,1.0,ok,strict
+936aa3e5,0,0.5,gpt-4-turbo,TEXT,openai/gpt-4-turbo/936aa3e5_v0_t0_5.json,1.0,ok,1.0,ok,strict
+2bc72355,2,0.0,gpt-4-turbo,TEXT,openai/gpt-4-turbo/2bc72355_v2_t0_0.json,1.0,ok,1.0,ok,strict
+9cebf902,1,0.0,gpt-4-turbo,TEXT,openai/gpt-4-turbo/9cebf902_v1_t0_0.json,1.0,ok,1.0,ok,strict
+85a846ff,0,0.5,gpt-4-turbo,GUI,openai/gpt-4-turbo/85a846ff_v0_t0_5.json,1.0,ok,1.0,ok,strict
+8cc4a9e1,2,0.0,gpt-4-turbo,GUI,openai/gpt-4-turbo/8cc4a9e1_v2_t0_0.json,1.0,ok,1.0,ok,strict
+7e365caf,2,0.5,gpt-4-turbo,TEXT,openai/gpt-4-turbo/7e365caf_v2_t0_5.json,1.0,ok,1.0,ok,strict
+f260aa25,1,0.0,gpt-4-turbo,TEXT,openai/gpt-4-turbo/f260aa25_v1_t0_0.json,1.0,ok,1.0,ok,strict
+9652a31e,2,0.5,gpt-4-turbo,TEXT,openai/gpt-4-turbo/9652a31e_v2_t0_5.json,1.0,ok,1.0,ok,strict
+07080553,0,0.0,gpt-4-turbo,TEXT,openai/gpt-4-turbo/07080553_v0_t0_0.json,1.0,ok,1.0,ok,strict
+ab599408,2,0.0,gpt-4-turbo,GUI,openai/gpt-4-turbo/ab599408_v2_t0_0.json,1.0,ok,1.0,ok,strict
+25c9f684,0,0.5,gpt-4-turbo,TEXT,openai/gpt-4-turbo/25c9f684_v0_t0_5.json,1.0,ok,1.0,ok,strict
+0c07452f,2,0.5,gpt-4-turbo,TEXT,openai/gpt-4-turbo/0c07452f_v2_t0_5.json,1.0,ok,1.0,ok,strict
+2bc72355,0,0.5,gpt-4-turbo,TEXT,openai/gpt-4-turbo/2bc72355_v0_t0_5.json,1.0,ok,1.0,ok,strict
+85a846ff,2,0.0,gpt-4-turbo,GUI,openai/gpt-4-turbo/85a846ff_v2_t0_0.json,0.0,{'error': 'unable'} is not valid under any of the given schemas,0.0,{'error': 'unable'} is not valid under any of the given schemas,fail
+dc35566b,1,0.5,gpt-4-turbo,TEXT,openai/gpt-4-turbo/dc35566b_v1_t0_5.json,1.0,ok,1.0,ok,strict
+47817359,2,0.5,gpt-4-turbo,GUI,openai/gpt-4-turbo/47817359_v2_t0_5.json,1.0,ok,1.0,ok,strict
+1b64c419,1,0.0,gpt-4-turbo,TEXT,openai/gpt-4-turbo/1b64c419_v1_t0_0.json,1.0,ok,1.0,ok,strict
+bbf22c00,0,0.5,gpt-4-turbo,GUI,openai/gpt-4-turbo/bbf22c00_v0_t0_5.json,1.0,ok,1.0,ok,strict
+a79efa23,1,0.0,gpt-4-turbo,TEXT,openai/gpt-4-turbo/a79efa23_v1_t0_0.json,1.0,ok,1.0,ok,strict
+8fc9d168,2,0.0,gpt-4-turbo,TEXT,openai/gpt-4-turbo/8fc9d168_v2_t0_0.json,1.0,ok,1.0,ok,strict
+936aa3e5,2,0.0,gpt-4-turbo,TEXT,openai/gpt-4-turbo/936aa3e5_v2_t0_0.json,1.0,ok,1.0,ok,strict
+9652a31e,0,0.0,gpt-4-turbo,TEXT,openai/gpt-4-turbo/9652a31e_v0_t0_0.json,1.0,ok,1.0,ok,strict
+25c9f684,2,0.0,gpt-4-turbo,TEXT,openai/gpt-4-turbo/25c9f684_v2_t0_0.json,1.0,ok,1.0,ok,strict
+ab599408,0,0.5,gpt-4-turbo,GUI,openai/gpt-4-turbo/ab599408_v0_t0_5.json,1.0,ok,1.0,ok,strict
+07080553,2,0.5,gpt-4-turbo,TEXT,openai/gpt-4-turbo/07080553_v2_t0_5.json,1.0,ok,1.0,ok,strict
+f6d74921,1,0.5,gpt-4-turbo,TEXT,openai/gpt-4-turbo/f6d74921_v1_t0_5.json,1.0,ok,1.0,ok,strict
+0c07452f,0,0.0,gpt-4-turbo,TEXT,openai/gpt-4-turbo/0c07452f_v0_t0_0.json,1.0,ok,1.0,ok,strict
+8cc4a9e1,0,0.5,gpt-4-turbo,GUI,openai/gpt-4-turbo/8cc4a9e1_v0_t0_5.json,1.0,ok,1.0,ok,strict
+7e365caf,0,0.0,gpt-4-turbo,TEXT,openai/gpt-4-turbo/7e365caf_v0_t0_0.json,1.0,ok,1.0,ok,strict
+b4ec494d,1,0.5,gpt-4-turbo,TEXT,openai/gpt-4-turbo/b4ec494d_v1_t0_5.json,1.0,ok,1.0,ok,strict
+8fc9d168,1,0.5,gpt-4-turbo,TEXT,openai/gpt-4-turbo/8fc9d168_v1_t0_5.json,1.0,ok,1.0,ok,strict
+936aa3e5,1,0.5,gpt-4-turbo,TEXT,openai/gpt-4-turbo/936aa3e5_v1_t0_5.json,1.0,ok,1.0,ok,strict
+faa67d8f,0,0.5,gpt-4-turbo,TEXT,openai/gpt-4-turbo/faa67d8f_v0_t0_5.json,1.0,ok,1.0,ok,strict
+47817359,1,0.0,gpt-4-turbo,GUI,openai/gpt-4-turbo/47817359_v1_t0_0.json,1.0,ok,1.0,ok,strict
+27910ee5,0,0.0,gpt-4-turbo,TEXT,openai/gpt-4-turbo/27910ee5_v0_t0_0.json,1.0,ok,1.0,ok,strict
+a79efa23,2,0.5,gpt-4-turbo,TEXT,openai/gpt-4-turbo/a79efa23_v2_t0_5.json,1.0,ok,1.0,ok,strict
+1b64c419,2,0.5,gpt-4-turbo,TEXT,openai/gpt-4-turbo/1b64c419_v2_t0_5.json,1.0,ok,1.0,ok,strict
+0dd1e9ca,0,0.0,gpt-4-turbo,GUI,openai/gpt-4-turbo/0dd1e9ca_v0_t0_0.json,1.0,ok,1.0,ok,strict
+9cebf902,0,0.0,gpt-4-turbo,TEXT,openai/gpt-4-turbo/9cebf902_v0_t0_0.json,1.0,ok,1.0,ok,strict
+dc35566b,2,0.0,gpt-4-turbo,TEXT,openai/gpt-4-turbo/dc35566b_v2_t0_0.json,1.0,ok,1.0,ok,strict
+85a846ff,1,0.5,gpt-4-turbo,GUI,openai/gpt-4-turbo/85a846ff_v1_t0_5.json,1.0,ok,1.0,ok,strict
+b4ec494d,2,0.0,gpt-4-turbo,TEXT,openai/gpt-4-turbo/b4ec494d_v2_t0_0.json,1.0,ok,1.0,ok,strict
+f260aa25,0,0.0,gpt-4-turbo,TEXT,openai/gpt-4-turbo/f260aa25_v0_t0_0.json,1.0,ok,1.0,ok,strict
+07080553,1,0.0,gpt-4-turbo,TEXT,openai/gpt-4-turbo/07080553_v1_t0_0.json,1.0,ok,1.0,ok,strict
+25c9f684,1,0.5,gpt-4-turbo,TEXT,openai/gpt-4-turbo/25c9f684_v1_t0_5.json,1.0,ok,1.0,ok,strict
+f6d74921,2,0.0,gpt-4-turbo,TEXT,openai/gpt-4-turbo/f6d74921_v2_t0_0.json,1.0,ok,1.0,ok,strict
+9cebf902,2,0.5,gpt-4-turbo,TEXT,openai/gpt-4-turbo/9cebf902_v2_t0_5.json,1.0,ok,1.0,ok,strict
+dc35566b,0,0.5,gpt-4-turbo,TEXT,openai/gpt-4-turbo/dc35566b_v0_t0_5.json,1.0,ok,1.0,ok,strict
+2bc72355,1,0.5,gpt-4-turbo,TEXT,openai/gpt-4-turbo/2bc72355_v1_t0_5.json,1.0,ok,1.0,ok,strict
+faa67d8f,2,0.0,gpt-4-turbo,TEXT,openai/gpt-4-turbo/faa67d8f_v2_t0_0.json,1.0,ok,1.0,ok,strict
+bbf22c00,1,0.5,gpt-4-turbo,GUI,openai/gpt-4-turbo/bbf22c00_v1_t0_5.json,1.0,ok,1.0,ok,strict
+0dd1e9ca,2,0.5,gpt-4-turbo,GUI,openai/gpt-4-turbo/0dd1e9ca_v2_t0_5.json,0.0,{'error': 'unable'} is not valid under any of the given schemas,0.0,{'error': 'unable'} is not valid under any of the given schemas,fail
+1b64c419,0,0.0,gpt-4-turbo,TEXT,openai/gpt-4-turbo/1b64c419_v0_t0_0.json,1.0,ok,1.0,ok,strict
+a79efa23,0,0.0,gpt-4-turbo,TEXT,openai/gpt-4-turbo/a79efa23_v0_t0_0.json,1.0,ok,1.0,ok,strict
+27910ee5,2,0.5,gpt-4-turbo,TEXT,openai/gpt-4-turbo/27910ee5_v2_t0_5.json,1.0,ok,1.0,ok,strict
+ab599408,1,0.5,gpt-4-turbo,GUI,openai/gpt-4-turbo/ab599408_v1_t0_5.json,1.0,ok,1.0,ok,strict
+f6d74921,0,0.5,gpt-4-turbo,TEXT,openai/gpt-4-turbo/f6d74921_v0_t0_5.json,1.0,ok,1.0,ok,strict
+0c07452f,1,0.0,gpt-4-turbo,TEXT,openai/gpt-4-turbo/0c07452f_v1_t0_0.json,1.0,ok,1.0,ok,strict
+9652a31e,1,0.0,gpt-4-turbo,TEXT,openai/gpt-4-turbo/9652a31e_v1_t0_0.json,1.0,ok,1.0,ok,strict
+b4ec494d,0,0.5,gpt-4-turbo,TEXT,openai/gpt-4-turbo/b4ec494d_v0_t0_5.json,1.0,ok,1.0,ok,strict
+f260aa25,2,0.5,gpt-4-turbo,TEXT,openai/gpt-4-turbo/f260aa25_v2_t0_5.json,1.0,ok,1.0,ok,strict
+8cc4a9e1,1,0.5,gpt-4-turbo,GUI,openai/gpt-4-turbo/8cc4a9e1_v1_t0_5.json,1.0,ok,1.0,ok,strict
+7e365caf,1,0.0,gpt-4-turbo,TEXT,openai/gpt-4-turbo/7e365caf_v1_t0_0.json,1.0,ok,1.0,ok,strict
+2bc72355,0,0.0,gpt-4-turbo,TEXT,openai/gpt-4-turbo/2bc72355_v0_t0_0.json,1.0,ok,1.0,ok,strict
+85a846ff,2,0.5,gpt-4-turbo,GUI,openai/gpt-4-turbo/85a846ff_v2_t0_5.json,0.0,{'error': 'unable'} is not valid under any of the given schemas,0.0,{'error': 'unable'} is not valid under any of the given schemas,fail
+dc35566b,1,0.0,gpt-4-turbo,TEXT,openai/gpt-4-turbo/dc35566b_v1_t0_0.json,1.0,ok,1.0,ok,strict
+47817359,2,0.0,gpt-4-turbo,GUI,openai/gpt-4-turbo/47817359_v2_t0_0.json,1.0,ok,1.0,ok,strict
+bbf22c00,0,0.0,gpt-4-turbo,GUI,openai/gpt-4-turbo/bbf22c00_v0_t0_0.json,1.0,ok,1.0,ok,strict
+1b64c419,1,0.5,gpt-4-turbo,TEXT,openai/gpt-4-turbo/1b64c419_v1_t0_5.json,1.0,ok,1.0,ok,strict
+a79efa23,1,0.5,gpt-4-turbo,TEXT,openai/gpt-4-turbo/a79efa23_v1_t0_5.json,1.0,ok,1.0,ok,strict
+8fc9d168,2,0.5,gpt-4-turbo,TEXT,openai/gpt-4-turbo/8fc9d168_v2_t0_5.json,1.0,ok,1.0,ok,strict
+936aa3e5,2,0.5,gpt-4-turbo,TEXT,openai/gpt-4-turbo/936aa3e5_v2_t0_5.json,1.0,ok,1.0,ok,strict
+9652a31e,0,0.5,gpt-4-turbo,TEXT,openai/gpt-4-turbo/9652a31e_v0_t0_5.json,1.0,ok,1.0,ok,strict
+ab599408,0,0.0,gpt-4-turbo,GUI,openai/gpt-4-turbo/ab599408_v0_t0_0.json,1.0,ok,1.0,ok,strict
+25c9f684,2,0.5,gpt-4-turbo,TEXT,openai/gpt-4-turbo/25c9f684_v2_t0_5.json,1.0,ok,1.0,ok,strict
+07080553,2,0.0,gpt-4-turbo,TEXT,openai/gpt-4-turbo/07080553_v2_t0_0.json,1.0,ok,1.0,ok,strict
+f6d74921,1,0.0,gpt-4-turbo,TEXT,openai/gpt-4-turbo/f6d74921_v1_t0_0.json,1.0,ok,1.0,ok,strict
+0c07452f,0,0.5,gpt-4-turbo,TEXT,openai/gpt-4-turbo/0c07452f_v0_t0_5.json,1.0,ok,1.0,ok,strict
+8cc4a9e1,0,0.0,gpt-4-turbo,GUI,openai/gpt-4-turbo/8cc4a9e1_v0_t0_0.json,1.0,ok,1.0,ok,strict
+7e365caf,0,0.5,gpt-4-turbo,TEXT,openai/gpt-4-turbo/7e365caf_v0_t0_5.json,1.0,ok,1.0,ok,strict
+b4ec494d,1,0.0,gpt-4-turbo,TEXT,openai/gpt-4-turbo/b4ec494d_v1_t0_0.json,1.0,ok,1.0,ok,strict
+faa67d8f,1,0.0,gpt-4-turbo,TEXT,openai/gpt-4-turbo/faa67d8f_v1_t0_0.json,1.0,ok,1.0,ok,strict
+47817359,0,0.5,gpt-4-turbo,GUI,openai/gpt-4-turbo/47817359_v0_t0_5.json,1.0,ok,1.0,ok,strict
+27910ee5,1,0.5,gpt-4-turbo,TEXT,openai/gpt-4-turbo/27910ee5_v1_t0_5.json,1.0,ok,1.0,ok,strict
+bbf22c00,2,0.5,gpt-4-turbo,GUI,openai/gpt-4-turbo/bbf22c00_v2_t0_5.json,0.0,{'error': 'unable'} is not valid under any of the given schemas,0.0,{'error': 'unable'} is not valid under any of the given schemas,fail
+0dd1e9ca,1,0.5,gpt-4-turbo,GUI,openai/gpt-4-turbo/0dd1e9ca_v1_t0_5.json,1.0,ok,1.0,ok,strict
+8fc9d168,0,0.0,gpt-4-turbo,TEXT,openai/gpt-4-turbo/8fc9d168_v0_t0_0.json,1.0,ok,1.0,ok,strict
+936aa3e5,0,0.0,gpt-4-turbo,TEXT,openai/gpt-4-turbo/936aa3e5_v0_t0_0.json,1.0,ok,1.0,ok,strict
+2bc72355,2,0.5,gpt-4-turbo,TEXT,openai/gpt-4-turbo/2bc72355_v2_t0_5.json,1.0,ok,1.0,ok,strict
+9cebf902,1,0.5,gpt-4-turbo,TEXT,openai/gpt-4-turbo/9cebf902_v1_t0_5.json,1.0,ok,1.0,ok,strict
+85a846ff,0,0.0,gpt-4-turbo,GUI,openai/gpt-4-turbo/85a846ff_v0_t0_0.json,1.0,ok,1.0,ok,strict
+8cc4a9e1,2,0.5,gpt-4-turbo,GUI,openai/gpt-4-turbo/8cc4a9e1_v2_t0_5.json,1.0,ok,1.0,ok,strict
+7e365caf,2,0.0,gpt-4-turbo,TEXT,openai/gpt-4-turbo/7e365caf_v2_t0_0.json,1.0,ok,1.0,ok,strict
+f260aa25,1,0.5,gpt-4-turbo,TEXT,openai/gpt-4-turbo/f260aa25_v1_t0_5.json,1.0,ok,1.0,ok,strict
+9652a31e,2,0.0,gpt-4-turbo,TEXT,openai/gpt-4-turbo/9652a31e_v2_t0_0.json,1.0,ok,1.0,ok,strict
+07080553,0,0.5,gpt-4-turbo,TEXT,openai/gpt-4-turbo/07080553_v0_t0_5.json,1.0,ok,1.0,ok,strict
+25c9f684,0,0.0,gpt-4-turbo,TEXT,openai/gpt-4-turbo/25c9f684_v0_t0_0.json,1.0,ok,1.0,ok,strict
+ab599408,2,0.5,gpt-4-turbo,GUI,openai/gpt-4-turbo/ab599408_v2_t0_5.json,1.0,ok,1.0,ok,strict
+0c07452f,2,0.0,gpt-4-turbo,TEXT,openai/gpt-4-turbo/0c07452f_v2_t0_0.json,1.0,ok,1.0,ok,strict
+9cebf902,2,0.0,gpt-4-turbo,TEXT,openai/gpt-4-turbo/9cebf902_v2_t0_0.json,1.0,ok,1.0,ok,strict
+dc35566b,0,0.0,gpt-4-turbo,TEXT,openai/gpt-4-turbo/dc35566b_v0_t0_0.json,1.0,ok,1.0,ok,strict
+2bc72355,1,0.0,gpt-4-turbo,TEXT,openai/gpt-4-turbo/2bc72355_v1_t0_0.json,1.0,ok,1.0,ok,strict
+faa67d8f,2,0.5,gpt-4-turbo,TEXT,openai/gpt-4-turbo/faa67d8f_v2_t0_5.json,1.0,ok,1.0,ok,strict
+1b64c419,0,0.5,gpt-4-turbo,TEXT,openai/gpt-4-turbo/1b64c419_v0_t0_5.json,1.0,ok,1.0,ok,strict
+0dd1e9ca,2,0.0,gpt-4-turbo,GUI,openai/gpt-4-turbo/0dd1e9ca_v2_t0_0.json,0.0,{'error': 'unable'} is not valid under any of the given schemas,0.0,{'error': 'unable'} is not valid under any of the given schemas,fail
+bbf22c00,1,0.0,gpt-4-turbo,GUI,openai/gpt-4-turbo/bbf22c00_v1_t0_0.json,1.0,ok,1.0,ok,strict
+a79efa23,0,0.5,gpt-4-turbo,TEXT,openai/gpt-4-turbo/a79efa23_v0_t0_5.json,1.0,ok,1.0,ok,strict
+27910ee5,2,0.0,gpt-4-turbo,TEXT,openai/gpt-4-turbo/27910ee5_v2_t0_0.json,1.0,ok,1.0,ok,strict
+ab599408,1,0.0,gpt-4-turbo,GUI,openai/gpt-4-turbo/ab599408_v1_t0_0.json,1.0,ok,1.0,ok,strict
+f6d74921,0,0.0,gpt-4-turbo,TEXT,openai/gpt-4-turbo/f6d74921_v0_t0_0.json,1.0,ok,1.0,ok,strict
+0c07452f,1,0.5,gpt-4-turbo,TEXT,openai/gpt-4-turbo/0c07452f_v1_t0_5.json,1.0,ok,1.0,ok,strict
+9652a31e,1,0.5,gpt-4-turbo,TEXT,openai/gpt-4-turbo/9652a31e_v1_t0_5.json,1.0,ok,1.0,ok,strict
+b4ec494d,0,0.0,gpt-4-turbo,TEXT,openai/gpt-4-turbo/b4ec494d_v0_t0_0.json,1.0,ok,1.0,ok,strict
+f260aa25,2,0.0,gpt-4-turbo,TEXT,openai/gpt-4-turbo/f260aa25_v2_t0_0.json,1.0,ok,1.0,ok,strict
+8cc4a9e1,1,0.0,gpt-4-turbo,GUI,openai/gpt-4-turbo/8cc4a9e1_v1_t0_0.json,1.0,ok,1.0,ok,strict
+7e365caf,1,0.5,gpt-4-turbo,TEXT,openai/gpt-4-turbo/7e365caf_v1_t0_5.json,1.0,ok,1.0,ok,strict
+8fc9d168,1,0.0,gpt-4-turbo,TEXT,openai/gpt-4-turbo/8fc9d168_v1_t0_0.json,1.0,ok,1.0,ok,strict
+936aa3e5,1,0.0,gpt-4-turbo,TEXT,openai/gpt-4-turbo/936aa3e5_v1_t0_0.json,1.0,ok,1.0,ok,strict
+faa67d8f,0,0.0,gpt-4-turbo,TEXT,openai/gpt-4-turbo/faa67d8f_v0_t0_0.json,1.0,ok,1.0,ok,strict
+47817359,1,0.5,gpt-4-turbo,GUI,openai/gpt-4-turbo/47817359_v1_t0_5.json,1.0,ok,1.0,ok,strict
+27910ee5,0,0.5,gpt-4-turbo,TEXT,openai/gpt-4-turbo/27910ee5_v0_t0_5.json,1.0,ok,1.0,ok,strict
+a79efa23,2,0.0,gpt-4-turbo,TEXT,openai/gpt-4-turbo/a79efa23_v2_t0_0.json,1.0,ok,1.0,ok,strict
+0dd1e9ca,0,0.5,gpt-4-turbo,GUI,openai/gpt-4-turbo/0dd1e9ca_v0_t0_5.json,1.0,ok,1.0,ok,strict
+1b64c419,2,0.0,gpt-4-turbo,TEXT,openai/gpt-4-turbo/1b64c419_v2_t0_0.json,1.0,ok,1.0,ok,strict
+9cebf902,0,0.5,gpt-4-turbo,TEXT,openai/gpt-4-turbo/9cebf902_v0_t0_5.json,1.0,ok,1.0,ok,strict
+dc35566b,2,0.5,gpt-4-turbo,TEXT,openai/gpt-4-turbo/dc35566b_v2_t0_5.json,1.0,ok,1.0,ok,strict
+85a846ff,1,0.0,gpt-4-turbo,GUI,openai/gpt-4-turbo/85a846ff_v1_t0_0.json,1.0,ok,1.0,ok,strict
+b4ec494d,2,0.5,gpt-4-turbo,TEXT,openai/gpt-4-turbo/b4ec494d_v2_t0_5.json,1.0,ok,1.0,ok,strict
+f260aa25,0,0.5,gpt-4-turbo,TEXT,openai/gpt-4-turbo/f260aa25_v0_t0_5.json,1.0,ok,1.0,ok,strict
+07080553,1,0.5,gpt-4-turbo,TEXT,openai/gpt-4-turbo/07080553_v1_t0_5.json,1.0,ok,1.0,ok,strict
+25c9f684,1,0.0,gpt-4-turbo,TEXT,openai/gpt-4-turbo/25c9f684_v1_t0_0.json,1.0,ok,1.0,ok,strict
+f6d74921,2,0.5,gpt-4-turbo,TEXT,openai/gpt-4-turbo/f6d74921_v2_t0_5.json,1.0,ok,1.0,ok,strict
+faa67d8f,1,0.5,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/faa67d8f_v1_t0_5.json,1.0,ok,1.0,ok,strict
+47817359,0,0.0,gpt-3.5-turbo,GUI,openai/gpt-3.5-turbo/47817359_v0_t0_0.json,1.0,ok,1.0,ok,strict
+27910ee5,1,0.0,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/27910ee5_v1_t0_0.json,1.0,ok,1.0,ok,strict
+0dd1e9ca,1,0.0,gpt-3.5-turbo,GUI,openai/gpt-3.5-turbo/0dd1e9ca_v1_t0_0.json,1.0,ok,1.0,ok,strict
+bbf22c00,2,0.0,gpt-3.5-turbo,GUI,openai/gpt-3.5-turbo/bbf22c00_v2_t0_0.json,0.0,{'error': 'unable'} is not valid under any of the given schemas,0.0,{'error': 'unable'} is not valid under any of the given schemas,fail
+8fc9d168,0,0.5,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/8fc9d168_v0_t0_5.json,1.0,ok,1.0,ok,strict
+936aa3e5,0,0.5,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/936aa3e5_v0_t0_5.json,1.0,ok,1.0,ok,strict
+2bc72355,2,0.0,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/2bc72355_v2_t0_0.json,1.0,ok,1.0,ok,strict
+9cebf902,1,0.0,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/9cebf902_v1_t0_0.json,1.0,ok,1.0,ok,strict
+85a846ff,0,0.5,gpt-3.5-turbo,GUI,openai/gpt-3.5-turbo/85a846ff_v0_t0_5.json,1.0,ok,1.0,ok,strict
+8cc4a9e1,2,0.0,gpt-3.5-turbo,GUI,openai/gpt-3.5-turbo/8cc4a9e1_v2_t0_0.json,0.0,{'error': 'unable'} is not valid under any of the given schemas,0.0,{'error': 'unable'} is not valid under any of the given schemas,fail
+7e365caf,2,0.5,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/7e365caf_v2_t0_5.json,1.0,ok,1.0,ok,strict
+f260aa25,1,0.0,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/f260aa25_v1_t0_0.json,1.0,ok,1.0,ok,strict
+9652a31e,2,0.5,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/9652a31e_v2_t0_5.json,1.0,ok,1.0,ok,strict
+07080553,0,0.0,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/07080553_v0_t0_0.json,1.0,ok,1.0,ok,strict
+ab599408,2,0.0,gpt-3.5-turbo,GUI,openai/gpt-3.5-turbo/ab599408_v2_t0_0.json,0.0,no parsable JSON,0.0,no parsable JSON,fail
+25c9f684,0,0.5,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/25c9f684_v0_t0_5.json,1.0,ok,1.0,ok,strict
+0c07452f,2,0.5,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/0c07452f_v2_t0_5.json,1.0,ok,1.0,ok,strict
+2bc72355,0,0.5,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/2bc72355_v0_t0_5.json,1.0,ok,1.0,ok,strict
+85a846ff,2,0.0,gpt-3.5-turbo,GUI,openai/gpt-3.5-turbo/85a846ff_v2_t0_0.json,0.0,{'error': 'unable'} is not valid under any of the given schemas,0.0,{'error': 'unable'} is not valid under any of the given schemas,fail
+dc35566b,1,0.5,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/dc35566b_v1_t0_5.json,1.0,ok,1.0,ok,strict
+47817359,2,0.5,gpt-3.5-turbo,GUI,openai/gpt-3.5-turbo/47817359_v2_t0_5.json,0.0,{'error': 'unable'} is not valid under any of the given schemas,0.0,{'error': 'unable'} is not valid under any of the given schemas,fail
+1b64c419,1,0.0,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/1b64c419_v1_t0_0.json,1.0,ok,1.0,ok,strict
+bbf22c00,0,0.5,gpt-3.5-turbo,GUI,openai/gpt-3.5-turbo/bbf22c00_v0_t0_5.json,1.0,ok,1.0,ok,strict
+a79efa23,1,0.0,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/a79efa23_v1_t0_0.json,1.0,ok,1.0,ok,strict
+8fc9d168,2,0.0,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/8fc9d168_v2_t0_0.json,1.0,ok,1.0,ok,strict
+936aa3e5,2,0.0,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/936aa3e5_v2_t0_0.json,1.0,ok,1.0,ok,strict
+9652a31e,0,0.0,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/9652a31e_v0_t0_0.json,1.0,ok,1.0,ok,strict
+25c9f684,2,0.0,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/25c9f684_v2_t0_0.json,1.0,ok,1.0,ok,strict
+ab599408,0,0.5,gpt-3.5-turbo,GUI,openai/gpt-3.5-turbo/ab599408_v0_t0_5.json,1.0,ok,1.0,ok,strict
+07080553,2,0.5,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/07080553_v2_t0_5.json,1.0,ok,1.0,ok,strict
+f6d74921,1,0.5,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/f6d74921_v1_t0_5.json,1.0,ok,1.0,ok,strict
+0c07452f,0,0.0,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/0c07452f_v0_t0_0.json,1.0,ok,1.0,ok,strict
+8cc4a9e1,0,0.5,gpt-3.5-turbo,GUI,openai/gpt-3.5-turbo/8cc4a9e1_v0_t0_5.json,1.0,ok,1.0,ok,strict
+7e365caf,0,0.0,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/7e365caf_v0_t0_0.json,1.0,ok,1.0,ok,strict
+b4ec494d,1,0.5,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/b4ec494d_v1_t0_5.json,1.0,ok,1.0,ok,strict
+8fc9d168,1,0.5,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/8fc9d168_v1_t0_5.json,1.0,ok,1.0,ok,strict
+936aa3e5,1,0.5,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/936aa3e5_v1_t0_5.json,1.0,ok,1.0,ok,strict
+faa67d8f,0,0.5,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/faa67d8f_v0_t0_5.json,1.0,ok,1.0,ok,strict
+47817359,1,0.0,gpt-3.5-turbo,GUI,openai/gpt-3.5-turbo/47817359_v1_t0_0.json,1.0,ok,1.0,ok,strict
+27910ee5,0,0.0,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/27910ee5_v0_t0_0.json,1.0,ok,1.0,ok,strict
+a79efa23,2,0.5,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/a79efa23_v2_t0_5.json,1.0,ok,1.0,ok,strict
+1b64c419,2,0.5,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/1b64c419_v2_t0_5.json,1.0,ok,1.0,ok,strict
+0dd1e9ca,0,0.0,gpt-3.5-turbo,GUI,openai/gpt-3.5-turbo/0dd1e9ca_v0_t0_0.json,1.0,ok,1.0,ok,strict
+9cebf902,0,0.0,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/9cebf902_v0_t0_0.json,1.0,ok,1.0,ok,strict
+dc35566b,2,0.0,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/dc35566b_v2_t0_0.json,1.0,ok,1.0,ok,strict
+85a846ff,1,0.5,gpt-3.5-turbo,GUI,openai/gpt-3.5-turbo/85a846ff_v1_t0_5.json,1.0,ok,1.0,ok,strict
+b4ec494d,2,0.0,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/b4ec494d_v2_t0_0.json,1.0,ok,1.0,ok,strict
+f260aa25,0,0.0,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/f260aa25_v0_t0_0.json,1.0,ok,1.0,ok,strict
+07080553,1,0.0,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/07080553_v1_t0_0.json,1.0,ok,1.0,ok,strict
+25c9f684,1,0.5,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/25c9f684_v1_t0_5.json,1.0,ok,1.0,ok,strict
+f6d74921,2,0.0,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/f6d74921_v2_t0_0.json,1.0,ok,1.0,ok,strict
+9cebf902,2,0.5,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/9cebf902_v2_t0_5.json,1.0,ok,1.0,ok,strict
+dc35566b,0,0.5,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/dc35566b_v0_t0_5.json,1.0,ok,1.0,ok,strict
+2bc72355,1,0.5,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/2bc72355_v1_t0_5.json,1.0,ok,1.0,ok,strict
+faa67d8f,2,0.0,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/faa67d8f_v2_t0_0.json,1.0,ok,1.0,ok,strict
+bbf22c00,1,0.5,gpt-3.5-turbo,GUI,openai/gpt-3.5-turbo/bbf22c00_v1_t0_5.json,1.0,ok,1.0,ok,strict
+0dd1e9ca,2,0.5,gpt-3.5-turbo,GUI,openai/gpt-3.5-turbo/0dd1e9ca_v2_t0_5.json,0.0,{'error': 'unable'} is not valid under any of the given schemas,0.0,{'error': 'unable'} is not valid under any of the given schemas,fail
+1b64c419,0,0.0,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/1b64c419_v0_t0_0.json,1.0,ok,1.0,ok,strict
+a79efa23,0,0.0,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/a79efa23_v0_t0_0.json,1.0,ok,1.0,ok,strict
+27910ee5,2,0.5,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/27910ee5_v2_t0_5.json,1.0,ok,1.0,ok,strict
+ab599408,1,0.5,gpt-3.5-turbo,GUI,openai/gpt-3.5-turbo/ab599408_v1_t0_5.json,1.0,ok,1.0,ok,strict
+f6d74921,0,0.5,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/f6d74921_v0_t0_5.json,1.0,ok,1.0,ok,strict
+0c07452f,1,0.0,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/0c07452f_v1_t0_0.json,1.0,ok,1.0,ok,strict
+9652a31e,1,0.0,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/9652a31e_v1_t0_0.json,1.0,ok,1.0,ok,strict
+b4ec494d,0,0.5,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/b4ec494d_v0_t0_5.json,1.0,ok,1.0,ok,strict
+f260aa25,2,0.5,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/f260aa25_v2_t0_5.json,1.0,ok,1.0,ok,strict
+8cc4a9e1,1,0.5,gpt-3.5-turbo,GUI,openai/gpt-3.5-turbo/8cc4a9e1_v1_t0_5.json,1.0,ok,1.0,ok,strict
+7e365caf,1,0.0,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/7e365caf_v1_t0_0.json,1.0,ok,1.0,ok,strict
+2bc72355,0,0.0,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/2bc72355_v0_t0_0.json,1.0,ok,1.0,ok,strict
+85a846ff,2,0.5,gpt-3.5-turbo,GUI,openai/gpt-3.5-turbo/85a846ff_v2_t0_5.json,0.0,{'error': 'unable'} is not valid under any of the given schemas,0.0,{'error': 'unable'} is not valid under any of the given schemas,fail
+dc35566b,1,0.0,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/dc35566b_v1_t0_0.json,1.0,ok,1.0,ok,strict
+47817359,2,0.0,gpt-3.5-turbo,GUI,openai/gpt-3.5-turbo/47817359_v2_t0_0.json,0.0,{'error': 'unable'} is not valid under any of the given schemas,0.0,{'error': 'unable'} is not valid under any of the given schemas,fail
+bbf22c00,0,0.0,gpt-3.5-turbo,GUI,openai/gpt-3.5-turbo/bbf22c00_v0_t0_0.json,1.0,ok,1.0,ok,strict
+1b64c419,1,0.5,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/1b64c419_v1_t0_5.json,1.0,ok,1.0,ok,strict
+a79efa23,1,0.5,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/a79efa23_v1_t0_5.json,1.0,ok,1.0,ok,strict
+8fc9d168,2,0.5,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/8fc9d168_v2_t0_5.json,1.0,ok,1.0,ok,strict
+936aa3e5,2,0.5,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/936aa3e5_v2_t0_5.json,1.0,ok,1.0,ok,strict
+9652a31e,0,0.5,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/9652a31e_v0_t0_5.json,1.0,ok,1.0,ok,strict
+ab599408,0,0.0,gpt-3.5-turbo,GUI,openai/gpt-3.5-turbo/ab599408_v0_t0_0.json,1.0,ok,1.0,ok,strict
+25c9f684,2,0.5,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/25c9f684_v2_t0_5.json,1.0,ok,1.0,ok,strict
+07080553,2,0.0,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/07080553_v2_t0_0.json,1.0,ok,1.0,ok,strict
+f6d74921,1,0.0,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/f6d74921_v1_t0_0.json,1.0,ok,1.0,ok,strict
+0c07452f,0,0.5,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/0c07452f_v0_t0_5.json,1.0,ok,1.0,ok,strict
+8cc4a9e1,0,0.0,gpt-3.5-turbo,GUI,openai/gpt-3.5-turbo/8cc4a9e1_v0_t0_0.json,1.0,ok,1.0,ok,strict
+7e365caf,0,0.5,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/7e365caf_v0_t0_5.json,1.0,ok,1.0,ok,strict
+b4ec494d,1,0.0,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/b4ec494d_v1_t0_0.json,1.0,ok,1.0,ok,strict
+faa67d8f,1,0.0,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/faa67d8f_v1_t0_0.json,1.0,ok,1.0,ok,strict
+47817359,0,0.5,gpt-3.5-turbo,GUI,openai/gpt-3.5-turbo/47817359_v0_t0_5.json,1.0,ok,1.0,ok,strict
+27910ee5,1,0.5,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/27910ee5_v1_t0_5.json,1.0,ok,1.0,ok,strict
+bbf22c00,2,0.5,gpt-3.5-turbo,GUI,openai/gpt-3.5-turbo/bbf22c00_v2_t0_5.json,0.0,{'error': 'unable'} is not valid under any of the given schemas,0.0,{'error': 'unable'} is not valid under any of the given schemas,fail
+0dd1e9ca,1,0.5,gpt-3.5-turbo,GUI,openai/gpt-3.5-turbo/0dd1e9ca_v1_t0_5.json,1.0,ok,1.0,ok,strict
+8fc9d168,0,0.0,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/8fc9d168_v0_t0_0.json,1.0,ok,1.0,ok,strict
+936aa3e5,0,0.0,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/936aa3e5_v0_t0_0.json,1.0,ok,1.0,ok,strict
+2bc72355,2,0.5,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/2bc72355_v2_t0_5.json,1.0,ok,1.0,ok,strict
+9cebf902,1,0.5,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/9cebf902_v1_t0_5.json,1.0,ok,1.0,ok,strict
+85a846ff,0,0.0,gpt-3.5-turbo,GUI,openai/gpt-3.5-turbo/85a846ff_v0_t0_0.json,1.0,ok,1.0,ok,strict
+8cc4a9e1,2,0.5,gpt-3.5-turbo,GUI,openai/gpt-3.5-turbo/8cc4a9e1_v2_t0_5.json,0.0,{'error': 'unable'} is not valid under any of the given schemas,0.0,{'error': 'unable'} is not valid under any of the given schemas,fail
+7e365caf,2,0.0,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/7e365caf_v2_t0_0.json,1.0,ok,1.0,ok,strict
+f260aa25,1,0.5,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/f260aa25_v1_t0_5.json,1.0,ok,1.0,ok,strict
+9652a31e,2,0.0,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/9652a31e_v2_t0_0.json,1.0,ok,1.0,ok,strict
+07080553,0,0.5,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/07080553_v0_t0_5.json,1.0,ok,1.0,ok,strict
+25c9f684,0,0.0,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/25c9f684_v0_t0_0.json,1.0,ok,1.0,ok,strict
+ab599408,2,0.5,gpt-3.5-turbo,GUI,openai/gpt-3.5-turbo/ab599408_v2_t0_5.json,0.0,{'error': 'unable'} is not valid under any of the given schemas,0.0,{'error': 'unable'} is not valid under any of the given schemas,fail
+0c07452f,2,0.0,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/0c07452f_v2_t0_0.json,1.0,ok,1.0,ok,strict
+9cebf902,2,0.0,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/9cebf902_v2_t0_0.json,1.0,ok,1.0,ok,strict
+dc35566b,0,0.0,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/dc35566b_v0_t0_0.json,1.0,ok,1.0,ok,strict
+2bc72355,1,0.0,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/2bc72355_v1_t0_0.json,1.0,ok,1.0,ok,strict
+faa67d8f,2,0.5,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/faa67d8f_v2_t0_5.json,1.0,ok,1.0,ok,strict
+1b64c419,0,0.5,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/1b64c419_v0_t0_5.json,1.0,ok,1.0,ok,strict
+0dd1e9ca,2,0.0,gpt-3.5-turbo,GUI,openai/gpt-3.5-turbo/0dd1e9ca_v2_t0_0.json,0.0,{'error': 'unable'} is not valid under any of the given schemas,0.0,{'error': 'unable'} is not valid under any of the given schemas,fail
+bbf22c00,1,0.0,gpt-3.5-turbo,GUI,openai/gpt-3.5-turbo/bbf22c00_v1_t0_0.json,1.0,ok,1.0,ok,strict
+a79efa23,0,0.5,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/a79efa23_v0_t0_5.json,1.0,ok,1.0,ok,strict
+27910ee5,2,0.0,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/27910ee5_v2_t0_0.json,1.0,ok,1.0,ok,strict
+ab599408,1,0.0,gpt-3.5-turbo,GUI,openai/gpt-3.5-turbo/ab599408_v1_t0_0.json,1.0,ok,1.0,ok,strict
+f6d74921,0,0.0,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/f6d74921_v0_t0_0.json,1.0,ok,1.0,ok,strict
+0c07452f,1,0.5,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/0c07452f_v1_t0_5.json,1.0,ok,1.0,ok,strict
+9652a31e,1,0.5,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/9652a31e_v1_t0_5.json,1.0,ok,1.0,ok,strict
+b4ec494d,0,0.0,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/b4ec494d_v0_t0_0.json,1.0,ok,1.0,ok,strict
+f260aa25,2,0.0,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/f260aa25_v2_t0_0.json,1.0,ok,1.0,ok,strict
+8cc4a9e1,1,0.0,gpt-3.5-turbo,GUI,openai/gpt-3.5-turbo/8cc4a9e1_v1_t0_0.json,1.0,ok,1.0,ok,strict
+7e365caf,1,0.5,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/7e365caf_v1_t0_5.json,1.0,ok,1.0,ok,strict
+8fc9d168,1,0.0,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/8fc9d168_v1_t0_0.json,1.0,ok,1.0,ok,strict
+936aa3e5,1,0.0,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/936aa3e5_v1_t0_0.json,1.0,ok,1.0,ok,strict
+faa67d8f,0,0.0,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/faa67d8f_v0_t0_0.json,1.0,ok,1.0,ok,strict
+47817359,1,0.5,gpt-3.5-turbo,GUI,openai/gpt-3.5-turbo/47817359_v1_t0_5.json,1.0,ok,1.0,ok,strict
+27910ee5,0,0.5,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/27910ee5_v0_t0_5.json,1.0,ok,1.0,ok,strict
+a79efa23,2,0.0,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/a79efa23_v2_t0_0.json,1.0,ok,1.0,ok,strict
+0dd1e9ca,0,0.5,gpt-3.5-turbo,GUI,openai/gpt-3.5-turbo/0dd1e9ca_v0_t0_5.json,1.0,ok,1.0,ok,strict
+1b64c419,2,0.0,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/1b64c419_v2_t0_0.json,1.0,ok,1.0,ok,strict
+9cebf902,0,0.5,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/9cebf902_v0_t0_5.json,1.0,ok,1.0,ok,strict
+dc35566b,2,0.5,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/dc35566b_v2_t0_5.json,1.0,ok,1.0,ok,strict
+85a846ff,1,0.0,gpt-3.5-turbo,GUI,openai/gpt-3.5-turbo/85a846ff_v1_t0_0.json,1.0,ok,1.0,ok,strict
+b4ec494d,2,0.5,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/b4ec494d_v2_t0_5.json,1.0,ok,1.0,ok,strict
+f260aa25,0,0.5,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/f260aa25_v0_t0_5.json,1.0,ok,1.0,ok,strict
+07080553,1,0.5,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/07080553_v1_t0_5.json,1.0,ok,1.0,ok,strict
+25c9f684,1,0.0,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/25c9f684_v1_t0_0.json,1.0,ok,1.0,ok,strict
+f6d74921,2,0.5,gpt-3.5-turbo,TEXT,openai/gpt-3.5-turbo/f6d74921_v2_t0_5.json,1.0,ok,1.0,ok,strict

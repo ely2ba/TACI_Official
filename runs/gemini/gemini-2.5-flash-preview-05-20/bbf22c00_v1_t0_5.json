@@ -1,0 +1,46 @@
+{
+  "uid": "bbf22c00",
+  "variant": 1,
+  "temperature": 0.5,
+  "model": "gemini-2.5-flash-preview-05-20",
+  "modality": "GUI",
+  "timestamp": "2025-05-27T15:27:28.449702Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_JSON>[{'action':'click','selector':'table:has-text(\"order\" i) >> tr >> input[type=checkbox]','text':''},{'action':'click','selector':'table:has-text(\"invoice\" i) >> tr >> input[type=checkbox]','text':''},{'action':'click','selector':'button:has-text(\"match\" i)','text':''},{'action':'click','selector':'button:has-text(\"record\" i)','text':''}]</OUTPUT_JSON>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.37802347643622036
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 202,
+      "candidatesTokenCount": 116,
+      "totalTokenCount": 827,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 202
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 116
+        }
+      ],
+      "thoughtsTokenCount": 509
+    },
+    "modelVersion": "gemini-2.5-flash-preview-05-20",
+    "createTime": "2025-05-27T15:27:25.272540Z",
+    "responseId": "3dk1aJzREKO2nvgPrJiG8Qk"
+  }
+}

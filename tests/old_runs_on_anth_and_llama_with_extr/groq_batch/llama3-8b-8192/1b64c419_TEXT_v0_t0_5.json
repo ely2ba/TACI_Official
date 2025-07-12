@@ -1,0 +1,43 @@
+{
+  "uid": "1b64c419",
+  "variant": 0,
+  "modality": "TEXT",
+  "temperature": 0.5,
+  "model": "llama3-8b-8192",
+  "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+  "timestamp": "2025-05-28T14:56:59.763583Z",
+  "prompt_sha256": "4c820b93c0a97c8cb762fd274b2900d9a471a9bd42f76cf01ed15bf389a13aa8",
+  "response": {
+    "id": "chatcmpl-780ac7c9-79c6-4781-92e4-1de1d2451131",
+    "object": "chat.completion",
+    "created": 1748444219,
+    "model": "llama3-8b-8192",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "<OUTPUT_TEXT>\nWhen answering telephones, I would greet the caller politely and efficiently, taking note of their name, contact information, and the purpose of their call. I would then direct the call to the appropriate staff member, such as a doctor, nurse, or other healthcare professional, ensuring that the caller's needs are met in a timely and professional manner.\n</OUTPUT_TEXT>"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "queue_time": 1.256867406,
+      "prompt_tokens": 96,
+      "prompt_time": 0.035969059,
+      "completion_tokens": 74,
+      "completion_time": 0.061666667,
+      "total_tokens": 170,
+      "total_time": 0.097635726
+    },
+    "usage_breakdown": {
+      "models": null
+    },
+    "system_fingerprint": "fp_dadc9d6142",
+    "x_groq": {
+      "id": "req_01jwbpb17vfcyrc27cqgt7j6z3"
+    }
+  }
+}

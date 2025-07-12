@@ -1,0 +1,49 @@
+{
+  "uid": "7dda7be5",
+  "variant": 0,
+  "temperature": 0.5,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:38:06Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "f13d2c99c39a476287c57f6efceaef8cfa4d97a531c3e023231a94c1b7e1e2bc",
+  "response": {
+    "id": "chatcmpl-Bi1hhOMHyP3axo8s4NfYWDPlOEou7",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nAs a paralegal and legal assistant, I am adept at appraising and inventorying real and personal property for estate planning. This involves assessing the value of all property, including real estate, vehicles, jewelry, furniture, investments, and other assets. The inventory process also includes documenting all property and its estimated value, which is crucial for determining the total value of the estate. This information is then used to help in the development of an effective and comprehensive estate plan.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749832681,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 102,
+      "prompt_tokens": 95,
+      "total_tokens": 197,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

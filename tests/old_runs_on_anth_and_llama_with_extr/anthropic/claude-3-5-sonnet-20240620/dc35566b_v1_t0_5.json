@@ -1,0 +1,15 @@
+{
+  "uid": "dc35566b",
+  "variant": 1,
+  "modality": "TEXT",
+  "temperature": 0.5,
+  "model": "claude-3-5-sonnet-20240620",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T18:06:42.023084Z",
+  "commit_sha": "98b2eb0f130d4d32e78707f77c440a8f68e4103c",
+  "prompt_sha256": "765f66845fe94cc26e415321bd6986741705cf0896b53b9a639c6f287a20df02",
+  "response": {
+    "raw": "Here is a client-ready memo on preparing for trial by organizing exhibits:\n\n<OUTPUT_TEXT>\nMEMO\nTo: Trial Team\nFrom: Senior Paralegal\nRe: Organizing Exhibits for Upcoming Trial\n\nIn preparation for our upcoming trial, I have completed the following tasks to organize our exhibits:\n\n1. Created a master exhibit list in Excel with columns for exhibit number, description, date, source, and notes\n\n2. Assigned unique exhibit numbers to all potential trial exhibits\n\n3. Organized physical copies of exhibits in numbered folders stored in banker's boxes\n\n4. Scanned all exhibits and saved electronic copies in a dedicated trial exhibits folder on our secure server\n\n5. Prepared exhibit binders for attorneys, witnesses, and the court, with tabs and table of contents\n\n6. Cross-referenced exhibits with deposition transcripts and key case documents\n\n7. Flagged any potential evidentiary issues or objections for attorney review\n\n8. Coordinated with opposing counsel on joint exhibits and exhibit numbering conventions\n\n9. Prepared exhibit stickers and arranged for necessary audiovisual equipment for trial\n\n10. Created a system for tracking which exhibits are admitted during trial\n\nPlease let me know if you need any additional information or assistance as we approach the trial date.\n</OUTPUT_TEXT>",
+    "extracted": "<OUTPUT_TEXT>\nMEMO\nTo: Trial Team\nFrom: Senior Paralegal\nRe: Organizing Exhibits for Upcoming Trial\n\nIn preparation for our upcoming trial, I have completed the following tasks to organize our exhibits:\n\n1. Created a master exhibit list in Excel with columns for exhibit number, description, date, source, and notes\n\n2. Assigned unique exhibit numbers to all potential trial exhibits\n\n3. Organized physical copies of exhibits in numbered folders stored in banker's boxes\n\n4. Scanned all exhibits and saved electronic copies in a dedicated trial exhibits folder on our secure server\n\n5. Prepared exhibit binders for attorneys, witnesses, and the court, with tabs and table of contents\n\n6. Cross-referenced exhibits with deposition transcripts and key case documents\n\n7. Flagged any potential evidentiary issues or objections for attorney review\n\n8. Coordinated with opposing counsel on joint exhibits and exhibit numbering conventions\n\n9. Prepared exhibit stickers and arranged for necessary audiovisual equipment for trial\n\n10. Created a system for tracking which exhibits are admitted during trial\n\nPlease let me know if you need any additional information or assistance as we approach the trial date.\n</OUTPUT_TEXT>"
+  }
+}

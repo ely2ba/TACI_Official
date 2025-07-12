@@ -1,0 +1,49 @@
+{
+  "uid": "25c9f684",
+  "variant": 1,
+  "temperature": 0.0,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:18:08Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "d37cf9e48ef1acaab18a849ba7c28d757fa585285d9ad18f6c1d7df20601e396",
+  "response": {
+    "id": "chatcmpl-BaV0DSoGQzf2WHDN9yq1Z6xAicPH3",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n\nSubject: Important Update Regarding Your Recent Inquiry\n\nDear Valued Customer,\n\nI hope this message finds you well. I am reaching out to provide an update on the recent inquiry you made with our team.\n\nOur team has been diligently investigating your claim and we are now in a position to share the results. We have found that adjustments are necessary and are planning to implement these changes to better serve your needs.\n\nWe understand that this process may have caused some inconvenience and we appreciate your patience and understanding throughout this period. Our main goal is to ensure your satisfaction and we believe these adjustments will help us achieve that.\n\nWe will be contacting you shortly to discuss these adjustments in detail. If you have any questions or concerns in the meantime, please do not hesitate to reach out to our customer service team. We are here to assist you 24/7.\n\nThank you for choosing our services. We value your business and look forward to continuing to serve you.\n\nBest Regards,\n\n[Your Name]\n[Your Position]\n[Your Contact Information]\n\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748038681,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 212,
+      "prompt_tokens": 83,
+      "total_tokens": 295,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

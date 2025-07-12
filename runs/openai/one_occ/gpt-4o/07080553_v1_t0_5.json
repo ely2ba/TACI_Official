@@ -1,0 +1,49 @@
+{
+  "uid": "07080553",
+  "variant": 1,
+  "temperature": 0.5,
+  "model": "gpt-4o",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:49:08Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "875ac432cf5c92ad5d518cd80b30f9063e3c9a233738878444a54be9a4e1298b",
+  "response": {
+    "id": "chatcmpl-Bi1sOAtHJCbupuU7N9tufnlefyJwn",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>To prepare affidavits or other legal documents, begin by gathering all relevant information and facts from the client or case files. Draft the document following the legal standards and format required for the specific jurisdiction. Use clear and precise language to ensure accuracy and avoid ambiguity. Once drafted, review the document for any errors or omissions. If preparing an affidavit, ensure it is signed and notarized as required. \n\nFor organizing and maintaining documents, establish a consistent filing system, whether paper or electronic. Label folders clearly with the case name, number, and type of document. Regularly update the system to include new documents and remove outdated or irrelevant materials. Ensure all confidential information is securely stored and accessible only to authorized personnel. Use document management software if available to streamline the process and enhance efficiency.</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749833344,
+    "model": "gpt-4o-2024-08-06",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_a288987b44",
+    "usage": {
+      "completion_tokens": 163,
+      "prompt_tokens": 127,
+      "total_tokens": 290,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

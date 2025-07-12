@@ -1,0 +1,49 @@
+{
+  "uid": "dc35566b",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-4o",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:54:56Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "26edbd2e16ae6cdd1e49d23da961fd220dd9bcf754598e12a7e36824c4246f40",
+  "response": {
+    "id": "chatcmpl-BaVZh0CYXNrfMgUZkkDq2T1OpMsqf",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Trial Preparation: Organizing Exhibits\n\n1. **Review Case File**\n   - Thoroughly examine the case file to understand the scope of the trial, including key issues, parties involved, and the evidence needed.\n\n2. **Identify Exhibits**\n   - List all potential exhibits that may be used during the trial. This includes documents, photographs, digital evidence, and any physical items.\n\n3. **Label Exhibits**\n   - Assign a unique identifier to each exhibit. This can be a combination of numbers and letters (e.g., Exhibit 1A, Exhibit 2B) for easy reference.\n\n4. **Create an Exhibit List**\n   - Prepare a detailed list of all exhibits, including a brief description and the unique identifier for each. This list will help in tracking and referencing exhibits during the trial.\n\n5. **Organize Exhibits Physically and Digitally**\n   - Arrange physical exhibits in a logical order, typically by relevance or chronology. Ensure digital exhibits are stored in an organized file structure with clear labeling.\n\n6. **Prepare Exhibit Binders**\n   - Compile physical copies of exhibits into binders for easy access during the trial. Each binder should have a table of contents and dividers for quick navigation.\n\n7. **Coordinate with Opposing Counsel**\n   - Share the exhibit list with opposing counsel to address any objections or stipulations before the trial. This step can help streamline the trial process.\n\n8. **Prepare Exhibit Copies for Court**\n   - Make sufficient copies of each exhibit for the judge, opposing counsel, and the witness. Ensure that all copies are clear and legible.\n\n9. **Verify Exhibit Admissibility**\n   - Review the rules of evidence to confirm the admissibility of each exhibit. Prepare any necessary motions or arguments to support the inclusion of contested exhibits.\n\n10. **Conduct a Final Review**\n    - Conduct a final review of all exhibits and the exhibit list to ensure completeness and accuracy. Confirm that all exhibits are ready for presentation in court.\n\n11. **Prepare for Contingencies**\n    - Anticipate any challenges to the exhibits and prepare responses. Have backup copies and alternative exhibits ready if needed.\n\n12. **Brief the Legal Team**\n    - Meet with the legal team to review the exhibits, discuss strategies for their presentation, and ensure everyone is familiar with the exhibit list and organization.\n\nBy following these steps, you will ensure that all exhibits are well-organized and ready for efficient presentation during the trial.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748040881,
+    "model": "gpt-4o-2024-08-06",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_a288987b44",
+    "usage": {
+      "completion_tokens": 504,
+      "prompt_tokens": 84,
+      "total_tokens": 588,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

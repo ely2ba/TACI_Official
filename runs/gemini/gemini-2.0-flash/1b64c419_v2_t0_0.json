@@ -1,0 +1,45 @@
+{
+  "uid": "1b64c419",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gemini-2.0-flash",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T13:13:09.035660Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_TEXT>\n# Answering and Directing Telephone Calls\n\n1.  **Answer Promptly and Professionally:** Answer the phone within three rings, using a standard greeting such as \"Good morning/afternoon, [Practice Name], this is [Your Name], how may I help you?\" or \"[Practice Name], [Your Name] speaking.\"\n2.  **Identify the Caller's Needs:** Listen attentively to the caller to understand the purpose of their call. Ask clarifying questions if needed, such as \"What is the reason for your call today?\" or \"Who are you trying to reach?\"\n3.  **Direct Calls Appropriately:**\n    *   **For Existing Patients:** If the caller is an existing patient, ask for their name, date of birth, and reason for calling. Determine the appropriate department or staff member to transfer the call to (e.g., appointments, medical records, billing, nurse).\n    *   **For New Patients:** If the caller is a new patient, direct them to the new patient coordinator or the appropriate department for scheduling initial appointments and gathering necessary information.\n    *   **For Medical Emergencies:** If the caller is experiencing a medical emergency, immediately transfer them to the appropriate emergency services (e.g., 911) or follow established office protocols for handling emergencies.\n    *   **For Prescription Refills:** Direct the call to the appropriate nurse or medical assistant, following office policy on prescription refills.\n    *   **For Test Results:** Direct the call to the appropriate nurse or medical assistant, following office policy on releasing test results.\n    *   **For Billing Inquiries:** Direct the call to the billing department or the staff member responsible for handling billing inquiries.\n    *   **For General Information:** Answer general questions about the practice, such as hours of operation, location, and accepted insurance plans. If you cannot answer the question, direct the caller to the appropriate resource.\n    *   **For Other Inquiries:** Use your best judgment to determine the appropriate staff member or department to handle the call. If unsure, consult with a supervisor or colleague.\n4.  **Transfer Calls Efficiently:** Use the telephone system's features to transfer calls smoothly and accurately. Announce the caller's name and reason for calling to the staff member before transferring the call. For example, \"Dr. Smith, I have Mrs. Jones on the line regarding a prescription refill.\"\n5.  **Take Messages Accurately:** If the staff member is unavailable, offer to take a message. Record the caller's name, phone number, date and time of the call, and a brief message. Deliver the message to the appropriate staff member promptly.\n6.  **Handle Difficult Callers Professionally:** Remain calm and courteous when dealing with difficult or angry callers. Listen to their concerns and try to resolve the issue if possible. If you are unable to resolve the issue, escalate the call to a supervisor or manager.\n7.  **Maintain Confidentiality:** Protect patient privacy by adhering to HIPAA regulations and office policies regarding the release of patient information.\n8.  **Document Calls:** As needed, document the call in the patient's electronic health record (EHR) or other designated system, following office policy.\n9.  **Use Proper Phone Etiquette:** Speak clearly and professionally, using a polite and helpful tone. Avoid using slang or jargon.\n10. **Follow Office Protocol:** Adhere to all office policies and procedures regarding telephone communication.\n</TEXT>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.13523000782933728
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 108,
+      "candidatesTokenCount": 725,
+      "totalTokenCount": 833,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 108
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 725
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:13:03.809166Z",
+    "responseId": "X7o1aM6xMdTGgLUPtNvO0AE"
+  }
+}

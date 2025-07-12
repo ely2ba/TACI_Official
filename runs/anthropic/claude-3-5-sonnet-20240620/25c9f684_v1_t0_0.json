@@ -1,0 +1,34 @@
+{
+  "uid": "25c9f684",
+  "variant": 1,
+  "modality": "TEXT",
+  "temperature": 0.0,
+  "model": "claude-3-5-sonnet-20240620",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T20:10:36.848506Z",
+  "commit_sha": "170b9e3e1d0d59846b1daa69da57be5d1db6306c",
+  "prompt_sha256": "dcb189b59d03baca116ee08275e893cabdd43b5b3f278dd0cb09a9f516d5f4f0",
+  "response": {
+    "id": "msg_011AedhzGJZ7PsxKT4hxitCk",
+    "content": [
+      {
+        "citations": null,
+        "text": "Here is a draft client-ready memo for that task:\n\n<OUTPUT_TEXT>\nSubject: Follow-up on Your Recent Claim\n\nDear [Customer Name],\n\nI hope this message finds you well. I'm reaching out regarding the claim you filed on [date] for [brief claim description].\n\nOur investigation of your claim is now complete. I'm pleased to inform you that we have approved [details of approved amount/coverage]. [If applicable: We have made the following adjustments to your claim: [list adjustments].]\n\nA detailed explanation of our findings and any adjustments has been mailed to the address on file. You should receive this documentation within 5-7 business days.\n\nIf you have any questions about your claim or our decision, please don't hesitate to contact me directly at [phone number] or reply to this email. I'm here to assist you.\n\nThank you for your patience during our review process. We appreciate your business and the trust you place in us.\n\nSincerely,\n[Your Name]\nSenior Claims Representative\n</OUTPUT_TEXT>",
+        "type": "text"
+      }
+    ],
+    "model": "claude-3-5-sonnet-20240620",
+    "role": "assistant",
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "input_tokens": 123,
+      "output_tokens": 234,
+      "server_tool_use": null,
+      "service_tier": "standard"
+    }
+  }
+}

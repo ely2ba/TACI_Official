@@ -1,0 +1,45 @@
+{
+  "uid": "8cc4a9e1",
+  "variant": 1,
+  "temperature": 0.0,
+  "model": "gemini-2.0-flash",
+  "modality": "GUI",
+  "timestamp": "2025-05-27T13:11:02.162049Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "Okay, I need to provide actions to compute amounts related to space, charges, shipping, storage, or demurrage. The selectors provided include input fields for space and charges, a calculate button, and a save button. I will start by focusing on the space input field.\n\n<OUTPUT_JSON>[{\"action\": \"click\", \"selector\": \"input[name*=space i], input[placeholder*=space i]\", \"text\": \"\"}]</OUTPUT_JSON>\n"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.22617695728937784
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 200,
+      "candidatesTokenCount": 96,
+      "totalTokenCount": 296,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 200
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 96
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:11:01.136909Z",
+    "responseId": "5bk1aM2tCKLkgLUPlsyasAI"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "timestamp": "2025-06-30T19:45:10.708134",
+  "summary_stats": {},
+  "insights": [
+    "\u26a0\ufe0f  o3-2025-04-16 has 8.3% wrapper failure rate - concerning reliability",
+    "\u2705 o3-2025-04-16 achieves perfect schema compliance (0% failures)",
+    "\u2705 gpt-4.1 achieves perfect wrapper compliance (0% failures)",
+    "\u2705 gpt-4.1 achieves perfect schema compliance (0% failures)",
+    "\ud83c\udfaf gpt-4.1 demonstrates PERFECT structural reliability",
+    "\u2705 gpt-4o achieves perfect wrapper compliance (0% failures)",
+    "\u2705 gpt-4o achieves perfect schema compliance (0% failures)",
+    "\ud83c\udfaf gpt-4o demonstrates PERFECT structural reliability",
+    "\ud83d\udea8 gpt-4 has 11.1% wrapper failure rate - UNRELIABLE for production",
+    "\ud83d\udea8 gpt-4 has 11.1% schema failure rate - UNRELIABLE structure",
+    "\u274c gpt-4 FAILS structural reliability test (22.2% total failures)",
+    "\u2705 gpt-4-turbo achieves perfect wrapper compliance (0% failures)",
+    "\u2705 gpt-3.5-turbo achieves perfect wrapper compliance (0% failures)",
+    "\u2705 gpt-3.5-turbo achieves perfect schema compliance (0% failures)",
+    "\ud83c\udfaf gpt-3.5-turbo demonstrates PERFECT structural reliability",
+    "\ud83d\ude80 BREAKTHROUGH: gpt-4o shows +8.0 point jump over gpt-4-turbo",
+    "\ud83d\ude80 BREAKTHROUGH: gpt-4.1 shows +5.4 point jump over gpt-4o",
+    "\ud83d\ude80 BREAKTHROUGH: o3-2025-04-16 shows +5.5 point jump over gpt-4.1",
+    "\ud83c\udfaf gpt-4.1 crosses PROFESSIONAL THRESHOLD (75+ score)",
+    "\ud83c\udf1f o3-2025-04-16 achieves EXPERT LEVEL (80+ score)",
+    "\ud83c\udfd4\ufe0f  CAPABILITY CLIFF: 5.4 point gap between gpt-4o (72.6) and gpt-4.1 (78.0)",
+    "\u2728 gpt-4.1 reaches PROFESSIONAL quality (4.72/5.0 - 94.5%)",
+    "\u2728 gpt-4o reaches PROFESSIONAL quality (4.48/5.0 - 89.6%)",
+    "\u2b50 o3-2025-04-16 achieves EXPERT-LEVEL quality (4.95/5.0 - 98.9%)",
+    "\ud83d\udcca MASSIVE quality gap: o3-2025-04-16 (4.95) vs gpt-3.5-turbo (3.69) = 1.25 point difference",
+    "\ud83d\udcca gpt-4-turbo shows HIGH prompt sensitivity (1.38 point range)",
+    "\ud83d\udcca gpt-4 shows HIGH prompt sensitivity (1.12 point range)",
+    "\ud83d\udcca gpt-3.5-turbo shows HIGH prompt sensitivity (1.12 point range)",
+    "\ud83d\udcca gpt-4o shows HIGH prompt sensitivity (1.08 point range)",
+    "\ud83c\udfaf o3-2025-04-16 demonstrates ROBUST performance across prompts (0.17 range)",
+    "\ud83c\udfc6 Most robust model: o3-2025-04-16 (0.17 range)",
+    "\u26a0\ufe0f  Most sensitive model: gpt-4-turbo (1.38 range)"
+  ],
+  "model_rankings": [
+    {
+      "model": "o3-2025-04-16",
+      "score": 83.53860359400527,
+      "ci_low": 82.33802116627602,
+      "ci_high": 84.43118592703081
+    },
+    {
+      "model": "gpt-4.1",
+      "score": 78.01074886947464,
+      "ci_low": 75.92821459857473,
+      "ci_high": 79.87339299666169
+    },
+    {
+      "model": "gpt-4o",
+      "score": 72.63252598432655,
+      "ci_low": 70.34027037905155,
+      "ci_high": 74.7625778346
+    },
+    {
+      "model": "gpt-4-turbo",
+      "score": 64.62142197599262,
+      "ci_low": 61.485001302175824,
+      "ci_high": 67.43273374055923
+    },
+    {
+      "model": "gpt-4",
+      "score": 63.582344863508304,
+      "ci_low": 61.428248632715395,
+      "ci_high": 65.77296564623435
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "score": 61.13076212799205,
+      "ci_low": 59.00188223595426,
+      "ci_high": 63.1394393541208
+    }
+  ]
+}

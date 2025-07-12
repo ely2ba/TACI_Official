@@ -1,0 +1,49 @@
+{
+  "uid": "07080553",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-3.5-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:00:21Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "acb24bee05a0f7b8bea5c38e5a76f68132b2b74e13fdae3608ba58b711cf52c6",
+  "response": {
+    "id": "chatcmpl-BaUj1Wq72Hi4qgfvYWtBVAjBYFirZ",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Affidavits and Legal Documents Preparation\n\n1. **Drafting Affidavits:**\n   - Gather all necessary information and details for the affidavit.\n   - Ensure the language used is clear, concise, and legally sound.\n   - Include all relevant facts and details in a structured format.\n\n2. **Legal Correspondence:**\n   - Prepare letters, emails, and other forms of correspondence as required.\n   - Use professional language and format in all communications.\n   - Address the recipient appropriately and clearly state the purpose of the correspondence.\n\n3. **Organizing and Maintaining Documents:**\n   - Establish a systematic filing system for both paper and electronic documents.\n   - Ensure all documents are properly labeled and stored in the correct location.\n   - Regularly update and maintain the filing system to ensure easy retrieval of documents.\n\n4. **Quality Check:**\n   - Review all documents for accuracy, completeness, and compliance with legal requirements.\n   - Verify all information provided in the documents to minimize errors and discrepancies.\n\n5. **Confidentiality and Security:**\n   - Maintain strict confidentiality of all documents and information.\n   - Implement security measures to protect sensitive data and documents from unauthorized access.\n\n6. **Record Keeping:**\n   - Keep detailed records of all documents prepared and correspondence sent.\n   - Log important dates, deadlines, and any follow-up actions required.\n\n7. **Collaboration with Legal Team:**\n   - Coordinate with attorneys and other legal professionals to ensure documents meet their requirements.\n   - Seek feedback and input from the legal team to improve the quality of documents.\n\n8. **Compliance and Ethics:**\n   - Ensure all documents and correspondence adhere to legal and ethical standards.\n   - Stay updated on relevant laws and regulations to ensure compliance in all legal documents.\n\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748037615,
+    "model": "gpt-3.5-turbo-0125",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 368,
+      "prompt_tokens": 98,
+      "total_tokens": 466,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

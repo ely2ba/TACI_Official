@@ -1,0 +1,50 @@
+{
+  "uid": "2e2364b7",
+  "variant": 1,
+  "temperature": 0.5,
+  "seed": 1,
+  "model": "o3-2025-04-16",
+  "modality": "TEXT",
+  "timestamp": "2025-06-21T20:40:19Z",
+  "commit_sha": "ac1698886e89fb01e65b6ca5c8e06e97f58dd0fa",
+  "prompt_sha256": "5808175cbc619e24c5c564af0fd9694007e037ba45a7744dae70da83bcc6bb95",
+  "response": {
+    "id": "chatcmpl-BkzI9vjP8MYwfmZMYELxDWqpaCeH0",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nTo: [Assigning Attorney\u2019s Name]  \nFrom: [Your Name], Senior Paralegal  \nDate: [Insert Date]  \nRe: Filing of Pleadings with the Court Clerk in [Jurisdiction/Court]\n\nPurpose  \nThis memorandum outlines the tasks, deadlines, and procedural requirements for filing the following pleadings with the court clerk:  \n1. Plaintiff\u2019s Second Amended Complaint  \n2. Motion to Compel Discovery (with proposed order)  \n3. Notice of Hearing\n\nKey Deadlines  \n\u2022 Statute-driven deadline to amend pleadings: __________ (Rule ___).  \n\u2022 Discovery motion must be filed 30 days before close of discovery: __________.  \n\u2022 Hearing slot already reserved for __________ at ____ a.m./p.m. (per clerk confirmation #__________).\n\nFiling Checklist  \n\n1. Formatting & Compliance  \n   \u2013 Confirm caption matches court\u2019s style guide; include case number, division, and judge.  \n   \u2013 Use 12-pt Times New Roman, 1-inch margins, page limits: 25 for motion, 10 for notice (Local Rule ___).  \n   \u2013 Blue-back cover (state court), or no cover page (federal).  \n   \u2013 Consecutive-page pagination including exhibits.  \n   \u2013 Wet-ink signature for original; /s/ signature acceptable on electronic copies (Rule 11).  \n\n2. Exhibits & Supporting Documents  \n   \u2013 Exhibits A\u2013F: highlight Bates numbers; redact personal identifiers per Fed. R. Civ. P. 5.2 or equivalent state rule.  \n   \u2013 Provide proposed order (Word-format) to clerk via e-mail and attach PDF to filing.  \n\n3. Filing Method  \n   A. Electronic (CM/ECF or e-FileTX, etc.)  \n      \u2022 Convert to searchable PDFs; combined file size < 35 MB.  \n      \u2022 Upload under correct event codes: \u201cAmended Complaint\u201d \u2192 \u201cAmended Document (Complaint)\u201d; \u201cMotion to Compel\u201d \u2192 \u201cMotions > Compel\u201d; attach proposed order.  \n      \u2022 Add service list for automatic NEF.  \n   B. Paper (if mandated/backup)  \n      \u2022 Original + 2 conformed copies, plus judge\u2019s courtesy copy (hole-punched, tabbed).  \n      \u2022 Self-addressed, stamped envelope for clerk return.  \n      \u2022 Filing fee: $__________ (amendment) payable to \u201c[Clerk of Court]\u201d.  \n\n4. Service of Process & Certificates  \n   \u2013 Serve opposing counsel via ECF (automatic) or hand/first-class mail within 24 hrs for paper filing.  \n   \u2013 Prepare Certificate of Service compliant with Rule 5(d)(1).  \n\n5. Clerk Interaction  \n   \u2013 Call clerk (###-###-####) to confirm acceptance window (8:30 a.m.\u20134:00 p.m.) and any COVID-related restrictions.  \n   \u2013 For emergency filings after hours: drop-box procedure, timestamped by security; e-mail courtesy copy to judge\u2019s chambers.  \n\n6. Post-Filing Tasks  \n   \u2013 Docket number & timestamp verification; save NEF.  \n   \u2013 Update case calendar and shared drive folder \u201c\\Pleadings\\Filed\\2024-05-[Date]\u201d.  \n   \u2013 Send filed-stamp copies to client with cover note.  \n   \u2013 Prepare Proof of Filing Affidavit (if required by local practice).  \n\nRisk Areas & Mitigation  \n\u2022 Missing page-limit or font rule \u2192 rejection. Double-check before submission.  \n\u2022 File size too large \u2192 split exhibits or reduce resolution.  \n\u2022 Incorrect event code \u2192 could delay judge seeing motion; verify against CM/ECF dictionary.  \n\u2022 Service failures \u2192 maintain e-mail read receipts and USPS tracking.  \n\nEstimated Time Allocation  \nDrafting final QC: 1.5 hrs  \nElectronic filing & clerk coordination: 0.5 hr  \nService & post-filing updates: 0.5 hr  \nTotal: 2.5 hrs  \n\nAction Items for Attorney  \n\u2610 Review and approve final versions of pleadings and proposed order by ____ p.m. today.  \n\u2610 Confirm any strategic changes to complaint language (red-lined version attached).  \n\u2610 Authorize filing fee advance from client trust.  \n\nPlease advise if any additional materials or last-minute revisions are required. Once approval is received, I will execute the filing and circulate the conformed copies.\n\nRespectfully submitted,\n\n[Your Name]  \nSenior Paralegal\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1750538393,
+    "model": "o3-2025-04-16",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1044,
+      "prompt_tokens": 108,
+      "total_tokens": 1152,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 64,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "uid": "dc35566b",
+  "variant": 0,
+  "modality": "TEXT",
+  "temperature": 0.5,
+  "model": "claude-3-opus-20240229",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T17:46:49.484280Z",
+  "commit_sha": "98b2eb0f130d4d32e78707f77c440a8f68e4103c",
+  "prompt_sha256": "b1ac045c1a947bb4d70d059931e67b3014310d0dc0649de077ee69a7bab47991",
+  "response": {
+    "raw": "Here is my attempt at the task:\n\n<OUTPUT_TEXT>\nTo prepare for trial as a paralegal or legal assistant:\n\n1. Organize and label all exhibits in a logical order, such as chronologically or by topic. Create an exhibit list with identifying numbers and brief descriptions of each exhibit.\n\n2. Prepare exhibit binders for the attorneys, judge, witness, and opposing counsel. Include the exhibit list, exhibits separated by labeled dividers, and an index. \n\n3. Digitize exhibits by scanning them and creating a digital folder of PDF files. Name the files clearly to match the physical exhibit labels for easy retrieval.\n\n4. Draft an exhibit summary spreadsheet listing key information for each exhibit, such as exhibit number, date, author, recipient, title or description, and purpose for using at trial. \n\n5. Coordinate with litigation support to ensure digital exhibits are ready to present at trial using presentation software. Test the files and equipment in advance.\n\n6. Transport physical exhibits to the courtroom before trial begins and organize them in the order they will likely be introduced by the attorneys. Ensure the attorneys have easy access to the exhibits at counsel's table.\n</OUTPUT_TEXT>",
+    "extracted": "<OUTPUT_TEXT>\nTo prepare for trial as a paralegal or legal assistant:\n\n1. Organize and label all exhibits in a logical order, such as chronologically or by topic. Create an exhibit list with identifying numbers and brief descriptions of each exhibit.\n\n2. Prepare exhibit binders for the attorneys, judge, witness, and opposing counsel. Include the exhibit list, exhibits separated by labeled dividers, and an index. \n\n3. Digitize exhibits by scanning them and creating a digital folder of PDF files. Name the files clearly to match the physical exhibit labels for easy retrieval.\n\n4. Draft an exhibit summary spreadsheet listing key information for each exhibit, such as exhibit number, date, author, recipient, title or description, and purpose for using at trial. \n\n5. Coordinate with litigation support to ensure digital exhibits are ready to present at trial using presentation software. Test the files and equipment in advance.\n\n6. Transport physical exhibits to the courtroom before trial begins and organize them in the order they will likely be introduced by the attorneys. Ensure the attorneys have easy access to the exhibits at counsel's table.\n</OUTPUT_TEXT>"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "uid": "0c07452f",
+  "variant": 2,
+  "modality": "TEXT",
+  "temperature": 0.5,
+  "model": "claude-3-5-sonnet-20240620",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T18:08:17.586496Z",
+  "commit_sha": "98b2eb0f130d4d32e78707f77c440a8f68e4103c",
+  "prompt_sha256": "2189e62343fd7e1183a39f3a4091805edf521e1d87fad9e7f11d201b5eda7abc",
+  "response": {
+    "raw": "Here is my response formatted as requested:\n\n<OUTPUT_TEXT>\n\n# Enforcing Administration Policies and Rules for Students\n\n1. Familiarize yourself with policies\n   - Carefully review school handbook and code of conduct\n   - Attend staff meetings on policy updates\n   - Ask administrators to clarify any unclear rules\n\n2. Communicate expectations clearly\n   - Review key policies with students at start of year\n   - Post classroom rules visibly \n   - Remind students of policies as needed\n\n3. Be consistent in enforcement\n   - Apply rules fairly to all students\n   - Follow through on stated consequences\n   - Document policy violations\n\n4. Use positive reinforcement\n   - Recognize students following rules\n   - Implement reward systems for good behavior\n   - Model expected conduct yourself\n\n5. Address violations promptly\n   - Intervene quickly for minor infractions\n   - Report serious violations to administration\n   - Contact parents when appropriate\n\n6. Promote student accountability\n   - Have students acknowledge rules in writing\n   - Encourage peer-to-peer reminders\n   - Allow students to suggest fair consequences\n\n7. Seek support when needed\n   - Consult colleagues on challenging situations\n   - Involve counselors or administrators for repeat offenders\n   - Request additional training if struggling with enforcement\n\n</OUTPUT_TEXT>",
+    "extracted": "<OUTPUT_TEXT>\n# Enforcing Administration Policies and Rules for Students\n\n1. Familiarize yourself with policies\n   - Carefully review school handbook and code of conduct\n   - Attend staff meetings on policy updates\n   - Ask administrators to clarify any unclear rules\n\n2. Communicate expectations clearly\n   - Review key policies with students at start of year\n   - Post classroom rules visibly \n   - Remind students of policies as needed\n\n3. Be consistent in enforcement\n   - Apply rules fairly to all students\n   - Follow through on stated consequences\n   - Document policy violations\n\n4. Use positive reinforcement\n   - Recognize students following rules\n   - Implement reward systems for good behavior\n   - Model expected conduct yourself\n\n5. Address violations promptly\n   - Intervene quickly for minor infractions\n   - Report serious violations to administration\n   - Contact parents when appropriate\n\n6. Promote student accountability\n   - Have students acknowledge rules in writing\n   - Encourage peer-to-peer reminders\n   - Allow students to suggest fair consequences\n\n7. Seek support when needed\n   - Consult colleagues on challenging situations\n   - Involve counselors or administrators for repeat offenders\n   - Request additional training if struggling with enforcement\n</OUTPUT_TEXT>"
+  }
+}

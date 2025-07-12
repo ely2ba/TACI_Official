@@ -1,0 +1,44 @@
+{
+  "uid": "dc35566b",
+  "variant": 2,
+  "modality": "TEXT",
+  "temperature": 0.0,
+  "model": "llama3-8b-8192",
+  "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+  "timestamp": "2025-05-28T19:19:42.181072Z",
+  "prompt_sha256": "3f5ef238a68161e191121724f6fd1be6611b988f2d4eb5f9565032790025c14d",
+  "commit_sha": "170b9e3e1d0d59846b1daa69da57be5d1db6306c",
+  "response": {
+    "id": "chatcmpl-f7e8886e-8f38-4ec1-a95c-01dcfb478ed9",
+    "object": "chat.completion",
+    "created": 1748459981,
+    "model": "llama3-8b-8192",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "<OUTPUT_TEXT>\n<h1>Preparing for Trial: Organizing Exhibits</h1>\n\n<h2>Step 1: Identify Relevant Exhibits</h2>\nNumber each exhibit and create a list of all relevant documents, photographs, and other physical evidence that will be presented during the trial. This includes:\n\n* Witness statements\n* Expert reports\n* Medical records\n* Police reports\n* Photographs of the accident scene\n* Videos or audio recordings\n\n<h2>Step 2: Organize Exhibits by Category</h2>\nGroup exhibits into categories, such as:\n\n* Witness statements\n* Physical evidence (e.g. photographs, videos, physical objects)\n* Documents (e.g. medical records, police reports)\n* Expert reports\n\n<h2>Step 3: Label and Number Exhibits</h2>\nLabel each exhibit with a unique number and a brief description. For example:\n\n* Exhibit 1: Witness statement from John Doe\n* Exhibit 2: Photograph of the accident scene\n* Exhibit 3: Medical record from Jane Smith\n\n<h2>Step 4: Create an Exhibit List</h2>\nCreate a comprehensive list of all exhibits, including the exhibit number, description, and the witness or party who will be presenting the exhibit. This list will be used during the trial to ensure that all exhibits are presented in the correct order.\n\n<h2>Step 5: Prepare Exhibits for Trial</h2>\nMake sure that all exhibits are in a format that can be easily presented during the trial. This may include:\n\n* Making photocopies of large documents\n* Creating a digital version of physical evidence (e.g. photographs, videos)\n* Ensuring that all exhibits are in a format that can be easily displayed or presented to the jury.\n\n<h2>Step 6: Review and Confirm Exhibit List</h2>\nReview the exhibit list with the attorney and confirm that all exhibits are accounted for and in the correct order. Make any necessary changes to the list before the trial begins.\n\n</OUTPUT_TEXT>"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "queue_time": 0.16376830099999998,
+      "prompt_tokens": 120,
+      "prompt_time": 0.02261487,
+      "completion_tokens": 415,
+      "completion_time": 0.345833333,
+      "total_tokens": 535,
+      "total_time": 0.368448203
+    },
+    "usage_breakdown": {
+      "models": null
+    },
+    "system_fingerprint": "fp_dadc9d6142",
+    "x_groq": {
+      "id": "req_01jwc5c2mjfcmta5j73b04bvsn"
+    }
+  }
+}

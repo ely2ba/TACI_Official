@@ -1,0 +1,50 @@
+{
+  "uid": "8b2ab848",
+  "variant": 2,
+  "temperature": 0.5,
+  "seed": 1,
+  "model": "o3-2025-04-16",
+  "modality": "TEXT",
+  "timestamp": "2025-06-21T20:37:11Z",
+  "commit_sha": "ac1698886e89fb01e65b6ca5c8e06e97f58dd0fa",
+  "prompt_sha256": "0f9d513f0ee228b1b7529ec92a6adc7f8a0472989ce4d1d57412a50387e5de87",
+  "response": {
+    "id": "chatcmpl-BkzFCROO8tgpMuuDBSyCiCVibTJ9Y",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Paralegal Guide to Dispute Arbitration and Real-Estate Closing Support\n\n1. Scope of Authority  \n   - Act only under attorney supervision unless local rules allow otherwise.  \n   - Provide procedural assistance, factual research, and document preparation\u2014not legal advice.\n\n2. Initial Case Intake & Conflict Check  \n   a. Gather engagement letters, identification, and property information.  \n   b. Run conflict-of-interest search for all parties (buyers, sellers, lenders, title company).  \n   c. Flag conflicts to supervising attorney before work begins.\n\n3. Arbitration Support Between Parties  \n   a. Compile Relevant Documents  \n      \u2022 Purchase & Sale Agreement, amendments, addenda.  \n      \u2022 Inspection reports, correspondence, escrow instructions.  \n      \u2022 Prior settlement offers or mediation summaries.  \n   b. Chronology & Issue Matrix  \n      \u2022 Create spreadsheet listing dates, events, disputed items, and contractual clauses.  \n      \u2022 Highlight evidentiary gaps to attorney for follow-up.  \n   c. Draft Arbitration Pleadings  \n      \u2022 Notice of Arbitration / Demand, Response, Counter-Demand.  \n      \u2022 Proposed stipulations of fact.  \n   d. Coordinate Procedural Calendar  \n      \u2022 Filing deadlines, discovery cut-offs, hearing dates.  \n      \u2022 Serve notices via certified mail or e-service as rules require.  \n   e. Discovery Management  \n      \u2022 Prepare interrogatories, RFPs, RFAs for attorney review.  \n      \u2022 Subpoena HOA records, municipal permits, or prior title work.  \n   f. Hearing Preparation  \n      \u2022 Organize exhibits with Bates numbering.  \n      \u2022 Draft witness lists and subpoenas.  \n      \u2022 Arrange court reporter, videographer, translator if needed.  \n   g. Post-Award Tasks  \n      \u2022 Calendar award issuance deadline.  \n      \u2022 Draft motion to confirm or vacate award (if applicable).  \n      \u2022 Coordinate recording or enforcement actions.\n\n4. Real-Estate Closing Process Assistance  \n   a. Transaction Timeline  \n      \u2022 Offer acceptance \u2192 Title & escrow open \u2192 Due diligence \u2192 Loan approval \u2192 Closing disclosure \u2192 Signing \u2192 Funding/Recording.  \n   b. Preparation of Closing Package  \n      \u2022 HUD-1/Closing Disclosure, deed, bill of sale, affidavits, FIRPTA, wire instructions.  \n      \u2022 Confirm notary requirements and state-specific forms.  \n   c. Funds Management  \n      \u2022 Verify escrow balance sheet; match deposits, credits, prorations.  \n      \u2022 Obtain payoff statements; schedule wire transfers.  \n   d. Communication Matrix  \n      \u2022 Weekly status updates to buyer, seller, agents, lender, title company.  \n      \u2022 Document each communication in case management system.  \n   e. Pre-Closing Checklist  \n      \u2022 Title defects cleared; contingencies removed; insurance binder received.  \n      \u2022 Walk-through scheduled and results logged.\n\n5. Title Search Review  \n   a. Examine Title Commitment / Preliminary Report  \n      \u2022 Schedule A: verify vested owner, legal description, policy amounts.  \n      \u2022 Schedule B-I: confirm requirements (e.g., payoff, entity docs, tax certs).  \n      \u2022 Schedule B-II: identify exceptions (easements, CCRs, liens).  \n   b. Red-Flag Items & Curing Steps  \n      \u2022 Mechanics\u2019 liens: secure releases or indemnity.  \n      \u2022 Encroachments: obtain survey & possible boundary agreement.  \n      \u2022 Probate gaps: prepare affidavits of heirship or initiate quiet-title action.  \n   c. Endorsements & Policy Selection  \n      \u2022 ALTA endorsements (e.g., 9, 22, 24) per lender/buyer needs.  \n      \u2022 Verify premium calculations and reissue credits.  \n   d. Update & Bring-Down Search  \n      \u2022 Order 24- to 48-hour bring-down prior to recording.  \n      \u2022 Confirm no new liens or judgments.  \n   e. Recording & Policy Issuance  \n      \u2022 Coordinate e-recording or in-person drop.  \n      \u2022 Track policy delivery and store in electronic closing file.\n\n6. Post-Closing Audit & File Management  \n   - Reconcile escrow ledger; obtain final title policy.  \n   - Deliver recorded deed and owner\u2019s policy to buyer; lender\u2019s policy to lender.  \n   - Close matter in docketing system; archive according to retention schedule.\n\n7. Ethical & Compliance Considerations  \n   - Maintain confidentiality (ABA Model Rule 1.6).  \n   - Avoid UPL: never interpret law or give strategic advice.  \n   - Adhere to CFPB, TRID, and state escrow regulations.  \n   - Secure NPI (non-public information) per GLBA and state privacy laws.\n\n8. Useful Templates & Checklists (Store in Shared Drive)  \n   1. Arbitration Document Index  \n   2. Real-Estate Closing Master Checklist  \n   3. Title Defect Cure Log  \n   4. Post-Closing Audit Sheet\n\n9. Conclusion  \n   By systematically managing discovery, calendaring, document preparation, and title review, a paralegal can streamline both arbitration proceedings and real-estate closings, reducing risk and ensuring compliance while freeing attorneys to focus on legal strategy.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1750538210,
+    "model": "o3-2025-04-16",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1222,
+      "prompt_tokens": 126,
+      "total_tokens": 1348,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 128,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

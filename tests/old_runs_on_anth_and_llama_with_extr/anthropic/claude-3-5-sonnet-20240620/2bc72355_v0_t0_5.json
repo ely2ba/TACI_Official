@@ -1,0 +1,15 @@
+{
+  "uid": "2bc72355",
+  "variant": 0,
+  "modality": "TEXT",
+  "temperature": 0.5,
+  "model": "claude-3-5-sonnet-20240620",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T18:08:26.664007Z",
+  "commit_sha": "98b2eb0f130d4d32e78707f77c440a8f68e4103c",
+  "prompt_sha256": "b43d5c2a137206cfaafbdeab88bf4061f82ee4637860e0743ef2c3754052be83",
+  "response": {
+    "raw": "<OUTPUT_TEXT>\nTo instruct students individually and in groups using various teaching methods:\n\n1. Prepare engaging lesson plans with clear objectives\n2. Use a mix of whole-class instruction, small group activities, and one-on-one support\n3. Incorporate lectures for introducing new concepts\n4. Facilitate discussions to encourage critical thinking and participation\n5. Demonstrate skills and processes using visual aids and hands-on materials\n6. Differentiate instruction to meet diverse learning needs\n7. Use technology to enhance lessons when appropriate\n8. Provide opportunities for student collaboration and peer learning\n9. Regularly assess understanding and adjust teaching methods as needed\n10. Offer individual support and feedback to students who require extra help\n</OUTPUT_TEXT>",
+    "extracted": "<OUTPUT_TEXT>\nTo instruct students individually and in groups using various teaching methods:\n\n1. Prepare engaging lesson plans with clear objectives\n2. Use a mix of whole-class instruction, small group activities, and one-on-one support\n3. Incorporate lectures for introducing new concepts\n4. Facilitate discussions to encourage critical thinking and participation\n5. Demonstrate skills and processes using visual aids and hands-on materials\n6. Differentiate instruction to meet diverse learning needs\n7. Use technology to enhance lessons when appropriate\n8. Provide opportunities for student collaboration and peer learning\n9. Regularly assess understanding and adjust teaching methods as needed\n10. Offer individual support and feedback to students who require extra help\n</OUTPUT_TEXT>"
+  }
+}

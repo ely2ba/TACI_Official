@@ -1,0 +1,49 @@
+{
+  "uid": "936aa3e5",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-4-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T23:36:02Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "428bfea113e6c77fae06e9d9c304a178c09a141dc88a71404a7f772e62d629cf",
+  "response": {
+    "id": "chatcmpl-BaWDd7WiBkbm0uMrIWtm0xPhjOm4c",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Financial Calculations\n\n1. **Amounts Due**: This is calculated by summing up all the outstanding invoices or bills that a person or company owes. It is the total amount that must be paid.\n\n2. **Interest Charges**: Interest can be calculated using the formula: Interest = Principal x Rate x Time. This is the cost incurred for borrowing money or the amount earned on deposited funds.\n\n3. **Balances**: The balance is the amount of money in an account, calculated by adding all deposits and subtracting all withdrawals from the starting balance.\n\n4. **Discounts**: Discounts are reductions from the original price of goods or services. They can be calculated as a percentage of the original price.\n\n5. **Equity**: Equity represents ownership value in an asset or business, calculated as Assets minus Liabilities. It is the net value owned by shareholders or owners.\n\n6. **Principal**: The principal is the original sum of money borrowed in a loan or put into an investment, excluding any interest or other charges.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748043357,
+    "model": "gpt-4-turbo-2024-04-09",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_de235176ee",
+    "usage": {
+      "completion_tokens": 214,
+      "prompt_tokens": 127,
+      "total_tokens": 341,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

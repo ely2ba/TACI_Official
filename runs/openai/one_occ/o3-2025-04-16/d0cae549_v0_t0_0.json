@@ -1,0 +1,50 @@
+{
+  "uid": "d0cae549",
+  "variant": 0,
+  "temperature": 0.0,
+  "seed": 0,
+  "model": "o3-2025-04-16",
+  "modality": "TEXT",
+  "timestamp": "2025-06-21T20:33:54Z",
+  "commit_sha": "ac1698886e89fb01e65b6ca5c8e06e97f58dd0fa",
+  "prompt_sha256": "c8f9de8a2b48e1c47cf41cc0a44a96ee9a11901e8e5945edafca2f2382dd69f6",
+  "response": {
+    "id": "chatcmpl-BkzC0yEzBY6bHiRKuAe6lhPxfpWXm",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nBelow is a practical guide and working templates you can adapt to ensure each witness is properly compelled and prepared to testify at the upcoming hearing.\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nI. STEP-BY-STEP TASK CHECKLIST\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n1. Review Case Calendar\n   \u2022 Confirm hearing date, time, courthouse address, division, and presiding judge.\n   \u2022 Verify any witness-disclosure deadlines in (a) scheduling order, (b) local rules, (c) standing orders.\n\n2. Identify & Vet Witnesses\n   \u2022 List fact witnesses (eyewitnesses, record custodians, investigators, etc.).\n   \u2022 List expert witnesses (if any), confirm Rule 26 expert disclosures already served.\n   \u2022 Obtain each witness\u2019s full legal name, address for service, phone/email, and brief summary of expected testimony.\n\n3. Draft \u201cWitness List\u201d for Filing\n   \u2022 Include:\n        \u2013 Caption, case number, division.\n        \u2013 A numbered list of witnesses with brief description (\u226420 words each) of testimony.\n        \u2013 Estimated examination time (optional but often requested).\n   \u2022 File via e-filing system and serve on all parties by the disclosure deadline.\n\n4. Prepare & Issue Subpoenas (if witness is unwilling or is a third party)\n   \u2022 Use form AO 88 (Subpoena to Testify at a Hearing or Trial) in federal court or state equivalent.\n   \u2022 Fill in:\n        \u2013 Hearing details.\n        \u2013 Witness name, address.\n        \u2013 Documents to bring (if custodian of records) \u2192 check box for \u201cDuces Tecum.\u201d\n   \u2022 Sign: Attorney of record or Clerk of Court (depends on jurisdiction).\n   \u2022 Calculate mileage and witness fee (28 U.S.C. \u00a71821 or state statute) and prepare check.\n\n5. Serve Subpoenas\n   \u2022 Personal service by process server, marshal, or any non-party adult per local rule.\n   \u2022 Obtain Proof/Affidavit of Service and e-file it promptly.\n\n6. Coordinate Witness Attendance\n   \u2022 Confirm receipt and compliance; arrange travel logistics.\n   \u2022 Provide parking/courthouse security instructions and arrival time (30-45 min early).\n   \u2022 Schedule prep meeting for direct-examination rehearsal.\n\n7. Prepare Examination Materials\n   \u2022 Draft direct-exam outlines + exhibit list keyed to each witness.\n   \u2022 For experts: confirm written report, CV, reliance materials, Daubert compliance.\n   \u2022 Mark exhibits and provide courtesy copies to opposing counsel and court.\n\n8. Day-of-Hearing Logistics\n   \u2022 Designate waiting area for on-call witnesses; give cell contact for bailiff/counsel.\n   \u2022 Bring extra subpoena copies, witness fee receipts, identification placards (if required).\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nII. TEMPLATE 1 \u2013 NOTICE OF WITNESSES\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n[CAPTION]\n\nNOTICE OF INTENT TO CALL WITNESSES AT HEARING\n\nPlaintiff/Defendant, by counsel, hereby gives notice pursuant to [Rule/L.R. \u00a7] that the following individuals may be called to testify at the hearing scheduled for __________, 20___ at ___:___ a.m./p.m.:\n\n1. NAME: ___________________________________\n   ADDRESS: ________________________________\n   SUMMARY OF TESTIMONY: ___________________\n   EST. TIME: ___ minutes\n\n2. NAME: ___________________________________\n   \u2026\n\nParty reserves the right to supplement this list for good cause shown.\n\nRespectfully submitted,\n\n_________________________________\n[Attorney Name]  \nCounsel for __________  \n[Contact information]\n\nCERTIFICATE OF SERVICE  \nI certify that on __________, 20___ I electronically filed the foregoing with the Clerk of Court using the _____ system, which will send notice to all counsel of record.\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nIII. TEMPLATE 2 \u2013 SUBPOENA (CORE FIELDS)\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n(Subpoena to Testify at a Hearing or Trial)\n\n\u2022 Court: ___________________________\n\u2022 Case No.: ________________________\n\u2022 To: [Witness Full Name]  \n  YOU ARE COMMANDED to appear at the time, date, and place set forth below to testify in the above-captioned matter.\n\n  Courtroom: _____      Date: __________         Time: __________\n\n\u2610 You must also bring with you the following documents: _______________________\n\nSigned: ______________________\n(Attorney of record / Clerk)     Date Issued: __________\n\nServer\u2019s Affidavit of Service:\n ____________________________________________\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nIV. COMMON PITFALLS & TIPS\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\u2022 Late witness lists risk exclusion\u2014calendar all deadlines.\n\u2022 Serve subpoenas with sufficient lead time (10+ days) to avoid quash motions.\n\u2022 Pay witness fees at time of service; failure voids subpoena in many jurisdictions.\n\u2022 Foreign-state witnesses: verify 100-mile rule (Fed. R. Civ. P. 45(c)) or use UIDDA where adopted.\n\u2022 For employee-witnesses, coordinate with employer\u2019s counsel to minimize business disruption.\n\u2022 Expert travel: book refundable fares; include time for voir dire/qualification challenges.\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nV. QUICK REFERENCE TIMELINE\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nT-30 Days: Finalize witness list, begin subpoena drafting.  \nT-25 Days: File & serve witness list.  \nT-20 Days: Issue and serve subpoenas; file proofs of service.  \nT-14 Days: Witness prep sessions; finalize exhibits.  \nT-03 Days: Confirm attendance; update court re: scheduling order.  \nHearing Day: Execute plan; monitor witness sequestration order.\n\nUse the above framework to systematically compel, disclose, and prepare witnesses so testimony proceeds smoothly and meets all procedural requirements.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1750538012,
+    "model": "o3-2025-04-16",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1443,
+      "prompt_tokens": 90,
+      "total_tokens": 1533,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 256,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

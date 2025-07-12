@@ -1,0 +1,50 @@
+{
+  "uid": "ce0be4e8",
+  "variant": 0,
+  "temperature": 0.0,
+  "model": "gemini-2.5-flash-preview-05-20",
+  "modality": "VISION",
+  "timestamp": "2025-06-02T21:03:27.449227Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_JSON>{\"finding\":\"Retracted nipple\",\"image_id\":\"img_000\",\"bbox\":[620,480,680,520],\"explanation\":\"Nipple appears inverted/retracted in img_000.\"}</OUTPUT_JSON>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -2.0354395381739883
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 736,
+      "candidatesTokenCount": 61,
+      "totalTokenCount": 1436,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 220
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 516
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 61
+        }
+      ],
+      "thoughtsTokenCount": 639
+    },
+    "modelVersion": "gemini-2.5-flash-preview-05-20",
+    "createTime": "2025-06-02T21:03:21.830479Z",
+    "responseId": "mRE-aI_YMuGqgLUPkLaL-AE"
+  }
+}

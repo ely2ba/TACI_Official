@@ -1,0 +1,49 @@
+{
+  "uid": "3db6d320",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-4-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:43:28Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "d18016c8317a6affa68d1e41ad66b11c8e90fbb032be3265670ac00645baf6d7",
+  "response": {
+    "id": "chatcmpl-Bi1mnWcYitctfrpo7wuSm87jAEg3m",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Case Preparation and Investigation\n\n1. **Fact Investigation**\n   - Gather all relevant facts of the case by interviewing all involved parties including the client, witnesses, and experts.\n   - Collect physical evidence, documents, photographs, and electronic data pertinent to the case.\n   - Create a detailed chronology of events based on the information collected.\n\n2. **Legal Research**\n   - Research relevant statutes, case law, and legal precedents applicable to the case.\n   - Analyze similar cases and review how those outcomes might influence the current case.\n   - Consult legal databases and resources for up-to-date information on laws and regulations.\n\n3. **Public Records Search**\n   - Search public records and government databases for information that can support or refute the case.\n   - Obtain records such as property records, business licenses, court records, and other public documents.\n\n4. **Internet Sources Search**\n   - Utilize online databases and search engines to gather information about the parties involved and any related matters.\n   - Check social media platforms for potential evidence or information relevant to the case.\n\n5. **Preparation of Legal Documents**\n   - Prepare legal documents such as briefs, pleadings, and motions based on the research and facts gathered.\n   - Ensure all documents comply with legal standards and are ready for filing.\n\n6. **Case Strategy Development**\n   - Collaborate with attorneys to develop a legal strategy based on the gathered facts and researched law.\n   - Discuss potential outcomes and plan for possible legal maneuvers and defenses.\n\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749832997,
+    "model": "gpt-4-turbo-2024-04-09",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_de235176ee",
+    "usage": {
+      "completion_tokens": 311,
+      "prompt_tokens": 135,
+      "total_tokens": 446,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

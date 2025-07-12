@@ -1,0 +1,49 @@
+{
+  "uid": "ce0be4e8",
+  "variant": 0,
+  "temperature": 0.5,
+  "model": "gemini-2.0-flash",
+  "modality": "VISION",
+  "timestamp": "2025-06-02T21:03:10.993345Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "I am tasked with identifying anomalies by comparing two mammogram images. I will look for any significant differences between the two images.\n\n```json\n<OUTPUT_JSON>\n{\"finding\":\"Mass\", \"image_id\":\"img_000\", \"bbox\":[719, 84, 819, 167], \"explanation\":\"There is a mass in the upper right quadrant of the breast.\"}\n</OUTPUT_JSON>\n```"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.5168147136255637
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 736,
+      "candidatesTokenCount": 97,
+      "totalTokenCount": 833,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 516
+        },
+        {
+          "modality": "TEXT",
+          "tokenCount": 220
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 97
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-06-02T21:03:09.732136Z",
+    "responseId": "jRE-aOjXLMqF1dkPq8eZ2As"
+  }
+}

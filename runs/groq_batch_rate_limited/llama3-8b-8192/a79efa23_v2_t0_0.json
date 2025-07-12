@@ -1,0 +1,44 @@
+{
+  "uid": "a79efa23",
+  "variant": 2,
+  "modality": "TEXT",
+  "temperature": 0.0,
+  "model": "llama3-8b-8192",
+  "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+  "timestamp": "2025-05-28T19:16:58.965242Z",
+  "prompt_sha256": "0e49efdfed639b992278c8309af37eaee12ced345a4b0c55918f59fa240e6053",
+  "commit_sha": "170b9e3e1d0d59846b1daa69da57be5d1db6306c",
+  "response": {
+    "id": "chatcmpl-3335725f-c510-41a8-ba4b-816b1e066b76",
+    "object": "chat.completion",
+    "created": 1748459818,
+    "model": "llama3-8b-8192",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "<OUTPUT_TEXT>\n<h1>Customer Service Representative</h1>\n\n<h2>Key Responsibilities</h2>\n1. Confer with customers by telephone or in person to provide information about products or services.\n2. Take or enter orders, cancel accounts, or obtain details of complaints.\n\n<h2>Key Skills</h2>\n1. Excellent communication and interpersonal skills.\n2. Ability to remain calm and composed in high-pressure situations.\n3. Strong problem-solving and conflict resolution skills.\n4. Ability to work in a fast-paced environment and prioritize tasks effectively.\n\n<h2>Key Qualifications</h2>\n1. High school diploma or equivalent required.\n2. Previous customer service experience preferred.\n3. Ability to work a flexible schedule, including evenings and weekends.\n\n<h2>Key Tools and Technologies</h2>\n1. Telephone and computer systems for communication and data entry.\n2. CRM software for tracking customer interactions and orders.\n3. Product knowledge and training on company services and policies.\n\n</OUTPUT_TEXT>"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "queue_time": 0.16263698299999998,
+      "prompt_tokens": 137,
+      "prompt_time": 0.0223905,
+      "completion_tokens": 205,
+      "completion_time": 0.170833333,
+      "total_tokens": 342,
+      "total_time": 0.193223833
+    },
+    "usage_breakdown": {
+      "models": null
+    },
+    "system_fingerprint": "fp_179b0f92c9",
+    "x_groq": {
+      "id": "req_01jwc573hzfa9axdkazc6p4h1b"
+    }
+  }
+}

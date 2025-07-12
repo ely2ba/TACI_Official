@@ -1,0 +1,46 @@
+{
+  "uid": "936aa3e5",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gemini-2.5-pro-preview-05-06",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T14:03:21.028677Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_TEXT>\n# Financial Calculations Report\n\nHere are some common financial calculations performed in bookkeeping and accounting:\n\n## 1. Calculation of Amount Due for Customer Invoice\n\nThis section demonstrates calculating the final amount due from a customer after applying a discount and adding sales tax.\n\n**Scenario Data:**\n*   Original Sale Price: $850.00\n*   Customer Discount: 5%\n*   Sales Tax Rate: 6.5%\n\n**Calculations:**\n*   **Discount Amount:**\n    $850.00 (Original Price) * 0.05 (Discount Rate) = $42.50\n*   **Price After Discount (Subtotal):**\n    $850.00 (Original Price) - $42.50 (Discount Amount) = $807.50\n*   **Sales Tax Amount:**\n    $807.50 (Subtotal) * 0.065 (Sales Tax Rate) = $52.49 (rounded to two decimal places)\n*   **Final Amount Due:**\n    $807.50 (Subtotal) + $52.49 (Sales Tax Amount) = **$859.99**\n\n## 2. Calculation of Loan Interest and Updated Principal Balance\n\nThis section demonstrates calculating simple interest on a loan for a specific period and the new principal balance after interest accrual.\n\n**Scenario Data:**\n*   Original Loan Principal: $15,000.00\n*   Annual Interest Rate: 4.0%\n*   Time Period for Interest Calculation: 3 months (0.25 of a year)\n\n**Calculations:**\n*   **Interest Charge for the Period:**\n    Interest = Principal * Rate * Time\n    Interest = $15,000.00 * 0.04 (Annual Rate) * (3/12) (Time in Years)\n    Interest = $15,000.00 * 0.04 * 0.25\n    Interest = $150.00\n*   **Updated Principal Balance (assuming interest is added to principal):**\n    $15,000.00 (Original Principal) + $150.00 (Interest Charge) = **$15,150.00**\n\n## 3. Calculation of Owner's Equity\n\nThis section demonstrates calculating a business's owner's equity using the basic accounting equation (Assets - Liabilities = Equity).\n\n**Scenario Data:**\n*   Total Assets: $75,000.00 (e.g., cash, accounts receivable, equipment)\n*   Total Liabilities: $30,000.00 (e.g., loans payable, accounts payable)\n\n**Calculation:**\n*   **Owner's Equity:**\n    $75,000.00 (Total Assets) - $30,000.00 (Total Liabilities) = **$45,000.00**\n\n## 4. Calculation of Principal Payment and Remaining Balance\n\nThis section demonstrates calculating how much of a loan payment goes towards principal and the remaining loan balance.\n\n**Scenario Data:**\n*   Current Loan Balance: $5,200.00\n*   Monthly Payment: $350.00\n*   Interest accrued for the month (calculated separately, e.g., based on interest rate): $21.67\n\n**Calculations:**\n*   **Amount of Payment Applied to Principal:**\n    $350.00 (Monthly Payment) - $21.67 (Interest Accrued) = $328.33\n*   **Remaining Loan Balance After Payment:**\n    $5,200.00 (Current Loan Balance) - $328.33 (Principal Paid) = **$4,871.67**\n\n</OUTPUT_TEXT>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.11950936140837493
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 121,
+      "candidatesTokenCount": 864,
+      "totalTokenCount": 2033,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 121
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 864
+        }
+      ],
+      "thoughtsTokenCount": 1048
+    },
+    "modelVersion": "gemini-2.5-pro-preview-05-06",
+    "createTime": "2025-05-27T14:03:04.533095Z",
+    "responseId": "GMY1aOfEIKO2nvgPrJiG8Qk"
+  }
+}

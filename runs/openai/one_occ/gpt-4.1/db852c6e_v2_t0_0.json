@@ -1,0 +1,49 @@
+{
+  "uid": "db852c6e",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gpt-4.1",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:54:49Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "514e9d920cc9bb2199db9c49d64af653ef994d999979b37fdafb0ba8806e0c8e",
+  "response": {
+    "id": "chatcmpl-Bi1xs41zk9VGEWI7mwPglkKKwRl4C",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Directing and Coordinating Law Office Activity, Including Delivery of Subpoenas\n\n1. **Assign and Monitor Tasks**  \n   Delegate responsibilities to legal assistants, paralegals, and clerical staff. Use a case management system to track assignments, deadlines, and progress on all legal matters.\n\n2. **Schedule and Prioritize Workflows**  \n   Organize daily, weekly, and monthly calendars for attorneys and staff. Prioritize urgent matters, such as court deadlines and subpoena deliveries, to ensure timely completion.\n\n3. **Coordinate Subpoena Preparation and Delivery**  \n   a. Draft subpoenas according to legal requirements and attorney instructions.  \n   b. Review for accuracy and completeness.  \n   c. Arrange for proper service, either through a process server, sheriff, or certified mail, depending on jurisdictional rules.  \n   d. Maintain a log of all subpoenas issued and served, including dates, recipients, and proof of service.\n\n4. **Maintain Communication**  \n   Facilitate regular meetings and updates between attorneys, staff, and outside vendors (e.g., process servers). Ensure all parties are informed of case developments and deadlines.\n\n5. **Document Management**  \n   Oversee filing, retrieval, and archiving of legal documents, including subpoenas and proofs of service, in both physical and electronic formats.\n\n6. **Compliance and Quality Control**  \n   Ensure all office activities comply with legal, ethical, and procedural standards. Conduct periodic reviews to verify that subpoenas and other legal documents are handled correctly.\n\n7. **Training and Support**  \n   Provide ongoing training to staff on office procedures, subpoena service rules, and use of case management software to maintain efficiency and legal compliance.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749833684,
+    "model": "gpt-4.1-2025-04-14",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_51e1070cf2",
+    "usage": {
+      "completion_tokens": 352,
+      "prompt_tokens": 118,
+      "total_tokens": 470,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

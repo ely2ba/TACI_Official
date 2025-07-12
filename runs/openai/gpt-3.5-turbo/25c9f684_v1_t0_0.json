@@ -1,0 +1,49 @@
+{
+  "uid": "25c9f684",
+  "variant": 1,
+  "temperature": 0.0,
+  "model": "gpt-3.5-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:01:09Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "d37cf9e48ef1acaab18a849ba7c28d757fa585285d9ad18f6c1d7df20601e396",
+  "response": {
+    "id": "chatcmpl-BaUjrzamVrXBoxD9oDRd7vX5sHFo4",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>Subject: Update on Claim Investigation Results\n\nDear valued customer,\n\nI hope this message finds you well. I am writing to provide you with an update on the investigation of your recent claim. After thorough review and assessment, we have concluded our investigation and I am pleased to inform you that your claim has been approved.\n\nYou can expect the approved adjustments to be reflected in your account within the next 3-5 business days. If you have any further questions or require additional information, please do not hesitate to contact us directly.\n\nThank you for your patience and understanding throughout this process. We appreciate your continued trust in our services.\n\nBest regards,\n\n[Your Name]\nSenior Customer Service Representative</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748037667,
+    "model": "gpt-3.5-turbo-0125",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 143,
+      "prompt_tokens": 83,
+      "total_tokens": 226,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "uid": "a79efa23",
+  "variant": 0,
+  "temperature": 0.5,
+  "model": "gemini-2.5-flash-preview-05-20",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T15:48:33.828112Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_TEXT>\nUnderstood. I am fully prepared to expertly handle all customer interactions as outlined, ensuring a seamless and positive experience.\n</OUTPUT_TEXT>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "citationMetadata": {
+          "citations": [
+            {
+              "startIndex": 180,
+              "endIndex": 344,
+              "uri": "https://www.hravatar.com/ta/blogs/27/how-to-hire-a-great-account-manager.html"
+            },
+            {
+              "startIndex": 778,
+              "endIndex": 942,
+              "uri": "https://www.hravatar.com/ta/blogs/27/how-to-hire-a-great-account-manager.html"
+            },
+            {
+              "startIndex": 1582,
+              "endIndex": 1746,
+              "uri": "https://www.hravatar.com/ta/blogs/27/how-to-hire-a-great-account-manager.html"
+            },
+            {
+              "startIndex": 2247,
+              "endIndex": 2411,
+              "uri": "https://www.hravatar.com/ta/blogs/27/how-to-hire-a-great-account-manager.html"
+            },
+            {
+              "startIndex": 4037,
+              "endIndex": 4201,
+              "uri": "https://www.hravatar.com/ta/blogs/27/how-to-hire-a-great-account-manager.html"
+            }
+          ]
+        },
+        "avgLogprobs": -17.960341509650736
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 105,
+      "candidatesTokenCount": 34,
+      "totalTokenCount": 1814,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 105
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 34
+        }
+      ],
+      "thoughtsTokenCount": 1675
+    },
+    "modelVersion": "gemini-2.5-flash-preview-05-20",
+    "createTime": "2025-05-27T15:48:22.533536Z",
+    "responseId": "xt41aKDIIOC4nvgPz_H5yAI"
+  }
+}

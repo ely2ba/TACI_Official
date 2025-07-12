@@ -1,0 +1,45 @@
+{
+  "uid": "9652a31e",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gemini-2.0-flash",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T13:18:44.797208Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "```html\n<OUTPUT_TEXT>\n<h1>Rectifying Shipping and Receiving Problems</h1>\n\n<ol>\n  <li><b>Immediate Communication:</b> Upon discovering damages, shortages, or non-conformance, promptly contact the relevant parties. This includes the supplier/vendor, the carrier (if applicable), and internal departments such as purchasing or quality control.</li>\n  <li><b>Detailed Documentation:</b> Meticulously document the issue. This involves:\n    <ul>\n      <li>Taking photographs or videos of the damage or discrepancy.</li>\n      <li>Recording specific details like item numbers, quantities affected, and the nature of the problem.</li>\n      <li>Retaining all relevant paperwork, including packing slips, purchase orders, and shipping documents.</li>\n    </ul>\n  </li>\n  <li><b>Notification to Carrier (If Applicable):</b> If the damage or shortage appears to have occurred during transit, immediately notify the carrier and file a claim according to their procedures. Adhere to any time limits for reporting claims.</li>\n  <li><b>Verification Against Purchase Order:</b> Double-check the received goods against the original purchase order to confirm any discrepancies in quantity, specifications, or items ordered.</li>\n  <li><b>Internal Reporting:</b> Inform the appropriate internal departments (e.g., purchasing, quality control) about the issue and provide them with all relevant documentation. Follow established internal procedures for reporting non-conformances.</li>\n  <li><b>Problem Resolution:</b> Work collaboratively with the supplier/vendor and internal departments to determine the best course of action. This might involve:\n    <ul>\n      <li>Requesting a replacement shipment.</li>\n      <li>Arranging for a credit or refund.</li>\n      <li>Returning the non-conforming goods.</li>\n      <li>Negotiating a price adjustment.</li>\n    </ul>\n  </li>\n  <li><b>Tracking and Follow-Up:</b> Maintain a record of all communication and actions taken to resolve the problem. Follow up with the relevant parties to ensure that the issue is resolved in a timely manner.</li>\n  <li><b>Preventative Measures:</b> After resolving the immediate problem, analyze the situation to identify any underlying causes and implement preventative measures to avoid similar issues in the future. This could involve:\n    <ul>\n      <li>Improving packaging procedures.</li>\n      <li>Selecting more reliable carriers.</li>\n      <li>Clarifying specifications with suppliers.</li>\n      <li>Enhancing internal quality control processes.</li>\n    </ul>\n  </li>\n  <li><b>Maintain Records:</b> Keep accurate records of all discrepancies, resolutions, and preventative actions taken. This information can be valuable for future reference and analysis.</li>\n</ol>\n</TEXT>\n```"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.1423619588216146
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 122,
+      "candidatesTokenCount": 615,
+      "totalTokenCount": 737,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 122
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 615
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:18:40.987567Z",
+    "responseId": "sLs1aK-jPOC4nvgPz_H5yAI"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "uid": "07080553",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-4o",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:50:26Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "40b67c629e9856ec273e3f4dfceabf50dd497228e11b942a701560af1d835696",
+  "response": {
+    "id": "chatcmpl-Bi1tci0VXN8gVFSOTNntAa10AGQuW",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Legal Document Preparation and Organization\n\n## 1. Affidavit Preparation\n- Draft clear and concise affidavits based on the information provided by clients or witnesses.\n- Ensure that all statements are factual and supported by evidence.\n- Include necessary declarations and signatures as required by jurisdiction.\n\n## 2. Legal Correspondence\n- Prepare letters, emails, and other forms of communication for attorneys and clients.\n- Ensure that all correspondence is professional, clear, and adheres to legal standards.\n- Maintain a record of all outgoing and incoming correspondence for future reference.\n\n## 3. Document Organization\n- Develop and maintain an organized filing system, both electronically and in paper form.\n- Categorize documents by type, date, and relevance to ensure easy retrieval.\n- Regularly update files and dispose of outdated or irrelevant documents in accordance with legal retention policies.\n\n## 4. Electronic Filing System\n- Utilize legal software to manage electronic documents efficiently.\n- Ensure all electronic files are backed up and secure against unauthorized access.\n- Train staff on the use of electronic filing systems to maintain consistency.\n\n## 5. Compliance and Confidentiality\n- Ensure all documents comply with legal standards and confidentiality agreements.\n- Regularly audit filing systems to ensure compliance with legal and ethical standards.\n- Implement measures to protect sensitive information from unauthorized access or disclosure.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749833420,
+    "model": "gpt-4o-2024-08-06",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_a288987b44",
+    "usage": {
+      "completion_tokens": 273,
+      "prompt_tokens": 130,
+      "total_tokens": 403,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

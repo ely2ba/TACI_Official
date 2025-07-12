@@ -1,0 +1,59 @@
+{
+  "uid": "ce0be4e8",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gemini-2.5-pro-preview-05-06",
+  "modality": "VISION",
+  "timestamp": "2025-05-27T13:28:19.145416Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_JSON>{\"finding\":\"spiculated mass\",\"image_id\":\"img_000\",\"bbox\":[520,280,720,480],\"explanation\":\"A spiculated, irregular mass is identified in the upper portion of the breast in image img_000. This finding is suspicious for malignancy and requires further investigation.\"}</OUTPUT_JSON>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "citationMetadata": {
+          "citations": [
+            {
+              "startIndex": 11237,
+              "endIndex": 11405,
+              "uri": "http://jiji.ng/jobs/x_ray-technician"
+            }
+          ]
+        },
+        "avgLogprobs": -8.921417613088348
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 701,
+      "candidatesTokenCount": 81,
+      "totalTokenCount": 4477,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 185
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 516
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 81
+        }
+      ],
+      "thoughtsTokenCount": 3695
+    },
+    "modelVersion": "gemini-2.5-pro-preview-05-06",
+    "createTime": "2025-05-27T13:27:41.165819Z",
+    "responseId": "zb01aLuPCvGX2PgP38qSuQs"
+  }
+}

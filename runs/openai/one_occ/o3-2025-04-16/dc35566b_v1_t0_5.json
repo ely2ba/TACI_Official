@@ -1,0 +1,50 @@
+{
+  "uid": "dc35566b",
+  "variant": 1,
+  "temperature": 0.5,
+  "seed": 1,
+  "model": "o3-2025-04-16",
+  "modality": "TEXT",
+  "timestamp": "2025-06-21T20:31:55Z",
+  "commit_sha": "ac1698886e89fb01e65b6ca5c8e06e97f58dd0fa",
+  "prompt_sha256": "765f66845fe94cc26e415321bd6986741705cf0896b53b9a639c6f287a20df02",
+  "response": {
+    "id": "chatcmpl-Bkz9ocj1aXgqwMUv7sosj2W1yqOOq",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nMEMORANDUM  \n\nTo:        Jane Peterson, Esq.  \nFrom:      Alex Rivera, Senior Paralegal  \nDate:      22 May 2024  \nRe:        Trial Preparation \u2013 Organization and Management of Exhibits in Smith v. Apex Industries, Case No. 22-CV-417  \n\n______________________________________________________________________________  \n\n1. Purpose  \nThis memo summarizes the current status of all trial exhibits, outlines the remaining tasks required for complete exhibit readiness, and sets forth a timeline to ensure compliance with the Court\u2019s Pre-Trial Order (ECF 46) and Local Rule 16.4.\n\n2. Snapshot of Key Deadlines  \n\u2022 Exhibit list exchange with opposing counsel:                29 May 2024  \n\u2022 Joint exhibit list & objections filed with Court:             03 Jun 2024  \n\u2022 Final pre-trial conference:                                   06 Jun 2024 at 10:00 a.m.  \n\u2022 Jury selection & trial commencement:                         17 Jun 2024  \n\n3. Exhibit Index (Current Count: 67)  \nA. Documentary Exhibits (46)  \n   \u2013 Contracts, purchase orders, e-mails, inspection reports, repair invoices  \nB. Demonstratives (5)  \n   \u2013 Timeline graphic, process flow chart, damage model, two photo boards  \nC. Deposition Designations (9 transcripts; 13 excerpts)  \nD. Digital Media (4)  \n   \u2013 Two surveillance videos, damage assessment video, CAD animation  \nE. Physical Objects (2)  \n   \u2013 Defective valve assembly, replacement valve  \n\n4. Organizational Structure & Status  \n\n| Exhibit No. | Bates Range | Description                         | Custodian / Foundation Witness | Authenticity Status | Objection Forecast |\n|-------------|-------------|-------------------------------------|--------------------------------|---------------------|--------------------|\n| P-1         | SMITH0001\u201314| Master Supply Contract (2018)       | S. Smith (Plaintiff)           | Certified Copy rec\u2019d| Hearsay (resolved) |\n| P-14        | SMITH0452   | Photographs \u2013 damaged unit (color)  | C. Lopez (Tech)                | Originals on file   | None               |\n| D-A         | APEX0132\u201341 | E-mail chain (April 2020)           | J. Reynolds (VP)               | Needs stipulation   | Relevance 403      |\n| J-7         | \u2014           | CAD Animation (failure sequence)    | Expert Dr. Nguyen              | Auth. pending       | Foundation         |\n(Note: full 7-page index on file in Exhibit Binder 0.)\n\n5. Tasks Completed (as of 22 May 2024)  \n\u2022 Bates stamping finalized through SMITH0900.  \n\u2022 Master exhibit spreadsheet created with live hyperlinks to PDFs.  \n\u2022 Preliminary objections matrix drafted and circulated to trial team.  \n\u2022 Color photo boards printed at 24\" \u00d7 36\" and mounted.  \n\u2022 Physical exhibits photographed, tagged, and logged into chain-of-custody binder.  \n\n6. Outstanding Tasks & Assignments  \n\nA. Authenticity & Foundation  \n   \u2022 Obtain certified copy of \u201c2017 Quality Audit Report\u201d from ISO registrar (responsible: AR; ETA 28 May).  \n   \u2022 Secure stipulation with opposing counsel for e-mail chains P-22 & D-C (responsible: JP; draft sent).  \n\nB. Formatting & Labeling  \n   \u2022 Affix final exhibit stickers per court protocol: plaintiff = numbers, defendant = letters, joint = \u201cJ-#\u201d (responsible: Law Clerk Emma).  \n   \u2022 Update TrialDirector database; test video playback on courtroom laptop (responsible: IT Support; schedule 31 May).  \n\nC. Production of Sets  \n   \u2022 Assemble five complete exhibit binders (Court, Judge, Witness, Plaintiff Counsel, Defense Counsel) in D-ring binders with colored side tabs (responsible: AR; by 03 Jun).  \n   \u2022 Prepare witness-specific mini binders for S. Smith, Dr. Nguyen, and C. Lopez (responsible: Paralegal Intern Gabe).  \n\nD. Filing & Service  \n   \u2022 File joint exhibit list and objections via CM/ECF; arrange hand-delivery of judge\u2019s courtesy copy (responsible: AR; 03 Jun).  \n\nE. Demonstratives  \n   \u2022 Confirm Court\u2019s AV equipment compatibility for CAD animation; request in-court tech check (responsible: IT; 04 Jun).  \n\n7. Risk/Issue Log  \n\u2022 Authentication of CAD animation remains at issue; expert declaration drafted, need final edits (due 27 May).  \n\u2022 Color vs. grayscale photo substitution: defense indicates objection to color enhancement; may need motion in limine by 30 May.  \n\u2022 Chain-of-custody gap (2019-2020) for defective valve P-40; service records from Apex still outstanding.  \n\n8. Timeline Gantt (abridged)  \n22 May \u2013 28 May:   Complete certifications / seal authenticity gaps  \n29 May:             Exchange exhibit lists with defense  \n30 May \u2013 02 Jun:   Resolve objections, pre-mark & assemble binders  \n03 Jun:             File joint exhibit list; courier sets  \n04 Jun \u2013 06 Jun:   Tech rehearsal in courtroom; finalize demonstratives  \n07 Jun \u2013 14 Jun:   Witness prep utilizing mini binders & exhibit call-outs  \n\n9. Requested Attorney Actions  \n\u2022 Review and approve objections matrix (attached) by COB 24 May.  \n\u2022 Provide feedback on whether to pursue motion in limine re: color photos.  \n\u2022 Confirm whether to designate J-5 \u201cSupplier Compliance Manual\u201d as joint or plaintiff exhibit.  \n\n10. Conclusion  \nExhibit preparation is on target, with no critical path delays identified. The principal risk is authentication of the CAD animation; prompt resolution is advised. Please advise on the requested items to maintain schedule integrity.\n\nPlease let me know if any additional details or modifications are required.\n\ncc:   Litigation Team File  \nAttachments:  (1) Detailed Exhibit Index; (2) Objections Matrix; (3) Gantt Chart PDF  \n______________________________________________________________________________  \nCONFIDENTIAL \u2013 ATTORNEY WORK PRODUCT\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1750537876,
+    "model": "o3-2025-04-16",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1648,
+      "prompt_tokens": 112,
+      "total_tokens": 1760,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 320,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

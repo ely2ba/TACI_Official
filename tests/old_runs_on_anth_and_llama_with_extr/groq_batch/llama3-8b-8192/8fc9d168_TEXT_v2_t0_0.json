@@ -1,0 +1,43 @@
+{
+  "uid": "8fc9d168",
+  "variant": 2,
+  "modality": "TEXT",
+  "temperature": 0.0,
+  "model": "llama3-8b-8192",
+  "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+  "timestamp": "2025-05-28T14:58:05.652207Z",
+  "prompt_sha256": "3a670bb4429dddbf3b6d05bce72b9e9c31f10bee3ad31a10da02abe3e391c1db",
+  "response": {
+    "id": "chatcmpl-ea2f1813-30c0-4b2d-989f-5be2e73989d7",
+    "object": "chat.completion",
+    "created": 1748444285,
+    "model": "llama3-8b-8192",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "<OUTPUT_TEXT>\nMaintaining and developing positive business relationships with a customer's key personnel involved in, or directly relevant to, a logistics activity involves understanding their roles and responsibilities, building trust and collaboration, and continuously improving logistics operations to meet their evolving needs.\n</OUTPUT_TEXT>"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "queue_time": 0.16244840900000002,
+      "prompt_tokens": 132,
+      "prompt_time": 0.016707654,
+      "completion_tokens": 327,
+      "completion_time": 0.2725,
+      "total_tokens": 459,
+      "total_time": 0.289207654
+    },
+    "usage_breakdown": {
+      "models": null
+    },
+    "system_fingerprint": "fp_dadc9d6142",
+    "x_groq": {
+      "id": "req_01jwbpd2f4e64bxg8deka5rf94"
+    }
+  }
+}

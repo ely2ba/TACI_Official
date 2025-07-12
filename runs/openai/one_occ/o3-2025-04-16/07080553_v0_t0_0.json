@@ -1,0 +1,50 @@
+{
+  "uid": "07080553",
+  "variant": 0,
+  "temperature": 0.0,
+  "seed": 0,
+  "model": "o3-2025-04-16",
+  "modality": "TEXT",
+  "timestamp": "2025-06-21T20:38:07Z",
+  "commit_sha": "ac1698886e89fb01e65b6ca5c8e06e97f58dd0fa",
+  "prompt_sha256": "b60d24599d1df23bd17991a8c681b996a2dd542b4a3676448842122e2105f6c1",
+  "response": {
+    "id": "chatcmpl-BkzG4bRwHLfvqgaEXpdre7n9NVn8z",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nBelow is a practical, step-by-step guide a paralegal or legal assistant can use to (A) draft affidavits, (B) prepare other legal correspondence, and (C) organize and maintain both paper and electronic files.\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nA. DRAFTING AFFIDAVITS\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n1. Intake & Fact-Gathering\n   \u2022 Interview client/witness; use a standardized questionnaire.  \n   \u2022 Collect supporting exhibits (contracts, photos, emails, etc.).  \n   \u2022 Verify full legal names, dates, addresses, and relevant capacities (e.g., \u201cPlaintiff,\u201d \u201cDefendant,\u201d \u201cAffiant\u201d).\n\n2. Choose Proper Caption & Venue\n   \u2022 Use court-specific header with jurisdiction, case number, parties, and document title (\u201cAffidavit of ____\u201d).  \n   \u2022 Confirm font, margins, and caption spacing comply with local rules.\n\n3. Draft Statement of Facts\n   \u2022 Write in first-person, numbered paragraphs.  \n   \u2022 Keep each paragraph to one fact or related group of facts.  \n   \u2022 Avoid legal conclusions; stick to facts personally known to the affiant.\n\n4. Add Jurat / Notarial Block\n   \u2022 Common formula: \u201cSubscribed and sworn before me this ___ day of _____, 20__.\u201d  \n   \u2022 Include notary\u2019s signature line, printed name, commission number, and seal space.\n\n5. Proof & Validation\n   \u2022 Run spell-check, Bluebook/citation check (if authorities referenced), verify exhibit labels.  \n   \u2022 Circulate to supervising attorney for substantive review.  \n   \u2022 Schedule notary appointment; ensure affiant brings ID.\n\n6. Finalize & Serve/Submit\n   \u2022 Print on bond paper if required.  \n   \u2022 Create PDF with OCR; file electronically via e-filing portal or physically at clerk\u2019s office per rule.  \n   \u2022 Serve opposing counsel pursuant to Rule of Civil Procedure (mail, hand delivery, or electronic service).\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nB. PREPARING LEGAL CORRESPONDENCE\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n1. Select Appropriate Letterhead & Formatting  \n   \u2022 Use firm\u2019s template (logo, address block, bar numbers).  \n   \u2022 Insert correct date, recipient name/title, and salutation.\n\n2. Draft Content\n   \u2022 Intro: purpose and governing matter (\u201cRe: Smith v. Jones, Case No. 22-CV-001\u201d).  \n   \u2022 Body: concise statements, requests, or notifications; cite rule or statute when needed.  \n   \u2022 Closing: polite, professional; include response deadline if applicable.\n\n3. Attachments & Enclosures\n   \u2022 List \u201cEnclosures\u201d below signature block.  \n   \u2022 Bates-stamp enclosed documents.\n\n4. Review & Approval  \n   \u2022 Proofread; verify accuracy of citations and factual assertions.  \n   \u2022 Obtain attorney\u2019s sign-off (wet or digital signature per local rule).\n\n5. Delivery & Logging  \n   \u2022 Send via certified mail, email, or courier per instruction.  \n   \u2022 Enter correspondence in matter management system (date sent, medium, recipient, brief description).\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nC. ORGANIZING & MAINTAINING DOCUMENTS\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n1. File Naming Conventions (Electronic)\n   \u2022 [YYYY-MM-DD]_[Client]_[DocType]_[ShortDescription]  \n   \u2022 Example: 2024-05-14_Smith_Affidavit_JohnDoe.pdf\n\n2. Folder Hierarchy\n   \u2022 Matter Root Folder  \n       \u251c\u2500 01_Pleadings  \n       \u251c\u2500 02_Discovery  \n       \u251c\u2500 03_Correspondence  \n       \u251c\u2500 04_Affidavits  \n       \u251c\u2500 05_Exhibits  \n       \u2514\u2500 06_Final/Executed\n\n3. Version Control\n   \u2022 Append \u201c_DRAFTv1,\u201d \u201c_v2,\u201d etc., before finalization; move final signed versions to \u201cFinal/Executed.\u201d\n\n4. Paper File Management\n   \u2022 Mirror electronic hierarchy with color-coded tabs.  \n   \u2022 Use two-hole punch at top; file newest on top or in chronological order per firm policy.  \n   \u2022 Log check-in/check-out on file tracker sheet.\n\n5. Security & Confidentiality\n   \u2022 Restrict folder permissions to need-to-know staff.  \n   \u2022 Encrypt portable drives; enable multi-factor authentication for cloud access.  \n   \u2022 Shred superseded paper drafts or place in locked shred bin.\n\n6. Retention & Destruction Schedule\n   \u2022 Follow jurisdictional ethics rules (e.g., keep closed files 6\u201310 years).  \n   \u2022 Document destruction must be authorized by supervising attorney; generate destruction memo.\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nQuick Reference Templates\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\u2022 \u201cAffidavit Template.docx\u201d \u2013 caption, numbered fact paragraphs, jurat.  \n\u2022 \u201cCorrespondence Template.docx\u201d \u2013 letterhead, margins, font, signature block.  \n\u2022 \u201cFiling Checklist.xlsx\u201d \u2013 court rules, deadlines, service list.  \n\u2022 \u201cDocument Log.xlsx\u201d \u2013 columns: File Name, Date Created, Description, Location, Retention Date.\n\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nBest Practices & Tips\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\u2713 Always cross-reference local court rules; they override general practices.  \n\u2713 Keep a master \u201cAffidavit Checklist\u201d on your desk to avoid missing notarization steps.  \n\u2713 Use OCR PDFs\u2014searchable documents speed later discovery reviews.  \n\u2713 Periodically audit both physical and electronic files for mis-filings.  \n\u2713 Back up the document repository daily; test restores quarterly.\n\nBy following these protocols, a paralegal/legal assistant can efficiently draft airtight affidavits, produce polished legal correspondence, and maintain an organized, compliant filing system that supports attorneys and protects client interests.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1750538264,
+    "model": "o3-2025-04-16",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1732,
+      "prompt_tokens": 107,
+      "total_tokens": 1839,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

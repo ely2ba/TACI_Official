@@ -1,0 +1,49 @@
+{
+  "uid": "07080553",
+  "variant": 1,
+  "temperature": 0.0,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:33:22Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "875ac432cf5c92ad5d518cd80b30f9063e3c9a233738878444a54be9a4e1298b",
+  "response": {
+    "id": "chatcmpl-Bi1d0NVOgUo7ff3IwFTfsFhMehhbT",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n\nSubject: Preparation of Affidavits and Other Legal Documents\n\nDear [Client's Name],\n\nI hope this message finds you well. I am writing to inform you that we are in the process of preparing the necessary affidavits and other legal documents pertinent to your case. \n\nOur team is working diligently to ensure that all documents are accurate, comprehensive, and in compliance with all legal standards and requirements. We understand the importance of these documents to your case, and we are committed to delivering them in a timely and efficient manner.\n\nOnce the documents are prepared, they will be thoroughly reviewed and then forwarded to you for your perusal and approval. We encourage you to review them carefully and let us know if there are any areas that require clarification or modification.\n\nIn addition to preparing these documents, we are also organizing and maintaining them in our paper and electronic filing systems. This will ensure that they are easily accessible and retrievable when needed. We are committed to maintaining the confidentiality and security of your documents, and we have implemented stringent measures to safeguard them.\n\nWe will keep you updated on the progress of this task and will notify you once the documents are ready for your review. In the meantime, if you have any questions or concerns, please do not hesitate to contact us.\n\nThank you for entrusting us with your legal needs. We look forward to serving you to the best of our ability.\n\nBest regards,\n\n[Your Name]\n[Your Position]\n\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749832390,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 297,
+      "prompt_tokens": 127,
+      "total_tokens": 424,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

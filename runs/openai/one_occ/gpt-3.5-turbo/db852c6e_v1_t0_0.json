@@ -1,0 +1,49 @@
+{
+  "uid": "db852c6e",
+  "variant": 1,
+  "temperature": 0.0,
+  "model": "gpt-3.5-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:28:48Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "f569a8589baa5d5bd5757714aa846cd389ec66e9ff32ca84d93b9582426cacf9",
+  "response": {
+    "id": "chatcmpl-Bi1Yl3X8hCXdU1UcIA52zv2owklyS",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>As a senior Paralegal And Legal Assistant, I will ensure the efficient and timely delivery of subpoenas by coordinating and directing law office activity. This includes overseeing the process from start to finish, ensuring all necessary steps are taken to properly serve the subpoenas in accordance with legal requirements.</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749832127,
+    "model": "gpt-3.5-turbo-0125",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 64,
+      "prompt_tokens": 115,
+      "total_tokens": 179,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

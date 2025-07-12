@@ -1,0 +1,15 @@
+{
+  "uid": "85a846ff",
+  "variant": 0,
+  "modality": "GUI",
+  "temperature": 0.0,
+  "model": "claude-3-opus-20240229",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T17:40:14.050879Z",
+  "commit_sha": "98b2eb0f130d4d32e78707f77c440a8f68e4103c",
+  "prompt_sha256": "767df1662c823d99d88bdeed146e16b9f97a8784c77eb78fee151306a6591c72",
+  "response": {
+    "raw": "Here is the JSON array of actions to maintain medical records:\n<OUTPUT_JSON>\n[\n  {\n    \"action\": \"click\",\n    \"selector\": \"input[name*=\\\"account i\\\"]\",\n    \"text\": \"\"\n  },\n  {\n    \"action\": \"type\",\n    \"selector\": \"input[name*=\\\"amount i\\\"], input[type=number]\",\n    \"text\": \"{amount}\"\n  },\n  {\n    \"action\": \"type\", \n    \"selector\": \"textarea[name*=\\\"memo i\\\"]\",\n    \"text\": \"{memo}\"\n  },\n  {\n    \"action\": \"click\",\n    \"selector\": \"button:has-text(\\\"post\\\" i), button:has-text(\\\"save\\\" i)\",\n    \"text\": \"\"\n  }\n]\n</OUTPUT_JSON>",
+    "extracted": "<OUTPUT_JSON>\n[\n  {\n    \"action\": \"click\",\n    \"selector\": \"input[name*=\\\"account i\\\"]\",\n    \"text\": \"\"\n  },\n  {\n    \"action\": \"type\",\n    \"selector\": \"input[name*=\\\"amount i\\\"], input[type=number]\",\n    \"text\": \"{amount}\"\n  },\n  {\n    \"action\": \"type\", \n    \"selector\": \"textarea[name*=\\\"memo i\\\"]\",\n    \"text\": \"{memo}\"\n  },\n  {\n    \"action\": \"click\",\n    \"selector\": \"button:has-text(\\\"post\\\" i), button:has-text(\\\"save\\\" i)\",\n    \"text\": \"\"\n  }\n]\n</OUTPUT_JSON>"
+  }
+}

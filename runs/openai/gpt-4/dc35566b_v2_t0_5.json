@@ -1,0 +1,49 @@
+{
+  "uid": "dc35566b",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:16:59Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "26edbd2e16ae6cdd1e49d23da961fd220dd9bcf754598e12a7e36824c4246f40",
+  "response": {
+    "id": "chatcmpl-BaUyxI8zjLf1xspqE3hLcXJgampPf",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Trial Preparation: Organizing Exhibits\n\n1. **Identify All Possible Exhibits**\nBegin by identifying all potential exhibits that may be used during the trial. This can include documents, photographs, physical objects, diagrams, and digital files. \n\n2. **Catalog Each Exhibit**\nCreate a detailed catalog of each exhibit. This should include a brief description, the source of the exhibit, and its relevance to the case.\n\n3. **Prepare Exhibit Labels**\nPrepare labels for each exhibit. The labels should include the case number, exhibit number, and a brief description.\n\n4. **Organize Exhibits in Chronological Order**\nWhere possible, organize the exhibits in chronological order. This will help to present a clear and logical sequence of events during the trial.\n\n5. **Create an Exhibit List**\nPrepare an exhibit list that includes the exhibit number, a brief description, and the witness who will introduce the exhibit. This list will be used by the legal team and submitted to the court.\n\n6. **Prepare Exhibit Binders**\nFor each exhibit, prepare a binder or folder that includes the exhibit itself, the label, and any supporting documents or information. The binders should be organized in the same order as the exhibit list.\n\n7. **Review Exhibits with Legal Team**\nReview each exhibit with the legal team to ensure everyone understands its relevance and how it will be used during the trial.\n\n8. **Prepare Digital Copies**\nIf permitted by the court, prepare digital copies of each exhibit. This can be helpful for remote viewing or if physical copies are lost or damaged.\n\n9. **Pack Exhibits for Transport**\nCarefully pack each exhibit for transport to the court. Ensure that each exhibit is protected and securely stored.\n\n10. **Check and Double-Check**\nBefore the trial begins, double-check that all exhibits are accounted for and properly organized. Make any necessary adjustments to ensure that the exhibit presentation runs smoothly during the trial.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748038603,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 395,
+      "prompt_tokens": 84,
+      "total_tokens": 479,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

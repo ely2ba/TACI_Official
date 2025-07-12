@@ -1,0 +1,43 @@
+{
+  "uid": "dc35566b",
+  "variant": 2,
+  "modality": "TEXT",
+  "temperature": 0.5,
+  "model": "llama3-8b-8192",
+  "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+  "timestamp": "2025-05-28T14:57:09.311643Z",
+  "prompt_sha256": "3f5ef238a68161e191121724f6fd1be6611b988f2d4eb5f9565032790025c14d",
+  "response": {
+    "id": "chatcmpl-544bf2d9-4f01-4068-8d86-3553ec64f21e",
+    "object": "chat.completion",
+    "created": 1748444229,
+    "model": "llama3-8b-8192",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "<OUTPUT_TEXT>\n<h1>Pre-Trial Preparation: Organizing Exhibits</h1>\n\n<h2>Step 1: Review the Case File</h2>\n1. Review the case file to identify all relevant exhibits, including documents, photographs, and physical items.\n2. Make a list of the exhibits, noting their relevance to the case and any potential issues or concerns.\n\n<h2>Step 2: Organize Exhibits</h2>\n1. Organize exhibits into categories, such as:\n\t* Documents (e.g., contracts, emails, letters)\n\t* Photographs (e.g., crime scene photos, accident photos)\n\t* Physical items (e.g., evidence, artifacts)\n2. Label each exhibit with a unique identifier (e.g., \"Exhibit 1: Contract between Smith and Johnson\").\n3. Create an exhibit list, including the exhibit number, description, and relevance to the case.\n\n<h2>Step 3: Prepare Exhibits for Trial</h2>\n1. Ensure all exhibits are in a condition suitable for presentation at trial.\n2. Make copies of exhibits, if necessary, to distribute to the judge, jury, and opposing counsel.\n3. Prepare exhibits for display, such as attaching photographs to large boards or creating a visual display of physical items.\n\n<h2>Step 4: Coordinate with Counsel</h2>\n1. Coordinate with counsel to ensure exhibits are presented in a logical and organized manner.\n2. Discuss exhibit strategy with counsel, including which exhibits to present and in what order.\n3. Confirm that all parties have access to the exhibits and are aware of any limitations or restrictions.\n\n<h2>Step 5: Review and Update the Exhibit List</h2>\n1. Review the exhibit list to ensure it is accurate and up-to-date.\n2. Update the list as necessary to reflect changes to the case or new exhibits.\n3. Distribute the updated exhibit list to all parties involved in the trial.\n</OUTPUT_TEXT>"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "queue_time": 0.385994632,
+      "prompt_tokens": 120,
+      "prompt_time": 0.022756126,
+      "completion_tokens": 404,
+      "completion_time": 0.336666667,
+      "total_tokens": 524,
+      "total_time": 0.359422793
+    },
+    "usage_breakdown": {
+      "models": null
+    },
+    "system_fingerprint": "fp_179b0f92c9",
+    "x_groq": {
+      "id": "req_01jwbpbb42e47ahjz34jvjkb6s"
+    }
+  }
+}

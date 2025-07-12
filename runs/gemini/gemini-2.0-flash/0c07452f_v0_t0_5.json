@@ -1,0 +1,45 @@
+{
+  "uid": "0c07452f",
+  "variant": 0,
+  "temperature": 0.5,
+  "model": "gemini-2.0-flash",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T13:16:01.621846Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_TEXT>Alright class, let's make sure we're all following our school rules. Remember, we need to be respectful of each other and our classroom. That means keeping our hands and feet to ourselves, using kind words, and listening when someone else is talking. If you're having trouble following a rule, please come talk to me. We can work through it together. Let's have a great day of learning while following our school's policies!</OUTPUT_TEXT>\n"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.23212408787995867
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 87,
+      "candidatesTokenCount": 103,
+      "totalTokenCount": 190,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 87
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 103
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:16:00.529775Z",
+    "responseId": "ELs1aO-qILOb2PgPotLkyQs"
+  }
+}

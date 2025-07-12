@@ -1,0 +1,15 @@
+{
+  "uid": "8cc4a9e1",
+  "variant": 1,
+  "modality": "GUI",
+  "temperature": 0.0,
+  "model": "claude-3-5-sonnet-20240620",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T18:03:51.035091Z",
+  "commit_sha": "98b2eb0f130d4d32e78707f77c440a8f68e4103c",
+  "prompt_sha256": "d707f63262ec5b19d50582a68599b665eed80500003c67b4cf129566c2f2a0e9",
+  "response": {
+    "raw": "<OUTPUT_JSON>\n[\n  {'action':'click','selector':'input[name*=space i], input[placeholder*=space i]','text':''},\n  {'action':'type','selector':'input[name*=space i], input[placeholder*=space i]','text':'100'},\n  {'action':'click','selector':'input[name*=charge i]','text':''},\n  {'action':'type','selector':'input[name*=charge i]','text':'50'},\n  {'action':'click','selector':'button:has-text(\"calculate\" i), button:has-text(\"compute\" i)','text':''},\n  {'action':'click','selector':'button:has-text(\"save\" i)','text':''}\n]\n</OUTPUT_JSON>",
+    "extracted": "<OUTPUT_JSON>\n[\n  {'action':'click','selector':'input[name*=space i], input[placeholder*=space i]','text':''},\n  {'action':'type','selector':'input[name*=space i], input[placeholder*=space i]','text':'100'},\n  {'action':'click','selector':'input[name*=charge i]','text':''},\n  {'action':'type','selector':'input[name*=charge i]','text':'50'},\n  {'action':'click','selector':'button:has-text(\"calculate\" i), button:has-text(\"compute\" i)','text':''},\n  {'action':'click','selector':'button:has-text(\"save\" i)','text':''}\n]\n</OUTPUT_JSON>"
+  }
+}

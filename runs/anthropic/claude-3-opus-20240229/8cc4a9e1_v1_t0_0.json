@@ -1,0 +1,34 @@
+{
+  "uid": "8cc4a9e1",
+  "variant": 1,
+  "modality": "GUI",
+  "temperature": 0.0,
+  "model": "claude-3-opus-20240229",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T19:42:55.265067Z",
+  "commit_sha": "170b9e3e1d0d59846b1daa69da57be5d1db6306c",
+  "prompt_sha256": "d707f63262ec5b19d50582a68599b665eed80500003c67b4cf129566c2f2a0e9",
+  "response": {
+    "id": "msg_01A6Ps9d9vXttByka7E15FUy",
+    "content": [
+      {
+        "citations": null,
+        "text": "Here is the JSON array for the task to compute amounts such as space available, shipping, storage, or demurrage charges:\n\n<OUTPUT_JSON>\n[\n  {\n    \"action\": \"fill\",\n    \"selector\": \"input[name*=space i], input[placeholder*=space i]\",\n    \"text\": \"\"\n  },\n  {\n    \"action\": \"fill\", \n    \"selector\": \"input[name*=charge i]\",\n    \"text\": \"\"\n  },\n  {\n    \"action\": \"click\",\n    \"selector\": \"button:has-text(\\\"calculate\\\" i), button:has-text(\\\"compute\\\" i)\",\n    \"text\": \"\"\n  },\n  {\n    \"action\": \"click\",\n    \"selector\": \"button:has-text(\\\"save\\\" i)\",\n    \"text\": \"\"\n  }\n]\n</OUTPUT_JSON>",
+        "type": "text"
+      }
+    ],
+    "model": "claude-3-opus-20240229",
+    "role": "assistant",
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "input_tokens": 228,
+      "output_tokens": 209,
+      "server_tool_use": null,
+      "service_tier": "standard"
+    }
+  }
+}

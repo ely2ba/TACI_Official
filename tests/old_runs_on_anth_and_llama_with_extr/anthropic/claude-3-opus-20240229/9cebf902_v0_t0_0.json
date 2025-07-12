@@ -1,0 +1,15 @@
+{
+  "uid": "9cebf902",
+  "variant": 0,
+  "modality": "TEXT",
+  "temperature": 0.0,
+  "model": "claude-3-opus-20240229",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T17:50:18.349471Z",
+  "commit_sha": "98b2eb0f130d4d32e78707f77c440a8f68e4103c",
+  "prompt_sha256": "ad3b2009798c497d8e0645d027e20b7e84b6fd3417524fc220faca49b0cdd031",
+  "response": {
+    "raw": "Here is my attempt at the task, wrapped in the specified output tags:\n\n<OUTPUT_TEXT>\nTo gather and analyze research data as a paralegal:\n\n1. Identify the legal issue and information needed. Consult with the attorney to understand the research question and scope.\n\n2. Search for relevant statutes in state and federal statutory codes using legal databases like Westlaw or LexisNexis. Note the statute numbers and key provisions.\n\n3. Research case law by searching for court decisions that have interpreted and applied the relevant statutes. Identify the most important and on-point cases. \n\n4. Locate secondary sources like legal encyclopedias, treatises, law review articles, and practice guides for additional analysis and commentary on the legal issues.\n\n5. Carefully read and take notes on the statutes, cases, and secondary sources, looking for key holdings, reasoning, and facts relevant to the research question.\n\n6. Synthesize the research into a memo, summary, or report for the attorney, explaining the current state of the law and how it applies to the facts and issues at hand. \n\n7. Cite all sources, properly format the document, and proofread carefully before submitting to the attorney for review.\n</OUTPUT_TEXT>",
+    "extracted": "<OUTPUT_TEXT>\nTo gather and analyze research data as a paralegal:\n\n1. Identify the legal issue and information needed. Consult with the attorney to understand the research question and scope.\n\n2. Search for relevant statutes in state and federal statutory codes using legal databases like Westlaw or LexisNexis. Note the statute numbers and key provisions.\n\n3. Research case law by searching for court decisions that have interpreted and applied the relevant statutes. Identify the most important and on-point cases. \n\n4. Locate secondary sources like legal encyclopedias, treatises, law review articles, and practice guides for additional analysis and commentary on the legal issues.\n\n5. Carefully read and take notes on the statutes, cases, and secondary sources, looking for key holdings, reasoning, and facts relevant to the research question.\n\n6. Synthesize the research into a memo, summary, or report for the attorney, explaining the current state of the law and how it applies to the facts and issues at hand. \n\n7. Cite all sources, properly format the document, and proofread carefully before submitting to the attorney for review.\n</OUTPUT_TEXT>"
+  }
+}

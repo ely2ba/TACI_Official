@@ -1,0 +1,49 @@
+{
+  "uid": "d0cae549",
+  "variant": 1,
+  "temperature": 0.0,
+  "model": "gpt-4",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:29:45Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "4e234ff3d6e83521d26588cef8dcc04a4c6d3fb0f771b86cd015840be14aca27",
+  "response": {
+    "id": "chatcmpl-Bi1ZYQEnFGAFmqCpOxe0Rxk88HDZT",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>Subject: Call for Witnesses to Testify at Upcoming Hearing\n\nDear [Client's Name],\n\nI hope this message finds you well. As we prepare for your upcoming hearing, it is crucial that we gather all necessary evidence to support your case. One of the most effective ways to do this is through witness testimonies.\n\nWitnesses can provide firsthand accounts of the events in question, which can significantly strengthen your case. If you know of any individuals who were present at the time of the incident or who have relevant information, it would be beneficial to have them testify at the hearing.\n\nPlease provide us with the names and contact information of any potential witnesses as soon as possible. Once we have this information, we can reach out to them to discuss the possibility of testifying. We will also prepare them for what to expect during the hearing and guide them through the process.\n\nRemember, the goal is to present a strong, cohesive case. Witness testimonies can play a pivotal role in achieving this. \n\nThank you for your prompt attention to this matter. If you have any questions or concerns, please do not hesitate to contact me.\n\nBest regards,\n\n[Your Name]\n[Your Title]\n[Your Contact Information]</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749832176,
+    "model": "gpt-4-0613",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 248,
+      "prompt_tokens": 110,
+      "total_tokens": 358,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

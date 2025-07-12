@@ -1,0 +1,44 @@
+{
+  "uid": "1b64c419",
+  "variant": 0,
+  "modality": "TEXT",
+  "temperature": 0.0,
+  "model": "llama3-8b-8192",
+  "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+  "timestamp": "2025-05-28T19:19:33.813296Z",
+  "prompt_sha256": "4c820b93c0a97c8cb762fd274b2900d9a471a9bd42f76cf01ed15bf389a13aa8",
+  "commit_sha": "170b9e3e1d0d59846b1daa69da57be5d1db6306c",
+  "response": {
+    "id": "chatcmpl-3018f3e7-0d34-4c2a-8699-772421e19797",
+    "object": "chat.completion",
+    "created": 1748459973,
+    "model": "llama3-8b-8192",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "<OUTPUT_TEXT>\nWhen answering telephones, I would greet the caller in a professional and friendly manner, taking note of their name and the purpose of their call. I would then direct the call to the appropriate staff member, such as a doctor, nurse, or other healthcare professional, by transferring the call or taking a message. If necessary, I would also provide additional information or answer any questions the caller may have."
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "queue_time": 0.162708244,
+      "prompt_tokens": 96,
+      "prompt_time": 0.031561573,
+      "completion_tokens": 85,
+      "completion_time": 0.070833333,
+      "total_tokens": 181,
+      "total_time": 0.102394906
+    },
+    "usage_breakdown": {
+      "models": null
+    },
+    "system_fingerprint": "fp_179b0f92c9",
+    "x_groq": {
+      "id": "req_01jwc5btxkfce8fdmbt092bqrt"
+    }
+  }
+}

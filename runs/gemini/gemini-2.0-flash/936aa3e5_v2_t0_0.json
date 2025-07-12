@@ -1,0 +1,45 @@
+{
+  "uid": "936aa3e5",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gemini-2.0-flash",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T13:12:24.698010Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "```text\n # Financial Calculations\n \n\n 1.  **Simple Interest Calculation:**\n \n\n  *   Principal: $1,000\n  *   Interest Rate: 5% per year\n  *   Time: 3 years\n \n\n  *   Interest = Principal * Rate * Time\n  *   Interest = $1,000 * 0.05 * 3\n  *   Interest = $150\n \n\n  *   Total Amount Due = Principal + Interest\n  *   Total Amount Due = $1,000 + $150\n  *   Total Amount Due = $1,150\n \n\n 2.  **Discount Calculation:**\n \n\n  *   Original Price: $200\n  *   Discount Rate: 10%\n \n\n  *   Discount Amount = Original Price * Discount Rate\n  *   Discount Amount = $200 * 0.10\n  *   Discount Amount = $20\n \n\n  *   Sale Price = Original Price - Discount Amount\n  *   Sale Price = $200 - $20\n  *   Sale Price = $180\n \n\n 3.  **Equity Calculation:**\n \n\n  *   Assets: $500,000\n  *   Liabilities: $200,000\n \n\n  *   Equity = Assets - Liabilities\n  *   Equity = $500,000 - $200,000\n  *   Equity = $300,000\n \n\n 4.  **Balance Calculation:**\n \n\n  *   Starting Balance: $500\n  *   Deposits: $200\n  *   Withdrawals: $100\n \n\n  *   Ending Balance = Starting Balance + Deposits - Withdrawals\n  *   Ending Balance = $500 + $200 - $100\n  *   Ending Balance = $600\n \n\n 5.  **Principal Calculation (Loan):**\n \n\n  *   Loan Amount: $5,000\n  *   Interest Rate: 6% per year\n  *   Loan Term: 5 years\n \n\n  *   This requires an amortization schedule or a loan payment formula to determine the principal and interest breakdown for each payment. Without specifying a particular payment period (e.g., monthly), it's not possible to calculate the exact principal paid within a specific timeframe. However, the initial principal is $5,000.\n ```\n <OUTPUT_TEXT># Financial Calculations\n \n\n 1.  **Simple Interest Calculation:**\n \n\n  *   Total Amount Due: $1,150\n \n\n 2.  **Discount Calculation:**\n \n\n  *   Sale Price: $180\n \n\n 3.  **Equity Calculation:**\n \n\n  *   Equity: $300,000\n \n\n 4.  **Balance Calculation:**\n \n\n  *   Ending Balance: $600\n \n\n 5.  **Principal Calculation (Loan):**\n \n\n  *   Initial Principal: $5,000</OUTPUT_TEXT>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.0550018224460618
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 121,
+      "candidatesTokenCount": 709,
+      "totalTokenCount": 830,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 121
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 709
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:12:20.288417Z",
+    "responseId": "NLo1aKHNEcepnvgP_sSfsAM"
+  }
+}

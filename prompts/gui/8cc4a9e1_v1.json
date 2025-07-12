@@ -1,0 +1,10 @@
+[
+  {
+    "role": "system",
+    "content": "You are an RPA bot for Shipping Receiving And Inventory Clerk. <REASONING>You may think internally; DO NOT reveal your reasoning.</REASONING>"
+  },
+  {
+    "role": "user",
+    "content": "<<FORMAT>> Wrap your final answer exactly once inside <OUTPUT_JSON> … </OUTPUT_JSON> . Do not output anything outside these tags. <</FORMAT>>\n\nTASK – Compute amounts, such as space available, shipping, storage, or demurrage charges, using computer or price list.\nREQUIRED_SELECTORS = [\"input[name*=space i], input[placeholder*=space i]\", \"input[name*=charge i]\", \"button:has-text(\\\"calculate\\\" i), button:has-text(\\\"compute\\\" i)\", \"button:has-text(\\\"save\\\" i)\"]\n\nExample:\n<OUTPUT_JSON>[{'action':'click','selector':'input[name*=space i], input[placeholder*=space i]','text':''}]</OUTPUT_JSON>\n\nNow produce your own JSON array."
+  }
+]

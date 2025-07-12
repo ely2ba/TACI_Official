@@ -1,0 +1,45 @@
+{
+  "uid": "9652a31e",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gemini-2.0-flash",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T13:18:39.357717Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "```html\n<OUTPUT_TEXT>\n<h1>Rectifying Shipping and Receiving Problems</h1>\n\nHere's a breakdown of how to address issues like damages, shortages, or non-conformance in shipping and receiving:\n\n1.  **Immediate Action & Documentation:**\n    *   **Stop the Line:** If a problem is detected, immediately halt further processing of the shipment to prevent compounding the issue.\n    *   **Detailed Documentation:** Meticulously document the discrepancy. This includes:\n        *   Date and time of receipt\n        *   Vendor name\n        *   Purchase order number\n        *   Tracking number\n        *   Specific description of the problem (e.g., \"Box crushed,\" \"Missing 3 units of part #XYZ,\" \"Incorrect color - received blue instead of green\")\n        *   Quantity affected\n        *   Photos or videos of the damage or non-conformance.\n        *   Internal reference number for the issue.\n\n2.  **Notification of Relevant Parties:**\n    *   **Internal Notification:** Immediately notify the appropriate internal departments, such as:\n        *   Purchasing: They need to be aware of the issue to follow up with the vendor.\n        *   Quality Control: If the issue involves non-conformance, QC needs to assess the severity and potential impact.\n        *   Production/Operations: If the shortage or damage affects production, they need to be informed to adjust schedules or find alternatives.\n        *   Accounting: For potential invoice adjustments or credit memos.\n    *   **External Notification (Vendor/Carrier):** Contact the vendor and/or the shipping carrier as soon as possible.\n        *   Provide them with all the documentation gathered in step 1.\n        *   Clearly state the problem and the desired resolution (e.g., replacement of damaged goods, credit for missing items).\n        *   Obtain a claim number from the carrier if applicable.\n\n3.  **Investigation and Root Cause Analysis:**\n    *   **Internal Review:** Investigate internally to determine if the problem originated within the receiving process (e.g., mishandling).\n    *   **Vendor Communication:** Work with the vendor to understand the cause of the problem on their end (e.g., packaging issues, errors in order fulfillment).\n    *   **Carrier Investigation:** If the carrier is involved, cooperate with their investigation.\n\n4.  **Resolution and Corrective Action:**\n    *   **Negotiate Resolution:** Work with the vendor to agree on a resolution. This may involve:\n        *   Replacement of goods\n        *   Credit memo\n        *   Discount on future orders\n        *   Return of goods\n    *   **Implement Corrective Actions:** Based on the root cause analysis, implement corrective actions to prevent future occurrences. This may involve:\n        *   Improved packaging requirements for vendors\n        *   Changes to internal receiving procedures\n        *   Training for receiving personnel\n        *   Negotiating better shipping terms with carriers\n\n5.  **Documentation and Record Keeping:**\n    *   **Maintain a detailed record of the problem, investigation, and resolution.** This documentation is crucial for:\n        *   Tracking the effectiveness of corrective actions\n        *   Identifying recurring problems with specific vendors or carriers\n        *   Supporting future claims or disputes\n    *   **Update inventory records** to reflect any adjustments made due to the discrepancy.\n\n6.  **Follow-Up:**\n    *   **Regularly follow up with the vendor and/or carrier** to ensure that the agreed-upon resolution is implemented in a timely manner.\n    *   **Monitor the effectiveness of corrective actions** to ensure that they are preventing future problems.\n\n7. **Example Scenarios and Communication:**\n\n    * **Scenario 1: Damaged Goods**\n        * **Communication:** \"We received shipment [Tracking Number] today, PO [PO Number]. Upon arrival, we noted significant damage to the exterior of the box. Upon opening, [Quantity] of [Part Number] were found to be damaged beyond use. Photos are attached. We require a replacement shipment ASAP.\"\n    * **Scenario 2: Shortage**\n        * **Communication:** \"We received shipment [Tracking Number] today, PO [PO Number]. According to the packing slip, we should have received [Quantity] of [Part Number]. However, we only received [Quantity Received]. Please investigate and advise on when we can expect the missing units.\"\n    * **Scenario 3: Non-Conformance**\n        * **Communication:** \"We received shipment [Tracking Number] today, PO [PO Number]. We ordered [Quantity] of [Part Number] - [Specification, e.g., Color: Red]. The shipment received was [Incorrect Specification, e.g., Color: Blue]. This does not meet our required specifications. Please advise on return instructions and replacement options.\"\n\n</OUTPUT_TEXT>\n```"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.14828637528092894
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 122,
+      "candidatesTokenCount": 1022,
+      "totalTokenCount": 1144,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 122
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1022
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:18:32.349662Z",
+    "responseId": "qLs1aN6rFcepnvgP_sSfsAM"
+  }
+}

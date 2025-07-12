@@ -1,0 +1,49 @@
+{
+  "uid": "07080553",
+  "variant": 1,
+  "temperature": 0.5,
+  "model": "gpt-4.1",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T23:05:01Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "ca65019701b219e673d37a5ddbfdb70839253fca5816fda8501517c5c5846e16",
+  "response": {
+    "id": "chatcmpl-BaVjcPxJsKtes4gg7U4pj3vqIrMWb",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nMEMORANDUM\n\nTo: [Attorney/Client Name]  \nFrom: [Your Name], Senior Paralegal  \nDate: [Today's Date]  \nRe: Preparation and Organization of Legal Documents\n\nThis memo outlines the steps taken to prepare, organize, and maintain legal documents for your current matter.\n\n1. Preparation of Affidavits  \nDrafted affidavits per your instructions, ensuring all statements are clear, factual, and in compliance with relevant legal standards. Each affidavit includes:  \n- Caption with case number and parties  \n- Detailed factual statements, numbered for clarity  \n- Signature block and notary section  \n- Attached exhibits, as referenced\n\n2. Legal Correspondence  \nPrepared the following legal correspondence:  \n- Cover letters for filing and service of documents  \n- Client updates regarding case status  \n- Requests for information to third parties  \nAll correspondence has been reviewed for accuracy, professionalism, and compliance with firm policies.\n\n3. Document Organization and Maintenance  \n- All documents have been scanned and saved in the client\u2019s electronic file, using standardized naming conventions for easy retrieval.  \n- Physical copies are organized chronologically in the client\u2019s binder, with tabbed sections for affidavits, correspondence, pleadings, and exhibits.  \n- A document inventory sheet has been updated and included at the front of both electronic and paper files.\n\nPlease advise if you require additional drafts, revisions, or further documentation. All files are maintained in strict confidence and are readily accessible for your review.\n\nAttachments:  \n- Draft Affidavit(s)  \n- Sample Legal Correspondence  \n- Updated Document Inventory Sheet\n\nRespectfully,  \n[Your Name]  \nSenior Paralegal  \n[Law Firm Name]  \n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748041496,
+    "model": "gpt-4.1-2025-04-14",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_51e1070cf2",
+    "usage": {
+      "completion_tokens": 348,
+      "prompt_tokens": 95,
+      "total_tokens": 443,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

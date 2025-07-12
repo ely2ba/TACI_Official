@@ -1,0 +1,49 @@
+{
+  "uid": "9cebf902",
+  "variant": 1,
+  "temperature": 0.5,
+  "model": "gpt-4.1",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:52:41Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "8a785dae0c42bd76581cb68287a32a36fb000a5a6d9cc024152a9c25b13df99a",
+  "response": {
+    "id": "chatcmpl-Bi1vkJqYTDcyvhG6AFj9QJnnn4G6c",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nMEMORANDUM\n\nTo: [Client Name/Attorney]\nFrom: [Your Name], Senior Paralegal\nDate: [Today's Date]\nRe: Research Summary \u2013 [Subject Matter/Case Name]\n\nI. Introduction\n\nThis memorandum summarizes the research findings regarding [brief description of the legal issue, e.g., \"employment discrimination under Title VII of the Civil Rights Act\"], including relevant statutes, case law, legal articles, and codes. The purpose is to provide a comprehensive overview to assist in evaluating the merits of the case and formulating legal strategy.\n\nII. Statutory Authority\n\nA. Federal Statutes\n- Title VII of the Civil Rights Act of 1964 (42 U.S.C. \u00a7 2000e et seq.): Prohibits employment discrimination based on race, color, religion, sex, or national origin.\n- Americans with Disabilities Act (ADA) (42 U.S.C. \u00a7 12101 et seq.): Protects individuals with disabilities from discrimination in employment.\n\nB. State Statutes\n- [Insert relevant state statute, e.g., California Fair Employment and Housing Act (FEHA), Cal. Gov. Code \u00a7 12940 et seq.]\n\nIII. Case Law\n\nA. Supreme Court Decisions\n- McDonnell Douglas Corp. v. Green, 411 U.S. 792 (1973): Established the burden-shifting framework for proving discrimination.\n- [Other relevant Supreme Court cases]\n\nB. Circuit and State Court Decisions\n- [Insert key appellate or state cases that interpret the relevant statutes, e.g., \"Harris v. Forklift Systems, Inc., 510 U.S. 17 (1993): Defined standards for hostile work environment claims.\"]\n\nIV. Legal Articles and Secondary Sources\n\n- [Author], \"Title VII and the Evolution of Employment Discrimination Law,\" [Journal], [Year]: Discusses recent trends and interpretations.\n- American Bar Association, \"Best Practices in Defending Discrimination Claims,\" [Publication Date].\n\nV. Codes and Regulations\n\n- 29 C.F.R. Part 1606: EEOC Guidelines on National Origin Discrimination.\n- [Relevant state administrative codes or regulations]\n\nVI. Analysis\n\nThe statutes and case law establish that [summarize the key legal standards and how they relate to the client\u2019s situation]. The burden-shifting framework of McDonnell Douglas applies, requiring the plaintiff to establish a prima facie case, after which the burden shifts to the employer to articulate a legitimate, non-discriminatory reason for the adverse action.\n\nRecent decisions indicate that courts are [describe trends, e.g., \"increasingly scrutinizing employer justifications for adverse actions, especially where statistical disparities exist\"].\n\nVII. Conclusion\n\nBased on the research, [summarize the likely legal outcomes or strategic considerations]. It is recommended that [next steps, e.g., \"gather additional documentation, interview witnesses, and prepare for potential summary judgment motions\"].\n\nPlease advise if further research or analysis is required on specific points.\n\nAttachments: Copies of statutes, case law excerpts, and relevant articles.\n\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749833552,
+    "model": "gpt-4.1-2025-04-14",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_51e1070cf2",
+    "usage": {
+      "completion_tokens": 629,
+      "prompt_tokens": 123,
+      "total_tokens": 752,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

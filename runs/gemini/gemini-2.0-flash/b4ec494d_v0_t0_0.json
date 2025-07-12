@@ -1,0 +1,45 @@
+{
+  "uid": "b4ec494d",
+  "variant": 0,
+  "temperature": 0.0,
+  "model": "gemini-2.0-flash",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T13:13:41.089352Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "Okay, I understand.\n"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.16010602315266928
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 86,
+      "candidatesTokenCount": 6,
+      "totalTokenCount": 92,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 86
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 6
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:13:40.791088Z",
+    "responseId": "hLo1aLCkMKLkgLUPlsyasAI"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "uid": "1b64c419",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gemini-2.0-flash",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T13:13:17.103983Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_TEXT>\n# Answering and Directing Telephone Calls\n\n1.  **Answer Promptly and Professionally:** Answer the phone within three rings using a consistent greeting, such as \"Good morning/afternoon, [Clinic/Department Name], this is [Your Name], how may I help you?\"\n\n2.  **Identify the Caller's Needs:** Listen carefully to the caller to understand the reason for their call. Ask clarifying questions if needed, such as \"What is the purpose of your call today?\" or \"Who are you trying to reach?\"\n\n3.  **Direct Calls Appropriately:**\n\n    *   **For Existing Patients:**\n        *   **Appointments:** Transfer to the appointments desk or scheduling department. If the caller knows the specific staff member they need, transfer directly.\n        *   **Medical Questions/Concerns:** Transfer to the appropriate nurse, medical assistant, or physician (if appropriate and according to office policy). If unsure, ask for more details about the question to determine the best recipient.\n        *   **Prescription Refills:** Transfer to the prescription refill line or the appropriate nurse/medical assistant.\n        *   **Billing Inquiries:** Transfer to the billing department.\n        *   **Medical Records Requests:** Transfer to the medical records department.\n    *   **For New Patients:**\n        *   Transfer to new patient coordinator or the department responsible for initial intake.\n    *   **For Other Healthcare Providers:**\n        *   Determine the nature of the call and transfer to the appropriate physician, nurse, or administrative staff member.\n    *   **For Vendors/Salespeople:**\n        *   Follow office policy regarding vendor calls. This may involve taking a message or transferring to a designated contact person.\n    *   **For General Inquiries:**\n        *   Answer the question directly if possible. If you don't know the answer, direct the caller to the appropriate resource or offer to find the information and call them back.\n\n4.  **Use Proper Telephone Etiquette:**\n\n    *   Speak clearly and politely.\n    *   Use a professional tone of voice.\n    *   Avoid using slang or jargon.\n    *   Use the caller's name if you know it.\n    *   Place callers on hold appropriately, checking back regularly (every 30-60 seconds) to let them know you haven't forgotten them. Ask if they wish to continue holding.\n    *   Thank the caller for calling.\n\n5.  **Take Accurate Messages:**\n\n    *   If the intended recipient is unavailable, offer to take a message.\n    *   Record the following information:\n        *   Caller's name (spell it out if necessary)\n        *   Caller's phone number (repeat it back to ensure accuracy)\n        *   Date and time of the call\n        *   Reason for the call (be specific)\n        *   Any other relevant information\n    *   Deliver messages promptly to the intended recipient via the designated method (e.g., email, phone call, message slip).\n\n6.  **Handle Difficult Callers:**\n\n    *   Remain calm and professional, even if the caller is angry or upset.\n    *   Listen attentively to the caller's concerns.\n    *   Acknowledge their feelings.\n    *   Try to resolve the issue if possible.\n    *   If you are unable to resolve the issue, escalate the call to a supervisor or other appropriate staff member.\n\n7.  **Be Familiar with Office Procedures:**\n\n    *   Know the names and roles of all staff members.\n    *   Understand the office's policies and procedures for handling telephone calls.\n    *   Know how to use the phone system, including features such as call transfer, hold, and voicemail.\n    *   Keep an updated staff directory available.\n\n8.  **Maintain Confidentiality:** Be mindful of HIPAA regulations and avoid discussing patient information over the phone in areas where others can overhear. Verify the caller's identity before disclosing any protected health information.\n</TEXT>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.17527816087077977
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 108,
+      "candidatesTokenCount": 846,
+      "totalTokenCount": 954,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 108
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 846
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:13:10.627208Z",
+    "responseId": "Zro1aIikJt7bgLUP8cv60A0"
+  }
+}

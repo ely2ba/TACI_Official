@@ -1,0 +1,45 @@
+{
+  "uid": "0dd1e9ca",
+  "variant": 1,
+  "temperature": 0.5,
+  "model": "gemini-2.0-flash",
+  "modality": "GUI",
+  "timestamp": "2025-05-27T13:09:51.849575Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_JSON>[{\"action\": \"click\", \"selector\": \"select[name*=report i]\", \"text\": \"\"}, {\"action\": \"click\", \"selector\": \"button:has-text(\\\"generate\\\" i)\", \"text\": \"\"}, {\"action\": \"click\", \"selector\": \"button:has-text(\\\"export\\\" i)\", \"text\": \"\"}, {\"action\": \"click\", \"selector\": \"a:has-text(\\\"download\\\" i)\", \"text\": \"\"}]</OUTPUT_JSON>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.0136668492700452
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 181,
+      "candidatesTokenCount": 107,
+      "totalTokenCount": 288,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 181
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 107
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:09:51.085795Z",
+    "responseId": "n7k1aKOeBd7bgLUP8cv60A0"
+  }
+}

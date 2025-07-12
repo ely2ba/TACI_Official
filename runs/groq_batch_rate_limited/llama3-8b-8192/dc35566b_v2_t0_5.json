@@ -1,0 +1,44 @@
+{
+  "uid": "dc35566b",
+  "variant": 2,
+  "modality": "TEXT",
+  "temperature": 0.5,
+  "model": "llama3-8b-8192",
+  "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+  "timestamp": "2025-05-28T19:19:46.256239Z",
+  "prompt_sha256": "3f5ef238a68161e191121724f6fd1be6611b988f2d4eb5f9565032790025c14d",
+  "commit_sha": "170b9e3e1d0d59846b1daa69da57be5d1db6306c",
+  "response": {
+    "id": "chatcmpl-7c2dc010-2923-46d0-94dc-b35dd1e62406",
+    "object": "chat.completion",
+    "created": 1748459985,
+    "model": "llama3-8b-8192",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "<OUTPUT_TEXT>\n<h1>Preparing for Trial: Organizing Exhibits</h1>\n\n<h2>Step 1: Review the Case File</h2>\nOrganize the case file by reviewing the pleadings, motions, and other relevant documents. Identify the key exhibits that will be used during the trial and make a list of them.\n\n<h2>Step 2: Categorize Exhibits</h2>\nCategorize the exhibits into groups, such as:\n\t* Witness statements\n\t* Documents\n\t* Photographs\n\t* Videos\n\t* Audio recordings\n\t* Physical objects\n\n<h2>Step 3: Label and Number Exhibits</h2>\nLabel and number each exhibit using a consistent system, such as:\n\t* Exhibit 1: Witness statement of John Doe\n\t* Exhibit 2: Contract between ABC Inc. and XYZ Corp.\n\t* Exhibit 3: Photograph of the accident scene\n\n<h2>Step 4: Organize Exhibits by Topic</h2>\nOrganize the exhibits by topic, such as:\n\t* Liability\n\t* Damages\n\t* Causation\n\t* Expert testimony\n\n<h2>Step 5: Prepare Exhibit Binders</h2>\nPrepare binders for each topic, containing the relevant exhibits. This will make it easy to access and reference the exhibits during the trial.\n\n<h2>Step 6: Review and Update</h2>\nReview the exhibit binders regularly to ensure that they are up-to-date and accurate. Update the binders as new exhibits become available or as the case evolves.\n\n</OUTPUT_TEXT>"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "queue_time": 0.162983141,
+      "prompt_tokens": 120,
+      "prompt_time": 0.015341418,
+      "completion_tokens": 333,
+      "completion_time": 0.2775,
+      "total_tokens": 453,
+      "total_time": 0.292841418
+    },
+    "usage_breakdown": {
+      "models": null
+    },
+    "system_fingerprint": "fp_dadc9d6142",
+    "x_groq": {
+      "id": "req_01jwc5c6jcfcpt415yg1n7m4at"
+    }
+  }
+}

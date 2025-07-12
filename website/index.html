@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TACI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="brand">
+            <h1>TACI</h1>
+            <p>Task-AI Capability Index</p>
+        </header>
+
+        <main class="hero">
+            <div class="neural-visualization">
+                <svg class="network" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <radialGradient id="nodeGrad" cx="50%" cy="50%" r="50%">
+                            <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.9" />
+                            <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:0.2" />
+                        </radialGradient>
+                        <linearGradient id="connectionGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                            <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.1" />
+                            <stop offset="50%" style="stop-color:#FFFFFF;stop-opacity:0.6" />
+                            <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:0.1" />
+                        </linearGradient>
+                        <filter id="glow">
+                            <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+                            <feMerge> 
+                                <feMergeNode in="coloredBlur"/>
+                                <feMergeNode in="SourceGraphic"/>
+                            </feMerge>
+                        </filter>
+                    </defs>
+
+                    <!-- Input Layer (Human Tasks) -->
+                    <g class="input-layer">
+                        <circle cx="120" cy="80" r="4" fill="url(#nodeGrad)" class="node input-node" data-task="research"/>
+                        <circle cx="120" cy="120" r="4" fill="url(#nodeGrad)" class="node input-node" data-task="engineer"/>
+                        <circle cx="120" cy="160" r="4" fill="url(#nodeGrad)" class="node input-node" data-task="analyst"/>
+                        <circle cx="120" cy="200" r="4" fill="url(#nodeGrad)" class="node input-node" data-task="physician"/>
+                        <circle cx="120" cy="240" r="4" fill="url(#nodeGrad)" class="node input-node" data-task="lawyer"/>
+                        <circle cx="120" cy="280" r="4" fill="url(#nodeGrad)" class="node input-node" data-task="creative"/>
+                        <circle cx="120" cy="320" r="4" fill="url(#nodeGrad)" class="node input-node" data-task="strategist"/>
+                    </g>
+
+                    <!-- Hidden Layers -->
+                    <g class="hidden-layer-1">
+                        <circle cx="280" cy="120" r="3" fill="url(#nodeGrad)" class="node hidden-node"/>
+                        <circle cx="280" cy="160" r="3" fill="url(#nodeGrad)" class="node hidden-node"/>
+                        <circle cx="280" cy="200" r="3" fill="url(#nodeGrad)" class="node hidden-node"/>
+                        <circle cx="280" cy="240" r="3" fill="url(#nodeGrad)" class="node hidden-node"/>
+                        <circle cx="280" cy="280" r="3" fill="url(#nodeGrad)" class="node hidden-node"/>
+                    </g>
+
+                    <g class="hidden-layer-2">
+                        <circle cx="400" cy="140" r="3" fill="url(#nodeGrad)" class="node hidden-node"/>
+                        <circle cx="400" cy="180" r="3" fill="url(#nodeGrad)" class="node hidden-node"/>
+                        <circle cx="400" cy="220" r="3" fill="url(#nodeGrad)" class="node hidden-node"/>
+                        <circle cx="400" cy="260" r="3" fill="url(#nodeGrad)" class="node hidden-node"/>
+                    </g>
+
+                    <g class="hidden-layer-3">
+                        <circle cx="520" cy="160" r="3" fill="url(#nodeGrad)" class="node hidden-node"/>
+                        <circle cx="520" cy="200" r="3" fill="url(#nodeGrad)" class="node hidden-node"/>
+                        <circle cx="520" cy="240" r="3" fill="url(#nodeGrad)" class="node hidden-node"/>
+                    </g>
+
+                    <!-- Output Layer -->
+                    <g class="output-layer">
+                        <circle cx="680" cy="200" r="4" fill="url(#nodeGrad)" class="node output-node"/>
+                    </g>
+
+                    <!-- Connections (will be dynamically generated) -->
+                    <g class="connections"></g>
+                </svg>
+
+                <!-- Task Labels -->
+                <div class="task-labels">
+                    <div class="label input-label" data-task="research">Research Scientist</div>
+                    <div class="label input-label" data-task="engineer">Software Engineer</div>
+                    <div class="label input-label" data-task="analyst">Financial Analyst</div>
+                    <div class="label input-label" data-task="physician">Physician</div>
+                    <div class="label input-label" data-task="lawyer">Lawyer</div>
+                    <div class="label input-label" data-task="creative">Creative Director</div>
+                    <div class="label input-label" data-task="strategist">Business Strategist</div>
+                </div>
+
+                <div class="output-labels">
+                    <div class="label output-label">Singular Intelligence</div>
+                </div>
+
+                <!-- Progress Indicator -->
+                <div class="progress-display">
+                    <div class="progress-circle">
+                        <svg viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="45" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="2"/>
+                            <circle cx="50" cy="50" r="45" fill="none" stroke="#FFFFFF" stroke-width="2" 
+                                    stroke-linecap="round" class="progress-ring" 
+                                    stroke-dasharray="283" stroke-dashoffset="283"/>
+                        </svg>
+                        <div class="progress-text">
+                            <span class="percentage">0</span>%
+                        </div>
+                    </div>
+                    <p class="progress-label">Tasks Automated</p>
+                </div>
+            </div>
+
+            <div class="content">
+                <h2>Work in Progress</h2>
+                <p>TACI measures how advanced AI systems perform real-world tasks previously done by humans. We're building the definitive benchmark for AI task automation across industries.</p>
+            </div>
+
+            <div class="cta-section">
+                <p class="cta-text"><strong>Need deep automation intelligence for enterprise, research, or policy?</strong></p>
+                <a href="mailto:founder@taci.ai" class="cta-link">Let's talk → founder@taci.ai</a>
+            </div>
+        </main>
+
+        <footer>
+            <div class="divider"></div>
+            <p>© 2025 TACI Project</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>"

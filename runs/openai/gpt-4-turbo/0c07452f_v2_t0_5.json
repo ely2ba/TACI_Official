@@ -1,0 +1,49 @@
+{
+  "uid": "0c07452f",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-4-turbo",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:34:25Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "97bdb486738236a72ee38f1c9a723099c8dcc19d09559b914ae92fdfa55d7525",
+  "response": {
+    "id": "chatcmpl-BaVFyg5QQsk7JVQAXAhFnVBEvnf8Z",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Enforcing Administration Policies and Rules Governing Students\n\n1. **Understanding Policies and Rules**\n   - Familiarize yourself with all school policies and rules by reviewing the school's handbook and attending relevant meetings. Ensure you understand the rationale behind each policy to effectively communicate and enforce them.\n\n2. **Communicating Expectations**\n   - Clearly communicate the rules and expectations to the students at the beginning of the school year and as needed. Use age-appropriate language and examples to ensure students understand what is expected of them.\n\n3. **Consistent Enforcement**\n   - Apply rules consistently and fairly to all students. Consistency helps build trust and understanding among students about the consequences of their actions.\n\n4. **Positive Reinforcement**\n   - Use positive reinforcement to encourage good behavior and compliance with school rules. Recognize and reward students who consistently follow the rules.\n\n5. **Handling Violations**\n   - When a student violates a rule, address the behavior according to the school's disciplinary procedures. Ensure that the response is appropriate for the severity of the violation and is carried out fairly.\n\n6. **Parental Involvement**\n   - Keep parents informed about their child\u2019s behavior and any disciplinary actions taken. Encourage parents to discuss rule-following and behavior expectations at home.\n\n7. **Professional Development**\n   - Participate in professional development opportunities to learn new strategies for effectively enforcing rules and managing student behavior.\n\n8. **Review and Adjust Policies**\n   - Regularly review the effectiveness of school policies and rules with your colleagues and administration. Provide feedback and suggest adjustments based on your observations and experiences in the classroom.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748039658,
+    "model": "gpt-4-turbo-2024-04-09",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_de235176ee",
+    "usage": {
+      "completion_tokens": 331,
+      "prompt_tokens": 82,
+      "total_tokens": 413,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

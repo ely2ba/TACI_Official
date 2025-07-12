@@ -1,0 +1,45 @@
+{
+  "uid": "2bc72355",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gemini-2.0-flash",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T13:17:15.942371Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_TEXT>\n# Elementary School Teacher Instructions\n\nOkay class, let's get started! Remember to listen carefully and participate. I'll be working with you all individually and in groups, so pay attention to the instructions for each activity.\n\n1.  **Whole Class Instruction (Lectures & Discussions):**\n\n    *   **Attention Grabber:** Start each lesson with a hook \u2013 a question, a short video clip, a relevant object, or a personal anecdote \u2013 to pique their interest. For example, if we're starting a lesson on fractions, I might bring in a pizza cut into different slices.\n    *   **Clear Objectives:** Clearly state the learning objectives at the beginning of the lesson. For example: \"Today, we will learn to identify and write fractions representing parts of a whole.\" Write these objectives on the board.\n    *   **Direct Instruction:** Deliver information in a clear, concise, and organized manner. Use visuals like diagrams, charts, and pictures to support your explanations. Write key vocabulary words on the board and define them.\n    *   **Think-Pair-Share:** Pose a question related to the lesson. Have students think about their answer individually, then pair up with a classmate to discuss their ideas. Finally, call on a few pairs to share their thoughts with the whole class.\n    *   **Questioning Techniques:** Use a variety of questioning techniques to check for understanding. Ask both open-ended questions (e.g., \"Why do you think that is?\") and closed-ended questions (e.g., \"What is the numerator in this fraction?\"). Use wait time to allow students to formulate their responses.\n    *   **Summarization:** At the end of each segment of instruction, summarize the key points. Ask students to summarize what they learned in their own words.\n    *   **Example:** \"Alright class, today we're learning about the water cycle. First, the sun heats the water and it *evaporates* into the air. Evaporation is when water turns into a gas called water vapor. Who can tell me what evaporation is?\" (wait time) \"Yes, Sarah?\"\n\n2.  **Small Group Instruction:**\n\n    *   **Purposeful Grouping:** Group students based on their learning needs, interests, or skill levels. Sometimes, I'll group students who need extra support together, while other times, I'll create mixed-ability groups so students can learn from each other.\n    *   **Differentiated Activities:** Provide different activities for each group based on their needs. For example, one group might be working on a hands-on activity using manipulatives, while another group might be completing a worksheet with more challenging problems.\n    *   **Clear Roles:** Assign roles within each group (e.g., facilitator, recorder, reporter) to promote collaboration and accountability.\n    *   **Guided Practice:** Circulate among the groups, providing support and guidance as needed. Ask probing questions to help students think critically and solve problems.\n    *   **Example:** \"Group 1, you'll be using these fraction bars to build different fractions and compare them. Group 2, you'll be working on these word problems about fractions. Group 3, you'll be playing a fraction matching game. Remember to work together and help each other out!\"\n\n3.  **Individual Instruction:**\n\n    *   **One-on-One Support:** Provide individualized support to students who are struggling with a particular concept or skill.\n    *   **Targeted Interventions:** Use targeted interventions to address specific learning gaps. For example, if a student is having trouble with reading comprehension, I might work with them on strategies for identifying the main idea and supporting details.\n    *   **Personalized Learning:** Tailor instruction to meet the individual needs and learning styles of each student.\n    *   **Positive Reinforcement:** Provide positive reinforcement and encouragement to build students' confidence and motivation.\n    *   **Example:** \"Okay, Michael, I see you're having a little trouble with this math problem. Let's break it down step-by-step. First, let's look at what the problem is asking us to do...\"\n\n4.  **Demonstrations:**\n\n    *   **Visual Aids:** Use visual aids, such as models, diagrams, and real-world objects, to illustrate concepts and processes.\n    *   **Step-by-Step Instructions:** Provide clear, step-by-step instructions when demonstrating a skill or procedure.\n    *   **Think Alouds:** Verbalize your thought process as you demonstrate a skill or procedure. This helps students understand the strategies you are using and how to apply them to their own work.\n    *   **Student Participation:** Involve students in the demonstration by asking them questions, having them help with the demonstration, or having them practice the skill or procedure under your guidance.\n    *   **Example:** \"Now, I'm going to show you how to measure the length of this table using a ruler. First, I'm going to line up the zero mark on the ruler with the edge of the table. Then, I'm going to look at the other end of the table to see where it lines up with the ruler. Can someone tell me what measurement they see?\"\n\n5.  **Classroom Management:**\n\n    *   **Establish Clear Expectations:** Establish clear expectations for behavior and academic performance.\n    *   **Positive Classroom Environment:** Create a positive and supportive classroom environment where students feel safe to take risks and make mistakes.\n    *   **Effective Transitions:** Use effective transitions to move smoothly between activities.\n    *   **Active Monitoring:** Actively monitor student behavior and provide timely interventions when needed.\n    *   **Positive Reinforcement:** Use positive reinforcement to encourage desired behaviors and academic performance.\n\nRemember to be patient, enthusiastic, and supportive. Your role is to guide and facilitate learning, not just to deliver information. Good luck!\n</OUTPUT_TEXT>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.22231639292611358
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 120,
+      "candidatesTokenCount": 1246,
+      "totalTokenCount": 1366,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 120
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1246
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:17:07.278057Z",
+    "responseId": "U7s1aKn8EPq0nvgPkbjHyAk"
+  }
+}

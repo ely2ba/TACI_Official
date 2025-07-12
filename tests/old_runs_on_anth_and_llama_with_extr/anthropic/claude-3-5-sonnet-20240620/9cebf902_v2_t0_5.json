@@ -1,0 +1,15 @@
+{
+  "uid": "9cebf902",
+  "variant": 2,
+  "modality": "TEXT",
+  "temperature": 0.5,
+  "model": "claude-3-5-sonnet-20240620",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T18:12:24.042471Z",
+  "commit_sha": "98b2eb0f130d4d32e78707f77c440a8f68e4103c",
+  "prompt_sha256": "201afa7b083de2c80a691ebaaa666ca5aad973841b6540f331ec7d1d01c811ef",
+  "response": {
+    "raw": "Here is my response following the output rules:\n\n<OUTPUT_TEXT>\n\n# Gathering and Analyzing Legal Research Data\n\n1. Identify relevant sources\n   - Statutes and regulations\n   - Case law and court decisions  \n   - Legal articles and journals\n   - Codes and practice guides\n\n2. Conduct thorough searches\n   - Use legal databases (e.g. Westlaw, LexisNexis)\n   - Search government websites\n   - Review law library resources\n   - Consult subject matter experts\n\n3. Analyze and synthesize findings  \n   - Read and take detailed notes\n   - Identify key facts, holdings, and reasoning\n   - Compare and contrast different sources\n   - Look for trends and patterns\n\n4. Organize research results\n   - Create case summaries\n   - Develop research memos\n   - Build citation lists and bibliographies\n   - Prepare charts and visual aids\n\n5. Evaluate authority and relevance\n   - Consider jurisdiction and precedential value\n   - Assess currency and validity of sources\n   - Determine applicability to specific legal issues\n   - Identify potential counterarguments\n\n6. Communicate findings effectively\n   - Prepare clear, concise research reports\n   - Highlight key points and conclusions\n   - Provide proper citations and references\n   - Recommend further research if needed\n\n</OUTPUT_TEXT>",
+    "extracted": "<OUTPUT_TEXT>\n# Gathering and Analyzing Legal Research Data\n\n1. Identify relevant sources\n   - Statutes and regulations\n   - Case law and court decisions  \n   - Legal articles and journals\n   - Codes and practice guides\n\n2. Conduct thorough searches\n   - Use legal databases (e.g. Westlaw, LexisNexis)\n   - Search government websites\n   - Review law library resources\n   - Consult subject matter experts\n\n3. Analyze and synthesize findings  \n   - Read and take detailed notes\n   - Identify key facts, holdings, and reasoning\n   - Compare and contrast different sources\n   - Look for trends and patterns\n\n4. Organize research results\n   - Create case summaries\n   - Develop research memos\n   - Build citation lists and bibliographies\n   - Prepare charts and visual aids\n\n5. Evaluate authority and relevance\n   - Consider jurisdiction and precedential value\n   - Assess currency and validity of sources\n   - Determine applicability to specific legal issues\n   - Identify potential counterarguments\n\n6. Communicate findings effectively\n   - Prepare clear, concise research reports\n   - Highlight key points and conclusions\n   - Provide proper citations and references\n   - Recommend further research if needed\n</OUTPUT_TEXT>"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "uid": "8fc9d168",
+  "variant": 0,
+  "temperature": 0.0,
+  "model": "gemini-2.5-flash-preview-05-20",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T15:36:40.674278Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_TEXT>\nTASK \u2013 Maintain and develop positive business relationships with a customer's key personnel involved in, or directly relevant to, a logistics activity.\n</OUTPUT_TEXT>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "citationMetadata": {
+          "citations": [
+            {
+              "startIndex": 441,
+              "endIndex": 575,
+              "uri": "https://www.salary.com/job/gridiron-fulfillment/warehouse-worker-inbound-outbound-inv-control/e2c274ce-cdbf-46ce-87a9-a08930a07bc1"
+            }
+          ]
+        },
+        "avgLogprobs": -0.4008322006616837
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 104,
+      "candidatesTokenCount": 39,
+      "totalTokenCount": 229,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 104
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 39
+        }
+      ],
+      "thoughtsTokenCount": 86
+    },
+    "modelVersion": "gemini-2.5-flash-preview-05-20",
+    "createTime": "2025-05-27T15:36:39.809742Z",
+    "responseId": "B9w1aI62MYqbm9IPjNKWiAY"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "uid": "93eea469",
+  "variant": 2,
+  "temperature": 0.5,
+  "model": "gpt-4.1",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:58:16Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "5840f80417a02a7d3ad8c40d2d2041b1542ff5380995b92d069040eb287bf935",
+  "response": {
+    "id": "chatcmpl-Bi21DpHU347XcjUc9MwR9gj60dFrO",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Meeting with Clients and Other Professionals to Discuss Case Details\n\n1. **Preparation for the Meeting**  \n   - Review all case files, evidence, and relevant documents prior to the meeting.  \n   - Prepare a list of topics and questions to discuss, tailored to the specific case.  \n   - Ensure confidentiality agreements are in place if necessary.\n\n2. **Scheduling and Coordination**  \n   - Contact clients and other professionals (such as witnesses, experts, or opposing counsel) to schedule a mutually convenient meeting time.  \n   - Arrange for a suitable venue (in-person, phone, or video conference) and ensure all necessary technology is available.\n\n3. **Conducting the Meeting**  \n   - Introduce all participants and clarify roles.  \n   - Clearly state the purpose and objectives of the meeting.  \n   - Facilitate discussion by asking pertinent questions and encouraging input from all parties.  \n   - Take comprehensive notes, documenting key points, agreements, and action items.\n\n4. **Post-Meeting Actions**  \n   - Summarize the meeting in a written memo or report for the attorney and relevant team members.  \n   - Follow up with clients and professionals regarding any outstanding issues or additional information required.  \n   - Update case files and ensure all documentation is properly stored and organized.\n\n5. **Professionalism and Ethics**  \n   - Maintain client confidentiality at all times.  \n   - Communicate clearly, professionally, and respectfully with all parties involved.  \n   - Adhere to all applicable legal and ethical guidelines throughout the process.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749833891,
+    "model": "gpt-4.1-2025-04-14",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_51e1070cf2",
+    "usage": {
+      "completion_tokens": 317,
+      "prompt_tokens": 117,
+      "total_tokens": 434,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

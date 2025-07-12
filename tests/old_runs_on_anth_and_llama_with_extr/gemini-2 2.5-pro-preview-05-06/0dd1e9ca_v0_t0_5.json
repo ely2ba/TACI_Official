@@ -1,0 +1,46 @@
+{
+  "uid": "0dd1e9ca",
+  "variant": 0,
+  "temperature": 0.5,
+  "model": "gemini-2.5-pro-preview-05-06",
+  "modality": "GUI",
+  "timestamp": "2025-05-27T13:30:30.550169Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_JSON>\n[\n  {\n    \"action\": \"select\",\n    \"selector\": \"select[name*=report i]\",\n    \"text\": \"Monthly Sales Report\"\n  },\n  {\n    \"action\": \"click\",\n    \"selector\": \"button:has-text(\\\"generate\\\" i)\",\n    \"text\": \"\"\n  },\n  {\n    \"action\": \"wait\",\n    \"selector\": \"button:has-text(\\\"export\\\" i)\",\n    \"text\": \"5000\"\n  },\n  {\n    \"action\": \"click\",\n    \"selector\": \"button:has-text(\\\"export\\\" i)\",\n    \"text\": \"\"\n  },\n  {\n    \"action\": \"wait\",\n    \"selector\": \"a:has-text(\\\"download\\\" i)\",\n    \"text\": \"3000\"\n  },\n  {\n    \"action\": \"click\",\n    \"selector\": \"a:has-text(\\\"download\\\" i)\",\n    \"text\": \"\"\n  }\n]\n</OUTPUT_JSON>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.1235873245995892
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 181,
+      "candidatesTokenCount": 242,
+      "totalTokenCount": 792,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 181
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 242
+        }
+      ],
+      "thoughtsTokenCount": 369
+    },
+    "modelVersion": "gemini-2.5-pro-preview-05-06",
+    "createTime": "2025-05-27T13:30:25.103793Z",
+    "responseId": "cb41aPGqBsepnvgP_sSfsAM"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "uid": "dc35566b",
+  "variant": 2,
+  "modality": "TEXT",
+  "temperature": 0.0,
+  "model": "claude-3-5-sonnet-20240620",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T20:09:54.402194Z",
+  "commit_sha": "170b9e3e1d0d59846b1daa69da57be5d1db6306c",
+  "prompt_sha256": "5c2b1790f2417a640aaa0c9ab20011ff442927bfe17d78d43ba60b94c8a66652",
+  "response": {
+    "id": "msg_01DPQyvYj5zXBs8e6FpugT19",
+    "content": [
+      {
+        "citations": null,
+        "text": "Here is my response formatted as requested:\n\n<OUTPUT_TEXT>\n\n# Trial Preparation: Organizing Exhibits\n\n1. Create an exhibit list\n   - Make a master list of all potential exhibits\n   - Assign unique numbers/letters to each exhibit\n   - Include brief descriptions and relevance\n\n2. Review and organize physical exhibits\n   - Sort exhibits by type (documents, photos, objects, etc.)\n   - Place in labeled folders or boxes\n   - Create duplicate copies as needed\n\n3. Prepare electronic exhibits\n   - Scan paper documents\n   - Save files with clear naming conventions\n   - Create a digital exhibit folder structure\n\n4. Mark exhibits\n   - Apply exhibit stickers/labels to physical items\n   - Add electronic exhibit stamps to digital files\n\n5. Create exhibit binders\n   - Organize exhibits in logical order\n   - Include table of contents and tabs\n   - Prepare copies for judge, opposing counsel, and witnesses\n\n6. Develop exhibit presentation plan\n   - Determine order of introduction\n   - Prepare any necessary demonstrative aids\n   - Test all electronic presentation equipment\n\n7. Update exhibit list\n   - Note any pre-trial rulings on admissibility\n   - Make final revisions before trial\n\n8. Coordinate with attorneys\n   - Review exhibit strategy\n   - Ensure all necessary exhibits are prepared\n   - Discuss any last-minute additions or changes\n\n</OUTPUT_TEXT>",
+        "type": "text"
+      }
+    ],
+    "model": "claude-3-5-sonnet-20240620",
+    "role": "assistant",
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "type": "message",
+    "usage": {
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "input_tokens": 124,
+      "output_tokens": 309,
+      "server_tool_use": null,
+      "service_tier": "standard"
+    }
+  }
+}

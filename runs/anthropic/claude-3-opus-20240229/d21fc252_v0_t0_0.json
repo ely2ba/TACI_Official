@@ -1,0 +1,12 @@
+{
+  "uid": "d21fc252",
+  "variant": 0,
+  "modality": "VISION",
+  "temperature": 0.0,
+  "model": "claude-3-opus-20240229",
+  "skipped": true,
+  "reason": "vision stub\u2014no image support",
+  "endpoint": "Anthropic messages",
+  "timestamp": "2025-05-28T19:38:48.770949Z",
+  "commit_sha": "170b9e3e1d0d59846b1daa69da57be5d1db6306c"
+}

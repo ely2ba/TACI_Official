@@ -1,0 +1,46 @@
+{
+  "uid": "8cc4a9e1",
+  "variant": 1,
+  "temperature": 0.5,
+  "model": "gemini-2.5-flash-preview-05-20",
+  "modality": "GUI",
+  "timestamp": "2025-05-27T15:30:27.760992Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_JSON>[{'action':'click','selector':'button:has-text(\"calculate\" i), button:has-text(\"compute\" i)','text':''}]</OUTPUT_JSON>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -1.5856446765718006
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 200,
+      "candidatesTokenCount": 42,
+      "totalTokenCount": 592,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 200
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 42
+        }
+      ],
+      "thoughtsTokenCount": 350
+    },
+    "modelVersion": "gemini-2.5-flash-preview-05-20",
+    "createTime": "2025-05-27T15:30:25.226023Z",
+    "responseId": "kdo1aOflDd_52PgPo--GyAI"
+  }
+}

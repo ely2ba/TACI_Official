@@ -1,0 +1,45 @@
+{
+  "uid": "a79efa23",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gemini-2.0-flash",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T13:12:56.234915Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "```text\n<OUTPUT_TEXT>\n# Customer Service Interaction\n\n1.  **Greeting and Identification:** Begin by warmly greeting the customer and identifying yourself and the company/department you represent. For example: \"Good morning/afternoon/evening, thank you for calling [Company Name], my name is [Your Name]. How may I assist you today?\"\n\n2.  **Active Listening and Empathy:** Listen attentively to the customer's request or complaint without interruption (unless clarification is immediately needed). Show empathy by acknowledging their feelings. For example: \"I understand this is frustrating for you,\" or \"I'm sorry you're experiencing this issue.\"\n\n3.  **Information Gathering:** Ask clarifying questions to fully understand the customer's needs or the nature of their problem. Be specific and avoid jargon. For example: \"Could you please provide me with your account number?\" or \"Can you describe the issue you're encountering in more detail?\"\n\n4.  **Providing Information and Solutions:** Offer accurate and relevant information about products, services, or policies. If the customer has a problem, explore potential solutions. Clearly explain the steps involved in resolving the issue and set realistic expectations. For example: \"To resolve this, I will need to [action]. This should take approximately [timeframe].\"\n\n5.  **Order Taking/Account Changes/Cancellations:** If the customer is placing an order, carefully confirm all details (items, quantities, shipping address, payment information). For account changes or cancellations, follow established procedures and clearly explain any associated fees or consequences.\n\n6.  **Complaint Resolution:** If the customer has a complaint, apologize for the inconvenience and take ownership of the problem. Investigate the issue thoroughly and work towards a fair and satisfactory resolution. If you cannot resolve the issue immediately, provide a timeline for follow-up.\n\n7.  **Confirmation and Follow-Up:** Before ending the call, summarize the actions taken and confirm that the customer is satisfied with the resolution. Offer further assistance if needed. For example: \"Just to confirm, I have [summarize actions]. Is there anything else I can help you with today?\" If follow-up is required, clearly state when and how you will contact the customer.\n\n8.  **Closing:** Thank the customer for their business and end the call politely. For example: \"Thank you for calling [Company Name]. Have a great day!\"\n\n9.  **Documentation:** After the call, accurately document all relevant information in the customer's account or case file. This includes the nature of the issue, the steps taken to resolve it, and any follow-up actions required.\n</OUTPUT_TEXT>\n```"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.11997914965686902
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 127,
+      "candidatesTokenCount": 549,
+      "totalTokenCount": 676,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 549
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.0-flash",
+    "createTime": "2025-05-27T13:12:52.302764Z",
+    "responseId": "VLo1aKy9Et7bgLUP8cv60A0"
+  }
+}

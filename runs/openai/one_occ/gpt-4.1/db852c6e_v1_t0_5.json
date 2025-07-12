@@ -1,0 +1,49 @@
+{
+  "uid": "db852c6e",
+  "variant": 1,
+  "temperature": 0.5,
+  "model": "gpt-4.1",
+  "modality": "TEXT",
+  "timestamp": "2025-06-13T16:58:27Z",
+  "commit_sha": "40f6db24ee385e0b9b8342ada2fce040fe018cbb",
+  "prompt_sha256": "f569a8589baa5d5bd5757714aa846cd389ec66e9ff32ca84d93b9582426cacf9",
+  "response": {
+    "id": "chatcmpl-Bi21OoxJFlQq9GMPrWscNhz2sbld6",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\nMEMORANDUM\n\nTo: All Legal Staff  \nFrom: [Your Name], Senior Paralegal  \nDate: [Today's Date]  \nSubject: Coordination of Law Office Activities and Subpoena Delivery\n\nThis memo serves as a directive to streamline and coordinate ongoing law office activities, with a particular focus on the timely and proper delivery of subpoenas.\n\n1. **Case Management and Workflow Coordination**  \n   - Review all active case files to ensure deadlines and court dates are accurately calendared.  \n   - Assign tasks and monitor progress through our case management system.  \n   - Schedule regular check-ins to address workflow bottlenecks and ensure all team members are aligned.\n\n2. **Subpoena Preparation and Delivery**  \n   - Verify all subpoenas for accuracy and completeness prior to service.  \n   - Coordinate with process servers to confirm availability and schedule deliveries in accordance with court rules and statutory deadlines.  \n   - Document the date, time, and manner of service for each subpoena in the case file.  \n   - Notify responsible attorneys immediately upon successful delivery or if any service issues arise.\n\n3. **Communication and Reporting**  \n   - Maintain open communication with attorneys regarding the status of subpoena deliveries and other critical case activities.  \n   - Report any challenges or delays to the supervising attorney promptly for resolution.\n\n4. **Compliance and Confidentiality**  \n   - Ensure all procedures comply with applicable laws, court rules, and ethical standards.  \n   - Safeguard client confidentiality during all interactions and document handling.\n\nPlease adhere to these protocols to promote efficiency and maintain the highest standards of legal service. Direct any questions or concerns to my attention.\n\nThank you for your cooperation.\n\n[Your Name]  \nSenior Paralegal  \n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1749833902,
+    "model": "gpt-4.1-2025-04-14",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_51e1070cf2",
+    "usage": {
+      "completion_tokens": 353,
+      "prompt_tokens": 115,
+      "total_tokens": 468,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

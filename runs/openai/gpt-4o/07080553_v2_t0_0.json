@@ -1,0 +1,49 @@
+{
+  "uid": "07080553",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gpt-4o",
+  "modality": "TEXT",
+  "timestamp": "2025-05-23T22:52:15Z",
+  "commit_sha": "858e7c8b74d1b712a0ed2c02cd645c4cc0411c49",
+  "prompt_sha256": "acb24bee05a0f7b8bea5c38e5a76f68132b2b74e13fdae3608ba58b711cf52c6",
+  "response": {
+    "id": "chatcmpl-BaVXB3V1RnKammIXh2bSTwxsDeq8h",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "<OUTPUT_TEXT>\n# Legal Document Preparation and Organization\n\n## 1. Affidavit Preparation\n\n1.1 **Title and Introduction**  \n   - Begin with the title \"Affidavit of [Affiant's Name]\" at the top of the document.\n   - Include a brief introduction stating the purpose of the affidavit.\n\n1.2 **Affiant's Information**  \n   - Full legal name, address, and contact information of the affiant.\n   - A statement of the affiant's capacity or relationship to the matter at hand.\n\n1.3 **Statement of Facts**  \n   - Clearly numbered paragraphs detailing the facts relevant to the case.\n   - Each paragraph should contain a single fact or a related group of facts.\n\n1.4 **Affirmation**  \n   - A statement affirming that the information provided is true to the best of the affiant's knowledge.\n\n1.5 **Signature and Notarization**  \n   - Space for the affiant's signature and date.\n   - Notary section for the notary public's signature, seal, and commission details.\n\n## 2. Legal Correspondence Preparation\n\n2.1 **Letterhead and Date**  \n   - Use official letterhead if available.\n   - Include the date of correspondence.\n\n2.2 **Recipient Information**  \n   - Full name, title, and address of the recipient.\n\n2.3 **Salutation and Subject**  \n   - Appropriate salutation (e.g., \"Dear [Recipient's Name],\").\n   - A clear subject line indicating the purpose of the correspondence.\n\n2.4 **Body of the Letter**  \n   - Introduction: Briefly state the purpose of the letter.\n   - Main Content: Detailed information or requests, organized in clear, concise paragraphs.\n   - Conclusion: Summarize the main points and state any required actions or responses.\n\n2.5 **Closing and Signature**  \n   - Appropriate closing (e.g., \"Sincerely,\").\n   - Space for the sender's signature and typed name.\n\n## 3. Document Organization and Filing System\n\n3.1 **Paper Filing System**  \n   - Use labeled folders for each case or client.\n   - Organize documents chronologically or by document type within each folder.\n\n3.2 **Electronic Filing System**  \n   - Create a digital folder structure that mirrors the paper filing system.\n   - Use consistent naming conventions for files to ensure easy retrieval.\n\n3.3 **Document Indexing**  \n   - Maintain an index or log of all documents, including titles, dates, and brief descriptions.\n   - Update the index regularly to reflect new additions or changes.\n\n3.4 **Security and Confidentiality**  \n   - Ensure all documents are stored securely, with access limited to authorized personnel.\n   - Implement password protection and encryption for electronic files.\n\n3.5 **Regular Audits and Updates**  \n   - Conduct regular audits of the filing system to ensure accuracy and completeness.\n   - Update filing procedures as necessary to accommodate new technologies or practices.\n</OUTPUT_TEXT>",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        }
+      }
+    ],
+    "created": 1748040725,
+    "model": "gpt-4o-2024-08-06",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": "fp_9bddfca6e2",
+    "usage": {
+      "completion_tokens": 614,
+      "prompt_tokens": 98,
+      "total_tokens": 712,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

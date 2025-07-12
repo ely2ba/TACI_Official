@@ -1,0 +1,46 @@
+{
+  "uid": "b4ec494d",
+  "variant": 2,
+  "temperature": 0.0,
+  "model": "gemini-2.5-flash-preview-05-20",
+  "modality": "TEXT",
+  "timestamp": "2025-05-27T15:52:09.186104Z",
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "<OUTPUT_TEXT>\n# Unresolved Customer Grievance Referral\n\n1.  **Case Reference & Customer Details**\n    *   **Case ID:** CSR-20231027-001\n    *   **Customer Name (Partial):** A. Smith\n    *   **Contact Method:** Phone Call (Inbound)\n    *   **Date of Grievance:** October 26, 2023\n    *   **Service/Product Affected:** Premium Internet Service\n\n2.  **Summary of Grievance**\n    The customer reports persistent and intermittent internet service outages, specifically experiencing complete loss of connectivity for periods ranging from 15 minutes to 2 hours, occurring multiple times daily over the past five days. This issue is impacting their ability to work from home.\n\n3.  **Actions Taken by Customer Service Representative**\n    *   Performed remote diagnostic checks on the customer's modem and line (no immediate fault detected).\n    *   Guided the customer through multiple modem and router reboots.\n    *   Verified account status and billing (all active and current).\n    *   Checked for known local area outages (none reported in the customer's vicinity).\n    *   Confirmed customer's equipment is up-to-date and compatible.\n    *   Attempted to reset network settings remotely.\n\n4.  **Reason for Escalation/Unresolved Status**\n    Despite standard troubleshooting protocols, the intermittent service disruption persists. The issue appears to be beyond the scope of frontline customer service resolution, potentially indicating an underlying infrastructure problem, a complex line fault, or a localized network capacity issue requiring specialized technical investigation.\n\n5.  **Designated Department for Investigation**\n    Technical Operations Department - Network Infrastructure Team\n\n6.  **Required Further Action**\n    *   Conduct in-depth line diagnostics and signal integrity tests.\n    *   Investigate potential external factors affecting service in the customer's specific geographical area.\n    *   Schedule a field technician visit if remote diagnostics do not yield a clear resolution.\n    *   Provide the customer with a direct point of contact for updates on the investigation.\n\n7.  **Priority Level**\n    High - The customer's core service is severely impacted, causing significant disruption to their daily activities and leading to high dissatisfaction.\n</OUTPUT_TEXT>"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.507684488765529
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 108,
+      "candidatesTokenCount": 488,
+      "totalTokenCount": 1430,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 108
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 488
+        }
+      ],
+      "thoughtsTokenCount": 834
+    },
+    "modelVersion": "gemini-2.5-flash-preview-05-20",
+    "createTime": "2025-05-27T15:51:59.967842Z",
+    "responseId": "n981aKKJO6O2nvgPrJiG8Qk"
+  }
+}
