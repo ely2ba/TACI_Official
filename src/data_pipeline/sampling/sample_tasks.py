@@ -34,7 +34,7 @@ OUT = Path("data/manifests"); OUT.mkdir(parents=True, exist_ok=True)
 CACHE_JSON = OUT / "modality_cache_comprehensive.json"   # cache for comprehensive tasks
 
 # ── Configuration ─────────────────────────────────────────────────────
-MODEL_NAME = "gpt-4o-mini"
+MODEL_NAME = "gpt-4.1-mini-2025-04-14"
 TEMPERATURE = 0.3
 VOTES_PER_TASK = 3
 
@@ -61,8 +61,8 @@ imp = tr[tr["Scale ID"] == "IM"][["O*NET-SOC Code", "Task ID", "Data Value"]]\
 df = ts.rename(columns={"O*NET-SOC Code": "SOC", "Task ID": "TaskID"})\
        .merge(imp, on=["SOC", "TaskID"], how="left")
 
-# Include Core tasks and tasks with missing type (NaN) to capture all available data
-df = df[df["Task Type"].isin(["Core"]) | df["Task Type"].isna()].merge(occ, on="SOC", how="left")
+# Include all task types (Core, Supplemental, and NaN) for comprehensive coverage
+df = df.merge(occ, on="SOC", how="left")
 
 # ── Helper Functions ─────────────────────────────────────────────────
 infl = inflect.engine()
