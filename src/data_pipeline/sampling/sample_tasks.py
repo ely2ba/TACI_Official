@@ -25,6 +25,7 @@ from typing import Dict, List
 import inflect              # pip install inflect
 import openai
 import pandas as pd
+import spacy                # pip install spacy
 from dotenv import load_dotenv
 from tenacity import retry, wait_random_exponential, stop_after_attempt
 from tqdm import tqdm
@@ -65,31 +66,81 @@ df = ts.rename(columns={"O*NET-SOC Code": "SOC", "Task ID": "TaskID"})\
 df = df.merge(occ, on="SOC", how="left")
 
 # ── Helper Functions ─────────────────────────────────────────────────
+try:
+    nlp = spacy.load("en_core_web_sm")
+except OSError:
+    print("Warning: spaCy model 'en_core_web_sm' not found. Install with: python -m spacy download en_core_web_sm")
+    nlp = None
+
 infl = inflect.engine()
 
 def clean_title(raw: str) -> str:
+    """
+    Clean and singularize occupation titles using NLP-based approach.
+    
+    Examples:
+        "Claims Adjusters, Examiners, and Investigators" → "Claim Adjuster Examiner And Investigator"
+        "Human Resources Specialists" → "Human Resource Specialist"
+        "News Analysts, Reporters, and Journalists" → "News Analyst Reporter And Journalist"
+    """
+    if not nlp:
+        # Fallback to simpler approach if spaCy not available
+        return _clean_title_fallback(raw)
+    
+    # 1. Normalize punctuation - keep 'and' but remove commas
+    clean = re.sub(r"[,&/]", " ", raw)
+    clean = re.sub(r"\s{2,}", " ", clean).strip()
+    
+    # 2. Process with spaCy for POS tagging
+    doc = nlp(clean)
+    
+    # 3. Singularize plural nouns only
+    tokens = []
+    for tok in doc:
+        if tok.tag_ in {"NNS", "NNPS"}:  # plural nouns
+            # Try inflect first, fallback to lemma
+            singular = infl.singular_noun(tok.text)
+            if singular:
+                tokens.append(singular)
+            else:
+                # Use spaCy's lemmatizer as fallback
+                tokens.append(tok.lemma_ if tok.lemma_ != "-PRON-" else tok.text)
+        else:
+            tokens.append(tok.text)
+    
+    # 4. Rebuild and title case
+    result = " ".join(tokens)
+    result = re.sub(r"\s{2,}", " ", result).strip()
+    return result.title()
+
+def _clean_title_fallback(raw: str) -> str:
+    """
+    Lightweight fallback if spaCy is not available.
+    Lower accuracy but still functional.
+    """
     # Replace commas & ampersands with spaces, collapse spaces
-    txt = re.sub(r"[,&]", " ", raw)
+    txt = re.sub(r"[,&/]", " ", raw)
     txt = re.sub(r"\s{2,}", " ", txt).strip()
-
-    # Split on 'and'/'or' while keeping connectors
-    parts = re.split(r"\s+(and|or)\s+", txt, flags=re.I)
+    
+    # Simple pluralization: for words ending in 's' that are >= 4 chars
+    # and not preceded by 'and'/'or', try to singularize
+    words = txt.split()
     cleaned = []
-
-    for part in parts:
-        if part.lower() in ("and", "or"):
-            cleaned.append(part.lower())
-            continue
-        # Singularise each plural noun in this chunk
-        words = []
-        for w in part.split():
-            singular = infl.singular_noun(w) or w
-            words.append(singular)
-        cleaned.append(" ".join(words))
-
-    title = " ".join(cleaned)
-    title = re.sub(r"\s{2,}", " ", title).strip()
-    return title.title()
+    
+    for i, word in enumerate(words):
+        if (len(word) >= 4 and 
+            word.lower() not in {"and", "or", "this", "analysis", "basis"} and
+            word.endswith('s') and 
+            (i == 0 or words[i-1].lower() not in {"and", "or"})):
+            # Try inflect singularization
+            singular = infl.singular_noun(word)
+            cleaned.append(singular if singular else word)
+        else:
+            cleaned.append(word)
+    
+    result = " ".join(cleaned)
+    result = re.sub(r"\s{2,}", " ", result).strip()
+    return result.title()
 
 def load_cache(path: Path) -> Dict[str, str]:
     return json.loads(path.read_text()) if path.exists() else {}
