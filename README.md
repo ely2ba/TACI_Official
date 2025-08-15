@@ -13,9 +13,7 @@ TACI evaluates AI models through **7,600+ lines of research-grade Python** imple
 - **Systematic evaluation methodology** through 5-phase pipeline with weighted composite scoring
 - **Economic impact modeling** for automation potential across 20+ professional occupations
 
-# Process Flowchart
-
-# Task Processing Workflow
+# System Architecture & Workflow
 
 ```
 ═══════════════════════════════════════════════════════════════════════════════════════════════════
@@ -292,7 +290,7 @@ TACI evaluates AI models through **7,600+ lines of research-grade Python** imple
 - Files ending in `.txt` or `.csv` = Data files
 - Indented boxes = Sub-processes or outputs
 
-## Visual Diagram
+## Directory Structure
 
 ```
 TACI_Official/
@@ -466,8 +464,8 @@ TACI_Official/
 ## Key Components
 
 ### Data Pipeline (`src/data_pipeline/`)
-- **`sampling/sample_tasks.py`**: Samples tasks from O*NET data across 20+ occupations, classifies modality using GPT-4 consensus voting
-- **`prompt_gen/generate_prompts.py`**: Generates evaluation prompts for different task types and modalities
+- **Task sampling and classification** across 20+ occupations with NLP-powered modality detection
+- **Multi-variant prompt generation** for TEXT, GUI, VISION, and MANUAL task types
 
 ### Evaluation Pipeline (`src/evaluation/`)
 **5-Phase Statistical Validation Framework:**
@@ -478,11 +476,9 @@ TACI_Official/
 - **Phase 4**: **Weighted composite scoring** - AHP methodology with bootstrap confidence intervals on 0-100 scale
 
 ### Model Execution (`src/execution/`)
-**Production-Grade LLM Orchestration:**
-- **Enterprise API integration** for Anthropic Claude, OpenAI GPT, Google Gemini, Meta Llama
-- **Robust batch processing** with exponential backoff, retry logic, and error recovery
-- **Multi-modal support** including vision tasks with image inputs and spatial reasoning
-- **Comprehensive logging** with git commit tracking and response provenance
+- **Multi-provider API orchestration** with enterprise-grade error handling and retry logic
+- **Batch processing systems** supporting Anthropic, OpenAI, Google, and Meta LLM providers
+- **Comprehensive provenance tracking** with git commit logging and experimental reproducibility
 
 ### Analysis Tools (`src/analysis/`)
 **Research-Grade Analytics Framework:**
