@@ -11,151 +11,198 @@ TACI evaluates AI models through **7,600+ lines of research-grade Python** imple
 - **Systematic evaluation methodology** through 5-phase pipeline with weighted composite scoring
 - **Economic impact modeling** for automation potential across 20+ professional occupations
 
-graph TD
-  %% ---------- Ingestion ----------
-  A1["Task_Statements.txt"]
-  A2["Task_Ratings.txt"]
-  A3["Occupation_Data.txt"]
+# Process Flowchart
 
-  A4["Extract Tasks"]
-  A5["Extract Ratings"]
-  A6["Extract Occupation Titles"]
+## Visual Diagram
 
-  A1 --> A4
-  A2 --> A5
-  A3 --> A6
+```mermaid
+flowchart TD
+    Start1[New_SessionID,lib]
+    Start2[New_PollApp,lib]
+    
+    Start1 --> Unvote[Unvotation_ballot.txt]
+    Start2 --> Unvote
+    
+    Unvote --> Extract[Extract Unvotation Titles]
+    
+    Extract --> Merge[Merge Titles + Change<br/>in order set to blank]
+    
+    Merge --> SetHelp[Set help text to<br/>help.html]
+    
+    SetHelp --> Random[Randomize Files]
+    
+    Random --> Delete[Delete old vote data files]
+    
+    Delete --> Initiate[Initiate Text Initialization]
+    
+    Initiate --> Ready[Ready For Input]
+    
+    Ready --> InputWait{Input detected<br/>session_ballot.txt}
+    
+    InputWait --> Prompt[Prompt Username Entry]
+    
+    Prompt --> PollEntry[Poll Entry Page]
+    
+    PollEntry --> PollStart[Poll Entry Functions]
+    
+    PollStart --> FullPage[Full Page Prompt Display]
+    
+    %% Multiple parallel processes
+    FullPage --> Process1[Make POLL Project]
+    FullPage --> Process2[Make GUI Prompt + selections]
+    FullPage --> Process3[Make ORIGIN Prompt + image]
+    FullPage --> Process4[Make MANUAL Prompt]
+    
+    Process1 --> Preselected1{Want to preselect/select}
+    Process2 --> Preselected2{Want to preselect/select}
+    Process3 --> Preselected3{Want to preselect/select}
+    Process4 --> Preselected4{Want to preselect/select}
+    
+    %% Poll Entry convergence
+    Preselected1 --> PollEntryScrum[Poll Entry Scrum]
+    Preselected2 --> PollEntryScrum
+    Preselected3 --> PollEntryScrum
+    Preselected4 --> PollEntryScrum
+    
+    PollEntryScrum --> PollForm[Poll Form Display]
+    
+    PollForm --> PollFormListener[Poll Form Listener]
+    
+    PollFormListener --> Submit[Submit]
+    
+    Submit --> AttachPrompt[Attach Manifest Prompt to<br/>submission]
+    
+    %% Branching logic
+    AttachPrompt --> CheckReplace{If replace was dragged<br/>onto to form submission}
+    AttachPrompt --> CheckDelete{If the delete selection<br/>went to form submission}
+    
+    CheckReplace --> Replace[Replace File]
+    CheckDelete --> Delete2[Delete Entry]
+    
+    Replace --> LogAction[Log code actions done, etc?]
+    Delete2 --> LogAction
+    
+    LogAction --> ReadyLoop{Want to restart?}
+    
+    ReadyLoop -->|Yes| Random
+    ReadyLoop -->|No| SessionEnd[Session Data export]
+    
+    %% Nested sections with different processes
+    SessionEnd --> NestedSection1[Dynamic Reshuffle Library]
+    SessionEnd --> NestedSection2[Summary History Report]
+    SessionEnd --> NestedSection3[Summary Report Request]
+    
+    NestedSection1 --> SubProcess1[creating_new_poll_with_output.txt]
+    NestedSection2 --> SubProcess2[reference_text_inference.txt]
+    NestedSection3 --> SubProcess3[survey_questions.txt]
+    
+    SubProcess1 --> Library[Library Dump]
+    SubProcess2 --> Library
+    SubProcess3 --> Library
+    
+    Library --> NestedLoop1{Select Priorities?}
+    
+    NestedLoop1 -->|Yes| Priority1[Priority UI display poll selection]
+    NestedLoop1 -->|No| Continue1[Continue]
+    
+    Priority1 --> SetPriority[Set priority]
+    SetPriority --> NestedLoop1
+    
+    Continue1 --> CandidateFilter[Candidate Filter pass internal<br/>process]
+    
+    CandidateFilter --> Pruned[pruned_lib_candidates.csv]
+    
+    Pruned --> ScoreSub[Priority Subset lib SET descriptor]
+    
+    ScoreSub --> PruneMore[Prune_lib_items_poll_output.csv]
+    
+    PruneMore --> FinalMerge[Merge output of<br/>prune_outputs.txt]
+    
+    FinalMerge --> GenerateReport[Generate report]
+    
+    GenerateReport --> ConfigureOutput[Configure output to<br/>add polls to existing report]
+    
+    ConfigureOutput --> OutputFormat{Output_lib_pollsumdb_poll_output.html}
+    
+    OutputFormat --> Browser[browser.lib}
+    OutputFormat --> Schedule[cron_job_scheduler_daemon.txt]
+    OutputFormat --> WebLink[web_server.lib]
+    OutputFormat --> EmailReminder[auto_email_reminders]
+    
+    Browser --> NextPhase[Next poll libraries]
+    Schedule --> NextPhase
+    WebLink --> NextPhase
+    EmailReminder --> NextPhase
+    
+    NextPhase --> Complete[Finalized executables]
+```
 
-  A7["Merge Tasks + Ratings on SOC + tmdTaskID"]
-  A4 --> A7
-  A5 --> A7
+## Process Description
 
-  A8["Join Occupation Titles to Task SOCs"]
-  A6 --> A8
-  A7 --> A8
+This flowchart represents a polling/voting system workflow with the following main phases:
 
-  A9["Clean/Standardize Titles"]
-  A10["Assign LLM (tmdSOC-Twist)"]
-  A11["Assign Task Importance"]
-  A12["Filter Target SOCs"]
+### 1. **Initialization Phase**
+- Creates new session and poll application instances
+- Processes unvotation ballot data
+- Extracts and merges titles
+- Sets up help text and randomizes files
+- Cleans up old vote data
 
-  A8 --> A9 --> A10 --> A11 --> A12
+### 2. **User Input Phase**
+- Waits for input detection (session_ballot.txt)
+- Prompts for username entry
+- Displays poll entry page
 
-  A13["Write Manifest: sampled_tasks.csv"]
-  A14["Parse Manifest CSV"]
-  A12 --> A13 --> A14
+### 3. **Poll Configuration Phase**
+- Creates multiple parallel processes:
+  - POLL Project setup
+  - GUI Prompt with selections
+  - ORIGIN Prompt with image
+  - MANUAL Prompt
+- Each process allows for preselection options
 
-  %% ---------- Prompting ----------
-  B1["For Each Task"] --> B2["For Each Modality"] --> B3["For Each Prompt Variant (Min/Max)"]
-  A14 --> B1
+### 4. **Poll Execution Phase**
+- Consolidates selections in Poll Entry Scrum
+- Displays poll form
+- Listens for form submissions
+- Attaches manifest prompts to submissions
 
-  B4["Make TEXT Prompt"]
-  B5["Make GUI Prompt + selectors"]
-  B6["Make VISION Prompt + images"]
-  B7["Make MANUAL Prompt"]
-  B3 --> B4
-  B3 --> B5
-  B3 --> B6
-  B3 --> B7
+### 5. **Action Processing Phase**
+- Handles replace/delete operations
+- Logs code actions
+- Offers restart option
 
-  B8["Save to prompts/text"]
-  B9["Save to prompts/gui"]
-  B10["Save to prompts/vision"]
-  B11["Save to prompts/manual"]
-  B4 --> B8
-  B5 --> B9
-  B6 --> B10
-  B7 --> B11
+### 6. **Report Generation Phase**
+- Exports session data
+- Generates three types of reports:
+  - Dynamic Reshuffle Library
+  - Summary History Report
+  - Summary Report Request
 
-  %% ---------- Inference Loop ----------
-  C1["For Each Model Provider"] --> C2["For Each Model"] --> C3["For Each Modality (loop)"] --> C4["For Each Prompt File"]
-  B8 --> C1
-  B9 --> C1
-  B10 --> C1
-  B11 --> C1
+### 7. **Library Processing Phase**
+- Dumps data to library
+- Allows priority selection (optional)
+- Applies candidate filtering
+- Prunes and merges outputs
 
-  C5["Attach Modality Extras (by archetype)"]
-  C4 --> C5
+### 8. **Output Distribution Phase**
+- Generates final report
+- Configures output for existing reports
+- Distributes through multiple channels:
+  - Browser interface
+  - Scheduled cron jobs
+  - Web server
+  - Email reminders
 
-  C6["If VISION: Attach images (auto by vision archetype)"]
-  C7["If GUI: Attach selectors (auto by GUI archetype)"]
-  C5 --> C6
-  C5 --> C7
+### 9. **Completion**
+- Finalizes executables for next poll libraries
 
-  C8["Call Model API"]
-  C9["Log meta (buttons, temp, etc)"]
-  C10["Store to results/"]
-  C6 --> C8 --> C9 --> C10
-  C7 --> C8
+## Implementation Notes
 
-  %% ---------- Wrapper Checks ----------
-  D1["Wrapper Strict Check"]
-  D2["Wrapper Rescore Check"]
-  C10 --> D1 --> D2
-
-  D3["wrapper_text_gui_per_output.csv"]
-  D4["bad_outputs_strict.csv"]
-  D1 --> D3
-  D1 --> D4
-
-  %% ---------- Schema & Safety ----------
-  E1["Schema (Text/GUI) Strict"]
-  E2["Schema (Text/GUI) Rescored"]
-  E3["schema_text_failures.csv"]
-
-  E4["Schema (Vision) Strict"]
-  E5["Schema (Vision) Rescored"]
-  E6["vision_failures.csv"]
-
-  D2 --> E1 --> E2 --> E3
-  D2 --> E4 --> E5 --> E6
-
-  F1["Safety Strict"]
-  F2["Safety Rescored"]
-  F3["Safety fail log"]
-
-  E2 --> F1
-  E5 --> F1
-  F1 --> F2 --> F3
-
-  G1["Candidate Filter: pass schema + safety"]
-  G2["phase_03_candidates.csv"]
-  G3["Rubric Grader (e.g., GPT-4o-mini)"]
-  G4["phase_03_rubric_per_output.csv"]
-
-  F2 --> G1 --> G2 --> G3 --> G4
-
-  %% ---------- Aggregation ----------
-  H1["Combine/merge all pre-phase outputs"]
-  H2["master_per_output.csv"]
-  H3["Aggregate completions/models/occupation summaries"]
-  H4["phase_04_composite_per_output.csv"]
-
-  D3 --> H1
-  D4 --> H1
-  E3 --> H1
-  E6 --> H1
-  G2 --> H1
-  G4 --> H1
-  H1 --> H2 --> H3 --> H4
-
-  %% ---------- Downstream Artifacts ----------
-  I1["task_capability_scores.csv"]
-  I2["job_level_scores.csv"]
-  I3["automation_classification.csv"]
-  H4 --> I1
-  H4 --> I2
-  H4 --> I3
-
-  J1["Build occupation-panel (TACI + skills/important/etc)"]
-  J2["occupations_panel.csv"]
-  J3["Do/Exhibit StudyN"]
-  J4["Analyse tables/plots"]
-
-  I1 --> J1
-  I2 --> J1
-  I3 --> J1
-  J1 --> J2 --> J3 --> J4
-
+- Decision points are indicated with diamond shapes in the flowchart
+- Parallel processes converge at the Poll Entry Scrum
+- The system includes both manual and automated pathways
+- Loop-back functionality allows for process restart at various stages
 
 ## Technical Innovation
 
