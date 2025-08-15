@@ -83,7 +83,7 @@ TACI evaluates AI models through **7,600+ lines of research-grade Python** imple
                          ▼
               ┌──────────────────────────┐
               │ For Each Prompt Variant │
-              │      (Min/Max)          │
+              │      (v0, v1, v2)          │
               └──────────┬───────────────┘
                          │
          ┌───────────────┼───────────────┬───────────────┐
