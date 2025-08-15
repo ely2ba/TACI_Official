@@ -15,7 +15,7 @@ TACI evaluates AI models through **7,600+ lines of research-grade Python** imple
 
 ## Visual Diagram
 
-```mermaid
+
 flowchart TD
     Start1[New_SessionID,lib]
     Start2[New_PollApp,lib]
