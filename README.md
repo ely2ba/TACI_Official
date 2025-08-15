@@ -1,6 +1,8 @@
-# TACI (Task-AI Capability Index)
+# TACI (Task-AI Capability Index) - Alpha Showcase
 
 A novel research framework establishing systematic methodology for evaluating AI automation potential across professional occupations through statistically rigorous 5-phase assessment pipeline. TACI provides the first comprehensive benchmark for measuring AI model capabilities on real-world occupational tasks with production-grade engineering and academic rigor.
+
+> **🚧 Alpha Version**: This is a demonstration/showcase version of TACI. The internal production system includes 40+ occupations, 15+ model providers, and advanced experimental capabilities.
 
 ## Overview
 
@@ -532,12 +534,16 @@ TACI_Official/
 
 **First Systematic AI Occupational Capability Benchmark**
 
-TACI establishes novel methodology for quantitative assessment of AI automation potential across professional domains. Current research emphasizes paralegal task automation as proof-of-concept, with comprehensive evaluation across:
+> **Note**: This repository represents the **alpha/showcase version** of TACI for demonstration and open research. The internal production version includes expanded occupational coverage, additional model providers, and advanced experimental features.
 
-- **Legal document analysis and generation** with domain-specific accuracy metrics
-- **Client communication and case management** workflows with multi-turn interaction assessment  
-- **Regulatory compliance and research** tasks requiring factual precision and legal reasoning
-- **Multi-modal professional workflows** integrating text analysis, GUI automation, and visual document processing
+TACI establishes novel methodology for quantitative assessment of AI automation potential across professional domains. This demonstration version includes:
+
+- **Paralegal occupation proof-of-concept** with comprehensive task coverage across all major LLM providers
+- **Multi-modal evaluation framework** integrating text analysis, GUI automation, and visual document processing
+- **Statistical validation pipeline** demonstrating reproducible methodology for occupational AI assessment
+- **Economic impact modeling** framework supporting automation potential quantification
+
+**Internal Research Extensions**: The production TACI system evaluates 40+ occupations across 15+ model providers with advanced experimental features including adaptive prompting, cross-occupational transfer analysis, and longitudinal capability tracking.
 
 **Academic Impact**: Framework designed for reproducible research with full experimental provenance, supporting publication-quality analysis of AI capabilities across cognitive work categories.
 
