@@ -13,6 +13,38 @@ TACI evaluates AI models through **7,600+ lines of research-grade Python** imple
 - **Systematic evaluation methodology** through 5-phase pipeline with weighted composite scoring
 - **Economic impact modeling** for automation potential across 20+ professional occupations
 
+## Reviewer’s Guide (3 short files to scan)
+
+1) src/evaluation/phase_03_rubric/rubric_grader_paralegal.py – rubric scoring & uncertainty
+
+6-dimension rubric with validation rules and 3-vote self-consistency (deterministic seeds).
+
+Contradiction checks; weak-justification downgrades; AHP-based weights; MD5 cache for repeatability.
+
+Pointers: score validation & auto-downgrade logic (verify the precise lines in your file); majority-vote aggregation; weight application.
+
+2) src/data_pipeline/sampling/sample_tasks.py – messy data → reproducible manifest
+
+Title cleaning with spaCy; deterministic hashing for task IDs; cached modality classification.
+
+Retry/backoff and thread-safe orchestration to build a clean, reproducible input table.
+
+Pointers: text normalization routine; cache layer (to avoid redundant calls); separation between preprocessing and model calls.
+
+3) src/evaluation/phase_01_schema/phase_01_vision.py – structural validation & IoU
+
+Unified vendor parsing; JSON-schema checks plus geometric IoU for spatial outputs (with edge-case handling).
+
+Configurable thresholds to keep decisions auditable.
+
+Pointers: IoU implementation; error-recovery path; tolerance configuration.
+
+Notes for reviewers
+– Each file is self-contained and documented; tests and manifests ensure runs are reproducible.
+– Design goal: agency-grade auditability (deterministic seeds, caching, schema checks, explicit thresholds).
+– No vendor lock-in: interfaces abstract provider specifics.
+
+
 # System Architecture & Workflow
 
 ```
