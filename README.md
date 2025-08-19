@@ -13,14 +13,63 @@ TACI evaluates AI models through **7,600+ lines of research-grade Python** imple
 - **Systematic evaluation methodology** through 5-phase pipeline with weighted composite scoring
 - **Economic impact modeling** for automation potential across 20+ professional occupations
 
-📂 Reviewer’s Guide
+---
+
+# 📂 Reviewer’s Guide
 
 This repository is large (7k+ LOC) because it’s a full research pipeline.
-For a quick review of coding style and methodology, here are 3 compact entry points:
+For a quick review of coding style and methodology, here are **3 compact entry points**:
 
-1️⃣ Rubric-Based Scoring
+---
 
-File: src/evaluation/phase_03_rubric/rubric_grader_paralegal.py
+### 1️⃣ Rubric-Based Scoring
+
+**File:** [`src/evaluation/phase_03_rubric/rubric_grader_paralegal.py`](src/evaluation/phase_03_rubric/rubric_grader_paralegal.py)
+
+🔎 *Highlights:*
+
+* Six-dimensional rubric with **3-vote self-consistency** (deterministic seeds)
+* **Contradiction detection** + automatic downgrading of weak justifications
+* Weighted composite scoring using **AHP methodology**
+* **MD5 caching** for reproducible runs
+
+---
+
+### 2️⃣ Data Pipeline & Sampling
+
+**File:** [`src/data_pipeline/sampling/sample_tasks.py`](src/data_pipeline/sampling/sample_tasks.py)
+
+🔎 *Highlights:*
+
+* **NLP cleaning** of messy task titles (spaCy, POS tagging)
+* Deterministic **hashing for reproducible task IDs**
+* Cached modality classification (consensus via GPT-4)
+* Retry logic + multi-threaded orchestration with full error recovery
+
+---
+
+### 3️⃣ Schema + Vision Validation
+
+**File:** [`src/evaluation/phase_01_schema/phase_01_vision.py`](src/evaluation/phase_01_schema/phase_01_vision.py)
+
+🔎 *Highlights:*
+
+* **JSON schema validation** combined with **IoU scoring** for bounding boxes
+* Unified parsing across multiple vendors
+* Configurable **thresholding** for statistical rigor
+* Graceful error recovery for edge cases
+
+---
+
+### 🧭 Design Principles
+
+✔ **Auditability:** deterministic seeds, reproducible manifests, MD5 persistence
+✔ **Rigor:** bootstrap uncertainty, schema enforcement, validation thresholds
+✔ **Separation of concerns:** clear layers for data → validation → scoring
+✔ **Resilience:** retry/backoff, caching, graceful degradation
+
+---
+
 
 # System Architecture & Workflow
 
