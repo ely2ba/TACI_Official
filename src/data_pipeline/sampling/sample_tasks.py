@@ -63,7 +63,7 @@ OUT.mkdir(parents=True, exist_ok=True)
 CACHE_JSON = OUT / "modality_cache_comprehensive.json"  # stores votes per uid
 
 # ── Config ────────────────────────────────────────────────────────────
-DEFAULT_MODEL_NAME = "gpt-4.1-mini-2025-04-14"
+DEFAULT_MODEL_NAME = "gpt-5-mini-2025-08-07"
 MODEL_NAME = os.getenv("MODEL_NAME", DEFAULT_MODEL_NAME)
 TEMPERATURE = 0.3
 VOTES_PER_TASK = 3
@@ -102,6 +102,12 @@ Tie-breakers:
 
 Answer with only one of: TEXT, GUI, VISION, MANUAL, INCONCLUSIVE.
 """
+
+# Newer models (e.g., gpt-5-*, o3/o4) are typically served via the
+# Responses API. Older models keep using Chat Completions. We auto-switch.
+RESPONSES_MODELS_PREFIX = ("gpt-5", "o3", "o4")
+# Responses API enforces a minimum (observed >= 16). Use a small, safe cap.
+MAX_OUTPUT_TOKENS_FOR_LABEL = 32  # enough headroom, still tiny
 
 # ── Utilities: NLP setup for cleaning titles ──────────────────────────
 try:
@@ -238,16 +244,66 @@ def normalize_label(ans: str) -> str:
 # ── OpenAI call with retry ────────────────────────────────────────────
 @retry(wait=wait_random_exponential(min=1, max=20), stop=stop_after_attempt(6))
 def vote_once(client: openai.OpenAI, statement: str, seed: int) -> str:
-    resp = client.chat.completions.create(
-        model=MODEL_NAME,
-        temperature=TEMPERATURE,
-        seed=seed,
-        messages=[
-            {"role": "system", "content": SYSTEM_PROMPT},
-            {"role": "user", "content": statement.strip() or "Label this task."},
-        ],
-    )
-    raw = (resp.choices[0].message.content or "").strip()
+    use_responses = any(str(MODEL_NAME).startswith(p) for p in RESPONSES_MODELS_PREFIX)
+
+    if use_responses:
+        if not hasattr(client, "responses"):
+            raise RuntimeError(
+                f"Model '{MODEL_NAME}' requires the Responses API, but your OpenAI SDK "
+                "doesn't expose client.responses. Please upgrade: pip install -U openai"
+            )
+
+        # Responses API with simple string input for maximum compatibility
+        prompt = (
+            f"{SYSTEM_PROMPT}\n\nTASK STATEMENT:\n{(statement or '').strip() or 'Label this task.'}\n\n"
+            "Answer with only one of: TEXT, GUI, VISION, MANUAL, INCONCLUSIVE."
+        )
+        try:
+            resp = client.responses.create(
+                model=MODEL_NAME,
+                temperature=TEMPERATURE,
+                seed=seed,
+                max_output_tokens=MAX_OUTPUT_TOKENS_FOR_LABEL,
+                input=prompt,
+            )
+        except TypeError:
+            # Fallback for older SDK signatures that may not support seed/temperature
+            resp = client.responses.create(
+                model=MODEL_NAME,
+                max_output_tokens=MAX_OUTPUT_TOKENS_FOR_LABEL,
+                input=prompt,
+            )
+
+        # Extract plain text from Responses result
+        raw = ""
+        try:
+            raw = (resp.output_text or "").strip()
+        except Exception:
+            try:
+                dump = resp.model_dump()
+                outputs = dump.get("output", [])
+                for block in outputs:
+                    for c in block.get("content", []):
+                        t = c.get("text")
+                        if t:
+                            raw = t.strip()
+                            break
+                    if raw:
+                        break
+            except Exception:
+                raw = ""
+    else:
+        # Chat Completions API path (legacy models)
+        resp = client.chat.completions.create(
+            model=MODEL_NAME,
+            temperature=TEMPERATURE,
+            seed=seed,
+            messages=[
+                {"role": "system", "content": SYSTEM_PROMPT},
+                {"role": "user", "content": statement.strip() or "Label this task."},
+            ],
+        )
+        raw = (resp.choices[0].message.content or "").strip()
     label = normalize_label(raw)
     if label not in (ALLOWED | {FALLBACK_LABEL}):
         raise ValueError(f"Unexpected normalized label: {label} (raw: {raw})")
@@ -324,6 +380,11 @@ def main() -> None:
     cache = load_cache(CACHE_JSON)
     client: Optional[openai.OpenAI] = openai.OpenAI(api_key=os.getenv("OPENAI_API_KEY")) if not offline else None
 
+    # Announce model + API path selection
+    api_mode = (
+        "responses" if any(str(MODEL_NAME).startswith(p) for p in RESPONSES_MODELS_PREFIX) else "chat.completions"
+    )
+    print(f"🔧  Model: {MODEL_NAME}  •  API: {api_mode}{' (offline)' if offline else ''}")
     print(f"🔄  Classifying modality for {len(comprehensive_tasks)} tasks...")
     vote_cols = [f"vote{i+1}" for i in range(VOTES_PER_TASK)]
     all_votes: List[List[str]] = []
