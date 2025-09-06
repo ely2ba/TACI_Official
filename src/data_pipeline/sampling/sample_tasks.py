@@ -197,14 +197,22 @@ def save_cache(path: Path, data: Dict[str, List[str]]) -> None:
 # ── Label normalization ───────────────────────────────────────────────
 def normalize_label(ans: str) -> str:
     """
-    Normalize the model's answer to one of the canonical labels or raise.
-    Accepts some common variants/synonyms.
+    Normalize the model's answer to one of the canonical labels (TEXT, GUI,
+    VISION, MANUAL, INCONCLUSIVE). Be robust to extra words/punctuation.
     """
     if not ans:
         return FALLBACK_LABEL
-    s = re.sub(r"[^A-Za-z]", "", ans).upper()
 
-    # Synonym map
+    text = (ans or "").strip()
+    up = text.upper()
+
+    # Prefer an explicit whole-word match of the allowed tokens.
+    allowed_list = ["TEXT", "GUI", "VISION", "MANUAL", "INCONCLUSIVE"]
+    m = re.search(r"\b(TEXT|GUI|VISION|MANUAL|INCONCLUSIVE)\b", up)
+    if m:
+        return m.group(1)
+
+    # Synonym map (uppercased keys)
     syn = {
         "TEXTUAL": "TEXT",
         "LANGUAGE": "TEXT",
@@ -230,14 +238,17 @@ def normalize_label(ans: str) -> str:
         "MULTIMODAL": "INCONCLUSIVE",
     }
 
-    if s in ALLOWED:
-        return s
-    if s in syn:
-        return syn[s]
-    # try direct mapping if it exactly equals one known chunk
-    for k, v in syn.items():
-        if s == k:
-            return v
+    # Try word-by-word synonym detection
+    for word in re.findall(r"[A-Z]+", up):
+        if word in syn:
+            return syn[word]
+
+    # Last-chance fallback: strip non-letters and compare the whole string.
+    squeezed = re.sub(r"[^A-Za-z]", "", text).upper()
+    if squeezed in allowed_list:
+        return squeezed
+    if squeezed in syn:
+        return syn[squeezed]
     return FALLBACK_LABEL
 
 
@@ -394,10 +405,16 @@ def main() -> None:
         uid = row["uid"]
         stmt = (row.get("TaskText") or "").strip()
 
-        # Load cached votes if present
+        # Load cached votes if present, but backfill/repair if invalid
         if uid in cache:
             votes = cache[uid]
             votes = votes if isinstance(votes, list) else [votes]
+            if not offline and (len(votes) < VOTES_PER_TASK or any(v not in ALLOWED for v in votes)):
+                # Re-run full vote set for this uid to repair bad cache entries
+                seeds = list(range(1, VOTES_PER_TASK + 1))
+                votes = [vote_once(client, stmt, seed) for seed in seeds]
+                cache[uid] = votes
+                time.sleep(random.uniform(SLEEP_MIN, SLEEP_MAX))
         elif offline:
             votes = [OFFLINE_LABEL]
         else:
