@@ -1,1346 +1,282 @@
 {
-  "1729eef9": [
-    "TEXT"
-  ],
-  "c01585a7": [
-    "TEXT"
-  ],
-  "6b960dd9": [
-    "TEXT"
-  ],
-  "41b09313": [
-    "TEXT"
-  ],
-  "d96f096e": [
-    "TEXT"
-  ],
-  "6d889d01": [
-    "TEXT"
-  ],
-  "152285d3": [
-    "TEXT"
-  ],
-  "6c530bb8": [
-    "TEXT"
-  ],
-  "e90b828c": [
-    "TEXT"
-  ],
-  "95803fa0": [
-    "TEXT"
-  ],
-  "b4e7f5b3": [
-    "TEXT"
-  ],
-  "9d10bc5c": [
-    "TEXT"
-  ],
-  "a13a277d": [
-    "TEXT"
-  ],
-  "7bc7c61b": [
-    "TEXT"
-  ],
-  "e7fbc0cf": [
-    "TEXT"
-  ],
-  "1158293c": [
-    "TEXT"
-  ],
-  "072cdaa1": [
-    "TEXT"
-  ],
-  "dfaf1138": [
-    "TEXT"
-  ],
-  "8d39c79d": [
-    "TEXT"
-  ],
-  "f4fc335c": [
-    "TEXT"
-  ],
-  "38862a5e": [
-    "TEXT"
-  ],
-  "2771e4c6": [
-    "TEXT"
-  ],
-  "d0fd19ab": [
-    "TEXT"
-  ],
-  "55aa40e9": [
-    "TEXT"
-  ],
-  "0498d797": [
-    "TEXT"
-  ],
-  "1de68178": [
-    "TEXT"
-  ],
-  "16280d25": [
-    "GUI"
-  ],
-  "c0c5f157": [
-    "TEXT"
-  ],
-  "da3faf43": [
-    "TEXT"
-  ],
-  "313459f3": [
-    "TEXT"
-  ],
-  "b9e5deeb": [
-    "TEXT"
-  ],
-  "45d2c5b6": [
-    "GUI"
-  ],
-  "4e86c624": [
-    "TEXT"
-  ],
-  "53fe2ecd": [
-    "TEXT"
-  ],
-  "ca196a60": [
-    "TEXT"
-  ],
-  "9e2ddd6c": [
-    "TEXT"
-  ],
-  "eda8105d": [
-    "TEXT"
-  ],
-  "4078be7d": [
-    "TEXT"
-  ],
-  "c4be2174": [
-    "TEXT"
-  ],
-  "6f6daa7b": [
-    "TEXT"
-  ],
-  "85c2a01b": [
-    "TEXT"
-  ],
-  "93199d86": [
-    "TEXT"
-  ],
-  "df37e67a": [
-    "TEXT"
-  ],
-  "1442619a": [
-    "TEXT"
-  ],
-  "80a93a6a": [
-    "TEXT"
-  ],
-  "7df8ff7f": [
-    "GUI"
-  ],
-  "39e5cef6": [
-    "TEXT"
-  ],
-  "2ea1b1fa": [
-    "TEXT"
-  ],
-  "42577d9e": [
-    "TEXT"
-  ],
-  "94709863": [
-    "TEXT"
-  ],
-  "08e7f63f": [
-    "TEXT"
-  ],
-  "0cc7a931": [
-    "TEXT"
-  ],
-  "4ee478d8": [
-    "TEXT"
-  ],
-  "deb0b0c6": [
-    "TEXT"
-  ],
-  "21a02a33": [
-    "TEXT"
-  ],
-  "e2c78936": [
-    "TEXT"
-  ],
-  "a55e3e7e": [
-    "TEXT"
-  ],
-  "08b0eb38": [
-    "TEXT"
-  ],
-  "74436bab": [
-    "TEXT"
-  ],
-  "a890ce12": [
-    "TEXT"
-  ],
-  "334d7b35": [
-    "TEXT"
-  ],
-  "c9780647": [
-    "TEXT"
-  ],
-  "8d65c505": [
-    "TEXT"
-  ],
-  "303e310d": [
-    "TEXT"
-  ],
-  "39e855ee": [
-    "TEXT"
-  ],
-  "3b714e84": [
-    "TEXT"
-  ],
-  "d67d1bdd": [
-    "TEXT"
-  ],
-  "7a541347": [
-    "TEXT"
-  ],
-  "7654bb4f": [
-    "TEXT"
-  ],
-  "f28a1ae0": [
-    "TEXT"
-  ],
-  "79f23387": [
-    "TEXT"
-  ],
-  "5d9bc5c9": [
-    "TEXT"
-  ],
-  "e12b7570": [
-    "TEXT"
-  ],
-  "c2cca636": [
-    "TEXT"
-  ],
-  "90b241c9": [
-    "TEXT"
-  ],
-  "6613b595": [
-    "TEXT"
-  ],
-  "9a514654": [
-    "TEXT"
-  ],
-  "fa690e0a": [
-    "TEXT"
-  ],
-  "75cb36d6": [
-    "TEXT"
-  ],
-  "7d49e995": [
-    "TEXT"
-  ],
-  "5fb8de17": [
-    "TEXT"
-  ],
-  "bcc51727": [
-    "TEXT"
-  ],
-  "f247bd86": [
-    "TEXT"
-  ],
-  "c129d21c": [
-    "TEXT"
-  ],
-  "54593a97": [
-    "TEXT"
-  ],
-  "25e3b5c9": [
-    "TEXT"
-  ],
-  "eff214b3": [
-    "TEXT"
-  ],
-  "aaa4eb4e": [
-    "TEXT"
-  ],
-  "9acd01ed": [
-    "TEXT"
-  ],
-  "7311ce10": [
-    "TEXT"
-  ],
-  "adf4016b": [
-    "TEXT"
-  ],
-  "e327b4f8": [
-    "TEXT"
-  ],
-  "1ca126a3": [
-    "TEXT"
-  ],
-  "d0163286": [
-    "TEXT"
-  ],
-  "b4e75e44": [
-    "TEXT"
-  ],
-  "a5797ef7": [
-    "TEXT"
-  ],
-  "2a4e7427": [
-    "TEXT"
-  ],
-  "8d3054f2": [
-    "TEXT"
-  ],
-  "92fb24fd": [
-    "TEXT"
-  ],
-  "5011c4f5": [
-    "TEXT"
-  ],
-  "8d35097c": [
-    "TEXT"
-  ],
-  "05ce0850": [
-    "TEXT"
-  ],
-  "876808c2": [
-    "TEXT"
-  ],
-  "c7c65c51": [
-    "TEXT"
-  ],
-  "922853ea": [
-    "TEXT"
-  ],
-  "bdcb7f4d": [
-    "TEXT"
-  ],
-  "a094da04": [
-    "TEXT"
-  ],
-  "e77a3240": [
-    "TEXT"
-  ],
-  "873ad3d4": [
-    "TEXT"
-  ],
-  "66be5945": [
-    "TEXT"
-  ],
-  "f75691dd": [
-    "TEXT"
-  ],
-  "b3629137": [
-    "TEXT"
-  ],
-  "3bdb2596": [
-    "TEXT"
-  ],
-  "0b7db95e": [
-    "TEXT"
-  ],
-  "d92eeb7d": [
-    "TEXT"
-  ],
-  "55082355": [
-    "TEXT"
-  ],
-  "cec4add6": [
-    "TEXT"
-  ],
-  "06a58d3e": [
-    "TEXT"
-  ],
-  "1a6401bb": [
-    "TEXT"
-  ],
-  "6266fbf7": [
-    "TEXT"
-  ],
-  "72f08487": [
-    "TEXT"
-  ],
-  "0c281303": [
-    "TEXT"
-  ],
-  "674db987": [
-    "TEXT"
-  ],
-  "8054ee5e": [
-    "TEXT"
-  ],
-  "9d9fe38d": [
-    "TEXT"
-  ],
-  "bb61c589": [
-    "TEXT"
-  ],
-  "58c0d9de": [
-    "TEXT"
-  ],
-  "27e13611": [
-    "TEXT"
-  ],
-  "252cb34e": [
-    "GUI"
-  ],
-  "deb9746f": [
-    "TEXT"
-  ],
-  "aa313f4c": [
-    "GUI"
-  ],
-  "fa50e472": [
-    "TEXT"
-  ],
-  "6e15ff4b": [
-    "TEXT"
-  ],
-  "867f29f2": [
-    "TEXT"
-  ],
-  "812e5d2f": [
-    "TEXT"
-  ],
-  "f7d5997e": [
-    "GUI"
-  ],
-  "0684bfd8": [
-    "GUI"
-  ],
-  "7834e884": [
-    "TEXT"
-  ],
-  "223de73d": [
-    "GUI"
-  ],
-  "4bee0401": [
-    "TEXT"
-  ],
-  "56892fa7": [
-    "GUI"
-  ],
-  "7c897bc2": [
-    "GUI"
-  ],
-  "f5a2e3b5": [
-    "GUI"
-  ],
-  "a539e620": [
-    "TEXT"
-  ],
-  "b8edec5f": [
-    "TEXT"
-  ],
-  "32f4aba3": [
-    "TEXT"
-  ],
-  "0aebf2c6": [
-    "TEXT"
-  ],
-  "3a65d1f8": [
-    "TEXT"
-  ],
-  "a3b7db0c": [
-    "TEXT"
-  ],
-  "a2226a69": [
-    "GUI"
-  ],
-  "eeb3e3c8": [
-    "TEXT"
-  ],
-  "719f9e96": [
-    "TEXT"
-  ],
-  "d7cefecd": [
-    "TEXT"
-  ],
-  "5f9e636e": [
-    "GUI"
-  ],
-  "982d11f3": [
-    "TEXT"
-  ],
-  "09b20aa3": [
-    "TEXT"
-  ],
-  "a14a20f7": [
-    "TEXT"
-  ],
-  "f6c06cb5": [
-    "TEXT"
-  ],
-  "046c2b3b": [
-    "TEXT"
-  ],
-  "6b4424e0": [
-    "TEXT"
-  ],
-  "286116ec": [
-    "TEXT"
-  ],
-  "b01b402f": [
-    "TEXT"
-  ],
-  "ed7a8f29": [
-    "TEXT"
-  ],
-  "2acf4363": [
-    "TEXT"
-  ],
-  "4c1fa057": [
-    "GUI"
-  ],
-  "b513487a": [
-    "TEXT"
-  ],
-  "55d1c67a": [
-    "TEXT"
-  ],
-  "0e8dc093": [
-    "TEXT"
-  ],
-  "fcc87825": [
-    "TEXT"
-  ],
-  "1f46e33c": [
-    "TEXT"
-  ],
-  "7984a364": [
-    "TEXT"
-  ],
-  "8fd2eddd": [
-    "TEXT"
-  ],
-  "6d420437": [
-    "TEXT"
-  ],
-  "34a540c6": [
-    "TEXT"
-  ],
-  "600219fd": [
-    "TEXT"
-  ],
-  "8bbde2a9": [
-    "TEXT"
-  ],
-  "e4c02ae4": [
-    "GUI"
-  ],
-  "78815a89": [
-    "TEXT"
-  ],
-  "dc3ccdde": [
-    "TEXT"
-  ],
-  "e5ae749b": [
-    "GUI"
-  ],
-  "3f4066a5": [
-    "TEXT"
-  ],
-  "ab7f99af": [
-    "VISION"
-  ],
-  "cad52dda": [
-    "GUI"
-  ],
-  "4bca2947": [
-    "TEXT"
-  ],
-  "efe227fd": [
-    "TEXT"
-  ],
-  "9cf0f581": [
-    "TEXT"
-  ],
   "07080553": [
+    "TEXT",
+    "TEXT",
     "TEXT"
   ],
   "3a55f5ca": [
+    "TEXT",
+    "TEXT",
     "TEXT"
   ],
   "3db6d320": [
+    "TEXT",
+    "TEXT",
     "TEXT"
   ],
   "dc35566b": [
-    "TEXT"
+    "MANUAL",
+    "MANUAL",
+    "MANUAL"
   ],
   "93eea469": [
-    "TEXT"
+    "MANUAL",
+    "MANUAL",
+    "INCONCLUSIVE"
   ],
   "9cebf902": [
-    "TEXT"
-  ],
-  "046d644e": [
-    "TEXT"
-  ],
-  "36c2a39e": [
-    "TEXT"
-  ],
-  "f0d85928": [
-    "TEXT"
-  ],
-  "bd8da241": [
-    "TEXT"
-  ],
-  "6d703c25": [
-    "TEXT"
-  ],
-  "f710f400": [
-    "TEXT"
-  ],
-  "f3781d64": [
-    "TEXT"
-  ],
-  "5af1f818": [
-    "TEXT"
-  ],
-  "ada0281e": [
-    "TEXT"
-  ],
-  "9f0259f9": [
-    "TEXT"
-  ],
-  "f4fa3500": [
-    "TEXT"
-  ],
-  "68d18454": [
-    "TEXT"
-  ],
-  "030e39f7": [
-    "TEXT"
-  ],
-  "5b688d66": [
-    "TEXT"
-  ],
-  "3955ba08": [
-    "TEXT"
-  ],
-  "ba37536c": [
-    "TEXT"
-  ],
-  "04ba654e": [
-    "GUI"
-  ],
-  "e58e843b": [
-    "TEXT"
-  ],
-  "c9f679f2": [
-    "TEXT"
-  ],
-  "8b11c6d8": [
-    "TEXT"
-  ],
-  "ec99d9bd": [
-    "TEXT"
-  ],
-  "735aae63": [
-    "TEXT"
-  ],
-  "eb11b47d": [
-    "TEXT"
-  ],
-  "a09033f9": [
-    "TEXT"
-  ],
-  "6e3b1119": [
-    "TEXT"
-  ],
-  "b0ebb9ca": [
-    "TEXT"
-  ],
-  "6c80ac7f": [
-    "TEXT"
-  ],
-  "bacdec5f": [
-    "TEXT"
-  ],
-  "d0cabffd": [
-    "GUI"
-  ],
-  "2d801393": [
-    "GUI"
-  ],
-  "b0740f11": [
-    "GUI"
-  ],
-  "6b6f635c": [
-    "GUI"
-  ],
-  "5bffe5cf": [
-    "VISION"
-  ],
-  "52b50026": [
-    "TEXT"
-  ],
-  "0b6bfb24": [
-    "GUI"
-  ],
-  "3801d913": [
-    "TEXT"
-  ],
-  "4e1af0dd": [
-    "GUI"
-  ],
-  "dd20184a": [
-    "GUI"
-  ],
-  "6e1ff3af": [
-    "VISION"
-  ],
-  "f464fb8a": [
-    "VISION"
-  ],
-  "9ee0cacf": [
-    "TEXT"
-  ],
-  "d8bc9f09": [
-    "GUI"
-  ],
-  "51ecd49c": [
-    "TEXT"
-  ],
-  "38a054b3": [
-    "GUI"
-  ],
-  "24783f10": [
-    "TEXT"
-  ],
-  "e91a2ece": [
-    "GUI"
-  ],
-  "10dea912": [
-    "TEXT"
-  ],
-  "a8bb2261": [
-    "TEXT"
-  ],
-  "b0363a45": [
-    "TEXT"
-  ],
-  "e769ff68": [
-    "TEXT"
-  ],
-  "54b3f423": [
-    "TEXT"
-  ],
-  "b1d7d3a5": [
-    "TEXT"
-  ],
-  "63649482": [
-    "TEXT"
-  ],
-  "71e04e69": [
-    "GUI"
-  ],
-  "ff5149c3": [
-    "TEXT"
-  ],
-  "a97f5c31": [
-    "TEXT"
-  ],
-  "951515fd": [
-    "TEXT"
-  ],
-  "83e07453": [
-    "TEXT"
-  ],
-  "61f086a9": [
-    "TEXT"
-  ],
-  "b1cce3ce": [
-    "TEXT"
-  ],
-  "f95e4e7d": [
-    "TEXT"
-  ],
-  "7686b88e": [
-    "TEXT"
-  ],
-  "1fa45416": [
-    "TEXT"
-  ],
-  "69b4d9ad": [
-    "TEXT"
-  ],
-  "9ade538e": [
-    "TEXT"
-  ],
-  "d5be789f": [
-    "VISION"
-  ],
-  "1ff0b602": [
-    "TEXT"
-  ],
-  "cb16a57b": [
-    "VISION"
-  ],
-  "27f99533": [
-    "VISION"
-  ],
-  "e69b6f0b": [
-    "TEXT"
-  ],
-  "b8205580": [
-    "TEXT"
-  ],
-  "0c435917": [
-    "TEXT"
-  ],
-  "b9cd1eba": [
-    "GUI"
-  ],
-  "65ee8435": [
-    "TEXT"
-  ],
-  "57eea67a": [
-    "TEXT"
-  ],
-  "e65e7225": [
-    "TEXT"
-  ],
-  "c0ea2b7b": [
-    "TEXT"
-  ],
-  "3fea7e2e": [
-    "TEXT"
-  ],
-  "9812cc7b": [
-    "TEXT"
-  ],
-  "eb06b6be": [
-    "TEXT"
-  ],
-  "24b79d48": [
-    "TEXT"
-  ],
-  "bda708ab": [
-    "TEXT"
-  ],
-  "e8889577": [
-    "TEXT"
-  ],
-  "c1881c7d": [
-    "TEXT"
-  ],
-  "3dec57b4": [
-    "TEXT"
-  ],
-  "378e7e28": [
-    "TEXT"
-  ],
-  "f50ee907": [
-    "TEXT"
-  ],
-  "a16914b5": [
-    "TEXT"
-  ],
-  "726831a4": [
-    "TEXT"
-  ],
-  "5cf2200e": [
-    "TEXT"
-  ],
-  "265125dd": [
-    "TEXT"
-  ],
-  "6f78ac00": [
-    "TEXT"
-  ],
-  "516015ec": [
-    "TEXT"
-  ],
-  "43ea4ab3": [
-    "TEXT"
-  ],
-  "309e3fb2": [
-    "TEXT"
-  ],
-  "b975e909": [
-    "TEXT"
-  ],
-  "4e59c5d7": [
-    "TEXT"
-  ],
-  "f19ec3c5": [
-    "TEXT"
-  ],
-  "952219d3": [
-    "VISION"
-  ],
-  "f4f004d2": [
-    "TEXT"
-  ],
-  "ddc4997f": [
-    "TEXT"
-  ],
-  "f194e8b2": [
-    "TEXT"
-  ],
-  "63722928": [
-    "VISION"
-  ],
-  "f02126ff": [
-    "VISION"
-  ],
-  "270f757f": [
-    "TEXT"
-  ],
-  "10106e6e": [
-    "VISION"
-  ],
-  "d98e9c4f": [
-    "TEXT"
-  ],
-  "4ce82e37": [
-    "TEXT"
-  ],
-  "14ab5c07": [
-    "TEXT"
-  ],
-  "9798fb75": [
-    "TEXT"
-  ],
-  "7fe669aa": [
-    "TEXT"
-  ],
-  "cd04f5bd": [
-    "TEXT"
-  ],
-  "1f00ee8c": [
-    "TEXT"
-  ],
-  "1229dea5": [
-    "TEXT"
-  ],
-  "1a4b3bb4": [
-    "TEXT"
-  ],
-  "168d4977": [
-    "VISION"
-  ],
-  "1b0a1ee3": [
-    "TEXT"
-  ],
-  "ab2f173c": [
-    "TEXT"
-  ],
-  "5d9374ca": [
-    "TEXT"
-  ],
-  "7e4a7ebd": [
-    "TEXT"
-  ],
-  "e0d67d81": [
-    "TEXT"
-  ],
-  "083645aa": [
-    "TEXT"
-  ],
-  "b625e776": [
-    "TEXT"
-  ],
-  "18ce05a4": [
-    "TEXT"
-  ],
-  "b06c1d3c": [
-    "TEXT"
-  ],
-  "77ef8116": [
-    "GUI"
-  ],
-  "9482de23": [
-    "TEXT"
-  ],
-  "df89407a": [
-    "TEXT"
-  ],
-  "438ca6fb": [
-    "TEXT"
-  ],
-  "2245efb2": [
-    "TEXT"
-  ],
-  "6a81efb3": [
-    "TEXT"
-  ],
-  "b86036c9": [
-    "TEXT"
-  ],
-  "5a2c63b4": [
-    "TEXT"
-  ],
-  "d639e7b8": [
-    "TEXT"
-  ],
-  "12bf6186": [
-    "TEXT"
-  ],
-  "1a427049": [
-    "TEXT"
-  ],
-  "04155356": [
-    "TEXT"
-  ],
-  "ee72085e": [
-    "TEXT"
-  ],
-  "ab0f1892": [
-    "TEXT"
-  ],
-  "2bd5e09f": [
-    "TEXT"
-  ],
-  "ec0d2eb8": [
-    "GUI"
-  ],
-  "8267a3d0": [
-    "TEXT"
-  ],
-  "a79efa23": [
-    "TEXT"
-  ],
-  "74178ae3": [
-    "TEXT"
-  ],
-  "0ab09e58": [
-    "TEXT"
-  ],
-  "25c9f684": [
-    "TEXT"
-  ],
-  "cc85a383": [
-    "TEXT"
-  ],
-  "87f827ff": [
-    "TEXT"
-  ],
-  "b4ec494d": [
-    "TEXT"
-  ],
-  "346db8ee": [
-    "GUI"
-  ],
-  "05e436b0": [
-    "TEXT"
-  ],
-  "9d7caaed": [
-    "TEXT"
-  ],
-  "eba53b85": [
-    "TEXT"
-  ],
-  "2dc9f0ca": [
-    "TEXT"
-  ],
-  "06abc598": [
-    "TEXT"
-  ],
-  "4ded00de": [
-    "TEXT"
-  ],
-  "334f36ba": [
-    "GUI"
-  ],
-  "c18fe674": [
-    "TEXT"
-  ],
-  "424be9cc": [
-    "TEXT"
-  ],
-  "929858c0": [
-    "TEXT"
-  ],
-  "6ecf1d6b": [
-    "TEXT"
-  ],
-  "a5bddfa4": [
-    "TEXT"
-  ],
-  "cb92e814": [
-    "TEXT"
-  ],
-  "96b9b74b": [
-    "TEXT"
-  ],
-  "b6191f4e": [
-    "TEXT"
-  ],
-  "5efbb91c": [
-    "TEXT"
-  ],
-  "550aba6b": [
-    "TEXT"
-  ],
-  "5b77944d": [
-    "TEXT"
-  ],
-  "041ae3e0": [
-    "TEXT"
-  ],
-  "1827f65f": [
-    "TEXT"
-  ],
-  "6732ad82": [
-    "TEXT"
-  ],
-  "52bf76d1": [
-    "TEXT"
-  ],
-  "720f4a39": [
-    "TEXT"
-  ],
-  "39ecd6f2": [
-    "TEXT"
-  ],
-  "dd609897": [
-    "TEXT"
-  ],
-  "25fc7a2c": [
-    "TEXT"
-  ],
-  "461b20cf": [
-    "TEXT"
-  ],
-  "820c8e71": [
-    "TEXT"
-  ],
-  "b9dea257": [
-    "TEXT"
-  ],
-  "36577288": [
-    "TEXT"
-  ],
-  "fa8b3a97": [
-    "TEXT"
-  ],
-  "a8cb8567": [
-    "TEXT"
-  ],
-  "6cea797f": [
-    "TEXT"
-  ],
-  "4f617630": [
-    "TEXT"
-  ],
-  "d5868d06": [
-    "TEXT"
-  ],
-  "952aab9f": [
-    "TEXT"
-  ],
-  "8f9845de": [
+    "TEXT",
+    "TEXT",
     "TEXT"
   ],
   "2e2364b7": [
-    "TEXT"
+    "MANUAL",
+    "MANUAL",
+    "MANUAL"
   ],
   "db852c6e": [
-    "TEXT"
+    "MANUAL",
+    "MANUAL",
+    "MANUAL"
   ],
   "d0cae549": [
+    "TEXT",
+    "TEXT",
     "TEXT"
   ],
   "8b2ab848": [
+    "TEXT",
+    "TEXT",
     "TEXT"
   ],
   "7dda7be5": [
-    "TEXT"
+    "INCONCLUSIVE",
+    "INCONCLUSIVE",
+    "INCONCLUSIVE"
   ],
   "3dfcc5c3": [
+    "MANUAL",
+    "MANUAL",
+    "MANUAL"
+  ],
+  "a79efa23": [
+    "TEXT",
+    "TEXT",
     "TEXT"
   ],
-  "6913cb66": [
+  "74178ae3": [
+    "TEXT",
+    "TEXT",
     "TEXT"
   ],
-  "68b80712": [
+  "0ab09e58": [
+    "TEXT",
+    "TEXT",
     "TEXT"
   ],
-  "e393e0ce": [
+  "25c9f684": [
+    "TEXT",
+    "TEXT",
     "TEXT"
   ],
-  "1c08d86b": [
-    "VISION"
+  "cc85a383": [
+    "TEXT",
+    "GUI",
+    "GUI"
   ],
-  "098a54b9": [
-    "TEXT"
+  "87f827ff": [
+    "GUI",
+    "GUI",
+    "GUI"
   ],
-  "bb95cdcd": [
-    "TEXT"
-  ],
-  "45e964e9": [
-    "TEXT"
-  ],
-  "93c5b0c2": [
-    "TEXT"
-  ],
-  "4b169b14": [
-    "TEXT"
-  ],
-  "9540bb89": [
-    "TEXT"
-  ],
-  "2ab8fded": [
-    "TEXT"
-  ],
-  "25ba9a18": [
-    "TEXT"
-  ],
-  "caba6cca": [
-    "TEXT"
-  ],
-  "978d8867": [
-    "TEXT"
-  ],
-  "e239bb78": [
-    "TEXT"
-  ],
-  "153fb1a6": [
-    "TEXT"
-  ],
-  "80e5a95c": [
-    "TEXT"
-  ],
-  "54ce1651": [
-    "VISION"
-  ],
-  "605883ed": [
+  "b4ec494d": [
+    "TEXT",
+    "TEXT",
     "TEXT"
   ],
   "817eee84": [
-    "TEXT"
+    "MANUAL",
+    "MANUAL",
+    "MANUAL"
   ],
   "38c421e6": [
+    "TEXT",
+    "TEXT",
     "TEXT"
   ],
   "b17e8429": [
+    "TEXT",
+    "TEXT",
     "TEXT"
   ],
   "fd4e0eb8": [
+    "TEXT",
+    "TEXT",
     "TEXT"
   ],
   "d8079cd9": [
+    "TEXT",
+    "TEXT",
     "TEXT"
   ],
   "d6909729": [
-    "TEXT"
-  ],
-  "7c88ec49": [
-    "TEXT"
-  ],
-  "81518be7": [
-    "TEXT"
-  ],
-  "1e4e20c3": [
-    "TEXT"
-  ],
-  "c675c81c": [
-    "TEXT"
-  ],
-  "dc1c3566": [
-    "TEXT"
-  ],
-  "cfd68d89": [
-    "TEXT"
-  ],
-  "10c30b76": [
+    "TEXT",
+    "TEXT",
     "TEXT"
   ],
   "d90fb1a3": [
-    "TEXT"
+    "MANUAL",
+    "MANUAL",
+    "MANUAL"
   ],
   "b86b2c57": [
-    "TEXT"
+    "GUI",
+    "GUI",
+    "GUI"
   ],
   "d49b96ee": [
-    "TEXT"
+    "MANUAL",
+    "MANUAL",
+    "MANUAL"
   ],
   "e034e309": [
+    "TEXT",
+    "TEXT",
     "TEXT"
   ],
   "d96c08be": [
-    "TEXT"
+    "VISION",
+    "VISION",
+    "VISION"
   ],
   "8fb2959b": [
+    "TEXT",
+    "TEXT",
     "TEXT"
   ],
   "b2874e0c": [
+    "TEXT",
+    "TEXT",
     "TEXT"
   ],
   "6d699b9d": [
+    "VISION",
+    "VISION",
     "VISION"
   ],
   "ba045e2b": [
-    "TEXT"
+    "MANUAL",
+    "MANUAL",
+    "MANUAL"
   ],
   "a6a2b15e": [
+    "TEXT",
+    "TEXT",
     "TEXT"
   ],
   "9bda3faa": [
-    "TEXT"
+    "MANUAL",
+    "MANUAL",
+    "MANUAL"
   ],
   "47f45cd7": [
+    "TEXT",
+    "TEXT",
     "TEXT"
   ],
   "9662f06a": [
-    "VISION"
+    "MANUAL",
+    "MANUAL",
+    "MANUAL"
   ],
   "75df5d34": [
-    "TEXT"
+    "MANUAL",
+    "MANUAL",
+    "MANUAL"
   ],
   "806e0bb9": [
-    "TEXT"
+    "MANUAL",
+    "MANUAL",
+    "MANUAL"
   ],
   "4f9791e2": [
-    "VISION"
+    "MANUAL",
+    "MANUAL",
+    "MANUAL"
   ],
   "a0c78ae7": [
-    "TEXT"
+    "MANUAL",
+    "MANUAL",
+    "MANUAL"
   ],
   "34da2e4f": [
-    "TEXT"
+    "VISION",
+    "VISION",
+    "VISION"
   ],
   "4f411e8b": [
+    "TEXT",
+    "TEXT",
     "TEXT"
   ],
   "ceec44e1": [
+    "VISION",
+    "VISION",
     "VISION"
   ],
   "460868ef": [
-    "TEXT"
+    "MANUAL",
+    "MANUAL",
+    "MANUAL"
   ],
   "d545b3a5": [
-    "TEXT"
+    "MANUAL",
+    "MANUAL",
+    "MANUAL"
   ],
   "f4dad9df": [
+    "TEXT",
+    "TEXT",
     "TEXT"
   ],
   "bac6ecd0": [
+    "VISION",
+    "VISION",
     "VISION"
   ],
   "1e9472fc": [
+    "TEXT",
+    "TEXT",
     "TEXT"
   ],
   "8207157a": [
-    "TEXT"
+    "MANUAL",
+    "MANUAL",
+    "MANUAL"
   ],
   "a047bff5": [
+    "TEXT",
+    "TEXT",
     "TEXT"
   ],
   "e3593984": [
-    "TEXT"
+    "VISION",
+    "VISION",
+    "VISION"
   ],
   "0267f7a1": [
-    "TEXT"
+    "MANUAL",
+    "MANUAL",
+    "MANUAL"
   ],
   "afbe4e05": [
+    "TEXT",
+    "TEXT",
     "TEXT"
   ],
   "0bbde4c5": [
-    "TEXT"
+    "MANUAL",
+    "MANUAL",
+    "MANUAL"
   ]
 }
