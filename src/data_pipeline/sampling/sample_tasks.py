@@ -267,9 +267,12 @@ def main() -> None:
     )
 
     # 2) Importance rows (Scale ID = IM)
+    # Include month if available for provenance
     keep_cols = ["O*NET-SOC Code", "Task ID", "Data Value"]
     if "N" in tr.columns:
         keep_cols.append("N")
+    if "Date" in tr.columns:
+        keep_cols.append("Date")
     imp = (
         tr[tr["Scale ID"] == "IM"][keep_cols]
         .rename(
@@ -278,6 +281,7 @@ def main() -> None:
                 "Task ID": "TaskID",
                 "Data Value": "Importance",
                 "N": "ImportanceN",
+                "Date": "ratings_month",
             }
         )
     )
@@ -305,9 +309,27 @@ def main() -> None:
     df = df.merge(imp, on=["SOC", "TaskID"], how="left")
     df = df.merge(occ, on="SOC", how="left")
 
-    # 4) Clean titles and deterministic uid
+    # 4) Clean titles and deterministic uid (longer for fewer collisions)
     df["OccTitleClean"] = df["OccTitleRaw"].apply(clean_title)
-    df["uid"] = df.apply(lambda r: hashlib.md5(f"{r['SOC']}-{r['TaskID']}".encode()).hexdigest()[:8], axis=1)
+    df["uid"] = df.apply(lambda r: hashlib.md5(f"{r['SOC']}-{r['TaskID']}".encode()).hexdigest()[:12], axis=1)
+
+    # Rename respondent counts to explicit name
+    if "ImportanceN" in df.columns:
+        df = df.rename(columns={"ImportanceN": "importance_n_respondents"})
+
+    # Normalize ratings_month (MM/YYYY -> YYYY-MM)
+    if "ratings_month" in df.columns:
+        def _to_iso_month(val: str) -> str:
+            if not isinstance(val, str):
+                return ""
+            m = re.match(r"^(\d{1,2})\/(\d{4})$", val.strip())
+            if m:
+                mm, yyyy = m.group(1), m.group(2)
+                return f"{yyyy}-{int(mm):02d}"
+            # pass through if already ISO-like
+            m2 = re.match(r"^(\d{4})-(\d{2})(?:-(\d{2}))?$", val.strip())
+            return val.strip() if m2 else ""
+        df["ratings_month"] = df["ratings_month"].apply(_to_iso_month)
 
     # 5) Select ALL tasks for specified SOCs
     comprehensive_tasks = df[df["SOC"].isin(PILOT_SOCs)].reset_index(drop=True)
@@ -326,6 +348,11 @@ def main() -> None:
     cache = load_cache(CACHE_JSON)
     client: Optional[openai.OpenAI] = openai.OpenAI(api_key=os.getenv("OPENAI_API_KEY")) if not offline else None
 
+    # Salt cache by model and prompt to avoid stale reuse across versions
+    PROMPT_SALT = hashlib.md5(SYSTEM_PROMPT.encode()).hexdigest()[:8]
+    def cache_key_for(uid: str) -> str:
+        return f"{uid}:{MODEL_NAME}:{PROMPT_SALT}"
+
     print(f"🔄  Classifying modality for {len(comprehensive_tasks)} tasks...")
     vote_cols = [f"vote{i+1}" for i in range(VOTES_PER_TASK)]
     all_votes: List[List[str]] = []
@@ -335,16 +362,18 @@ def main() -> None:
         uid = row["uid"]
         stmt = (row.get("TaskText") or "").strip()
 
-        # Load cached votes if present
-        if uid in cache:
-            votes = cache[uid]
+        key = cache_key_for(uid)
+
+        # Load cached votes if present (salted)
+        if key in cache:
+            votes = cache[key]
             votes = votes if isinstance(votes, list) else [votes]
         elif offline:
-            votes = [OFFLINE_LABEL]
+            votes = [OFFLINE_LABEL] * VOTES_PER_TASK
         else:
             seeds = list(range(1, VOTES_PER_TASK + 1))
             votes = [vote_once(client, stmt, seed) for seed in seeds]
-            cache[uid] = votes
+            cache[key] = votes
             # Gentle pacing
             time.sleep(random.uniform(SLEEP_MIN, SLEEP_MAX))
 
@@ -374,8 +403,12 @@ def main() -> None:
         out[col] = [vs[i] if len(vs) > i else None for vs in all_votes]
 
     out["modality"] = final_labels
-    out["modality_agreement"] = out[vote_cols].apply(lambda r: Counter([x for x in r if x]).most_common(1)[0][1], axis=1)
-    out["modality_disagreement"] = ~out["modality"].isin({"TEXT", "GUI", "VISION"})
+    out["modality_agreement"] = out[vote_cols].apply(
+        lambda r: Counter([x for x in r if x]).most_common(1)[0][1], axis=1
+    )
+    # Disagreement means votes not unanimous
+    out["modality_disagreement"] = out["modality_agreement"] < VOTES_PER_TASK
+    out["modality_confidence"] = out["modality_agreement"] / VOTES_PER_TASK
 
     # Derived flags
     out["digital_amenable"] = out["modality"].isin({"TEXT", "GUI", "VISION"})
@@ -390,10 +423,46 @@ def main() -> None:
             "UNLABELED": "Offline mode; not labeled.",
         }
     )
+    # Standardized amenability code enum for analysis
+    code_map = {
+        "TEXT": "LANGUAGE_ONLY",
+        "GUI": "GUI_SOFTWARE",
+        "VISION": "VISUAL_PERCEPTION",
+        "MANUAL": "PHYSICAL_MANUAL",
+        "INCONCLUSIVE": "AMBIGUOUS",
+        "REVIEW": "REVIEW",
+        "UNLABELED": "UNLABELED",
+    }
+    out["amenability_code"] = out["modality"].map(code_map)
+
+    # Make stubs explicit
+    out["needs_stub"] = out["modality"].isin({"MANUAL", "INCONCLUSIVE", "REVIEW", "UNLABELED"})
+    out["stub_type"] = out["modality"].map({
+        "MANUAL": "MANUAL",
+        "INCONCLUSIVE": "AMBIGUOUS",
+        "REVIEW": "REVIEW",
+        "UNLABELED": "UNLABELED",
+    }).fillna("NONE")
+
+    # Normalize importance per SOC (weight for aggregation)
+    if "Importance" in out.columns:
+        out["Importance"] = out["Importance"].fillna(0)
+        _soc_sum = out.groupby("SOC")["Importance"].transform("sum")
+        out["importance_weight_norm"] = out["Importance"] / _soc_sum
+        out.loc[_soc_sum == 0, "importance_weight_norm"] = 0
     out["needs_stub"] = out["modality"].isin({"MANUAL", "INCONCLUSIVE", "REVIEW", "UNLABELED"})
 
     # Provenance
-    out["onetsrc_version"] = os.getenv("ONET_VERSION", "unknown")
+    # O*NET source version from env or file (prefer explicit value)
+    onet_version = os.getenv("ONET_VERSION")
+    if not onet_version:
+        version_file = Path("data/ONET_VERSION.txt")
+        if version_file.exists():
+            try:
+                onet_version = version_file.read_text(encoding="utf-8").strip()
+            except Exception:
+                onet_version = None
+    out["onetsrc_version"] = onet_version or "unspecified"
     out["model_name"] = MODEL_NAME
     out["votes_per_task"] = VOTES_PER_TASK
     out["vote_seeds"] = ",".join(map(str, range(1, VOTES_PER_TASK + 1)))
@@ -412,7 +481,26 @@ def main() -> None:
         soc_count = (out["SOC"] == soc).sum()
         occ_title = out.loc[out["SOC"] == soc, "OccTitleClean"].iloc[0] if soc_count > 0 else "Unknown"
         print(f"   {soc}: {soc_count:3d} tasks ({occ_title})")
-    print("ℹ️  Flags: digital_amenable, needs_stub, modality_disagreement included.")
+    # Per-SOC digital share and importance mass
+    try:
+        digital_share = (
+            out.groupby("SOC")["digital_amenable"].mean().to_dict()
+        )
+        if "importance_weight_norm" in out.columns:
+            imp_mass_digital = (
+                out.assign(_dig=out["digital_amenable"].astype(bool))
+                  .groupby("SOC")
+                  .apply(lambda g: float(g.loc[g._dig, "importance_weight_norm"].sum()))
+                  .to_dict()
+            )
+        else:
+            imp_mass_digital = {}
+        print("ℹ️  Digital share by SOC:", digital_share)
+        if imp_mass_digital:
+            print("ℹ️  Importance mass in digital tasks by SOC:", imp_mass_digital)
+    except Exception:
+        pass
+    print("ℹ️  Flags/metrics: digital_amenable, amenability_code, needs_stub, stub_type, modality_agreement/confidence/disagreement.")
 
 
 if __name__ == "__main__":
