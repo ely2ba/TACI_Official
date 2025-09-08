@@ -80,9 +80,9 @@
     "TEXT"
   ],
   "cc85a383d126:gpt-4.1-mini-2025-04-14:cdfc2b20": [
-    "GUI",
-    "GUI",
-    "GUI"
+    "TEXT",
+    "TEXT",
+    "TEXT"
   ],
   "87f827ff1b9c:gpt-4.1-mini-2025-04-14:cdfc2b20": [
     "GUI",
@@ -182,7 +182,7 @@
   "47f45cd74b61:gpt-4.1-mini-2025-04-14:cdfc2b20": [
     "TEXT",
     "TEXT",
-    "TEXT"
+    "GUI"
   ],
   "9662f06a391f:gpt-4.1-mini-2025-04-14:cdfc2b20": [
     "MANUAL",

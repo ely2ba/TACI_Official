@@ -1,3 +1,4 @@
+# sampling/sample_tasks.py
 from __future__ import annotations
 
 import hashlib
@@ -18,7 +19,7 @@ from pandas.api.types import CategoricalDtype
 from tenacity import retry, wait_random_exponential, stop_after_attempt
 from tqdm import tqdm
 
-# Optional import; we'll handle offline if unavailable or no key
+# Optional import; handle offline if unavailable or no key
 try:
     import openai           # pip install openai
 except Exception:
@@ -28,7 +29,7 @@ except Exception:
 RAW = Path("data/onet_raw")
 OUT = Path("data/manifests")
 OUT.mkdir(parents=True, exist_ok=True)
-CACHE_JSON = OUT / "modality_cache_comprehensive.json"  # stores votes per (uid:model:prompt)
+CACHE_JSON = OUT / "modality_cache_comprehensive.json"  # votes per (uid:model:prompt)
 
 # ── Config ────────────────────────────────────────────────────────────
 DEFAULT_MODEL_NAME = "gpt-4.1-mini-2025-04-14"
@@ -72,7 +73,7 @@ Tie-breakers:
 Answer with only one of: TEXT, GUI, VISION, MANUAL, INCONCLUSIVE.
 """
 
-# ── Helpers: robust file loading ──────────────────────────────────────
+# ── Robust file loading ───────────────────────────────────────────────
 def _candidate_names(base: str) -> List[str]:
     """Build a deterministic, de-duplicated list of filename candidates.
     Tries space/underscore variants and .txt/.xlsx swaps.
@@ -87,6 +88,7 @@ def _candidate_names(base: str) -> List[str]:
             out.add(b[:-5] + ".txt")
         out.add(b.replace("_", " "))
         out.add(b.replace(" ", "_"))
+    # Prefer shorter, exact names first; then alphabetical
     return sorted(out, key=lambda x: (len(x), x))
 
 def read_onet_table(candidates: List[str]) -> Optional[pd.DataFrame]:
@@ -104,7 +106,7 @@ def read_onet_table(candidates: List[str]) -> Optional[pd.DataFrame]:
                 continue
     return None
 
-# ── NLP title cleaning (lightweight) ──────────────────────────────────
+# ── Title cleaning ────────────────────────────────────────────────────
 try:
     nlp = spacy.load("en_core_web_sm")
 except Exception:
@@ -191,42 +193,57 @@ def vote_once(client, statement: str, seed: int) -> str:
 
 # ── Main ──────────────────────────────────────────────────────────────
 def main() -> None:
-    # 1) Load core O*NET files (space names; fallback variants handled)
+    # 1) Load core O*NET files
     ts = read_onet_table(["Task Statements.txt", "Task_Statements.txt"])
     tr = read_onet_table(["Task Ratings.txt", "Task_Ratings.txt"])
     occ = read_onet_table(["Occupation Data.txt", "Occupation_Data.txt"])
     if ts is None or tr is None or occ is None:
         raise SystemExit("Missing core O*NET files in data/onet_raw (Task Statements / Task Ratings / Occupation Data).")
 
+    # Occupation titles
     occ = occ.rename(columns={"O*NET-SOC Code": "SOC", "Title": "OccTitleRaw"})
-    df = ts.rename(columns={"O*NET-SOC Code": "SOC", "Task ID": "TaskID"})
-    # Task text
-    if "Task" in df.columns:
-        df = df.rename(columns={"Task": "TaskText"})
-    elif "Task Statement" in df.columns:
-        df = df.rename(columns={"Task Statement": "TaskText"})
-    elif "Description" in df.columns:
-        df = df.rename(columns={"Description": "TaskText"})
+
+    # Task statements + provenance
+    df = ts.rename(columns={
+        "O*NET-SOC Code": "SOC",
+        "Task ID": "TaskID",
+        "Task": "TaskText",
+        "Task Statement": "TaskText",
+        "Description": "TaskText",
+        "Task Type": "TaskType",
+        "Category": "TaskType",
+        "Incumbents Responding": "task_incumbents_responding",
+        "Date": "task_date_raw",
+        "Domain Source": "task_domain_source",
+        "Title": "task_occ_title_ts",
+    })
+
+    # Normalize task_date to YYYY-MM
+    if "task_date_raw" in df.columns:
+        dt1 = pd.to_datetime(df["task_date_raw"], format="%m/%Y", errors="coerce")
+        dt2 = pd.to_datetime(df["task_date_raw"], errors="coerce")
+        df["task_date"] = dt1.fillna(dt2).dt.to_period("M").dt.to_timestamp().dt.strftime("%Y-%m")
     else:
+        df["task_date"] = None
+
+    # Ensure required task fields exist
+    if "TaskText" not in df.columns:
         raise SystemExit("Could not find a task text column in Task Statements.")
-    # Task type if present
-    if "Task Type" in df.columns:
-        df = df.rename(columns={"Task Type": "TaskType"})
-    elif "Category" in df.columns:
-        df = df.rename(columns={"Category": "TaskType"})
-    else:
+
+    if "TaskType" not in df.columns:
         df["TaskType"] = None
 
-    # 2) Task Ratings: Importance (IM) and Relevance (RL)
-    # Inspect scales and optionally map RT->RL behind a flag
+    # 2) Task Ratings: keep IM (Importance) and RL (Relevance) only
     scales_present = sorted(tr.get("Scale ID", pd.Series(dtype=str)).dropna().astype(str).unique().tolist())
     print(f"ℹ️  Task Ratings scales present: {scales_present}")
-    use_rt = os.getenv("USE_RT_AS_RELEVANCE", "0") not in {"0", "", "false", "False"}
-    if ("RL" not in scales_present) and ("RT" in scales_present) and use_rt:
+
+    # Always map RT->RL if RL is missing (O*NET 30.0 sometimes uses RT)
+    if ("RL" not in scales_present) and ("RT" in scales_present):
         tr = tr.copy()
         tr["Scale ID"] = tr["Scale ID"].replace({"RT": "RL"})
-        print("⚠️  Mapping RT → RL (Relevance) because RL missing and USE_RT_AS_RELEVANCE=1.")
-    keep_cols = ["O*NET-SOC Code", "Task ID", "Data Value", "Scale ID", "N", "Date", "Domain Source"]
+        print("⚠️  Mapping RT → RL (Relevance) because RL is missing in this dataset.")
+
+    keep_cols = ["O*NET-SOC Code", "Task ID", "Scale ID", "Data Value", "N", "Date", "Domain Source"]
     tr_sub = tr[tr["Scale ID"].isin(["IM", "RL"])][keep_cols].copy()
     tr_sub = tr_sub.rename(columns={
         "O*NET-SOC Code": "SOC",
@@ -236,28 +253,36 @@ def main() -> None:
         "Date": "ratings_month",
         "Domain Source": "DomainSource",
     })
-    # Parse month and set source preference: Incumbent > Analyst > Other
-    # Parse month with explicit format first, then fall back to general parser
+    # Parse month; prefer %m/%Y but fall back generously
     _dt1 = pd.to_datetime(tr_sub["ratings_month"], format="%m/%Y", errors="coerce")
     _dt2 = pd.to_datetime(tr_sub["ratings_month"], errors="coerce")
     tr_sub["ratings_month_dt"] = _dt1.fillna(_dt2).dt.to_period("M").dt.to_timestamp()
+
+    # Source preference: Incumbent > Analyst > Other
     src_cat = CategoricalDtype(categories=["Incumbent", "Analyst", "Other"], ordered=True)
     tr_sub["DomainSource"] = tr_sub["DomainSource"].astype(str).str.title()
-    tr_sub["DomainSourceCat"] = tr_sub["DomainSource"].where(tr_sub["DomainSource"].isin(src_cat.categories), "Other").astype(src_cat)
-    # Pick best row per (SOC, TaskID, Scale ID): latest month, then Incumbent>Analyst>Other, then higher N
+    tr_sub["DomainSourceCat"] = tr_sub["DomainSource"].where(
+        tr_sub["DomainSource"].isin(src_cat.categories), "Other"
+    ).astype(src_cat)
+
+    # Pick best row per (SOC, TaskID, Scale): latest month, then source pref, then higher N
     tr_best = (
-        tr_sub.sort_values([
-            "SOC", "TaskID", "Scale ID", "ratings_month_dt", "DomainSourceCat", "N_resp"
-        ], ascending=[True, True, True, False, True, False])
-             .drop_duplicates(["SOC", "TaskID", "Scale ID"], keep="first")
+        tr_sub.sort_values(
+            ["SOC", "TaskID", "Scale ID", "ratings_month_dt", "DomainSourceCat", "N_resp"],
+            ascending=[True, True, True, False, True, False]
+        )
+        .drop_duplicates(["SOC", "TaskID", "Scale ID"], keep="first")
     )
-    # Pivot IM/RL including month and source
+
+    # Pivot to IM/RL, keeping month & source provenance
     piv = (
         tr_best.assign(ratings_month_iso=tr_best["ratings_month_dt"].dt.strftime("%Y-%m"))
-               .pivot_table(index=["SOC", "TaskID"],
-                            columns="Scale ID",
-                            values=["DataValue", "N_resp", "ratings_month_iso", "DomainSource"],
-                            aggfunc="first")
+        .pivot_table(
+            index=["SOC", "TaskID"],
+            columns="Scale ID",
+            values=["DataValue", "N_resp", "ratings_month_iso", "DomainSource"],
+            aggfunc="first",
+        )
     )
     piv.columns = [f"{a}_{b}" for a, b in piv.columns]
     piv = piv.reset_index().rename(columns={
@@ -270,25 +295,30 @@ def main() -> None:
         "ratings_month_iso_RL": "ratings_month_rl",
         "DomainSource_RL": "ratings_source_rl",
     })
-    # Ensure expected columns exist even if a scale is missing in this dataset
+    # Coerce numeric where applicable
+    for c in ["Importance","Relevance","importance_n_respondents","relevance_n_respondents"]:
+        if c in piv.columns:
+            piv[c] = pd.to_numeric(piv[c], errors="coerce")
+
+    # Ensure expected columns exist
     for col in [
-        "Importance", "importance_n_respondents", "ratings_month_im", "ratings_source_im",
-        "Relevance", "relevance_n_respondents", "ratings_month_rl", "ratings_source_rl",
+        "Importance","importance_n_respondents","ratings_month_im","ratings_source_im",
+        "Relevance","relevance_n_respondents","ratings_month_rl","ratings_source_rl",
     ]:
         if col not in piv.columns:
             piv[col] = None
-    df = df.merge(piv, on=["SOC", "TaskID"], how="left").merge(occ, on="SOC", how="left")
+
+    # Merge statements + ratings + occupation titles
+    df = df.merge(piv, on=["SOC","TaskID"], how="left").merge(occ, on="SOC", how="left")
 
     # Clean titles and deterministic uid (12 hex)
     df["OccTitleClean"] = df["OccTitleRaw"].apply(clean_title)
     df["uid"] = df.apply(lambda r: hashlib.md5(f"{r['SOC']}-{r['TaskID']}".encode()).hexdigest()[:12], axis=1)
 
-    # Note: IM/RL months/sources are now in ratings_month_im/ratings_source_im and ratings_month_rl/ratings_source_rl
-
-    # Relevance retention rule flag (29.0+): ≥ 25
+    # Relevance retention (29.0+): ≥25 means task is “relevant” under O*NET rule
     df["retained_by_relevance_rule"] = (df["Relevance"] >= 25).where(df["Relevance"].notna(), None)
 
-    # 3) Select ALL tasks for specified SOCs
+    # 3) Select ALL tasks for pilot SOCs
     comprehensive_tasks = df[df["SOC"].isin(PILOT_SOCs)].reset_index(drop=True)
     if comprehensive_tasks.empty:
         raise SystemExit("No tasks found for specified occupations — check O*NET files and SOC codes.")
@@ -298,7 +328,7 @@ def main() -> None:
         t = sub["OccTitleClean"].iloc[0] if len(sub) else "Unknown"
         print(f"   {soc}: {len(sub)} tasks ({t})")
 
-    # 4) Enrich: DWA linkages
+    # 4) DWA linkages
     t2d = read_onet_table(["Tasks to DWAs.txt", "Task to DWA.txt", "Task_to_DWA.txt"])
     dwa_ref = read_onet_table(["DWA Reference.txt", "Detailed Work Activities.txt", "Detailed_Work_Activities.txt"])
     if t2d is not None:
@@ -313,9 +343,9 @@ def main() -> None:
             t2d = t2d.merge(dwa_ref[["DWA_ID","DWA_Title"]].drop_duplicates(), on="DWA_ID", how="left")
         key = ["SOC","TaskID"] if "SOC" in t2d.columns else ["TaskID"]
         g = (t2d.groupby(key, dropna=False)
-                .agg(dwa_ids=("DWA_ID", lambda x: ";".join(sorted({str(i) for i in x if pd.notna(i)}))),
-                     dwa_titles=("DWA_Title", lambda x: ";".join(sorted({str(i) for i in x if pd.notna(i)}))))
-                .reset_index())
+              .agg(dwa_ids=("DWA_ID", lambda x: ";".join(sorted({str(i) for i in x if pd.notna(i)}))),
+                   dwa_titles=("DWA_Title", lambda x: ";".join(sorted({str(i) for i in x if pd.notna(i)}))))
+              .reset_index())
         g["dwa_count"] = g["dwa_ids"].apply(lambda s: 0 if not isinstance(s,str) or s=="" else len(s.split(";")))
         comprehensive_tasks = comprehensive_tasks.merge(g, on=key, how="left")
     else:
@@ -323,7 +353,7 @@ def main() -> None:
         comprehensive_tasks["dwa_titles"] = None
         comprehensive_tasks["dwa_count"] = 0
 
-    # 5) Enrich: Emerging Tasks (SOC counts + per-task revision flag)
+    # 5) Emerging Tasks (SOC counts + per-task revision flag)
     emerg = read_onet_table(["Emerging Tasks.txt", "Emerging_Tasks.xlsx"])
     if emerg is not None:
         emerg = emerg.rename(columns={
@@ -347,7 +377,7 @@ def main() -> None:
         comprehensive_tasks["soc_emerging_revision_count"] = 0
         comprehensive_tasks["is_emerging_revision"] = False
 
-    # 6) Enrich: Technology Skills & Tools (SOC-level)
+    # 6) Technology Skills (SOC-level)
     tech = read_onet_table(["Technology Skills.txt", "Technology_Skills.txt"])
     if tech is not None:
         tech = tech.rename(columns={
@@ -355,15 +385,15 @@ def main() -> None:
             "Hot Technology": "HotTechnology",
             "In Demand": "InDemand",
         })
-        # Determine skill name column across O*NET versions
-        if "Technology Skill" in tech.columns:
-            tech = tech.rename(columns={"Technology Skill": "TechnologySkill"})
-        elif "Example" in tech.columns:
-            tech = tech.rename(columns={"Example": "TechnologySkill"})
+        # Name column: Example preferred; fallback to Commodity Title
+        if "Example" in tech.columns:
+            tech = tech.rename(columns={"Example": "TechnologyName"})
+        elif "Technology Skill" in tech.columns:
+            tech = tech.rename(columns={"Technology Skill": "TechnologyName"})
         elif "Commodity Title" in tech.columns:
-            tech["TechnologySkill"] = tech["Commodity Title"].astype(str)
+            tech["TechnologyName"] = tech["Commodity Title"].astype(str)
         else:
-            tech["TechnologySkill"] = None
+            tech["TechnologyName"] = None
         tech["HotTechnology"] = tech.get("HotTechnology", False)
         tech["InDemand"] = tech.get("InDemand", False)
         tech["HotTechnology"] = tech["HotTechnology"].astype(str).str.upper().isin(["Y","YES","TRUE","1"])
@@ -371,7 +401,7 @@ def main() -> None:
         soc_agg = tech.groupby("SOC").agg(
             hot_tech_count=("HotTechnology","sum"),
             in_demand_tech_count=("InDemand","sum"),
-            top_hot_tech_examples=("TechnologySkill", lambda s: "; ".join(sorted({x for x in s.dropna().astype(str)})[:3]))
+            top_hot_tech_examples=("TechnologyName", lambda s: "; ".join(sorted({x for x in s.dropna().astype(str)})[:3]))
         ).reset_index()
         comprehensive_tasks = comprehensive_tasks.merge(soc_agg, on="SOC", how="left")
     else:
@@ -379,14 +409,14 @@ def main() -> None:
         comprehensive_tasks["in_demand_tech_count"] = None
         comprehensive_tasks["top_hot_tech_examples"] = None
 
+    # 7) Tools Used (SOC-level)
     tools = read_onet_table(["Tools Used.txt", "Tools_Used.txt"])
     if tools is not None:
         tools = tools.rename(columns={"O*NET-SOC Code": "SOC"})
-        # Determine tool/example column
-        if "Tool" in tools.columns:
-            tools = tools.rename(columns={"Tool": "ToolName"})
-        elif "Example" in tools.columns:
+        if "Example" in tools.columns:
             tools = tools.rename(columns={"Example": "ToolName"})
+        elif "Tool" in tools.columns:
+            tools = tools.rename(columns={"Tool": "ToolName"})
         elif "Commodity Title" in tools.columns:
             tools["ToolName"] = tools["Commodity Title"].astype(str)
         else:
@@ -398,15 +428,14 @@ def main() -> None:
     else:
         comprehensive_tasks["top_tools_examples"] = None
 
-    # 7) Enrich: Job Zones / SVP (SOC-level)
+    # 8) Job Zones / SVP (SOC-level)
     jz = read_onet_table(["Job Zones.txt", "Job_Zones.txt"])
     if jz is not None:
         jz = jz.rename(columns={"O*NET-SOC Code":"SOC","Job Zone":"job_zone","SVP Range":"svp_range"})
-        # Some O*NET drops omit SVP Range; handle gracefully
         if "svp_range" not in jz.columns:
             jz["svp_range"] = None
-        _jz_cols = [c for c in ["SOC","job_zone","svp_range"] if c in jz.columns]
-        comprehensive_tasks = comprehensive_tasks.merge(jz[_jz_cols].drop_duplicates("SOC"), on="SOC", how="left")
+        cols = [c for c in ["SOC","job_zone","svp_range"] if c in jz.columns]
+        comprehensive_tasks = comprehensive_tasks.merge(jz[cols].drop_duplicates("SOC"), on="SOC", how="left")
         for c in ["job_zone","svp_range"]:
             if c not in comprehensive_tasks.columns:
                 comprehensive_tasks[c] = None
@@ -414,96 +443,89 @@ def main() -> None:
         comprehensive_tasks["job_zone"] = None
         comprehensive_tasks["svp_range"] = None
 
-    # 8) Enrich: Work Context (SOC-level)
+    # 9) Work Context (SOC-level) — keep only mean scales (CT or CX)
     wc = read_onet_table(["Work Context.txt", "Work_Context.txt"])
-    wanted = {
-        "Electronic Mail": "wc_electronic_mail",
-        "Telephone": "wc_telephone",
-        "Face-to-Face Discussions": "wc_face_to_face",
-        "Physical Proximity": "wc_physical_proximity",
-        "Spend Time Using Your Hands to Handle, Control, or Feel Objects": "wc_hands_on",
-        "Importance of Being Exact or Accurate": "wc_exact_or_accurate",
-    }
     if wc is not None:
-        wc = wc.rename(columns={"O*NET-SOC Code":"SOC","Element Name":"ElementName","Data Value":"DataValue"})
+        wc = wc.rename(columns={"O*NET-SOC Code":"SOC","Element Name":"ElementName",
+                                "Scale ID":"ScaleID","Data Value":"DataValue"})
+        wc = wc[wc["ScaleID"].astype(str).str.upper().isin(["CT","CX"])]
+        wanted = {
+            "Electronic Mail": "wc_electronic_mail",
+            "Telephone": "wc_telephone",
+            "Face-to-Face Discussions": "wc_face_to_face",
+            "Physical Proximity": "wc_physical_proximity",
+            "Spend Time Using Your Hands to Handle, Control, or Feel Objects": "wc_hands_on",
+            "Importance of Being Exact or Accurate": "wc_exact_or_accurate",
+        }
         wc_sel = wc[wc["ElementName"].isin(wanted.keys())].copy()
         wc_sel["col"] = wc_sel["ElementName"].map(wanted)
-        wc_piv = wc_sel.groupby(["SOC","col"])["DataValue"].mean().unstack()
-        wc_piv = wc_piv.reset_index()
+        wc_piv = wc_sel.groupby(["SOC","col"])["DataValue"].mean().unstack().reset_index()
         comprehensive_tasks = comprehensive_tasks.merge(wc_piv, on="SOC", how="left")
         for c in wanted.values():
             if c not in comprehensive_tasks.columns:
                 comprehensive_tasks[c] = None
     else:
-        for c in wanted.values():
+        for c in ["wc_electronic_mail","wc_telephone","wc_face_to_face",
+                  "wc_physical_proximity","wc_hands_on","wc_exact_or_accurate"]:
             comprehensive_tasks[c] = None
 
-    # 9) Enrich: Related Occupations (optional; schema varies across O*NET versions)
+    # 10) Related Occupations (optional) — rank by Relatedness Tier, then Index
     rel = read_onet_table(["Related Occupations.txt", "Related_Occupations.txt"])
     if rel is not None:
         rel = rel.rename(columns={
             "O*NET-SOC Code": "SOC",
             "Related O*NET-SOC Code": "RelatedSOC",
-            "Related Occupation": "RelatedTitle",
-            "Degree of Relationship": "Degree",
+            "Related Title": "RelatedTitle",
+            "Related Occupation": "RelatedTitle",   # handle alternate header
             "Relatedness Tier": "RelatednessTier",
+            "Index": "RelatedIndex",
         })
-        # If RelatedTitle missing, backfill from Occupation Data by code
-        if "RelatedTitle" not in rel.columns or rel["RelatedTitle"].isna().all():
-            try:
-                occ_titles = occ[["SOC", "OccTitleRaw"]].rename(columns={"OccTitleRaw": "RelatedTitle"})
-                rel = rel.merge(occ_titles, left_on="RelatedSOC", right_on="SOC", how="left", suffixes=("", "_rel"))
-                # Drop join helper column if present
-                rel = rel.drop(columns=[c for c in ["SOC_rel"] if c in rel.columns])
-            except Exception:
-                pass
-        # Ensure column exists to avoid KeyError in groupby
+        # Ensure RelatedTitle exists
         if "RelatedTitle" not in rel.columns:
             rel["RelatedTitle"] = ""
-        # Compute a rank: prefer explicit Degree, else RelatednessTier, else by ascending Index
-        if "Degree" in rel.columns and not rel["Degree"].isna().all():
-            degree_rank = {"High": 3, "Medium": 2, "Low": 1}
-            rel["deg_rank"] = rel["Degree"].astype(str).map(degree_rank).fillna(0)
-        elif "RelatednessTier" in rel.columns:
-            tier_map = {
-                "Primary-Short": 3,
-                "Primary-Long": 2,
-                "Primary": 2,
-                "Secondary": 1,
-            }
-            rel["deg_rank"] = rel["RelatednessTier"].astype(str).map(tier_map).fillna(0)
-        else:
-            rel["deg_rank"] = rel.get("Index", 0)
-            # lower index means stronger relation; invert to rank comparable scale
-            try:
-                rel["deg_rank"] = rel["deg_rank"].astype(float).max() - rel["deg_rank"].astype(float)
-            except Exception:
-                rel["deg_rank"] = 0
 
-        rel_sorted = rel.sort_values(["SOC", "deg_rank"], ascending=[True, False])
-        # Build top related titles (fallback to codes if titles unavailable)
-        def _top_titles(g):
-            s = g.dropna().astype(str)
-            return "; ".join(s.head(3))
-        top_by_soc = rel_sorted.groupby("SOC").agg(
-            related_occ_count=("RelatedSOC", "nunique"),
-            top_related_titles=("RelatedTitle", _top_titles)
-        ).reset_index()
-        # If all titles are NaN/empty, fallback to codes for display
+        # Backfill titles if missing using occupation data
+        occ_titles = occ[["SOC","OccTitleRaw"]].rename(columns={"SOC":"RelatedSOC","OccTitleRaw":"RelatedTitle_backfill"})
+        rel = rel.merge(occ_titles, on="RelatedSOC", how="left")
+        if "RelatedTitle_backfill" in rel.columns:
+            rel["RelatedTitle"] = rel["RelatedTitle"].where(
+                rel["RelatedTitle"].notna() & (rel["RelatedTitle"].astype(str).str.len() > 0),
+                rel["RelatedTitle_backfill"]
+            )
+            rel = rel.drop(columns=["RelatedTitle_backfill"])
+
+        # Rank: Primary-Short > Primary-Long > Supplemental, then lowest Index
+        tier_order = {"Primary-Short": 3, "Primary-Long": 2, "Supplemental": 1}
+        rel["tier_rank"]  = rel["RelatednessTier"].map(tier_order).fillna(0)
+        rel["idx_rank"]   = pd.to_numeric(rel.get("RelatedIndex"), errors="coerce").fillna(9999)
+        rel_sorted = rel.sort_values(["SOC","tier_rank","idx_rank"], ascending=[True, False, True])
+
+        def _top_titles(s: pd.Series) -> str:
+            vals = [x for x in s.dropna().astype(str).tolist() if x]
+            return "; ".join(vals[:3])
+
+        top_by_soc = (rel_sorted.groupby("SOC")
+                      .agg(related_occ_count=("RelatedSOC","nunique"),
+                           top_related_titles=("RelatedTitle", _top_titles))
+                      .reset_index())
+        # If titles are still empty, fall back to codes
         if top_by_soc["top_related_titles"].isna().all() or (top_by_soc["top_related_titles"].astype(str) == "").all():
             top_codes = (rel_sorted.groupby("SOC")
-                                  .agg(top_related_titles=("RelatedSOC", _top_titles))
-                                  .reset_index())
+                         .agg(top_related_titles=("RelatedSOC", _top_titles))
+                         .reset_index())
             top_by_soc = top_by_soc.drop(columns=["top_related_titles"]).merge(top_codes, on="SOC", how="left")
+
         comprehensive_tasks = comprehensive_tasks.merge(top_by_soc, on="SOC", how="left")
     else:
         comprehensive_tasks["related_occ_count"] = None
         comprehensive_tasks["top_related_titles"] = None
 
-    # 10) (Optional) Work Activities (SOC-level top 3)
+    # 11) Work Activities (optional) — rank by Importance (IM) scale only
     wa = read_onet_table(["Work Activities.txt", "Work_Activities.txt"])
     if wa is not None:
-        wa = wa.rename(columns={"O*NET-SOC Code":"SOC","Element Name":"WA_Name","Data Value":"WA_Value"})
+        wa = wa.rename(columns={"O*NET-SOC Code":"SOC","Element Name":"WA_Name",
+                                "Scale ID":"ScaleID","Data Value":"WA_Value"})
+        wa = wa[wa["ScaleID"].astype(str).str.upper().eq("IM")]
         if ("WA_Value" not in wa.columns) or ("WA_Name" not in wa.columns):
             print("⚠️  Work Activities missing WA_Value/WA_Name; skipping aggregation.")
             comprehensive_tasks["top_work_activities"] = None
@@ -518,7 +540,7 @@ def main() -> None:
     else:
         comprehensive_tasks["top_work_activities"] = None
 
-    # 11) LLM modality classification (3 votes)
+    # 12) LLM modality classification (3 votes)
     load_dotenv()
     offline = bool(os.getenv("OFFLINE_GRADER")) or not os.getenv("OPENAI_API_KEY") or (openai is None)
     cache = load_cache(CACHE_JSON)
@@ -561,7 +583,7 @@ def main() -> None:
 
     save_cache(CACHE_JSON, cache)
 
-    # 12) Build output frame
+    # 13) Build output frame
     out = comprehensive_tasks.copy()
     for i, col in enumerate(vote_cols):
         out[col] = [vs[i] if len(vs) > i else None for vs in all_votes]
@@ -604,7 +626,7 @@ def main() -> None:
 
     # Normalize importance per SOC (weight for aggregation)
     if "Importance" in out.columns:
-        out["Importance"] = out["Importance"].fillna(0)
+        out["Importance"] = pd.to_numeric(out["Importance"], errors="coerce").fillna(0.0)
         _soc_sum = out.groupby("SOC")["Importance"].transform("sum")
         out["importance_weight_norm"] = 0.0
         mask = _soc_sum > 0
@@ -625,11 +647,11 @@ def main() -> None:
     out["vote_seeds"] = ",".join(map(str, range(1, VOTES_PER_TASK + 1)))
     out["generated_utc"] = pd.Timestamp.utcnow().isoformat(timespec="seconds")
 
-    # 13) Save manifest
+    # 14) Save manifest
     out_file = OUT / "sampled_tasks_comprehensive.csv"
     out.to_csv(out_file, index=False)
 
-    # 14) Summary stats
+    # 15) Summary stats
     print(f"✅  Generated {len(out)} tasks → {out_file}")
     modality_counts = Counter(out["modality"])
     print(f"📊  Modality distribution: {dict(modality_counts)}")
@@ -650,7 +672,7 @@ def main() -> None:
         print("ℹ️  Importance mass in digital tasks by SOC:", imp_mass_digital)
     except Exception:
         pass
-    print("ℹ️  New fields included: Relevance, DWA linkages, Emerging counts/revisions, Tech/Tools, Job Zone/SVP, Work Context, Related Occupations, (optional) Work Activities.")
+    print("ℹ️  Fields included: Task provenance, IM/RL ratings + sources/months, DWA linkages, Emerging counts/revisions, Tech/Tools, Job Zone, Work Context (mean only), Related Occupations (tier+index), optional Work Activities (IM only).")
 
 if __name__ == "__main__":
     main()
