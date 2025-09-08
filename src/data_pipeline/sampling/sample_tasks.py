@@ -398,11 +398,23 @@ def main() -> None:
         tech["InDemand"] = tech.get("InDemand", False)
         tech["HotTechnology"] = tech["HotTechnology"].astype(str).str.upper().isin(["Y","YES","TRUE","1"])
         tech["InDemand"] = tech["InDemand"].astype(str).str.upper().isin(["Y","YES","TRUE","1"])
-        soc_agg = tech.groupby("SOC").agg(
-            hot_tech_count=("HotTechnology","sum"),
-            in_demand_tech_count=("InDemand","sum"),
-            top_hot_tech_examples=("TechnologyName", lambda s: "; ".join(sorted({x for x in s.dropna().astype(str)})[:3]))
+        # Rank and aggregate top examples per SOC
+        tech["weight"] = 1 + tech["HotTechnology"].astype(int) + tech["InDemand"].astype(int)
+        tech_rank = (
+            tech.groupby(["SOC", "TechnologyName"], dropna=False)["weight"].sum().reset_index()
+                .sort_values(["SOC", "weight", "TechnologyName"], ascending=[True, False, True])
+        )
+        # counts preserved
+        soc_counts = tech.groupby("SOC").agg(
+            hot_tech_count=("HotTechnology", "sum"),
+            in_demand_tech_count=("InDemand", "sum"),
         ).reset_index()
+        top_examples = (
+            tech_rank.groupby("SOC")
+                .agg(top_hot_tech_examples=("TechnologyName", lambda s: "; ".join([x for x in s.head(3) if isinstance(x, str) and x])))
+                .reset_index()
+        )
+        soc_agg = soc_counts.merge(top_examples, on="SOC", how="left")
         comprehensive_tasks = comprehensive_tasks.merge(soc_agg, on="SOC", how="left")
     else:
         comprehensive_tasks["hot_tech_count"] = None
@@ -421,9 +433,15 @@ def main() -> None:
             tools["ToolName"] = tools["Commodity Title"].astype(str)
         else:
             tools["ToolName"] = None
-        soc_tools = tools.groupby("SOC").agg(
-            top_tools_examples=("ToolName", lambda s: "; ".join(sorted({x for x in s.dropna().astype(str)})[:3]))
-        ).reset_index()
+        tools_rank = (
+            tools.groupby(["SOC", "ToolName"], dropna=False).size().reset_index(name="freq")
+                 .sort_values(["SOC", "freq", "ToolName"], ascending=[True, False, True])
+        )
+        soc_tools = (
+            tools_rank.groupby("SOC")
+                .agg(top_tools_examples=("ToolName", lambda s: "; ".join([x for x in s.head(3) if isinstance(x, str) and x])))
+                .reset_index()
+        )
         comprehensive_tasks = comprehensive_tasks.merge(soc_tools, on="SOC", how="left")
     else:
         comprehensive_tasks["top_tools_examples"] = None
@@ -591,6 +609,8 @@ def main() -> None:
     def cache_key_for(uid: str) -> str:
         return f"{uid}:{MODEL_NAME}:{PROMPT_SALT}"
 
+    if offline:
+        print("⚠️  Offline voting: UNLABELED * VOTES_PER_TASK for all tasks (no API key or client).")
     print(f"🔄  Classifying modality for {len(comprehensive_tasks)} tasks...")
     vote_cols = [f"vote{i+1}" for i in range(VOTES_PER_TASK)]
     all_votes: List[List[str]] = []
@@ -603,12 +623,24 @@ def main() -> None:
 
         if key in cache:
             votes = cache[key]
-            votes = votes if isinstance(votes, list) else [votes]
-        elif offline:
-            votes = [OFFLINE_LABEL] * VOTES_PER_TASK
+            if not isinstance(votes, list):
+                votes = [votes]
+            # Guard against partial/stale cache entries (e.g., prompt/model changes)
+            if len(votes) != VOTES_PER_TASK:
+                try:
+                    del cache[key]
+                except Exception:
+                    pass
+                votes = None
         else:
-            seeds = list(range(1, VOTES_PER_TASK + 1))
-            votes = [vote_once(client, stmt, seed) for seed in seeds]
+            votes = None
+
+        if votes is None:
+            if offline:
+                votes = [OFFLINE_LABEL] * VOTES_PER_TASK
+            else:
+                seeds = list(range(1, VOTES_PER_TASK + 1))
+                votes = [vote_once(client, stmt, seed) for seed in seeds]
             cache[key] = votes
             time.sleep(random.uniform(SLEEP_MIN, SLEEP_MAX))
 
@@ -631,8 +663,17 @@ def main() -> None:
 
     out["modality"] = final_labels
     out["modality_agreement"] = out[vote_cols].apply(lambda r: Counter([x for x in r if x]).most_common(1)[0][1], axis=1)
-    out["modality_disagreement"] = out["modality_agreement"] < VOTES_PER_TASK
     out["modality_confidence"] = out["modality_agreement"] / VOTES_PER_TASK
+    # Make modality categorical for stable plotting/grouping, and add uncertainty flag
+    modality_cat = CategoricalDtype(
+        categories=["TEXT", "GUI", "VISION", "MANUAL", "INCONCLUSIVE", "REVIEW", "UNLABELED"],
+        ordered=False,
+    )
+    out["modality"] = out["modality"].astype(modality_cat)
+    UNCERTAIN = {"INCONCLUSIVE", "REVIEW", "UNLABELED"}
+    out["modality_uncertain"] = out["modality"].isin(UNCERTAIN)
+    # Disagreement now includes uncertainty (even unanimous uncertain)
+    out["modality_disagreement"] = (out["modality_agreement"] < VOTES_PER_TASK) | out["modality_uncertain"]
 
     # Derived flags
     out["digital_amenable"] = out["modality"].isin({"TEXT", "GUI", "VISION"})
@@ -672,6 +713,13 @@ def main() -> None:
         out["importance_weight_norm"] = 0.0
         mask = _soc_sum > 0
         out.loc[mask, "importance_weight_norm"] = out.loc[mask, "Importance"] / _soc_sum[mask]
+        # Relevance-gated weights (RL >= 25); treat None as True when RL missing
+        if "retained_by_relevance_rule" in out.columns:
+            mask_rl = out["retained_by_relevance_rule"].fillna(True)
+            out["importance_weight_norm_rl"] = 0.0
+            soc_sum_rl = out.loc[mask_rl].groupby("SOC")["Importance"].transform("sum")
+            ok = mask_rl & soc_sum_rl.gt(0)
+            out.loc[ok, "importance_weight_norm_rl"] = out.loc[ok, "Importance"] / soc_sum_rl[ok]
 
     # Provenance
     onet_version = os.getenv("ONET_VERSION")
