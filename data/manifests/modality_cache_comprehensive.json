@@ -22,7 +22,7 @@
   "93eea469ed1a:gpt-4.1-mini-2025-04-14:cdfc2b20": [
     "MANUAL",
     "MANUAL",
-    "MANUAL"
+    "INCONCLUSIVE"
   ],
   "9cebf9025932:gpt-4.1-mini-2025-04-14:cdfc2b20": [
     "TEXT",
@@ -50,7 +50,7 @@
     "TEXT"
   ],
   "7dda7be500c7:gpt-4.1-mini-2025-04-14:cdfc2b20": [
-    "MANUAL",
+    "INCONCLUSIVE",
     "INCONCLUSIVE",
     "INCONCLUSIVE"
   ],
@@ -80,9 +80,9 @@
     "TEXT"
   ],
   "cc85a383d126:gpt-4.1-mini-2025-04-14:cdfc2b20": [
+    "GUI",
     "TEXT",
-    "TEXT",
-    "TEXT"
+    "GUI"
   ],
   "87f827ff1b9c:gpt-4.1-mini-2025-04-14:cdfc2b20": [
     "GUI",
@@ -182,7 +182,7 @@
   "47f45cd74b61:gpt-4.1-mini-2025-04-14:cdfc2b20": [
     "TEXT",
     "TEXT",
-    "GUI"
+    "TEXT"
   ],
   "9662f06a391f:gpt-4.1-mini-2025-04-14:cdfc2b20": [
     "MANUAL",

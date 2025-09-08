@@ -443,30 +443,71 @@ def main() -> None:
         comprehensive_tasks["job_zone"] = None
         comprehensive_tasks["svp_range"] = None
 
-    # 9) Work Context (SOC-level) — keep only mean scales (CT or CX)
+    # 9) Work Context (SOC-level) — keep only mean scales (CT or CX), robust name mapping
     wc = read_onet_table(["Work Context.txt", "Work_Context.txt"])
     if wc is not None:
-        wc = wc.rename(columns={"O*NET-SOC Code":"SOC","Element Name":"ElementName",
-                                "Scale ID":"ScaleID","Data Value":"DataValue"})
-        wc = wc[wc["ScaleID"].astype(str).str.upper().isin(["CT","CX"])]
-        wanted = {
-            "Electronic Mail": "wc_electronic_mail",
-            "Telephone": "wc_telephone",
-            "Face-to-Face Discussions": "wc_face_to_face",
-            "Physical Proximity": "wc_physical_proximity",
-            "Spend Time Using Your Hands to Handle, Control, or Feel Objects": "wc_hands_on",
-            "Importance of Being Exact or Accurate": "wc_exact_or_accurate",
-        }
-        wc_sel = wc[wc["ElementName"].isin(wanted.keys())].copy()
-        wc_sel["col"] = wc_sel["ElementName"].map(wanted)
-        wc_piv = wc_sel.groupby(["SOC","col"])["DataValue"].mean().unstack().reset_index()
+        wc = wc.rename(columns={
+            "O*NET-SOC Code": "SOC",
+            "Element Name": "ElementName",
+            "Scale ID": "ScaleID",
+            "Data Value": "DataValue",
+            "Not Relevant": "NotRelevant",
+            "Recommend Suppress": "RecommendSuppress",
+        })
+        # mean-only scales
+        wc = wc[wc["ScaleID"].astype(str).str.upper().isin(["CT", "CX"])].copy()
+
+        # optional suppression flags
+        if "NotRelevant" not in wc.columns:
+            wc["NotRelevant"] = "N"
+        if "RecommendSuppress" not in wc.columns:
+            wc["RecommendSuppress"] = "N"
+        wc["NotRelevant"] = wc["NotRelevant"].astype(str).str.upper()
+        wc["RecommendSuppress"] = wc["RecommendSuppress"].astype(str).str.upper()
+        wc = wc[(wc["NotRelevant"] != "Y") & (wc["RecommendSuppress"] != "Y")]
+
+        # robust mapper for element names across O*NET variants
+        def map_wc(name):
+            n = str(name or "").lower()
+            n = n.replace("–", "-").replace("—", "-")
+            if ("e-mail" in n) or ("electronic mail" in n):
+                return "wc_electronic_mail"
+            if "telephone" in n:
+                return "wc_telephone"
+            if ("face-to-face" in n) or ("face to face" in n):
+                return "wc_face_to_face"
+            if "physical proximity" in n:
+                return "wc_physical_proximity"
+            if "exact or accurate" in n:
+                return "wc_exact_or_accurate"
+            if ("handle, control, or feel objects" in n) or ("handle, control" in n) or ("using your hands" in n):
+                return "wc_hands_on"
+            return None
+
+        wc["col"] = wc["ElementName"].apply(map_wc)
+        wc_sel = wc[wc["col"].notna()].copy()
+        wc_piv = wc_sel.groupby(["SOC", "col"])['DataValue'].mean().unstack().reset_index()
         comprehensive_tasks = comprehensive_tasks.merge(wc_piv, on="SOC", how="left")
-        for c in wanted.values():
+
+        for c in [
+            "wc_electronic_mail",
+            "wc_telephone",
+            "wc_face_to_face",
+            "wc_physical_proximity",
+            "wc_hands_on",
+            "wc_exact_or_accurate",
+        ]:
             if c not in comprehensive_tasks.columns:
                 comprehensive_tasks[c] = None
     else:
-        for c in ["wc_electronic_mail","wc_telephone","wc_face_to_face",
-                  "wc_physical_proximity","wc_hands_on","wc_exact_or_accurate"]:
+        for c in [
+            "wc_electronic_mail",
+            "wc_telephone",
+            "wc_face_to_face",
+            "wc_physical_proximity",
+            "wc_hands_on",
+            "wc_exact_or_accurate",
+        ]:
             comprehensive_tasks[c] = None
 
     # 10) Related Occupations (optional) — rank by Relatedness Tier, then Index
@@ -672,7 +713,27 @@ def main() -> None:
         print("ℹ️  Importance mass in digital tasks by SOC:", imp_mass_digital)
     except Exception:
         pass
-    print("ℹ️  Fields included: Task provenance, IM/RL ratings + sources/months, DWA linkages, Emerging counts/revisions, Tech/Tools, Job Zone, Work Context (mean only), Related Occupations (tier+index), optional Work Activities (IM only).")
+    print("ℹ️  Fields included: Task provenance, IM/RL ratings + sources/months, DWA linkages, Emerging counts/flags, Tech/Tools, Job Zone, Work Context (mean only), Related Occupations (tier+index), optional Work Activities (IM only).")
+
+    # 16) Sanity report (weights, duplicates, ratings provenance)
+    try:
+        if "importance_weight_norm" in out.columns:
+            wsum = out.groupby("SOC")["importance_weight_norm"].sum().round(6).to_dict()
+            print("🧮  Weight sums by SOC:", wsum)
+
+        dup_count = int(out.duplicated(["SOC", "TaskID", "uid"]).sum())
+        print(f"🔁  Duplicate (SOC,TaskID,uid) rows: {dup_count}")
+
+        cols_im = {"ratings_month_im", "ratings_source_im"}
+        cols_rl = {"ratings_month_rl", "ratings_source_rl"}
+        if cols_im.issubset(out.columns) and cols_rl.issubset(out.columns):
+            print("🧾  Ratings month/source by SOC:")
+            for soc, g in out.groupby("SOC"):
+                ims = sorted({f"{m}/{s}" for m, s in zip(g["ratings_month_im"], g["ratings_source_im"]) if (m or s)})
+                rls = sorted({f"{m}/{s}" for m, s in zip(g["ratings_month_rl"], g["ratings_source_rl"]) if (m or s)})
+                print(f"   {soc} IM: {'; '.join(ims)} | RL: {'; '.join(rls)}")
+    except Exception as e:
+        print("⚠️  Sanity report error:", e)
 
 if __name__ == "__main__":
     main()
