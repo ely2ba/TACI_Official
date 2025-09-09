@@ -10,6 +10,7 @@
     "Alternate Titles.txt",
     "Content Model Reference.txt",
     "DWA Reference.txt",
+    "Education, Training, and Experience Categories.txt",
     "Education, Training, and Experience.txt",
     "Emerging Tasks.txt",
     "IWA Reference.txt",
@@ -34,7 +35,27 @@
     3
   ],
   "prompt_md5": "cdfc2b20a631beaa5b557a9a248a0a37",
-  "code_fingerprint": "43478d54",
-  "generated_utc": "2025-09-09T15:47:39+00:00",
-  "csv_sha256": "b69649384d18cd15d9878b847b5b76ebe2751e1c59b3cd70dcedcbc460256298"
+  "code_fingerprint": "add36f37",
+  "generated_utc": "2025-09-09T22:25:42+00:00",
+  "csv_sha256": "03fd50e163ba4d795c26e25a83c2ca7797213c1b049b17e1a82af301c49f507d",
+  "rarity_weight_formula": "w = 1/log1p(prevalence_soc)",
+  "rarity_weight_columns": [
+    "task_dwa_idf_sum",
+    "task_iwa_idf_sum",
+    "task_gwa_idf_sum"
+  ],
+  "edge_views": [
+    {
+      "path": "outputs/edges/task_dwa.csv",
+      "rows": 76
+    },
+    {
+      "path": "outputs/edges/dwa_iwa_gwa.csv",
+      "rows": 2083
+    },
+    {
+      "path": "outputs/edges/soc_unspsc_counts.csv",
+      "rows": 20
+    }
+  ]
 }
