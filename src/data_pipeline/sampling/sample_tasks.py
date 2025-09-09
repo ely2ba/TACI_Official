@@ -83,7 +83,7 @@ DEFAULT_MODEL_NAME = "gpt-4.1-mini-2025-04-14"
 MODEL_NAME = os.getenv("MODEL_NAME", DEFAULT_MODEL_NAME)
 TEMPERATURE = 0.3
 VOTES_PER_TASK = 3
-SLEEP_MIN, SLEEP_MAX = 0.1, 0.3  # kept but deterministic due to fixed seed
+SLEEP_MIN, SLEEP_MAX = 0.1, 0.3  # deterministic due to fixed seed
 
 # Allowed normalized labels
 ALLOWED = {"TEXT", "GUI", "VISION", "MANUAL", "INCONCLUSIVE"}
@@ -152,7 +152,6 @@ def read_onet_table(candidates: List[str]) -> Optional[pd.DataFrame]:
         for name in _candidate_names(base):
             p = RAW / name
             # Build ordered attempts: TXT first, then XLSX, then the given path
-            attempts: List[Path] = []
             if p.suffix.lower() == ".txt":
                 attempts = [p]
             elif p.suffix.lower() == ".xlsx":
@@ -203,19 +202,16 @@ def atomic_write_csv(df: pd.DataFrame, path: Path) -> str:
 
 # ── OpenAI call with drift guard ──────────────────────────────────────
 def chat_complete(client, **kw):
-    # Prefer Chat Completions; fallback to Responses if SDK changes
     try:
         return client.chat.completions.create(**kw)
     except AttributeError:
         return client.responses.create(**kw)
 
 def extract_text(resp) -> str:
-    # Try Chat Completions shape
     try:
         return (resp.choices[0].message.content or "").strip()
     except Exception:
         pass
-    # Try Responses-style generic extraction
     try:
         if hasattr(resp, "output") and resp.output:
             parts = []
@@ -257,11 +253,10 @@ def clean_title(raw: str) -> str:
         words = txt.split()
         out = []
         for i, w in enumerate(words):
-            # Acronym guard: keep ALL-CAPS (len>=3) as-is
-            if w.isupper() and len(w) >= 3:
+            if w.isupper() and len(w) >= 3:  # Acronym guard
                 out.append(w)
                 continue
-            if infl and len(w) >= 4 and w.lower() not in {"and","or"} and w.endswith("s") and (i == 0 or words[i-1].lower() not in {"and","or"}):
+            if infl and len(w) >= 4 and w.lower() not in {"and", "or"} and w.endswith("s") and (i == 0 or words[i-1].lower() not in {"and", "or"}):
                 s = infl.singular_noun(w)
                 out.append(s if s else w)
             else:
@@ -272,7 +267,7 @@ def clean_title(raw: str) -> str:
     for t in doc:
         if t.text.isupper() and len(t.text) >= 3:
             toks.append(t.text)
-        elif t.tag_ in {"NNS","NNPS"}:
+        elif t.tag_ in {"NNS", "NNPS"}:
             s = infl.singular_noun(t.text) if infl else None
             toks.append(s if s else (t.lemma_ if t.lemma_ != "-PRON-" else t.text))
         else:
@@ -346,8 +341,7 @@ def entropy_from_counts(counts: Dict[str, int]) -> Optional[float]:
         return None
     p = arr / arr.sum()
     p = np.clip(p, 1e-12, 1.0)
-    # bits for interpretability (avoid -0.0)
-    v = float(-(p * (np.log2(p))).sum())
+    v = float(-(p * (np.log2(p))).sum())  # bits
     return 0.0 if abs(v) < 1e-12 else v
 
 # ── Main ──────────────────────────────────────────────────────────────
@@ -356,10 +350,9 @@ def main() -> None:
     random.seed(0)
     np.random.seed(0)
 
-    # Load env late to allow ONET_VERSION override here too
     load_dotenv()
-    print("🔄 Rebuilding manifest from raw O*NET sources; no prior manifest is read.")
     onet_version_env = (os.getenv("ONET_VERSION") or ONET_VER_ENV or "unspecified").strip()
+    print("🔄 Rebuilding manifest from raw O*NET sources; no prior manifest is read.")
 
     # 1) Load core O*NET files
     ts = read_onet_table(["Task Statements.txt", "Task_Statements.txt"])
@@ -518,9 +511,7 @@ def main() -> None:
                 titles_by_soc[soc]["sample_titles_canon"] = semijoin([canon(x) for x in lst])
 
     if titles_by_soc:
-        tb = pd.DataFrame(
-            [{"SOC": k, **v} for k, v in titles_by_soc.items()]
-        )
+        tb = pd.DataFrame([{"SOC": k, **v} for k, v in titles_by_soc.items()])
         comprehensive_tasks = comprehensive_tasks.merge(tb, on="SOC", how="left")
     else:
         comprehensive_tasks["alt_titles_raw"] = None
@@ -528,7 +519,6 @@ def main() -> None:
         comprehensive_tasks["sample_titles_raw"] = None
         comprehensive_tasks["sample_titles_canon"] = None
 
-    # Title canon examples (up to 3)
     def pick_canon_examples(row) -> Optional[str]:
         parts = []
         for col in ["alt_titles_canon", "sample_titles_canon"]:
@@ -536,7 +526,6 @@ def main() -> None:
             if pd.isna(s) or not s:
                 continue
             parts.extend([p.strip() for p in str(s).split(";") if p.strip()])
-        # unique in order
         seen, out = set(), []
         for p in parts:
             if p not in seen:
@@ -561,7 +550,6 @@ def main() -> None:
             "DWA ID": "DWA_ID",
             "DWA Title": "DWA_Title"
         })
-        # If DWA_Title missing, try to backfill from dwa_ref
         if "DWA_Title" not in t2d.columns:
             if dwa_ref is not None:
                 _dr = dwa_ref.rename(columns={"DWA ID": "DWA_ID", "DWA Title": "DWA_Title"})
@@ -569,26 +557,20 @@ def main() -> None:
             else:
                 t2d["DWA_Title"] = None
 
-        # Build reference for IWA/GWA
         iwa_title_map = {}
         if iwa_ref is not None:
             _iw = iwa_ref.rename(columns={"IWA ID": "IWA_ID", "IWA Title": "IWA_Title"})
             if "IWA_ID" in _iw.columns and "IWA_Title" in _iw.columns:
-                iwa_title_map = dict(
-                    _iw[["IWA_ID", "IWA_Title"]].dropna().drop_duplicates().itertuples(index=False, name=None)
-                )
+                iwa_title_map = dict(_iw[["IWA_ID", "IWA_Title"]].dropna().drop_duplicates().itertuples(index=False, name=None))
 
         gwa_title_map = {}
         if cm_ref is not None:
             _cm = cm_ref.rename(columns={"Element ID": "GWA_ID", "Element Name": "GWA_Title"})
             if "GWA_ID" in _cm.columns and "GWA_Title" in _cm.columns:
-                gwa_title_map = dict(
-                    _cm[["GWA_ID", "GWA_Title"]].dropna().drop_duplicates().itertuples(index=False, name=None)
-                )
+                gwa_title_map = dict(_cm[["GWA_ID", "GWA_Title"]].dropna().drop_duplicates().itertuples(index=False, name=None))
 
         link = t2d[["SOC", "TaskID", "DWA_ID", "DWA_Title"]].dropna(subset=["DWA_ID"]).copy()
 
-        # Attach IWA and GWA via DWA Reference
         if dwa_ref is not None:
             dr = dwa_ref.rename(columns={
                 "DWA ID": "DWA_ID",
@@ -603,11 +585,9 @@ def main() -> None:
             link["IWA_ID"] = None
             link["GWA_ID"] = None
 
-        # Map titles for IWA/GWA if available
         link["IWA_Title"] = link["IWA_ID"].map(iwa_title_map) if iwa_title_map else None
         link["GWA_Title"] = link["GWA_ID"].map(gwa_title_map) if gwa_title_map else None
 
-        # Aggregate lists per (SOC, TaskID)
         def uniq_list(s: pd.Series) -> List[str]:
             vals = [str(x) for x in s if pd.notna(x) and str(x) != ""]
             seen, out = set(), []
@@ -634,29 +614,23 @@ def main() -> None:
 
         comprehensive_tasks = comprehensive_tasks.merge(agg, on=["SOC", "TaskID"], how="left")
 
-        # Edge-derived features: degree-like metrics per task using tidy links
+        # Edge-derived features
         links_tidied = link[["SOC", "TaskID", "DWA_ID", "IWA_ID", "GWA_ID"]].drop_duplicates()
 
         def _soc_counts(df: pd.DataFrame, code_col: str) -> pd.DataFrame:
-            return (
-                df.dropna(subset=[code_col])
-                  .groupby(["SOC", code_col]).size().rename("cnt").reset_index()
-            )
+            return df.dropna(subset=[code_col]).groupby(["SOC", code_col]).size().rename("cnt").reset_index()
 
         dwa_soc_counts = _soc_counts(links_tidied, "DWA_ID")
         iwa_soc_counts = _soc_counts(links_tidied, "IWA_ID")
         gwa_soc_counts = _soc_counts(links_tidied, "GWA_ID")
 
-        # IDF-style dampening weights (safe: cnt>=1)
         for dfc in (dwa_soc_counts, iwa_soc_counts, gwa_soc_counts):
             dfc["idf_w"] = 1.0 / np.log1p(dfc["cnt"].astype(float))
 
-        # Task-code associations per SOC
         task_dwa = links_tidied.dropna(subset=["DWA_ID"])[["SOC", "TaskID", "DWA_ID"]].drop_duplicates()
         task_iwa = links_tidied.dropna(subset=["IWA_ID"])[["SOC", "TaskID", "IWA_ID"]].drop_duplicates()
         task_gwa = links_tidied.dropna(subset=["GWA_ID"])[["SOC", "TaskID", "GWA_ID"]].drop_duplicates()
 
-        # Degree sums by joining SOC counts
         td = task_dwa.merge(dwa_soc_counts, on=["SOC", "DWA_ID"], how="left")
         ti = task_iwa.merge(iwa_soc_counts, on=["SOC", "IWA_ID"], how="left")
         tg = task_gwa.merge(gwa_soc_counts, on=["SOC", "GWA_ID"], how="left")
@@ -666,7 +640,6 @@ def main() -> None:
         deg_iwa = ti.groupby(["SOC", "TaskID"])["cnt"].sum().rename("task_iwa_degree_soc_sum").reset_index()
         deg_gwa = tg.groupby(["SOC", "TaskID"])["cnt"].sum().rename("task_gwa_degree_soc_sum").reset_index()
 
-        # Normalization by SOC task count
         n_tasks_soc = comprehensive_tasks.groupby("SOC").size().rename("n_tasks_soc").reset_index()
         for deg_df, col_sum, col_norm in [
             (deg_dwa, "task_dwa_degree_soc_sum", "task_dwa_degree_soc_norm"),
@@ -674,12 +647,9 @@ def main() -> None:
             (deg_gwa, "task_gwa_degree_soc_sum", "task_gwa_degree_soc_norm"),
         ]:
             deg_df = deg_df.merge(n_tasks_soc, on=["SOC"], how="left")
-            deg_df[col_norm] = np.where(
-                deg_df["n_tasks_soc"].gt(0), deg_df[col_sum] / deg_df["n_tasks_soc"], 0.0
-            )
+            deg_df[col_norm] = np.where(deg_df["n_tasks_soc"].gt(0), deg_df[col_sum] / deg_df["n_tasks_soc"], 0.0)
             comprehensive_tasks = comprehensive_tasks.merge(deg_df[["SOC", "TaskID", col_sum, col_norm]], on=["SOC", "TaskID"], how="left")
 
-        # IDF sum per task
         td_idf = task_dwa.merge(dwa_soc_counts[["SOC", "DWA_ID", "idf_w"]], on=["SOC", "DWA_ID"], how="left").fillna({"idf_w": 0.0})
         ti_idf = task_iwa.merge(iwa_soc_counts[["SOC", "IWA_ID", "idf_w"]], on=["SOC", "IWA_ID"], how="left").fillna({"idf_w": 0.0})
         tg_idf = task_gwa.merge(gwa_soc_counts[["SOC", "GWA_ID", "idf_w"]], on=["SOC", "GWA_ID"], how="left").fillna({"idf_w": 0.0})
@@ -689,26 +659,22 @@ def main() -> None:
         for idf_df in (idf_dwa, idf_iwa, idf_gwa):
             comprehensive_tasks = comprehensive_tasks.merge(idf_df, on=["SOC", "TaskID"], how="left")
 
-        # Z-scores within SOC for degree sums
         for col_sum, col_z in [
             ("task_dwa_degree_soc_sum", "task_dwa_degree_soc_z"),
             ("task_iwa_degree_soc_sum", "task_iwa_degree_soc_z"),
             ("task_gwa_degree_soc_sum", "task_gwa_degree_soc_z"),
         ]:
-            if col_sum in comprehensive_tasks.columns:
-                grp = comprehensive_tasks.groupby("SOC")[col_sum]
-                m = grp.transform("mean")
-                s = grp.transform("std")
-                comprehensive_tasks[col_z] = np.where(s.gt(0), (comprehensive_tasks[col_sum] - m) / s, np.nan)
+            grp = comprehensive_tasks.groupby("SOC")[col_sum]
+            m = grp.transform("mean")
+            s = grp.transform("std")
+            comprehensive_tasks[col_z] = np.where(s.gt(0), (comprehensive_tasks[col_sum] - m) / s, np.nan)
 
-        # Fill strategy for degree sums and idf sums
         for c in [
             "task_dwa_degree_soc_sum","task_iwa_degree_soc_sum","task_gwa_degree_soc_sum",
             "task_dwa_degree_soc_norm","task_iwa_degree_soc_norm","task_gwa_degree_soc_norm",
             "task_dwa_idf_sum","task_iwa_idf_sum","task_gwa_idf_sum",
         ]:
-            if c in comprehensive_tasks.columns:
-                comprehensive_tasks[c] = comprehensive_tasks[c].fillna(0.0)
+            comprehensive_tasks[c] = comprehensive_tasks[c].fillna(0.0)
     else:
         for c in ["dwa_ids","dwa_titles","dwa_ids_count","iwa_id_list","iwa_title_list","iwa_id_list_count","iwa_title_list_count","gwa_id_list","gwa_title_list","gwa_id_list_count","gwa_title_list_count"]:
             comprehensive_tasks[c] = None
@@ -729,8 +695,7 @@ def main() -> None:
         for col in ["soc_emerging_new_count","soc_emerging_revision_count"]:
             if col not in comprehensive_tasks.columns:
                 comprehensive_tasks[col] = 0
-        rev_keys = set(emerg.loc[emerg["EmergingCategory"].astype(str).str.lower().eq("revision"),
-                                  "OriginalTaskID"].dropna().astype(str).tolist())
+        rev_keys = set(emerg.loc[emerg["EmergingCategory"].astype(str).str.lower().eq("revision"), "OriginalTaskID"].dropna().astype(str).tolist())
         comprehensive_tasks["is_emerging_revision"] = comprehensive_tasks["TaskID"].astype(str).isin(rev_keys)
     else:
         comprehensive_tasks["soc_emerging_new_count"] = 0
@@ -755,7 +720,6 @@ def main() -> None:
         tech["HotTechnology"] = tech["HotTechnology"].astype(str).str.upper().isin(["Y","YES","TRUE","1"])
         tech["InDemand"] = tech["InDemand"].astype(str).str.upper().isin(["Y","YES","TRUE","1"])
         tech["TechnologyName"] = tech.get("TechnologyName", tech.get("Commodity Title"))
-        # Rank and aggregate top examples per SOC
         tech["weight"] = 1 + tech["HotTechnology"].astype(int) + tech["InDemand"].astype(int)
         tech_nonnull = tech.loc[tech["TechnologyName"].notna() & tech["TechnologyName"].astype(str).str.strip().ne("")].copy()
         tech_rank = (
@@ -773,7 +737,6 @@ def main() -> None:
         )
         soc_agg = soc_counts.merge(top_examples, on="SOC", how="left")
 
-        # UNSPSC FAMILY roll-up
         fam_labels = {}
         if unspsc_ref is not None:
             ref = unspsc_ref.rename(columns={
@@ -786,10 +749,8 @@ def main() -> None:
             })
             ref["Commodity Code"] = ref["Commodity Code"].apply(unspsc_digits)
             ref["Family Code"] = ref["Family Code"].apply(unspsc_digits)
-            fam_labels = dict(
-                ref.dropna(subset=["Family Code","Family Title"])[["Family Code","Family Title"]]
-                   .drop_duplicates().itertuples(index=False, name=None)
-            )
+            fam_labels = dict(ref.dropna(subset=["Family Code","Family Title"])[["Family Code","Family Title"]]
+                                 .drop_duplicates().itertuples(index=False, name=None))
 
         tech_codes = tech.copy()
         tech_codes["Commodity Code"] = tech_codes.get("Commodity Code", None)
@@ -806,12 +767,14 @@ def main() -> None:
         else:
             tech_codes["Family Code"] = tech_codes["Commodity Code"].apply(rollup_family)
 
-        counts = (tech_codes.dropna(subset=["Family Code"]) 
+        counts = (tech_codes.dropna(subset=["Family Code"])
                             .groupby(["SOC","Family Code"]).size().reset_index(name="cnt"))
         counts_tech = counts.copy()
+
         def fam_label(fc: str) -> str:
             name = fam_labels.get(fc, "")
             return f"{fc}:{name}".strip(":")
+
         if not counts.empty:
             tech_top3 = (counts.sort_values(["SOC","cnt","Family Code"], ascending=[True, False, True])
                               .groupby("SOC", group_keys=False)[["Family Code","cnt"]]
@@ -857,22 +820,23 @@ def main() -> None:
                           .itertuples(index=False, name=None)
             )
             tools["Family Code"] = tools["Commodity Code"].map(fam_map)
-            tmp_ft = unspsc_ref.rename(columns={"Family Code":"fc","Family Title":"ft"}).copy()
-            tmp_ft["fc"] = tmp_ft["fc"].apply(unspsc_digits)
             fam_labels_tools = dict(
-                tmp_ft.dropna(subset=["fc","ft"])[["fc","ft"]].drop_duplicates()
-                      .itertuples(index=False, name=None)
+                unspsc_ref.rename(columns={"Family Code":"fc","Family Title":"ft"})
+                          .dropna(subset=["fc","ft"])[["fc","ft"]].drop_duplicates()
+                          .itertuples(index=False, name=None)
             )
         else:
             tools["Family Code"] = tools["Commodity Code"].apply(rollup_family)
             fam_labels_tools = {}
 
-        counts = (tools.dropna(subset=["Family Code"]) 
+        counts = (tools.dropna(subset=["Family Code"])
                         .groupby(["SOC","Family Code"]).size().reset_index(name="cnt"))
         counts_tools = counts.copy()
+
         def fam_label_t(fc: str) -> str:
             name = fam_labels_tools.get(fc, "")
             return f"{fc}:{name}".strip(":")
+
         if not counts.empty:
             tools_top3 = (counts.sort_values(["SOC","cnt","Family Code"], ascending=[True, False, True])
                                .groupby("SOC", group_keys=False)[["Family Code","cnt"]]
@@ -937,7 +901,7 @@ def main() -> None:
                 return "wc_exact_or_accurate"
             if ("handle, control, or feel objects" in n) or ("handle, control" in n) or ("using your hands" in n):
                 return "wc_hands_on"
-            # New +6
+            # +6 focused descriptors
             if "consequence of error" in n:
                 return "wc_consequence_of_error"
             if "time pressure" in n:
@@ -954,10 +918,8 @@ def main() -> None:
             return None
 
         wc["col"] = wc["ElementName"].apply(map_wc)
-        # coverage accounting
         wc_total = wc.groupby("SOC").size().to_dict()
         wc_total_ctcx_by_soc.update(wc_total)
-
         wc_sel = wc[wc["col"].notna()].copy()
         wc_mapped = wc_sel.groupby("SOC").size().to_dict()
         wc_mapped_counts_by_soc.update(wc_mapped)
@@ -972,7 +934,7 @@ def main() -> None:
         ]:
             if c not in comprehensive_tasks.columns:
                 comprehensive_tasks[c] = None
-        # Echo audit counters per row
+
         comprehensive_tasks["wc_ctcx_rows_total_soc"] = comprehensive_tasks["SOC"].map(wc_total_ctcx_by_soc).fillna(0).astype(int)
         comprehensive_tasks["wc_ctcx_rows_mapped_soc"] = comprehensive_tasks["SOC"].map(wc_mapped_counts_by_soc).fillna(0).astype(int)
     else:
@@ -982,11 +944,10 @@ def main() -> None:
             "wc_structured_vs_unstructured","wc_deal_with_external_customers","wc_indoors_env_controlled",
         ]:
             comprehensive_tasks[c] = None
-        # Ensure audit counters exist when WC is missing
         comprehensive_tasks["wc_ctcx_rows_total_soc"] = 0
         comprehensive_tasks["wc_ctcx_rows_mapped_soc"] = 0
 
-    # 11) Related Occupations (optional) — rank by Relatedness Tier, then Index
+    # 11) Related Occupations (optional)
     rel = read_onet_table(["Related Occupations.txt", "Related_Occupations.txt"])
     if rel is not None:
         rel = rel.rename(columns={
@@ -999,7 +960,6 @@ def main() -> None:
         })
         if "RelatedTitle" not in rel.columns:
             rel["RelatedTitle"] = ""
-
         occ_titles = occ[["SOC","OccTitleRaw"]].rename(columns={"SOC":"RelatedSOC","OccTitleRaw":"RelatedTitle_backfill"})
         rel = rel.merge(occ_titles, on="RelatedSOC", how="left")
         if "RelatedTitle_backfill" in rel.columns:
@@ -1027,26 +987,22 @@ def main() -> None:
         comprehensive_tasks["related_occ_count"] = None
         comprehensive_tasks["top_related_titles"] = None
 
-    # 12) Work Activities (optional) — rank by Importance (IM) scale only
+    # 12) Work Activities (optional) — rank by Importance (IM)
     wa = read_onet_table(["Work Activities.txt", "Work_Activities.txt"])
     if wa is not None:
-        wa = wa.rename(columns={"O*NET-SOC Code":"SOC","Element Name":"WA_Name",
-                                "Scale ID":"ScaleID","Data Value":"WA_Value"})
+        wa = wa.rename(columns={"O*NET-SOC Code":"SOC","Element Name":"WA_Name","Scale ID":"ScaleID","Data Value":"WA_Value"})
         wa = wa[wa["ScaleID"].astype(str).str.upper().eq("IM")]
         if ("WA_Value" not in wa.columns) or ("WA_Name" not in wa.columns):
             comprehensive_tasks["top_work_activities"] = None
         else:
-            topwa = (wa.groupby(["SOC","WA_Name"])["WA_Value"].mean()
-                       .reset_index()
+            topwa = (wa.groupby(["SOC","WA_Name"])["WA_Value"].mean().reset_index()
                        .sort_values(["SOC","WA_Value"], ascending=[True, False]))
-            wa_top3 = (topwa.groupby("SOC")
-                       .agg(top_work_activities=("WA_Name", lambda s: "; ".join(s.head(3))))
-                       .reset_index())
+            wa_top3 = (topwa.groupby("SOC").agg(top_work_activities=("WA_Name", lambda s: "; ".join(s.head(3)))).reset_index())
             comprehensive_tasks = comprehensive_tasks.merge(wa_top3, on="SOC", how="left")
     else:
         comprehensive_tasks["top_work_activities"] = None
 
-    # 13) LLM modality classification (3 votes) with strong cache keys
+    # 13) LLM modality classification (3 votes)
     offline = bool(os.getenv("OFFLINE_GRADER")) or not os.getenv("OPENAI_API_KEY") or (openai is None)
     cache = {}
     if CACHE_JSON.exists():
@@ -1073,7 +1029,6 @@ def main() -> None:
     all_votes: List[List[str]] = []
     final_labels: List[str] = []
 
-    # itertuples for performance
     for row in tqdm(comprehensive_tasks.itertuples(index=False), total=len(comprehensive_tasks), desc="Classifying modality"):
         uid = getattr(row, "uid")
         stmt = (getattr(row, "TaskText", "") or "").strip()
@@ -1092,7 +1047,6 @@ def main() -> None:
                 seeds = list(range(1, VOTES_PER_TASK + 1))
                 votes = [vote_once(client, stmt, seed) for seed in seeds]
             cache[key] = votes
-            # deterministic sleep (seeded)
             time.sleep(random.uniform(SLEEP_MIN, SLEEP_MAX))
 
         c = Counter(votes)
@@ -1105,7 +1059,6 @@ def main() -> None:
         final_labels.append(label)
         all_votes.append(votes)
 
-    # persist cache atomically
     try:
         atomic_write_text(CACHE_JSON, json.dumps(cache, indent=2))
     except Exception as e:
@@ -1164,19 +1117,13 @@ def main() -> None:
         comprehensive_tasks["importance_weight_norm"] = 0.0
         mask = _soc_sum > 0
         comprehensive_tasks.loc[mask, "importance_weight_norm"] = comprehensive_tasks.loc[mask, "Importance"] / _soc_sum[mask]
-        # Relevance-gated weights (RL >= 25); treat None as True when RL missing
+        # Relevance-gated weights (RL >= 25)
         if "retained_by_relevance_rule" in comprehensive_tasks.columns:
-            # Set dtype once to avoid future fillna warnings
+            # ensure boolean dtype to avoid future downcast warnings
             comprehensive_tasks["retained_by_relevance_rule"] = comprehensive_tasks["retained_by_relevance_rule"].astype("boolean")
             mask_rl = comprehensive_tasks["retained_by_relevance_rule"].fillna(True)
-            sum_rl = (
-                comprehensive_tasks.where(mask_rl)
-                                   .groupby("SOC")["Importance"]
-                                   .transform("sum")
-            )
-            comprehensive_tasks["importance_weight_norm_rl"] = np.where(
-                (sum_rl > 0), comprehensive_tasks["Importance"] / sum_rl, 0.0
-            )
+            sum_rl = (comprehensive_tasks.where(mask_rl).groupby("SOC")["Importance"].transform("sum"))
+            comprehensive_tasks["importance_weight_norm_rl"] = np.where((sum_rl > 0), comprehensive_tasks["Importance"] / sum_rl, 0.0)
 
     # 14) Education Typical (modal RL category mapped to description) — SOC-level
     ete = read_onet_table(["Education, Training, and Experience.txt", "Education_Training_and_Experience.txt", "Education.txt"])
@@ -1188,24 +1135,23 @@ def main() -> None:
         rl_cat = etec[etec["ScaleID"].astype(str).str.upper().str.strip().eq("RL")][["Category","CategoryDescription"]].copy()
         rl_cat["Category"] = pd.to_numeric(rl_cat["Category"], errors="coerce").astype("Int64")
         rl_cat["CategoryDescription"] = rl_cat["CategoryDescription"].astype(str).str.strip()
-        education_map = (rl_cat.dropna(subset=["Category"]) \
-                               .drop_duplicates(["Category"]) \
-                               .set_index("Category")["CategoryDescription"] \
+        education_map = (rl_cat.dropna(subset=["Category"])
+                               .drop_duplicates(["Category"])
+                               .set_index("Category")["CategoryDescription"]
                                .to_dict())
     education_by_soc = None
     if ete is not None:
         ete = ete.rename(columns={"O*NET-SOC Code":"SOC","Scale ID":"ScaleID","Category":"Category","Data Value":"DataValue"})
-        rl = ete[ete["ScaleID"].astype(str).str.upper().eq("RL")].copy()
+        rl = ete[ete["ScaleID"].astype(str).str.upper().str.strip().eq("RL")].copy()
         if not rl.empty:
             rl["DataValue"] = pd.to_numeric(rl["DataValue"], errors="coerce")
-            rl["Category"] = pd.to_numeric(rl["Category"], errors="coerce")
-            # Stable tie-break: higher DataValue, then higher Category
+            rl["Category"] = pd.to_numeric(rl["Category"], errors="coerce").astype("Int64")
             rl = rl.sort_values(["SOC","DataValue","Category"], ascending=[True, False, False]).dropna(subset=["Category"])
             modal = rl.drop_duplicates(["SOC"], keep="first")[["SOC","Category","DataValue"]].copy()
-            modal["education_typical_category"] = pd.to_numeric(modal["Category"], errors="coerce").astype("Int64")
-            modal["education_typical_share"] = pd.to_numeric(modal["DataValue"], errors="coerce").astype(float)
+            modal["education_typical_category"] = modal["Category"]
+            modal["education_typical_share"] = modal["DataValue"].astype(float)
             modal["education_typical"] = modal["education_typical_category"].map(education_map)
-            # Robust fallback: if label missing, fall back to the category code as string
+            # robust fallback to code-as-string if label missing
             modal["education_typical"] = modal["education_typical"].fillna(
                 modal["education_typical_category"].astype("Int64").astype(str)
             )
@@ -1217,7 +1163,7 @@ def main() -> None:
         comprehensive_tasks["education_typical"] = None
         comprehensive_tasks["education_typical_share"] = None
 
-    # Provenance columns (filled later for final values)
+    # Provenance columns
     manifest_version = pd.Timestamp.utcnow().strftime("%Y%m%d") + "-v1"
     comprehensive_tasks["onetsrc_version"] = onet_version_env or "unspecified"
     comprehensive_tasks["model_name"] = MODEL_NAME
@@ -1236,10 +1182,8 @@ def main() -> None:
     # 15) Save manifest atomically and write meta/hash
     out_file = OUT / "sampled_tasks_comprehensive.csv"
     csv_sha = atomic_write_csv(comprehensive_tasks, out_file)
-    # write sha sidecar
     atomic_write_text(out_file.with_suffix(out_file.suffix + ".sha256"), csv_sha)
 
-    # Meta sidecar
     meta = {
         "manifest_path": str(out_file),
         "rows": int(len(comprehensive_tasks)),
@@ -1256,12 +1200,8 @@ def main() -> None:
         "code_fingerprint": CODE_FP,
         "generated_utc": pd.Timestamp.utcnow().isoformat(timespec="seconds"),
         "csv_sha256": csv_sha,
-        # Rarity (IDF-style) weight documentation
-        "rarity_weight_formula": "w = 1/log1p(prevalence_soc)",
-        "rarity_weight_columns": [
-            "task_dwa_idf_sum","task_iwa_idf_sum","task_gwa_idf_sum"
-        ],
     }
+
     # Optional edge views emission
     edge_views = []
     if os.getenv("EMIT_EDGE_VIEWS", "0") not in {"0", "", "false", "False"}:
@@ -1281,13 +1221,26 @@ def main() -> None:
             print("Warning: could not emit task_dwa.csv:", e)
         try:
             if 'link' in locals():
-                dig = link[["DWA_ID","IWA_ID","GWA_ID","IWA_Title","GWA_Title"]].drop_duplicates()
-                p = edges_dir / "dwa_iwa_gwa.csv"
-                atomic_write_csv(dig, p)
-                edge_views.append({"path": str(p), "rows": int(len(dig))})
-                print(f"🗂  Emitted edge view: {p} rows={len(dig)}")
+                task_iwa_edges = (link.merge(manifest_keys, on=["SOC","TaskID"], how="inner")
+                                       [["SOC","TaskID","IWA_ID","IWA_Title"]]
+                                       .dropna(subset=["IWA_ID"]).drop_duplicates())
+                p = edges_dir / "task_iwa.csv"
+                atomic_write_csv(task_iwa_edges, p)
+                edge_views.append({"path": str(p), "rows": int(len(task_iwa_edges))})
+                print(f"🗂  Emitted edge view: {p} rows={len(task_iwa_edges)}")
         except Exception as e:
-            print("Warning: could not emit dwa_iwa_gwa.csv:", e)
+            print("Warning: could not emit task_iwa.csv:", e)
+        try:
+            if 'link' in locals():
+                task_gwa_edges = (link.merge(manifest_keys, on=["SOC","TaskID"], how="inner")
+                                       [["SOC","TaskID","GWA_ID","GWA_Title"]]
+                                       .dropna(subset=["GWA_ID"]).drop_duplicates())
+                p = edges_dir / "task_gwa.csv"
+                atomic_write_csv(task_gwa_edges, p)
+                edge_views.append({"path": str(p), "rows": int(len(task_gwa_edges))})
+                print(f"🗂  Emitted edge view: {p} rows={len(task_gwa_edges)}")
+        except Exception as e:
+            print("Warning: could not emit task_gwa.csv:", e)
         try:
             rows_list = []
             if 'counts_tech' in locals():
@@ -1309,7 +1262,7 @@ def main() -> None:
                         "count": int(r.get("cnt", 0))
                     })
             if rows_list:
-                soc_unspsc = pd.DataFrame(rows_list, columns=["SOC","kind","family_code","family_title","count"]).dropna(subset=["family_code"]) 
+                soc_unspsc = pd.DataFrame(rows_list, columns=["SOC","kind","family_code","family_title","count"]).dropna(subset=["family_code"])
                 p = edges_dir / "soc_unspsc_counts.csv"
                 atomic_write_csv(soc_unspsc, p)
                 edge_views.append({"path": str(p), "rows": int(len(soc_unspsc))})
@@ -1330,35 +1283,17 @@ def main() -> None:
         soc_count = (comprehensive_tasks["SOC"] == soc).sum()
         occ_title = comprehensive_tasks.loc[comprehensive_tasks["SOC"] == soc, "OccTitleClean"].iloc[0] if soc_count > 0 else "Unknown"
         print(f"   {soc}: {soc_count:3d} tasks ({occ_title})")
+
     try:
         digital_share = comprehensive_tasks.groupby("SOC")["digital_amenable"].mean().to_dict()
-        # Plain importance mass in digital tasks
-        if "importance_weight_norm" in comprehensive_tasks.columns:
-            imp_mass_digital = (
-                comprehensive_tasks.loc[comprehensive_tasks["digital_amenable"]]
-                                     .groupby("SOC")["importance_weight_norm"]
-                                     .sum().astype(float).to_dict()
-            )
-        else:
-            imp_mass_digital = {}
-        # RL-gated importance mass in digital tasks
-        if "importance_weight_norm_rl" in comprehensive_tasks.columns:
-            imp_mass_digital_rl = (
-                comprehensive_tasks.loc[comprehensive_tasks["digital_amenable"]]
-                                     .groupby("SOC")["importance_weight_norm_rl"]
-                                     .sum().astype(float).to_dict()
-            )
-        else:
-            imp_mass_digital_rl = {}
+        # deprecation-free sums
+        imp_mass_digital = comprehensive_tasks.loc[comprehensive_tasks["digital_amenable"]].groupby("SOC")["importance_weight_norm"].sum().to_dict()
+        imp_mass_digital_rl = comprehensive_tasks.loc[comprehensive_tasks["digital_amenable"]].groupby("SOC")["importance_weight_norm_rl"].sum().to_dict()
         print("ℹ️  Digital share by SOC:", digital_share)
         print("ℹ️  Importance mass in digital tasks (plain) by SOC:", imp_mass_digital)
         print("ℹ️  Importance mass in digital tasks (RL≥25) by SOC:", imp_mass_digital_rl)
-        # Uncertainty mini-summary per SOC
         if "modality_uncertain" in comprehensive_tasks.columns:
-            unc = (
-                comprehensive_tasks.groupby("SOC")["modality_uncertain"]
-                                  .agg(uncertain_count="sum", total="count")
-            )
+            unc = comprehensive_tasks.groupby("SOC")["modality_uncertain"].agg(uncertain_count="sum", total="count")
             unc["uncertain_share"] = (unc["uncertain_count"] / unc["total"]).astype(float)
             unc_fmt = {soc: f"{int(r.uncertain_count)}/{int(r.total)} ({100.0*r.uncertain_share:.1f}%)" for soc, r in unc.iterrows()}
             print("🧾  Uncertainty by SOC:", unc_fmt)
@@ -1392,11 +1327,7 @@ def main() -> None:
         if unmapped_wc:
             sample = list(sorted(unmapped_wc))[:10]
             print(f"ℹ️  Work Context unmapped names (sample): {sample} (+{max(0,len(unmapped_wc)-10)} more)")
-        # Label REVIEW count
-        if "modality" in comprehensive_tasks.columns:
-            review_count = int((comprehensive_tasks["modality"].astype(str) == "REVIEW").sum())
-            print(f"🔍  Label REVIEW count: {review_count}")
-        # Edge-derived coverage and stats
+
         edge_cols = [
             "task_dwa_degree_soc_sum","task_iwa_degree_soc_sum","task_gwa_degree_soc_sum",
             "task_dwa_degree_soc_norm","task_iwa_degree_soc_norm","task_gwa_degree_soc_norm",
@@ -1405,7 +1336,7 @@ def main() -> None:
         ]
         present = {c: float(comprehensive_tasks[c].notna().mean()*100) if c in comprehensive_tasks.columns else 0.0 for c in edge_cols}
         print("🧷  Edge-derived columns non-null %:", {k: round(v,1) for k,v in present.items()})
-        # Degree sum stats and z-ranges
+
         def _stats_block(df, col, by="SOC"):
             out = {}
             for k, g in df.groupby(by):
@@ -1413,14 +1344,15 @@ def main() -> None:
                 if len(s):
                     out[k] = {"min": float(s.min()), "median": float(s.median()), "max": float(s.max())}
             return out
+
         print("🧷  DWA degree sum stats by SOC:", _stats_block(comprehensive_tasks, "task_dwa_degree_soc_sum"))
         print("🧷  IWA degree sum stats by SOC:", _stats_block(comprehensive_tasks, "task_iwa_degree_soc_sum"))
         print("🧷  GWA degree sum stats by SOC:", _stats_block(comprehensive_tasks, "task_gwa_degree_soc_sum"))
+
         for col in ["task_dwa_degree_soc_z","task_iwa_degree_soc_z","task_gwa_degree_soc_z"]:
-            if col in comprehensive_tasks.columns:
-                z = comprehensive_tasks[col].dropna()
-                if len(z):
-                    print(f"🧷  {col} overall range: [{float(z.min()):.2f}, {float(z.max()):.2f}]")
+            z = comprehensive_tasks[col].dropna()
+            if len(z):
+                print(f"🧷  {col} overall range: [{float(z.min()):.2f}, {float(z.max()):.2f}]")
     except Exception as e:
         print("⚠️  Sanity report error:", e)
 
