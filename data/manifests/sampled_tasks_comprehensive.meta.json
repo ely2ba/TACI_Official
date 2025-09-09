@@ -1,0 +1,40 @@
+{
+  "manifest_path": "data/manifests/sampled_tasks_comprehensive.csv",
+  "rows": 56,
+  "schema_version": "tlc_manifest_schema_v0.4",
+  "manifest_version": "20250909-v1",
+  "onetsrc_version": "30.0",
+  "unspsc_rollup_level": "FAMILY",
+  "unspsc_entropy_unit": "bits",
+  "source_files_used": [
+    "Alternate Titles.txt",
+    "Content Model Reference.txt",
+    "DWA Reference.txt",
+    "Education, Training, and Experience.txt",
+    "Emerging Tasks.txt",
+    "IWA Reference.txt",
+    "Job Zones.txt",
+    "Occupation Data.txt",
+    "Related Occupations.txt",
+    "Sample of Reported Titles.txt",
+    "Task Ratings.txt",
+    "Task Statements.txt",
+    "Tasks to DWAs.txt",
+    "Technology Skills.txt",
+    "Tools Used.txt",
+    "UNSPSC Reference.txt",
+    "Work Activities.txt",
+    "Work Context.txt"
+  ],
+  "model_name": "gpt-4.1-mini-2025-04-14",
+  "votes_per_task": 3,
+  "vote_seeds": [
+    1,
+    2,
+    3
+  ],
+  "prompt_md5": "cdfc2b20a631beaa5b557a9a248a0a37",
+  "code_fingerprint": "43478d54",
+  "generated_utc": "2025-09-09T15:47:39+00:00",
+  "csv_sha256": "b69649384d18cd15d9878b847b5b76ebe2751e1c59b3cd70dcedcbc460256298"
+}
