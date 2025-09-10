@@ -3,9 +3,9 @@ from __future__ import annotations
 
 """
 Builds a comprehensive, single-file manifest of O*NET tasks for selected SOCs (v30.0, TXT),
-enriching with ratings provenance, modality votes, digital amenability, DWA/IWA/GWA
-linkages, Emerging Tasks flags, Technology/Tools with UNSPSC roll-ups (FAMILY, entropy in bits),
-Job Zone/SVP, Work Context means (+6), Related Occupations, top Work Activities,
+enriching with ratings provenance, DWA/IWA/GWA linkages, Emerging Tasks flags,
+Technology/Tools with UNSPSC roll-ups (FAMILY, entropy in bits), Job Zone/SVP,
+Work Context means (+6), Related Occupations, top Work Activities,
 Alternate/Sample Titles (with canonicalized variants), and Education Typical (RL modal).
 
 Inputs expected under data/onet_raw (TXT for v30.0):
@@ -21,17 +21,13 @@ Inputs expected under data/onet_raw (TXT for v30.0):
 - (optional) Education, Training, and Experience.txt, Education, Training, and Experience Categories.txt
 
 Environment:
-- OPENAI_API_KEY (optional; if absent, offline labeling)
-- MODEL_NAME (optional; default below)
 - ONET_VERSION (optional; else read data/ONET_VERSION.txt)
-- OFFLINE_GRADER (truthy to force offline)
 - TITLES_LIMIT (cap titles per SOC; default 50)
 
 Outputs:
 - data/manifests/full/manifest_full.csv                        (atomic write)
 - data/manifests/full/manifest_full.csv.sha256                 (csv hash)
 - data/manifests/full/manifest_full.meta.json                  (provenance)
-- data/manifests/full/modality_cache_full.json                 (atomic write)
 """
 
 import hashlib
@@ -40,7 +36,6 @@ import math
 import os
 import random
 import re
-import time
 from collections import Counter
 from pathlib import Path
 from typing import Dict, List, Optional
@@ -64,34 +59,17 @@ try:
 except Exception:
     nlp = None
 
-try:
-    import openai  # pip install openai
-except Exception:
-    openai = None
-
-from tenacity import retry, wait_random_exponential, stop_after_attempt
-from tqdm import tqdm
+# Modality voting disabled: no OpenAI, retries, or progress bars needed
 
 # ── Paths ─────────────────────────────────────────────────────────────
 RAW = Path("data/onet_raw")
 OUT = Path("data/manifests")
 OUT.mkdir(parents=True, exist_ok=True)
-# Place cache alongside the manifest in the new folder
+# Location for comprehensive manifest
 OUT_FULL = Path("data/manifests/full")
 OUT_FULL.mkdir(parents=True, exist_ok=True)
-CACHE_JSON = OUT_FULL / "modality_cache_full.json"  # votes per (uid:model:prompt:ver:code)
 
 # ── Config ────────────────────────────────────────────────────────────
-DEFAULT_MODEL_NAME = "gpt-4.1-mini-2025-04-14"
-MODEL_NAME = os.getenv("MODEL_NAME", DEFAULT_MODEL_NAME)
-TEMPERATURE = 0.3
-VOTES_PER_TASK = 3
-SLEEP_MIN, SLEEP_MAX = 0.1, 0.3  # deterministic due to fixed seed
-
-# Allowed normalized labels
-ALLOWED = {"TEXT", "GUI", "VISION", "MANUAL", "INCONCLUSIVE"}
-FALLBACK_LABEL = "REVIEW"
-OFFLINE_LABEL = "UNLABELED"  # used when in offline mode
 
 # Pilot occupations (extend later if desired)
 PILOT_SOCs = [
@@ -109,29 +87,7 @@ SCHEMA_VERSION = os.getenv("SCHEMA_VERSION", "tlc_manifest_schema_v0.4")
 # Track which concrete files were read
 SOURCE_FILES_USED: set[str] = set()
 
-# ── System prompt (deterministic, one-token output) ───────────────────
-SYSTEM_PROMPT = """You label the PRIMARY interface modality needed for an AI system to complete a task.
-
-Return EXACTLY one token from: TEXT, GUI, VISION, MANUAL, INCONCLUSIVE.
-
-Definitions:
-- TEXT: The task can be completed using language-only I/O (reading/writing text). No on-screen navigation is essential.
-- GUI: The task requires operating software interfaces (clicking, typing into forms, selecting menus, navigating apps/sites).
-- VISION: The task requires visual inspection/recognition of images/objects (e.g., detect defects, read diagrams, identify components).
-- MANUAL: The task requires physical/manual activity, on-site presence, or non-digital manipulation (e.g., lift/install/repair/assemble/operate machinery).
-- INCONCLUSIVE: The task description is too ambiguous or lacks enough detail to decide.
-
-Tie-breakers:
-- If both reading/writing text AND navigating software are essential → GUI.
-- If any essential step requires visual inspection/recognition → VISION.
-- If physical/manual action is essential → MANUAL.
-- If none of the above clearly apply, prefer TEXT.
-- If still uncertain, label INCONCLUSIVE.
-
-Answer with only one of: TEXT, GUI, VISION, MANUAL, INCONCLUSIVE.
-"""
-
-# Code fingerprint and ONET version for cache keys
+# Code fingerprint and ONET version
 CODE_FP = hashlib.md5(Path(__file__).read_bytes()).hexdigest()[:8]
 ONET_VER_ENV = (os.getenv("ONET_VERSION") or "unspecified").strip()
 
@@ -203,48 +159,7 @@ def atomic_write_csv(df: pd.DataFrame, path: Path) -> str:
     os.replace(tmp, path)
     return sha
 
-# ── OpenAI call with drift guard ──────────────────────────────────────
-def chat_complete(client, **kw):
-    try:
-        return client.chat.completions.create(**kw)
-    except AttributeError:
-        return client.responses.create(**kw)
-
-def extract_text(resp) -> str:
-    try:
-        return (resp.choices[0].message.content or "").strip()
-    except Exception:
-        pass
-    try:
-        if hasattr(resp, "output") and resp.output:
-            parts = []
-            for block in resp.output:
-                for seg in getattr(block, "content", []) or []:
-                    if getattr(seg, "type", None) == "output_text":
-                        parts.append(getattr(seg, "text", ""))
-            if parts:
-                return "".join(parts).strip()
-    except Exception:
-        pass
-    return (str(resp) if resp is not None else "")
-
-@retry(wait=wait_random_exponential(min=1, max=20), stop=stop_after_attempt(6))
-def vote_once(client, statement: str, seed: int) -> str:
-    resp = chat_complete(
-        client,
-        model=MODEL_NAME,
-        temperature=TEMPERATURE,
-        seed=seed,
-        messages=[
-            {"role": "system", "content": SYSTEM_PROMPT},
-            {"role": "user", "content": statement.strip() or "Label this task."},
-        ],
-    )
-    raw = extract_text(resp)
-    label = normalize_label(raw)
-    if label not in (ALLOWED | {FALLBACK_LABEL}):
-        raise ValueError(f"Unexpected normalized label: {label} (raw: {raw})")
-    return label
+# Modality voting disabled
 
 # ── Title cleaning helpers ────────────────────────────────────────────
 def clean_title(raw: str) -> str:
@@ -304,24 +219,7 @@ def unique_by_canon_keep_first(seq: List[str], limit: int = 50) -> List[str]:
 def semijoin(vals: List[str]) -> str:
     return "; ".join([v for v in vals if isinstance(v, str) and v.strip()])
 
-# ── Label normalization ───────────────────────────────────────────────
-def normalize_label(ans: str) -> str:
-    if not ans:
-        return FALLBACK_LABEL
-    s = re.sub(r"[^A-Za-z]", "", ans).upper()
-    syn = {
-        "TEXTUAL": "TEXT", "LANGUAGE": "TEXT", "WRITING": "TEXT", "DOCUMENT": "TEXT",
-        "INTERFACE": "GUI", "UI": "GUI", "WEB": "GUI", "BROWSER": "GUI", "APP": "GUI",
-        "VISIONIMAGE": "VISION", "IMAGE": "VISION", "VISUAL": "VISION",
-        "PHYSICAL": "MANUAL", "HANDS": "MANUAL", "ONSITE": "MANUAL", "ON SITE": "MANUAL", "FIELD": "MANUAL",
-        "UNKNOWN": "INCONCLUSIVE", "UNCERTAIN": "INCONCLUSIVE", "AMBIGUOUS": "INCONCLUSIVE",
-        "MULTI": "INCONCLUSIVE", "MULTIMODAL": "INCONCLUSIVE",
-    }
-    if s in ALLOWED:
-        return s
-    if s in syn:
-        return syn[s]
-    return FALLBACK_LABEL
+# Modality voting disabled
 
 # ── UNSPSC helpers ───────────────────────────────────────────────────
 def unspsc_digits(x) -> Optional[str]:
@@ -1005,115 +903,7 @@ def main() -> None:
     else:
         comprehensive_tasks["top_work_activities"] = None
 
-    # 13) LLM modality classification (3 votes)
-    offline = bool(os.getenv("OFFLINE_GRADER")) or not os.getenv("OPENAI_API_KEY") or (openai is None)
-    cache = {}
-    if CACHE_JSON.exists():
-        try:
-            cache = json.loads(CACHE_JSON.read_text(encoding="utf-8"))
-            for k, v in list(cache.items()):
-                if isinstance(v, str):
-                    cache[k] = [v]
-        except Exception:
-            print(f"Warning: could not parse cache at {CACHE_JSON}, starting fresh.")
-            cache = {}
-
-    client = (openai.OpenAI(api_key=os.getenv("OPENAI_API_KEY")) if not offline else None)
-
-    PROMPT_MD5 = hashlib.md5(SYSTEM_PROMPT.encode()).hexdigest()
-    PROMPT_SALT = PROMPT_MD5[:8]
-    def cache_key_for(uid: str) -> str:
-        return f"{uid}:{MODEL_NAME}:{PROMPT_SALT}:{onet_version_env}:{CODE_FP}"
-
-    if offline:
-        print("⚠️  Offline voting: UNLABELED * VOTES_PER_TASK for all tasks (no API key or client).")
-    print(f"🔄  Classifying modality for {len(comprehensive_tasks)} tasks...")
-    vote_cols = [f"vote{i+1}" for i in range(VOTES_PER_TASK)]
-    all_votes: List[List[str]] = []
-    final_labels: List[str] = []
-
-    for row in tqdm(comprehensive_tasks.itertuples(index=False), total=len(comprehensive_tasks), desc="Classifying modality"):
-        uid = getattr(row, "uid")
-        stmt = (getattr(row, "TaskText", "") or "").strip()
-        key = cache_key_for(uid)
-
-        votes = None
-        if key in cache:
-            vv = cache[key]
-            if isinstance(vv, list) and len(vv) == VOTES_PER_TASK:
-                votes = vv
-
-        if votes is None:
-            if offline:
-                votes = [OFFLINE_LABEL] * VOTES_PER_TASK
-            else:
-                seeds = list(range(1, VOTES_PER_TASK + 1))
-                votes = [vote_once(client, stmt, seed) for seed in seeds]
-            cache[key] = votes
-            time.sleep(random.uniform(SLEEP_MIN, SLEEP_MAX))
-
-        c = Counter(votes)
-        top, freq = c.most_common(1)[0]
-        if freq >= 2 and top in (ALLOWED | {OFFLINE_LABEL}):
-            label = top
-        else:
-            allowed_votes = [v for v in votes if v in ALLOWED]
-            label = "INCONCLUSIVE" if (len(allowed_votes) >= 1 and len(set(allowed_votes)) > 1) else FALLBACK_LABEL
-        final_labels.append(label)
-        all_votes.append(votes)
-
-    try:
-        # Ensure the cache directory exists alongside the manifest
-        CACHE_JSON.parent.mkdir(parents=True, exist_ok=True)
-        atomic_write_text(CACHE_JSON, json.dumps(cache, indent=2))
-    except Exception as e:
-        print(f"Warning: could not write cache: {e}")
-
-    for i, col in enumerate(vote_cols):
-        comprehensive_tasks[col] = [vs[i] if len(vs) > i else None for vs in all_votes]
-
-    comprehensive_tasks["modality"] = final_labels
-    comprehensive_tasks["modality_agreement"] = comprehensive_tasks[vote_cols].apply(lambda r: Counter([x for x in r if x]).most_common(1)[0][1], axis=1)
-    comprehensive_tasks["modality_confidence"] = comprehensive_tasks["modality_agreement"] / VOTES_PER_TASK
-    modality_cat = CategoricalDtype(
-        categories=["TEXT", "GUI", "VISION", "MANUAL", "INCONCLUSIVE", "REVIEW", "UNLABELED"],
-        ordered=False,
-    )
-    comprehensive_tasks["modality"] = comprehensive_tasks["modality"].astype(modality_cat)
-    UNCERTAIN = {"INCONCLUSIVE", "REVIEW", "UNLABELED"}
-    comprehensive_tasks["modality_uncertain"] = comprehensive_tasks["modality"].isin(UNCERTAIN)
-    comprehensive_tasks["modality_disagreement"] = (comprehensive_tasks["modality_agreement"] < VOTES_PER_TASK) | comprehensive_tasks["modality_uncertain"]
-
-    # Derived flags
-    comprehensive_tasks["digital_amenable"] = comprehensive_tasks["modality"].isin({"TEXT", "GUI", "VISION"})
-    comprehensive_tasks["amenability_reason"] = comprehensive_tasks["modality"].map({
-        "TEXT": "Language-only I/O suffices.",
-        "GUI": "Requires operating software UI.",
-        "VISION": "Requires visual inspection/recognition.",
-        "MANUAL": "Requires physical/manual action.",
-        "INCONCLUSIVE": "Ambiguous task description.",
-        "REVIEW": "No majority; needs human review.",
-        "UNLABELED": "Offline mode; not labeled.",
-    })
-    code_map = {
-        "TEXT": "LANGUAGE_ONLY",
-        "GUI": "GUI_SOFTWARE",
-        "VISION": "VISUAL_PERCEPTION",
-        "MANUAL": "PHYSICAL_MANUAL",
-        "INCONCLUSIVE": "AMBIGUOUS",
-        "REVIEW": "REVIEW",
-        "UNLABELED": "UNLABELED",
-    }
-    comprehensive_tasks["amenability_code"] = comprehensive_tasks["modality"].map(code_map)
-
-    # Explicit stubs
-    comprehensive_tasks["needs_stub"] = comprehensive_tasks["modality"].isin({"MANUAL", "INCONCLUSIVE", "REVIEW", "UNLABELED"})
-    comprehensive_tasks["stub_type"] = comprehensive_tasks["modality"].map({
-        "MANUAL": "MANUAL",
-        "INCONCLUSIVE": "AMBIGUOUS",
-        "REVIEW": "REVIEW",
-        "UNLABELED": "UNLABELED",
-    }).fillna("NONE")
+    # 13) Modality voting disabled — no modality-related fields are computed
 
     # Normalize importance per SOC (weight for aggregation)
     if "Importance" in comprehensive_tasks.columns:
@@ -1171,9 +961,6 @@ def main() -> None:
     # Provenance columns
     manifest_version = pd.Timestamp.utcnow().strftime("%Y%m%d") + "-v1"
     comprehensive_tasks["onetsrc_version"] = onet_version_env or "unspecified"
-    comprehensive_tasks["model_name"] = MODEL_NAME
-    comprehensive_tasks["votes_per_task"] = VOTES_PER_TASK
-    comprehensive_tasks["vote_seeds"] = ",".join(map(str, range(1, VOTES_PER_TASK + 1)))
     comprehensive_tasks["generated_utc"] = pd.Timestamp.utcnow().isoformat(timespec="seconds")
     comprehensive_tasks["schema_version"] = SCHEMA_VERSION
     comprehensive_tasks["manifest_version"] = manifest_version
@@ -1181,7 +968,6 @@ def main() -> None:
     comprehensive_tasks["pipeline_stage"] = "sample_tasks_comprehensive"
     comprehensive_tasks["unspsc_rollup_level"] = UNSPSC_LEVEL
     comprehensive_tasks["unspsc_entropy_unit"] = UNSPSC_ENTROPY_UNIT
-    comprehensive_tasks["modality_prompt_md5"] = PROMPT_MD5
     comprehensive_tasks["code_fingerprint"] = CODE_FP
 
     # 15) Save manifest atomically and write meta/hash
@@ -1192,12 +978,21 @@ def main() -> None:
         "OccTitleClean": "occupation_canonical",
         "TaskText": "task_statement",
         "Importance": "importance",
-        "digital_amenable": "digitally_amenable",
         "onetsrc_version": "onet_version",
     }
     present_map = {k: v for k, v in rename_map.items() if k in df_out.columns}
     if present_map:
         df_out = df_out.rename(columns=present_map)
+    # Drop any residual modality/amenability fields if present (safety)
+    to_drop = [
+        "vote1","vote2","vote3",
+        "modality","modality_agreement","modality_confidence","modality_uncertain","modality_disagreement",
+        "digital_amenable","amenability_reason","amenability_code",
+        "needs_stub","stub_type",
+    ]
+    drop_cols = [c for c in to_drop if c in df_out.columns]
+    if drop_cols:
+        df_out = df_out.drop(columns=drop_cols)
 
     # Write comprehensive manifest to new path; ensure parent exists
     out_file = Path("data/manifests/full/manifest_full.csv")
@@ -1214,10 +1009,6 @@ def main() -> None:
         "unspsc_rollup_level": UNSPSC_LEVEL,
         "unspsc_entropy_unit": UNSPSC_ENTROPY_UNIT,
         "source_files_used": sorted(SOURCE_FILES_USED),
-        "model_name": MODEL_NAME,
-        "votes_per_task": VOTES_PER_TASK,
-        "vote_seeds": list(range(1, VOTES_PER_TASK + 1)),
-        "prompt_md5": PROMPT_MD5,
         "code_fingerprint": CODE_FP,
         "generated_utc": pd.Timestamp.utcnow().isoformat(timespec="seconds"),
         "csv_sha256": csv_sha,
@@ -1299,29 +1090,13 @@ def main() -> None:
     # 16) Summary stats
     print(f"✅  Generated {len(comprehensive_tasks)} tasks → {out_file}")
     print(f"🔐  CSV SHA-256: {csv_sha}")
-    modality_counts = Counter(comprehensive_tasks["modality"])
-    print(f"📊  Modality distribution: {dict(modality_counts)}")
     print("📈  Tasks by occupation:")
     for soc in PILOT_SOCs:
         soc_count = (comprehensive_tasks["SOC"] == soc).sum()
         occ_title = comprehensive_tasks.loc[comprehensive_tasks["SOC"] == soc, "OccTitleClean"].iloc[0] if soc_count > 0 else "Unknown"
         print(f"   {soc}: {soc_count:3d} tasks ({occ_title})")
 
-    try:
-        digital_share = comprehensive_tasks.groupby("SOC")["digital_amenable"].mean().to_dict()
-        # deprecation-free sums
-        imp_mass_digital = comprehensive_tasks.loc[comprehensive_tasks["digital_amenable"]].groupby("SOC")["importance_weight_norm"].sum().to_dict()
-        imp_mass_digital_rl = comprehensive_tasks.loc[comprehensive_tasks["digital_amenable"]].groupby("SOC")["importance_weight_norm_rl"].sum().to_dict()
-        print("ℹ️  Digital share by SOC:", digital_share)
-        print("ℹ️  Importance mass in digital tasks (plain) by SOC:", imp_mass_digital)
-        print("ℹ️  Importance mass in digital tasks (RL≥25) by SOC:", imp_mass_digital_rl)
-        if "modality_uncertain" in comprehensive_tasks.columns:
-            unc = comprehensive_tasks.groupby("SOC")["modality_uncertain"].agg(uncertain_count="sum", total="count")
-            unc["uncertain_share"] = (unc["uncertain_count"] / unc["total"]).astype(float)
-            unc_fmt = {soc: f"{int(r.uncertain_count)}/{int(r.total)} ({100.0*r.uncertain_share:.1f}%)" for soc, r in unc.iterrows()}
-            print("🧾  Uncertainty by SOC:", unc_fmt)
-    except Exception:
-        pass
+    # Modality-related summaries disabled
 
     try:
         if "importance_weight_norm" in comprehensive_tasks.columns:

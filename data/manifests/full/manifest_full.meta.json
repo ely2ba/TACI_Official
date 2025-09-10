@@ -1,0 +1,33 @@
+{
+  "manifest_path": "data/manifests/full/manifest_full.csv",
+  "rows": 56,
+  "schema_version": "tlc_manifest_schema_v0.4",
+  "manifest_version": "20250910-v1",
+  "onetsrc_version": "30.0",
+  "unspsc_rollup_level": "FAMILY",
+  "unspsc_entropy_unit": "bits",
+  "source_files_used": [
+    "Alternate Titles.txt",
+    "Content Model Reference.txt",
+    "DWA Reference.txt",
+    "Education, Training, and Experience Categories.txt",
+    "Education, Training, and Experience.txt",
+    "Emerging Tasks.txt",
+    "IWA Reference.txt",
+    "Job Zones.txt",
+    "Occupation Data.txt",
+    "Related Occupations.txt",
+    "Sample of Reported Titles.txt",
+    "Task Ratings.txt",
+    "Task Statements.txt",
+    "Tasks to DWAs.txt",
+    "Technology Skills.txt",
+    "Tools Used.txt",
+    "UNSPSC Reference.txt",
+    "Work Activities.txt",
+    "Work Context.txt"
+  ],
+  "code_fingerprint": "76ad5fcb",
+  "generated_utc": "2025-09-10T17:58:25+00:00",
+  "csv_sha256": "5fdf0868a03d2f9f9d3860f8d57775bfde6ef7f77c960ddfc363153bdf1e1700"
+}
