@@ -28,10 +28,10 @@ Environment:
 - TITLES_LIMIT (cap titles per SOC; default 50)
 
 Outputs:
-- data/manifests/sampled_tasks_comprehensive.csv               (atomic write)
-- data/manifests/sampled_tasks_comprehensive.csv.sha256        (csv hash)
-- data/manifests/sampled_tasks_comprehensive.meta.json         (provenance)
-- data/manifests/modality_cache_comprehensive.json             (atomic write)
+- data/manifests/full/manifest_full.csv                        (atomic write)
+- data/manifests/full/manifest_full.csv.sha256                 (csv hash)
+- data/manifests/full/manifest_full.meta.json                  (provenance)
+- data/manifests/full/modality_cache_full.json                 (atomic write)
 """
 
 import hashlib
@@ -76,7 +76,10 @@ from tqdm import tqdm
 RAW = Path("data/onet_raw")
 OUT = Path("data/manifests")
 OUT.mkdir(parents=True, exist_ok=True)
-CACHE_JSON = OUT / "modality_cache_comprehensive.json"  # votes per (uid:model:prompt:ver:code)
+# Place cache alongside the manifest in the new folder
+OUT_FULL = Path("data/manifests/full")
+OUT_FULL.mkdir(parents=True, exist_ok=True)
+CACHE_JSON = OUT_FULL / "modality_cache_full.json"  # votes per (uid:model:prompt:ver:code)
 
 # ── Config ────────────────────────────────────────────────────────────
 DEFAULT_MODEL_NAME = "gpt-4.1-mini-2025-04-14"
@@ -1060,6 +1063,8 @@ def main() -> None:
         all_votes.append(votes)
 
     try:
+        # Ensure the cache directory exists alongside the manifest
+        CACHE_JSON.parent.mkdir(parents=True, exist_ok=True)
         atomic_write_text(CACHE_JSON, json.dumps(cache, indent=2))
     except Exception as e:
         print(f"Warning: could not write cache: {e}")
@@ -1180,8 +1185,24 @@ def main() -> None:
     comprehensive_tasks["code_fingerprint"] = CODE_FP
 
     # 15) Save manifest atomically and write meta/hash
-    out_file = OUT / "sampled_tasks_comprehensive.csv"
-    csv_sha = atomic_write_csv(comprehensive_tasks, out_file)
+    # Cosmetic-only: rename selected columns at save-time (output only)
+    df_out = comprehensive_tasks.copy()
+    rename_map = {
+        "OccTitleRaw": "occupation_raw",
+        "OccTitleClean": "occupation_canonical",
+        "TaskText": "task_statement",
+        "Importance": "importance",
+        "digital_amenable": "digitally_amenable",
+        "onetsrc_version": "onet_version",
+    }
+    present_map = {k: v for k, v in rename_map.items() if k in df_out.columns}
+    if present_map:
+        df_out = df_out.rename(columns=present_map)
+
+    # Write comprehensive manifest to new path; ensure parent exists
+    out_file = Path("data/manifests/full/manifest_full.csv")
+    out_file.parent.mkdir(parents=True, exist_ok=True)
+    csv_sha = atomic_write_csv(df_out, out_file)
     atomic_write_text(out_file.with_suffix(out_file.suffix + ".sha256"), csv_sha)
 
     meta = {
@@ -1271,7 +1292,9 @@ def main() -> None:
             print("Warning: could not emit soc_unspsc_counts.csv:", e)
     if edge_views:
         meta["edge_views"] = edge_views
-    atomic_write_text(OUT / "sampled_tasks_comprehensive.meta.json", json.dumps(meta, indent=2))
+    # Write meta JSON next to the manifest with a matching name
+    meta_path = out_file.with_suffix(".meta.json")
+    atomic_write_text(meta_path, json.dumps(meta, indent=2))
 
     # 16) Summary stats
     print(f"✅  Generated {len(comprehensive_tasks)} tasks → {out_file}")

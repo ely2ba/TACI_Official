@@ -2,20 +2,20 @@ SOC,kind,family_code,family_title,count
 23-2011.00,tech,43230000,Software,99
 43-4051.00,tech,43230000,Software,113
 51-9061.00,tech,43230000,Software,42
-23-2011.00,tool,43210000,Computer Equipment and Accessories,6
-23-2011.00,tool,44100000,Office machines and their supplies and accessories,2
-43-4051.00,tool,43190000,Communications Devices and Accessories,3
-43-4051.00,tool,43210000,Computer Equipment and Accessories,3
-43-4051.00,tool,43220000,Data Voice or Multimedia Network Equipment or Platforms and Accessories,7
-43-4051.00,tool,44100000,Office machines and their supplies and accessories,1
-43-4051.00,tool,52160000,Consumer electronics,1
-51-9061.00,tool,20120000,Oil and gas drilling and exploration equipment,1
-51-9061.00,tool,24100000,Material handling machinery and equipment,3
-51-9061.00,tool,26140000,Atomic and nuclear energy machinery and equipment,1
-51-9061.00,tool,31240000,Industrial optics,1
-51-9061.00,tool,39120000,Electrical equipment and components and supplies,1
-51-9061.00,tool,40150000,Industrial pumps and compressors,1
-51-9061.00,tool,41100000,Laboratory and scientific equipment,2
-51-9061.00,tool,41110000,Measuring and observing and testing instruments,75
-51-9061.00,tool,43210000,Computer Equipment and Accessories,2
-51-9061.00,tool,44100000,Office machines and their supplies and accessories,1
+23-2011.00,tool,43210000,,6
+23-2011.00,tool,44100000,,2
+43-4051.00,tool,43190000,,3
+43-4051.00,tool,43210000,,3
+43-4051.00,tool,43220000,,7
+43-4051.00,tool,44100000,,1
+43-4051.00,tool,52160000,,1
+51-9061.00,tool,20120000,,1
+51-9061.00,tool,24100000,,3
+51-9061.00,tool,26140000,,1
+51-9061.00,tool,31240000,,1
+51-9061.00,tool,39120000,,1
+51-9061.00,tool,40150000,,1
+51-9061.00,tool,41100000,,2
+51-9061.00,tool,41110000,,75
+51-9061.00,tool,43210000,,2
+51-9061.00,tool,44100000,,1

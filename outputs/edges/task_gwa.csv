@@ -1,0 +1,68 @@
+SOC,TaskID,GWA_ID,GWA_Title
+23-2011.00,1636,4.A.1.a.1,Getting Information
+23-2011.00,1638,4.A.4.a.3,Communicating with People Outside the Organization
+23-2011.00,1639,4.A.4.b.4,"Guiding, Directing, and Motivating Subordinates"
+23-2011.00,1641,4.A.3.b.6,Documenting/Recording Information
+23-2011.00,1642,4.A.2.a.1,"Judging the Qualities of Objects, Services, or People"
+23-2011.00,1642,4.A.4.c.3,Monitoring and Controlling Resources
+23-2011.00,18491,4.A.3.b.6,Documenting/Recording Information
+23-2011.00,18492,4.A.2.a.4,Analyzing Data or Information
+23-2011.00,18492,4.A.3.b.6,Documenting/Recording Information
+23-2011.00,18493,4.A.4.a.2,"Communicating with Supervisors, Peers, or Subordinates"
+23-2011.00,18494,4.A.4.c.1,Performing Administrative Activities
+23-2011.00,18496,4.A.1.a.1,Getting Information
+23-2011.00,18496,4.A.4.a.7,Resolving Conflicts and Negotiating with Others
+23-2011.00,21062,4.A.1.a.1,Getting Information
+23-2011.00,23994,4.A.3.b.6,Documenting/Recording Information
+43-4051.00,18565,4.A.4.a.1,Interpreting the Meaning of Information for Others
+43-4051.00,2578,4.A.3.b.6,Documenting/Recording Information
+43-4051.00,2579,4.A.4.a.8,Performing for or Working Directly with the Public
+43-4051.00,2579,4.A.4.c.1,Performing Administrative Activities
+43-4051.00,2580,4.A.4.a.8,Performing for or Working Directly with the Public
+43-4051.00,2581,4.A.4.a.3,Communicating with People Outside the Organization
+43-4051.00,2582,4.A.4.a.5,Assisting and Caring for Others
+43-4051.00,2583,4.A.2.b.1,Making Decisions and Solving Problems
+43-4051.00,2583,4.A.4.c.3,Monitoring and Controlling Resources
+43-4051.00,2584,4.A.3.b.6,Documenting/Recording Information
+43-4051.00,2585,4.A.4.a.8,Performing for or Working Directly with the Public
+43-4051.00,2586,4.A.4.a.6,Selling or Influencing Others
+43-4051.00,2587,4.A.2.a.3,Evaluating Information to Determine Compliance with Standards
+43-4051.00,2589,4.A.2.a.2,Processing Information
+43-4051.00,2589,4.A.4.c.1,Performing Administrative Activities
+43-4051.00,2591,4.A.4.b.6,Providing Consultation and Advice to Others
+51-9061.00,12472,4.A.2.a.1,"Judging the Qualities of Objects, Services, or People"
+51-9061.00,12474,4.A.1.b.3,"Estimating the Quantifiable Characteristics of Products, Events, or Information"
+51-9061.00,12477,4.A.3.b.6,Documenting/Recording Information
+51-9061.00,12478,4.A.1.b.1,"Identifying Objects, Actions, and Events"
+51-9061.00,12480,4.A.1.b.3,"Estimating the Quantifiable Characteristics of Products, Events, or Information"
+51-9061.00,12481,4.A.1.b.2,"Inspecting Equipment, Structures, or Materials"
+51-9061.00,12482,4.A.3.a.2,Handling and Moving Objects
+51-9061.00,12484,4.A.1.b.2,"Inspecting Equipment, Structures, or Materials"
+51-9061.00,12485,4.A.3.b.6,Documenting/Recording Information
+51-9061.00,12486,4.A.1.a.2,"Monitoring Processes, Materials, or Surroundings"
+51-9061.00,12487,4.A.3.a.2,Handling and Moving Objects
+51-9061.00,12488,4.A.3.a.1,Performing General Physical Activities
+51-9061.00,12488,4.A.3.b.4,Repairing and Maintaining Mechanical Equipment
+51-9061.00,12491,4.A.1.b.2,"Inspecting Equipment, Structures, or Materials"
+51-9061.00,12491,4.A.3.a.2,Handling and Moving Objects
+51-9061.00,12493,4.A.2.a.1,"Judging the Qualities of Objects, Services, or People"
+51-9061.00,12493,4.A.2.a.2,Processing Information
+51-9061.00,12495,4.A.3.a.2,Handling and Moving Objects
+51-9061.00,12497,4.A.4.b.3,Training and Teaching Others
+51-9061.00,12497,4.A.4.b.6,Providing Consultation and Advice to Others
+51-9061.00,19920,4.A.1.b.2,"Inspecting Equipment, Structures, or Materials"
+51-9061.00,20298,4.A.1.a.1,Getting Information
+51-9061.00,20299,4.A.4.a.2,"Communicating with Supervisors, Peers, or Subordinates"
+51-9061.00,20300,4.A.4.b.6,Providing Consultation and Advice to Others
+51-9061.00,20301,4.A.3.a.1,Performing General Physical Activities
+51-9061.00,20301,4.A.3.b.4,Repairing and Maintaining Mechanical Equipment
+51-9061.00,20302,4.A.1.b.2,"Inspecting Equipment, Structures, or Materials"
+51-9061.00,20303,4.A.1.b.2,"Inspecting Equipment, Structures, or Materials"
+51-9061.00,20304,4.A.3.a.2,Handling and Moving Objects
+51-9061.00,20305,4.A.3.a.1,Performing General Physical Activities
+51-9061.00,20306,4.A.1.a.2,"Monitoring Processes, Materials, or Surroundings"
+51-9061.00,20307,4.A.1.a.2,"Monitoring Processes, Materials, or Surroundings"
+51-9061.00,20308,4.A.2.a.1,"Judging the Qualities of Objects, Services, or People"
+51-9061.00,20309,4.A.1.b.3,"Estimating the Quantifiable Characteristics of Products, Events, or Information"
+51-9061.00,20310,4.A.3.a.2,Handling and Moving Objects
+51-9061.00,20311,4.A.2.a.1,"Judging the Qualities of Objects, Services, or People"
