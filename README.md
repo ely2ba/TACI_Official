@@ -1,611 +1,370 @@
-# TACI (Task-AI Capability Index) - Alpha Showcase
-
-A novel research framework establishing systematic methodology for evaluating AI automation potential across professional occupations through statistically rigorous 5-phase assessment pipeline. TACI provides the first comprehensive benchmark for measuring AI model capabilities on real-world occupational tasks with production-grade engineering and academic rigor.
-
-> **🚧 Alpha Version**: This is a demonstration/showcase version of TACI. The internal production system includes 40+ occupations, 15+ model providers, and advanced experimental capabilities.
-
-## Overview
-
-TACI evaluates AI models through **7,600+ lines of research-grade Python** implementing:
-- **Multi-modal assessment** across TEXT, GUI, and VISION tasks with computer vision IoU scoring
-- **Statistical rigor** via 3-vote self-consistency validation and bootstrap confidence intervals  
-- **Production-scale orchestration** of Anthropic Claude, OpenAI GPT, Google Gemini, and Meta Llama APIs
-- **Systematic evaluation methodology** through 5-phase pipeline with weighted composite scoring
-- **Economic impact modeling** for automation potential across 20+ professional occupations
+Here’s a clean, meticulous replacement README that matches the **current TACI architecture** and your **preferred skeleton** (as reflected in the new `sample_tasks.py` and the gameplan). It’s written to be copy-paste ready.
 
 ---
 
-# 📂 Reviewer’s Guide
+# TACI (Task-AI Capability Index) — MVP v0.4
 
-This repository is large (7k+ LOC) because it’s a full research pipeline.
-For a quick review of coding style and methodology, here are **3 compact entry points**:
+A reproducible research pipeline to measure model capability on real occupational tasks derived from O\*NET.
+This MVP focuses on a **comprehensive manifest** for pilot SOCs, phase-gated validation, and publication-grade provenance.
 
----
-
-### 1️⃣ Rubric-Based Scoring
-
-**File:** [`src/evaluation/phase_03_rubric/rubric_grader_paralegal.py`](src/evaluation/phase_03_rubric/rubric_grader_paralegal.py)
-
-🔎 *Highlights:*
-
-* Six-dimensional rubric with **3-vote self-consistency** (deterministic seeds)
-* **Contradiction detection** + automatic downgrading of weak justifications
-* Weighted composite scoring using **AHP methodology**
-* **MD5 caching** for reproducible runs
+> Scope: This repository builds a **single, comprehensive task manifest** for pilot SOCs, then feeds that manifest into prompt generation and Phase 0–4 evaluation. The manifest is the source of truth for sampling, modality, and rich task/occupation enrichments.
 
 ---
 
-### 2️⃣ Data Pipeline & Sampling
+## Table of Contents
 
-**File:** [`src/data_pipeline/sampling/sample_tasks.py`](src/data_pipeline/sampling/sample_tasks.py)
-
-🔎 *Highlights:*
-
-* **NLP cleaning** of messy task titles (spaCy, POS tagging)
-* Deterministic **hashing for reproducible task IDs**
-* Cached modality classification (consensus via GPT-4)
-* Retry logic + multi-threaded orchestration with full error recovery
-
----
-
-### 3️⃣ Schema + Vision Validation
-
-**File:** [`src/evaluation/phase_01_schema/phase_01_vision.py`](src/evaluation/phase_01_schema/phase_01_vision.py)
-
-🔎 *Highlights:*
-
-* **JSON schema validation** combined with **IoU scoring** for bounding boxes
-* Unified parsing across multiple vendors
-* Configurable **thresholding** for statistical rigor
-* Graceful error recovery for edge cases
+1. Quick Start
+2. Repository Structure (Preferred Skeleton)
+3. Data Requirements (O\*NET v30.0 TXT preferred)
+4. Building the Comprehensive Manifest
+5. Manifest Outputs & Provenance
+6. Column Glossary (Comprehensive Manifest)
+7. Prompt Generation & Evaluation Phases (v0.4)
+8. Reproducibility, Caching & Determinism
+9. Acceptance Checks & Sanity Tests
+10. Known Limitations (MVP)
+11. Changelog from “Alpha Showcase”
+12. Citation & License
 
 ---
 
-### 🧭 Design Principles
+## 1) Quick Start
 
-✔ **Auditability:** deterministic seeds, reproducible manifests, MD5 persistence
-✔ **Rigor:** bootstrap uncertainty, schema enforcement, validation thresholds
-✔ **Separation of concerns:** clear layers for data → validation → scoring
-✔ **Resilience:** retry/backoff, caching, graceful degradation
+Install and prepare:
 
----
+```bash
+# Python
+pip install -r requirements.txt
+python -m spacy download en_core_web_sm  # optional; improves title cleaning
 
-
-# System Architecture & Workflow
-
-```
-═══════════════════════════════════════════════════════════════════════════════════════════════════
-                                    DATA INGESTION STAGE                                          
-═══════════════════════════════════════════════════════════════════════════════════════════════════
-
-    ┌─────────────────┐     ┌─────────────────┐     ┌──────────────────┐
-    │Task_Statements  │     │ Task_Ratings    │     │Occupation_Data   │
-    │     .txt        │     │     .txt        │     │     .txt         │
-    └────────┬────────┘     └────────┬────────┘     └────────┬─────────┘
-             │                       │                        │
-             ▼                       ▼                        ▼
-    ┌─────────────────┐     ┌─────────────────┐     ┌──────────────────┐
-    │  Extract Tasks  │     │ Extract Ratings │     │Extract Occupation│
-    │                 │     │                 │     │     Titles       │
-    └────────┬────────┘     └────────┬────────┘     └────────┬─────────┘
-             │                       │                        │
-             └───────────┬───────────┘                        │
-                         ▼                                     │
-              ┌──────────────────────────┐                    │
-              │  Merge Tasks + Ratings   │                    │
-              │  on SOC + tmdTaskID      │◄───────────────────┘
-              └──────────┬───────────────┘
-                         ▼
-              ┌──────────────────────────┐
-              │ Join Occupation Titles   │
-              │     to Task SOCs         │
-              └──────────┬───────────────┘
-                         ▼
-              ┌──────────────────────────┐
-              │ Clean/Standardize Titles │
-              └──────────┬───────────────┘
-                         ▼
-              ┌──────────────────────────┐
-              │  Assign LLM (tmdSOC-     │
-              │        Twist)            │
-              └──────────┬───────────────┘
-                         ▼
-              ┌──────────────────────────┐
-              │ Assign Task Importance   │
-              └──────────┬───────────────┘
-                         ▼
-              ┌──────────────────────────┐
-              │   Filter Target SOCs     │
-              └──────────┬───────────────┘
-                         ▼
-              ┌──────────────────────────┐
-              │     Write Manifest:      │
-              │  sampled_tasks.csv       │
-              └──────────┬───────────────┘
-                         ▼
-              ┌──────────────────────────┐
-              │   Parse Manifest CSV     │
-              └──────────┬───────────────┘
-                         │
-═══════════════════════════╪═══════════════════════════════════════════════════════════════════════
-                           ▼            PROMPT GENERATION STAGE                                    
-═══════════════════════════════════════════════════════════════════════════════════════════════════
-
-              ┌──────────────────────────┐
-              │    For Each Task        │
-              └──────────┬───────────────┘
-                         ▼
-              ┌──────────────────────────┐
-              │   For Each Modality     │
-              └──────────┬───────────────┘
-                         ▼
-              ┌──────────────────────────┐
-              │ For Each Prompt Variant │
-              │      (v0, v1, v2)          │
-              └──────────┬───────────────┘
-                         │
-         ┌───────────────┼───────────────┬───────────────┐
-         ▼               ▼               ▼               ▼
-   ┌──────────┐    ┌──────────┐    ┌──────────┐    ┌──────────┐
-   │   Make   │    │   Make   │    │   Make   │    │   Make   │
-   │   TEXT   │    │   GUI    │    │  VISION  │    │  MANUAL  │
-   │  Prompt  │    │ Prompt + │    │ Prompt + │    │  Prompt  │
-   │          │    │selectors │    │  images  │    │          │
-   └─────┬────┘    └─────┬────┘    └─────┬────┘    └─────┬────┘
-         ▼               ▼               ▼               ▼
-   ┌──────────┐    ┌──────────┐    ┌──────────┐    ┌──────────┐
-   │  Save to │    │  Save to │    │  Save to │    │  Save to │
-   │ prompts/ │    │ prompts/ │    │ prompts/ │    │ prompts/ │
-   │   text   │    │   gui    │    │  vision  │    │  manual  │
-   └─────┬────┘    └─────┬────┘    └─────┬────┘    └─────┬────┘
-         │               │               │               │
-═════════╪═══════════════╪═══════════════╪═══════════════╪═════════════════════════════════════════
-         └───────────────┴───────────────┴───────────────┘
-                                 ▼      INFERENCE LOOP                                            
-═══════════════════════════════════════════════════════════════════════════════════════════════════
-
-              ┌──────────────────────────┐
-              │ For Each Model Provider │
-              └──────────┬───────────────┘
-                         ▼
-              ┌──────────────────────────┐
-              │    For Each Model       │
-              └──────────┬───────────────┘
-                         ▼
-              ┌──────────────────────────┐
-              │ For Each Modality (loop)│
-              └──────────┬───────────────┘
-                         ▼
-              ┌──────────────────────────┐
-              │  For Each Prompt File   │
-              └──────────┬───────────────┘
-                         ▼
-              ┌──────────────────────────┐
-              │  Attach Modality Extras │
-              │    (by archetype)       │
-              └──────────┬───────────────┘
-                         │
-            ┌────────────┴────────────┐
-            ▼                         ▼
-   ┌─────────────────┐      ┌─────────────────┐
-   │   If VISION:    │      │    If GUI:      │
-   │ Attach images   │      │Attach selectors │
-   │(auto by vision  │      │  (auto by GUI   │
-   │  archetype)     │      │   archetype)    │
-   └────────┬────────┘      └────────┬────────┘
-            └────────────┬────────────┘
-                         ▼
-              ┌──────────────────────────┐
-              │     Call Model API      │
-              └──────────┬───────────────┘
-                         ▼
-              ┌──────────────────────────┐
-              │  Log meta (buttons,     │
-              │     temp, etc)          │
-              └──────────┬───────────────┘
-                         ▼
-              ┌──────────────────────────┐
-              │   Store to results/     │
-              └──────────┬───────────────┘
-                         │
-═══════════════════════════╪═══════════════════════════════════════════════════════════════════════
-                           ▼        VALIDATION & QUALITY CHECKS                                    
-═══════════════════════════════════════════════════════════════════════════════════════════════════
-
-              ┌──────────────────────────┐
-              │  Wrapper Strict Check   │
-              └──────────┬───────────────┘
-                         │
-            ┌────────────┴────────────┐
-            ▼                         ▼
-   ┌─────────────────────┐  ┌──────────────────────┐
-   │wrapper_text_gui_per │  │ bad_outputs_strict   │
-   │    _output.csv      │  │       .csv           │
-   └─────────────────────┘  └──────────────────────┘
-                         │
-                         ▼
-              ┌──────────────────────────┐
-              │ Wrapper Rescore Check   │
-              └──────────┬───────────────┘
-                         │
-         ┌───────────────┴───────────────┐
-         ▼                               ▼
-   ┌──────────────┐              ┌──────────────┐
-   │Schema (Text/ │              │    Schema    │
-   │GUI) Strict   │              │   (Vision)   │
-   └──────┬───────┘              │    Strict    │
-          ▼                      └──────┬───────┘
-   ┌──────────────┐                     ▼
-   │Schema (Text/ │              ┌──────────────┐
-   │GUI) Rescored │              │    Schema    │
-   └──────┬───────┘              │   (Vision)   │
-          ▼                      │   Rescored   │
-   ┌──────────────┐              └──────┬───────┘
-   │schema_text_  │                     ▼
-   │failures.csv  │              ┌──────────────┐
-   └──────────────┘              │   vision_    │
-          │                      │failures.csv  │
-          │                      └──────────────┘
-          │                             │
-          └──────────┬──────────────────┘
-                     ▼
-           ┌──────────────────┐
-           │  Safety Strict   │
-           └────────┬─────────┘
-                    ▼
-           ┌──────────────────┐
-           │ Safety Rescored  │
-           └────────┬─────────┘
-                    ▼
-           ┌──────────────────┐
-           │Safety fail log   │
-           └────────┬─────────┘
-                    ▼
-           ┌──────────────────┐
-           │Candidate Filter: │
-           │ pass schema +    │
-           │    safety        │
-           └────────┬─────────┘
-                    ▼
-           ┌──────────────────┐
-           │   phase_03_      │
-           │candidates.csv    │
-           └────────┬─────────┘
-                    ▼
-           ┌──────────────────┐
-           │ Rubric Grader    │
-           │(e.g. GPT-4o-mini)│
-           └────────┬─────────┘
-                    ▼
-           ┌──────────────────┐
-           │phase_03_rubric_  │
-           │ per_output.csv   │
-           └────────┬─────────┘
-                    │
-═══════════════════════╪═══════════════════════════════════════════════════════════════════════════
-                       ▼           AGGREGATION STAGE                                              
-═══════════════════════════════════════════════════════════════════════════════════════════════════
-
-         ┌──────────────────────────────────┐
-         │ Combine/merge all pre-phase      │◄──┐
-         │         outputs                  │   │
-         └────────────┬─────────────────────┘   │
-                      ▼                          │
-         ┌──────────────────────────────────┐   │
-         │    master_per_output.csv         │   │
-         └────────────┬─────────────────────┘   │
-                      ▼                          │ (All previous outputs feed here)
-         ┌──────────────────────────────────┐   │
-         │  Aggregate completions/models/   │   │
-         │    occupation summaries          │   │
-         └────────────┬─────────────────────┘   │
-                      ▼                          │
-         ┌──────────────────────────────────┐   │
-         │ phase_04_composite_per_output    │───┘
-         │            .csv                  │
-         └────────────┬─────────────────────┘
-                      │
-═══════════════════════╪═══════════════════════════════════════════════════════════════════════════
-                      ▼        DOWNSTREAM ARTIFACTS                                               
-═══════════════════════════════════════════════════════════════════════════════════════════════════
-
-         ┌────────────┴────────────┬────────────────┐
-         ▼                         ▼                ▼
-   ┌──────────────┐      ┌──────────────┐   ┌──────────────┐
-   │    task_     │      │  job_level_  │   │ automation_  │
-   │ capability_  │      │  scores.csv  │   │classification│
-   │  scores.csv  │      │              │   │    .csv      │
-   └──────┬───────┘      └──────┬───────┘   └──────┬───────┘
-          └──────────────────────┼──────────────────┘
-                                 ▼
-                   ┌─────────────────────────────┐
-                   │  Build occupation-panel     │
-                   │ (TACI + skills/important/  │
-                   │          etc)               │
-                   └─────────────┬───────────────┘
-                                 ▼
-                   ┌─────────────────────────────┐
-                   │   occupations_panel.csv     │
-                   └─────────────┬───────────────┘
-                                 ▼
-                   ┌─────────────────────────────┐
-                   │     Do/Exhibit StudyN       │
-                   └─────────────┬───────────────┘
-                                 ▼
-                   ┌─────────────────────────────┐
-                   │   Analyse tables/plots      │
-                   └─────────────────────────────┘
-
-═══════════════════════════════════════════════════════════════════════════════════════════════════
+# Minimal env (MODEL_NAME is optional; OPENAI_API_KEY optional for offline mode)
+export ONET_VERSION="30.0"
+export MODEL_NAME="gpt-4.1-mini-2025-04-14"   # default in code
+# export OPENAI_API_KEY="..."                  # omit => offline labeling
+# export OFFLINE_GRADER=1                      # force offline voting if desired
 ```
 
-## Legend
+Build the manifest (pilot SOCs only):
 
-- `┌─────┐` = Process/Action boxes
-- `▼ ▲ ◄ ►` = Flow direction arrows  
-- `───` = Connections between processes
-- `═══` = Stage separators
-- Files ending in `.txt` or `.csv` = Data files
-- Indented boxes = Sub-processes or outputs
-
-## Directory Structure
-
-```
-TACI_Official/
-├── README.md                           # This file - project overview and documentation
-├── LICENSE                             # Project license
-├── requirements.txt                    # Python dependencies
-├── PATH_MAPPING.py                     # Path mapping utilities for reorganization
-├── MIGRATION_*.md                      # Migration and reorganization documentation
-├── REORGANIZATION_PLAN.md              # Detailed plan for code restructuring
-├── SAFE_REORGANIZATION_PLAN.md         # Safe migration strategy
-│
-├── assets/                             # Static assets and reference images
-│   └── images/                         # Images organized by archetype
-│       ├── chest_xray/                 # Medical imaging samples (2 files)
-│       ├── classification/             # Classification task images (2 files)
-│       └── parcel_qc/                  # Quality control images (2 files)
-│
-├── ci/                                 # Continuous integration configuration
-│
-├── config/                             # Configuration files
-│   ├── archetype_rules.yml             # GUI task archetype classification rules
-│   ├── gui_selectors.json              # GUI element selectors for automation
-│   └── vision_archetypes.yml           # VISION task archetype classification rules
-│
-├── dashboard/                          # Web dashboard components (if applicable)
-│
-├── data/                               # Data storage and manifests
-│   ├── labour/                         # Labor economics data
-│   ├── manifests/                      # Task manifests and metadata
-│   │   ├── modality_cache*.json        # Cached modality classifications
-│   │   └── sampled_tasks_comprehensive.csv # Main task manifest
-│   ├── onet_raw/                       # Raw O*NET occupational data
-│   │   ├── Occupation_Data.txt         # O*NET occupation definitions
-│   │   ├── Task_Ratings.txt            # Task importance ratings
-│   │   └── Task_Statements.txt         # Task descriptions
-│   ├── panel/                          # Panel data for analysis
-│   └── vision_demo/                    # Vision task demonstration data
-│
-├── docs/                               # Documentation
-│   ├── README.md                       # Additional documentation
-│   ├── TACI_AdvisorBrief_v01.pdf      # Project brief and methodology
-│   ├── api/                            # API documentation
-│   ├── examples/                       # Usage examples
-│   └── tutorials/                      # Step-by-step tutorials
-│
-├── outputs/                            # Model evaluation results
-│   ├── anthropic/                      # Claude model outputs
-│   │   ├── claude-3-5-sonnet-20240620/ # Organized by model version
-│   │   └── claude-3-opus-20240229/     # Multiple evaluation runs per task
-│   ├── gemini/                         # Google Gemini outputs
-│   │   ├── gemini-2.0-flash/          # Multiple model versions
-│   │   └── gemini-2.5-flash-preview-05-20/
-│   ├── groq_batch_rate_limited/        # Groq API results (rate limited)
-│   ├── openai/                         # OpenAI model outputs
-│   ├── results/                        # Processed results and analysis
-│   └── runs/                           # Individual evaluation runs
-│
-├── prompts/                            # Generated prompts organized by type
-│   ├── gui/                            # GUI task prompts (6 files)
-│   ├── manual/                         # Manually created prompts (15 files)
-│   ├── one_occ/                        # Single occupation prompts
-│   ├── text/                           # Text-based task prompts (72 files)
-│   └── vision/                         # Vision task prompts (6 files)
-│
-├── scripts/                            # Standalone utility scripts
-│   ├── run_analysis.py                 # Main analysis runner
-│   ├── tests/                          # Test scripts
-│   │   └── test_dummy.py               # Basic test file
-│   └── update_paths.py                 # Path update utilities
-│
-├── src/                                # Source code - main framework
-│   ├── analysis/                       # Analysis and visualization tools
-│   │   ├── __init__.py
-│   │   ├── insights_analyzer.py        # Systematic insights extraction
-│   │   ├── taci_insights_analyzer.py   # TACI-specific analysis
-│   │   ├── visualizations.py           # Graph and chart generation
-│   │   └── Econometrics/               # Economic analysis
-│   │       ├── epochs.py               # Time-series analysis
-│   │       └── results/                # Econometric results
-│   │
-│   ├── data_pipeline/                  # Data processing pipeline
-│   │   ├── prompt_gen/                 # Prompt generation
-│   │   │   ├── generate_prompts.py     # Main prompt generator
-│   │   │   └── prompts_one_occ.py      # Single occupation prompts
-│   │   └── sampling/                   # Task sampling and selection
-│   │       └── sample_tasks.py         # Task sampling with modality classification
-│   │
-│   ├── evaluation/                     # 5-phase evaluation pipeline
-│   │   ├── __init__.py
-│   │   ├── data_processing/            # Data preparation for evaluation
-│   │   │   ├── build_master_table.py   # Consolidate evaluation results
-│   │   │   └── build_master_table_paralegal.py # Paralegal-specific tables
-│   │   │
-│   │   ├── phase_00_wrapper/           # Phase 0: Wrapper validation
-│   │   │   ├── phase_00_wrapper_checker.py # General wrapper validation
-│   │   │   └── phase_00_wrapper_checker_paralegal.py # Paralegal wrapper validation
-│   │   │
-│   │   ├── phase_01_schema/            # Phase 1: Schema validation
-│   │   │   ├── phase_01_schema_grader.py # JSON schema validation
-│   │   │   ├── phase_01_schema_grader_paralegal.py # Paralegal schema validation
-│   │   │   ├── phase_01_vision.py      # Vision-specific schema validation
-│   │   │   └── schemas/                # JSON schemas for validation
-│   │   │       └── GUI.json            # GUI task schema
-│   │   │
-│   │   ├── phase_02_safety/            # Phase 2: Safety evaluation
-│   │   │   ├── phase_02_safety_grader.py # General safety assessment
-│   │   │   └── phase_02_safety_grader_paralegal.py # Paralegal safety assessment
-│   │   │
-│   │   ├── phase_03_rubric/            # Phase 3: Rubric-based scoring
-│   │   │   ├── phase_03_filter.py      # Result filtering
-│   │   │   ├── phase_03_filter_one_occ.py # Single occupation filtering
-│   │   │   ├── rubric_grader.py        # General rubric evaluation
-│   │   │   ├── rubric_grader_paralegal.py # Paralegal rubric evaluation
-│   │   │   └── test.py                 # Testing utilities
-│   │   │
-│   │   └── phase_04_composite/         # Phase 4: Composite scoring
-│   │       ├── final_composite_Paralegal.py # Paralegal final scoring
-│   │       ├── phase_04_grader.py      # General composite scoring
-│   │       └── weights.json            # Scoring weights configuration
-│   │
-│   ├── execution/                      # Model execution and batch processing
-│   │   └── llm_client/                 # LLM client interfaces
-│   │       ├── run_batch_anthropic.py  # Anthropic Claude batch runner
-│   │       ├── run_batch_gemini.py     # Google Gemini batch runner
-│   │       ├── run_batch_llama3.py     # Llama 3 batch runner
-│   │       ├── run_batch_openai.py     # OpenAI batch runner
-│   │       └── test_runners/           # Testing and specialized runners
-│   │           ├── o3_failed.py        # Handle failed O3 model runs
-│   │           ├── o3_special.py       # Special O3 model configurations
-│   │           ├── one_occ.py          # Single occupation testing
-│   │           ├── test_batch_anthropic.py # Anthropic testing
-│   │           ├── test_batch_gemini.py # Gemini testing
-│   │           └── test_one.py         # Single task testing
-│   │
-│   └── utils/                          # Utility functions and scripts
-│       ├── assign_archetypes.py        # Assign GUI archetypes to tasks
-│       ├── auto_tag_vision.py          # Assign VISION archetypes to tasks
-│       ├── build_manual_stub_catalog.py # Manual task catalog generation
-│       ├── build_vision_stub_catalog.py # Vision task catalog generation
-│       ├── check_prompt_wrappers.py    # Validate prompt wrappers
-│       ├── convert_mammograms*.py      # Medical image conversion utilities
-│       ├── count_phase2_calls.py       # Count safety evaluation calls
-│       ├── fix_bad_runs.py             # Repair corrupted evaluation runs
-│       ├── graph.py                    # Graph generation utilities
-│       ├── image_changes_*.py          # Image processing utilities
-│       ├── renaming.py                 # File and variable renaming utilities
-│       ├── robust_extractor.py         # Robust data extraction
-│       ├── sample_for_human_review.py  # Sample tasks for human evaluation
-│       ├── testingsafety.py            # Safety testing utilities
-│       ├── testingtokens.py            # Token counting and testing
-│       └── vision_guard_test.py        # Vision safety testing
-│
-├── tests/                              # Test data and human evaluation
-│   ├── human audit samples/            # Human-audited task samples
-│   └── old_runs_on_anth_and_llama_with_extr/ # Historical evaluation runs
-│
-├── vision_refs/                        # Vision task reference data
-│   ├── ce0be4e8_GT.json               # Ground truth for vision tasks
-│   └── d21fc252_GT.json               # Vision evaluation references
-│
-├── website/                            # Web interface (if applicable)
-│   ├── index.html                      # Main web interface
-│   ├── script.js                       # JavaScript functionality
-│   └── styles.css                      # Web styling
-│
-├── taci_analysis_report.json           # Generated analysis report
-├── taci_paralegal_*.png                # Visualization outputs
-└── wrapper_per_output_paralegal.csv    # Paralegal evaluation wrapper data
+```bash
+python src/data_pipeline/sampling/sample_tasks.py
 ```
 
-## Key Components
+Artifacts are written to `data/manifests/` (CSV + SHA256 + meta JSON, and optional edge views).
 
-### Data Pipeline (`src/data_pipeline/`)
-- **Task sampling and classification** across 20+ occupations with NLP-powered modality detection
-- **Multi-variant prompt generation** for TEXT, GUI, VISION, and MANUAL task types
+---
 
-### Evaluation Pipeline (`src/evaluation/`)
-**5-Phase Statistical Validation Framework:**
-- **Phase 0**: **Wrapper compliance** - Multi-vendor response format validation with strict/rescued extraction
-- **Phase 1**: **Schema validation** - Formal JSON Schema compliance + computer vision IoU scoring  
-- **Phase 2**: **Safety assessment** - OpenAI moderation API with custom risk weighting and thresholds
-- **Phase 3**: **Multi-axis rubric scoring** - 6-dimensional evaluation (accuracy, coverage, depth, style, utility, specificity) with 3-vote consensus
-- **Phase 4**: **Weighted composite scoring** - AHP methodology with bootstrap confidence intervals on 0-100 scale
+## 2) Repository Structure (Preferred Skeleton)
 
-### Model Execution (`src/execution/`)
-- **Multi-provider API orchestration** with enterprise-grade error handling and retry logic
-- **Batch processing systems** supporting Anthropic, OpenAI, Google, and Meta LLM providers
-- **Comprehensive provenance tracking** with git commit logging and experimental reproducibility
+```
+TACI/
+├── README.md
+├── requirements.txt
+├── LICENSE
+│
+├── config/
+│   ├── archetype_rules.yml         # GUI archetype rules (used post-manifest)
+│   ├── vision_archetypes.yml       # Vision archetype rules (used post-manifest)
+│   └── gui_selectors.json          # GUI selectors (by archetype; used post-manifest)
+│
+├── data/
+│   ├── onet_raw/                   # Place O*NET TXT files here (see §3)
+│   ├── manifests/
+│   │   ├── sampled_tasks_comprehensive.csv
+│   │   ├── sampled_tasks_comprehensive.csv.sha256
+│   │   ├── sampled_tasks_comprehensive.meta.json
+│   │   └── modality_cache_comprehensive.json     # voting cache (auto)
+│   └── panel/                      # Downstream aggregation outputs (Phase 4+)
+│
+├── outputs/
+│   ├── edges/                      # Optional edge views (task→DWA/IWA/GWA; UNSPSC counts)
+│   └── results/                    # Phase outputs (00–04) and master tables
+│
+├── prompts/
+│   ├── text/   # generated prompts
+│   ├── gui/
+│   ├── vision/
+│   └── manual/
+│
+├── src/
+│   ├── data_pipeline/
+│   │   ├── sampling/
+│   │   │   └── sample_tasks.py     # builds comprehensive manifest (this MVP’s core)
+│   │   └── prompt_gen/
+│   │       └── generate_prompts.py # consumes manifest → prompts/* (per modality)
+│   │
+│   ├── evaluation/                 # Phase gates (00–04)
+│   │   ├── phase_00_wrapper/
+│   │   ├── phase_01_schema/
+│   │   ├── phase_02_safety/
+│   │   ├── phase_03_rubric/
+│   │   └── phase_04_composite/
+│   │
+│   ├── execution/
+│   │   └── llm_client/             # API runners (OpenAI / Anthropic / Gemini / etc.)
+│   │
+│   └── analysis/
+│       ├── insights_analyzer.py
+│       └── visualizations.py
+│
+└── docs/
+    └── methods/                    # notes, brief, figures (optional)
+```
 
-### Analysis Tools (`src/analysis/`)
-**Research-Grade Analytics Framework:**
-- **`insights_analyzer.py`**: Systematic performance pattern extraction with statistical significance testing
-- **`visualizations.py`**: Multi-dimensional capability visualization and comparative analysis
-- **`Econometrics/`**: Economic impact modeling and automation potential assessment for policy research
+---
 
-### Configuration (`config/`)
-- **`archetype_rules.yml`**: Rules for classifying GUI tasks into archetypes
-- **`vision_archetypes.yml`**: Rules for classifying VISION tasks into archetypes
-- **`gui_selectors.json`**: GUI element selectors for automation tasks
+## 3) Data Requirements (O\*NET v30.0; TXT preferred)
 
-## Getting Started
+Place the following under `data/onet_raw/` (TXT format preferred; the loader will fall back to XLSX if needed):
 
-1. **Install Dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   python -m spacy download en_core_web_sm
-   ```
+* **Core (required)**
+  `Task Statements.txt`, `Task Ratings.txt`, `Occupation Data.txt`
+* **Linkages**
+  `Tasks to DWAs.txt`, `DWA Reference.txt`, `IWA Reference.txt` (optional), `Content Model Reference.txt` (optional)
+* **Emerging**
+  `Emerging Tasks.txt`
+* **Tech/Tools + UNSPSC**
+  `Technology Skills.txt`, `Tools Used.txt`, `UNSPSC Reference.txt`
+* **Job Zones**
+  `Job Zones.txt`
+* **Work Context**
+  `Work Context.txt`
+* **Related Occupations**
+  `Related Occupations.txt`
+* **Work Activities**
+  `Work Activities.txt`
+* **Titles**
+  `Alternate Titles.txt`, `Sample of Reported Titles.txt`
+* **Education (optional but preferred)**
+  `Education, Training, and Experience.txt`,
+  `Education, Training, and Experience Categories.txt`
 
-2. **Set Environment Variables**:
-   ```bash
-   export OPENAI_API_KEY="your-key"
-   export ANTHROPIC_API_KEY="your-key"
-   export GOOGLE_API_KEY="your-key"
-   ```
+> The loader does robust name normalization (underscores/spaces/case) and prefers TXT to avoid Excel coercions.
 
-3. **Sample Tasks**:
-   ```bash
-   python src/data_pipeline/sampling/sample_tasks.py
-   ```
+---
 
-4. **Generate Prompts**:
-   ```bash
-   python src/data_pipeline/prompt_gen/generate_prompts.py
-   ```
+## 4) Building the Comprehensive Manifest
 
-5. **Run Evaluation**:
-   ```bash
-   python src/execution/llm_client/run_batch_anthropic.py
-   ```
+**Pilot SOCs (fixed in code):**
 
-6. **Analyze Results**:
-   ```bash
-   python src/analysis/insights_analyzer.py
-   ```
+* `23-2011.00` — Paralegals and Legal Assistants (TEXT-leaning)
+* `43-4051.00` — Customer Service Representatives (GUI-leaning)
+* `51-9061.00` — Inspectors/Testers/Sorters/Samplers/Weighers (VISION-leaning)
 
-## Research Contribution
+Environment knobs:
 
-**First Systematic AI Occupational Capability Benchmark**
+* `MODEL_NAME` (default: `gpt-4.1-mini-2025-04-14`)
+* `OPENAI_API_KEY` (omit ⇒ offline labeling)
+* `OFFLINE_GRADER` (truthy ⇒ force offline)
+* `ONET_VERSION` (string recorded in outputs)
+* `TITLES_LIMIT` (default 50; caps alt/sample titles stored per SOC)
+* `EMIT_EDGE_VIEWS` (set to `1` to write edges into `outputs/edges/`)
 
-> **Note**: This repository represents the **alpha/showcase version** of TACI for demonstration and open research. The internal production version includes expanded occupational coverage, additional model providers, and advanced experimental features.
+Run:
 
-TACI establishes novel methodology for quantitative assessment of AI automation potential across professional domains. This demonstration version includes:
+```bash
+python src/data_pipeline/sampling/sample_tasks.py
+```
 
-- **Paralegal occupation proof-of-concept** with comprehensive task coverage across all major LLM providers
-- **Multi-modal evaluation framework** integrating text analysis, GUI automation, and visual document processing
-- **Statistical validation pipeline** demonstrating reproducible methodology for occupational AI assessment
-- **Economic impact modeling** framework supporting automation potential quantification
+---
 
-**Internal Research Extensions**: The production TACI system evaluates 40+ occupations across 15+ model providers with advanced experimental features including adaptive prompting, cross-occupational transfer analysis, and longitudinal capability tracking.
+## 5) Manifest Outputs & Provenance
 
-**Academic Impact**: Framework designed for reproducible research with full experimental provenance, supporting publication-quality analysis of AI capabilities across cognitive work categories.
+* `data/manifests/sampled_tasks_comprehensive.csv` — **single-file source of truth**
+* `data/manifests/sampled_tasks_comprehensive.csv.sha256` — atomic write + integrity hash
+* `data/manifests/sampled_tasks_comprehensive.meta.json` — generation metadata
+* `data/manifests/modality_cache_comprehensive.json` — vote cache (idempotence)
+* Optional edge views (if `EMIT_EDGE_VIEWS=1`):
 
-**Policy Applications**: Quantitative automation impact assessment enabling evidence-based workforce transition planning and technology deployment strategies.
+  * `outputs/edges/task_dwa.csv`, `task_iwa.csv`, `task_gwa.csv`
+  * `outputs/edges/soc_unspsc_counts.csv`
 
-## File Naming Conventions
+Provenance fields (also embedded as columns in the CSV):
 
-- **Task UIDs**: 8-character MD5 hash of SOC code + Task ID (e.g., `07080553`)
-- **Model Outputs**: `{uid}_v{variant}_t{temperature}_{run}.json`
-- **Prompts**: `{uid}_v{variant}.json`
-- **Results**: Organized by model provider and version
+* `schema_version` = `tlc_manifest_schema_v0.4`
+* `manifest_version` = `YYYYMMDD-v1` (UTC date)
+* `onetsrc_version`, `model_name`, `votes_per_task`, `vote_seeds`
+* `modality_prompt_md5`, `code_fingerprint` (MD5 of script)
+* `generated_utc`, `source_files_used`, `unspsc_rollup_level` (`FAMILY`), `unspsc_entropy_unit` (`bits`)
+
+---
+
+## 6) Column Glossary (Comprehensive Manifest)
+
+**Core task identity**
+
+* `SOC` — O\*NET SOC code
+* `TaskID` — O\*NET task ID
+* `uid` — deterministic MD5( `SOC-TaskID` ) first 12 hex chars
+* `TaskText` — task statement
+* `TaskType` — task category if available
+* `task_date_raw` / `task_date` — normalized to `YYYY-MM` where possible
+* `OccTitleRaw` / `OccTitleClean` — raw vs cleaned occupation title
+
+**Ratings & sources (IM=Importance, RL=Relevance)**
+
+* `Importance`, `Relevance` — numeric data values (coerced to float where possible)
+* `importance_n_respondents`, `relevance_n_respondents`
+* `ratings_month_im`, `ratings_month_rl` (ISO `YYYY-MM`)
+* `ratings_source_im`, `ratings_source_rl` (Incumbent/Analyst/Other)
+* `retained_by_relevance_rule` — boolean (`Relevance ≥ 25` per O\*NET)
+
+**Titles (SOC-level; replicated per row)**
+
+* `alt_titles_raw`, `alt_titles_canon` — deduped (ASCII fold, lower, strip punct), limit = `TITLES_LIMIT`
+* `sample_titles_raw`, `sample_titles_canon` — same treatment
+* `title_canon_examples` — first three canonical exemplars across alt+sample
+
+**DWA / IWA / GWA linkages**
+
+* `dwa_ids`, `dwa_titles`, `iwa_id_list`, `iwa_title_list`, `gwa_id_list`, `gwa_title_list` (semicolon-joined)
+* `_count` companions for each list
+* Degree & rarity features (per task, normalized within SOC):
+
+  * `task_dwa_degree_soc_sum`, `task_iwa_degree_soc_sum`, `task_gwa_degree_soc_sum`
+  * `task_dwa_degree_soc_norm`, `task_iwa_degree_soc_norm`, `task_gwa_degree_soc_norm`
+  * `task_dwa_idf_sum`, `task_iwa_idf_sum`, `task_gwa_idf_sum`
+  * `task_dwa_degree_soc_z`, `task_iwa_degree_soc_z`, `task_gwa_degree_soc_z`
+
+**Emerging tasks**
+
+* `soc_emerging_new_count`, `soc_emerging_revision_count` (SOC-level)
+* `is_emerging_revision` (per task, if original task flagged as revision)
+
+**Technology / Tools (UNSPSC roll-up to FAMILY)**
+
+* `hot_tech_count`, `in_demand_tech_count` (SOC-level)
+* `top_hot_tech_examples` (up to 3)
+* `tech_family_top3`, `tool_family_top3` — `"FamilyCode:FamilyTitle; ..."`
+* `tech_family_entropy`, `tool_family_entropy` — Shannon entropy in **bits**
+
+**Job requirements**
+
+* `job_zone`, `svp_range` (SOC-level)
+
+**Work Context (CT/CX means; selected indicators)**
+
+* `wc_electronic_mail`, `wc_telephone`, `wc_face_to_face`, `wc_physical_proximity`, `wc_hands_on`, `wc_exact_or_accurate`
+* `wc_consequence_of_error`, `wc_time_pressure`, `wc_freedom_to_make_decisions`,
+  `wc_structured_vs_unstructured`, `wc_deal_with_external_customers`, `wc_indoors_env_controlled`
+* Coverage diagnostics: `wc_ctcx_rows_total_soc`, `wc_ctcx_rows_mapped_soc`
+
+**Related Occupations (SOC-level)**
+
+* `related_occ_count`, `top_related_titles` (up to 3)
+
+**Work Activities (SOC-level)**
+
+* `top_work_activities` (top-3 by mean IM)
+
+**Modality classification (vote-based)**
+
+* `vote1`, `vote2`, `vote3` ∈ `{TEXT, GUI, VISION, MANUAL, INCONCLUSIVE}` or `{REVIEW, UNLABELED}` in edge cases
+* `modality` — majority with tie-break rules; categorical with levels:
+  `TEXT, GUI, VISION, MANUAL, INCONCLUSIVE, REVIEW, UNLABELED`
+* `modality_agreement` (1–3), `modality_confidence` (= agreement / 3)
+* Diagnostics: `modality_uncertain` (INCONCLUSIVE/REVIEW/UNLABELED), `modality_disagreement`
+* **Digital amenability**:
+
+  * `digital_amenable` = `modality ∈ {TEXT, GUI, VISION}`
+  * `amenability_reason` (human-readable mapping)
+  * `amenability_code` ∈ `{LANGUAGE_ONLY, GUI_SOFTWARE, VISUAL_PERCEPTION, PHYSICAL_MANUAL, AMBIGUOUS, REVIEW, UNLABELED}`
+  * Stub flags: `needs_stub`, `stub_type` (for MANUAL/AMBIGUOUS/REVIEW/UNLABELED)
+
+**Aggregation weights**
+
+* `importance_weight_norm` — IM normalized within SOC (sums to 1 per SOC)
+* `importance_weight_norm_rl` — IM normalized within SOC **after RL≥25 filter**
+
+**Education (SOC-level modal RL category)**
+
+* `education_typical_category` (int), `education_typical` (label), `education_typical_share` (modal share)
+
+**Provenance & constants**
+
+* `onetsrc_version`, `model_name`, `votes_per_task`, `vote_seeds`, `generated_utc`,
+  `schema_version`, `manifest_version`, `source_files_used`,
+  `pipeline_stage="sample_tasks_comprehensive"`,
+  `unspsc_rollup_level="FAMILY"`, `unspsc_entropy_unit="bits"`,
+  `modality_prompt_md5`, `code_fingerprint`
+
+---
+
+## 7) Prompt Generation & Evaluation Phases (v0.4)
+
+**Prompt Generation**
+
+```bash
+python src/data_pipeline/prompt_gen/generate_prompts.py \
+  --manifest data/manifests/sampled_tasks_comprehensive.csv \
+  --outdir prompts/
+```
+
+* Uses `modality` to route to `prompts/text|gui|vision|manual/` and attaches archetype-specific extras in later stages (selectors/images/stubs).
+
+**Evaluation Phases (00–04)**
+
+* **Phase 00 — Wrapper**: strict formatting checks per provider (reject malformed JSON/fields).
+* **Phase 01 — Schema**: JSON schema compliance; IoU scoring for vision where applicable.
+* **Phase 02 — Safety**: content moderation thresholds (configurable).
+* **Phase 03 — Rubric**: task-specific rubric grading with 3-vote self-consistency (deterministic seeds).
+* **Phase 04 — Composite**: aggregate to task/occupation/model summaries (capability excludes price/context).
+
+> Minimal viable run: pick a subset of tasks from the manifest, generate prompts, run one provider, and push through 00→04 to validate the end-to-end measurement.
+
+---
+
+## 8) Reproducibility, Caching & Determinism
+
+* **Deterministic seeds**: RNG seeded (Python/NumPy), vote seeds = `1..V` (default V=3).
+* **Atomic writes**: CSV + `.sha256` hash; meta JSON captures exact fingerprinting.
+* **LLM drift guard**: `modality_prompt_md5` and `code_fingerprint` (MD5 of script) embedded.
+* **Idempotent voting**: `modality_cache_comprehensive.json` keyed by `(uid:model:prompt_md5:ONET_VERSION:code_fp)`.
+
+Offline behavior:
+
+* If `OPENAI_API_KEY` missing or `OFFLINE_GRADER` set ⇒ votes are `UNLABELED`; `modality` falls back to `UNLABELED`/`REVIEW` per tie-break rules, and downstream flags (`modality_uncertain`, `needs_stub`) reflect that.
+
+---
+
+## 9) Acceptance Checks & Sanity Tests
+
+After building the manifest:
+
+* **Row count > 0** for each pilot SOC; no empty occupations.
+* **Weights sum**: `importance_weight_norm` sums to **1.0 per SOC** (±1e-6).
+* **Digital share**: `digital_amenable` mean reported per SOC (inspect console summary).
+* **Uncertainty**: `modality_uncertain` share per SOC is reported; investigate spikes.
+* **Edges present** (if `EMIT_EDGE_VIEWS=1`): non-empty `task_*` edge CSVs.
+* **Provenance present**: `schema_version`, `manifest_version`, `code_fingerprint`, `modality_prompt_md5` populated.
+* **No duplicate keys**: `(SOC, TaskID, uid)` duplicates count = 0.
+
+---
+
+## 10) Known Limitations (MVP)
+
+* **Pilot SOCs only** (3 codes). Expansion is trivial but intentionally deferred until Phase 00–04 validation is stable.
+* **Work Context mapping** uses curated keyword heuristics for selected indicators; unmapped names are logged.
+* **Education typical** requires ETE files; absent files yield nulls with robust defaults.
+* **Offline modality** produces `UNLABELED` and marks tasks as uncertain; do not aggregate capabilities from offline labels.
+
+---
+
+## 11) Changelog from “Alpha Showcase”
+
+* **Manifest first**: replaced ad-hoc samplers with a **single comprehensive manifest** (pilot SOCs), enriched with DWA/IWA/GWA, UNSPSC family entropy, titles canon, work context, related occupations, work activities, education modal RL.
+* **Voting and cache**: modality via **3 votes** with agreement metrics and persistent cache keyed by prompt/model/code/ONET version.
+* **Provenance hardening**: atomic writes, CSV hash, meta JSON, code fingerprint, prompt MD5.
+* **Edge exports**: optional task→(DWA/IWA/GWA) and UNSPSC counts for graph analytics.
+* **Aggregation weights**: normalized IM weights with RL≥25 optional gating for capability aggregation.
+* **Phase 4 policy**: capability excludes price/context (kept out of capability scoring by design).
+
+---
+
+## 12) Citation & License
+
+If you use TACI in academic or policy work, please cite the repository and the working paper (forthcoming).
+License: see `LICENSE`.
+
+---
+
