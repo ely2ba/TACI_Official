@@ -27,7 +27,7 @@
     "Work Activities.txt",
     "Work Context.txt"
   ],
-  "model_name": "gpt-5-2025-08-07",
+  "model_name": "gpt-5",
   "votes_per_task": 3,
   "vote_seeds": [
     1,
@@ -35,7 +35,7 @@
     3
   ],
   "prompt_md5": "cdfc2b20a631beaa5b557a9a248a0a37",
-  "code_fingerprint": "85772a47",
-  "generated_utc": "2025-09-11T14:52:38+00:00",
-  "csv_sha256": "0f3041d55e103e9cbe805726d6ec1155422cae9a3d3a2ee8327afb9db4fc078d"
+  "code_fingerprint": "96dec483",
+  "generated_utc": "2025-09-11T15:03:51+00:00",
+  "csv_sha256": "62b2ea4ab1a28cf634e19e6344f32f52dc4bd885e46ed8b90253734b4aee6476"
 }

@@ -82,7 +82,7 @@ OUT_FULL.mkdir(parents=True, exist_ok=True)
 CACHE_JSON = OUT_FULL / "modality_cache_full.json"  # votes per (uid:model:prompt:ver:code)
 
 # ── Config ────────────────────────────────────────────────────────────
-DEFAULT_MODEL_NAME = "gpt-5-2025-08-07"
+DEFAULT_MODEL_NAME = "gpt-5"
 MODEL_NAME = os.getenv("MODEL_NAME", DEFAULT_MODEL_NAME)
 TEMPERATURE = 0.3
 VOTES_PER_TASK = 3
@@ -202,37 +202,31 @@ def atomic_write_csv(df: pd.DataFrame, path: Path) -> str:
 
 # ── OpenAI call with drift guard ──────────────────────────────────────
 def chat_complete(client, **kw):
-    """Prefer Chat Completions with max tokens + seed; fallback to Responses.
+    """Use Responses API for GPT-5 with minimal, safe payload.
 
-    - Chat path: seed + max_completion_tokens=8; no temperature; no reasoning param.
-    - Responses path: input mapped from messages; max_output_tokens=8; reasoning={effort: medium}; seed removed.
+    - Maps `messages` → `input`.
+    - Adds `reasoning={"effort":"medium"}` and `text={"verbosity":"low"}`.
+    - Caps output with `max_output_tokens=8`.
+    - Drops unsupported params like `temperature` and `seed`.
     """
-    payload = dict(kw)
-    # Reasoning/chat models may not accept temperature
-    payload.pop("temperature", None)
-    messages = payload.get("messages")
-
-    # Try Chat Completions first (seed allowed here)
-    try:
-        if "max_completion_tokens" not in payload:
-            payload["max_completion_tokens"] = 8
-        # Ensure no unsupported args on chat
-        payload.pop("reasoning", None)
-        return client.chat.completions.create(**payload)
-    except Exception:
-        # Fallback to Responses API: remove seed, map messages→input
-        resp_payload = dict(payload)
-        resp_payload.pop("seed", None)
-        if "messages" in resp_payload:
-            resp_payload.pop("messages", None)
-        if messages is not None:
-            resp_payload["input"] = messages
-        if "max_output_tokens" not in resp_payload:
-            resp_payload["max_output_tokens"] = 8
-        resp_payload["reasoning"] = {"effort": "medium"}
-        return client.responses.create(**resp_payload)
+    messages = kw.get("messages")
+    payload = {
+        "model": kw.get("model", DEFAULT_MODEL_NAME),
+        "input": messages if messages is not None else kw.get("input"),
+        "reasoning": {"effort": "medium"},
+        "text": {"verbosity": "low"},
+        "max_output_tokens": 16,
+    }
+    return client.responses.create(**payload)
 
 def extract_text(resp) -> str:
+    # Direct convenience for Responses API
+    try:
+        ot = getattr(resp, "output_text", None)
+        if isinstance(ot, str) and ot.strip():
+            return ot.strip()
+    except Exception:
+        pass
     try:
         return (resp.choices[0].message.content or "").strip()
     except Exception:
@@ -255,8 +249,6 @@ def vote_once(client, statement: str, seed: int) -> str:
     resp = chat_complete(
         client,
         model=MODEL_NAME,
-        temperature=TEMPERATURE,
-        seed=seed,
         messages=[
             {"role": "system", "content": SYSTEM_PROMPT},
             {"role": "user", "content": statement.strip() or "Label this task."},
