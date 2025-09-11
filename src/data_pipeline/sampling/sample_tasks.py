@@ -82,7 +82,7 @@ OUT_FULL.mkdir(parents=True, exist_ok=True)
 CACHE_JSON = OUT_FULL / "modality_cache_full.json"  # votes per (uid:model:prompt:ver:code)
 
 # ── Config ────────────────────────────────────────────────────────────
-DEFAULT_MODEL_NAME = "gpt-4.1-mini-2025-04-14"
+DEFAULT_MODEL_NAME = "gpt-5-2025-08-07"
 MODEL_NAME = os.getenv("MODEL_NAME", DEFAULT_MODEL_NAME)
 TEMPERATURE = 0.3
 VOTES_PER_TASK = 3
@@ -95,8 +95,6 @@ OFFLINE_LABEL = "UNLABELED"  # used when in offline mode
 # Pilot occupations (extend later if desired)
 PILOT_SOCs = [
     "23-2011.00",  # Paralegals and Legal Assistants (TEXT)
-    "43-4051.00",  # Customer Service Representatives (GUI)
-    "13-1031.00",  # Inspectors, Testers, Sorters, Samplers, Weighers (VISION)
 ]
 
 # UNSPSC roll-up preference (fixed to FAMILY per design) and entropy units
@@ -204,10 +202,35 @@ def atomic_write_csv(df: pd.DataFrame, path: Path) -> str:
 
 # ── OpenAI call with drift guard ──────────────────────────────────────
 def chat_complete(client, **kw):
+    """Prefer Chat Completions with max tokens + seed; fallback to Responses.
+
+    - Chat path: seed + max_completion_tokens=8; no temperature; no reasoning param.
+    - Responses path: input mapped from messages; max_output_tokens=8; reasoning={effort: medium}; seed removed.
+    """
+    payload = dict(kw)
+    # Reasoning/chat models may not accept temperature
+    payload.pop("temperature", None)
+    messages = payload.get("messages")
+
+    # Try Chat Completions first (seed allowed here)
     try:
-        return client.chat.completions.create(**kw)
-    except AttributeError:
-        return client.responses.create(**kw)
+        if "max_completion_tokens" not in payload:
+            payload["max_completion_tokens"] = 8
+        # Ensure no unsupported args on chat
+        payload.pop("reasoning", None)
+        return client.chat.completions.create(**payload)
+    except Exception:
+        # Fallback to Responses API: remove seed, map messages→input
+        resp_payload = dict(payload)
+        resp_payload.pop("seed", None)
+        if "messages" in resp_payload:
+            resp_payload.pop("messages", None)
+        if messages is not None:
+            resp_payload["input"] = messages
+        if "max_output_tokens" not in resp_payload:
+            resp_payload["max_output_tokens"] = 8
+        resp_payload["reasoning"] = {"effort": "medium"}
+        return client.responses.create(**resp_payload)
 
 def extract_text(resp) -> str:
     try:

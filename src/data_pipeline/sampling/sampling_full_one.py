@@ -82,7 +82,7 @@ OUT_FULL.mkdir(parents=True, exist_ok=True)
 CACHE_JSON = OUT_FULL / "modality_cache_full.json"  # votes per (uid:model:prompt:ver:code)
 
 # ── Config ────────────────────────────────────────────────────────────
-DEFAULT_MODEL_NAME = "gpt-4.1-mini-2025-04-14"
+DEFAULT_MODEL_NAME = "gpt-5-2025-08-07"
 MODEL_NAME = os.getenv("MODEL_NAME", DEFAULT_MODEL_NAME)
 TEMPERATURE = 0.3
 VOTES_PER_TASK = 3
@@ -202,10 +202,35 @@ def atomic_write_csv(df: pd.DataFrame, path: Path) -> str:
 
 # ── OpenAI call with drift guard ──────────────────────────────────────
 def chat_complete(client, **kw):
+    """Prefer Chat Completions with max tokens + seed; fallback to Responses.
+
+    - Removes temperature to satisfy reasoning models.
+    - Chat path: adds `max_completion_tokens=8` and `reasoning={"effort":"medium"}`.
+    - Responses path: maps `messages`→`input`, uses `max_output_tokens=8`, and `reasoning={"effort":"medium"}`.
+    """
+    payload = dict(kw)
+    # Reasoning models may not accept temperature
+    payload.pop("temperature", None)
+    messages = payload.get("messages")
+
+    # Try Chat Completions first
     try:
-        return client.chat.completions.create(**kw)
-    except AttributeError:
-        return client.responses.create(**kw)
+        if "max_completion_tokens" not in payload:
+            payload["max_completion_tokens"] = 8
+        # Nudge reasoning models to moderate internal tokens
+        payload["reasoning"] = {"effort": "medium"}
+        return client.chat.completions.create(**payload)
+    except Exception:
+        # Fallback to Responses API
+        resp_payload = dict(payload)
+        if "messages" in resp_payload:
+            resp_payload.pop("messages", None)
+        if messages is not None:
+            resp_payload["input"] = messages
+        if "max_output_tokens" not in resp_payload:
+            resp_payload["max_output_tokens"] = 8
+        resp_payload["reasoning"] = {"effort": "medium"}
+        return client.responses.create(**resp_payload)
 
 def extract_text(resp) -> str:
     try:
