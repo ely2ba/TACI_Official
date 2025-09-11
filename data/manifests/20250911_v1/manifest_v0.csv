@@ -1,0 +1,13 @@
+uid,SOC,TaskID,occupation_raw,occupation_canonical,task_statement,importance,onet_version,digitally_amenable,modality,modality_confidence
+9cebf9025932,23-2011.00,1636,Paralegals and Legal Assistants,Paralegal And Legal Assistant,"Gather and analyze research data, such as statutes, decisions, and legal articles, codes, and documents.",3.89,30.0,True,GUI,0.6666666666666666
+d0cae5495d0f,23-2011.00,1638,Paralegals and Legal Assistants,Paralegal And Legal Assistant,Call upon witnesses to testify at hearings.,2.99,30.0,False,INCONCLUSIVE,0.3333333333333333
+db852c6edb22,23-2011.00,1639,Paralegals and Legal Assistants,Paralegal And Legal Assistant,"Direct and coordinate law office activity, including delivery of subpoenas.",3.33,30.0,False,MANUAL,1.0
+3dfcc5c38672,23-2011.00,1641,Paralegals and Legal Assistants,Paralegal And Legal Assistant,Keep and monitor legal volumes to ensure that the law library is up-to-date.,2.67,30.0,False,MANUAL,1.0
+7dda7be500c7,23-2011.00,1642,Paralegals and Legal Assistants,Paralegal And Legal Assistant,Appraise and inventory real and personal property for estate planning.,2.9,30.0,False,MANUAL,1.0
+0708055337ce,23-2011.00,18491,Paralegals and Legal Assistants,Paralegal And Legal Assistant,"Prepare affidavits or other documents, such as legal correspondence, and organize and maintain documents in paper or electronic filing system.",4.38,30.0,True,GUI,1.0
+dc35566b3c16,23-2011.00,18492,Paralegals and Legal Assistants,Paralegal And Legal Assistant,Prepare for trial by performing tasks such as organizing exhibits.,3.97,30.0,False,MANUAL,0.6666666666666666
+93eea469ed1a,23-2011.00,18493,Paralegals and Legal Assistants,Paralegal And Legal Assistant,Meet with clients and other professionals to discuss details of cases.,3.93,30.0,True,TEXT,0.6666666666666666
+2e2364b781c0,23-2011.00,18494,Paralegals and Legal Assistants,Paralegal And Legal Assistant,File pleadings with court clerks.,3.89,30.0,False,INCONCLUSIVE,0.6666666666666666
+8b2ab848b21d,23-2011.00,18496,Paralegals and Legal Assistants,Paralegal And Legal Assistant,"Arbitrate disputes between parties and assist in the real estate closing process, such as by reviewing title searches.",2.99,30.0,True,TEXT,1.0
+3db6d320b232,23-2011.00,21062,Paralegals and Legal Assistants,Paralegal And Legal Assistant,"Investigate facts and law of cases and search pertinent sources, such as public records and internet sources, to determine causes of action and to prepare cases.",4.06,30.0,True,GUI,1.0
+3a55f5ca0fa9,23-2011.00,23994,Paralegals and Legal Assistants,Paralegal And Legal Assistant,"Prepare, edit, or review legal documents, including legislation, briefs, pleadings, appeals, wills, contracts, and real estate closing statements.",4.32,30.0,True,TEXT,1.0

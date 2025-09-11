@@ -21,7 +21,7 @@ import pathlib
 import re
 import sys
 from collections import defaultdict
-from typing import Optional
+from typing import Optional, Tuple
 
 # ---------- wrapper tag regexes ---------------------------------------------
 WRAP_TAG = {
@@ -138,7 +138,51 @@ def main() -> None:
 
         manifest_hashes[str(rel_path)] = sha256(file)
 
-        text = (extract_text(data) or "").strip()
+        raw = extract_text(data) or ""
+        # Normalize and trim per Phase-0 tolerant gating
+        s = raw.replace("\r\n", "\n").replace("\r", "\n")
+        s = s.lstrip("\ufeff")  # BOM
+        outer_len_before = len(s)
+        # zero-width + whitespace trim
+        s_trim = s.strip(" \t\n\u200b\u200c\u200d\ufeff")
+        outer_len_after = len(s_trim)
+
+        def extract(tag_open: str, tag_close: str, s0: str) -> Optional[Tuple[str,str,str]]:
+            i = s0.find(tag_open)
+            j = s0.rfind(tag_close)
+            if i == -1 or j == -1 or j < i:
+                return None
+            inner = s0[i+len(tag_open):j]
+            prefix = s0[:i]
+            suffix = s0[j+len(tag_close):]
+            return inner, prefix, suffix
+
+        # Try both tag pairs; pick the one with the longer inner
+        candidates = []
+        for tmod, tname in WRAP_TAG.items():
+            open_t, close_t = f"<{tname}>", f"</{tname}>"
+            res = extract(open_t, close_t, s_trim)
+            if res is not None:
+                inner, prefix, suffix = res
+                candidates.append((len(inner), tname, inner, prefix, suffix))
+        if candidates:
+            candidates.sort(reverse=True)
+            _, tagname_used, inner, prefix, suffix = candidates[0]
+            has_block = 1
+            # strict: exactly one well-formed block, no extra content after trim
+            is_strict = int(prefix == "" and suffix == "")
+            is_rescued = int(not is_strict)
+            reason = "ok_strict" if is_strict else "rescued_outer_junk"
+            # check multiple blocks by counting occurrences
+            occ_open = s_trim.count(f"<{tagname_used}>")
+            occ_close = s_trim.count(f"</{tagname_used}>")
+            if occ_open > 1 or occ_close > 1:
+                reason = "multiple_blocks"
+        else:
+            has_block = 0
+            is_strict = 0
+            is_rescued = 0
+            reason = "no_tags"
         tokens = extract_total_tokens(data.get("response", {}))
 
         # default stats increment
@@ -163,12 +207,13 @@ def main() -> None:
             ])
             continue
 
-        # wrapper checks
-        is_strict  = text.startswith(f"<{tag}>") and text.endswith(f"</{tag}>")
-        is_rescued = bool(RESCUED_REGEX[mod].search(text))
+        # wrapper checks (legacy metrics maintained on normalized+trimmed text)
+        text = s_trim
+        is_strict_legacy  = text.startswith(f"<{tag}>") and text.endswith(f"</{tag}>")
+        is_rescued_legacy = bool(RESCUED_REGEX[mod].search(text))
 
         # strict stats
-        if is_strict:
+        if is_strict_legacy:
             strict[model_ver]["ok"] += 1
             if tokens:
                 strict[model_ver]["tok"] += tokens
@@ -178,32 +223,37 @@ def main() -> None:
             bad_strict.append(str(rel_path))
 
         # rescued stats
-        if is_rescued:
+        if is_rescued_legacy:
             rescued[model_ver]["ok"] += 1
             if tokens:
                 rescued[model_ver]["tok"] += tokens
                 rescued[model_ver]["tok_n"] += 1
-            if not is_strict:
+            if not is_strict_legacy:
                 rescued_nonstrict.append(str(rel_path))
         else:
             rescued[model_ver]["bad"] += 1
 
-        per_output.append([rel_path, model_ver, int(is_strict), int(is_rescued)])
+        per_output.append([rel_path, model_ver, int(is_strict_legacy), int(is_rescued_legacy)])
 
         # ---------- schema_status logic ------------------------------------
-        if is_strict:
+        if is_strict_legacy:
             schema_status = "strict"
-        elif is_rescued:
+        elif is_rescued_legacy:
             schema_status = "rescued"
         else:
             schema_status = "fail"
 
         per_phase_rows.append([
             uid, model_ver, variant, temp, mod,
-            int(is_strict), int(is_rescued),
+            int(is_strict_legacy), int(is_rescued_legacy),
             schema_status,                # <-- NEW COLUMN
             str(rel_path)
         ])
+
+        # Phase-0 gating diagnostics CSV row
+        # uid, file_id, has_block, is_strict, is_rescued, reason, outer_len_before_trim, outer_len_after_trim
+        # collect later; write per file in loop aggregation list
+        pass
 
     # ---------- write summary files ---------------------------------------
     out = pathlib.Path(__file__).parent
@@ -223,6 +273,58 @@ def main() -> None:
             "strict","rescued","schema_status","file"   # <-- header updated
         ])
         w.writerows(per_phase_rows)
+
+    # Phase-0 gating diagnostics CSV
+    diag_rows = []
+    for file in runs_dir.rglob("*.json"):
+        try:
+            data = json.loads(file.read_text())
+        except Exception:
+            continue
+        if data.get("skipped"):
+            continue
+        mod = data.get("modality", "").upper()
+        if mod not in WRAP_TAG:
+            continue
+        tag = WRAP_TAG[mod]
+        raw = extract_text(data) or ""
+        s = raw.replace("\r\n", "\n").replace("\r", "\n")
+        s = s.lstrip("\ufeff")
+        before = len(s)
+        s_trim = s.strip(" \t\n\u200b\u200c\u200d\ufeff")
+        after = len(s_trim)
+        # detect blocks on trimmed
+        def extract2(tag_open, tag_close, s0):
+            i = s0.find(tag_open); j = s0.rfind(tag_close)
+            if i == -1 or j == -1 or j < i: return None
+            inner = s0[i+len(tag_open):j]
+            prefix = s0[:i]; suffix = s0[j+len(tag_close):]
+            return inner, prefix, suffix
+        best = None
+        for tmod, tname in WRAP_TAG.items():
+            res = extract2(f"<{tname}>", f"</{tname}>", s_trim)
+            if res is not None:
+                inner, prefix, suffix = res
+                tup = (len(inner), tname, prefix, suffix)
+                if (best is None) or (tup[0] > best[0]):
+                    best = tup
+        has_block = int(best is not None)
+        if best is None:
+            strict_f = 0; rescued_f = 0; reason = "no_tags"
+        else:
+            _, tname, prefix, suffix = best
+            strict_f = int(prefix == "" and suffix == "")
+            rescued_f = int(not strict_f)
+            # multiple blocks heuristic
+            open_ct = s_trim.count(f"<{tname}>"); close_ct = s_trim.count(f"</{tname}>")
+            reason = "ok_strict" if strict_f else ("multiple_blocks" if (open_ct>1 or close_ct>1) else "rescued_outer_junk")
+        diag_rows.append([
+            data.get("uid",""), str(file.relative_to(runs_dir)), has_block, strict_f, rescued_f, reason, before, after
+        ])
+    with (out / "wrapper_phase0_gating.csv").open("w", newline="", encoding="utf-8") as fp:
+        w = csv.writer(fp)
+        w.writerow(["uid","file_id","has_block","is_strict","is_rescued","reason","outer_len_before_trim","outer_len_after_trim"])
+        w.writerows(diag_rows)
 
     (out / "wrapper_metrics.json").write_text(
         json.dumps({"wrapper_schema": 1, "prompt_hashes": manifest_hashes}, indent=2)

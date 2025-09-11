@@ -10,6 +10,7 @@ build_master_table.py   ·   Phase-00 → 03 condenser   (2025-06-12)
 
 from pathlib import Path
 import pandas as pd, numpy as np
+import os
 
 # ── repo paths ───────────────────────────────────────────────────────────
 ROOT          = Path(__file__).resolve().parents[2]
@@ -145,6 +146,44 @@ def main() -> None:
             "safety_strict","safety_rescued",
             "rubric_score","iou","is_manual_stub"]
     base = base[COLS]
+
+    # 11 ▸ append GUI stubs for skipped prompts (no selectors) -----------
+    skip_path = ROOT / "outputs/prompts/skip_log.csv"
+    if os.path.exists(skip_path):
+        skip = pd.read_csv(skip_path, dtype=str)
+        skip = skip[skip["reason"].isin(["no_selectors"])].copy()
+        if len(skip):
+            models = sorted(base["model"].dropna().unique().tolist())
+            need = (skip.assign(key=1)
+                        .merge(pd.DataFrame({"model": models, "key": [1]*len(models)}), on="key")
+                        .drop(columns=["key"]))
+            have = base[["uid","model"]].drop_duplicates()
+            missing = (need.merge(have, on=["uid","model"], how="left", indicator=True)
+                            .query("_merge=='left_only'").drop(columns=["_merge"]))
+            if len(missing):
+                # Build stub rows mirroring base columns
+                stub_rows = []
+                for _, r in missing.iterrows():
+                    stub_rows.append({
+                        "uid": r["uid"],
+                        "occupation": r.get("occupation", np.nan),
+                        "variant": "0",
+                        "temp": "",
+                        "model": r["model"],
+                        "modality": "GUI",
+                        "file": "",
+                        "wrapper_strict": 0,
+                        "wrapper_rescued": 0,
+                        "schema_strict": 0,
+                        "schema_rescued": 0,
+                        "safety_strict": 0,
+                        "safety_rescued": 0,
+                        "rubric_score": np.nan,
+                        "iou": 0,
+                        "is_manual_stub": "0",
+                    })
+                stubs = pd.DataFrame(stub_rows, columns=COLS)
+                base = pd.concat([base, stubs], ignore_index=True)
 
     OUT_CSV.parent.mkdir(parents=True, exist_ok=True)
     base.to_csv(OUT_CSV, index=False)

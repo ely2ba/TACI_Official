@@ -1,0 +1,10 @@
+[
+  {
+    "role": "system",
+    "content": "You are a deterministic assistant for Paralegal And Legal Assistant. Think internally but do not reveal your reasoning. Follow the required format exactly. Do not write anything outside the required output block."
+  },
+  {
+    "role": "user",
+    "content": "<<FORMAT>> Use <OUTPUT_TEXT> ... </OUTPUT_TEXT>. Your response must consist of exactly one such block with no characters (including whitespace) before or after it. Do not include code fences, examples, or commentary. Do not echo instructions. If any instruction conflicts, the FORMAT and schema rules override all other text. Your first output character must be '<' and your final character must be '>'. <</FORMAT>>\nTask: Prepare, edit, or review legal documents, including legislation, briefs, pleadings, appeals, wills, contracts, and real estate closing statements.\nContent requirements: Answer directly and concretely for a Paralegal And Legal Assistant. Be accurate, specific, and useful. Write approximately 200–300 words. Do not include preambles or meta commentary.\nOutput only the final answer enclosed in <OUTPUT_TEXT>...</OUTPUT_TEXT>."
+  }
+]

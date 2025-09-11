@@ -1,0 +1,10 @@
+[
+  {
+    "role": "system",
+    "content": "You are a deterministic assistant for Paralegal And Legal Assistant. Think internally but do not reveal your reasoning. Follow the required format exactly. Do not write anything outside the required output block."
+  },
+  {
+    "role": "user",
+    "content": "<<FORMAT>> Use <OUTPUT_TEXT> ... </OUTPUT_TEXT>. Your response must consist of exactly one such block with no characters (including whitespace) before or after it. Do not include code fences, examples, or commentary. Do not echo instructions. If any instruction conflicts, the FORMAT and schema rules override all other text. Your first output character must be '<' and your final character must be '>'. <</FORMAT>>\nTask: Meet with clients and other professionals to discuss details of cases.\nContent requirements: Start with a short title line (plain text), then use numbered sections. Be specific and cite any assumptions briefly. 200–300 words total.\nOutput only the final answer enclosed in <OUTPUT_TEXT>...</OUTPUT_TEXT>."
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "role": "system",
+    "content": "As a veteran Paralegal And Legal Assistant, you recognize this is a physical task not digitally executable today."
+  },
+  {
+    "role": "user",
+    "content": "No AI output required. Do not generate any response. This prompt is a stub for coverage accounting."
+  }
+]

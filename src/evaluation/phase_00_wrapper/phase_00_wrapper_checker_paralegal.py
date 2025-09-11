@@ -13,7 +13,7 @@ The script scans *.json run-files under runs/openai/one_occ/ by default.
 
 from __future__ import annotations
 import argparse, csv, json, pathlib, re, sys
-from typing import Optional
+from typing import Optional, Tuple
 
 # ── wrapper-tag maps & regexes ─────────────────────────────────────────
 WRAP_TAG = {"TEXT": "OUTPUT_TEXT", "GUI": "OUTPUT_JSON", "VISION": "OUTPUT_JSON"}
@@ -65,7 +65,10 @@ def main() -> None:
             continue
         tag = WRAP_TAG[mod]
 
-        txt = (extract_text(data) or "").strip()
+        raw = extract_text(data) or ""
+        s = raw.replace("\r\n","\n").replace("\r","\n").lstrip("\ufeff")
+        s_trim = s.strip(" \t\n\u200b\u200c\u200d\ufeff")
+        txt = s_trim
         strict   = int(txt.startswith(f"<{tag}>") and txt.endswith(f"</{tag}>"))
         rescued  = int(bool(RESCUE_RE[mod].search(txt)))
         status   = "strict" if strict else "rescued" if rescued else "fail"

@@ -12,9 +12,10 @@ Outputs (created under a date-stamped folder using today's date)
 - data/manifests/YYYYMMDD_v1/
   - manifest_v0.csv        (baseline, unfiltered)
   - manifest_mvp.csv       (filtered MVP slice)
+  - parents_to_decompose.csv  (one column: parent_uid)
 
 Determinism
-- Deterministic; no randomness.
+- Fixed selection seed: 137
 """
 
 from __future__ import annotations
@@ -29,9 +30,10 @@ import numpy as np
 IN_PATH = Path("data/manifests/full/manifest_full.csv")
 
 # Pilot SOCs (hard-coded)
-PILOT_SOCS = ["23-2011.00", "43-4051.00", "13-1031.00"]
+PILOT_SOCS = ["23-2011.00"]
 
-# Deterministic, no randomness (coverage-based selection)
+# Fixed seed for deterministic behavior
+SEED = 137
 
 
 def ensure_columns(df: pd.DataFrame, required: list[str]) -> None:
@@ -83,84 +85,120 @@ def build_manifest_v0(df: pd.DataFrame) -> pd.DataFrame:
     return out
 
 
-def per_soc_mvp_selection(g: pd.DataFrame, coverage_target: float, min_k: int, max_k: int):
-    """Coverage-based selection per SOC.
-
-    Steps:
-    - Drop dupes on (uid,SOC,TaskID)
-    - Coerce importance to numeric
-    - Eligible = importance notna()
-    - Sort by importance desc, uid asc
-    - Smallest prefix reaching target coverage; pad to min_k; cap at max_k
-    Returns: (selected_df, metrics_dict)
-    """
+def per_soc_mvp_selection(g: pd.DataFrame) -> pd.DataFrame:
+    # Work on a copy; g is already filtered to a single SOC
     df = g.copy()
+
+    # Coerce and drop duplicates again locally (safety)
     df["importance"] = coerce_numeric(df["importance"]) if "importance" in df.columns else df.get("importance")
     df = df.drop_duplicates(subset=["uid", "SOC", "TaskID"], keep="first")
 
-    # Eligible rows: non-NaN importance
-    elig = df[df["importance"].notna()].copy()
-    elig["importance"] = elig["importance"].fillna(0.0)
-    # Sorting: importance desc, uid asc
-    elig = elig.sort_values(["importance", "uid"], ascending=[False, True], kind="mergesort")
+    # Exclude NaN from ranking/quartiles
+    df_rankable = df[df["importance"].notna()].copy()
 
-    total_imp = float(elig["importance"].sum()) if len(elig) else 0.0
-    threshold = coverage_target * total_imp
+    # Top-K by importance
+    K = 5
+    topk = (
+        df_rankable.sort_values(["importance", "uid"], ascending=[False, True], kind="mergesort")
+        .head(K)
+    )
 
-    # Take smallest prefix reaching coverage
-    cumsum = elig["importance"].cumsum()
-    if len(elig) and total_imp > 0:
-        idx = int((cumsum >= threshold).idxmax()) if (cumsum >= threshold).any() else elig.index[-1]
-        # Compute position (inclusive) within sorted order
-        pos = elig.index.get_indexer([idx])[0] + 1
-        prefix_n = pos
-    else:
-        prefix_n = 0
+    # Quartile labels (Q1 lowest .. Q4 highest) on rankable subset only
+    # Handle edge case of fewer unique values than bins with duplicates='drop'
+    try:
+        q = pd.qcut(df_rankable["importance"], 4, labels=["Q1", "Q2", "Q3", "Q4"], duplicates="drop")
+        df_rankable = df_rankable.assign(_quartile=q)
+    except ValueError:
+        # Not enough unique values to form quartiles → fall back to single-bin Q4
+        df_rankable = df_rankable.assign(_quartile="Q4")
 
-    n_selected = max(prefix_n, min_k)
-    if max_k is not None:
-        n_selected = min(n_selected, max_k)
+    # Sample N=2 from each quartile without replacement; deterministic
+    samples = []
+    for label in ["Q1", "Q2", "Q3", "Q4"]:
+        qdf = df_rankable[df_rankable["_quartile"].astype(str) == label]
+        if len(qdf) == 0:
+            continue
+        n = min(2, len(qdf))
+        # Use a fixed random_state for determinism
+        s = qdf.sample(n=n, random_state=SEED, replace=False)
+        samples.append(s)
+    sampled = pd.concat(samples, axis=0) if samples else df_rankable.iloc[0:0]
 
-    sel = elig.head(n_selected).copy()
-    selected_imp = float(sel["importance"].sum()) if len(sel) else 0.0
-    achieved = (selected_imp / total_imp) if total_imp > 0 else 0.0
+    # Union sets by uid
+    sel_uids = pd.Index(topk["uid"]).union(sampled["uid"]) if (len(topk) or len(sampled)) else pd.Index([])
+    sel = df[df["uid"].isin(sel_uids)].copy()
 
-    metrics = {
-        "SOC": g["SOC"].iloc[0] if len(g) else None,
-        "eligible_count": int(len(elig)),
-        "selected_count": int(len(sel)),
-        "total_importance": float(total_imp),
-        "selected_importance": float(selected_imp),
-        "achieved_coverage": float(achieved),
-        "capped": bool((max_k is not None) and (len(sel) == max_k) and (achieved < coverage_target)),
-    }
-    return sel, metrics
+    # Stable order per spec:
+    # 1) top-K block first (desc importance, tie uid asc)
+    # 2) quartile samples in order Q4→Q3→Q2→Q1 (desc importance in each, tie uid asc)
+    top_block = (
+        sel[sel["uid"].isin(set(topk["uid"]))]
+        .sort_values(["importance", "uid"], ascending=[False, True], kind="mergesort")
+    )
+
+    # Merge quartile labels onto sel for ordering
+    q_map = df_rankable.set_index("uid")["_quartile"].to_dict()
+    sel["_quartile"] = sel["uid"].map(q_map)
+
+    quartile_blocks = []
+    for label in ["Q4", "Q3", "Q2", "Q1"]:
+        qb = sel[(sel["uid"].isin(set(sampled["uid"])) & sel["_quartile"].astype(str).eq(label))]
+        if len(qb):
+            qb = qb.sort_values(["importance", "uid"], ascending=[False, True], kind="mergesort")
+            quartile_blocks.append(qb)
+
+    ordered = pd.concat([top_block] + quartile_blocks, axis=0) if (len(top_block) or quartile_blocks) else sel.iloc[0:0]
+
+    # De-duplicate by uid while preserving order
+    ordered = ordered.drop_duplicates(subset=["uid"], keep="first")
+    return ordered
 
 
-def build_manifest_mvp(df: pd.DataFrame, coverage_target: float = 0.80, min_k: int = 5, max_k: int = 25):
+def build_manifest_mvp(df: pd.DataFrame) -> pd.DataFrame:
     # Filter to pilot SOCs
     m = df[df["SOC"].isin(PILOT_SOCS)].copy()
+
+    # Optional digitally_amenable gate
+    if "digitally_amenable" in m.columns:
+        m = m[m["digitally_amenable"] == True].copy()
 
     # Coerce importance
     m["importance"] = coerce_numeric(m["importance"]) if "importance" in m.columns else m.get("importance")
 
     # Per-SOC selection and ordering; append in sorted SOC order for determinism
     out_list = []
-    metrics_list = []
     for soc in sorted(m["SOC"].dropna().unique().tolist()):
         g = m[m["SOC"] == soc]
-        sel, met = per_soc_mvp_selection(g, coverage_target=coverage_target, min_k=min_k, max_k=max_k)
+        sel = per_soc_mvp_selection(g)
         out_list.append(sel)
-        metrics_list.append(met)
     out = pd.concat(out_list, axis=0) if out_list else m.iloc[0:0]
 
     # Reorder columns mirroring manifest_v0
     cols = column_order(out)
     out = out.loc[:, cols]
-    return out.reset_index(drop=True), metrics_list
+    return out.reset_index(drop=True)
 
 
-# Removed: parents_to_decompose emission per PROMPT A
+def build_parents_to_decompose(mvp: pd.DataFrame) -> pd.DataFrame:
+    rows = []
+    for soc in sorted(mvp["SOC"].dropna().unique().tolist()):
+        g = mvp[mvp["SOC"] == soc].copy()
+        if len(g) == 0:
+            continue
+        # Top-1 by importance; ties broken by uid asc; NaN go last
+        g = g.copy()
+        g["importance"] = coerce_numeric(g["importance"]) if "importance" in g.columns else g.get("importance")
+        g = g.sort_values(["importance", "uid"], ascending=[False, True], na_position="last", kind="mergesort")
+        best_uid = g["uid"].iloc[0]
+        rows.append({"parent_uid": best_uid, "SOC": soc, "_imp": g["importance"].iloc[0]})
+
+    if not rows:
+        return pd.DataFrame(columns=["parent_uid"])  # empty
+
+    out = pd.DataFrame(rows)
+    # Keep order grouped by SOC (sorted by SOC), then descending importance
+    out = out.sort_values(["SOC", "_imp", "parent_uid"], ascending=[True, False, True], na_position="last", kind="mergesort")
+    return out[["parent_uid"]].reset_index(drop=True)
 
 
 def main() -> None:
@@ -180,33 +218,49 @@ def main() -> None:
     # Build outputs
     out_dir = make_output_dir()
     v0 = build_manifest_v0(df)
-    mvp, metrics_list = build_manifest_mvp(df)
+    mvp = build_manifest_mvp(df)
+    parents = build_parents_to_decompose(mvp)
+
     # Write outputs with deterministic settings
     v0_path = out_dir / "manifest_v0.csv"
     mvp_path = out_dir / "manifest_mvp.csv"
+    parents_path = out_dir / "parents_to_decompose.csv"
 
     v0.to_csv(v0_path, index=False)
     mvp.to_csv(mvp_path, index=False)
+    parents.to_csv(parents_path, index=False)
 
     # Prints (concise summaries)
     print(f"Wrote: {v0_path} rows={len(v0)}")
     print(f"Wrote: {mvp_path} rows={len(mvp)}")
-    # Per-SOC MVP selection summary: eligible count, selected count, coverage stats
-    if metrics_list:
-        # Recompute eligibility after digital gate + non-NaN importance for counts
-        for met in metrics_list:
-            soc = met.get("SOC")
-            eligible_count = met.get("eligible_count", 0)
-            selected_count = met.get("selected_count", 0)
-            total_imp = met.get("total_importance", 0.0)
-            selected_imp = met.get("selected_importance", 0.0)
-            achieved = met.get("achieved_coverage", 0.0)
-            print(
-                f"MVP {soc}: eligible={eligible_count}, selected={selected_count}, "
-                f"coverage={achieved:.3f}, total_imp={total_imp:.6f}, selected_imp={selected_imp:.6f}"
+    print(f"Wrote: {parents_path} rows={len(parents)}")
+
+    # Per-SOC MVP selection summary
+    if len(mvp):
+        # Build quartile labels on the subset with importance notna for summary
+        mvp_imp = mvp[mvp["importance"].notna()].copy()
+        if len(mvp_imp):
+            try:
+                mvp_imp["_quartile"] = pd.qcut(mvp_imp["importance"], 4, labels=["Q1", "Q2", "Q3", "Q4"], duplicates="drop")
+            except ValueError:
+                mvp_imp["_quartile"] = "Q4"
+
+        for soc in sorted(mvp["SOC"].dropna().unique().tolist()):
+            g = mvp[mvp["SOC"] == soc]
+            total = len(g)
+            # Approximate top-K count by comparing to top-K on full group
+            orig_group = df[df["SOC"] == soc].copy()
+            orig_group = orig_group[orig_group["importance"].notna()].copy()
+            topk_ref = (
+                orig_group.sort_values(["importance", "uid"], ascending=[False, True], kind="mergesort").head(5)
             )
-            if met.get("capped"):
-                print(f"Warning: {soc} capped at max_k with coverage {achieved:.3f} < target")
+            topk_count = int(g["uid"].isin(set(topk_ref["uid"])) .sum())
+            q_counts = {q: int(mvp_imp[(mvp_imp["SOC"] == soc) & (mvp_imp["_quartile"].astype(str) == q)]["uid"].nunique()) for q in ["Q1","Q2","Q3","Q4"]}
+            print(f"MVP {soc}: total={total}, topK={topk_count}, quartiles={q_counts}")
+
+        # Parents summary
+        for soc, row in zip(sorted(mvp["SOC"].dropna().unique().tolist()), parents.itertuples(index=False)):
+            print(f"Parent for {soc}: {row.parent_uid}")
 
 
 if __name__ == "__main__":

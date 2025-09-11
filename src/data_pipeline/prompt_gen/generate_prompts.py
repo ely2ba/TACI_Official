@@ -7,7 +7,7 @@ raise wrapper-tag compliance to ≈ 98 %+ on GPT-4-class models.
 """
 
 from __future__ import annotations
-import json, textwrap, pathlib, html
+import json, textwrap, pathlib, html, os
 import pandas as pd
 
 # ── paths & config ─────────────────────────────────────────
@@ -28,6 +28,24 @@ TEXT_START, TEXT_END   = "<OUTPUT_TEXT>",  "</OUTPUT_TEXT>"
 JSON_START, JSON_END   = "<OUTPUT_JSON>",  "</OUTPUT_JSON>"
 
 selectors_for = lambda arc: SELECTOR_MAP.get(arc, [])
+
+# Skip log helper
+SKIP_LOG = pathlib.Path("outputs/prompts/skip_log.csv")
+def log_skip(uid: str, occ: str, task: str, reason: str, archetype: str = "") -> None:
+    SKIP_LOG.parent.mkdir(parents=True, exist_ok=True)
+    header_needed = not SKIP_LOG.exists()
+    with open(SKIP_LOG, "a", encoding="utf-8", newline="\n") as f:
+        if header_needed:
+            f.write("uid,occupation,reason,archetype,task\n")
+        safe_task = (task or "").replace("\n"," ").replace("\r"," ")
+        f.write(f"{uid},{occ},{reason},{archetype},{safe_task}\n")
+
+def get_task_text(row: dict) -> str:
+    for k in ["Task","task_statement","TaskText","task_text","TaskDescription","task_desc"]:
+        v = (row.get(k, "") or "").strip()
+        if v:
+            return html.escape(v)
+    return ""
 
 # ── helper to insert format spec ───────────────────────────
 def fmt_block(tag: str) -> str:
@@ -76,13 +94,15 @@ Return a JSON array wrapped in {JSON_START}…{JSON_END}.
 Each action: {{'action':'click|type|select|wait','selector':'CSS','text':''}}"""
     elif v == 1:
         exsel = sels[0] if sels else "#selector"
-        example = f"[{{'action':'click','selector':'{exsel}','text':''}}]"
+        example = json.dumps([
+            {"action":"click","selector":exsel,"text":""}
+        ], ensure_ascii=False)
         user = f"""{fmt}
 
 {head}
 
 Example:
-{JSON_START}{example}{JSON_END}
+{example}
 
 Now produce your own JSON array."""
     else:
@@ -121,10 +141,10 @@ Return only:
 TASK – {task_html}
 
 Positive example:
-{JSON_START}{{"finding":"fracture","image_id":"img_001","bbox":[30,60,120,210],"explanation":"visible break"}}{JSON_END}
+{{"finding":"fracture","image_id":"img_001","bbox":[30,60,120,210],"explanation":"visible break"}}
 
 Negative example:
-{JSON_START}{{"finding":"normal","image_id":null,"bbox":null,"explanation":""}}{JSON_END}
+{{"finding":"normal","image_id":null,"bbox":null,"explanation":""}}
 
 Now respond using the same schema."""
     else:
@@ -148,11 +168,21 @@ def main():
     df = pd.read_csv(MANIFEST, dtype=str).fillna("")
     total = 0
     for _, row in df.iterrows():
-        uid, occ = row["uid"], row["OccTitleClean"]
-        task_html = html.escape(row["Task"])
-        modality  = row["modality"].strip().upper()
+        uid, occ = row.get("uid",""), row.get("OccTitleClean","")
+        task_html = get_task_text(row)
+        modality  = (row.get("modality","" ).strip().upper())
+        arc       = row.get("ui_archetype", "")
+        if not task_html:
+            log_skip(uid, occ, "(empty)", reason="empty_task_text", archetype=arc)
+            continue
+        if modality == "MANUAL":
+            log_skip(uid, occ, task_html, reason="manual_stub", archetype=arc)
+            continue
         arc       = row.get("ui_archetype", "")
         sels      = selectors_for(arc) if modality == "GUI" else []
+        if modality == "GUI" and len(sels) == 0:
+            log_skip(uid, occ, task_html, reason="no_selectors", archetype=arc)
+            continue
 
         for v in (0, 1, 2):
             if modality == "TEXT":
@@ -161,8 +191,9 @@ def main():
                 sys, usr = make_gui_prompt(occ, task_html, v, sels)
             elif modality == "VISION":
                 sys, usr = make_vis_prompt(occ, task_html, v)
-            else:  # MANUAL
-                sys, usr = make_manual_prompt(occ)
+            else:
+                # MANUAL already skipped
+                continue
 
             out = PROMPT_ROOT / modality.lower() / f"{uid}_v{v}.json"
             out.write_text(json.dumps(
