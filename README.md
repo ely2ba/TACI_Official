@@ -1,7 +1,7 @@
 
 ---
 
-# TACI (Task-AI Capability Index) — MVP v0.4 (WORK IN PROGRESS)
+# TACI (Task-AI Capability Index) — MVP v0.5 (WORK IN PROGRESS)
 
 A reproducible research pipeline to measure model capability on real occupational tasks derived from O\*NET.
 This MVP focuses on a **comprehensive manifest** for pilot SOCs, phase-gated validation, and publication-grade provenance.
@@ -36,11 +36,11 @@ Install and prepare:
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm  # optional; improves title cleaning
 
-# Minimal env (MODEL_NAME is optional; OPENAI_API_KEY optional for offline mode)
+# Minimal env
 export ONET_VERSION="30.0"
-export MODEL_NAME="gpt-4.1-mini-2025-04-14"   # default in code
-# export OPENAI_API_KEY="..."                  # omit => offline labeling
-# export OFFLINE_GRADER=1                      # force offline voting if desired
+export MODEL_NAME="gpt-5"                     # default in code
+# export OPENAI_API_KEY="..."                  # required for online modality voting
+# export OFFLINE_GRADER=1                      # force offline voting (labels=UNLABELED)
 ```
 
 Build the manifest (pilot SOCs only):
@@ -49,7 +49,7 @@ Build the manifest (pilot SOCs only):
 python src/data_pipeline/sampling/sample_tasks.py
 ```
 
-Artifacts are written to `data/manifests/` (CSV + SHA256 + meta JSON, and optional edge views).
+Artifacts are written under `data/manifests/full/` (CSV + SHA256 + meta JSON). Optional edge views in `outputs/edges/`.
 
 ---
 
@@ -69,10 +69,15 @@ TACI/
 ├── data/
 │   ├── onet_raw/                   # Place O*NET TXT files here (see §3)
 │   ├── manifests/
-│   │   ├── sampled_tasks_comprehensive.csv
-│   │   ├── sampled_tasks_comprehensive.csv.sha256
-│   │   ├── sampled_tasks_comprehensive.meta.json
-│   │   └── modality_cache_comprehensive.json     # voting cache (auto)
+│   │   ├── full/
+│   │   │   ├── manifest_full.csv
+│   │   │   ├── manifest_full.csv.sha256
+│   │   │   ├── manifest_full.meta.json
+│   │   │   └── modality_cache_full.json          # voting cache (auto)
+│   │   └── YYYYMMDD_v1/
+│   │       ├── manifest_v0.csv                  # baseline slice (unfiltered)
+│   │       ├── manifest_mvp.csv                 # MVP slice (selection)
+│   │       └── parents_to_decompose.csv         # (when enabled)
 │   └── panel/                      # Downstream aggregation outputs (Phase 4+)
 │
 ├── outputs/
@@ -80,17 +85,20 @@ TACI/
 │   └── results/                    # Phase outputs (00–04) and master tables
 │
 ├── prompts/
-│   ├── text/   # generated prompts
-│   ├── gui/
-│   ├── vision/
-│   └── manual/
+│   └── one_occ/
+│       ├── text/           # generated prompts (v0–v2) + .meta.json + .sha256
+│       ├── gui/
+│       ├── vision/
+│       ├── manual/
+│       └── inconclusive/
 │
 ├── src/
 │   ├── data_pipeline/
 │   │   ├── sampling/
 │   │   │   └── sample_tasks.py     # builds comprehensive manifest (this MVP’s core)
 │   │   └── prompt_gen/
-│   │       └── generate_prompts.py # consumes manifest → prompts/* (per modality)
+│   │       ├── prompts_one_occ.py  # consumes latest dated manifest → prompts/one_occ/*
+│   │       └── generate_prompts.py # legacy generator (multi-occupation)
 │   │
 │   ├── evaluation/                 # Phase gates (00–04)
 │   │   ├── phase_00_wrapper/
@@ -144,7 +152,7 @@ Place the following under `data/onet_raw/` (TXT format preferred; the loader wil
 
 ## 4) Building the Comprehensive Manifest
 
-**Pilot SOCs (fixed in code):**
+**Pilot SOCs (fixed in code for the comprehensive build):**
 
 * `23-2011.00` — Paralegals and Legal Assistants (TEXT-leaning)
 * `43-4051.00` — Customer Service Representatives (GUI-leaning)
@@ -152,8 +160,8 @@ Place the following under `data/onet_raw/` (TXT format preferred; the loader wil
 
 Environment knobs:
 
-* `MODEL_NAME` (default: `gpt-4.1-mini-2025-04-14`)
-* `OPENAI_API_KEY` (omit ⇒ offline labeling)
+* `MODEL_NAME` (default: `gpt-5`)
+* `OPENAI_API_KEY` (required for online labeling)
 * `OFFLINE_GRADER` (truthy ⇒ force offline)
 * `ONET_VERSION` (string recorded in outputs)
 * `TITLES_LIMIT` (default 50; caps alt/sample titles stored per SOC)
@@ -164,15 +172,18 @@ Run:
 ```bash
 python src/data_pipeline/sampling/sample_tasks.py
 ```
+Notes:
+- Modality voting uses GPT‑5 via the Responses API with `reasoning.effort=medium`, `text.verbosity=low`, and `max_output_tokens=1000`.
+- Seeds/temperature are not sent to reasoning models.
 
 ---
 
 ## 5) Manifest Outputs & Provenance
 
-* `data/manifests/sampled_tasks_comprehensive.csv` — **single-file source of truth**
-* `data/manifests/sampled_tasks_comprehensive.csv.sha256` — atomic write + integrity hash
-* `data/manifests/sampled_tasks_comprehensive.meta.json` — generation metadata
-* `data/manifests/modality_cache_comprehensive.json` — vote cache (idempotence)
+* `data/manifests/full/manifest_full.csv` — **single-file source of truth**
+* `data/manifests/full/manifest_full.csv.sha256` — atomic write + integrity hash
+* `data/manifests/full/manifest_full.meta.json` — generation metadata
+* `data/manifests/full/modality_cache_full.json` — vote cache (idempotence)
 * Optional edge views (if `EMIT_EDGE_VIEWS=1`):
 
   * `outputs/edges/task_dwa.csv`, `task_iwa.csv`, `task_gwa.csv`
@@ -291,19 +302,21 @@ Provenance fields (also embedded as columns in the CSV):
 
 ## 7) Prompt Generation & Evaluation Phases (v0.4)
 
-**Prompt Generation**
+**Prompt Generation (one occupation, dated manifest)**
 
 ```bash
-python src/data_pipeline/prompt_gen/generate_prompts.py \
-  --manifest data/manifests/sampled_tasks_comprehensive.csv \
-  --outdir prompts/
+python src/data_pipeline/prompt_gen/prompts_one_occ.py
 ```
 
-* Uses `modality` to route to `prompts/text|gui|vision|manual/` and attaches archetype-specific extras in later stages (selectors/images/stubs).
+* Auto-discovers the latest dated manifest at `data/manifests/YYYYMMDD_v1/manifest_v0.csv`.
+* Uses `modality` to route output into `prompts/one_occ/text|gui|vision|manual|inconclusive/`.
+* Prompts are strictly formatted: exactly one wrapper block and valid JSON schemas.
+* Sidecars per prompt: `.meta.json` (stop sequences, selectors/labels, hash, length) and `.sha256` (exact file hash).
+* GUI selectors and VISION images are attached later by the batch runners — this step does not skip when missing.
 
 **Evaluation Phases (00–04)**
 
-* **Phase 00 — Wrapper**: strict formatting checks per provider (reject malformed JSON/fields).
+* **Phase 00 — Wrapper**: strict formatting checks, tolerant to outer whitespace (BOM/zero-width/CRLF trimmed). Adds diagnostics CSV: `wrapper_phase0_gating.csv`.
 * **Phase 01 — Schema**: JSON schema compliance; IoU scoring for vision where applicable.
 * **Phase 02 — Safety**: content moderation thresholds (configurable).
 * **Phase 03 — Rubric**: task-specific rubric grading with 3-vote self-consistency (deterministic seeds).
@@ -315,7 +328,7 @@ python src/data_pipeline/prompt_gen/generate_prompts.py \
 
 ## 8) Reproducibility, Caching & Determinism
 
-* **Deterministic seeds**: RNG seeded (Python/NumPy), vote seeds = `1..V` (default V=3).
+* **Deterministic seeds**: RNG seeded (Python/NumPy); for GPT‑5 reasoning models we do not send temperature/seed to the API. Vote seeds remain documented for provenance.
 * **Atomic writes**: CSV + `.sha256` hash; meta JSON captures exact fingerprinting.
 * **LLM drift guard**: `modality_prompt_md5` and `code_fingerprint` (MD5 of script) embedded.
 * **Idempotent voting**: `modality_cache_comprehensive.json` keyed by `(uid:model:prompt_md5:ONET_VERSION:code_fp)`.
@@ -366,4 +379,3 @@ If you use TACI in academic or policy work, please cite the repository and the w
 License: see `LICENSE`.
 
 ---
-
