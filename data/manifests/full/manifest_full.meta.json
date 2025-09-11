@@ -1,8 +1,8 @@
 {
   "manifest_path": "data/manifests/full/manifest_full.csv",
-  "rows": 56,
+  "rows": 12,
   "schema_version": "tlc_manifest_schema_v0.4",
-  "manifest_version": "20250910-v1",
+  "manifest_version": "20250911-v1",
   "onetsrc_version": "30.0",
   "unspsc_rollup_level": "FAMILY",
   "unspsc_entropy_unit": "bits",
@@ -27,7 +27,15 @@
     "Work Activities.txt",
     "Work Context.txt"
   ],
-  "code_fingerprint": "76ad5fcb",
-  "generated_utc": "2025-09-10T17:58:25+00:00",
-  "csv_sha256": "5fdf0868a03d2f9f9d3860f8d57775bfde6ef7f77c960ddfc363153bdf1e1700"
+  "model_name": "gpt-4.1-mini-2025-04-14",
+  "votes_per_task": 3,
+  "vote_seeds": [
+    1,
+    2,
+    3
+  ],
+  "prompt_md5": "cdfc2b20a631beaa5b557a9a248a0a37",
+  "code_fingerprint": "92640440",
+  "generated_utc": "2025-09-11T14:13:35+00:00",
+  "csv_sha256": "7297f1d7e30738c3e0ce21769210624bec25941c0e671045f252c39c77d2933e"
 }
