@@ -1,7 +1,7 @@
 
 ---
 
-# TACI (Task-AI Capability Index) — MVP v0.4
+# TACI (Task-AI Capability Index) — MVP v0.4 (WORK IN PROGRESS)
 
 A reproducible research pipeline to measure model capability on real occupational tasks derived from O\*NET.
 This MVP focuses on a **comprehensive manifest** for pilot SOCs, phase-gated validation, and publication-grade provenance.
