@@ -215,7 +215,7 @@ def chat_complete(client, **kw):
         "input": messages if messages is not None else kw.get("input"),
         "reasoning": {"effort": "medium"},
         "text": {"verbosity": "low"},
-        "max_output_tokens": 16,
+        "max_output_tokens": 1000,
     }
     return client.responses.create(**payload)
 

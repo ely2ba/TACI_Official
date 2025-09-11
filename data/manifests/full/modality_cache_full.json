@@ -178,5 +178,65 @@
     "REVIEW",
     "REVIEW",
     "REVIEW"
+  ],
+  "0708055337ce:gpt-5:cdfc2b20:30.0:7a7d4523": [
+    "GUI",
+    "GUI",
+    "GUI"
+  ],
+  "3a55f5ca0fa9:gpt-5:cdfc2b20:30.0:7a7d4523": [
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "3db6d320b232:gpt-5:cdfc2b20:30.0:7a7d4523": [
+    "GUI",
+    "GUI",
+    "GUI"
+  ],
+  "dc35566b3c16:gpt-5:cdfc2b20:30.0:7a7d4523": [
+    "MANUAL",
+    "INCONCLUSIVE",
+    "MANUAL"
+  ],
+  "93eea469ed1a:gpt-5:cdfc2b20:30.0:7a7d4523": [
+    "TEXT",
+    "TEXT",
+    "MANUAL"
+  ],
+  "9cebf9025932:gpt-5:cdfc2b20:30.0:7a7d4523": [
+    "GUI",
+    "GUI",
+    "TEXT"
+  ],
+  "2e2364b781c0:gpt-5:cdfc2b20:30.0:7a7d4523": [
+    "INCONCLUSIVE",
+    "GUI",
+    "INCONCLUSIVE"
+  ],
+  "db852c6edb22:gpt-5:cdfc2b20:30.0:7a7d4523": [
+    "MANUAL",
+    "MANUAL",
+    "MANUAL"
+  ],
+  "d0cae5495d0f:gpt-5:cdfc2b20:30.0:7a7d4523": [
+    "MANUAL",
+    "INCONCLUSIVE",
+    "TEXT"
+  ],
+  "8b2ab848b21d:gpt-5:cdfc2b20:30.0:7a7d4523": [
+    "TEXT",
+    "TEXT",
+    "TEXT"
+  ],
+  "7dda7be500c7:gpt-5:cdfc2b20:30.0:7a7d4523": [
+    "MANUAL",
+    "MANUAL",
+    "MANUAL"
+  ],
+  "3dfcc5c38672:gpt-5:cdfc2b20:30.0:7a7d4523": [
+    "MANUAL",
+    "MANUAL",
+    "MANUAL"
   ]
 }
