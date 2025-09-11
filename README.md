@@ -1,4 +1,3 @@
-Here’s a clean, meticulous replacement README that matches the **current TACI architecture** and your **preferred skeleton** (as reflected in the new `sample_tasks.py` and the gameplan). It’s written to be copy-paste ready.
 
 ---
 
